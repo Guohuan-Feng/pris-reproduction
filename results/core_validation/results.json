@@ -1,0 +1,1330 @@
+{
+  "periodic_geometry_cases_passed": 7,
+  "upstream_source_modified": false,
+  "source_commit": "34e6c86c083759dc1ee594ae22238ea9b5ebd8f4",
+  "same_NaCl_geometry": {
+    "conventional": {
+      "verdict": "plausible",
+      "law7": {
+        "name": "Law 7",
+        "quantity": "inequivalent sites / sites",
+        "statement": "inequivalent sites / sites <= 2/3",
+        "mechanism": "crystallographic site complexity",
+        "state": "pass",
+        "value": 0.25,
+        "threshold": 0.6666666666666666,
+        "sets": [
+          "Set 4"
+        ]
+      },
+      "pss": -1.7875818201477047
+    },
+    "primitive": {
+      "verdict": "implausible",
+      "law7": {
+        "name": "Law 7",
+        "quantity": "inequivalent sites / sites",
+        "statement": "inequivalent sites / sites <= 2/3",
+        "mechanism": "crystallographic site complexity",
+        "state": "fail",
+        "value": 1.0,
+        "threshold": 0.6666666666666666,
+        "sets": [
+          "Set 4"
+        ]
+      },
+      "pss": -1.9054224566417592
+    },
+    "primitive_2x2x2": {
+      "verdict": "plausible",
+      "law7": {
+        "name": "Law 7",
+        "quantity": "inequivalent sites / sites",
+        "statement": "inequivalent sites / sites <= 2/3",
+        "mechanism": "crystallographic site complexity",
+        "state": "pass",
+        "value": 0.125,
+        "threshold": 0.6666666666666666,
+        "sets": [
+          "Set 4"
+        ]
+      },
+      "pss": -1.6632899913653139
+    }
+  },
+  "results": [
+    {
+      "name": "NaCl_conventional",
+      "synthetic_control": true,
+      "expected_min_distance_A": 2.82,
+      "brute_force_min_distance_A": 2.82,
+      "neighbor_min_distance_A": 2.8199999999999994,
+      "elapsed_seconds": 1.1554403000045568,
+      "analysis": {
+        "file": "NaCl_conventional.cif",
+        "formula": "NaCl",
+        "n_sites": 8,
+        "charges": "integer charge balancing",
+        "ionic_character": 0.7115475428918885,
+        "laws": {
+          "1": {
+            "name": "Law 1",
+            "quantity": "reduced contact rho",
+            "statement": "rho >= tau",
+            "mechanism": "short-range repulsion",
+            "state": "pass",
+            "value": 0.9964664310954062,
+            "threshold": 0.804,
+            "sets": [
+              "Set 1",
+              "Set 1'",
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "2": {
+            "name": "Law 2",
+            "quantity": "reduced contact rho",
+            "statement": "f_i > 0.50  =>  rho <= 1.05",
+            "mechanism": "ionic contact",
+            "state": "pass",
+            "value": 0.9964664310954062,
+            "threshold": 1.05,
+            "sets": [
+              "Set 1'"
+            ]
+          },
+          "3": {
+            "name": "Law 3",
+            "quantity": "mean reduced cation-anion contact",
+            "statement": "mean anion CN <= 3.333  =>  mean d/(r+ + r-) <= 1.081",
+            "mechanism": "packing",
+            "state": "not triggered",
+            "value": 6.0,
+            "threshold": 1.081,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "4": {
+            "name": "Law 4",
+            "quantity": "range of site Madelung energy / valence",
+            "statement": "range_i of V_M(i)/v_i <= 31.45 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 8.881784197001252e-16,
+            "threshold": 31.45,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "5": {
+            "name": "Law 5",
+            "quantity": "largest site Madelung energy",
+            "statement": "max_i V_M(i) <= 15.17 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": -4.461757197928619,
+            "threshold": 15.17,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "6": {
+            "name": "Law 6",
+            "quantity": "fraction of like-charge bonds",
+            "statement": "f_i > 0.55  =>  no like-charge bonds",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 0.0,
+            "threshold": 0.0001,
+            "sets": [
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "7": {
+            "name": "Law 7",
+            "quantity": "inequivalent sites / sites",
+            "statement": "inequivalent sites / sites <= 2/3",
+            "mechanism": "crystallographic site complexity",
+            "state": "pass",
+            "value": 0.25,
+            "threshold": 0.6666666666666666,
+            "sets": [
+              "Set 4"
+            ]
+          },
+          "8": {
+            "name": "Law 8",
+            "quantity": "mean |BV sum - v_i| / v_i",
+            "statement": "mean of |BV sum - v_i|/v_i <= 0.7143",
+            "mechanism": "bond-valence conservation",
+            "state": "pass",
+            "value": 0.018871011765466905,
+            "threshold": 0.7143,
+            "sets": [
+              "Set 4"
+            ]
+          }
+        },
+        "sets": {
+          "Set 1": {
+            "model": "hard-sphere contact floor",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 1'": {
+            "model": "two-sided contact window",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 2": {
+            "model": "rigid-ion lattice",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 3": {
+            "model": "ionic network",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 4": {
+            "model": "crystal chemistry",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          }
+        },
+        "pss": -1.7875818201477047,
+        "pss_terms": [
+          {
+            "term": "madz_mean",
+            "raw": -4.46175719792862,
+            "standardised": 1.9472930317687667,
+            "weight": -1.2392289029845764,
+            "contribution": -2.413141807548319,
+            "imputed": false
+          },
+          {
+            "term": "wyckoff_econ_001",
+            "raw": 0.25,
+            "standardised": -0.794910157804403,
+            "weight": -0.8404348959814586,
+            "contribution": 0.6680702357889483,
+            "imputed": false
+          },
+          {
+            "term": "bv_rel_mean",
+            "raw": 0.018871011765466905,
+            "standardised": -0.7659754165255294,
+            "weight": -1.1782127479482547,
+            "contribution": 0.902482000365353,
+            "imputed": false
+          },
+          {
+            "term": "vol_per_atom",
+            "raw": 22.425767999999994,
+            "standardised": 0.1736098113796098,
+            "weight": -4.903580203915573,
+            "contribution": -0.8513096342865711,
+            "imputed": false
+          },
+          {
+            "term": "poly_deg_max",
+            "raw": 3.0,
+            "standardised": -0.45275046653505885,
+            "weight": -0.22037834252664987,
+            "contribution": 0.09977639739316373,
+            "imputed": false
+          },
+          {
+            "term": "frac_isolated",
+            "raw": 0.0,
+            "standardised": -0.32890495943225473,
+            "weight": 0.5881912276246081,
+            "contribution": -0.19345901186027983,
+            "imputed": false
+          }
+        ],
+        "verdict": "plausible"
+      }
+    },
+    {
+      "name": "NaCl_primitive",
+      "synthetic_control": true,
+      "expected_min_distance_A": 2.82,
+      "brute_force_min_distance_A": 2.82,
+      "neighbor_min_distance_A": 2.8199999999999994,
+      "elapsed_seconds": 0.039398099994286895,
+      "analysis": {
+        "file": "NaCl_primitive.cif",
+        "formula": "NaCl",
+        "n_sites": 2,
+        "charges": "integer charge balancing",
+        "ionic_character": 0.7115475428918885,
+        "laws": {
+          "1": {
+            "name": "Law 1",
+            "quantity": "reduced contact rho",
+            "statement": "rho >= tau",
+            "mechanism": "short-range repulsion",
+            "state": "pass",
+            "value": 0.9964664321218034,
+            "threshold": 0.804,
+            "sets": [
+              "Set 1",
+              "Set 1'",
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "2": {
+            "name": "Law 2",
+            "quantity": "reduced contact rho",
+            "statement": "f_i > 0.50  =>  rho <= 1.05",
+            "mechanism": "ionic contact",
+            "state": "pass",
+            "value": 0.9964664321218034,
+            "threshold": 1.05,
+            "sets": [
+              "Set 1'"
+            ]
+          },
+          "3": {
+            "name": "Law 3",
+            "quantity": "mean reduced cation-anion contact",
+            "statement": "mean anion CN <= 3.333  =>  mean d/(r+ + r-) <= 1.081",
+            "mechanism": "packing",
+            "state": "not triggered",
+            "value": 6.0,
+            "threshold": 1.081,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "4": {
+            "name": "Law 4",
+            "quantity": "range of site Madelung energy / valence",
+            "statement": "range_i of V_M(i)/v_i <= 31.45 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 8.881784197001252e-16,
+            "threshold": 31.45,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "5": {
+            "name": "Law 5",
+            "quantity": "largest site Madelung energy",
+            "statement": "max_i V_M(i) <= 15.17 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": -4.461757193332203,
+            "threshold": 15.17,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "6": {
+            "name": "Law 6",
+            "quantity": "fraction of like-charge bonds",
+            "statement": "f_i > 0.55  =>  no like-charge bonds",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 0.0,
+            "threshold": 0.0001,
+            "sets": [
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "7": {
+            "name": "Law 7",
+            "quantity": "inequivalent sites / sites",
+            "statement": "inequivalent sites / sites <= 2/3",
+            "mechanism": "crystallographic site complexity",
+            "state": "fail",
+            "value": 1.0,
+            "threshold": 0.6666666666666666,
+            "sets": [
+              "Set 4"
+            ]
+          },
+          "8": {
+            "name": "Law 8",
+            "quantity": "mean |BV sum - v_i| / v_i",
+            "statement": "mean of |BV sum - v_i|/v_i <= 0.7143",
+            "mechanism": "bond-valence conservation",
+            "state": "pass",
+            "value": 0.018871019467871286,
+            "threshold": 0.7143,
+            "sets": [
+              "Set 4"
+            ]
+          }
+        },
+        "sets": {
+          "Set 1": {
+            "model": "hard-sphere contact floor",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 1'": {
+            "model": "two-sided contact window",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 2": {
+            "model": "rigid-ion lattice",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 3": {
+            "model": "ionic network",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 4": {
+            "model": "crystal chemistry",
+            "verdict": "implausible",
+            "unsatisfied": [
+              "Law 7"
+            ],
+            "unavailable": []
+          }
+        },
+        "pss": -1.9054224566417592,
+        "pss_terms": [
+          {
+            "term": "madz_mean",
+            "raw": -4.461757193332204,
+            "standardised": 1.9472930329628835,
+            "weight": -1.2392289029845764,
+            "contribution": -2.4131418090281027,
+            "imputed": false
+          },
+          {
+            "term": "wyckoff_econ_001",
+            "raw": 1.0,
+            "standardised": 2.001218121302985,
+            "weight": -0.8404348959814586,
+            "contribution": -1.6818935436134843,
+            "imputed": false
+          },
+          {
+            "term": "bv_rel_mean",
+            "raw": 0.018871019467871286,
+            "standardised": -0.7659753695548182,
+            "weight": -1.1782127479482547,
+            "contribution": 0.9024819450238623,
+            "imputed": false
+          },
+          {
+            "term": "vol_per_atom",
+            "raw": 22.42576806929811,
+            "standardised": 0.17360981429878528,
+            "weight": -4.903580203915573,
+            "contribution": -0.8513096486009822,
+            "imputed": false
+          },
+          {
+            "term": "poly_deg_max",
+            "raw": 0.0,
+            "standardised": -1.3626702441585588,
+            "weight": -0.22037834252664987,
+            "contribution": 0.30030300981804847,
+            "imputed": false
+          },
+          {
+            "term": "frac_isolated",
+            "raw": 1.0,
+            "standardised": 3.1250680109293034,
+            "weight": 0.5881912276246081,
+            "contribution": 1.8381375897588992,
+            "imputed": false
+          }
+        ],
+        "verdict": "implausible",
+        "mechanisms_to_review": [
+          "crystallographic site complexity"
+        ]
+      }
+    },
+    {
+      "name": "NaCl_conventional_shifted",
+      "synthetic_control": true,
+      "expected_min_distance_A": 2.82,
+      "brute_force_min_distance_A": 2.8199999999999994,
+      "neighbor_min_distance_A": 2.819999999999999,
+      "elapsed_seconds": 0.09827940000104718,
+      "analysis": {
+        "file": "NaCl_conventional_shifted.cif",
+        "formula": "NaCl",
+        "n_sites": 8,
+        "charges": "integer charge balancing",
+        "ionic_character": 0.7115475428918885,
+        "laws": {
+          "1": {
+            "name": "Law 1",
+            "quantity": "reduced contact rho",
+            "statement": "rho >= tau",
+            "mechanism": "short-range repulsion",
+            "state": "pass",
+            "value": 0.9964664310954061,
+            "threshold": 0.804,
+            "sets": [
+              "Set 1",
+              "Set 1'",
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "2": {
+            "name": "Law 2",
+            "quantity": "reduced contact rho",
+            "statement": "f_i > 0.50  =>  rho <= 1.05",
+            "mechanism": "ionic contact",
+            "state": "pass",
+            "value": 0.9964664310954061,
+            "threshold": 1.05,
+            "sets": [
+              "Set 1'"
+            ]
+          },
+          "3": {
+            "name": "Law 3",
+            "quantity": "mean reduced cation-anion contact",
+            "statement": "mean anion CN <= 3.333  =>  mean d/(r+ + r-) <= 1.081",
+            "mechanism": "packing",
+            "state": "not triggered",
+            "value": 6.0,
+            "threshold": 1.081,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "4": {
+            "name": "Law 4",
+            "quantity": "range of site Madelung energy / valence",
+            "statement": "range_i of V_M(i)/v_i <= 31.45 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 8.881784197001252e-16,
+            "threshold": 31.45,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "5": {
+            "name": "Law 5",
+            "quantity": "largest site Madelung energy",
+            "statement": "max_i V_M(i) <= 15.17 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": -4.461757197928618,
+            "threshold": 15.17,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "6": {
+            "name": "Law 6",
+            "quantity": "fraction of like-charge bonds",
+            "statement": "f_i > 0.55  =>  no like-charge bonds",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 0.0,
+            "threshold": 0.0001,
+            "sets": [
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "7": {
+            "name": "Law 7",
+            "quantity": "inequivalent sites / sites",
+            "statement": "inequivalent sites / sites <= 2/3",
+            "mechanism": "crystallographic site complexity",
+            "state": "pass",
+            "value": 0.25,
+            "threshold": 0.6666666666666666,
+            "sets": [
+              "Set 4"
+            ]
+          },
+          "8": {
+            "name": "Law 8",
+            "quantity": "mean |BV sum - v_i| / v_i",
+            "statement": "mean of |BV sum - v_i|/v_i <= 0.7143",
+            "mechanism": "bond-valence conservation",
+            "state": "pass",
+            "value": 0.018871011765466794,
+            "threshold": 0.7143,
+            "sets": [
+              "Set 4"
+            ]
+          }
+        },
+        "sets": {
+          "Set 1": {
+            "model": "hard-sphere contact floor",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 1'": {
+            "model": "two-sided contact window",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 2": {
+            "model": "rigid-ion lattice",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 3": {
+            "model": "ionic network",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 4": {
+            "model": "crystal chemistry",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          }
+        },
+        "pss": -1.7875818201477045,
+        "pss_terms": [
+          {
+            "term": "madz_mean",
+            "raw": -4.461757197928618,
+            "standardised": 1.9472930317687671,
+            "weight": -1.2392289029845764,
+            "contribution": -2.4131418075483193,
+            "imputed": false
+          },
+          {
+            "term": "wyckoff_econ_001",
+            "raw": 0.25,
+            "standardised": -0.794910157804403,
+            "weight": -0.8404348959814586,
+            "contribution": 0.6680702357889483,
+            "imputed": false
+          },
+          {
+            "term": "bv_rel_mean",
+            "raw": 0.018871011765466794,
+            "standardised": -0.76597541652553,
+            "weight": -1.1782127479482547,
+            "contribution": 0.9024820003653538,
+            "imputed": false
+          },
+          {
+            "term": "vol_per_atom",
+            "raw": 22.425767999999994,
+            "standardised": 0.1736098113796098,
+            "weight": -4.903580203915573,
+            "contribution": -0.8513096342865711,
+            "imputed": false
+          },
+          {
+            "term": "poly_deg_max",
+            "raw": 3.0,
+            "standardised": -0.45275046653505885,
+            "weight": -0.22037834252664987,
+            "contribution": 0.09977639739316373,
+            "imputed": false
+          },
+          {
+            "term": "frac_isolated",
+            "raw": 0.0,
+            "standardised": -0.32890495943225473,
+            "weight": 0.5881912276246081,
+            "contribution": -0.19345901186027983,
+            "imputed": false
+          }
+        ],
+        "verdict": "plausible"
+      }
+    },
+    {
+      "name": "NaCl_primitive_2x2x2",
+      "synthetic_control": true,
+      "expected_min_distance_A": 2.82,
+      "brute_force_min_distance_A": 2.819999999999999,
+      "neighbor_min_distance_A": 2.819999999999997,
+      "elapsed_seconds": 0.18369009999150876,
+      "analysis": {
+        "file": "NaCl_primitive_2x2x2.cif",
+        "formula": "NaCl",
+        "n_sites": 16,
+        "charges": "integer charge balancing",
+        "ionic_character": 0.7115475428918885,
+        "laws": {
+          "1": {
+            "name": "Law 1",
+            "quantity": "reduced contact rho",
+            "statement": "rho >= tau",
+            "mechanism": "short-range repulsion",
+            "state": "pass",
+            "value": 0.9964664308724983,
+            "threshold": 0.804,
+            "sets": [
+              "Set 1",
+              "Set 1'",
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "2": {
+            "name": "Law 2",
+            "quantity": "reduced contact rho",
+            "statement": "f_i > 0.50  =>  rho <= 1.05",
+            "mechanism": "ionic contact",
+            "state": "pass",
+            "value": 0.9964664308724983,
+            "threshold": 1.05,
+            "sets": [
+              "Set 1'"
+            ]
+          },
+          "3": {
+            "name": "Law 3",
+            "quantity": "mean reduced cation-anion contact",
+            "statement": "mean anion CN <= 3.333  =>  mean d/(r+ + r-) <= 1.081",
+            "mechanism": "packing",
+            "state": "not triggered",
+            "value": 6.0,
+            "threshold": 1.081,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "4": {
+            "name": "Law 4",
+            "quantity": "range of site Madelung energy / valence",
+            "statement": "range_i of V_M(i)/v_i <= 31.45 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 5.329070518200751e-15,
+            "threshold": 31.45,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "5": {
+            "name": "Law 5",
+            "quantity": "largest site Madelung energy",
+            "statement": "max_i V_M(i) <= 15.17 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": -4.4617571989255875,
+            "threshold": 15.17,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "6": {
+            "name": "Law 6",
+            "quantity": "fraction of like-charge bonds",
+            "statement": "f_i > 0.55  =>  no like-charge bonds",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 0.0,
+            "threshold": 0.0001,
+            "sets": [
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "7": {
+            "name": "Law 7",
+            "quantity": "inequivalent sites / sites",
+            "statement": "inequivalent sites / sites <= 2/3",
+            "mechanism": "crystallographic site complexity",
+            "state": "pass",
+            "value": 0.125,
+            "threshold": 0.6666666666666666,
+            "sets": [
+              "Set 4"
+            ]
+          },
+          "8": {
+            "name": "Law 8",
+            "quantity": "mean |BV sum - v_i| / v_i",
+            "statement": "mean of |BV sum - v_i|/v_i <= 0.7143",
+            "mechanism": "bond-valence conservation",
+            "state": "pass",
+            "value": 0.018871010092696094,
+            "threshold": 0.7143,
+            "sets": [
+              "Set 4"
+            ]
+          }
+        },
+        "sets": {
+          "Set 1": {
+            "model": "hard-sphere contact floor",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 1'": {
+            "model": "two-sided contact window",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 2": {
+            "model": "rigid-ion lattice",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 3": {
+            "model": "ionic network",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 4": {
+            "model": "crystal chemistry",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          }
+        },
+        "pss": -1.6632899913653139,
+        "pss_terms": [
+          {
+            "term": "madz_mean",
+            "raw": -4.461757198925591,
+            "standardised": 1.9472930315097603,
+            "weight": -1.2392289029845764,
+            "contribution": -2.4131418072273503,
+            "imputed": false
+          },
+          {
+            "term": "wyckoff_econ_001",
+            "raw": 0.125,
+            "standardised": -1.2609315376556345,
+            "weight": -0.8404348959814586,
+            "contribution": 1.0597308656893538,
+            "imputed": false
+          },
+          {
+            "term": "bv_rel_mean",
+            "raw": 0.018871010092696094,
+            "standardised": -0.7659754267264005,
+            "weight": -1.1782127479482547,
+            "contribution": 0.9024820123841494,
+            "imputed": false
+          },
+          {
+            "term": "vol_per_atom",
+            "raw": 22.42576798495017,
+            "standardised": 0.17360981074563758,
+            "weight": -4.903580203915573,
+            "contribution": -0.8513096311778376,
+            "imputed": false
+          },
+          {
+            "term": "poly_deg_max",
+            "raw": 7.0,
+            "standardised": 0.7604759036296076,
+            "weight": -0.22037834252664987,
+            "contribution": -0.16759241917334924,
+            "imputed": false
+          },
+          {
+            "term": "frac_isolated",
+            "raw": 0.0,
+            "standardised": -0.32890495943225473,
+            "weight": 0.5881912276246081,
+            "contribution": -0.19345901186027983,
+            "imputed": false
+          }
+        ],
+        "verdict": "plausible"
+      }
+    },
+    {
+      "name": "MgO_conventional",
+      "synthetic_control": true,
+      "expected_min_distance_A": 2.106,
+      "brute_force_min_distance_A": 2.106,
+      "neighbor_min_distance_A": 2.106,
+      "elapsed_seconds": 0.15649300000222865,
+      "analysis": {
+        "file": "MgO_conventional.cif",
+        "formula": "MgO",
+        "n_sites": 8,
+        "charges": "integer charge balancing",
+        "ionic_character": 0.6783286799695526,
+        "laws": {
+          "1": {
+            "name": "Law 1",
+            "quantity": "reduced contact rho",
+            "statement": "rho >= tau",
+            "mechanism": "short-range repulsion",
+            "state": "pass",
+            "value": 0.9933962264150942,
+            "threshold": 0.804,
+            "sets": [
+              "Set 1",
+              "Set 1'",
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "2": {
+            "name": "Law 2",
+            "quantity": "reduced contact rho",
+            "statement": "f_i > 0.50  =>  rho <= 1.05",
+            "mechanism": "ionic contact",
+            "state": "pass",
+            "value": 0.9933962264150942,
+            "threshold": 1.05,
+            "sets": [
+              "Set 1'"
+            ]
+          },
+          "3": {
+            "name": "Law 3",
+            "quantity": "mean reduced cation-anion contact",
+            "statement": "mean anion CN <= 3.333  =>  mean d/(r+ + r-) <= 1.081",
+            "mechanism": "packing",
+            "state": "not triggered",
+            "value": 6.0,
+            "threshold": 1.081,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "4": {
+            "name": "Law 4",
+            "quantity": "range of site Madelung energy / valence",
+            "statement": "range_i of V_M(i)/v_i <= 31.45 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 1.7763568394002505e-15,
+            "threshold": 31.45,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "5": {
+            "name": "Law 5",
+            "quantity": "largest site Madelung energy",
+            "statement": "max_i V_M(i) <= 15.17 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": -23.89773086070029,
+            "threshold": 15.17,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "6": {
+            "name": "Law 6",
+            "quantity": "fraction of like-charge bonds",
+            "statement": "f_i > 0.55  =>  no like-charge bonds",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 0.0,
+            "threshold": 0.0001,
+            "sets": [
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "7": {
+            "name": "Law 7",
+            "quantity": "inequivalent sites / sites",
+            "statement": "inequivalent sites / sites <= 2/3",
+            "mechanism": "crystallographic site complexity",
+            "state": "pass",
+            "value": 0.25,
+            "threshold": 0.6666666666666666,
+            "sets": [
+              "Set 4"
+            ]
+          },
+          "8": {
+            "name": "Law 8",
+            "quantity": "mean |BV sum - v_i| / v_i",
+            "statement": "mean of |BV sum - v_i|/v_i <= 0.7143",
+            "mechanism": "bond-valence conservation",
+            "state": "pass",
+            "value": 0.017449883665822563,
+            "threshold": 0.7143,
+            "sets": [
+              "Set 4"
+            ]
+          }
+        },
+        "sets": {
+          "Set 1": {
+            "model": "hard-sphere contact floor",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 1'": {
+            "model": "two-sided contact window",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 2": {
+            "model": "rigid-ion lattice",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 3": {
+            "model": "ionic network",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 4": {
+            "model": "crystal chemistry",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          }
+        },
+        "pss": 3.335958799928536,
+        "pss_terms": [
+          {
+            "term": "madz_mean",
+            "raw": -11.948865430350146,
+            "standardised": 0.0021942604937513653,
+            "weight": -1.2392289029845764,
+            "contribution": -0.0027191910245338994,
+            "imputed": false
+          },
+          {
+            "term": "wyckoff_econ_001",
+            "raw": 0.25,
+            "standardised": -0.794910157804403,
+            "weight": -0.8404348959814586,
+            "contribution": 0.6680702357889483,
+            "imputed": false
+          },
+          {
+            "term": "bv_rel_mean",
+            "raw": 0.017449883665822563,
+            "standardised": -0.7746417230850917,
+            "weight": -1.1782127479482547,
+            "contribution": 0.9126927532314569,
+            "imputed": false
+          },
+          {
+            "term": "vol_per_atom",
+            "raw": 9.340607015999998,
+            "standardised": -0.37760116881972394,
+            "weight": -4.903580203915573,
+            "contribution": 1.8515976163997807,
+            "imputed": false
+          },
+          {
+            "term": "poly_deg_max",
+            "raw": 3.0,
+            "standardised": -0.45275046653505885,
+            "weight": -0.22037834252664987,
+            "contribution": 0.09977639739316373,
+            "imputed": false
+          },
+          {
+            "term": "frac_isolated",
+            "raw": 0.0,
+            "standardised": -0.32890495943225473,
+            "weight": 0.5881912276246081,
+            "contribution": -0.19345901186027983,
+            "imputed": false
+          }
+        ],
+        "verdict": "plausible"
+      }
+    },
+    {
+      "name": "CsCl_two_site",
+      "synthetic_control": true,
+      "expected_min_distance_A": 3.5706227398032406,
+      "brute_force_min_distance_A": 3.570622739803241,
+      "neighbor_min_distance_A": 3.570622739803241,
+      "elapsed_seconds": 0.03624410000338685,
+      "analysis": {
+        "file": "CsCl_two_site.cif",
+        "formula": "CsCl",
+        "n_sites": 2,
+        "charges": "integer charge balancing",
+        "ionic_character": 0.7544427103724891,
+        "laws": {
+          "1": {
+            "name": "Law 1",
+            "quantity": "reduced contact rho",
+            "statement": "rho >= tau",
+            "mechanism": "short-range repulsion",
+            "state": "pass",
+            "value": 1.005809222479786,
+            "threshold": 0.804,
+            "sets": [
+              "Set 1",
+              "Set 1'",
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "2": {
+            "name": "Law 2",
+            "quantity": "reduced contact rho",
+            "statement": "f_i > 0.50  =>  rho <= 1.05",
+            "mechanism": "ionic contact",
+            "state": "pass",
+            "value": 1.005809222479786,
+            "threshold": 1.05,
+            "sets": [
+              "Set 1'"
+            ]
+          },
+          "3": {
+            "name": "Law 3",
+            "quantity": "mean reduced cation-anion contact",
+            "statement": "mean anion CN <= 3.333  =>  mean d/(r+ + r-) <= 1.081",
+            "mechanism": "packing",
+            "state": "not triggered",
+            "value": 8.0,
+            "threshold": 1.081,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "4": {
+            "name": "Law 4",
+            "quantity": "range of site Madelung energy / valence",
+            "statement": "range_i of V_M(i)/v_i <= 31.45 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 4.440892098500626e-16,
+            "threshold": 31.45,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "5": {
+            "name": "Law 5",
+            "quantity": "largest site Madelung energy",
+            "statement": "max_i V_M(i) <= 15.17 eV",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": -3.5542668125992822,
+            "threshold": 15.17,
+            "sets": [
+              "Set 2",
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "6": {
+            "name": "Law 6",
+            "quantity": "fraction of like-charge bonds",
+            "statement": "f_i > 0.55  =>  no like-charge bonds",
+            "mechanism": "electrostatic balance",
+            "state": "pass",
+            "value": 0.0,
+            "threshold": 0.0001,
+            "sets": [
+              "Set 3",
+              "Set 4"
+            ]
+          },
+          "7": {
+            "name": "Law 7",
+            "quantity": "inequivalent sites / sites",
+            "statement": "inequivalent sites / sites <= 2/3",
+            "mechanism": "crystallographic site complexity",
+            "state": "fail",
+            "value": 1.0,
+            "threshold": 0.6666666666666666,
+            "sets": [
+              "Set 4"
+            ]
+          },
+          "8": {
+            "name": "Law 8",
+            "quantity": "mean |BV sum - v_i| / v_i",
+            "statement": "mean of |BV sum - v_i|/v_i <= 0.7143",
+            "mechanism": "bond-valence conservation",
+            "state": "pass",
+            "value": 0.027268265308370232,
+            "threshold": 0.7143,
+            "sets": [
+              "Set 4"
+            ]
+          }
+        },
+        "sets": {
+          "Set 1": {
+            "model": "hard-sphere contact floor",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 1'": {
+            "model": "two-sided contact window",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 2": {
+            "model": "rigid-ion lattice",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 3": {
+            "model": "ionic network",
+            "verdict": "plausible",
+            "unsatisfied": [],
+            "unavailable": []
+          },
+          "Set 4": {
+            "model": "crystal chemistry",
+            "verdict": "implausible",
+            "unsatisfied": [
+              "Law 7"
+            ],
+            "unavailable": []
+          }
+        },
+        "pss": -4.864312631185369,
+        "pss_terms": [
+          {
+            "term": "madz_mean",
+            "raw": -3.5542668125992822,
+            "standardised": 2.183052737472538,
+            "weight": -1.2392289029845764,
+            "contribution": -2.70530204901557,
+            "imputed": false
+          },
+          {
+            "term": "wyckoff_econ_001",
+            "raw": 1.0,
+            "standardised": 2.001218121302985,
+            "weight": -0.8404348959814586,
+            "contribution": -1.6818935436134843,
+            "imputed": false
+          },
+          {
+            "term": "bv_rel_mean",
+            "raw": 0.027268265308370232,
+            "standardised": -0.7147673843436424,
+            "weight": -1.1782127479482547,
+            "contribution": 0.8421480440513093,
+            "imputed": false
+          },
+          {
+            "term": "vol_per_atom",
+            "raw": 35.04370443350001,
+            "standardised": 0.7051390083155052,
+            "weight": -4.903580203915573,
+            "contribution": -3.4577056821845704,
+            "imputed": false
+          },
+          {
+            "term": "poly_deg_max",
+            "raw": 0.0,
+            "standardised": -1.3626702441585588,
+            "weight": -0.22037834252664987,
+            "contribution": 0.30030300981804847,
+            "imputed": false
+          },
+          {
+            "term": "frac_isolated",
+            "raw": 1.0,
+            "standardised": 3.1250680109293034,
+            "weight": 0.5881912276246081,
+            "contribution": 1.8381375897588992,
+            "imputed": false
+          }
+        ],
+        "verdict": "implausible",
+        "mechanisms_to_review": [
+          "crystallographic site complexity"
+        ]
+      }
+    },
+    {
+      "name": "one_atom_tiny_cubic_control",
+      "synthetic_control": true,
+      "expected_min_distance_A": 0.8,
+      "brute_force_min_distance_A": 0.8,
+      "neighbor_min_distance_A": 0.8,
+      "elapsed_seconds": 0.012661900007515214,
+      "analysis": {
+        "file": "one_atom_tiny_cubic_control.cif",
+        "formula": "Na",
+        "n_sites": 1,
+        "verdict": "no verdict",
+        "reason": "no charge assignment (several anions, or no valid combination)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1377 @@
+task,variant,law,quantity,value,threshold,state,mechanism
+E3-cod-1001469-P0,P0,1,reduced contact rho,0.9545124321689279,0.804,pass,short-range repulsion
+E3-cod-1001469-P0,P0,2,reduced contact rho,0.9545124321689279,1.05,pass,ionic contact
+E3-cod-1001469-P0,P0,3,mean reduced cation-anion contact,1.0046632850057502,1.081,pass,packing
+E3-cod-1001469-P0,P0,4,range of site Madelung energy / valence,12.22845065244624,31.45,pass,electrostatic balance
+E3-cod-1001469-P0,P0,5,largest site Madelung energy,-18.449912818904398,15.17,pass,electrostatic balance
+E3-cod-1001469-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1001469-P0,P0,7,inequivalent sites / sites,0.4,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1001469-P0,P0,8,mean |BV sum - v_i| / v_i,0.05128927139989399,0.7143,pass,bond-valence conservation
+E3-cod-1001469-S1,S1,1,reduced contact rho,0.829776546454357,0.804,pass,short-range repulsion
+E3-cod-1001469-S1,S1,2,reduced contact rho,0.829776546454357,1.05,pass,ionic contact
+E3-cod-1001469-S1,S1,3,mean reduced cation-anion contact,0.9058990922605453,1.081,pass,packing
+E3-cod-1001469-S1,S1,4,range of site Madelung energy / valence,13.01081241376732,31.45,pass,electrostatic balance
+E3-cod-1001469-S1,S1,5,largest site Madelung energy,-20.047608577125803,15.17,pass,electrostatic balance
+E3-cod-1001469-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1001469-S1,S1,7,inequivalent sites / sites,0.5,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1001469-S1,S1,8,mean |BV sum - v_i| / v_i,0.3687051460715546,0.7143,pass,bond-valence conservation
+E3-cod-1001469-S2,S2,1,reduced contact rho,0.7723638516386316,0.804,fail,short-range repulsion
+E3-cod-1001469-S2,S2,2,reduced contact rho,0.7723638516386316,1.05,pass,ionic contact
+E3-cod-1001469-S2,S2,3,mean reduced cation-anion contact,0.9339162528734214,1.081,pass,packing
+E3-cod-1001469-S2,S2,4,range of site Madelung energy / valence,10.733173663755885,31.45,pass,electrostatic balance
+E3-cod-1001469-S2,S2,5,largest site Madelung energy,-19.435588192684264,15.17,pass,electrostatic balance
+E3-cod-1001469-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1001469-S2,S2,7,inequivalent sites / sites,0.5,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1001469-S2,S2,8,mean |BV sum - v_i| / v_i,0.7809639611450278,0.7143,fail,bond-valence conservation
+E3-cod-1001469-S3,S3,1,reduced contact rho,0.3375281988203469,0.804,fail,short-range repulsion
+E3-cod-1001469-S3,S3,2,reduced contact rho,0.3375281988203469,1.05,pass,ionic contact
+E3-cod-1001469-S3,S3,3,mean reduced cation-anion contact,0.6207523301740896,1.081,pass,packing
+E3-cod-1001469-S3,S3,4,range of site Madelung energy / valence,15.558448100590613,31.45,pass,electrostatic balance
+E3-cod-1001469-S3,S3,5,largest site Madelung energy,-15.948343554089695,15.17,pass,electrostatic balance
+E3-cod-1001469-S3,S3,6,fraction of like-charge bonds,0.09523809523809523,0.0001,fail,electrostatic balance
+E3-cod-1001469-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1001469-S3,S3,8,mean |BV sum - v_i| / v_i,4.851365620978084,0.7143,fail,bond-valence conservation
+E3-cod-1001469-S4,S4,1,reduced contact rho,1.2393043973735336,0.804,pass,short-range repulsion
+E3-cod-1001469-S4,S4,2,reduced contact rho,1.2393043973735336,1.05,fail,ionic contact
+E3-cod-1001469-S4,S4,3,mean reduced cation-anion contact,1.3051167647084387,1.081,fail,packing
+E3-cod-1001469-S4,S4,4,range of site Madelung energy / valence,9.418354521020966,31.45,pass,electrostatic balance
+E3-cod-1001469-S4,S4,5,largest site Madelung energy,-14.210125611915474,15.17,pass,electrostatic balance
+E3-cod-1001469-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1001469-S4,S4,7,inequivalent sites / sites,0.4,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1001469-S4,S4,8,mean |BV sum - v_i| / v_i,0.8883455903257073,0.7143,fail,bond-valence conservation
+E3-cod-1001469-S5,S5,1,reduced contact rho,0.9545124321689279,0.804,pass,short-range repulsion
+E3-cod-1001469-S5,S5,2,reduced contact rho,0.9545124321689279,1.05,pass,ionic contact
+E3-cod-1001469-S5,S5,3,mean reduced cation-anion contact,1.0047977455870936,1.081,pass,packing
+E3-cod-1001469-S5,S5,4,range of site Madelung energy / valence,16.29647825924223,31.45,pass,electrostatic balance
+E3-cod-1001469-S5,S5,5,largest site Madelung energy,-5.306129770747388,15.17,pass,electrostatic balance
+E3-cod-1001469-S5,S5,6,fraction of like-charge bonds,0.15789473684210525,0.0001,fail,electrostatic balance
+E3-cod-1001469-S5,S5,7,inequivalent sites / sites,0.7,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1001469-S5,S5,8,mean |BV sum - v_i| / v_i,0.3363462886339218,0.7143,pass,bond-valence conservation
+E3-cod-1010052-P0,P0,1,reduced contact rho,0.9833910032487272,0.804,pass,short-range repulsion
+E3-cod-1010052-P0,P0,2,reduced contact rho,0.4130995120406621,1.05,not triggered,ionic contact
+E3-cod-1010052-P0,P0,3,mean reduced cation-anion contact,1.0337454315536134,1.081,pass,packing
+E3-cod-1010052-P0,P0,4,range of site Madelung energy / valence,8.915550771410903,31.45,pass,electrostatic balance
+E3-cod-1010052-P0,P0,5,largest site Madelung energy,-3.3428692891981404,15.17,pass,electrostatic balance
+E3-cod-1010052-P0,P0,6,fraction of like-charge bonds,0.4130995120406621,0.0001,not triggered,electrostatic balance
+E3-cod-1010052-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010052-P0,P0,8,mean |BV sum - v_i| / v_i,0.1580909534162433,0.7143,pass,bond-valence conservation
+E3-cod-1010052-S1,S1,1,reduced contact rho,0.883392442778685,0.804,pass,short-range repulsion
+E3-cod-1010052-S1,S1,2,reduced contact rho,0.4130995120406621,1.05,not triggered,ionic contact
+E3-cod-1010052-S1,S1,3,mean reduced cation-anion contact,0.9840971728000508,1.081,pass,packing
+E3-cod-1010052-S1,S1,4,range of site Madelung energy / valence,9.326539162136307,31.45,pass,electrostatic balance
+E3-cod-1010052-S1,S1,5,largest site Madelung energy,-3.5212402413713333,15.17,pass,electrostatic balance
+E3-cod-1010052-S1,S1,6,fraction of like-charge bonds,0.4130995120406621,0.0001,not triggered,electrostatic balance
+E3-cod-1010052-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010052-S1,S1,8,mean |BV sum - v_i| / v_i,0.441619075761138,0.7143,pass,bond-valence conservation
+E3-cod-1010052-S2,S2,1,reduced contact rho,0.7639784944593607,0.804,fail,short-range repulsion
+E3-cod-1010052-S2,S2,2,reduced contact rho,0.4130995120406621,1.05,not triggered,ionic contact
+E3-cod-1010052-S2,S2,3,mean reduced cation-anion contact,0.9522155239063438,1.081,pass,packing
+E3-cod-1010052-S2,S2,4,range of site Madelung energy / valence,7.253150715881967,31.45,pass,electrostatic balance
+E3-cod-1010052-S2,S2,5,largest site Madelung energy,-3.1336144454790236,15.17,pass,electrostatic balance
+E3-cod-1010052-S2,S2,6,fraction of like-charge bonds,0.4130995120406621,0.0001,not triggered,electrostatic balance
+E3-cod-1010052-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010052-S2,S2,8,mean |BV sum - v_i| / v_i,1.5440219321535162,0.7143,fail,bond-valence conservation
+E3-cod-1010052-S3,S3,1,reduced contact rho,0.5883446582962532,0.804,fail,short-range repulsion
+E3-cod-1010052-S3,S3,2,reduced contact rho,0.4130995120406621,1.05,not triggered,ionic contact
+E3-cod-1010052-S3,S3,3,mean reduced cation-anion contact,0.9920464212688332,1.081,pass,packing
+E3-cod-1010052-S3,S3,4,range of site Madelung energy / valence,9.659406127201265,31.45,pass,electrostatic balance
+E3-cod-1010052-S3,S3,5,largest site Madelung energy,-2.8621271712776695,15.17,pass,electrostatic balance
+E3-cod-1010052-S3,S3,6,fraction of like-charge bonds,0.4130995120406621,0.0001,not triggered,electrostatic balance
+E3-cod-1010052-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010052-S3,S3,8,mean |BV sum - v_i| / v_i,2.3173068540910826,0.7143,fail,bond-valence conservation
+E3-cod-1010052-S5,S5,1,reduced contact rho,0.9833910032487272,0.804,pass,short-range repulsion
+E3-cod-1010052-S5,S5,2,reduced contact rho,0.4130995120406621,1.05,not triggered,ionic contact
+E3-cod-1010052-S5,S5,3,mean reduced cation-anion contact,1.0253530268361324,1.081,pass,packing
+E3-cod-1010052-S5,S5,4,range of site Madelung energy / valence,10.493633883771214,31.45,pass,electrostatic balance
+E3-cod-1010052-S5,S5,5,largest site Madelung energy,-0.8092665442627478,15.17,pass,electrostatic balance
+E3-cod-1010052-S5,S5,6,fraction of like-charge bonds,0.4130995120406621,0.0001,not triggered,electrostatic balance
+E3-cod-1010052-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010052-S5,S5,8,mean |BV sum - v_i| / v_i,0.41062000295972767,0.7143,pass,bond-valence conservation
+E3-cod-1010053-P0,P0,1,reduced contact rho,0.9859342566308896,0.804,pass,short-range repulsion
+E3-cod-1010053-P0,P0,2,reduced contact rho,0.421663847129056,1.05,not triggered,ionic contact
+E3-cod-1010053-P0,P0,3,mean reduced cation-anion contact,1.0035078507450852,1.081,pass,packing
+E3-cod-1010053-P0,P0,4,range of site Madelung energy / valence,8.892552782954034,31.45,pass,electrostatic balance
+E3-cod-1010053-P0,P0,5,largest site Madelung energy,-3.334246235917762,15.17,pass,electrostatic balance
+E3-cod-1010053-P0,P0,6,fraction of like-charge bonds,0.421663847129056,0.0001,not triggered,electrostatic balance
+E3-cod-1010053-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010053-P0,P0,8,mean |BV sum - v_i| / v_i,0.014531533651634744,0.7143,pass,bond-valence conservation
+E3-cod-1010053-S1,S1,1,reduced contact rho,0.7857735361425354,0.804,fail,short-range repulsion
+E3-cod-1010053-S1,S1,2,reduced contact rho,0.421663847129056,1.05,not triggered,ionic contact
+E3-cod-1010053-S1,S1,3,mean reduced cation-anion contact,0.8630942188705271,1.081,pass,packing
+E3-cod-1010053-S1,S1,4,range of site Madelung energy / valence,9.491443691849353,31.45,pass,electrostatic balance
+E3-cod-1010053-S1,S1,5,largest site Madelung energy,-3.655599331053025,15.17,pass,electrostatic balance
+E3-cod-1010053-S1,S1,6,fraction of like-charge bonds,0.421663847129056,0.0001,not triggered,electrostatic balance
+E3-cod-1010053-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010053-S1,S1,8,mean |BV sum - v_i| / v_i,1.3529940807740333,0.7143,fail,bond-valence conservation
+E3-cod-1010053-S2,S2,1,reduced contact rho,0.7362661503005868,0.804,fail,short-range repulsion
+E3-cod-1010053-S2,S2,2,reduced contact rho,0.421663847129056,1.05,not triggered,ionic contact
+E3-cod-1010053-S2,S2,3,mean reduced cation-anion contact,0.9173562162826181,1.081,pass,packing
+E3-cod-1010053-S2,S2,4,range of site Madelung energy / valence,7.234440949013195,31.45,pass,electrostatic balance
+E3-cod-1010053-S2,S2,5,largest site Madelung energy,-3.1255311727016997,15.17,pass,electrostatic balance
+E3-cod-1010053-S2,S2,6,fraction of like-charge bonds,0.421663847129056,0.0001,not triggered,electrostatic balance
+E3-cod-1010053-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010053-S2,S2,8,mean |BV sum - v_i| / v_i,2.703152179837459,0.7143,fail,bond-valence conservation
+E3-cod-1010053-S3,S3,1,reduced contact rho,0.7145845320976472,0.804,fail,short-range repulsion
+E3-cod-1010053-S3,S3,2,reduced contact rho,0.421663847129056,1.05,not triggered,ionic contact
+E3-cod-1010053-S3,S3,3,mean reduced cation-anion contact,3.5,1.081,not triggered,packing
+E3-cod-1010053-S3,S3,4,range of site Madelung energy / valence,9.788225391137809,31.45,pass,electrostatic balance
+E3-cod-1010053-S3,S3,5,largest site Madelung energy,-2.9311213905774465,15.17,pass,electrostatic balance
+E3-cod-1010053-S3,S3,6,fraction of like-charge bonds,0.421663847129056,0.0001,not triggered,electrostatic balance
+E3-cod-1010053-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010053-S3,S3,8,mean |BV sum - v_i| / v_i,1.5294768496657014,0.7143,fail,bond-valence conservation
+E3-cod-1010053-S4,S4,1,reduced contact rho,1.1989161554523555,0.804,pass,short-range repulsion
+E3-cod-1010053-S4,S4,2,reduced contact rho,0.421663847129056,1.05,not triggered,ionic contact
+E3-cod-1010053-S4,S4,3,mean reduced cation-anion contact,1.1989161554523555,1.081,fail,packing
+E3-cod-1010053-S4,S4,4,range of site Madelung energy / valence,7.3128319922461404,31.45,pass,electrostatic balance
+E3-cod-1010053-S4,S4,5,largest site Madelung energy,-2.74193284416423,15.17,pass,electrostatic balance
+E3-cod-1010053-S4,S4,6,fraction of like-charge bonds,0.421663847129056,0.0001,not triggered,electrostatic balance
+E3-cod-1010053-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010053-S4,S4,8,mean |BV sum - v_i| / v_i,0.894551387259682,0.7143,fail,bond-valence conservation
+E3-cod-1010053-S5,S5,1,reduced contact rho,0.9859342566308896,0.804,pass,short-range repulsion
+E3-cod-1010053-S5,S5,2,reduced contact rho,0.421663847129056,1.05,not triggered,ionic contact
+E3-cod-1010053-S5,S5,3,mean reduced cation-anion contact,1.0005789183927187,1.081,pass,packing
+E3-cod-1010053-S5,S5,4,range of site Madelung energy / valence,10.466565172357063,31.45,pass,electrostatic balance
+E3-cod-1010053-S5,S5,5,largest site Madelung energy,-0.8071790116895294,15.17,pass,electrostatic balance
+E3-cod-1010053-S5,S5,6,fraction of like-charge bonds,0.421663847129056,0.0001,not triggered,electrostatic balance
+E3-cod-1010053-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010053-S5,S5,8,mean |BV sum - v_i| / v_i,0.35731745661294806,0.7143,pass,bond-valence conservation
+E3-cod-1010145-P0,P0,1,reduced contact rho,0.9179054049831241,0.804,pass,short-range repulsion
+E3-cod-1010145-P0,P0,2,reduced contact rho,0.4926550147458797,1.05,not triggered,ionic contact
+E3-cod-1010145-P0,P0,3,mean reduced cation-anion contact,0.9778977303888055,1.081,pass,packing
+E3-cod-1010145-P0,P0,4,range of site Madelung energy / valence,7.769917516084476,31.45,pass,electrostatic balance
+E3-cod-1010145-P0,P0,5,largest site Madelung energy,-3.707972588995071,15.17,pass,electrostatic balance
+E3-cod-1010145-P0,P0,6,fraction of like-charge bonds,0.4926550147458797,0.0001,not triggered,electrostatic balance
+E3-cod-1010145-P0,P0,7,inequivalent sites / sites,0.4,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010145-P0,P0,8,mean |BV sum - v_i| / v_i,0.07911005391002322,0.7143,pass,bond-valence conservation
+E3-cod-1010145-S1,S1,1,reduced contact rho,0.7678501313236724,0.804,fail,short-range repulsion
+E3-cod-1010145-S1,S1,2,reduced contact rho,0.4926550147458797,1.05,not triggered,ionic contact
+E3-cod-1010145-S1,S1,3,mean reduced cation-anion contact,3.3333333333333335,1.081,not triggered,packing
+E3-cod-1010145-S1,S1,4,range of site Madelung energy / valence,8.319321005431254,31.45,pass,electrostatic balance
+E3-cod-1010145-S1,S1,5,largest site Madelung energy,-4.091443912941585,15.17,pass,electrostatic balance
+E3-cod-1010145-S1,S1,6,fraction of like-charge bonds,0.4926550147458797,0.0001,not triggered,electrostatic balance
+E3-cod-1010145-S1,S1,7,inequivalent sites / sites,0.5,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010145-S1,S1,8,mean |BV sum - v_i| / v_i,1.0741070715092267,0.7143,fail,bond-valence conservation
+E3-cod-1010145-S2,S2,1,reduced contact rho,0.8472972969074992,0.804,pass,short-range repulsion
+E3-cod-1010145-S2,S2,2,reduced contact rho,0.4926550147458797,1.05,not triggered,ionic contact
+E3-cod-1010145-S2,S2,3,mean reduced cation-anion contact,0.9792249504654146,1.081,pass,packing
+E3-cod-1010145-S2,S2,4,range of site Madelung energy / valence,6.742638214317134,31.45,pass,electrostatic balance
+E3-cod-1010145-S2,S2,5,largest site Madelung energy,-3.7079725889950716,15.17,pass,electrostatic balance
+E3-cod-1010145-S2,S2,6,fraction of like-charge bonds,0.4926550147458797,0.0001,not triggered,electrostatic balance
+E3-cod-1010145-S2,S2,7,inequivalent sites / sites,0.4,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010145-S2,S2,8,mean |BV sum - v_i| / v_i,0.2175942953457656,0.7143,pass,bond-valence conservation
+E3-cod-1010145-S3,S3,1,reduced contact rho,0.6148677273529354,0.804,fail,short-range repulsion
+E3-cod-1010145-S3,S3,2,reduced contact rho,0.4926550147458797,1.05,not triggered,ionic contact
+E3-cod-1010145-S3,S3,3,mean reduced cation-anion contact,0.9480278107484092,1.081,pass,packing
+E3-cod-1010145-S3,S3,4,range of site Madelung energy / valence,8.163822775722709,31.45,pass,electrostatic balance
+E3-cod-1010145-S3,S3,5,largest site Madelung energy,-3.3962674273424294,15.17,pass,electrostatic balance
+E3-cod-1010145-S3,S3,6,fraction of like-charge bonds,0.4926550147458797,0.0001,not triggered,electrostatic balance
+E3-cod-1010145-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010145-S3,S3,8,mean |BV sum - v_i| / v_i,0.8703962589040559,0.7143,fail,bond-valence conservation
+E3-cod-1010145-S5,S5,1,reduced contact rho,0.9179054049831241,0.804,pass,short-range repulsion
+E3-cod-1010145-S5,S5,2,reduced contact rho,0.4926550147458797,1.05,not triggered,ionic contact
+E3-cod-1010145-S5,S5,3,mean reduced cation-anion contact,0.9832885900757933,1.081,pass,packing
+E3-cod-1010145-S5,S5,4,range of site Madelung energy / valence,6.868709164244824,31.45,pass,electrostatic balance
+E3-cod-1010145-S5,S5,5,largest site Madelung energy,-1.2545537203788524,15.17,pass,electrostatic balance
+E3-cod-1010145-S5,S5,6,fraction of like-charge bonds,0.4926550147458797,0.0001,not triggered,electrostatic balance
+E3-cod-1010145-S5,S5,7,inequivalent sites / sites,0.6,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010145-S5,S5,8,mean |BV sum - v_i| / v_i,0.4163716013000732,0.7143,pass,bond-valence conservation
+E3-cod-1010173-P0,P0,1,reduced contact rho,0.9783340004732526,0.804,pass,short-range repulsion
+E3-cod-1010173-P0,P0,2,reduced contact rho,0.9783340004732526,1.05,pass,ionic contact
+E3-cod-1010173-P0,P0,3,mean reduced cation-anion contact,1.014188871910105,1.081,pass,packing
+E3-cod-1010173-P0,P0,4,range of site Madelung energy / valence,10.359650293108071,31.45,pass,electrostatic balance
+E3-cod-1010173-P0,P0,5,largest site Madelung energy,-3.8843317367125563,15.17,pass,electrostatic balance
+E3-cod-1010173-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010173-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010173-P0,P0,8,mean |BV sum - v_i| / v_i,0.12630402810188845,0.7143,pass,bond-valence conservation
+E3-cod-1010173-S1,S1,1,reduced contact rho,0.7871295765587564,0.804,fail,short-range repulsion
+E3-cod-1010173-S1,S1,2,reduced contact rho,0.7871295765587564,1.05,pass,ionic contact
+E3-cod-1010173-S1,S1,3,mean reduced cation-anion contact,0.8557716212554182,1.081,pass,packing
+E3-cod-1010173-S1,S1,4,range of site Madelung energy / valence,11.089973378888558,31.45,pass,electrostatic balance
+E3-cod-1010173-S1,S1,5,largest site Madelung energy,-4.314928484592014,15.17,pass,electrostatic balance
+E3-cod-1010173-S1,S1,6,fraction of like-charge bonds,0.2857142857142857,0.0001,fail,electrostatic balance
+E3-cod-1010173-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010173-S1,S1,8,mean |BV sum - v_i| / v_i,0.8730216958459445,0.7143,fail,bond-valence conservation
+E3-cod-1010173-S2,S2,1,reduced contact rho,0.7667194361075648,0.804,fail,short-range repulsion
+E3-cod-1010173-S2,S2,2,reduced contact rho,0.7667194361075648,1.05,pass,ionic contact
+E3-cod-1010173-S2,S2,3,mean reduced cation-anion contact,0.9376748718820669,1.081,pass,packing
+E3-cod-1010173-S2,S2,4,range of site Madelung energy / valence,8.427982394614592,31.45,pass,electrostatic balance
+E3-cod-1010173-S2,S2,5,largest site Madelung energy,-3.6411827649159463,15.17,pass,electrostatic balance
+E3-cod-1010173-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010173-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010173-S2,S2,8,mean |BV sum - v_i| / v_i,1.0693103821377756,0.7143,fail,bond-valence conservation
+E3-cod-1010173-S3,S3,1,reduced contact rho,0.4919707566282719,0.804,fail,short-range repulsion
+E3-cod-1010173-S3,S3,2,reduced contact rho,0.4919707566282719,1.05,pass,ionic contact
+E3-cod-1010173-S3,S3,3,mean reduced cation-anion contact,0.9660269711750669,1.081,pass,packing
+E3-cod-1010173-S3,S3,4,range of site Madelung energy / valence,12.134980374094205,31.45,pass,electrostatic balance
+E3-cod-1010173-S3,S3,5,largest site Madelung energy,-0.5615671908868349,15.17,pass,electrostatic balance
+E3-cod-1010173-S3,S3,6,fraction of like-charge bonds,0.2,0.0001,fail,electrostatic balance
+E3-cod-1010173-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010173-S3,S3,8,mean |BV sum - v_i| / v_i,3.202404070731283,0.7143,fail,bond-valence conservation
+E3-cod-1010173-S4,S4,1,reduced contact rho,1.1946161456373507,0.804,pass,short-range repulsion
+E3-cod-1010173-S4,S4,2,reduced contact rho,1.1946161456373507,1.05,fail,ionic contact
+E3-cod-1010173-S4,S4,3,mean reduced cation-anion contact,1.1946161456373507,1.081,fail,packing
+E3-cod-1010173-S4,S4,4,range of site Madelung energy / valence,8.484062559989091,31.45,pass,electrostatic balance
+E3-cod-1010173-S4,S4,5,largest site Madelung energy,-3.181083581551416,15.17,pass,electrostatic balance
+E3-cod-1010173-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010173-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010173-S4,S4,8,mean |BV sum - v_i| / v_i,0.8778738704104939,0.7143,fail,bond-valence conservation
+E3-cod-1010173-S5,S5,1,reduced contact rho,0.9783340004732526,0.804,pass,short-range repulsion
+E3-cod-1010173-S5,S5,2,reduced contact rho,0.9783340004732526,1.05,pass,ionic contact
+E3-cod-1010173-S5,S5,3,mean reduced cation-anion contact,1.0082130600039625,1.081,pass,packing
+E3-cod-1010173-S5,S5,4,range of site Madelung energy / valence,12.193343981437014,31.45,pass,electrostatic balance
+E3-cod-1010173-S5,S5,5,largest site Madelung energy,-0.9403477819180632,15.17,pass,electrostatic balance
+E3-cod-1010173-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010173-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010173-S5,S5,8,mean |BV sum - v_i| / v_i,0.4165479618683652,0.7143,pass,bond-valence conservation
+E3-cod-1010175-P0,P0,1,reduced contact rho,0.9695039995651538,0.804,pass,short-range repulsion
+E3-cod-1010175-P0,P0,2,reduced contact rho,0.9695039995651538,1.05,pass,ionic contact
+E3-cod-1010175-P0,P0,3,mean reduced cation-anion contact,1.00341096846767,1.081,pass,packing
+E3-cod-1010175-P0,P0,4,range of site Madelung energy / valence,10.531730730739598,31.45,pass,electrostatic balance
+E3-cod-1010175-P0,P0,5,largest site Madelung energy,-3.836846574369796,15.17,pass,electrostatic balance
+E3-cod-1010175-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010175-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010175-P0,P0,8,mean |BV sum - v_i| / v_i,0.0034069371493304543,0.7143,pass,bond-valence conservation
+E3-cod-1010175-S1,S1,1,reduced contact rho,0.8320863741046327,0.804,pass,short-range repulsion
+E3-cod-1010175-S1,S1,2,reduced contact rho,0.8320863741046327,1.05,pass,ionic contact
+E3-cod-1010175-S1,S1,3,mean reduced cation-anion contact,0.8787115431568087,1.081,pass,packing
+E3-cod-1010175-S1,S1,4,range of site Madelung energy / valence,11.180329903972215,31.45,pass,electrostatic balance
+E3-cod-1010175-S1,S1,5,largest site Madelung energy,-4.140846268317017,15.17,pass,electrostatic balance
+E3-cod-1010175-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010175-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010175-S1,S1,8,mean |BV sum - v_i| / v_i,0.5235864224113388,0.7143,pass,bond-valence conservation
+E3-cod-1010175-S2,S2,1,reduced contact rho,0.7278558555293947,0.804,fail,short-range repulsion
+E3-cod-1010175-S2,S2,2,reduced contact rho,0.7278558555293947,1.05,pass,ionic contact
+E3-cod-1010175-S2,S2,3,mean reduced cation-anion contact,0.9172104256386641,1.081,pass,packing
+E3-cod-1010175-S2,S2,4,range of site Madelung energy / valence,8.304169559826104,31.45,pass,electrostatic balance
+E3-cod-1010175-S2,S2,5,largest site Madelung energy,-3.623497109222959,15.17,pass,electrostatic balance
+E3-cod-1010175-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010175-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010175-S2,S2,8,mean |BV sum - v_i| / v_i,1.9152566883146314,0.7143,fail,bond-valence conservation
+E3-cod-1010175-S3,S3,1,reduced contact rho,0.5231441221940141,0.804,fail,short-range repulsion
+E3-cod-1010175-S3,S3,2,reduced contact rho,0.5231441221940141,1.05,pass,ionic contact
+E3-cod-1010175-S3,S3,3,mean reduced cation-anion contact,0.7577812032079362,1.081,pass,packing
+E3-cod-1010175-S3,S3,4,range of site Madelung energy / valence,13.658842002101721,31.45,pass,electrostatic balance
+E3-cod-1010175-S3,S3,5,largest site Madelung energy,-3.3463969195473595,15.17,pass,electrostatic balance
+E3-cod-1010175-S3,S3,6,fraction of like-charge bonds,0.09523809523809523,0.0001,fail,electrostatic balance
+E3-cod-1010175-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010175-S3,S3,8,mean |BV sum - v_i| / v_i,3.966789232441223,0.7143,fail,bond-valence conservation
+E3-cod-1010175-S5,S5,1,reduced contact rho,0.9695039995651538,0.804,pass,short-range repulsion
+E3-cod-1010175-S5,S5,2,reduced contact rho,0.9695039995651538,1.05,pass,ionic contact
+E3-cod-1010175-S5,S5,3,mean reduced cation-anion contact,0.9977598069839169,1.081,pass,packing
+E3-cod-1010175-S5,S5,4,range of site Madelung energy / valence,12.416056279222305,31.45,pass,electrostatic balance
+E3-cod-1010175-S5,S5,5,largest site Madelung energy,-0.7589152995969664,15.17,pass,electrostatic balance
+E3-cod-1010175-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010175-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010175-S5,S5,8,mean |BV sum - v_i| / v_i,0.34928688794887586,0.7143,pass,bond-valence conservation
+E3-cod-1010177-P0,P0,1,reduced contact rho,0.9571200002131667,0.804,pass,short-range repulsion
+E3-cod-1010177-P0,P0,2,reduced contact rho,0.3988101141076087,1.05,not triggered,ionic contact
+E3-cod-1010177-P0,P0,3,mean reduced cation-anion contact,0.9571200002131667,1.081,pass,packing
+E3-cod-1010177-P0,P0,4,range of site Madelung energy / valence,10.667998854397805,31.45,pass,electrostatic balance
+E3-cod-1010177-P0,P0,5,largest site Madelung energy,-3.886490825331104,15.17,pass,electrostatic balance
+E3-cod-1010177-P0,P0,6,fraction of like-charge bonds,0.3988101141076087,0.0001,not triggered,electrostatic balance
+E3-cod-1010177-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010177-P0,P0,8,mean |BV sum - v_i| / v_i,0.4131298081885568,0.7143,pass,bond-valence conservation
+E3-cod-1010177-S1,S1,1,reduced contact rho,0.7581290328040194,0.804,fail,short-range repulsion
+E3-cod-1010177-S1,S1,2,reduced contact rho,0.3988101141076087,1.05,not triggered,ionic contact
+E3-cod-1010177-S1,S1,3,mean reduced cation-anion contact,0.8339895533924361,1.081,pass,packing
+E3-cod-1010177-S1,S1,4,range of site Madelung energy / valence,11.429154033516358,31.45,pass,electrostatic balance
+E3-cod-1010177-S1,S1,5,largest site Madelung energy,-4.3114422632929115,15.17,pass,electrostatic balance
+E3-cod-1010177-S1,S1,6,fraction of like-charge bonds,0.3988101141076087,0.0001,not triggered,electrostatic balance
+E3-cod-1010177-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010177-S1,S1,8,mean |BV sum - v_i| / v_i,1.083956788298171,0.7143,fail,bond-valence conservation
+E3-cod-1010177-S2,S2,1,reduced contact rho,0.7229003022758056,0.804,fail,short-range repulsion
+E3-cod-1010177-S2,S2,2,reduced contact rho,0.3988101141076087,1.05,not triggered,ionic contact
+E3-cod-1010177-S2,S2,3,mean reduced cation-anion contact,0.7229003022758055,1.081,pass,packing
+E3-cod-1010177-S2,S2,4,range of site Madelung energy / valence,8.411615679878734,31.45,pass,electrostatic balance
+E3-cod-1010177-S2,S2,5,largest site Madelung energy,-3.6703808707602295,15.17,pass,electrostatic balance
+E3-cod-1010177-S2,S2,6,fraction of like-charge bonds,0.3988101141076087,0.0001,not triggered,electrostatic balance
+E3-cod-1010177-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010177-S2,S2,8,mean |BV sum - v_i| / v_i,1.539487202844575,0.7143,fail,bond-valence conservation
+E3-cod-1010177-S3,S3,1,reduced contact rho,0.5906915038675333,0.804,fail,short-range repulsion
+E3-cod-1010177-S3,S3,2,reduced contact rho,0.3988101141076087,1.05,not triggered,ionic contact
+E3-cod-1010177-S3,S3,3,mean reduced cation-anion contact,0.8041055968687519,1.081,pass,packing
+E3-cod-1010177-S3,S3,4,range of site Madelung energy / valence,12.811385137589053,31.45,pass,electrostatic balance
+E3-cod-1010177-S3,S3,5,largest site Madelung energy,-2.755140051121521,15.17,pass,electrostatic balance
+E3-cod-1010177-S3,S3,6,fraction of like-charge bonds,0.3988101141076087,0.0001,not triggered,electrostatic balance
+E3-cod-1010177-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010177-S3,S3,8,mean |BV sum - v_i| / v_i,1.881998992164878,0.7143,fail,bond-valence conservation
+E3-cod-1010177-S4,S4,1,reduced contact rho,1.2721949831296864,0.804,pass,short-range repulsion
+E3-cod-1010177-S4,S4,2,reduced contact rho,0.3988101141076087,1.05,not triggered,ionic contact
+E3-cod-1010177-S4,S4,3,mean reduced cation-anion contact,1.2721949831296866,1.081,fail,packing
+E3-cod-1010177-S4,S4,4,range of site Madelung energy / valence,8.025935647597525,31.45,pass,electrostatic balance
+E3-cod-1010177-S4,S4,5,largest site Madelung energy,-2.9239528129707923,15.17,pass,electrostatic balance
+E3-cod-1010177-S4,S4,6,fraction of like-charge bonds,0.3988101141076087,0.0001,not triggered,electrostatic balance
+E3-cod-1010177-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010177-S4,S4,8,mean |BV sum - v_i| / v_i,0.9276964647182189,0.7143,fail,bond-valence conservation
+E3-cod-1010177-S5,S5,1,reduced contact rho,0.9571200002131667,0.804,pass,short-range repulsion
+E3-cod-1010177-S5,S5,2,reduced contact rho,0.3988101141076087,1.05,not triggered,ionic contact
+E3-cod-1010177-S5,S5,3,mean reduced cation-anion contact,0.9571200002131667,1.081,pass,packing
+E3-cod-1010177-S5,S5,4,range of site Madelung energy / valence,12.576705344001944,31.45,pass,electrostatic balance
+E3-cod-1010177-S5,S5,5,largest site Madelung energy,-0.7687347648430425,15.17,pass,electrostatic balance
+E3-cod-1010177-S5,S5,6,fraction of like-charge bonds,0.3988101141076087,0.0001,not triggered,electrostatic balance
+E3-cod-1010177-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010177-S5,S5,8,mean |BV sum - v_i| / v_i,0.4935444866816375,0.7143,pass,bond-valence conservation
+E3-cod-1010179-P0,P0,1,reduced contact rho,0.9662572528223848,0.804,pass,short-range repulsion
+E3-cod-1010179-P0,P0,2,reduced contact rho,0.9662572528223848,1.05,pass,ionic contact
+E3-cod-1010179-P0,P0,3,mean reduced cation-anion contact,1.0102117326406055,1.081,pass,packing
+E3-cod-1010179-P0,P0,4,range of site Madelung energy / valence,10.144226482229936,31.45,pass,electrostatic balance
+E3-cod-1010179-P0,P0,5,largest site Madelung energy,-3.8035589768449602,15.17,pass,electrostatic balance
+E3-cod-1010179-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010179-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010179-P0,P0,8,mean |BV sum - v_i| / v_i,0.13829600673661385,0.7143,pass,bond-valence conservation
+E3-cod-1010179-S1,S1,1,reduced contact rho,0.7905181551591504,0.804,fail,short-range repulsion
+E3-cod-1010179-S1,S1,2,reduced contact rho,0.7905181551591504,1.05,pass,ionic contact
+E3-cod-1010179-S1,S1,3,mean reduced cation-anion contact,0.8528657700076387,1.081,pass,packing
+E3-cod-1010179-S1,S1,4,range of site Madelung energy / valence,10.839506933219166,31.45,pass,electrostatic balance
+E3-cod-1010179-S1,S1,5,largest site Madelung energy,-4.187445418728108,15.17,pass,electrostatic balance
+E3-cod-1010179-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010179-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010179-S1,S1,8,mean |BV sum - v_i| / v_i,1.1822669368557361,0.7143,fail,bond-valence conservation
+E3-cod-1010179-S2,S2,1,reduced contact rho,0.7500825821459053,0.804,fail,short-range repulsion
+E3-cod-1010179-S2,S2,2,reduced contact rho,0.7500825821459053,1.05,pass,ionic contact
+E3-cod-1010179-S2,S2,3,mean reduced cation-anion contact,0.9308277624454089,1.081,pass,packing
+E3-cod-1010179-S2,S2,4,range of site Madelung energy / valence,8.252726663572247,31.45,pass,electrostatic balance
+E3-cod-1010179-S2,S2,5,largest site Madelung energy,-3.5654661678177035,15.17,pass,electrostatic balance
+E3-cod-1010179-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010179-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010179-S2,S2,8,mean |BV sum - v_i| / v_i,1.4672924065770658,0.7143,fail,bond-valence conservation
+E3-cod-1010179-S3,S3,1,reduced contact rho,0.7194782246533682,0.804,fail,short-range repulsion
+E3-cod-1010179-S3,S3,2,reduced contact rho,0.7194782246533682,1.05,pass,ionic contact
+E3-cod-1010179-S3,S3,3,mean reduced cation-anion contact,0.9202678135380832,1.081,pass,packing
+E3-cod-1010179-S3,S3,4,range of site Madelung energy / valence,10.535655574551214,31.45,pass,electrostatic balance
+E3-cod-1010179-S3,S3,5,largest site Madelung energy,-3.262149915792686,15.17,pass,electrostatic balance
+E3-cod-1010179-S3,S3,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010179-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010179-S3,S3,8,mean |BV sum - v_i| / v_i,0.854108563473434,0.7143,fail,bond-valence conservation
+E3-cod-1010179-S5,S5,1,reduced contact rho,0.9662572528223848,0.804,pass,short-range repulsion
+E3-cod-1010179-S5,S5,2,reduced contact rho,0.9662572528223848,1.05,pass,ionic contact
+E3-cod-1010179-S5,S5,3,mean reduced cation-anion contact,1.0028859860042352,1.081,pass,packing
+E3-cod-1010179-S5,S5,4,range of site Madelung energy / valence,11.939789416030827,31.45,pass,electrostatic balance
+E3-cod-1010179-S5,S5,5,largest site Madelung energy,-0.9207937142613241,15.17,pass,electrostatic balance
+E3-cod-1010179-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010179-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010179-S5,S5,8,mean |BV sum - v_i| / v_i,0.26166117858788596,0.7143,pass,bond-valence conservation
+E3-cod-1010180-P0,P0,1,reduced contact rho,0.9670560924705549,0.804,pass,short-range repulsion
+E3-cod-1010180-P0,P0,2,reduced contact rho,0.9670560924705549,1.05,pass,ionic contact
+E3-cod-1010180-P0,P0,3,mean reduced cation-anion contact,0.9921288044788945,1.081,pass,packing
+E3-cod-1010180-P0,P0,4,range of site Madelung energy / valence,10.21120858708073,31.45,pass,electrostatic balance
+E3-cod-1010180-P0,P0,5,largest site Madelung energy,-3.7200761858791616,15.17,pass,electrostatic balance
+E3-cod-1010180-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010180-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010180-P0,P0,8,mean |BV sum - v_i| / v_i,0.1672152661905151,0.7143,pass,bond-valence conservation
+E3-cod-1010180-S1,S1,1,reduced contact rho,0.8255333693045672,0.804,pass,short-range repulsion
+E3-cod-1010180-S1,S1,2,reduced contact rho,0.8255333693045672,1.05,pass,ionic contact
+E3-cod-1010180-S1,S1,3,mean reduced cation-anion contact,0.8752495838027379,1.081,pass,packing
+E3-cod-1010180-S1,S1,4,range of site Madelung energy / valence,10.831837314389023,31.45,pass,electrostatic balance
+E3-cod-1010180-S1,S1,5,largest site Madelung energy,-4.008529498898514,15.17,pass,electrostatic balance
+E3-cod-1010180-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010180-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010180-S1,S1,8,mean |BV sum - v_i| / v_i,0.8091199629269465,0.7143,fail,bond-valence conservation
+E3-cod-1010180-S2,S2,1,reduced contact rho,0.7183448273093058,0.804,fail,short-range repulsion
+E3-cod-1010180-S2,S2,2,reduced contact rho,0.7183448273093058,1.05,pass,ionic contact
+E3-cod-1010180-S2,S2,3,mean reduced cation-anion contact,0.9050462640904219,1.081,pass,packing
+E3-cod-1010180-S2,S2,4,range of site Madelung energy / valence,8.051440896639393,31.45,pass,electrostatic balance
+E3-cod-1010180-S2,S2,5,largest site Madelung energy,-3.5132197872249726,15.17,pass,electrostatic balance
+E3-cod-1010180-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010180-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010180-S2,S2,8,mean |BV sum - v_i| / v_i,2.389658951395513,0.7143,fail,bond-valence conservation
+E3-cod-1010180-S3,S3,1,reduced contact rho,0.7525720010286419,0.804,fail,short-range repulsion
+E3-cod-1010180-S3,S3,2,reduced contact rho,0.7525720010286419,1.05,pass,ionic contact
+E3-cod-1010180-S3,S3,3,mean reduced cation-anion contact,0.9873126898485691,1.081,pass,packing
+E3-cod-1010180-S3,S3,4,range of site Madelung energy / valence,10.741745468362431,31.45,pass,electrostatic balance
+E3-cod-1010180-S3,S3,5,largest site Madelung energy,-1.5998778919704015,15.17,pass,electrostatic balance
+E3-cod-1010180-S3,S3,6,fraction of like-charge bonds,0.1935483870967742,0.0001,fail,electrostatic balance
+E3-cod-1010180-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010180-S3,S3,8,mean |BV sum - v_i| / v_i,0.8326759585762705,0.7143,fail,bond-valence conservation
+E3-cod-1010180-S5,S5,1,reduced contact rho,0.9670560924705549,0.804,pass,short-range repulsion
+E3-cod-1010180-S5,S5,2,reduced contact rho,0.9670560924705549,1.05,pass,ionic contact
+E3-cod-1010180-S5,S5,3,mean reduced cation-anion contact,0.9969045591471499,1.081,pass,packing
+E3-cod-1010180-S5,S5,4,range of site Madelung energy / valence,10.251733230972583,31.45,pass,electrostatic balance
+E3-cod-1010180-S5,S5,5,largest site Madelung energy,-0.9197748827365912,15.17,pass,electrostatic balance
+E3-cod-1010180-S5,S5,6,fraction of like-charge bonds,0.3888888888888889,0.0001,fail,electrostatic balance
+E3-cod-1010180-S5,S5,7,inequivalent sites / sites,0.5555555555555556,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010180-S5,S5,8,mean |BV sum - v_i| / v_i,0.4873138819615935,0.7143,pass,bond-valence conservation
+E3-cod-1010182-P0,P0,1,reduced contact rho,0.9538973312440798,0.804,pass,short-range repulsion
+E3-cod-1010182-P0,P0,2,reduced contact rho,0.9538973312440798,1.05,pass,ionic contact
+E3-cod-1010182-P0,P0,3,mean reduced cation-anion contact,0.9834515048968672,1.081,pass,packing
+E3-cod-1010182-P0,P0,4,range of site Madelung energy / valence,11.07704733627966,31.45,pass,electrostatic balance
+E3-cod-1010182-P0,P0,5,largest site Madelung energy,-3.91543604633539,15.17,pass,electrostatic balance
+E3-cod-1010182-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010182-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010182-P0,P0,8,mean |BV sum - v_i| / v_i,0.09559509617407487,0.7143,pass,bond-valence conservation
+E3-cod-1010182-S1,S1,1,reduced contact rho,0.8357370782167176,0.804,pass,short-range repulsion
+E3-cod-1010182-S1,S1,2,reduced contact rho,0.8357370782167176,1.05,pass,ionic contact
+E3-cod-1010182-S1,S1,3,mean reduced cation-anion contact,0.9367705731265893,1.081,pass,packing
+E3-cod-1010182-S1,S1,4,range of site Madelung energy / valence,11.587137357492159,31.45,pass,electrostatic balance
+E3-cod-1010182-S1,S1,5,largest site Madelung energy,-4.121859971947858,15.17,pass,electrostatic balance
+E3-cod-1010182-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010182-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010182-S1,S1,8,mean |BV sum - v_i| / v_i,0.7515869042533191,0.7143,fail,bond-valence conservation
+E3-cod-1010182-S2,S2,1,reduced contact rho,0.6975195199937941,0.804,fail,short-range repulsion
+E3-cod-1010182-S2,S2,2,reduced contact rho,0.6975195199937941,1.05,pass,ionic contact
+E3-cod-1010182-S2,S2,3,mean reduced cation-anion contact,0.8930665388713075,1.081,pass,packing
+E3-cod-1010182-S2,S2,4,range of site Madelung energy / valence,8.468863725792362,31.45,pass,electrostatic balance
+E3-cod-1010182-S2,S2,5,largest site Madelung energy,-3.713386570235423,15.17,pass,electrostatic balance
+E3-cod-1010182-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010182-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010182-S2,S2,8,mean |BV sum - v_i| / v_i,2.7399503218881507,0.7143,fail,bond-valence conservation
+E3-cod-1010182-S3,S3,1,reduced contact rho,0.48522712634826504,0.804,fail,short-range repulsion
+E3-cod-1010182-S3,S3,2,reduced contact rho,0.48522712634826504,1.05,pass,ionic contact
+E3-cod-1010182-S3,S3,3,mean reduced cation-anion contact,0.7716566263270952,1.081,pass,packing
+E3-cod-1010182-S3,S3,4,range of site Madelung energy / valence,13.295384229837477,31.45,pass,electrostatic balance
+E3-cod-1010182-S3,S3,5,largest site Madelung energy,-3.0836028006299427,15.17,pass,electrostatic balance
+E3-cod-1010182-S3,S3,6,fraction of like-charge bonds,0.17391304347826086,0.0001,fail,electrostatic balance
+E3-cod-1010182-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010182-S3,S3,8,mean |BV sum - v_i| / v_i,2.3039590814847823,0.7143,fail,bond-valence conservation
+E3-cod-1010182-S4,S4,1,reduced contact rho,1.1964984148741589,0.804,pass,short-range repulsion
+E3-cod-1010182-S4,S4,2,reduced contact rho,1.1964984148741589,1.05,fail,ionic contact
+E3-cod-1010182-S4,S4,3,mean reduced cation-anion contact,1.1964984148741589,1.081,fail,packing
+E3-cod-1010182-S4,S4,4,range of site Madelung energy / valence,8.831073874220573,31.45,pass,electrostatic balance
+E3-cod-1010182-S4,S4,5,largest site Madelung energy,-3.1215452931870526,15.17,pass,electrostatic balance
+E3-cod-1010182-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010182-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010182-S4,S4,8,mean |BV sum - v_i| / v_i,0.8882744401935914,0.7143,fail,bond-valence conservation
+E3-cod-1010182-S5,S5,1,reduced contact rho,0.9538973312440798,0.804,pass,short-range repulsion
+E3-cod-1010182-S5,S5,2,reduced contact rho,0.9538973312440798,1.05,pass,ionic contact
+E3-cod-1010182-S5,S5,3,mean reduced cation-anion contact,0.9785258092880695,1.081,pass,packing
+E3-cod-1010182-S5,S5,4,range of site Madelung energy / valence,13.064512192158368,31.45,pass,electrostatic balance
+E3-cod-1010182-S5,S5,5,largest site Madelung energy,-0.6046163961149547,15.17,pass,electrostatic balance
+E3-cod-1010182-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010182-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010182-S5,S5,8,mean |BV sum - v_i| / v_i,0.3182031450028686,0.7143,pass,bond-valence conservation
+E3-cod-1010193-P0,P0,1,reduced contact rho,0.9654948236129485,0.804,pass,short-range repulsion
+E3-cod-1010193-P0,P0,2,reduced contact rho,0.9654948236129485,1.05,pass,ionic contact
+E3-cod-1010193-P0,P0,3,mean reduced cation-anion contact,0.9888185072995268,1.081,pass,packing
+E3-cod-1010193-P0,P0,4,range of site Madelung energy / valence,11.034623663777618,31.45,pass,electrostatic balance
+E3-cod-1010193-P0,P0,5,largest site Madelung energy,-3.900440427783829,15.17,pass,electrostatic balance
+E3-cod-1010193-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010193-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010193-P0,P0,8,mean |BV sum - v_i| / v_i,0.09135633623020713,0.7143,pass,bond-valence conservation
+E3-cod-1010193-S1,S1,1,reduced contact rho,0.7417069717518165,0.804,fail,short-range repulsion
+E3-cod-1010193-S1,S1,2,reduced contact rho,0.7417069717518165,1.05,pass,ionic contact
+E3-cod-1010193-S1,S1,3,mean reduced cation-anion contact,0.8325456201834269,1.081,pass,packing
+E3-cod-1010193-S1,S1,4,range of site Madelung energy / valence,11.840295631467129,31.45,pass,electrostatic balance
+E3-cod-1010193-S1,S1,5,largest site Madelung energy,-4.33934084239637,15.17,pass,electrostatic balance
+E3-cod-1010193-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010193-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010193-S1,S1,8,mean |BV sum - v_i| / v_i,1.3820557226538,0.7143,fail,bond-valence conservation
+E3-cod-1010193-S2,S2,1,reduced contact rho,0.7002012009084897,0.804,fail,short-range repulsion
+E3-cod-1010193-S2,S2,2,reduced contact rho,0.7002012009084897,1.05,pass,ionic contact
+E3-cod-1010193-S2,S2,3,mean reduced cation-anion contact,0.8965000191169439,1.081,pass,packing
+E3-cod-1010193-S2,S2,4,range of site Madelung energy / valence,8.436429062451099,31.45,pass,electrostatic balance
+E3-cod-1010193-S2,S2,5,largest site Madelung energy,-3.699164775297957,15.17,pass,electrostatic balance
+E3-cod-1010193-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010193-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010193-S2,S2,8,mean |BV sum - v_i| / v_i,2.6528530667643775,0.7143,fail,bond-valence conservation
+E3-cod-1010193-S3,S3,1,reduced contact rho,0.8345189286844135,0.804,pass,short-range repulsion
+E3-cod-1010193-S3,S3,2,reduced contact rho,0.8345189286844135,1.05,pass,ionic contact
+E3-cod-1010193-S3,S3,3,mean reduced cation-anion contact,0.9732917358729689,1.081,pass,packing
+E3-cod-1010193-S3,S3,4,range of site Madelung energy / valence,11.428425049974546,31.45,pass,electrostatic balance
+E3-cod-1010193-S3,S3,5,largest site Madelung energy,-3.87251449508923,15.17,pass,electrostatic balance
+E3-cod-1010193-S3,S3,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010193-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010193-S3,S3,8,mean |BV sum - v_i| / v_i,0.510105109229402,0.7143,pass,bond-valence conservation
+E3-cod-1010193-S4,S4,1,reduced contact rho,1.252980879099132,0.804,pass,short-range repulsion
+E3-cod-1010193-S4,S4,2,reduced contact rho,1.252980879099132,1.05,fail,ionic contact
+E3-cod-1010193-S4,S4,3,mean reduced cation-anion contact,1.252980879099132,1.081,fail,packing
+E3-cod-1010193-S4,S4,4,range of site Madelung energy / valence,8.502820917390345,31.45,pass,electrostatic balance
+E3-cod-1010193-S4,S4,5,largest site Madelung energy,-3.005516768574741,15.17,pass,electrostatic balance
+E3-cod-1010193-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010193-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010193-S4,S4,8,mean |BV sum - v_i| / v_i,0.9129822101418799,0.7143,fail,bond-valence conservation
+E3-cod-1010193-S5,S5,1,reduced contact rho,0.9654948236129485,0.804,pass,short-range repulsion
+E3-cod-1010193-S5,S5,2,reduced contact rho,0.9654948236129485,1.05,pass,ionic contact
+E3-cod-1010193-S5,S5,3,mean reduced cation-anion contact,0.9849312266850967,1.081,pass,packing
+E3-cod-1010193-S5,S5,4,range of site Madelung energy / valence,13.014476783821364,31.45,pass,electrostatic balance
+E3-cod-1010193-S5,S5,5,largest site Madelung energy,-0.6023007927597046,15.17,pass,electrostatic balance
+E3-cod-1010193-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010193-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010193-S5,S5,8,mean |BV sum - v_i| / v_i,0.3085020076230315,0.7143,pass,bond-valence conservation
+E3-cod-1010194-P0,P0,1,reduced contact rho,0.9732380956495195,0.804,pass,short-range repulsion
+E3-cod-1010194-P0,P0,2,reduced contact rho,0.9732380956495195,1.05,pass,ionic contact
+E3-cod-1010194-P0,P0,3,mean reduced cation-anion contact,0.9791979111956153,1.081,pass,packing
+E3-cod-1010194-P0,P0,4,range of site Madelung energy / valence,11.038994983437362,31.45,pass,electrostatic balance
+E3-cod-1010194-P0,P0,5,largest site Madelung energy,-3.780512976951628,15.17,pass,electrostatic balance
+E3-cod-1010194-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010194-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010194-P0,P0,8,mean |BV sum - v_i| / v_i,0.11577263575690257,0.7143,pass,bond-valence conservation
+E3-cod-1010194-S1,S1,1,reduced contact rho,0.7928342081631231,0.804,fail,short-range repulsion
+E3-cod-1010194-S1,S1,2,reduced contact rho,0.7928342081631231,1.05,pass,ionic contact
+E3-cod-1010194-S1,S1,3,mean reduced cation-anion contact,0.8656662745245527,1.081,pass,packing
+E3-cod-1010194-S1,S1,4,range of site Madelung energy / valence,11.751062926814303,31.45,pass,electrostatic balance
+E3-cod-1010194-S1,S1,5,largest site Madelung energy,-4.095862087305421,15.17,pass,electrostatic balance
+E3-cod-1010194-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010194-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010194-S1,S1,8,mean |BV sum - v_i| / v_i,0.7673098919431944,0.7143,fail,bond-valence conservation
+E3-cod-1010194-S2,S2,1,reduced contact rho,0.6753936784464337,0.804,fail,short-range repulsion
+E3-cod-1010194-S2,S2,2,reduced contact rho,0.6753936784464337,1.05,pass,ionic contact
+E3-cod-1010194-S2,S2,3,mean reduced cation-anion contact,0.8789231362035707,1.081,pass,packing
+E3-cod-1010194-S2,S2,4,range of site Madelung energy / valence,8.187127199093087,31.45,pass,electrostatic balance
+E3-cod-1010194-S2,S2,5,largest site Madelung energy,-3.5891967246220027,15.17,pass,electrostatic balance
+E3-cod-1010194-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010194-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010194-S2,S2,8,mean |BV sum - v_i| / v_i,3.8936130425008124,0.7143,fail,bond-valence conservation
+E3-cod-1010194-S3,S3,1,reduced contact rho,0.8336911335029742,0.804,pass,short-range repulsion
+E3-cod-1010194-S3,S3,2,reduced contact rho,0.8336911335029742,1.05,pass,ionic contact
+E3-cod-1010194-S3,S3,3,mean reduced cation-anion contact,0.9627242844320503,1.081,pass,packing
+E3-cod-1010194-S3,S3,4,range of site Madelung energy / valence,11.00808736270501,31.45,pass,electrostatic balance
+E3-cod-1010194-S3,S3,5,largest site Madelung energy,-3.3309899510523864,15.17,pass,electrostatic balance
+E3-cod-1010194-S3,S3,6,fraction of like-charge bonds,0.043478260869565216,0.0001,fail,electrostatic balance
+E3-cod-1010194-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010194-S3,S3,8,mean |BV sum - v_i| / v_i,0.4748451364085293,0.7143,pass,bond-valence conservation
+E3-cod-1010194-S4,S4,1,reduced contact rho,1.2145251454576282,0.804,pass,short-range repulsion
+E3-cod-1010194-S4,S4,2,reduced contact rho,1.2145251454576282,1.05,fail,ionic contact
+E3-cod-1010194-S4,S4,3,mean reduced cation-anion contact,1.2145251454576282,1.081,fail,packing
+E3-cod-1010194-S4,S4,4,range of site Madelung energy / valence,8.8459020348377,31.45,pass,electrostatic balance
+E3-cod-1010194-S4,S4,5,largest site Madelung energy,-3.0294467463498562,15.17,pass,electrostatic balance
+E3-cod-1010194-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010194-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010194-S4,S4,8,mean |BV sum - v_i| / v_i,0.8881549767931495,0.7143,fail,bond-valence conservation
+E3-cod-1010194-S5,S5,1,reduced contact rho,0.9732380956495195,0.804,pass,short-range repulsion
+E3-cod-1010194-S5,S5,2,reduced contact rho,0.9732380956495195,1.05,pass,ionic contact
+E3-cod-1010194-S5,S5,3,mean reduced cation-anion contact,0.9782046086045992,1.081,pass,packing
+E3-cod-1010194-S5,S5,4,range of site Madelung energy / valence,13.01083966611678,31.45,pass,electrostatic balance
+E3-cod-1010194-S5,S5,5,largest site Madelung energy,-0.4225260615929738,15.17,pass,electrostatic balance
+E3-cod-1010194-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010194-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010194-S5,S5,8,mean |BV sum - v_i| / v_i,0.32758326937222004,0.7143,pass,bond-valence conservation
+E3-cod-1010195-P0,P0,1,reduced contact rho,0.965501976429917,0.804,pass,short-range repulsion
+E3-cod-1010195-P0,P0,2,reduced contact rho,0.965501976429917,1.05,pass,ionic contact
+E3-cod-1010195-P0,P0,3,mean reduced cation-anion contact,1.0089430035130154,1.081,pass,packing
+E3-cod-1010195-P0,P0,4,range of site Madelung energy / valence,10.449985123405813,31.45,pass,electrostatic balance
+E3-cod-1010195-P0,P0,5,largest site Madelung energy,-3.807065585709217,15.17,pass,electrostatic balance
+E3-cod-1010195-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010195-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010195-P0,P0,8,mean |BV sum - v_i| / v_i,0.05892978482444608,0.7143,pass,bond-valence conservation
+E3-cod-1010195-S1,S1,1,reduced contact rho,0.8384048929970125,0.804,pass,short-range repulsion
+E3-cod-1010195-S1,S1,2,reduced contact rho,0.8384048929970125,1.05,pass,ionic contact
+E3-cod-1010195-S1,S1,3,mean reduced cation-anion contact,0.8789842462551325,1.081,pass,packing
+E3-cod-1010195-S1,S1,4,range of site Madelung energy / valence,11.09390941657734,31.45,pass,electrostatic balance
+E3-cod-1010195-S1,S1,5,largest site Madelung energy,-4.108985645967177,15.17,pass,electrostatic balance
+E3-cod-1010195-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010195-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010195-S1,S1,8,mean |BV sum - v_i| / v_i,0.5836402410597535,0.7143,pass,bond-valence conservation
+E3-cod-1010195-S2,S2,1,reduced contact rho,0.7335495496599671,0.804,fail,short-range repulsion
+E3-cod-1010195-S2,S2,2,reduced contact rho,0.7335495496599671,1.05,pass,ionic contact
+E3-cod-1010195-S2,S2,3,mean reduced cation-anion contact,0.924385356742516,1.081,pass,packing
+E3-cod-1010195-S2,S2,4,range of site Madelung energy / valence,8.23971392556939,31.45,pass,electrostatic balance
+E3-cod-1010195-S2,S2,5,largest site Madelung energy,-3.5953721049441176,15.17,pass,electrostatic balance
+E3-cod-1010195-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010195-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010195-S2,S2,8,mean |BV sum - v_i| / v_i,1.7918335534627137,0.7143,fail,bond-valence conservation
+E3-cod-1010195-S3,S3,1,reduced contact rho,0.8345397403482379,0.804,pass,short-range repulsion
+E3-cod-1010195-S3,S3,2,reduced contact rho,0.8345397403482379,1.05,pass,ionic contact
+E3-cod-1010195-S3,S3,3,mean reduced cation-anion contact,0.9778463569655635,1.081,pass,packing
+E3-cod-1010195-S3,S3,4,range of site Madelung energy / valence,11.526502402603118,31.45,pass,electrostatic balance
+E3-cod-1010195-S3,S3,5,largest site Madelung energy,-1.8464828482854516,15.17,pass,electrostatic balance
+E3-cod-1010195-S3,S3,6,fraction of like-charge bonds,0.17142857142857143,0.0001,fail,electrostatic balance
+E3-cod-1010195-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010195-S3,S3,8,mean |BV sum - v_i| / v_i,0.7025653349652935,0.7143,pass,bond-valence conservation
+E3-cod-1010195-S4,S4,1,reduced contact rho,1.2132018191775953,0.804,pass,short-range repulsion
+E3-cod-1010195-S4,S4,2,reduced contact rho,1.2132018191775953,1.05,fail,ionic contact
+E3-cod-1010195-S4,S4,3,mean reduced cation-anion contact,1.213201819177595,1.081,fail,packing
+E3-cod-1010195-S4,S4,4,range of site Madelung energy / valence,8.316407979960827,31.45,pass,electrostatic balance
+E3-cod-1010195-S4,S4,5,largest site Madelung energy,-3.029775664111904,15.17,pass,electrostatic balance
+E3-cod-1010195-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010195-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010195-S4,S4,8,mean |BV sum - v_i| / v_i,0.8870377473705305,0.7143,fail,bond-valence conservation
+E3-cod-1010195-S5,S5,1,reduced contact rho,0.965501976429917,0.804,pass,short-range repulsion
+E3-cod-1010195-S5,S5,2,reduced contact rho,0.965501976429917,1.05,pass,ionic contact
+E3-cod-1010195-S5,S5,3,mean reduced cation-anion contact,1.001702832332499,1.081,pass,packing
+E3-cod-1010195-S5,S5,4,range of site Madelung energy / valence,12.319684838745472,31.45,pass,electrostatic balance
+E3-cod-1010195-S5,S5,5,largest site Madelung energy,-0.7530247205775651,15.17,pass,electrostatic balance
+E3-cod-1010195-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010195-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010195-S5,S5,8,mean |BV sum - v_i| / v_i,0.31646782143525826,0.7143,pass,bond-valence conservation
+E3-cod-1010285-P0,P0,1,reduced contact rho,0.9854023214718687,0.804,pass,short-range repulsion
+E3-cod-1010285-P0,P0,2,reduced contact rho,0.9854023214718687,1.05,pass,ionic contact
+E3-cod-1010285-P0,P0,3,mean reduced cation-anion contact,1.0041484466098416,1.081,pass,packing
+E3-cod-1010285-P0,P0,4,range of site Madelung energy / valence,14.431562978125392,31.45,pass,electrostatic balance
+E3-cod-1010285-P0,P0,5,largest site Madelung energy,-4.294939431977234,15.17,pass,electrostatic balance
+E3-cod-1010285-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010285-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010285-P0,P0,8,mean |BV sum - v_i| / v_i,0.17179134821798003,0.7143,pass,bond-valence conservation
+E3-cod-1010285-S1,S1,1,reduced contact rho,0.8167163631241063,0.804,pass,short-range repulsion
+E3-cod-1010285-S1,S1,2,reduced contact rho,0.8167163631241063,1.05,pass,ionic contact
+E3-cod-1010285-S1,S1,3,mean reduced cation-anion contact,0.954046646664941,1.081,pass,packing
+E3-cod-1010285-S1,S1,4,range of site Madelung energy / valence,15.142629032328966,31.45,pass,electrostatic balance
+E3-cod-1010285-S1,S1,5,largest site Madelung energy,-4.537239689904791,15.17,pass,electrostatic balance
+E3-cod-1010285-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010285-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010285-S1,S1,8,mean |BV sum - v_i| / v_i,0.5148084718240874,0.7143,pass,bond-valence conservation
+E3-cod-1010285-S2,S2,1,reduced contact rho,0.6222999995299315,0.804,fail,short-range repulsion
+E3-cod-1010285-S2,S2,2,reduced contact rho,0.6222999995299315,1.05,pass,ionic contact
+E3-cod-1010285-S2,S2,3,mean reduced cation-anion contact,0.8643682141578898,1.081,pass,packing
+E3-cod-1010285-S2,S2,4,range of site Madelung energy / valence,9.525935566361936,31.45,pass,electrostatic balance
+E3-cod-1010285-S2,S2,5,largest site Madelung energy,-3.9601390918513206,15.17,pass,electrostatic balance
+E3-cod-1010285-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010285-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010285-S2,S2,8,mean |BV sum - v_i| / v_i,4.164143411898981,0.7143,fail,bond-valence conservation
+E3-cod-1010285-S3,S3,1,reduced contact rho,0.5437057859669419,0.804,fail,short-range repulsion
+E3-cod-1010285-S3,S3,2,reduced contact rho,0.5437057859669419,1.05,pass,ionic contact
+E3-cod-1010285-S3,S3,3,mean reduced cation-anion contact,0.7265985491975684,1.081,pass,packing
+E3-cod-1010285-S3,S3,4,range of site Madelung energy / valence,17.223978265643495,31.45,pass,electrostatic balance
+E3-cod-1010285-S3,S3,5,largest site Madelung energy,0.31936639279915546,15.17,pass,electrostatic balance
+E3-cod-1010285-S3,S3,6,fraction of like-charge bonds,0.3076923076923077,0.0001,fail,electrostatic balance
+E3-cod-1010285-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010285-S3,S3,8,mean |BV sum - v_i| / v_i,2.2061367324905783,0.7143,fail,bond-valence conservation
+E3-cod-1010285-S4,S4,1,reduced contact rho,1.314163560100052,0.804,pass,short-range repulsion
+E3-cod-1010285-S4,S4,2,reduced contact rho,1.314163560100052,1.05,fail,ionic contact
+E3-cod-1010285-S4,S4,3,mean reduced cation-anion contact,1.3141635601000523,1.081,fail,packing
+E3-cod-1010285-S4,S4,4,range of site Madelung energy / valence,11.850560738078082,31.45,pass,electrostatic balance
+E3-cod-1010285-S4,S4,5,largest site Madelung energy,-3.5268141560384283,15.17,pass,electrostatic balance
+E3-cod-1010285-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010285-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010285-S4,S4,8,mean |BV sum - v_i| / v_i,0.872118839298607,0.7143,fail,bond-valence conservation
+E3-cod-1010285-S5,S5,1,reduced contact rho,0.9854023214718687,0.804,pass,short-range repulsion
+E3-cod-1010285-S5,S5,2,reduced contact rho,0.9854023214718687,1.05,pass,ionic contact
+E3-cod-1010285-S5,S5,3,mean reduced cation-anion contact,0.9898656845999577,1.081,pass,packing
+E3-cod-1010285-S5,S5,4,range of site Madelung energy / valence,13.641290701882141,31.45,pass,electrostatic balance
+E3-cod-1010285-S5,S5,5,largest site Madelung energy,-0.37342092883322486,15.17,pass,electrostatic balance
+E3-cod-1010285-S5,S5,6,fraction of like-charge bonds,0.3888888888888889,0.0001,fail,electrostatic balance
+E3-cod-1010285-S5,S5,7,inequivalent sites / sites,0.5555555555555556,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010285-S5,S5,8,mean |BV sum - v_i| / v_i,0.49159485433262634,0.7143,pass,bond-valence conservation
+E3-cod-1010286-P0,P0,1,reduced contact rho,0.9666666662306836,0.804,pass,short-range repulsion
+E3-cod-1010286-P0,P0,2,reduced contact rho,0.9666666662306836,1.05,pass,ionic contact
+E3-cod-1010286-P0,P0,3,mean reduced cation-anion contact,0.9933512964068133,1.081,pass,packing
+E3-cod-1010286-P0,P0,4,range of site Madelung energy / valence,15.301351250366181,31.45,pass,electrostatic balance
+E3-cod-1010286-P0,P0,5,largest site Madelung energy,-4.2106778686733115,15.17,pass,electrostatic balance
+E3-cod-1010286-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010286-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010286-P0,P0,8,mean |BV sum - v_i| / v_i,0.06821107068770421,0.7143,pass,bond-valence conservation
+E3-cod-1010286-S1,S1,1,reduced contact rho,0.8182393288180176,0.804,pass,short-range repulsion
+E3-cod-1010286-S1,S1,2,reduced contact rho,0.8182393288180176,1.05,pass,ionic contact
+E3-cod-1010286-S1,S1,3,mean reduced cation-anion contact,0.9414402402285948,1.081,pass,packing
+E3-cod-1010286-S1,S1,4,range of site Madelung energy / valence,16.09467668676959,31.45,pass,electrostatic balance
+E3-cod-1010286-S1,S1,5,largest site Madelung energy,-4.4630222216139055,15.17,pass,electrostatic balance
+E3-cod-1010286-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010286-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010286-S1,S1,8,mean |BV sum - v_i| / v_i,0.6675928121618447,0.7143,pass,bond-valence conservation
+E3-cod-1010286-S2,S2,1,reduced contact rho,0.5993333330630238,0.804,fail,short-range repulsion
+E3-cod-1010286-S2,S2,2,reduced contact rho,0.5993333330630238,1.05,pass,ionic contact
+E3-cod-1010286-S2,S2,3,mean reduced cation-anion contact,0.8664594136549052,1.081,pass,packing
+E3-cod-1010286-S2,S2,4,range of site Madelung energy / valence,9.561207755782853,31.45,pass,electrostatic balance
+E3-cod-1010286-S2,S2,5,largest site Madelung energy,-3.7383680146000873,15.17,pass,electrostatic balance
+E3-cod-1010286-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010286-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010286-S2,S2,8,mean |BV sum - v_i| / v_i,5.084815962692001,0.7143,fail,bond-valence conservation
+E3-cod-1010286-S3,S3,1,reduced contact rho,0.4694695021732206,0.804,fail,short-range repulsion
+E3-cod-1010286-S3,S3,2,reduced contact rho,0.4694695021732206,1.05,pass,ionic contact
+E3-cod-1010286-S3,S3,3,mean reduced cation-anion contact,0.5584593026057049,1.081,pass,packing
+E3-cod-1010286-S3,S3,4,range of site Madelung energy / valence,15.375324209872293,31.45,pass,electrostatic balance
+E3-cod-1010286-S3,S3,5,largest site Madelung energy,-1.3631544238497244,15.17,pass,electrostatic balance
+E3-cod-1010286-S3,S3,6,fraction of like-charge bonds,0.42857142857142855,0.0001,fail,electrostatic balance
+E3-cod-1010286-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010286-S3,S3,8,mean |BV sum - v_i| / v_i,4.3008014460757975,0.7143,fail,bond-valence conservation
+E3-cod-1010286-S4,S4,1,reduced contact rho,1.1832400897954338,0.804,pass,short-range repulsion
+E3-cod-1010286-S4,S4,2,reduced contact rho,1.1832400897954338,1.05,fail,ionic contact
+E3-cod-1010286-S4,S4,3,mean reduced cation-anion contact,1.183240089795434,1.081,fail,packing
+E3-cod-1010286-S4,S4,4,range of site Madelung energy / valence,12.500680402549069,31.45,pass,electrostatic balance
+E3-cod-1010286-S4,S4,5,largest site Madelung energy,-3.4399797412082727,15.17,pass,electrostatic balance
+E3-cod-1010286-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010286-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010286-S4,S4,8,mean |BV sum - v_i| / v_i,0.8067972225305147,0.7143,fail,bond-valence conservation
+E3-cod-1010286-S5,S5,1,reduced contact rho,0.9666666662306838,0.804,pass,short-range repulsion
+E3-cod-1010286-S5,S5,2,reduced contact rho,0.9666666662306838,1.05,pass,ionic contact
+E3-cod-1010286-S5,S5,3,mean reduced cation-anion contact,0.9889038580441252,1.081,pass,packing
+E3-cod-1010286-S5,S5,4,range of site Madelung energy / valence,17.631250568423113,31.45,pass,electrostatic balance
+E3-cod-1010286-S5,S5,5,largest site Madelung energy,0.5837209771925038,15.17,pass,electrostatic balance
+E3-cod-1010286-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010286-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010286-S5,S5,8,mean |BV sum - v_i| / v_i,0.3157857180541767,0.7143,pass,bond-valence conservation
+E3-cod-1010888-P0,P0,1,reduced contact rho,0.9237938145997189,0.804,pass,short-range repulsion
+E3-cod-1010888-P0,P0,2,reduced contact rho,0.9237938145997189,1.05,pass,ionic contact
+E3-cod-1010888-P0,P0,3,mean reduced cation-anion contact,0.9845536383419978,1.081,pass,packing
+E3-cod-1010888-P0,P0,4,range of site Madelung energy / valence,11.58187779908363,31.45,pass,electrostatic balance
+E3-cod-1010888-P0,P0,5,largest site Madelung energy,-3.9664334826311816,15.17,pass,electrostatic balance
+E3-cod-1010888-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010888-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010888-P0,P0,8,mean |BV sum - v_i| / v_i,0.5682242714990272,0.7143,pass,bond-valence conservation
+E3-cod-1010888-S1,S1,1,reduced contact rho,0.7557254854126099,0.804,fail,short-range repulsion
+E3-cod-1010888-S1,S1,2,reduced contact rho,0.7557254854126099,1.05,pass,ionic contact
+E3-cod-1010888-S1,S1,3,mean reduced cation-anion contact,0.8162708981839396,1.081,pass,packing
+E3-cod-1010888-S1,S1,4,range of site Madelung energy / valence,12.442606070162322,31.45,pass,electrostatic balance
+E3-cod-1010888-S1,S1,5,largest site Madelung energy,-4.417983487646863,15.17,pass,electrostatic balance
+E3-cod-1010888-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010888-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010888-S1,S1,8,mean |BV sum - v_i| / v_i,1.186527655937804,0.7143,fail,bond-valence conservation
+E3-cod-1010888-S2,S2,1,reduced contact rho,0.7022570534182816,0.804,fail,short-range repulsion
+E3-cod-1010888-S2,S2,2,reduced contact rho,0.7022570534182816,1.05,pass,ionic contact
+E3-cod-1010888-S2,S2,3,mean reduced cation-anion contact,0.9005814139911388,1.081,pass,packing
+E3-cod-1010888-S2,S2,4,range of site Madelung energy / valence,8.589759021334734,31.45,pass,electrostatic balance
+E3-cod-1010888-S2,S2,5,largest site Madelung energy,-3.765708556242057,15.17,pass,electrostatic balance
+E3-cod-1010888-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010888-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010888-S2,S2,8,mean |BV sum - v_i| / v_i,2.2770460507398003,0.7143,fail,bond-valence conservation
+E3-cod-1010888-S3,S3,1,reduced contact rho,0.6662546323168109,0.804,fail,short-range repulsion
+E3-cod-1010888-S3,S3,2,reduced contact rho,0.6662546323168109,1.05,pass,ionic contact
+E3-cod-1010888-S3,S3,3,mean reduced cation-anion contact,0.9374485808990977,1.081,pass,packing
+E3-cod-1010888-S3,S3,4,range of site Madelung energy / valence,12.521261602382754,31.45,pass,electrostatic balance
+E3-cod-1010888-S3,S3,5,largest site Madelung energy,-3.6103430816144844,15.17,pass,electrostatic balance
+E3-cod-1010888-S3,S3,6,fraction of like-charge bonds,0.06451612903225806,0.0001,fail,electrostatic balance
+E3-cod-1010888-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1010888-S3,S3,8,mean |BV sum - v_i| / v_i,0.6508675441128489,0.7143,pass,bond-valence conservation
+E3-cod-1010888-S4,S4,1,reduced contact rho,1.1383424950221994,0.804,pass,short-range repulsion
+E3-cod-1010888-S4,S4,2,reduced contact rho,1.1383424950221994,1.05,fail,ionic contact
+E3-cod-1010888-S4,S4,3,mean reduced cation-anion contact,1.1383424950221994,1.081,fail,packing
+E3-cod-1010888-S4,S4,4,range of site Madelung energy / valence,9.398987667621608,31.45,pass,electrostatic balance
+E3-cod-1010888-S4,S4,5,largest site Madelung energy,-3.218861400060841,15.17,pass,electrostatic balance
+E3-cod-1010888-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1010888-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010888-S4,S4,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1010888-S5,S5,1,reduced contact rho,0.9237938145997189,0.804,pass,short-range repulsion
+E3-cod-1010888-S5,S5,2,reduced contact rho,0.9237938145997189,1.05,pass,ionic contact
+E3-cod-1010888-S5,S5,3,mean reduced cation-anion contact,0.9744270010516181,1.081,pass,packing
+E3-cod-1010888-S5,S5,4,range of site Madelung energy / valence,13.650695131443221,31.45,pass,electrostatic balance
+E3-cod-1010888-S5,S5,5,largest site Madelung energy,-0.4433053207869224,15.17,pass,electrostatic balance
+E3-cod-1010888-S5,S5,6,fraction of like-charge bonds,0.15384615384615385,0.0001,fail,electrostatic balance
+E3-cod-1010888-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1010888-S5,S5,8,mean |BV sum - v_i| / v_i,0.8200934464579279,0.7143,fail,bond-valence conservation
+E3-cod-1011311-P0,P0,1,reduced contact rho,0.9689127043315789,0.804,pass,short-range repulsion
+E3-cod-1011311-P0,P0,2,reduced contact rho,0.9689127043315789,1.05,pass,ionic contact
+E3-cod-1011311-P0,P0,3,mean reduced cation-anion contact,0.9915553070682975,1.081,pass,packing
+E3-cod-1011311-P0,P0,4,range of site Madelung energy / valence,10.748742944811077,31.45,pass,electrostatic balance
+E3-cod-1011311-P0,P0,5,largest site Madelung energy,-3.984788409599589,15.17,pass,electrostatic balance
+E3-cod-1011311-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1011311-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011311-P0,P0,8,mean |BV sum - v_i| / v_i,0.037439447299410206,0.7143,pass,bond-valence conservation
+E3-cod-1011311-S1,S1,1,reduced contact rho,0.7674650232643536,0.804,fail,short-range repulsion
+E3-cod-1011311-S1,S1,2,reduced contact rho,0.7674650232643536,1.05,pass,ionic contact
+E3-cod-1011311-S1,S1,3,mean reduced cation-anion contact,0.843336985149034,1.081,pass,packing
+E3-cod-1011311-S1,S1,4,range of site Madelung energy / valence,11.510155843939913,31.45,pass,electrostatic balance
+E3-cod-1011311-S1,S1,5,largest site Madelung energy,-4.42368558609827,15.17,pass,electrostatic balance
+E3-cod-1011311-S1,S1,6,fraction of like-charge bonds,0.2857142857142857,0.0001,fail,electrostatic balance
+E3-cod-1011311-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011311-S1,S1,8,mean |BV sum - v_i| / v_i,0.9896354303943282,0.7143,fail,bond-valence conservation
+E3-cod-1011311-S2,S2,1,reduced contact rho,0.7411119117771325,0.804,fail,short-range repulsion
+E3-cod-1011311-S2,S2,2,reduced contact rho,0.7411119117771325,1.05,pass,ionic contact
+E3-cod-1011311-S2,S2,3,mean reduced cation-anion contact,0.9118479424273622,1.081,pass,packing
+E3-cod-1011311-S2,S2,4,range of site Madelung energy / valence,8.635381311376122,31.45,pass,electrostatic balance
+E3-cod-1011311-S2,S2,5,largest site Madelung energy,-3.7479261802435624,15.17,pass,electrostatic balance
+E3-cod-1011311-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1011311-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011311-S2,S2,8,mean |BV sum - v_i| / v_i,1.4707286962067645,0.7143,fail,bond-valence conservation
+E3-cod-1011311-S3,S3,1,reduced contact rho,0.41585292557598663,0.804,fail,short-range repulsion
+E3-cod-1011311-S3,S3,2,reduced contact rho,0.41585292557598663,1.05,pass,ionic contact
+E3-cod-1011311-S3,S3,3,mean reduced cation-anion contact,0.7886895131093705,1.081,pass,packing
+E3-cod-1011311-S3,S3,4,range of site Madelung energy / valence,11.535886002000991,31.45,pass,electrostatic balance
+E3-cod-1011311-S3,S3,5,largest site Madelung energy,-3.386867382462549,15.17,pass,electrostatic balance
+E3-cod-1011311-S3,S3,6,fraction of like-charge bonds,0.25925925925925924,0.0001,fail,electrostatic balance
+E3-cod-1011311-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1011311-S3,S3,8,mean |BV sum - v_i| / v_i,8.223621772073944,0.7143,fail,bond-valence conservation
+E3-cod-1011311-S4,S4,1,reduced contact rho,1.190423667045542,0.804,pass,short-range repulsion
+E3-cod-1011311-S4,S4,2,reduced contact rho,1.190423667045542,1.05,fail,ionic contact
+E3-cod-1011311-S4,S4,3,mean reduced cation-anion contact,1.1904236670455417,1.081,fail,packing
+E3-cod-1011311-S4,S4,4,range of site Madelung energy / valence,8.748644607066135,31.45,pass,electrostatic balance
+E3-cod-1011311-S4,S4,5,largest site Madelung energy,-3.2433092696455628,15.17,pass,electrostatic balance
+E3-cod-1011311-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1011311-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011311-S4,S4,8,mean |BV sum - v_i| / v_i,0.8792175297518222,0.7143,fail,bond-valence conservation
+E3-cod-1011311-S5,S5,1,reduced contact rho,0.9689127043315789,0.804,pass,short-range repulsion
+E3-cod-1011311-S5,S5,2,reduced contact rho,0.9689127043315789,1.05,pass,ionic contact
+E3-cod-1011311-S5,S5,3,mean reduced cation-anion contact,0.9958681837800535,1.081,pass,packing
+E3-cod-1011311-S5,S5,4,range of site Madelung energy / valence,10.889796283708488,31.45,pass,electrostatic balance
+E3-cod-1011311-S5,S5,5,largest site Madelung energy,-1.0244621108177387,15.17,pass,electrostatic balance
+E3-cod-1011311-S5,S5,6,fraction of like-charge bonds,0.3888888888888889,0.0001,fail,electrostatic balance
+E3-cod-1011311-S5,S5,7,inequivalent sites / sites,0.5555555555555556,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011311-S5,S5,8,mean |BV sum - v_i| / v_i,0.5448579720207943,0.7143,pass,bond-valence conservation
+E3-cod-1011312-P0,P0,1,reduced contact rho,0.9703474908509114,0.804,pass,short-range repulsion
+E3-cod-1011312-P0,P0,2,reduced contact rho,0.9703474908509114,1.05,pass,ionic contact
+E3-cod-1011312-P0,P0,3,mean reduced cation-anion contact,1.003430448756522,1.081,pass,packing
+E3-cod-1011312-P0,P0,4,range of site Madelung energy / valence,10.096494159525662,31.45,pass,electrostatic balance
+E3-cod-1011312-P0,P0,5,largest site Madelung energy,-3.7643719235768414,15.17,pass,electrostatic balance
+E3-cod-1011312-P0,P0,6,fraction of like-charge bonds,0.5061878019666538,0.0001,not triggered,electrostatic balance
+E3-cod-1011312-P0,P0,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011312-P0,P0,8,mean |BV sum - v_i| / v_i,0.06308547074817733,0.7143,pass,bond-valence conservation
+E3-cod-1011312-S1,S1,1,reduced contact rho,0.8445879435208743,0.804,pass,short-range repulsion
+E3-cod-1011312-S1,S1,2,reduced contact rho,0.8445879435208743,1.05,pass,ionic contact
+E3-cod-1011312-S1,S1,3,mean reduced cation-anion contact,0.9526366177560479,1.081,pass,packing
+E3-cod-1011312-S1,S1,4,range of site Madelung energy / valence,10.585537647419747,31.45,pass,electrostatic balance
+E3-cod-1011312-S1,S1,5,largest site Madelung energy,-3.9778741180687684,15.17,pass,electrostatic balance
+E3-cod-1011312-S1,S1,6,fraction of like-charge bonds,0.5061878019666538,0.0001,not triggered,electrostatic balance
+E3-cod-1011312-S1,S1,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011312-S1,S1,8,mean |BV sum - v_i| / v_i,0.5718371395972967,0.7143,pass,bond-valence conservation
+E3-cod-1011312-S2,S2,1,reduced contact rho,0.7524550902107366,0.804,fail,short-range repulsion
+E3-cod-1011312-S2,S2,2,reduced contact rho,0.7524550902107366,1.05,pass,ionic contact
+E3-cod-1011312-S2,S2,3,mean reduced cation-anion contact,0.9252858222255286,1.081,pass,packing
+E3-cod-1011312-S2,S2,4,range of site Madelung energy / valence,8.1624057889739,31.45,pass,electrostatic balance
+E3-cod-1011312-S2,S2,5,largest site Madelung energy,-3.5348974022850994,15.17,pass,electrostatic balance
+E3-cod-1011312-S2,S2,6,fraction of like-charge bonds,0.5061878019666538,0.0001,not triggered,electrostatic balance
+E3-cod-1011312-S2,S2,7,inequivalent sites / sites,0.4444444444444444,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011312-S2,S2,8,mean |BV sum - v_i| / v_i,1.4271033504827997,0.7143,fail,bond-valence conservation
+E3-cod-1011312-S3,S3,1,reduced contact rho,0.7144740510842692,0.804,fail,short-range repulsion
+E3-cod-1011312-S3,S3,2,reduced contact rho,0.7144740510842692,1.05,pass,ionic contact
+E3-cod-1011312-S3,S3,3,mean reduced cation-anion contact,0.8993525813069817,1.081,pass,packing
+E3-cod-1011312-S3,S3,4,range of site Madelung energy / valence,12.468249798249358,31.45,pass,electrostatic balance
+E3-cod-1011312-S3,S3,5,largest site Madelung energy,-3.778718935737986,15.17,pass,electrostatic balance
+E3-cod-1011312-S3,S3,6,fraction of like-charge bonds,0.5061878019666538,0.0001,not triggered,electrostatic balance
+E3-cod-1011312-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1011312-S3,S3,8,mean |BV sum - v_i| / v_i,1.3331496248876435,0.7143,fail,bond-valence conservation
+E3-cod-1011312-S4,S4,1,reduced contact rho,1.2324294160302502,0.804,pass,short-range repulsion
+E3-cod-1011312-S4,S4,2,reduced contact rho,1.2324294160302502,1.05,fail,ionic contact
+E3-cod-1011312-S4,S4,3,mean reduced cation-anion contact,1.2324294160302502,1.081,fail,packing
+E3-cod-1011312-S4,S4,4,range of site Madelung energy / valence,7.949427080086941,31.45,pass,electrostatic balance
+E3-cod-1011312-S4,S4,5,largest site Madelung energy,-2.9638604882040154,15.17,pass,electrostatic balance
+E3-cod-1011312-S4,S4,6,fraction of like-charge bonds,0.5061878019666538,0.0001,not triggered,electrostatic balance
+E3-cod-1011312-S4,S4,7,inequivalent sites / sites,0.3333333333333333,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011312-S4,S4,8,mean |BV sum - v_i| / v_i,0.9096371514661574,0.7143,fail,bond-valence conservation
+E3-cod-1011312-S5,S5,1,reduced contact rho,0.9703474908509114,0.804,pass,short-range repulsion
+E3-cod-1011312-S5,S5,2,reduced contact rho,0.9703474908509114,1.05,pass,ionic contact
+E3-cod-1011312-S5,S5,3,mean reduced cation-anion contact,0.9979166224389203,1.081,pass,packing
+E3-cod-1011312-S5,S5,4,range of site Madelung energy / valence,11.888673348837177,31.45,pass,electrostatic balance
+E3-cod-1011312-S5,S5,5,largest site Madelung energy,-0.8776512699787848,15.17,pass,electrostatic balance
+E3-cod-1011312-S5,S5,6,fraction of like-charge bonds,0.5061878019666538,0.0001,not triggered,electrostatic balance
+E3-cod-1011312-S5,S5,7,inequivalent sites / sites,0.6666666666666666,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1011312-S5,S5,8,mean |BV sum - v_i| / v_i,0.37210673507253705,0.7143,pass,bond-valence conservation
+E3-cod-1100971-P0,P0,1,reduced contact rho,0.9877786704424887,0.804,pass,short-range repulsion
+E3-cod-1100971-P0,P0,2,reduced contact rho,0.9877786704424887,1.05,pass,ionic contact
+E3-cod-1100971-P0,P0,3,mean reduced cation-anion contact,3.5,1.081,not triggered,packing
+E3-cod-1100971-P0,P0,4,range of site Madelung energy / valence,19.2859926414353,31.45,pass,electrostatic balance
+E3-cod-1100971-P0,P0,5,largest site Madelung energy,-6.964893049780592,15.17,pass,electrostatic balance
+E3-cod-1100971-P0,P0,6,fraction of like-charge bonds,0.5335997514858095,0.0001,not triggered,electrostatic balance
+E3-cod-1100971-P0,P0,7,inequivalent sites / sites,0.35714285714285715,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1100971-P0,P0,8,mean |BV sum - v_i| / v_i,0.03901007024312234,0.7143,pass,bond-valence conservation
+E3-cod-1100971-S1,S1,1,reduced contact rho,0.8225688834287229,0.804,pass,short-range repulsion
+E3-cod-1100971-S1,S1,2,reduced contact rho,0.8225688834287229,1.05,pass,ionic contact
+E3-cod-1100971-S1,S1,3,mean reduced cation-anion contact,0.9075568890518942,1.081,pass,packing
+E3-cod-1100971-S1,S1,4,range of site Madelung energy / valence,21.037778864033818,31.45,pass,electrostatic balance
+E3-cod-1100971-S1,S1,5,largest site Madelung energy,-7.7602012778178295,15.17,pass,electrostatic balance
+E3-cod-1100971-S1,S1,6,fraction of like-charge bonds,0.5335997514858095,0.0001,not triggered,electrostatic balance
+E3-cod-1100971-S1,S1,7,inequivalent sites / sites,0.35714285714285715,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1100971-S1,S1,8,mean |BV sum - v_i| / v_i,0.9700664242420162,0.7143,fail,bond-valence conservation
+E3-cod-1100971-S2,S2,1,reduced contact rho,0.8643063366371776,0.804,pass,short-range repulsion
+E3-cod-1100971-S2,S2,2,reduced contact rho,0.8643063366371776,1.05,pass,ionic contact
+E3-cod-1100971-S2,S2,3,mean reduced cation-anion contact,3.5,1.081,not triggered,packing
+E3-cod-1100971-S2,S2,4,range of site Madelung energy / valence,16.538720476509777,31.45,pass,electrostatic balance
+E3-cod-1100971-S2,S2,5,largest site Madelung energy,-10.722229074499756,15.17,pass,electrostatic balance
+E3-cod-1100971-S2,S2,6,fraction of like-charge bonds,0.5335997514858095,0.0001,not triggered,electrostatic balance
+E3-cod-1100971-S2,S2,7,inequivalent sites / sites,0.6428571428571429,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1100971-S2,S2,8,mean |BV sum - v_i| / v_i,0.2590655288584759,0.7143,pass,bond-valence conservation
+E3-cod-1100971-S3,S3,1,reduced contact rho,0.5198215327520579,0.804,fail,short-range repulsion
+E3-cod-1100971-S3,S3,2,reduced contact rho,0.5198215327520579,1.05,pass,ionic contact
+E3-cod-1100971-S3,S3,3,mean reduced cation-anion contact,0.7031845514517439,1.081,pass,packing
+E3-cod-1100971-S3,S3,4,range of site Madelung energy / valence,23.608526960540836,31.45,pass,electrostatic balance
+E3-cod-1100971-S3,S3,5,largest site Madelung energy,-5.025281084894294,15.17,pass,electrostatic balance
+E3-cod-1100971-S3,S3,6,fraction of like-charge bonds,0.5335997514858095,0.0001,not triggered,electrostatic balance
+E3-cod-1100971-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1100971-S3,S3,8,mean |BV sum - v_i| / v_i,1.2204067193845796,0.7143,fail,bond-valence conservation
+E3-cod-1100971-S4,S4,1,reduced contact rho,1.2562359497115918,0.804,pass,short-range repulsion
+E3-cod-1100971-S4,S4,2,reduced contact rho,1.2562359497115918,1.05,fail,ionic contact
+E3-cod-1100971-S4,S4,3,mean reduced cation-anion contact,1.3115217856870622,1.081,fail,packing
+E3-cod-1100971-S4,S4,4,range of site Madelung energy / valence,15.164581282595977,31.45,pass,electrostatic balance
+E3-cod-1100971-S4,S4,5,largest site Madelung energy,-5.476497307743715,15.17,pass,electrostatic balance
+E3-cod-1100971-S4,S4,6,fraction of like-charge bonds,0.5335997514858095,0.0001,not triggered,electrostatic balance
+E3-cod-1100971-S4,S4,7,inequivalent sites / sites,0.35714285714285715,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1100971-S4,S4,8,mean |BV sum - v_i| / v_i,0.7614696872621706,0.7143,fail,bond-valence conservation
+E3-cod-1100971-S5,S5,1,reduced contact rho,0.9763921728005004,0.804,pass,short-range repulsion
+E3-cod-1100971-S5,S5,2,reduced contact rho,0.9763921728005004,1.05,pass,ionic contact
+E3-cod-1100971-S5,S5,3,mean reduced cation-anion contact,3.625,1.081,not triggered,packing
+E3-cod-1100971-S5,S5,4,range of site Madelung energy / valence,23.62152375712522,31.45,pass,electrostatic balance
+E3-cod-1100971-S5,S5,5,largest site Madelung energy,-0.7155465408477291,15.17,pass,electrostatic balance
+E3-cod-1100971-S5,S5,6,fraction of like-charge bonds,0.5335997514858095,0.0001,not triggered,electrostatic balance
+E3-cod-1100971-S5,S5,7,inequivalent sites / sites,0.8571428571428571,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1100971-S5,S5,8,mean |BV sum - v_i| / v_i,0.25193164123589995,0.7143,pass,bond-valence conservation
+E3-cod-1501467-P0,P0,1,reduced contact rho,0.9631169117902989,0.804,pass,short-range repulsion
+E3-cod-1501467-P0,P0,2,reduced contact rho,0.9631169117902989,1.05,pass,ionic contact
+E3-cod-1501467-P0,P0,3,mean reduced cation-anion contact,0.9709711998736646,1.081,pass,packing
+E3-cod-1501467-P0,P0,4,range of site Madelung energy / valence,25.99026060970888,31.45,pass,electrostatic balance
+E3-cod-1501467-P0,P0,5,largest site Madelung energy,-7.224644637944582,15.17,pass,electrostatic balance
+E3-cod-1501467-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1501467-P0,P0,7,inequivalent sites / sites,0.25,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1501467-P0,P0,8,mean |BV sum - v_i| / v_i,0.06535515888576468,0.7143,pass,bond-valence conservation
+E3-cod-1501467-S1,S1,1,reduced contact rho,0.8428620261376918,0.804,pass,short-range repulsion
+E3-cod-1501467-S1,S1,2,reduced contact rho,0.8428620261376918,1.05,pass,ionic contact
+E3-cod-1501467-S1,S1,3,mean reduced cation-anion contact,0.912199773025541,1.081,pass,packing
+E3-cod-1501467-S1,S1,4,range of site Madelung energy / valence,28.010608487461145,31.45,pass,electrostatic balance
+E3-cod-1501467-S1,S1,5,largest site Madelung energy,-7.620814725959041,15.17,pass,electrostatic balance
+E3-cod-1501467-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1501467-S1,S1,7,inequivalent sites / sites,0.5,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1501467-S1,S1,8,mean |BV sum - v_i| / v_i,0.4836651112895689,0.7143,pass,bond-valence conservation
+E3-cod-1501467-S2,S2,1,reduced contact rho,0.622658655879905,0.804,fail,short-range repulsion
+E3-cod-1501467-S2,S2,2,reduced contact rho,0.622658655879905,1.05,pass,ionic contact
+E3-cod-1501467-S2,S2,3,mean reduced cation-anion contact,1.0689345631402039,1.081,pass,packing
+E3-cod-1501467-S2,S2,4,range of site Madelung energy / valence,26.326087371338417,31.45,pass,electrostatic balance
+E3-cod-1501467-S2,S2,5,largest site Madelung energy,-7.224644637944582,15.17,pass,electrostatic balance
+E3-cod-1501467-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1501467-S2,S2,7,inequivalent sites / sites,0.5,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1501467-S2,S2,8,mean |BV sum - v_i| / v_i,1.2473079824883757,0.7143,fail,bond-valence conservation
+E3-cod-1501467-S3,S3,1,reduced contact rho,0.5632875918802226,0.804,fail,short-range repulsion
+E3-cod-1501467-S3,S3,2,reduced contact rho,0.5632875918802226,1.05,pass,ionic contact
+E3-cod-1501467-S3,S3,3,mean reduced cation-anion contact,0.8081848850561207,1.081,pass,packing
+E3-cod-1501467-S3,S3,4,range of site Madelung energy / valence,28.95273476435035,31.45,pass,electrostatic balance
+E3-cod-1501467-S3,S3,5,largest site Madelung energy,-1.7409373273291593,15.17,pass,electrostatic balance
+E3-cod-1501467-S3,S3,6,fraction of like-charge bonds,0.16666666666666666,0.0001,fail,electrostatic balance
+E3-cod-1501467-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1501467-S3,S3,8,mean |BV sum - v_i| / v_i,1.2364082458244836,0.7143,fail,bond-valence conservation
+E3-cod-1501467-S4,S4,1,reduced contact rho,1.1675208125703025,0.804,pass,short-range repulsion
+E3-cod-1501467-S4,S4,2,reduced contact rho,1.1675208125703025,1.05,fail,ionic contact
+E3-cod-1501467-S4,S4,3,mean reduced cation-anion contact,1.1770420292502242,1.081,fail,packing
+E3-cod-1501467-S4,S4,4,range of site Madelung energy / valence,21.440011403257603,31.45,pass,electrostatic balance
+E3-cod-1501467-S4,S4,5,largest site Madelung energy,-5.959788774266958,15.17,pass,electrostatic balance
+E3-cod-1501467-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1501467-S4,S4,7,inequivalent sites / sites,0.25,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1501467-S4,S4,8,mean |BV sum - v_i| / v_i,0.6760019699836349,0.7143,pass,bond-valence conservation
+E3-cod-1501467-S5,S5,1,reduced contact rho,0.9631169117902989,0.804,pass,short-range repulsion
+E3-cod-1501467-S5,S5,2,reduced contact rho,0.9631169117902989,1.05,pass,ionic contact
+E3-cod-1501467-S5,S5,3,mean reduced cation-anion contact,0.9714021814252961,1.081,pass,packing
+E3-cod-1501467-S5,S5,4,range of site Madelung energy / valence,39.04615350719362,31.45,fail,electrostatic balance
+E3-cod-1501467-S5,S5,5,largest site Madelung energy,5.395215205729308,15.17,pass,electrostatic balance
+E3-cod-1501467-S5,S5,6,fraction of like-charge bonds,0.12,0.0001,fail,electrostatic balance
+E3-cod-1501467-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1501467-S5,S5,8,mean |BV sum - v_i| / v_i,0.26207438124041293,0.7143,pass,bond-valence conservation
+E3-cod-1507759-P0,P0,1,reduced contact rho,1.0031539416521695,0.804,pass,short-range repulsion
+E3-cod-1507759-P0,P0,2,reduced contact rho,1.0031539416521695,1.05,pass,ionic contact
+E3-cod-1507759-P0,P0,3,mean reduced cation-anion contact,1.0191555685885125,1.081,pass,packing
+E3-cod-1507759-P0,P0,4,range of site Madelung energy / valence,11.670883616819127,31.45,pass,electrostatic balance
+E3-cod-1507759-P0,P0,5,largest site Madelung energy,-6.619456201050655,15.17,pass,electrostatic balance
+E3-cod-1507759-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507759-P0,P0,7,inequivalent sites / sites,0.375,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1507759-P0,P0,8,mean |BV sum - v_i| / v_i,0.14770245615657823,0.7143,pass,bond-valence conservation
+E3-cod-1507759-S1,S1,1,reduced contact rho,0.8889228573998126,0.804,pass,short-range repulsion
+E3-cod-1507759-S1,S1,2,reduced contact rho,0.8889228573998126,1.05,pass,ionic contact
+E3-cod-1507759-S1,S1,3,mean reduced cation-anion contact,0.9584557640910849,1.081,pass,packing
+E3-cod-1507759-S1,S1,4,range of site Madelung energy / valence,13.1919256466815,31.45,pass,electrostatic balance
+E3-cod-1507759-S1,S1,5,largest site Madelung energy,-6.271203089651348,15.17,pass,electrostatic balance
+E3-cod-1507759-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507759-S1,S1,7,inequivalent sites / sites,0.625,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1507759-S1,S1,8,mean |BV sum - v_i| / v_i,0.6363699496487865,0.7143,pass,bond-valence conservation
+E3-cod-1507759-S2,S2,1,reduced contact rho,0.9686474178606943,0.804,pass,short-range repulsion
+E3-cod-1507759-S2,S2,2,reduced contact rho,0.9686474178606943,1.05,pass,ionic contact
+E3-cod-1507759-S2,S2,3,mean reduced cation-anion contact,1.0203402211132158,1.081,pass,packing
+E3-cod-1507759-S2,S2,4,range of site Madelung energy / valence,10.974089408013807,31.45,pass,electrostatic balance
+E3-cod-1507759-S2,S2,5,largest site Madelung energy,-6.2710590967868844,15.17,pass,electrostatic balance
+E3-cod-1507759-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507759-S2,S2,7,inequivalent sites / sites,0.375,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1507759-S2,S2,8,mean |BV sum - v_i| / v_i,0.10950240307275103,0.7143,pass,bond-valence conservation
+E3-cod-1507759-S3,S3,1,reduced contact rho,0.6016969133740824,0.804,fail,short-range repulsion
+E3-cod-1507759-S3,S3,2,reduced contact rho,0.6016969133740824,1.05,pass,ionic contact
+E3-cod-1507759-S3,S3,3,mean reduced cation-anion contact,0.7873710354181852,1.081,pass,packing
+E3-cod-1507759-S3,S3,4,range of site Madelung energy / valence,14.574172841656992,31.45,pass,electrostatic balance
+E3-cod-1507759-S3,S3,5,largest site Madelung energy,-2.2134725919373883,15.17,pass,electrostatic balance
+E3-cod-1507759-S3,S3,6,fraction of like-charge bonds,0.38095238095238093,0.0001,fail,electrostatic balance
+E3-cod-1507759-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1507759-S3,S3,8,mean |BV sum - v_i| / v_i,2.1929714738152857,0.7143,fail,bond-valence conservation
+E3-cod-1507759-S4,S4,1,reduced contact rho,1.237649408254587,0.804,pass,short-range repulsion
+E3-cod-1507759-S4,S4,2,reduced contact rho,1.237649408254587,1.05,fail,ionic contact
+E3-cod-1507759-S4,S4,3,mean reduced cation-anion contact,1.257391546810369,1.081,fail,packing
+E3-cod-1507759-S4,S4,4,range of site Madelung energy / valence,9.459619844432986,31.45,pass,electrostatic balance
+E3-cod-1507759-S4,S4,5,largest site Madelung energy,-5.365278353780724,15.17,pass,electrostatic balance
+E3-cod-1507759-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507759-S4,S4,7,inequivalent sites / sites,0.375,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1507759-S4,S4,8,mean |BV sum - v_i| / v_i,0.678845144683892,0.7143,pass,bond-valence conservation
+E3-cod-1507759-S5,S5,1,reduced contact rho,0.9752522652108216,0.804,pass,short-range repulsion
+E3-cod-1507759-S5,S5,2,reduced contact rho,0.9752522652108216,1.05,pass,ionic contact
+E3-cod-1507759-S5,S5,3,mean reduced cation-anion contact,0.979788103714566,1.081,pass,packing
+E3-cod-1507759-S5,S5,4,range of site Madelung energy / valence,14.571560131027416,31.45,pass,electrostatic balance
+E3-cod-1507759-S5,S5,5,largest site Madelung energy,-0.9659778401205963,15.17,pass,electrostatic balance
+E3-cod-1507759-S5,S5,6,fraction of like-charge bonds,0.14285714285714285,0.0001,fail,electrostatic balance
+E3-cod-1507759-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1507759-S5,S5,8,mean |BV sum - v_i| / v_i,0.30114877194333955,0.7143,pass,bond-valence conservation
+E3-cod-1507767-P0,P0,1,reduced contact rho,0.9672316902521885,0.804,pass,short-range repulsion
+E3-cod-1507767-P0,P0,2,reduced contact rho,0.9672316902521885,1.05,pass,ionic contact
+E3-cod-1507767-P0,P0,3,mean reduced cation-anion contact,0.9981180896399713,1.081,pass,packing
+E3-cod-1507767-P0,P0,4,range of site Madelung energy / valence,10.064631515042432,31.45,pass,electrostatic balance
+E3-cod-1507767-P0,P0,5,largest site Madelung energy,-5.878222498071234,15.17,pass,electrostatic balance
+E3-cod-1507767-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507767-P0,P0,7,inequivalent sites / sites,0.4166666666666667,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1507767-P0,P0,8,mean |BV sum - v_i| / v_i,0.027459336440537635,0.7143,pass,bond-valence conservation
+E3-cod-1507767-S1,S1,1,reduced contact rho,0.8990595821820766,0.804,pass,short-range repulsion
+E3-cod-1507767-S1,S1,2,reduced contact rho,0.8990595821820766,1.05,pass,ionic contact
+E3-cod-1507767-S1,S1,3,mean reduced cation-anion contact,0.9399003526334461,1.081,pass,packing
+E3-cod-1507767-S1,S1,4,range of site Madelung energy / valence,10.971121442940797,31.45,pass,electrostatic balance
+E3-cod-1507767-S1,S1,5,largest site Madelung energy,-6.1935715611732345,15.17,pass,electrostatic balance
+E3-cod-1507767-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507767-S1,S1,7,inequivalent sites / sites,0.4166666666666667,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1507767-S1,S1,8,mean |BV sum - v_i| / v_i,0.36820426436360604,0.7143,pass,bond-valence conservation
+E3-cod-1507767-S2,S2,1,reduced contact rho,0.7816162165300219,0.804,fail,short-range repulsion
+E3-cod-1507767-S2,S2,2,reduced contact rho,0.7816162165300219,1.05,pass,ionic contact
+E3-cod-1507767-S2,S2,3,mean reduced cation-anion contact,1.0136399893190813,1.081,pass,packing
+E3-cod-1507767-S2,S2,4,range of site Madelung energy / valence,13.875304256131173,31.45,pass,electrostatic balance
+E3-cod-1507767-S2,S2,5,largest site Madelung energy,-2.4024043466202833,15.17,pass,electrostatic balance
+E3-cod-1507767-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507767-S2,S2,7,inequivalent sites / sites,0.75,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1507767-S2,S2,8,mean |BV sum - v_i| / v_i,0.4173157535769778,0.7143,pass,bond-valence conservation
+E3-cod-1507767-S3,S3,1,reduced contact rho,0.3940708213352347,0.804,fail,short-range repulsion
+E3-cod-1507767-S3,S3,2,reduced contact rho,0.3940708213352347,1.05,pass,ionic contact
+E3-cod-1507767-S3,S3,3,mean reduced cation-anion contact,0.922740634687845,1.081,pass,packing
+E3-cod-1507767-S3,S3,4,range of site Madelung energy / valence,13.167236930381328,31.45,pass,electrostatic balance
+E3-cod-1507767-S3,S3,5,largest site Madelung energy,-1.4684823070558606,15.17,pass,electrostatic balance
+E3-cod-1507767-S3,S3,6,fraction of like-charge bonds,0.15625,0.0001,fail,electrostatic balance
+E3-cod-1507767-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1507767-S3,S3,8,mean |BV sum - v_i| / v_i,1.5417107954460867,0.7143,fail,bond-valence conservation
+E3-cod-1507767-S4,S4,1,reduced contact rho,1.3489368086299192,0.804,pass,short-range repulsion
+E3-cod-1507767-S4,S4,2,reduced contact rho,1.3489368086299192,1.05,fail,ionic contact
+E3-cod-1507767-S4,S4,3,mean reduced cation-anion contact,1.3506633987912016,1.081,fail,packing
+E3-cod-1507767-S4,S4,4,range of site Madelung energy / valence,7.380761687388015,31.45,pass,electrostatic balance
+E3-cod-1507767-S4,S4,5,largest site Madelung energy,-4.3107151353591835,15.17,pass,electrostatic balance
+E3-cod-1507767-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1507767-S4,S4,7,inequivalent sites / sites,0.4166666666666667,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1507767-S4,S4,8,mean |BV sum - v_i| / v_i,0.8927517800061798,0.7143,fail,bond-valence conservation
+E3-cod-1507767-S5,S5,1,reduced contact rho,0.9672316902521886,0.804,pass,short-range repulsion
+E3-cod-1507767-S5,S5,2,reduced contact rho,0.9672316902521886,1.05,pass,ionic contact
+E3-cod-1507767-S5,S5,3,mean reduced cation-anion contact,0.9988558630335753,1.081,pass,packing
+E3-cod-1507767-S5,S5,4,range of site Madelung energy / valence,21.841351351372854,31.45,pass,electrostatic balance
+E3-cod-1507767-S5,S5,5,largest site Madelung energy,8.577229883959436,15.17,pass,electrostatic balance
+E3-cod-1507767-S5,S5,6,fraction of like-charge bonds,0.4166666666666667,0.0001,fail,electrostatic balance
+E3-cod-1507767-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1507767-S5,S5,8,mean |BV sum - v_i| / v_i,0.464967416465315,0.7143,pass,bond-valence conservation
+E3-cod-1509200-P0,P0,1,reduced contact rho,0.9437510462352383,0.804,pass,short-range repulsion
+E3-cod-1509200-P0,P0,2,reduced contact rho,0.059417815292683085,1.05,not triggered,ionic contact
+E3-cod-1509200-P0,P0,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509200-P0,P0,4,range of site Madelung energy / valence,6.038232719686263,31.45,pass,electrostatic balance
+E3-cod-1509200-P0,P0,5,largest site Madelung energy,-5.904635609426734,15.17,pass,electrostatic balance
+E3-cod-1509200-P0,P0,6,fraction of like-charge bonds,0.059417815292683085,0.0001,not triggered,electrostatic balance
+E3-cod-1509200-P0,P0,7,inequivalent sites / sites,0.75,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509200-P0,P0,8,mean |BV sum - v_i| / v_i,0.45858075058055114,0.7143,pass,bond-valence conservation
+E3-cod-1509200-S1,S1,1,reduced contact rho,0.8128368253098932,0.804,pass,short-range repulsion
+E3-cod-1509200-S1,S1,2,reduced contact rho,0.059417815292683085,1.05,not triggered,ionic contact
+E3-cod-1509200-S1,S1,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509200-S1,S1,4,range of site Madelung energy / valence,7.778161491331086,31.45,pass,electrostatic balance
+E3-cod-1509200-S1,S1,5,largest site Madelung energy,-5.737012308945066,15.17,pass,electrostatic balance
+E3-cod-1509200-S1,S1,6,fraction of like-charge bonds,0.059417815292683085,0.0001,not triggered,electrostatic balance
+E3-cod-1509200-S1,S1,7,inequivalent sites / sites,0.75,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509200-S1,S1,8,mean |BV sum - v_i| / v_i,0.4098228885462541,0.7143,pass,bond-valence conservation
+E3-cod-1509200-S2,S2,1,reduced contact rho,0.8656807707557541,0.804,pass,short-range repulsion
+E3-cod-1509200-S2,S2,2,reduced contact rho,0.059417815292683085,1.05,not triggered,ionic contact
+E3-cod-1509200-S2,S2,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509200-S2,S2,4,range of site Madelung energy / valence,1.7281677362639964,31.45,pass,electrostatic balance
+E3-cod-1509200-S2,S2,5,largest site Madelung energy,-8.059668101137866,15.17,pass,electrostatic balance
+E3-cod-1509200-S2,S2,6,fraction of like-charge bonds,0.059417815292683085,0.0001,not triggered,electrostatic balance
+E3-cod-1509200-S2,S2,7,inequivalent sites / sites,0.75,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509200-S2,S2,8,mean |BV sum - v_i| / v_i,0.7202876927120999,0.7143,fail,bond-valence conservation
+E3-cod-1509200-S3,S3,1,reduced contact rho,0.6986053424846219,0.804,fail,short-range repulsion
+E3-cod-1509200-S3,S3,2,reduced contact rho,0.059417815292683085,1.05,not triggered,ionic contact
+E3-cod-1509200-S3,S3,3,mean reduced cation-anion contact,0.9655796443489989,1.081,pass,packing
+E3-cod-1509200-S3,S3,4,range of site Madelung energy / valence,13.51122506182249,31.45,pass,electrostatic balance
+E3-cod-1509200-S3,S3,5,largest site Madelung energy,-3.1931387685964134,15.17,pass,electrostatic balance
+E3-cod-1509200-S3,S3,6,fraction of like-charge bonds,0.059417815292683085,0.0001,not triggered,electrostatic balance
+E3-cod-1509200-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509200-S3,S3,8,mean |BV sum - v_i| / v_i,1.6890158136206845,0.7143,fail,bond-valence conservation
+E3-cod-1509200-S5,S5,1,reduced contact rho,0.9437510462352383,0.804,pass,short-range repulsion
+E3-cod-1509200-S5,S5,2,reduced contact rho,0.059417815292683085,1.05,not triggered,ionic contact
+E3-cod-1509200-S5,S5,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509200-S5,S5,4,range of site Madelung energy / valence,7.864875560395506,31.45,pass,electrostatic balance
+E3-cod-1509200-S5,S5,5,largest site Madelung energy,0.5105582216452356,15.17,pass,electrostatic balance
+E3-cod-1509200-S5,S5,6,fraction of like-charge bonds,0.059417815292683085,0.0001,not triggered,electrostatic balance
+E3-cod-1509200-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509200-S5,S5,8,mean |BV sum - v_i| / v_i,0.7292903752902755,0.7143,fail,bond-valence conservation
+E3-cod-1509211-P0,P0,1,reduced contact rho,0.8996080611235956,0.804,pass,short-range repulsion
+E3-cod-1509211-P0,P0,2,reduced contact rho,0.8996080611235956,1.05,pass,ionic contact
+E3-cod-1509211-P0,P0,3,mean reduced cation-anion contact,0.9775838669137353,1.081,pass,packing
+E3-cod-1509211-P0,P0,4,range of site Madelung energy / valence,12.858670873610125,31.45,pass,electrostatic balance
+E3-cod-1509211-P0,P0,5,largest site Madelung energy,-5.6428236612855525,15.17,pass,electrostatic balance
+E3-cod-1509211-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509211-P0,P0,7,inequivalent sites / sites,0.2857142857142857,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509211-P0,P0,8,mean |BV sum - v_i| / v_i,0.0398066213532308,0.7143,pass,bond-valence conservation
+E3-cod-1509211-S1,S1,1,reduced contact rho,0.6885566051262254,0.804,fail,short-range repulsion
+E3-cod-1509211-S1,S1,2,reduced contact rho,0.6885566051262254,1.05,pass,ionic contact
+E3-cod-1509211-S1,S1,3,mean reduced cation-anion contact,0.9081950354850499,1.081,pass,packing
+E3-cod-1509211-S1,S1,4,range of site Madelung energy / valence,11.7053698028693,31.45,pass,electrostatic balance
+E3-cod-1509211-S1,S1,5,largest site Madelung energy,-8.376097143787486,15.17,pass,electrostatic balance
+E3-cod-1509211-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509211-S1,S1,7,inequivalent sites / sites,0.2857142857142857,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509211-S1,S1,8,mean |BV sum - v_i| / v_i,0.7843315448046606,0.7143,fail,bond-valence conservation
+E3-cod-1509211-S2,S2,1,reduced contact rho,0.6142180964140564,0.804,fail,short-range repulsion
+E3-cod-1509211-S2,S2,2,reduced contact rho,0.6142180964140564,1.05,pass,ionic contact
+E3-cod-1509211-S2,S2,3,mean reduced cation-anion contact,0.9257823830467852,1.081,pass,packing
+E3-cod-1509211-S2,S2,4,range of site Madelung energy / valence,12.832107332793573,31.45,pass,electrostatic balance
+E3-cod-1509211-S2,S2,5,largest site Madelung energy,-5.040917934929946,15.17,pass,electrostatic balance
+E3-cod-1509211-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509211-S2,S2,7,inequivalent sites / sites,0.7142857142857143,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509211-S2,S2,8,mean |BV sum - v_i| / v_i,1.0946004881783193,0.7143,fail,bond-valence conservation
+E3-cod-1509211-S3,S3,1,reduced contact rho,0.601450048156422,0.804,fail,short-range repulsion
+E3-cod-1509211-S3,S3,2,reduced contact rho,0.601450048156422,1.05,pass,ionic contact
+E3-cod-1509211-S3,S3,3,mean reduced cation-anion contact,0.9920102324559641,1.081,pass,packing
+E3-cod-1509211-S3,S3,4,range of site Madelung energy / valence,15.913101031616574,31.45,pass,electrostatic balance
+E3-cod-1509211-S3,S3,5,largest site Madelung energy,-4.599659280998197,15.17,pass,electrostatic balance
+E3-cod-1509211-S3,S3,6,fraction of like-charge bonds,0.06060606060606061,0.0001,fail,electrostatic balance
+E3-cod-1509211-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509211-S3,S3,8,mean |BV sum - v_i| / v_i,0.7049370947275662,0.7143,pass,bond-valence conservation
+E3-cod-1509211-S4,S4,1,reduced contact rho,1.199772604324874,0.804,pass,short-range repulsion
+E3-cod-1509211-S4,S4,2,reduced contact rho,1.199772604324874,1.05,fail,ionic contact
+E3-cod-1509211-S4,S4,3,mean reduced cation-anion contact,1.261633214501874,1.081,fail,packing
+E3-cod-1509211-S4,S4,4,range of site Madelung energy / valence,9.641630365234233,31.45,pass,electrostatic balance
+E3-cod-1509211-S4,S4,5,largest site Madelung energy,-4.231076484737667,15.17,pass,electrostatic balance
+E3-cod-1509211-S4,S4,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509211-S4,S4,7,inequivalent sites / sites,0.2857142857142857,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509211-S4,S4,8,mean |BV sum - v_i| / v_i,0.80126005042768,0.7143,fail,bond-valence conservation
+E3-cod-1509211-S5,S5,1,reduced contact rho,0.8996080611235956,0.804,pass,short-range repulsion
+E3-cod-1509211-S5,S5,2,reduced contact rho,0.8996080611235956,1.05,pass,ionic contact
+E3-cod-1509211-S5,S5,3,mean reduced cation-anion contact,0.9754291089817049,1.081,pass,packing
+E3-cod-1509211-S5,S5,4,range of site Madelung energy / valence,20.30354329663002,31.45,pass,electrostatic balance
+E3-cod-1509211-S5,S5,5,largest site Madelung energy,0.40007608384537097,15.17,pass,electrostatic balance
+E3-cod-1509211-S5,S5,6,fraction of like-charge bonds,0.08,0.0001,fail,electrostatic balance
+E3-cod-1509211-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509211-S5,S5,8,mean |BV sum - v_i| / v_i,0.3095384513082576,0.7143,pass,bond-valence conservation
+E3-cod-1509226-P0,P0,1,reduced contact rho,0.8637756407457863,0.804,pass,short-range repulsion
+E3-cod-1509226-P0,P0,2,reduced contact rho,0.132272694435426,1.05,not triggered,ionic contact
+E3-cod-1509226-P0,P0,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509226-P0,P0,4,range of site Madelung energy / valence,6.58345276688157,31.45,pass,electrostatic balance
+E3-cod-1509226-P0,P0,5,largest site Madelung energy,-3.9360089069088344,15.17,pass,electrostatic balance
+E3-cod-1509226-P0,P0,6,fraction of like-charge bonds,0.132272694435426,0.0001,not triggered,electrostatic balance
+E3-cod-1509226-P0,P0,7,inequivalent sites / sites,0.4166666666666667,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509226-P0,P0,8,mean |BV sum - v_i| / v_i,0.28815194761728363,0.7143,pass,bond-valence conservation
+E3-cod-1509226-S1,S1,1,reduced contact rho,0.7679523543923712,0.804,fail,short-range repulsion
+E3-cod-1509226-S1,S1,2,reduced contact rho,0.132272694435426,1.05,not triggered,ionic contact
+E3-cod-1509226-S1,S1,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509226-S1,S1,4,range of site Madelung energy / valence,7.299816863284357,31.45,pass,electrostatic balance
+E3-cod-1509226-S1,S1,5,largest site Madelung energy,-4.688700030202736,15.17,pass,electrostatic balance
+E3-cod-1509226-S1,S1,6,fraction of like-charge bonds,0.132272694435426,0.0001,not triggered,electrostatic balance
+E3-cod-1509226-S1,S1,7,inequivalent sites / sites,0.4166666666666667,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509226-S1,S1,8,mean |BV sum - v_i| / v_i,0.7967431064214874,0.7143,fail,bond-valence conservation
+E3-cod-1509226-S2,S2,1,reduced contact rho,0.778853878312914,0.804,fail,short-range repulsion
+E3-cod-1509226-S2,S2,2,reduced contact rho,0.132272694435426,1.05,not triggered,ionic contact
+E3-cod-1509226-S2,S2,3,mean reduced cation-anion contact,4.666666666666667,1.081,not triggered,packing
+E3-cod-1509226-S2,S2,4,range of site Madelung energy / valence,6.170098165978729,31.45,pass,electrostatic balance
+E3-cod-1509226-S2,S2,5,largest site Madelung energy,-5.572768998750991,15.17,pass,electrostatic balance
+E3-cod-1509226-S2,S2,6,fraction of like-charge bonds,0.132272694435426,0.0001,not triggered,electrostatic balance
+E3-cod-1509226-S2,S2,7,inequivalent sites / sites,0.75,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509226-S2,S2,8,mean |BV sum - v_i| / v_i,0.9279761258578839,0.7143,fail,bond-valence conservation
+E3-cod-1509226-S3,S3,1,reduced contact rho,0.6206405709482457,0.804,fail,short-range repulsion
+E3-cod-1509226-S3,S3,2,reduced contact rho,0.132272694435426,1.05,not triggered,ionic contact
+E3-cod-1509226-S3,S3,3,mean reduced cation-anion contact,3.8333333333333335,1.081,not triggered,packing
+E3-cod-1509226-S3,S3,4,range of site Madelung energy / valence,13.555341616024737,31.45,pass,electrostatic balance
+E3-cod-1509226-S3,S3,5,largest site Madelung energy,-0.8307874979278114,15.17,pass,electrostatic balance
+E3-cod-1509226-S3,S3,6,fraction of like-charge bonds,0.132272694435426,0.0001,not triggered,electrostatic balance
+E3-cod-1509226-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509226-S3,S3,8,mean |BV sum - v_i| / v_i,1.5243334388797294,0.7143,fail,bond-valence conservation
+E3-cod-1509226-S4,S4,1,reduced contact rho,1.0562011464154273,0.804,pass,short-range repulsion
+E3-cod-1509226-S4,S4,2,reduced contact rho,0.132272694435426,1.05,not triggered,ionic contact
+E3-cod-1509226-S4,S4,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509226-S4,S4,4,range of site Madelung energy / valence,5.384037076017405,31.45,pass,electrostatic balance
+E3-cod-1509226-S4,S4,5,largest site Madelung energy,-3.2189215350549074,15.17,pass,electrostatic balance
+E3-cod-1509226-S4,S4,6,fraction of like-charge bonds,0.132272694435426,0.0001,not triggered,electrostatic balance
+E3-cod-1509226-S4,S4,7,inequivalent sites / sites,0.4166666666666667,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509226-S4,S4,8,mean |BV sum - v_i| / v_i,0.924966387642152,0.7143,fail,bond-valence conservation
+E3-cod-1509226-S5,S5,1,reduced contact rho,0.8252142282124922,0.804,pass,short-range repulsion
+E3-cod-1509226-S5,S5,2,reduced contact rho,0.132272694435426,1.05,not triggered,ionic contact
+E3-cod-1509226-S5,S5,3,mean reduced cation-anion contact,5.666666666666667,1.081,not triggered,packing
+E3-cod-1509226-S5,S5,4,range of site Madelung energy / valence,14.553345404290681,31.45,pass,electrostatic balance
+E3-cod-1509226-S5,S5,5,largest site Madelung energy,0.5827720465117339,15.17,pass,electrostatic balance
+E3-cod-1509226-S5,S5,6,fraction of like-charge bonds,0.132272694435426,0.0001,not triggered,electrostatic balance
+E3-cod-1509226-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509226-S5,S5,8,mean |BV sum - v_i| / v_i,0.3630392067092562,0.7143,pass,bond-valence conservation
+E3-cod-1509232-P0,P0,1,reduced contact rho,1.0053136531195443,0.804,pass,short-range repulsion
+E3-cod-1509232-P0,P0,2,reduced contact rho,1.0053136531195443,1.05,pass,ionic contact
+E3-cod-1509232-P0,P0,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509232-P0,P0,4,range of site Madelung energy / valence,13.541593104161828,31.45,pass,electrostatic balance
+E3-cod-1509232-P0,P0,5,largest site Madelung energy,-5.009539620901174,15.17,pass,electrostatic balance
+E3-cod-1509232-P0,P0,6,fraction of like-charge bonds,0.5020347582121312,0.0001,not triggered,electrostatic balance
+E3-cod-1509232-P0,P0,7,inequivalent sites / sites,0.375,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509232-P0,P0,8,mean |BV sum - v_i| / v_i,0.031215844309607662,0.7143,pass,bond-valence conservation
+E3-cod-1509232-S1,S1,1,reduced contact rho,0.8551380989522942,0.804,pass,short-range repulsion
+E3-cod-1509232-S1,S1,2,reduced contact rho,0.8551380989522942,1.05,pass,ionic contact
+E3-cod-1509232-S1,S1,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509232-S1,S1,4,range of site Madelung energy / valence,12.874459650709873,31.45,pass,electrostatic balance
+E3-cod-1509232-S1,S1,5,largest site Madelung energy,-6.463477058003345,15.17,pass,electrostatic balance
+E3-cod-1509232-S1,S1,6,fraction of like-charge bonds,0.5020347582121312,0.0001,not triggered,electrostatic balance
+E3-cod-1509232-S1,S1,7,inequivalent sites / sites,0.375,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509232-S1,S1,8,mean |BV sum - v_i| / v_i,0.6799152421789527,0.7143,pass,bond-valence conservation
+E3-cod-1509232-S2,S2,1,reduced contact rho,0.7609389904047145,0.804,fail,short-range repulsion
+E3-cod-1509232-S2,S2,2,reduced contact rho,0.7609389904047145,1.05,pass,ionic contact
+E3-cod-1509232-S2,S2,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509232-S2,S2,4,range of site Madelung energy / valence,37.04343710608877,31.45,fail,electrostatic balance
+E3-cod-1509232-S2,S2,5,largest site Madelung energy,18.626855907005353,15.17,fail,electrostatic balance
+E3-cod-1509232-S2,S2,6,fraction of like-charge bonds,0.5020347582121312,0.0001,not triggered,electrostatic balance
+E3-cod-1509232-S2,S2,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509232-S2,S2,8,mean |BV sum - v_i| / v_i,0.7015525916888219,0.7143,pass,bond-valence conservation
+E3-cod-1509232-S3,S3,1,reduced contact rho,0.5903133262968248,0.804,fail,short-range repulsion
+E3-cod-1509232-S3,S3,2,reduced contact rho,0.5903133262968248,1.05,pass,ionic contact
+E3-cod-1509232-S3,S3,3,mean reduced cation-anion contact,0.9224196439136857,1.081,pass,packing
+E3-cod-1509232-S3,S3,4,range of site Madelung energy / valence,26.252893025266744,31.45,pass,electrostatic balance
+E3-cod-1509232-S3,S3,5,largest site Madelung energy,4.474763589928579,15.17,pass,electrostatic balance
+E3-cod-1509232-S3,S3,6,fraction of like-charge bonds,0.5020347582121312,0.0001,not triggered,electrostatic balance
+E3-cod-1509232-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509232-S3,S3,8,mean |BV sum - v_i| / v_i,0.7694125649186083,0.7143,fail,bond-valence conservation
+E3-cod-1509232-S4,S4,1,reduced contact rho,1.2918588672847628,0.804,pass,short-range repulsion
+E3-cod-1509232-S4,S4,2,reduced contact rho,1.2918588672847628,1.05,fail,ionic contact
+E3-cod-1509232-S4,S4,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509232-S4,S4,4,range of site Madelung energy / valence,10.537953314680877,31.45,pass,electrostatic balance
+E3-cod-1509232-S4,S4,5,largest site Madelung energy,-3.898381397745326,15.17,pass,electrostatic balance
+E3-cod-1509232-S4,S4,6,fraction of like-charge bonds,0.5020347582121312,0.0001,not triggered,electrostatic balance
+E3-cod-1509232-S4,S4,7,inequivalent sites / sites,0.375,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509232-S4,S4,8,mean |BV sum - v_i| / v_i,0.7908343546527822,0.7143,fail,bond-valence conservation
+E3-cod-1509232-S5,S5,1,reduced contact rho,1.0053136531195446,0.804,pass,short-range repulsion
+E3-cod-1509232-S5,S5,2,reduced contact rho,1.0053136531195446,1.05,pass,ionic contact
+E3-cod-1509232-S5,S5,3,mean reduced cation-anion contact,4.5,1.081,not triggered,packing
+E3-cod-1509232-S5,S5,4,range of site Madelung energy / valence,113.4543689776192,31.45,fail,electrostatic balance
+E3-cod-1509232-S5,S5,5,largest site Madelung energy,157.65060179646596,15.17,fail,electrostatic balance
+E3-cod-1509232-S5,S5,6,fraction of like-charge bonds,0.5020347582121312,0.0001,not triggered,electrostatic balance
+E3-cod-1509232-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509232-S5,S5,8,mean |BV sum - v_i| / v_i,0.5713054877762727,0.7143,pass,bond-valence conservation
+E3-cod-1509271-P0,P0,1,reduced contact rho,0.8454322975713531,0.804,pass,short-range repulsion
+E3-cod-1509271-P0,P0,2,reduced contact rho,0.1328178656130221,1.05,not triggered,ionic contact
+E3-cod-1509271-P0,P0,3,mean reduced cation-anion contact,5.0,1.081,not triggered,packing
+E3-cod-1509271-P0,P0,4,range of site Madelung energy / valence,6.357389120882532,31.45,pass,electrostatic balance
+E3-cod-1509271-P0,P0,5,largest site Madelung energy,-5.599515324232398,15.17,pass,electrostatic balance
+E3-cod-1509271-P0,P0,6,fraction of like-charge bonds,0.1328178656130221,0.0001,not triggered,electrostatic balance
+E3-cod-1509271-P0,P0,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509271-P0,P0,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509271-S1,S1,1,reduced contact rho,0.6641714087343001,0.804,fail,short-range repulsion
+E3-cod-1509271-S1,S1,2,reduced contact rho,0.1328178656130221,1.05,not triggered,ionic contact
+E3-cod-1509271-S1,S1,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509271-S1,S1,4,range of site Madelung energy / valence,6.804076423288733,31.45,pass,electrostatic balance
+E3-cod-1509271-S1,S1,5,largest site Madelung energy,-6.178417891411894,15.17,pass,electrostatic balance
+E3-cod-1509271-S1,S1,6,fraction of like-charge bonds,0.1328178656130221,0.0001,not triggered,electrostatic balance
+E3-cod-1509271-S1,S1,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509271-S1,S1,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509271-S2,S2,1,reduced contact rho,0.8049163727676141,0.804,pass,short-range repulsion
+E3-cod-1509271-S2,S2,2,reduced contact rho,0.1328178656130221,1.05,not triggered,ionic contact
+E3-cod-1509271-S2,S2,3,mean reduced cation-anion contact,5.0,1.081,not triggered,packing
+E3-cod-1509271-S2,S2,4,range of site Madelung energy / valence,6.0701017700140545,31.45,pass,electrostatic balance
+E3-cod-1509271-S2,S2,5,largest site Madelung energy,-8.358802916631374,15.17,pass,electrostatic balance
+E3-cod-1509271-S2,S2,6,fraction of like-charge bonds,0.1328178656130221,0.0001,not triggered,electrostatic balance
+E3-cod-1509271-S2,S2,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509271-S2,S2,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509271-S3,S3,1,reduced contact rho,0.5818245781935332,0.804,fail,short-range repulsion
+E3-cod-1509271-S3,S3,2,reduced contact rho,0.1328178656130221,1.05,not triggered,ionic contact
+E3-cod-1509271-S3,S3,3,mean reduced cation-anion contact,0.8173468145401982,1.081,pass,packing
+E3-cod-1509271-S3,S3,4,range of site Madelung energy / valence,4.865633186821611,31.45,pass,electrostatic balance
+E3-cod-1509271-S3,S3,5,largest site Madelung energy,-11.807718504781826,15.17,pass,electrostatic balance
+E3-cod-1509271-S3,S3,6,fraction of like-charge bonds,0.1328178656130221,0.0001,not triggered,electrostatic balance
+E3-cod-1509271-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509271-S3,S3,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509271-S5,S5,1,reduced contact rho,0.8454322975713531,0.804,pass,short-range repulsion
+E3-cod-1509271-S5,S5,2,reduced contact rho,0.1328178656130221,1.05,not triggered,ionic contact
+E3-cod-1509271-S5,S5,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509271-S5,S5,4,range of site Madelung energy / valence,6.612874813914214,31.45,pass,electrostatic balance
+E3-cod-1509271-S5,S5,5,largest site Madelung energy,-2.507709321749525,15.17,pass,electrostatic balance
+E3-cod-1509271-S5,S5,6,fraction of like-charge bonds,0.1328178656130221,0.0001,not triggered,electrostatic balance
+E3-cod-1509271-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509271-S5,S5,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509274-P0,P0,1,reduced contact rho,0.840571811146747,0.804,pass,short-range repulsion
+E3-cod-1509274-P0,P0,2,reduced contact rho,0.030160805409297775,1.05,not triggered,ionic contact
+E3-cod-1509274-P0,P0,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509274-P0,P0,4,range of site Madelung energy / valence,6.506624917357403,31.45,pass,electrostatic balance
+E3-cod-1509274-P0,P0,5,largest site Madelung energy,-6.983620458038089,15.17,pass,electrostatic balance
+E3-cod-1509274-P0,P0,6,fraction of like-charge bonds,0.030160805409297775,0.0001,not triggered,electrostatic balance
+E3-cod-1509274-P0,P0,7,inequivalent sites / sites,0.21428571428571427,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509274-P0,P0,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509274-S1,S1,1,reduced contact rho,0.6884490332165383,0.804,fail,short-range repulsion
+E3-cod-1509274-S1,S1,2,reduced contact rho,0.030160805409297775,1.05,not triggered,ionic contact
+E3-cod-1509274-S1,S1,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509274-S1,S1,4,range of site Madelung energy / valence,7.2008050122211635,31.45,pass,electrostatic balance
+E3-cod-1509274-S1,S1,5,largest site Madelung energy,-7.5430584507781315,15.17,pass,electrostatic balance
+E3-cod-1509274-S1,S1,6,fraction of like-charge bonds,0.030160805409297775,0.0001,not triggered,electrostatic balance
+E3-cod-1509274-S1,S1,7,inequivalent sites / sites,0.5,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509274-S1,S1,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509274-S2,S2,1,reduced contact rho,0.8074908363854856,0.804,pass,short-range repulsion
+E3-cod-1509274-S2,S2,2,reduced contact rho,0.030160805409297775,1.05,not triggered,ionic contact
+E3-cod-1509274-S2,S2,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509274-S2,S2,4,range of site Madelung energy / valence,6.955053357908522,31.45,pass,electrostatic balance
+E3-cod-1509274-S2,S2,5,largest site Madelung energy,-6.933065663298651,15.17,pass,electrostatic balance
+E3-cod-1509274-S2,S2,6,fraction of like-charge bonds,0.030160805409297775,0.0001,not triggered,electrostatic balance
+E3-cod-1509274-S2,S2,7,inequivalent sites / sites,0.5714285714285714,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509274-S2,S2,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509274-S3,S3,1,reduced contact rho,0.748385012279859,0.804,fail,short-range repulsion
+E3-cod-1509274-S3,S3,2,reduced contact rho,0.030160805409297775,1.05,not triggered,ionic contact
+E3-cod-1509274-S3,S3,3,mean reduced cation-anion contact,3.75,1.081,not triggered,packing
+E3-cod-1509274-S3,S3,4,range of site Madelung energy / valence,10.563204489623576,31.45,pass,electrostatic balance
+E3-cod-1509274-S3,S3,5,largest site Madelung energy,-5.2141723413487995,15.17,pass,electrostatic balance
+E3-cod-1509274-S3,S3,6,fraction of like-charge bonds,0.030160805409297775,0.0001,not triggered,electrostatic balance
+E3-cod-1509274-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509274-S3,S3,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509274-S4,S4,1,reduced contact rho,1.0825606465587438,0.804,pass,short-range repulsion
+E3-cod-1509274-S4,S4,2,reduced contact rho,0.030160805409297775,1.05,not triggered,ionic contact
+E3-cod-1509274-S4,S4,3,mean reduced cation-anion contact,4.0,1.081,not triggered,packing
+E3-cod-1509274-S4,S4,4,range of site Madelung energy / valence,5.052174682888662,31.45,pass,electrostatic balance
+E3-cod-1509274-S4,S4,5,largest site Madelung energy,-5.422545624058033,15.17,pass,electrostatic balance
+E3-cod-1509274-S4,S4,6,fraction of like-charge bonds,0.030160805409297775,0.0001,not triggered,electrostatic balance
+E3-cod-1509274-S4,S4,7,inequivalent sites / sites,0.21428571428571427,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509274-S4,S4,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509274-S5,S5,1,reduced contact rho,0.840571811146747,0.804,pass,short-range repulsion
+E3-cod-1509274-S5,S5,2,reduced contact rho,0.030160805409297775,1.05,not triggered,ionic contact
+E3-cod-1509274-S5,S5,3,mean reduced cation-anion contact,4.25,1.081,not triggered,packing
+E3-cod-1509274-S5,S5,4,range of site Madelung energy / valence,11.57034926439605,31.45,pass,electrostatic balance
+E3-cod-1509274-S5,S5,5,largest site Madelung energy,0.6037403126175569,15.17,pass,electrostatic balance
+E3-cod-1509274-S5,S5,6,fraction of like-charge bonds,0.030160805409297775,0.0001,not triggered,electrostatic balance
+E3-cod-1509274-S5,S5,7,inequivalent sites / sites,0.5714285714285714,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509274-S5,S5,8,mean |BV sum - v_i| / v_i,,0.7143,no verdict,bond-valence conservation
+E3-cod-1509284-P0,P0,1,reduced contact rho,0.9377973566223082,0.804,pass,short-range repulsion
+E3-cod-1509284-P0,P0,2,reduced contact rho,0.9377973566223082,1.05,pass,ionic contact
+E3-cod-1509284-P0,P0,3,mean reduced cation-anion contact,6.0,1.081,not triggered,packing
+E3-cod-1509284-P0,P0,4,range of site Madelung energy / valence,5.644476879688725,31.45,pass,electrostatic balance
+E3-cod-1509284-P0,P0,5,largest site Madelung energy,-4.2348535014165485,15.17,pass,electrostatic balance
+E3-cod-1509284-P0,P0,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509284-P0,P0,7,inequivalent sites / sites,0.5714285714285714,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509284-P0,P0,8,mean |BV sum - v_i| / v_i,0.10211224074111945,0.7143,pass,bond-valence conservation
+E3-cod-1509284-S1,S1,1,reduced contact rho,0.7552803104190943,0.804,fail,short-range repulsion
+E3-cod-1509284-S1,S1,2,reduced contact rho,0.7552803104190943,1.05,pass,ionic contact
+E3-cod-1509284-S1,S1,3,mean reduced cation-anion contact,5.0,1.081,not triggered,packing
+E3-cod-1509284-S1,S1,4,range of site Madelung energy / valence,6.432018235591297,31.45,pass,electrostatic balance
+E3-cod-1509284-S1,S1,5,largest site Madelung energy,-4.615762473427415,15.17,pass,electrostatic balance
+E3-cod-1509284-S1,S1,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509284-S1,S1,7,inequivalent sites / sites,0.7142857142857143,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509284-S1,S1,8,mean |BV sum - v_i| / v_i,1.0867704971409775,0.7143,fail,bond-valence conservation
+E3-cod-1509284-S2,S2,1,reduced contact rho,0.7095999998442134,0.804,fail,short-range repulsion
+E3-cod-1509284-S2,S2,2,reduced contact rho,0.7095999998442134,1.05,pass,ionic contact
+E3-cod-1509284-S2,S2,3,mean reduced cation-anion contact,0.9048174857425203,1.081,pass,packing
+E3-cod-1509284-S2,S2,4,range of site Madelung energy / valence,3.2875166662888224,31.45,pass,electrostatic balance
+E3-cod-1509284-S2,S2,5,largest site Madelung energy,-3.8550199600066426,15.17,pass,electrostatic balance
+E3-cod-1509284-S2,S2,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509284-S2,S2,7,inequivalent sites / sites,0.8571428571428571,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509284-S2,S2,8,mean |BV sum - v_i| / v_i,1.8592831869725543,0.7143,fail,bond-valence conservation
+E3-cod-1509284-S3,S3,1,reduced contact rho,0.8032848276445268,0.804,fail,short-range repulsion
+E3-cod-1509284-S3,S3,2,reduced contact rho,0.8032848276445268,1.05,pass,ionic contact
+E3-cod-1509284-S3,S3,3,mean reduced cation-anion contact,0.9656923114476907,1.081,pass,packing
+E3-cod-1509284-S3,S3,4,range of site Madelung energy / valence,5.370509830703471,31.45,pass,electrostatic balance
+E3-cod-1509284-S3,S3,5,largest site Madelung energy,-4.106253918817087,15.17,pass,electrostatic balance
+E3-cod-1509284-S3,S3,6,fraction of like-charge bonds,0.0,0.0001,pass,electrostatic balance
+E3-cod-1509284-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509284-S3,S3,8,mean |BV sum - v_i| / v_i,0.31326610403783967,0.7143,pass,bond-valence conservation
+E3-cod-1509284-S5,S5,1,reduced contact rho,0.956764044733771,0.804,pass,short-range repulsion
+E3-cod-1509284-S5,S5,2,reduced contact rho,0.956764044733771,1.05,pass,ionic contact
+E3-cod-1509284-S5,S5,3,mean reduced cation-anion contact,1.000404968271225,1.081,pass,packing
+E3-cod-1509284-S5,S5,4,range of site Madelung energy / valence,8.353382758945829,31.45,pass,electrostatic balance
+E3-cod-1509284-S5,S5,5,largest site Madelung energy,-0.3171034424089716,15.17,pass,electrostatic balance
+E3-cod-1509284-S5,S5,6,fraction of like-charge bonds,0.2608695652173913,0.0001,fail,electrostatic balance
+E3-cod-1509284-S5,S5,7,inequivalent sites / sites,0.8571428571428571,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509284-S5,S5,8,mean |BV sum - v_i| / v_i,0.472036713901312,0.7143,pass,bond-valence conservation
+E3-cod-1509287-P0,P0,1,reduced contact rho,0.8848059133518631,0.804,pass,short-range repulsion
+E3-cod-1509287-P0,P0,2,reduced contact rho,0.3424643198403001,1.05,not triggered,ionic contact
+E3-cod-1509287-P0,P0,3,mean reduced cation-anion contact,0.9933474620397348,1.081,pass,packing
+E3-cod-1509287-P0,P0,4,range of site Madelung energy / valence,16.072516318084947,31.45,pass,electrostatic balance
+E3-cod-1509287-P0,P0,5,largest site Madelung energy,-3.795969007450417,15.17,pass,electrostatic balance
+E3-cod-1509287-P0,P0,6,fraction of like-charge bonds,0.3424643198403001,0.0001,not triggered,electrostatic balance
+E3-cod-1509287-P0,P0,7,inequivalent sites / sites,0.25,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509287-P0,P0,8,mean |BV sum - v_i| / v_i,0.10988874823740834,0.7143,pass,bond-valence conservation
+E3-cod-1509287-S1,S1,1,reduced contact rho,0.83921481942587,0.804,pass,short-range repulsion
+E3-cod-1509287-S1,S1,2,reduced contact rho,0.3424643198403001,1.05,not triggered,ionic contact
+E3-cod-1509287-S1,S1,3,mean reduced cation-anion contact,0.925466914077341,1.081,pass,packing
+E3-cod-1509287-S1,S1,4,range of site Madelung energy / valence,16.86197491876679,31.45,pass,electrostatic balance
+E3-cod-1509287-S1,S1,5,largest site Madelung energy,-4.190691550842798,15.17,pass,electrostatic balance
+E3-cod-1509287-S1,S1,6,fraction of like-charge bonds,0.3424643198403001,0.0001,not triggered,electrostatic balance
+E3-cod-1509287-S1,S1,7,inequivalent sites / sites,0.3125,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509287-S1,S1,8,mean |BV sum - v_i| / v_i,0.6806675488583297,0.7143,pass,bond-valence conservation
+E3-cod-1509287-S2,S2,1,reduced contact rho,0.6199767319449332,0.804,fail,short-range repulsion
+E3-cod-1509287-S2,S2,2,reduced contact rho,0.3424643198403001,1.05,not triggered,ionic contact
+E3-cod-1509287-S2,S2,3,mean reduced cation-anion contact,0.9506807911039521,1.081,pass,packing
+E3-cod-1509287-S2,S2,4,range of site Madelung energy / valence,16.38088242462289,31.45,pass,electrostatic balance
+E3-cod-1509287-S2,S2,5,largest site Madelung energy,-2.0090135270321356,15.17,pass,electrostatic balance
+E3-cod-1509287-S2,S2,6,fraction of like-charge bonds,0.3424643198403001,0.0001,not triggered,electrostatic balance
+E3-cod-1509287-S2,S2,7,inequivalent sites / sites,0.75,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509287-S2,S2,8,mean |BV sum - v_i| / v_i,2.5026340313381015,0.7143,fail,bond-valence conservation
+E3-cod-1509287-S3,S3,1,reduced contact rho,0.44262629040535767,0.804,fail,short-range repulsion
+E3-cod-1509287-S3,S3,2,reduced contact rho,0.3424643198403001,1.05,not triggered,ionic contact
+E3-cod-1509287-S3,S3,3,mean reduced cation-anion contact,0.7915263356965732,1.081,pass,packing
+E3-cod-1509287-S3,S3,4,range of site Madelung energy / valence,30.311337254158747,31.45,pass,electrostatic balance
+E3-cod-1509287-S3,S3,5,largest site Madelung energy,3.2340978748126283,15.17,pass,electrostatic balance
+E3-cod-1509287-S3,S3,6,fraction of like-charge bonds,0.3424643198403001,0.0001,not triggered,electrostatic balance
+E3-cod-1509287-S3,S3,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509287-S3,S3,8,mean |BV sum - v_i| / v_i,2.167764155357135,0.7143,fail,bond-valence conservation
+E3-cod-1509287-S4,S4,1,reduced contact rho,1.3129510647010627,0.804,pass,short-range repulsion
+E3-cod-1509287-S4,S4,2,reduced contact rho,0.3424643198403001,1.05,not triggered,ionic contact
+E3-cod-1509287-S4,S4,3,mean reduced cation-anion contact,1.3129510648432299,1.081,fail,packing
+E3-cod-1509287-S4,S4,4,range of site Madelung energy / valence,12.136216576889415,31.45,pass,electrostatic balance
+E3-cod-1509287-S4,S4,5,largest site Madelung energy,-2.8663030157724148,15.17,pass,electrostatic balance
+E3-cod-1509287-S4,S4,6,fraction of like-charge bonds,0.3424643198403001,0.0001,not triggered,electrostatic balance
+E3-cod-1509287-S4,S4,7,inequivalent sites / sites,0.25,0.6666666666666666,pass,crystallographic site complexity
+E3-cod-1509287-S4,S4,8,mean |BV sum - v_i| / v_i,0.9365646830335879,0.7143,fail,bond-valence conservation
+E3-cod-1509287-S5,S5,1,reduced contact rho,0.8848059133518631,0.804,pass,short-range repulsion
+E3-cod-1509287-S5,S5,2,reduced contact rho,0.3424643198403001,1.05,not triggered,ionic contact
+E3-cod-1509287-S5,S5,3,mean reduced cation-anion contact,0.9891752085096989,1.081,pass,packing
+E3-cod-1509287-S5,S5,4,range of site Madelung energy / valence,22.592116907360403,31.45,pass,electrostatic balance
+E3-cod-1509287-S5,S5,5,largest site Madelung energy,2.0641136247722254,15.17,pass,electrostatic balance
+E3-cod-1509287-S5,S5,6,fraction of like-charge bonds,0.3424643198403001,0.0001,not triggered,electrostatic balance
+E3-cod-1509287-S5,S5,7,inequivalent sites / sites,1.0,0.6666666666666666,fail,crystallographic site complexity
+E3-cod-1509287-S5,S5,8,mean |BV sum - v_i| / v_i,0.1978170736815421,0.7143,pass,bond-valence conservation

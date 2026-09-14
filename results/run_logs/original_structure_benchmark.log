@@ -1,0 +1,25 @@
+Processed 10/180 structures (2.1s)
+Processed 20/180 structures (2.4s)
+Processed 30/180 structures (2.7s)
+Processed 40/180 structures (3.1s)
+Processed 50/180 structures (3.3s)
+Processed 60/180 structures (3.6s)
+Processed 70/180 structures (4.0s)
+Processed 80/180 structures (4.3s)
+Processed 90/180 structures (4.7s)
+Processed 100/180 structures (5.0s)
+Processed 110/180 structures (5.5s)
+Processed 120/180 structures (6.0s)
+Processed 130/180 structures (6.4s)
+Processed 140/180 structures (6.8s)
+Processed 150/180 structures (7.3s)
+Processed 160/180 structures (7.6s)
+Processed 170/180 structures (8.0s)
+Processed 180/180 structures (8.5s)
+{
+  "n_structures": 180,
+  "n_parents": 30,
+  "n_errors": 0,
+  "wall_seconds": 8.760152699993341,
+  "composition_checks_passed": true
+}

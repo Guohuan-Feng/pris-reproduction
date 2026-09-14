@@ -1,0 +1,13 @@
+candidate_id,stage,input_n_atoms,input_spacegroup_symbol,input_spacegroup_number,input_n_inequivalent,input_site_fraction,input_law7,primitive_n_atoms,primitive_spacegroup_symbol,primitive_spacegroup_number,primitive_n_inequivalent,primitive_site_fraction,primitive_law7
+candidate_0063,generated,16,Cm,8,12,0.75,False,16,Cmc2_1,36,6,0.375,True
+candidate_0195,relaxed,10,Imm2,44,5,0.5,True,5,Imm2,44,5,1.0,False
+candidate_0411,generated,12,Imm2,44,12,1.0,False,12,Imma,74,6,0.5,True
+candidate_0563,generated,4,P-6m2,187,2,0.5,True,2,P-6m2,187,2,1.0,False
+candidate_0563,relaxed,4,P-6m2,187,2,0.5,True,2,P-6m2,187,2,1.0,False
+candidate_0565,generated,12,Cm,8,12,1.0,False,12,I4_1md,109,6,0.5,True
+candidate_0648,generated,16,Pm,6,12,0.75,False,16,Amm2,38,9,0.5625,True
+candidate_0656,generated,3,Im-3m,229,1,0.3333333333333333,True,1,Im-3m,229,1,1.0,False
+candidate_0656,relaxed,3,Im-3m,229,1,0.3333333333333333,True,1,Im-3m,229,1,1.0,False
+candidate_0809,generated,16,Cm,8,12,0.75,False,16,P3m1,156,8,0.5,True
+candidate_0821,generated,16,Cm,8,12,0.75,False,16,P3m1,156,8,0.5,True
+candidate_0946,generated,5,P3m1,156,5,1.0,False,5,P-3m1,164,3,0.6,True

@@ -1,0 +1,23 @@
+{
+  "source_url": "https://github.com/AI4QC/PRIS",
+  "source_commit": "34e6c86c083759dc1ee594ae22238ea9b5ebd8f4",
+  "retrieved_date": "2026-09-14",
+  "scope": "Verbatim copies of published collected DFT outputs and published EOS fit references; no new DFT",
+  "files": [
+    {
+      "file": "stage_b_collected.json",
+      "source_path": "dft/E4_design/stage_b/collected.json",
+      "sha256": "9908b49e704fb5962d0e35f559726f744713c62ca9345a8d11ee16d72df4f9e0"
+    },
+    {
+      "file": "published_bulk_moduli.json",
+      "source_path": "dft/E4_design/bulk_moduli.json",
+      "sha256": "09862d1c82a03d913e419cbcb17446cdd4ba56d0b31fde6bb11164e5d0ac26f1"
+    },
+    {
+      "file": "UPSTREAM_LICENSE",
+      "source_path": "LICENSE",
+      "sha256": "7a195f0cdaabf80a1ca50625d6727c82cec1be4819253e3e0d2ee8a2921d95f1"
+    }
+  ]
+}

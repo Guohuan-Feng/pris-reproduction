@@ -1,0 +1,20 @@
+..........                                                               [100%]
+============================== warnings summary ===============================
+outputs/pris_reproduction/vendor/pris/tests/test_pris_analyze.py: 22 warnings
+  <workspace>\work\pris_deps\spglib\spg.py:438: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+    _set_no_error(_throw)
+
+outputs/pris_reproduction/vendor/pris/tests/test_pris_analyze.py::test_the_experimental_parent_survives_every_set
+outputs/pris_reproduction/vendor/pris/tests/test_pris_analyze.py::test_damage_is_caught_and_names_a_mechanism
+outputs/pris_reproduction/vendor/pris/tests/test_pris_analyze.py::test_pss_ranks_the_parent_above_its_damaged_variants
+  <workspace>\work\pris_deps\pymatgen\io\cif.py:1821: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Al', 'Al', 'Al', 'Al', 'Mg', 'Mg', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']`.
+    return str(CifWriter(structure, **kwargs))
+
+outputs/pris_reproduction/vendor/pris/tests/test_pris_analyze.py::test_the_experimental_parent_survives_every_set
+outputs/pris_reproduction/vendor/pris/tests/test_pris_analyze.py::test_damage_is_caught_and_names_a_mechanism
+outputs/pris_reproduction/vendor/pris/tests/test_pris_analyze.py::test_pss_ranks_the_parent_above_its_damaged_variants
+  <workspace>\work\pris_deps\pymatgen\io\cif.py:1825: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Al', 'Al', 'Al', 'Al', 'Mg', 'Mg', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']`.
+    CifWriter(structure, **kwargs).write_file(filename)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+10 passed, 28 warnings in 6.19s

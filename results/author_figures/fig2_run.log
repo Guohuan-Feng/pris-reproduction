@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<workspace>\work\replot_author_figures.py", line 60, in <module>
+    main()
+  File "<workspace>\work\replot_author_figures.py", line 37, in main
+    child(args.child);return
+    ^^^^^^^^^^^^^^^^^
+  File "<workspace>\work\replot_author_figures.py", line 31, in child
+    getattr(module,JOBS[key]['function'])()
+  File "<workspace>\work\PRIS\src\paper_figs.py", line 369, in fig2
+    / "transfer.json").read_text())
+                       ^^^^^^^^^^^
+  File "<python-runtime>\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<workspace>\\work\\PRIS\\outputs\\20260815_threshold_transfer\\transfer.json'

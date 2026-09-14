@@ -1,0 +1,36 @@
+test_complete_rule_set_can_pass (test_regressions.ApplyRulesRegressionTests.test_complete_rule_set_can_pass) ... ok
+test_explicit_failure_wins_over_other_unknown_rules (test_regressions.ApplyRulesRegressionTests.test_explicit_failure_wins_over_other_unknown_rules) ... ok
+test_missing_features_are_indeterminate_not_pass (test_regressions.ApplyRulesRegressionTests.test_missing_features_are_indeterminate_not_pass) ... ok
+test_frontier_generator_uses_current_discovery_values (test_regressions.PaperDataRegressionTests.test_frontier_generator_uses_current_discovery_values) ... ok
+test_paper_data_import_has_no_hardcoded_feature_path_side_effect (test_regressions.PaperDataRegressionTests.test_paper_data_import_has_no_hardcoded_feature_path_side_effect) ... ok
+test_bond_report_does_not_promote_unsplit_rows (test_regressions.SplitDisciplineRegressionTests.test_bond_report_does_not_promote_unsplit_rows) ... ERROR
+
+======================================================================
+ERROR: test_bond_report_does_not_promote_unsplit_rows (test_regressions.SplitDisciplineRegressionTests.test_bond_report_does_not_promote_unsplit_rows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>\work\PRIS\tests\test_regressions.py", line 57, in test_bond_report_does_not_promote_unsplit_rows
+    source = (ROOT / "src" / "build_bonds.py").read_text()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<workspace>\\work\\PRIS\\src\\build_bonds.py'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.044s
+
+FAILED (errors=1)
+
+图2: <temp>\tmpbqn03w6k\fig2_frontier.csv
+                            setting  n_rules  satisfaction  exclusion  worst_chem
+          Pauling rules 2-5 (joint)        4        0.0651        NaN         NaN
+                         floor 0.99        5        0.9917     0.3040       0.986
+                         floor 0.98        3        0.9813     0.4161       0.973
+           floor 0.95 (recommended)        5        0.9539     0.6224       0.928
+             floor 0.95 + geometric        6        0.9536     0.6254       0.928
+         trusted core (no CN rules)        4        0.9511     0.6173         NaN
+core + ionicity-guarded charge rule        5        0.9071     0.7052         NaN

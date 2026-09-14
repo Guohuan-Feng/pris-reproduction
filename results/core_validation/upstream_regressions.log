@@ -1,0 +1,40 @@
+test_complete_rule_set_can_pass (test_regressions.ApplyRulesRegressionTests.test_complete_rule_set_can_pass) ... ok
+test_explicit_failure_wins_over_other_unknown_rules (test_regressions.ApplyRulesRegressionTests.test_explicit_failure_wins_over_other_unknown_rules) ... ok
+test_missing_features_are_indeterminate_not_pass (test_regressions.ApplyRulesRegressionTests.test_missing_features_are_indeterminate_not_pass) ... ok
+test_frontier_generator_uses_current_discovery_values (test_regressions.PaperDataRegressionTests.test_frontier_generator_uses_current_discovery_values) ... ERROR
+test_paper_data_import_has_no_hardcoded_feature_path_side_effect (test_regressions.PaperDataRegressionTests.test_paper_data_import_has_no_hardcoded_feature_path_side_effect) ... ok
+test_bond_report_does_not_promote_unsplit_rows (test_regressions.SplitDisciplineRegressionTests.test_bond_report_does_not_promote_unsplit_rows) ... ERROR
+
+======================================================================
+ERROR: test_frontier_generator_uses_current_discovery_values (test_regressions.PaperDataRegressionTests.test_frontier_generator_uses_current_discovery_values)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>\work\PRIS\tests\test_regressions.py", line 39, in test_frontier_generator_uses_current_discovery_values
+    frame = paper_data.fig2_frontier().set_index("setting")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>\work\PRIS\src\paper_data.py", line 180, in fig2_frontier
+    print("\n\u56fe2:", path)
+  File "<python-runtime>\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u56fe' in position 2: character maps to <undefined>
+
+======================================================================
+ERROR: test_bond_report_does_not_promote_unsplit_rows (test_regressions.SplitDisciplineRegressionTests.test_bond_report_does_not_promote_unsplit_rows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>\work\PRIS\tests\test_regressions.py", line 57, in test_bond_report_does_not_promote_unsplit_rows
+    source = (ROOT / "src" / "build_bonds.py").read_text()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-runtime>\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<workspace>\\work\\PRIS\\src\\build_bonds.py'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.090s
+
+FAILED (errors=2)

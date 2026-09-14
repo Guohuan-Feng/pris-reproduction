@@ -1,0 +1,34 @@
+...............F                                                         [100%]
+================================== FAILURES ===================================
+_ SplitDisciplineRegressionTests.test_bond_report_does_not_promote_unsplit_rows _
+tests\test_regressions.py:57: in test_bond_report_does_not_promote_unsplit_rows
+    source = (ROOT / "src" / "build_bonds.py").read_text()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<python-runtime>\Lib\pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<python-runtime>\Lib\pathlib.py:1013: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   FileNotFoundError: [Errno 2] No such file or directory: '<workspace>\\work\\PRIS\\src\\build_bonds.py'
+============================== warnings summary ===============================
+tests/test_pris_analyze.py: 22 warnings
+  <workspace>\work\pris_deps\spglib\spg.py:438: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+    _set_no_error(_throw)
+
+tests/test_pris_analyze.py::test_the_experimental_parent_survives_every_set
+tests/test_pris_analyze.py::test_damage_is_caught_and_names_a_mechanism
+tests/test_pris_analyze.py::test_pss_ranks_the_parent_above_its_damaged_variants
+  <workspace>\work\pris_deps\pymatgen\io\cif.py:1821: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Al', 'Al', 'Al', 'Al', 'Mg', 'Mg', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']`.
+    return str(CifWriter(structure, **kwargs))
+
+tests/test_pris_analyze.py::test_the_experimental_parent_survives_every_set
+tests/test_pris_analyze.py::test_damage_is_caught_and_names_a_mechanism
+tests/test_pris_analyze.py::test_pss_ranks_the_parent_above_its_damaged_variants
+  <workspace>\work\pris_deps\pymatgen\io\cif.py:1825: UserWarning: Site labels are not unique, which is not compliant with the CIF spec (https://www.iucr.org/__data/iucr/cifdic_html/1/cif_core.dic/Iatom_site_label.html):`['Al', 'Al', 'Al', 'Al', 'Mg', 'Mg', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']`.
+    CifWriter(structure, **kwargs).write_file(filename)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_regressions.py::SplitDisciplineRegressionTests::test_bond_report_does_not_promote_unsplit_rows
+1 failed, 15 passed, 28 warnings in 97.84s (0:01:37)

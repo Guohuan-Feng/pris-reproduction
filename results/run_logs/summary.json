@@ -1,0 +1,38 @@
+[
+  {
+    "job": "geometry_and_cell_controls",
+    "exit_code": 0,
+    "seconds": 2.779,
+    "log": "results/run_logs/geometry_and_cell_controls.log"
+  },
+  {
+    "job": "original_structure_benchmark",
+    "exit_code": 0,
+    "seconds": 9.569,
+    "log": "results/run_logs/original_structure_benchmark.log"
+  },
+  {
+    "job": "independent_eos_refit",
+    "exit_code": 0,
+    "seconds": 1.15,
+    "log": "results/run_logs/independent_eos_refit.log"
+  },
+  {
+    "job": "paired_symmetry_recompute",
+    "exit_code": 0,
+    "seconds": 2.732,
+    "log": "results/run_logs/paired_symmetry_recompute.log"
+  },
+  {
+    "job": "report_figures",
+    "exit_code": 0,
+    "seconds": 0.989,
+    "log": "results/run_logs/report_figures.log"
+  },
+  {
+    "job": "upstream_analyzer_tests",
+    "exit_code": 0,
+    "seconds": 6.59,
+    "log": "results/run_logs/upstream_analyzer_tests.log"
+  }
+]

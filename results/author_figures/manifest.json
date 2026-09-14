@@ -1,0 +1,116 @@
+{
+  "source_repository": "https://github.com/AI4QC/PRIS",
+  "source_commit": "34e6c86c083759dc1ee594ae22238ea9b5ebd8f4",
+  "execution_changes": "Only module OUT values redirected to output folder; original source files unmodified. Specific functions invoked so paper_figs.py implicit unrelated figures are not run.",
+  "figures": [
+    {
+      "module": "paper_figs",
+      "function": "fig2",
+      "stem": "fig2_rules",
+      "level": "aggregate replot",
+      "notes": "Replots published rule/benchmark aggregates and transfer results; does not recompute the full benchmark.",
+      "id": "fig2",
+      "exit_code": 1,
+      "status": "failed",
+      "seconds": 0.78,
+      "log": "fig2_run.log",
+      "source_script_sha256": "d14ff483c120902f03f87b2f99c5677eefcf919e5498586d1c345430d095b1d3",
+      "files": []
+    },
+    {
+      "module": "paper_figs",
+      "function": "fig1",
+      "stem": "fig1_agentic_law_learning",
+      "level": "aggregate replot",
+      "notes": "Replots committed discovery-history/rule-space summaries; does not rerun autonomous discovery.",
+      "id": "fig1",
+      "exit_code": 0,
+      "status": "success",
+      "seconds": 4.975,
+      "log": "fig1_run.log",
+      "source_script_sha256": "d14ff483c120902f03f87b2f99c5677eefcf919e5498586d1c345430d095b1d3",
+      "files": [
+        {
+          "path": "fig1_agentic_law_learning.pdf",
+          "size": 197326,
+          "sha256": "4c1460ff32840702563bab5b9feebab0f4ad19663653ada25fd8634974697101"
+        },
+        {
+          "path": "fig1_agentic_law_learning.png",
+          "size": 1828013,
+          "sha256": "4d1599c8eca3a97c8ba4253bb01e15ec3afdafdf012a27bd2eaddde9c0f3fa2e"
+        },
+        {
+          "path": "fig1_agentic_law_learning.svg",
+          "size": 4311854,
+          "sha256": "413be71e4a29f60784777caef1b7b2943ff9652bb01b69253a5f9aeed4ca6c42"
+        }
+      ]
+    },
+    {
+      "module": "fig3_anatomy",
+      "function": "main",
+      "stem": "fig3_anatomy",
+      "level": "mixed: structure recompute + aggregate replot + published DFT values",
+      "notes": "Panel a recomputes the author-script illustrative MgAl2O4 structure and five fixed-seed perturbations. Other panels use committed aggregates and published E1 DFT values. This illustrative built-from-scratch spinel is not an external experimental test sample; no new DFT is run.",
+      "id": "fig3",
+      "exit_code": 0,
+      "status": "success",
+      "seconds": 7.521,
+      "log": "fig3_run.log",
+      "source_script_sha256": "2dacea5cc010cd66cdfb57c0095e3f6fbd202269439bfca2f6487a6e2bbea326",
+      "files": [
+        {
+          "path": "fig3_anatomy.pdf",
+          "size": 135698,
+          "sha256": "58dbd9d8b562b24b7dd47a379c3ade24067cd895d1830d351546a9a2cb05f722"
+        },
+        {
+          "path": "fig3_anatomy.png",
+          "size": 1325796,
+          "sha256": "c90784c779faae014a9ddf7c4b0ee34f711dbc4cf66717550c350fd24cae11e4"
+        },
+        {
+          "path": "fig3_anatomy_readings.json",
+          "size": 1420,
+          "sha256": "42ffa99cd630930989ce1f65f6f442cf9914f7e5255d12af1f13bac9a21abc84"
+        },
+        {
+          "path": "fig3_structure_recompute.csv",
+          "size": 1219,
+          "sha256": "62a5542e6c1c0c531728587ecb19c112d0739eb93d9b79a08591c9bd9f13be13"
+        }
+      ]
+    },
+    {
+      "module": "fig6_deployment",
+      "function": "main",
+      "stem": "fig6_deployment",
+      "level": "aggregate replot + published DFT values",
+      "notes": "Main-text Fig. 5; author script exports historical filename fig6_deployment. Replots committed generator/MLIP aggregates and previously computed E2/E3 DFT values. Does not generate structures or run MLIP/DFT calculations.",
+      "id": "fig5",
+      "exit_code": 0,
+      "status": "success",
+      "seconds": 3.043,
+      "log": "fig5_run.log",
+      "source_script_sha256": "e32a565241c0aa78697c26dbc2fe65109bcbe59e3436d67771d658184765076d",
+      "files": [
+        {
+          "path": "fig6_deployment.pdf",
+          "size": 101967,
+          "sha256": "f5c21fc8334d4bb00ed11a5de4bb0cbe66cd67c6e7a37fe4f1ae9b7674a7bf5b"
+        },
+        {
+          "path": "fig6_deployment.png",
+          "size": 1078702,
+          "sha256": "5ef95f9fe87bb7dbb43be81a529190287a85d465df8df247fa77c9a1f7e39170"
+        },
+        {
+          "path": "fig6_deployment.svg",
+          "size": 505533,
+          "sha256": "54da421c8b9541c2141750b590c74ad2018b5cc116f4315fe75887fd5841b5e4"
+        }
+      ]
+    }
+  ]
+}

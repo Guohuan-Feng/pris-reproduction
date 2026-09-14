@@ -1,0 +1,2635 @@
+{
+  "source_repository": "https://github.com/AI4QC/PRIS",
+  "source_commit": "34e6c86c083759dc1ee594ae22238ea9b5ebd8f4",
+  "n_pairs": 260,
+  "selected_for_E4": 261,
+  "selected_without_public_relaxed_cif": [
+    "candidate_0248"
+  ],
+  "scope": "All 260 paired structures in the author's published supplementary index; no performance-based subsampling.",
+  "protocol_note": "Published supplementary symmetry uses input cells at symprec 0.01. The separate dft/analyze.py helper uses primitive standard cells. Recompute both explicitly.",
+  "records": [
+    {
+      "candidate_id": "candidate_0000",
+      "role": "control",
+      "generated_file": "generated/candidate_0000.POSCAR",
+      "relaxed_file": "relaxed/candidate_0000.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0000/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0000.cif",
+      "generated_sha256": "085f57c6a0ba35a862133944e9e51e58d7ae1e696995d0a284115fde039136a9",
+      "relaxed_sha256": "1df616053fa887f734e73c5db9f664c43d05c01ed746cd3ca809cbdf96ac0588"
+    },
+    {
+      "candidate_id": "candidate_0004",
+      "role": "control",
+      "generated_file": "generated/candidate_0004.POSCAR",
+      "relaxed_file": "relaxed/candidate_0004.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0004/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0004.cif",
+      "generated_sha256": "0bb4d257f5a17fcbe0b5662400f2a5b7e1ea36eb86fcc2d82c3340b361af3342",
+      "relaxed_sha256": "4ce547b76d129bd8ae50deeb641203d1f4c7cfcc3f41abcae466288511e1bdd9"
+    },
+    {
+      "candidate_id": "candidate_0006",
+      "role": "priority",
+      "generated_file": "generated/candidate_0006.POSCAR",
+      "relaxed_file": "relaxed/candidate_0006.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0006/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0006.cif",
+      "generated_sha256": "d9a455cd6da254fb49566a6e6bb12126ac4bebf111c0af3a9cae7ace5d87e4b6",
+      "relaxed_sha256": "c124a895405cca952ef3b42e6d7c7d4a05b96a4843a6214f02c436629f6b0ceb"
+    },
+    {
+      "candidate_id": "candidate_0009",
+      "role": "screened",
+      "generated_file": "generated/candidate_0009.POSCAR",
+      "relaxed_file": "relaxed/candidate_0009.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0009/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0009.cif",
+      "generated_sha256": "c6142846e076111efc885977684700e1eeefbf49ac226274db2a165cdcb30dc3",
+      "relaxed_sha256": "b37896df420bb96581adee2af00215b7c14056a9ecce45bfd41c788a38aee645"
+    },
+    {
+      "candidate_id": "candidate_0011",
+      "role": "screened",
+      "generated_file": "generated/candidate_0011.POSCAR",
+      "relaxed_file": "relaxed/candidate_0011.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0011/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0011.cif",
+      "generated_sha256": "e308d6e77d65119558dc2dde054e34bbfcd4678ea0a19d6356fd54d938f48fd4",
+      "relaxed_sha256": "d0241c2ffdb401f66e0302b5567d71a76b3621a9615b7d9bb9876b08f01e7d66"
+    },
+    {
+      "candidate_id": "candidate_0013",
+      "role": "priority",
+      "generated_file": "generated/candidate_0013.POSCAR",
+      "relaxed_file": "relaxed/candidate_0013.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0013/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0013.cif",
+      "generated_sha256": "99eff71eb3d23632c3e883e18ef7d951290841a792c7ce29ff6b4dd86d18a6a2",
+      "relaxed_sha256": "a4dcef6cb98f3e6619e64fa3e6b5774a2038cc2c4bb769cd15e355201ec71f7a"
+    },
+    {
+      "candidate_id": "candidate_0015",
+      "role": "priority",
+      "generated_file": "generated/candidate_0015.POSCAR",
+      "relaxed_file": "relaxed/candidate_0015.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0015/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0015.cif",
+      "generated_sha256": "37118ad732b2539bc9c10684ce472824aa8647652ed5493b163d221b437f597d",
+      "relaxed_sha256": "1a411feb69ef91752ceead0732d836f90c1fcfed3776efbe38f5e043a546aca5"
+    },
+    {
+      "candidate_id": "candidate_0017",
+      "role": "priority",
+      "generated_file": "generated/candidate_0017.POSCAR",
+      "relaxed_file": "relaxed/candidate_0017.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0017/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0017.cif",
+      "generated_sha256": "f869aac5ff5c0687ce8e88b52aaf302c8e38a67b39ab79b868bb0d769c1c9421",
+      "relaxed_sha256": "33eb9adaf75c18ca14cf2e704aa35c9ce5bbe0efd8a41aacbd5131015233836f"
+    },
+    {
+      "candidate_id": "candidate_0023",
+      "role": "control",
+      "generated_file": "generated/candidate_0023.POSCAR",
+      "relaxed_file": "relaxed/candidate_0023.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0023/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0023.cif",
+      "generated_sha256": "6a6f464e4fddac50d1a57a64838067c0152a3577bb1b4764ae9108c5a4be7b1e",
+      "relaxed_sha256": "fc8bb6b0595d76bf464449b2f19211a64a44d26d03bbd4f51ecf72e8c508423d"
+    },
+    {
+      "candidate_id": "candidate_0025",
+      "role": "control",
+      "generated_file": "generated/candidate_0025.POSCAR",
+      "relaxed_file": "relaxed/candidate_0025.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0025/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0025.cif",
+      "generated_sha256": "e7fd9cdf9308a8cc4b5793da844b2415794d924667b42506f4c4eac54a9d7647",
+      "relaxed_sha256": "c0057fc26747039e8a984ca68c5cabfab13367b5c375f8945d90cad7efa7a621"
+    },
+    {
+      "candidate_id": "candidate_0034",
+      "role": "priority",
+      "generated_file": "generated/candidate_0034.POSCAR",
+      "relaxed_file": "relaxed/candidate_0034.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0034/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0034.cif",
+      "generated_sha256": "e6c897ba253d49112f09a114d0578f3cf38a131f14f2770293b2a0c0a0f4a9b2",
+      "relaxed_sha256": "efcbb871a6c05a6ad3b74ad920b3a3ceeafb25877178c3331677f1abff83869f"
+    },
+    {
+      "candidate_id": "candidate_0037",
+      "role": "priority",
+      "generated_file": "generated/candidate_0037.POSCAR",
+      "relaxed_file": "relaxed/candidate_0037.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0037/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0037.cif",
+      "generated_sha256": "35b6208b65a29c50f8fe1d5efacc7dd7be2a68298fac2a9efc765f0e2789d3aa",
+      "relaxed_sha256": "5c6085d4a9b6eb9b161f6c5d8d8498561891715289c2da299de0fe94024e6e2c"
+    },
+    {
+      "candidate_id": "candidate_0051",
+      "role": "priority",
+      "generated_file": "generated/candidate_0051.POSCAR",
+      "relaxed_file": "relaxed/candidate_0051.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0051/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0051.cif",
+      "generated_sha256": "4dbbf76e4429beb0d4b033b148a7fcca06c1eee4f2738df3b2188b1345a5705e",
+      "relaxed_sha256": "10b051ea41813229784d58982968580b235ef49eff1dd8b0ce1a7df3dce667eb"
+    },
+    {
+      "candidate_id": "candidate_0052",
+      "role": "priority",
+      "generated_file": "generated/candidate_0052.POSCAR",
+      "relaxed_file": "relaxed/candidate_0052.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0052/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0052.cif",
+      "generated_sha256": "13f1f4e1fdb0c32a55b260c7de94bc972e6eeb2a6825a3bf4d4e28847f77c724",
+      "relaxed_sha256": "f7beed110e14b965047312c808bad96ad9c4a0597d9cfec4646eabd6d9c0607a"
+    },
+    {
+      "candidate_id": "candidate_0063",
+      "role": "priority",
+      "generated_file": "generated/candidate_0063.POSCAR",
+      "relaxed_file": "relaxed/candidate_0063.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0063/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0063.cif",
+      "generated_sha256": "1bfdfe4616bb9fcf029354cff582e9e3f0b85d89ad670b220a3f576c264ba7b6",
+      "relaxed_sha256": "c1ed51cbd9b119136f88c997d16d71b4c941873a60486f356b32e52f0fb30fe8"
+    },
+    {
+      "candidate_id": "candidate_0065",
+      "role": "priority",
+      "generated_file": "generated/candidate_0065.POSCAR",
+      "relaxed_file": "relaxed/candidate_0065.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0065/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0065.cif",
+      "generated_sha256": "47d039c1f66e6dab8f38df744d2d8a577089332eb65e40898d2573a8534f863d",
+      "relaxed_sha256": "c8bbbdb06bb3eac97419aa7868e130f0b603706dc52642fa1b51ed7e1ce01600"
+    },
+    {
+      "candidate_id": "candidate_0066",
+      "role": "control",
+      "generated_file": "generated/candidate_0066.POSCAR",
+      "relaxed_file": "relaxed/candidate_0066.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0066/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0066.cif",
+      "generated_sha256": "1ce53a8737ba4f7e3dbe8b905d0a6380a14d308673ea1996c0093683f96ba49b",
+      "relaxed_sha256": "94985824b5525cccb9af0ec74c743bfbedec44ac6941e51caf448dcfab41f456"
+    },
+    {
+      "candidate_id": "candidate_0073",
+      "role": "priority",
+      "generated_file": "generated/candidate_0073.POSCAR",
+      "relaxed_file": "relaxed/candidate_0073.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0073/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0073.cif",
+      "generated_sha256": "2ee8cb4179dfac199edc4c6a3e86d1da1a94c2e2de22eb57854b9c3f1d6e6dbb",
+      "relaxed_sha256": "a7c556ab46986bf88408ba3de55358504153b5c41cc9aa18a57aa6f488072eed"
+    },
+    {
+      "candidate_id": "candidate_0074",
+      "role": "priority",
+      "generated_file": "generated/candidate_0074.POSCAR",
+      "relaxed_file": "relaxed/candidate_0074.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0074/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0074.cif",
+      "generated_sha256": "b103f168c2310351f06db36f93ca19f41b5c884a669b98cc6a5a15a36f0c4002",
+      "relaxed_sha256": "f9350dba4b0769809a67a54c92dbb66947bb41d2ab27de0affd9b748c23c1339"
+    },
+    {
+      "candidate_id": "candidate_0077",
+      "role": "priority",
+      "generated_file": "generated/candidate_0077.POSCAR",
+      "relaxed_file": "relaxed/candidate_0077.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0077/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0077.cif",
+      "generated_sha256": "57cada4979a55f55c94d0c602248bdf3743c44273b488010c532e10a367ecf0d",
+      "relaxed_sha256": "3d978983558588e2acbcb5a3c760a135025ea9c228d2ecbe7bac9d468dcf5d57"
+    },
+    {
+      "candidate_id": "candidate_0084",
+      "role": "control",
+      "generated_file": "generated/candidate_0084.POSCAR",
+      "relaxed_file": "relaxed/candidate_0084.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0084/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0084.cif",
+      "generated_sha256": "a5eda34b355b9aa3b3ce6d2d825107a2de9390f0628be0f1145b7cf8393a23f3",
+      "relaxed_sha256": "ef936a22ac1a4ebf63bc31caefdb20ffa4ca6a9364e27119e12ab552bd7053e1"
+    },
+    {
+      "candidate_id": "candidate_0086",
+      "role": "priority",
+      "generated_file": "generated/candidate_0086.POSCAR",
+      "relaxed_file": "relaxed/candidate_0086.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0086/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0086.cif",
+      "generated_sha256": "c4ffc08a1ce04f031109ed061003e355e0f3269547608e790a280b6e176481b7",
+      "relaxed_sha256": "ae4d870e350f47a8206d83dde096ac9856f72bf9b94bbff6a7846471fe0e7807"
+    },
+    {
+      "candidate_id": "candidate_0096",
+      "role": "priority",
+      "generated_file": "generated/candidate_0096.POSCAR",
+      "relaxed_file": "relaxed/candidate_0096.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0096/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0096.cif",
+      "generated_sha256": "86dbeb508d448d2fa78e87356136a4d6b7737031c1fb3623ace960f210c5aadd",
+      "relaxed_sha256": "df437760096112253eb7d704e50028fe905b8410b2ee56ba29d5470fd672f563"
+    },
+    {
+      "candidate_id": "candidate_0097",
+      "role": "priority",
+      "generated_file": "generated/candidate_0097.POSCAR",
+      "relaxed_file": "relaxed/candidate_0097.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0097/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0097.cif",
+      "generated_sha256": "f845a7d13ff6cb9b64c8aea1d5d0a8179518a5e85236c169a9b7fe8b1ffb13a0",
+      "relaxed_sha256": "4b91534ae7b7cf6e9ce0436c7d228933e78f730aca09c044efe213345004d253"
+    },
+    {
+      "candidate_id": "candidate_0100",
+      "role": "priority",
+      "generated_file": "generated/candidate_0100.POSCAR",
+      "relaxed_file": "relaxed/candidate_0100.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0100/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0100.cif",
+      "generated_sha256": "f6c105362df8144b123be3bd6578cce8f7ba54bf438e27a87f7b969ec30a0926",
+      "relaxed_sha256": "8315060315e01ffae060586f938f9e2cf530ecc60e835b52ddb6cda17a2397c1"
+    },
+    {
+      "candidate_id": "candidate_0107",
+      "role": "screened",
+      "generated_file": "generated/candidate_0107.POSCAR",
+      "relaxed_file": "relaxed/candidate_0107.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0107/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0107.cif",
+      "generated_sha256": "0f04057370cd81ec58fca0998f58f2e5cb85b7e1115d75b7e61e682453f9df22",
+      "relaxed_sha256": "3b76975da0f49c010f0af7f288fa9181a33682a3f7a3cf98dfecb469077e79f6"
+    },
+    {
+      "candidate_id": "candidate_0118",
+      "role": "priority",
+      "generated_file": "generated/candidate_0118.POSCAR",
+      "relaxed_file": "relaxed/candidate_0118.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0118/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0118.cif",
+      "generated_sha256": "1314ae48890fbb3e4f97a4fe5dfe62c99705dd9cfce7caff211c8ad520f42377",
+      "relaxed_sha256": "30a8435767800c75e7b93827a2528b98b6673e613c22dc33638898616a07d55b"
+    },
+    {
+      "candidate_id": "candidate_0124",
+      "role": "screened",
+      "generated_file": "generated/candidate_0124.POSCAR",
+      "relaxed_file": "relaxed/candidate_0124.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0124/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0124.cif",
+      "generated_sha256": "6e894af1d8715c5171613edf86a4ceec2a20b8f894734aa460050c08b7563a00",
+      "relaxed_sha256": "86ae1eef0c36591ee3ad8ae8550981737a9516c829bbfe90e4b2fbea660ab004"
+    },
+    {
+      "candidate_id": "candidate_0130",
+      "role": "priority",
+      "generated_file": "generated/candidate_0130.POSCAR",
+      "relaxed_file": "relaxed/candidate_0130.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0130/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0130.cif",
+      "generated_sha256": "e578115bbf2323d86247e3702aff7d512a46b28a22a842fb8664523d95f3cca8",
+      "relaxed_sha256": "03c74795abbcaab8096a51c3da326cbab1bc1d705b1d3649328f541d018a953b"
+    },
+    {
+      "candidate_id": "candidate_0131",
+      "role": "priority",
+      "generated_file": "generated/candidate_0131.POSCAR",
+      "relaxed_file": "relaxed/candidate_0131.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0131/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0131.cif",
+      "generated_sha256": "cbdfc8efbf4dddb09e3c16cfe0cf328bcbd3c5a6489b44e14c977dbb20994519",
+      "relaxed_sha256": "ee903bd9b399800a23d4d7e5d87d18c3a4d02e1a0afc0f272400f925c2e088e4"
+    },
+    {
+      "candidate_id": "candidate_0132",
+      "role": "priority",
+      "generated_file": "generated/candidate_0132.POSCAR",
+      "relaxed_file": "relaxed/candidate_0132.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0132/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0132.cif",
+      "generated_sha256": "9444a1581cc9cc33463d311c95543a4e419c880e7ac162b128c6aaa495d29cc4",
+      "relaxed_sha256": "abc1308d49c8a048d1df595be514d800c2c4078c732f5cb562f02692a308aef5"
+    },
+    {
+      "candidate_id": "candidate_0134",
+      "role": "priority",
+      "generated_file": "generated/candidate_0134.POSCAR",
+      "relaxed_file": "relaxed/candidate_0134.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0134/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0134.cif",
+      "generated_sha256": "74237995700ea41db699b5f7eaead6fd50563471b9896ea12045918fbc181ad1",
+      "relaxed_sha256": "30bc83193f7770bbac62a99e3b78be64533ea7f2cd9d0c0ac308c26f2bca3dff"
+    },
+    {
+      "candidate_id": "candidate_0140",
+      "role": "control",
+      "generated_file": "generated/candidate_0140.POSCAR",
+      "relaxed_file": "relaxed/candidate_0140.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0140/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0140.cif",
+      "generated_sha256": "7b009c8b0dbc89d3183132316c84560f581047da671fbe2a8e01b958f9ba90f3",
+      "relaxed_sha256": "2beb9f9f1d36e541daf48eb2dd89544c5c97432f6ed5af80640e5d5afc10b519"
+    },
+    {
+      "candidate_id": "candidate_0142",
+      "role": "priority",
+      "generated_file": "generated/candidate_0142.POSCAR",
+      "relaxed_file": "relaxed/candidate_0142.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0142/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0142.cif",
+      "generated_sha256": "716c5611095db92933100ddc7df754feced29fa1def8c3c113d54bf064517f5a",
+      "relaxed_sha256": "ba56ddc7d7beb86899a974aa4b360b104787e837c32db7fdab75cde0284b0303"
+    },
+    {
+      "candidate_id": "candidate_0143",
+      "role": "priority",
+      "generated_file": "generated/candidate_0143.POSCAR",
+      "relaxed_file": "relaxed/candidate_0143.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0143/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0143.cif",
+      "generated_sha256": "a4731331bbf95fac33251edde3ace75f54c95b808b86cec0bd763c0218885f7a",
+      "relaxed_sha256": "11dcec095b2fb3f34feb19b781c19906170d31ceb2d6650a07a275469edc2135"
+    },
+    {
+      "candidate_id": "candidate_0151",
+      "role": "priority",
+      "generated_file": "generated/candidate_0151.POSCAR",
+      "relaxed_file": "relaxed/candidate_0151.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0151/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0151.cif",
+      "generated_sha256": "59de2e0d669c0ddf8093185964144df63a467eb8e1bfd89d222b4c84f1e399b5",
+      "relaxed_sha256": "ac0eb5e927be8222399e20e94a7c2cbfffabcb16dabf95a463b05543ff2e70b3"
+    },
+    {
+      "candidate_id": "candidate_0153",
+      "role": "screened",
+      "generated_file": "generated/candidate_0153.POSCAR",
+      "relaxed_file": "relaxed/candidate_0153.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0153/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0153.cif",
+      "generated_sha256": "ca83ef6de4e77b5cba463e5b0971ea6f15ddae4a0994c99f42788e8df49b2ec4",
+      "relaxed_sha256": "29c171b20036915022f46522473b3b145946045f47ce06106b4ae69d36bde639"
+    },
+    {
+      "candidate_id": "candidate_0155",
+      "role": "priority",
+      "generated_file": "generated/candidate_0155.POSCAR",
+      "relaxed_file": "relaxed/candidate_0155.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0155/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0155.cif",
+      "generated_sha256": "d1192e9aeaf1042d83de541c0bdbfeeb36ade141f08fcf370f559b3ffa8d4194",
+      "relaxed_sha256": "ea3df78e6c885bfc1e7be58a6343645f1b5c485b25bae157d97b4c4e956d7da5"
+    },
+    {
+      "candidate_id": "candidate_0157",
+      "role": "screened",
+      "generated_file": "generated/candidate_0157.POSCAR",
+      "relaxed_file": "relaxed/candidate_0157.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0157/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0157.cif",
+      "generated_sha256": "b6bb7570bd63d26f607482dce73467a5bb9313169a73ff78948280d54c8e968a",
+      "relaxed_sha256": "db490f88ae0b2bb342e3bd565deb6539738619b34fcbb4d93a58722a3fa81d96"
+    },
+    {
+      "candidate_id": "candidate_0164",
+      "role": "control",
+      "generated_file": "generated/candidate_0164.POSCAR",
+      "relaxed_file": "relaxed/candidate_0164.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0164/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0164.cif",
+      "generated_sha256": "7fdade6a37a6c75e590b087abed0701436e28218c8ea7b8f12a26d2a107529ba",
+      "relaxed_sha256": "58574c32e4ba0a5c3706e219edb10192769401fce58e55625934c2f1fdf02732"
+    },
+    {
+      "candidate_id": "candidate_0169",
+      "role": "screened",
+      "generated_file": "generated/candidate_0169.POSCAR",
+      "relaxed_file": "relaxed/candidate_0169.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0169/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0169.cif",
+      "generated_sha256": "6722b14c61e238754ed944a60a7fea99dda720a3e4dc78b813504f2f92a706aa",
+      "relaxed_sha256": "7ce4c9c7d6cb1b1e710162fb3fcded3d544d3cebbb25bf40a0ec76d285c6da41"
+    },
+    {
+      "candidate_id": "candidate_0170",
+      "role": "control",
+      "generated_file": "generated/candidate_0170.POSCAR",
+      "relaxed_file": "relaxed/candidate_0170.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0170/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0170.cif",
+      "generated_sha256": "8a6b3940f686ec2506b450ae65833f79d3e4567744a91d63982592e7cc938583",
+      "relaxed_sha256": "53b28153c538e4e6032a8db7c09d04502e081cd23a25c668ae968f1d4fb02e1c"
+    },
+    {
+      "candidate_id": "candidate_0171",
+      "role": "priority",
+      "generated_file": "generated/candidate_0171.POSCAR",
+      "relaxed_file": "relaxed/candidate_0171.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0171/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0171.cif",
+      "generated_sha256": "5f9a747c2138c9082615981302fcd7f86ba3eb194abe211f6b8f65ebf5183d4e",
+      "relaxed_sha256": "1d0c29d684d675b290bd852106d5a0e6431be2c172ae997fe2944e817eb294d8"
+    },
+    {
+      "candidate_id": "candidate_0174",
+      "role": "priority",
+      "generated_file": "generated/candidate_0174.POSCAR",
+      "relaxed_file": "relaxed/candidate_0174.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0174/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0174.cif",
+      "generated_sha256": "8b7ae87f7ebcf2ee94d1771590aa68fb46432d36117e36d6d8c746842a743f19",
+      "relaxed_sha256": "1c6ed6d90d700033fff9581b27ae5f9d71ac12bfde1810fa6844bf5375fccc2e"
+    },
+    {
+      "candidate_id": "candidate_0175",
+      "role": "priority",
+      "generated_file": "generated/candidate_0175.POSCAR",
+      "relaxed_file": "relaxed/candidate_0175.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0175/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0175.cif",
+      "generated_sha256": "fef093eaaf6dc27b07c4e5b33942c1f780734115293888c45b44c367ce99e29b",
+      "relaxed_sha256": "ea6dcff4da41a5e9f65637eb44606524803347a483d347e6a473f0973bc2d8c8"
+    },
+    {
+      "candidate_id": "candidate_0177",
+      "role": "priority",
+      "generated_file": "generated/candidate_0177.POSCAR",
+      "relaxed_file": "relaxed/candidate_0177.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0177/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0177.cif",
+      "generated_sha256": "d012d37977c53e063550d14fafd01cbbf173a3c0511fcc7fe9f82b569dbe19d9",
+      "relaxed_sha256": "996d5324bb8f695b28269850a2176ef1ca41a3c9c0a8ad0fd2fcae1b121a6622"
+    },
+    {
+      "candidate_id": "candidate_0184",
+      "role": "control",
+      "generated_file": "generated/candidate_0184.POSCAR",
+      "relaxed_file": "relaxed/candidate_0184.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0184/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0184.cif",
+      "generated_sha256": "404361ba1507a3b60c06cedebe309d936a740dedbf4ac8bd5aec21684d8e137f",
+      "relaxed_sha256": "00740283300dd6546189744c476198c805c5860bff7077c0f0832d5d8155c850"
+    },
+    {
+      "candidate_id": "candidate_0194",
+      "role": "priority",
+      "generated_file": "generated/candidate_0194.POSCAR",
+      "relaxed_file": "relaxed/candidate_0194.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0194/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0194.cif",
+      "generated_sha256": "dc0a66dfced17e3dc86d918505d992664bcdefb24f3b64291f675e83961ac7ad",
+      "relaxed_sha256": "db3ef6cc65935229b8d407aaa7923a1da363381bbb22fa3b713ed4f827da25bd"
+    },
+    {
+      "candidate_id": "candidate_0195",
+      "role": "screened",
+      "generated_file": "generated/candidate_0195.POSCAR",
+      "relaxed_file": "relaxed/candidate_0195.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0195/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0195.cif",
+      "generated_sha256": "f11224a1a92c0ae8d21d1a5c06135a4bbd35b43f9c55404948179e20d9a12e46",
+      "relaxed_sha256": "ac32284e9e6fd1f87fd2326b86faf8d89b06194060ada8de86a726dc52222e74"
+    },
+    {
+      "candidate_id": "candidate_0196",
+      "role": "priority",
+      "generated_file": "generated/candidate_0196.POSCAR",
+      "relaxed_file": "relaxed/candidate_0196.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0196/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0196.cif",
+      "generated_sha256": "56b8c89b6b6af0492e56d9a0c095a7fe4783e73f0ac6f08050cff7edee47241c",
+      "relaxed_sha256": "291c896cc6f340eb5739c01a389a6cc2739fc2e594b74a017f90824a4f351bc2"
+    },
+    {
+      "candidate_id": "candidate_0200",
+      "role": "priority",
+      "generated_file": "generated/candidate_0200.POSCAR",
+      "relaxed_file": "relaxed/candidate_0200.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0200/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0200.cif",
+      "generated_sha256": "5c61f963a88d792433f4abdfc2033d62e3ede4a43cd93fb9510ffb0136f74386",
+      "relaxed_sha256": "782d352bd1be398e824cd84cba71b76cad0172f4581cefbb0e1dee1675dadd1b"
+    },
+    {
+      "candidate_id": "candidate_0215",
+      "role": "control",
+      "generated_file": "generated/candidate_0215.POSCAR",
+      "relaxed_file": "relaxed/candidate_0215.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0215/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0215.cif",
+      "generated_sha256": "9b9af77a64ec56048f59d66b57c145b94a35d9161b31130adae6fc31b6d00e4c",
+      "relaxed_sha256": "7c5621ac6e97aab35dade5685dad513a8d7bac109656d9a506ec44be585ff8f8"
+    },
+    {
+      "candidate_id": "candidate_0221",
+      "role": "priority",
+      "generated_file": "generated/candidate_0221.POSCAR",
+      "relaxed_file": "relaxed/candidate_0221.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0221/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0221.cif",
+      "generated_sha256": "14fd62b9c3774c0dbba24d81f01c1b6e109c5799d2949c3e63c425023eed29bd",
+      "relaxed_sha256": "cc22e6bb8eac8e630f780c93903c8c633a87f89b944c7d844612abf8f066d471"
+    },
+    {
+      "candidate_id": "candidate_0224",
+      "role": "screened",
+      "generated_file": "generated/candidate_0224.POSCAR",
+      "relaxed_file": "relaxed/candidate_0224.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0224/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0224.cif",
+      "generated_sha256": "506985021bb3c26cdc8880339981a01466f111a3821e24e64bb02891ddf22f74",
+      "relaxed_sha256": "c6923bf915bdf48166f7330db7da81e92ead46dbae1c15f149877f27ad6889c7"
+    },
+    {
+      "candidate_id": "candidate_0227",
+      "role": "screened",
+      "generated_file": "generated/candidate_0227.POSCAR",
+      "relaxed_file": "relaxed/candidate_0227.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0227/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0227.cif",
+      "generated_sha256": "932e8ee0c881d80818ccc9da628b07974e79fc506755c4cd99d9b05b27153597",
+      "relaxed_sha256": "db40eb466c60f1c11d860873ab8f5c4e7109013b8eda5076498d3e67b21fc4de"
+    },
+    {
+      "candidate_id": "candidate_0230",
+      "role": "priority",
+      "generated_file": "generated/candidate_0230.POSCAR",
+      "relaxed_file": "relaxed/candidate_0230.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0230/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0230.cif",
+      "generated_sha256": "634acb629c57aa5b9ad44e0ce14f8bdde73045bd8d215f3594fcbe5e9d74708d",
+      "relaxed_sha256": "676d4b7718719e3a59f146c3c1cc275324cb9a513dda3ee6935d1a33cd33af2d"
+    },
+    {
+      "candidate_id": "candidate_0236",
+      "role": "priority",
+      "generated_file": "generated/candidate_0236.POSCAR",
+      "relaxed_file": "relaxed/candidate_0236.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0236/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0236.cif",
+      "generated_sha256": "83c6a755746d8b44e039a5805532b37543e8b902c74ec2ef23445e12fbea0a81",
+      "relaxed_sha256": "aa545c1d76e25f405d0bc702f35fdab21b9545f1f550be93507d562eaf051ff3"
+    },
+    {
+      "candidate_id": "candidate_0241",
+      "role": "priority",
+      "generated_file": "generated/candidate_0241.POSCAR",
+      "relaxed_file": "relaxed/candidate_0241.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0241/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0241.cif",
+      "generated_sha256": "9185fee8ae8cc4b5e92f8990041fe6e53b4e5fc1687315e5fc80da358fdf061e",
+      "relaxed_sha256": "be7bad075c4063cae2e101425159a6331a5a9e4b8b5015e1c6a159c663494ea9"
+    },
+    {
+      "candidate_id": "candidate_0244",
+      "role": "screened",
+      "generated_file": "generated/candidate_0244.POSCAR",
+      "relaxed_file": "relaxed/candidate_0244.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0244/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0244.cif",
+      "generated_sha256": "f683aed5adaab9cabc5a7dec86e8bbcdbabd80d625f7f68972985febe594e091",
+      "relaxed_sha256": "1a96ce62be893500fc264fa8ef9f2fe66dd83b3aa9e2774d2810bfb61408515e"
+    },
+    {
+      "candidate_id": "candidate_0249",
+      "role": "priority",
+      "generated_file": "generated/candidate_0249.POSCAR",
+      "relaxed_file": "relaxed/candidate_0249.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0249/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0249.cif",
+      "generated_sha256": "515360b30a6047409441d5803298d48a3cbb2a63aebe63652c15dce50d67ed82",
+      "relaxed_sha256": "bdeeeb248120be72108c7e4b189e069c72a9cb4af4169bf97300d54263d75593"
+    },
+    {
+      "candidate_id": "candidate_0253",
+      "role": "priority",
+      "generated_file": "generated/candidate_0253.POSCAR",
+      "relaxed_file": "relaxed/candidate_0253.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0253/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0253.cif",
+      "generated_sha256": "4b534ac5201b234bd609fbedf861817dcbb68c949afe222a49468354957960a0",
+      "relaxed_sha256": "f30376c5d331404ba46591e811657d6e797affef5d249f75b18688a51542529d"
+    },
+    {
+      "candidate_id": "candidate_0261",
+      "role": "priority",
+      "generated_file": "generated/candidate_0261.POSCAR",
+      "relaxed_file": "relaxed/candidate_0261.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0261/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0261.cif",
+      "generated_sha256": "a61ef13bc8a81fa2aa545705071d0b27aef65555e2d0cc1a51158b93e2650688",
+      "relaxed_sha256": "57afe7360ac5a7c6271f033bf36684e2c8f05cea5b4f452132e08de929debe0e"
+    },
+    {
+      "candidate_id": "candidate_0264",
+      "role": "screened",
+      "generated_file": "generated/candidate_0264.POSCAR",
+      "relaxed_file": "relaxed/candidate_0264.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0264/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0264.cif",
+      "generated_sha256": "19229f3e1d77849d78a5fc0e4404a065bcfced904bb4be29da1277dd91589c33",
+      "relaxed_sha256": "f6f094a26778e7dc060c35860e3d092feb3d63172642fa8955f6d9e0b038f919"
+    },
+    {
+      "candidate_id": "candidate_0269",
+      "role": "control",
+      "generated_file": "generated/candidate_0269.POSCAR",
+      "relaxed_file": "relaxed/candidate_0269.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0269/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0269.cif",
+      "generated_sha256": "a233fae84e9484923df986d4687a422e15462f43524cd0e7da6bca994da15661",
+      "relaxed_sha256": "6e40b008ad3a44a5536b3fa4a2826c31e7b512e47e503744a7f9ce782d4b80cb"
+    },
+    {
+      "candidate_id": "candidate_0273",
+      "role": "priority",
+      "generated_file": "generated/candidate_0273.POSCAR",
+      "relaxed_file": "relaxed/candidate_0273.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0273/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0273.cif",
+      "generated_sha256": "50f1c937a3a12dc989d30476e7fc5c9280f20c2a0d209d5f921f6e292c66767e",
+      "relaxed_sha256": "75b3cf7b799a4daa843f7d3e57276d568c83e9203e7358edda67aabd1b8a5db7"
+    },
+    {
+      "candidate_id": "candidate_0284",
+      "role": "screened",
+      "generated_file": "generated/candidate_0284.POSCAR",
+      "relaxed_file": "relaxed/candidate_0284.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0284/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0284.cif",
+      "generated_sha256": "206c788b3198e57ef0f2e83c2e9d2275f4417a6bb3c460f15f4edf5b03d540fa",
+      "relaxed_sha256": "85428b05d7eb2e2a8b84ca4b366c0ff67a86b0ac56e3db8b2df955a3e6abe1c4"
+    },
+    {
+      "candidate_id": "candidate_0292",
+      "role": "screened",
+      "generated_file": "generated/candidate_0292.POSCAR",
+      "relaxed_file": "relaxed/candidate_0292.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0292/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0292.cif",
+      "generated_sha256": "474a1cab1867b9f5990d15936f20910458944bb91bd021d16910886c722d0aa5",
+      "relaxed_sha256": "98840d1c316825b776dc5f149f5676eedcdf83e69244ca760d3dea9131e7b75d"
+    },
+    {
+      "candidate_id": "candidate_0294",
+      "role": "screened",
+      "generated_file": "generated/candidate_0294.POSCAR",
+      "relaxed_file": "relaxed/candidate_0294.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0294/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0294.cif",
+      "generated_sha256": "ec5eafd4f4d585eea8f81b9ec879e504ce71bfdb0378808e95019c5b8840bf6e",
+      "relaxed_sha256": "48e604429477b8a46283ab1b91668f85e8d90fdfba750ae1e02214c44b57d7ef"
+    },
+    {
+      "candidate_id": "candidate_0299",
+      "role": "priority",
+      "generated_file": "generated/candidate_0299.POSCAR",
+      "relaxed_file": "relaxed/candidate_0299.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0299/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0299.cif",
+      "generated_sha256": "dc8ed782b40805b54daacf44512339961bd1772b081e42bc1f9c4e025700b730",
+      "relaxed_sha256": "08b7f1e585f9a81db27382607417bf7c58c1dd9a7e1ab03469d36700f2d594a7"
+    },
+    {
+      "candidate_id": "candidate_0300",
+      "role": "control",
+      "generated_file": "generated/candidate_0300.POSCAR",
+      "relaxed_file": "relaxed/candidate_0300.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0300/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0300.cif",
+      "generated_sha256": "e4a5262ef3bb01068452b4e98945fadd4d3cb6d88c8694161dc823f17f9b66f4",
+      "relaxed_sha256": "e755017231dc1dd10644e4f20f8e02e5cda8ce54cf2947b63b8cea77e282d628"
+    },
+    {
+      "candidate_id": "candidate_0301",
+      "role": "priority",
+      "generated_file": "generated/candidate_0301.POSCAR",
+      "relaxed_file": "relaxed/candidate_0301.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0301/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0301.cif",
+      "generated_sha256": "dc8935ff04e6ca1c39e55b43a7b7d449f2782c08057ef9be4543f9e8be5df9f9",
+      "relaxed_sha256": "00dd5803a9f5c0155a3a81900e9095c3044c5e9fee27fc03faedf83c8a3b82d9"
+    },
+    {
+      "candidate_id": "candidate_0305",
+      "role": "screened",
+      "generated_file": "generated/candidate_0305.POSCAR",
+      "relaxed_file": "relaxed/candidate_0305.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0305/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0305.cif",
+      "generated_sha256": "0a34c21ea21569a58b513630147cc16cdc3ce0d8fc4988d95a4945b6d1740695",
+      "relaxed_sha256": "1d0e32e88d42395bb84700ded1f9b8056b3b847f2bf127550ffcfb7f401dfe99"
+    },
+    {
+      "candidate_id": "candidate_0311",
+      "role": "screened",
+      "generated_file": "generated/candidate_0311.POSCAR",
+      "relaxed_file": "relaxed/candidate_0311.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0311/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0311.cif",
+      "generated_sha256": "4d9fc3190984b4edeadd28a5d1a23ce39ecf2e984aa9580027508339cba01ebf",
+      "relaxed_sha256": "6afe64790b17920ac86e03bc4fefccaffdf258fb7e3ec885445db5b4eed2c397"
+    },
+    {
+      "candidate_id": "candidate_0312",
+      "role": "priority",
+      "generated_file": "generated/candidate_0312.POSCAR",
+      "relaxed_file": "relaxed/candidate_0312.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0312/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0312.cif",
+      "generated_sha256": "f1471c7b115ae7c009452befdfcf5b0b2cedb987a75a95eba806654afbddf73d",
+      "relaxed_sha256": "49a199792950d297567355e90b2f02efc91551175faa4fd0dd41084c20e59857"
+    },
+    {
+      "candidate_id": "candidate_0313",
+      "role": "priority",
+      "generated_file": "generated/candidate_0313.POSCAR",
+      "relaxed_file": "relaxed/candidate_0313.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0313/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0313.cif",
+      "generated_sha256": "b2cd11751d80bcf3676260f7499982a3fda8088401657ac8d98a2d9dee8fae9e",
+      "relaxed_sha256": "9046671d4beb8cafa1cc5e9a23c956ab8b1a2bf37ff8a67bf2bf38aca71e4ea7"
+    },
+    {
+      "candidate_id": "candidate_0320",
+      "role": "screened",
+      "generated_file": "generated/candidate_0320.POSCAR",
+      "relaxed_file": "relaxed/candidate_0320.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0320/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0320.cif",
+      "generated_sha256": "2e99e63887cdc09cb04e3f5ef40dea06c372406207e5375c6f954d92a66a55b4",
+      "relaxed_sha256": "0cae7a1590ea30faae6e981f357c85582884800f6596def3869ad45cd50ec3fb"
+    },
+    {
+      "candidate_id": "candidate_0330",
+      "role": "priority",
+      "generated_file": "generated/candidate_0330.POSCAR",
+      "relaxed_file": "relaxed/candidate_0330.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0330/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0330.cif",
+      "generated_sha256": "5c8d460a598599873411f1544e3edd9f84fe3c37ac813db37d506a65390e30e4",
+      "relaxed_sha256": "a660bd10977f95cc49897e55ca0e0ff801e8ffe729d5e8ab1cb99a616b55f19f"
+    },
+    {
+      "candidate_id": "candidate_0331",
+      "role": "priority",
+      "generated_file": "generated/candidate_0331.POSCAR",
+      "relaxed_file": "relaxed/candidate_0331.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0331/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0331.cif",
+      "generated_sha256": "08095dee857e0f69a83b5b427aec446692c18b26aebb59ea270f08adbe476d30",
+      "relaxed_sha256": "6ff6c525046829736d605b22c591e7077680d4487a09e36c8a1b8e2c61b889c8"
+    },
+    {
+      "candidate_id": "candidate_0332",
+      "role": "control",
+      "generated_file": "generated/candidate_0332.POSCAR",
+      "relaxed_file": "relaxed/candidate_0332.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0332/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0332.cif",
+      "generated_sha256": "884eb81fba15f41cf99cd8fe98239f318533857226470a817b9835ad854320d3",
+      "relaxed_sha256": "8080550f357c41f4bbda78018267969b5b91fabe32a4c39d2d493e345c7b93be"
+    },
+    {
+      "candidate_id": "candidate_0336",
+      "role": "screened",
+      "generated_file": "generated/candidate_0336.POSCAR",
+      "relaxed_file": "relaxed/candidate_0336.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0336/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0336.cif",
+      "generated_sha256": "3067d9477d5d03a60a7f132ab42b7ea12fa4a9aa9e7e783fa3c5de2b0a278e15",
+      "relaxed_sha256": "7fb32b9f6f0fb26b8349b055652e799ed433c3d097f8f458b17f864459a502be"
+    },
+    {
+      "candidate_id": "candidate_0339",
+      "role": "priority",
+      "generated_file": "generated/candidate_0339.POSCAR",
+      "relaxed_file": "relaxed/candidate_0339.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0339/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0339.cif",
+      "generated_sha256": "c13db5bc0c9882344d9721feba66e0c651257740aa93ae10bd8aac5d8d3e1b60",
+      "relaxed_sha256": "13d65f23e9576b4c01159ac79fe3846a24714fb4f049f1b1c31830b370af7798"
+    },
+    {
+      "candidate_id": "candidate_0342",
+      "role": "priority",
+      "generated_file": "generated/candidate_0342.POSCAR",
+      "relaxed_file": "relaxed/candidate_0342.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0342/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0342.cif",
+      "generated_sha256": "925882f03e11f45ee37c4bfef4a3cd3d05f80d4febdbb22e67cc39b08867c69e",
+      "relaxed_sha256": "b4383c1713367c48b230c4edf5b10e768951838a0eed2104480d432fada3a9b9"
+    },
+    {
+      "candidate_id": "candidate_0343",
+      "role": "priority",
+      "generated_file": "generated/candidate_0343.POSCAR",
+      "relaxed_file": "relaxed/candidate_0343.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0343/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0343.cif",
+      "generated_sha256": "30b68ec77ce9d3f66572522a6afae0f3764aea04dc80781a4bb3d6915381084f",
+      "relaxed_sha256": "d49a6ce74f7c1a0520e439dc542d8b722783582dc3554423fe542909d02defbc"
+    },
+    {
+      "candidate_id": "candidate_0355",
+      "role": "priority",
+      "generated_file": "generated/candidate_0355.POSCAR",
+      "relaxed_file": "relaxed/candidate_0355.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0355/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0355.cif",
+      "generated_sha256": "c46fccea9a679da1502d5fc2c820a7c18c9e37e3ad830d03e710e11aa12d34b0",
+      "relaxed_sha256": "d453e78f4af4cad1e9e47e17cecd7baa714da3cccb4f195d261224b83eff6c4d"
+    },
+    {
+      "candidate_id": "candidate_0357",
+      "role": "control",
+      "generated_file": "generated/candidate_0357.POSCAR",
+      "relaxed_file": "relaxed/candidate_0357.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0357/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0357.cif",
+      "generated_sha256": "a2f8dbfa8dd5588ffd35d13e3b9afbed2de5a334c092a65d76533b73f507d9aa",
+      "relaxed_sha256": "3416d2879cc175c6950d91aa54b15d7d4ffb79d59845e7eadd422f026e131c11"
+    },
+    {
+      "candidate_id": "candidate_0367",
+      "role": "priority",
+      "generated_file": "generated/candidate_0367.POSCAR",
+      "relaxed_file": "relaxed/candidate_0367.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0367/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0367.cif",
+      "generated_sha256": "2319a0311dcde05b06c578077851e42db716a92e58a01c2415030b3f93cf9028",
+      "relaxed_sha256": "2cffc8fffca8d63355f458e9cf87b02abb3a71847325dc317f5db53b7d0b1ed7"
+    },
+    {
+      "candidate_id": "candidate_0369",
+      "role": "control",
+      "generated_file": "generated/candidate_0369.POSCAR",
+      "relaxed_file": "relaxed/candidate_0369.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0369/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0369.cif",
+      "generated_sha256": "a37d10132a4b1904e8e060bfadc079f9a6c484395a57cf6c7e4e0e17dc49f4ad",
+      "relaxed_sha256": "d3046e5954f60149aa5adf4434bfab958feee2a43c88b523731930dae76ff84a"
+    },
+    {
+      "candidate_id": "candidate_0370",
+      "role": "priority",
+      "generated_file": "generated/candidate_0370.POSCAR",
+      "relaxed_file": "relaxed/candidate_0370.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0370/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0370.cif",
+      "generated_sha256": "0502fe76e83c85fa4abc0ac0496dcb253cb61568e55b25d11409de538c6f5920",
+      "relaxed_sha256": "70e3eeab9fce5714e6124ef8387e4dc54cd3ed99dda316c80b5570f49b7a076f"
+    },
+    {
+      "candidate_id": "candidate_0374",
+      "role": "priority",
+      "generated_file": "generated/candidate_0374.POSCAR",
+      "relaxed_file": "relaxed/candidate_0374.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0374/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0374.cif",
+      "generated_sha256": "df379f8458a448089038fe6e38afac03b208e1bf36e80b2886c4dd43ccee08c8",
+      "relaxed_sha256": "027c7ac6ce8e1390d3839ff6299860322f154bb87f6f2052bf734a060aea3c2d"
+    },
+    {
+      "candidate_id": "candidate_0376",
+      "role": "priority",
+      "generated_file": "generated/candidate_0376.POSCAR",
+      "relaxed_file": "relaxed/candidate_0376.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0376/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0376.cif",
+      "generated_sha256": "4b22bfae0eff2d634233b79a9d2dd9f09b863de1317bbeb10f106965a6a3c57f",
+      "relaxed_sha256": "2021042f9c9f82d3d6214684e0f2b4d0a039adbc48d757107835812620773e03"
+    },
+    {
+      "candidate_id": "candidate_0377",
+      "role": "priority",
+      "generated_file": "generated/candidate_0377.POSCAR",
+      "relaxed_file": "relaxed/candidate_0377.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0377/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0377.cif",
+      "generated_sha256": "ba83916d0e1a3751f6d9516c93d951b24f3e2c4bbec565b4b2c3d8cb1ffc4afa",
+      "relaxed_sha256": "e3b6702f729ce956488956828dc7fee3de7a53304b24b79d42f6d52877aceb25"
+    },
+    {
+      "candidate_id": "candidate_0383",
+      "role": "screened",
+      "generated_file": "generated/candidate_0383.POSCAR",
+      "relaxed_file": "relaxed/candidate_0383.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0383/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0383.cif",
+      "generated_sha256": "f781825db2db4aa2bf509204350a5776bf8d2e4d1a8c552e96b49b70a309fd0b",
+      "relaxed_sha256": "b598c9d5e1418a913042387ecbdac677b61096421bb27e42055e9e9967ec827a"
+    },
+    {
+      "candidate_id": "candidate_0388",
+      "role": "priority",
+      "generated_file": "generated/candidate_0388.POSCAR",
+      "relaxed_file": "relaxed/candidate_0388.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0388/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0388.cif",
+      "generated_sha256": "8164248c25dba0f87ce37eaf2845a9a2ecfea9f6b247eb453a48869a329ee26e",
+      "relaxed_sha256": "dcefa429fb4f7ff1e0a453392d4f7ff13c76f662140190761d9830a91ff5ea3e"
+    },
+    {
+      "candidate_id": "candidate_0393",
+      "role": "control",
+      "generated_file": "generated/candidate_0393.POSCAR",
+      "relaxed_file": "relaxed/candidate_0393.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0393/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0393.cif",
+      "generated_sha256": "c7fb44a0d9f4d0f48e36bd74e1ae78eb74218b710f631bc3cebe21ff11590997",
+      "relaxed_sha256": "b1be3051925ad6a3f60f3ab14431f0e53da8616defbde4d0443fca80bd52e379"
+    },
+    {
+      "candidate_id": "candidate_0396",
+      "role": "priority",
+      "generated_file": "generated/candidate_0396.POSCAR",
+      "relaxed_file": "relaxed/candidate_0396.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0396/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0396.cif",
+      "generated_sha256": "b32ba4404198ef34f146b75cef514883cd17bb8a93ef37594fe318a07b6bddad",
+      "relaxed_sha256": "7aad6216cc1823be4d3226138f45dea4b76f9c6d3f3a74b323ec133959a09b55"
+    },
+    {
+      "candidate_id": "candidate_0397",
+      "role": "priority",
+      "generated_file": "generated/candidate_0397.POSCAR",
+      "relaxed_file": "relaxed/candidate_0397.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0397/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0397.cif",
+      "generated_sha256": "9874997976488d0d3e87cef81f8b4bb5daf47087fee46d94f55a2c763c9db5a8",
+      "relaxed_sha256": "976add664c23f85391bbe452f7f4ceffea36e5f3fc51b2f25a2d27664ebc56e0"
+    },
+    {
+      "candidate_id": "candidate_0399",
+      "role": "priority",
+      "generated_file": "generated/candidate_0399.POSCAR",
+      "relaxed_file": "relaxed/candidate_0399.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0399/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0399.cif",
+      "generated_sha256": "286c60e05cc7adab2a43963575c81681ca126fc122e93353ed67a7c721c787a8",
+      "relaxed_sha256": "b07d00e144916d8e7f94548a057e32aec3a11b85a27805b22b5f8363cd99af1f"
+    },
+    {
+      "candidate_id": "candidate_0400",
+      "role": "screened",
+      "generated_file": "generated/candidate_0400.POSCAR",
+      "relaxed_file": "relaxed/candidate_0400.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0400/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0400.cif",
+      "generated_sha256": "c60d4055d6fee2523acef15cb259e892cc6d51f85e26b15c634293ff95938311",
+      "relaxed_sha256": "5d1923069b99f2b9a9723425947ba40baeda7d169427bb3e9d149114349310e2"
+    },
+    {
+      "candidate_id": "candidate_0403",
+      "role": "priority",
+      "generated_file": "generated/candidate_0403.POSCAR",
+      "relaxed_file": "relaxed/candidate_0403.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0403/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0403.cif",
+      "generated_sha256": "3f7440fe431ea4e793f51d30bfb1046c900119145398bc6c211d93183714b577",
+      "relaxed_sha256": "13382b14db4c826b23d19116f6fd8dd7fe361e2117fc68fad17657b803abb535"
+    },
+    {
+      "candidate_id": "candidate_0404",
+      "role": "priority",
+      "generated_file": "generated/candidate_0404.POSCAR",
+      "relaxed_file": "relaxed/candidate_0404.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0404/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0404.cif",
+      "generated_sha256": "8e1bbcf2ec95edee3d779df5779486bcc7cafef146d83d6b23154343c65750fb",
+      "relaxed_sha256": "d475a8a08d5e7af4945693daf6ec1a4741794958c353db9862978b636b25b36b"
+    },
+    {
+      "candidate_id": "candidate_0407",
+      "role": "priority",
+      "generated_file": "generated/candidate_0407.POSCAR",
+      "relaxed_file": "relaxed/candidate_0407.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0407/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0407.cif",
+      "generated_sha256": "c3f3525597027662b9c5a61b2c4ec3fd130592d41e6c761bd187ede02439717f",
+      "relaxed_sha256": "18309ac5d43714c7ae63b3f44114d1b9529fa7101cfa60005171419711134af7"
+    },
+    {
+      "candidate_id": "candidate_0411",
+      "role": "priority",
+      "generated_file": "generated/candidate_0411.POSCAR",
+      "relaxed_file": "relaxed/candidate_0411.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0411/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0411.cif",
+      "generated_sha256": "ca9e9404c8e5e880c8b914fd8f26379f53b070cb66671c99807c901b13344693",
+      "relaxed_sha256": "495b1a290086f0de1704930dfb31a8f08f7286ddb9dcc01b1b3593e7ca739cc2"
+    },
+    {
+      "candidate_id": "candidate_0412",
+      "role": "priority",
+      "generated_file": "generated/candidate_0412.POSCAR",
+      "relaxed_file": "relaxed/candidate_0412.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0412/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0412.cif",
+      "generated_sha256": "0cced8bdcb38379a19bf995157f05eab73c3d4fa78220fc94c301b0b8d051086",
+      "relaxed_sha256": "6e86840898cdc12701cb3408c94d86a7dd790fdbe9d1a5fd2817435e024f9fd8"
+    },
+    {
+      "candidate_id": "candidate_0413",
+      "role": "priority",
+      "generated_file": "generated/candidate_0413.POSCAR",
+      "relaxed_file": "relaxed/candidate_0413.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0413/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0413.cif",
+      "generated_sha256": "b53b2965727a2fef778c22aae4c2527a0b137636e00bd3d0dccb1511c53f4cc7",
+      "relaxed_sha256": "cac13b443857bf8e87f3e1094933c19bfbf42122b498d8f2369cc3080abf400d"
+    },
+    {
+      "candidate_id": "candidate_0414",
+      "role": "priority",
+      "generated_file": "generated/candidate_0414.POSCAR",
+      "relaxed_file": "relaxed/candidate_0414.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0414/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0414.cif",
+      "generated_sha256": "2c3d1f1ded54638667712b90c4b9ad3d22416b7e48d6df095c8da49b6682770e",
+      "relaxed_sha256": "6bca0929978300801570c0a63ec0ad97446a8b653ab2b99773c6a3c4c1cc4321"
+    },
+    {
+      "candidate_id": "candidate_0416",
+      "role": "priority",
+      "generated_file": "generated/candidate_0416.POSCAR",
+      "relaxed_file": "relaxed/candidate_0416.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0416/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0416.cif",
+      "generated_sha256": "83ff29961360d4c10395878983f3281d6ed7f5da9076b137d3a6b06c51fb20d8",
+      "relaxed_sha256": "d52bc7ebd2ced2666db62d4a3551e8ac070618b1655cd91c94967d931bd9da20"
+    },
+    {
+      "candidate_id": "candidate_0433",
+      "role": "screened",
+      "generated_file": "generated/candidate_0433.POSCAR",
+      "relaxed_file": "relaxed/candidate_0433.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0433/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0433.cif",
+      "generated_sha256": "7e5f86f2371e4152b6876354e323456deecab4ed6b872eea28d0d89d364740e2",
+      "relaxed_sha256": "92d6dad435caca086988a79a6a080ed561b3e869726c819a14d746a5d80cdb5e"
+    },
+    {
+      "candidate_id": "candidate_0435",
+      "role": "screened",
+      "generated_file": "generated/candidate_0435.POSCAR",
+      "relaxed_file": "relaxed/candidate_0435.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0435/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0435.cif",
+      "generated_sha256": "6bd631cd7857c09bbcb77acdc326a362e6ca5eecf7d2045bb0c885587797d03a",
+      "relaxed_sha256": "41b74112e63b54b788b60e95a486b8dafc5622e1d4cd847b8129e57a54e657d2"
+    },
+    {
+      "candidate_id": "candidate_0440",
+      "role": "control",
+      "generated_file": "generated/candidate_0440.POSCAR",
+      "relaxed_file": "relaxed/candidate_0440.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0440/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0440.cif",
+      "generated_sha256": "03aeee97fa367072b2b332c369b5dc1c3416efa3ba1b15355a39cf4e3fe55093",
+      "relaxed_sha256": "c534f2d23e29ca0e25d1d872500ae403b91e6b196d25960f221edc2d862e00ef"
+    },
+    {
+      "candidate_id": "candidate_0446",
+      "role": "control",
+      "generated_file": "generated/candidate_0446.POSCAR",
+      "relaxed_file": "relaxed/candidate_0446.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0446/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0446.cif",
+      "generated_sha256": "37cb79a957a4ef312fb47e6048b29fdda7f4c764ae1955296bf381c2a178cbe8",
+      "relaxed_sha256": "1c2e3eb527b16b0f0c6211abd028a3280c0fd4b12d76e7f3f268b25cacf090b7"
+    },
+    {
+      "candidate_id": "candidate_0451",
+      "role": "screened",
+      "generated_file": "generated/candidate_0451.POSCAR",
+      "relaxed_file": "relaxed/candidate_0451.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0451/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0451.cif",
+      "generated_sha256": "3c504fe2aa63875efcc2537b829bb777effac040d283f8981029775d74caa859",
+      "relaxed_sha256": "acf94ad7263073ae6143afb877fde6d5ce6ca4d7328a6e3e5a5b9b298f6dc9c5"
+    },
+    {
+      "candidate_id": "candidate_0460",
+      "role": "control",
+      "generated_file": "generated/candidate_0460.POSCAR",
+      "relaxed_file": "relaxed/candidate_0460.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0460/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0460.cif",
+      "generated_sha256": "b8e5e2e442cb0c34a98e552c5454375cfb4ea17ea43a801e65fda4a8a5b3276b",
+      "relaxed_sha256": "6b09a3081e2d752717e203cbc7b4151631b0ad14bd80a0b8f78231640f8b3bf8"
+    },
+    {
+      "candidate_id": "candidate_0473",
+      "role": "control",
+      "generated_file": "generated/candidate_0473.POSCAR",
+      "relaxed_file": "relaxed/candidate_0473.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0473/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0473.cif",
+      "generated_sha256": "c21e909a02a5d5dcced6361d6550e44766cd9140c2789c004b01298a17feb90c",
+      "relaxed_sha256": "6b76b0ee91ec9f907a136a55bc4349412ece4645a7cd6990a790101c88651eb7"
+    },
+    {
+      "candidate_id": "candidate_0477",
+      "role": "priority",
+      "generated_file": "generated/candidate_0477.POSCAR",
+      "relaxed_file": "relaxed/candidate_0477.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0477/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0477.cif",
+      "generated_sha256": "e7a751d41c9a11dd21be90620612b47609819cef8f50a9f2b429a27d4c59d346",
+      "relaxed_sha256": "623ed220a5bca4944e7eaf3416c3c0763eb1f065e84b433e9abc6c43033db485"
+    },
+    {
+      "candidate_id": "candidate_0479",
+      "role": "control",
+      "generated_file": "generated/candidate_0479.POSCAR",
+      "relaxed_file": "relaxed/candidate_0479.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0479/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0479.cif",
+      "generated_sha256": "40cbb68653417ffd84280b37e14f9dc618113040feaeb45cddabdf5276a4c08f",
+      "relaxed_sha256": "820a5846df9278350d32ae9aa831b5470606cfb6dfc900453c7f5306683d3ff5"
+    },
+    {
+      "candidate_id": "candidate_0482",
+      "role": "control",
+      "generated_file": "generated/candidate_0482.POSCAR",
+      "relaxed_file": "relaxed/candidate_0482.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0482/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0482.cif",
+      "generated_sha256": "b726f6f4b7fa40c69c4e2ca33619b277e3bbc4acce0bdff0fa1f7059c989c6a4",
+      "relaxed_sha256": "125533b02b4dd220fd9511950dfed1d58901882933240a114ce454877715ac01"
+    },
+    {
+      "candidate_id": "candidate_0484",
+      "role": "screened",
+      "generated_file": "generated/candidate_0484.POSCAR",
+      "relaxed_file": "relaxed/candidate_0484.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0484/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0484.cif",
+      "generated_sha256": "c632759ad0dd75095fd2b8c729dfa177b446f8c191de10406f494658697a7cdd",
+      "relaxed_sha256": "58bcb12ffcb4ef64f04ed5e566e46bd06fb7ba90adc733caa59dab3b6ddf0646"
+    },
+    {
+      "candidate_id": "candidate_0486",
+      "role": "screened",
+      "generated_file": "generated/candidate_0486.POSCAR",
+      "relaxed_file": "relaxed/candidate_0486.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0486/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0486.cif",
+      "generated_sha256": "1d0a10747578815c2eae76690bdf1116d6cc72949f992de3b418b2caf64cde94",
+      "relaxed_sha256": "acebd2055e962497a21dd057817fa9f2bc2e191f9e87131d39d15c765cf39539"
+    },
+    {
+      "candidate_id": "candidate_0489",
+      "role": "priority",
+      "generated_file": "generated/candidate_0489.POSCAR",
+      "relaxed_file": "relaxed/candidate_0489.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0489/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0489.cif",
+      "generated_sha256": "559c3d2f6a6a981094a6111eae84bea0d934a08da491a34fad20eea566ef439d",
+      "relaxed_sha256": "4de7aefff3c0bda993a67165d05810e67f28365370c0077aff5269ad8c0d528e"
+    },
+    {
+      "candidate_id": "candidate_0492",
+      "role": "priority",
+      "generated_file": "generated/candidate_0492.POSCAR",
+      "relaxed_file": "relaxed/candidate_0492.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0492/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0492.cif",
+      "generated_sha256": "1ba02eb8b106e3c93b09c783741f50edba9f92fbc039fa2341ea099c823352af",
+      "relaxed_sha256": "32bb9352540913d256a57e28ebc1ae706cdca8d7b41e8052c550809ef5aa099d"
+    },
+    {
+      "candidate_id": "candidate_0493",
+      "role": "priority",
+      "generated_file": "generated/candidate_0493.POSCAR",
+      "relaxed_file": "relaxed/candidate_0493.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0493/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0493.cif",
+      "generated_sha256": "e825b5cda6ae65d729e00fe04d75b1c04c422418aca2059b57a48815991d0ff7",
+      "relaxed_sha256": "f77b85baf4a6a325a69e23ff04c8e469121da34339a518a6f68bf55c6d4e54c3"
+    },
+    {
+      "candidate_id": "candidate_0494",
+      "role": "control",
+      "generated_file": "generated/candidate_0494.POSCAR",
+      "relaxed_file": "relaxed/candidate_0494.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0494/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0494.cif",
+      "generated_sha256": "0f38e99a83c4ff727b857d99107d91ccdd19bea7e15c211bb406a2e6d462d752",
+      "relaxed_sha256": "db3e9d1edd3e447f3768a6873826bff13fb9f4e5ced79babd104d379b0110598"
+    },
+    {
+      "candidate_id": "candidate_0502",
+      "role": "priority",
+      "generated_file": "generated/candidate_0502.POSCAR",
+      "relaxed_file": "relaxed/candidate_0502.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0502/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0502.cif",
+      "generated_sha256": "5c821a90ce234cbb18174289c093c176a73a86683583c44e22739f6230be79ee",
+      "relaxed_sha256": "554270eb6609fd76df5bf414bc479dd70ef4bc683e54316a8150199d7c96b0c3"
+    },
+    {
+      "candidate_id": "candidate_0508",
+      "role": "control",
+      "generated_file": "generated/candidate_0508.POSCAR",
+      "relaxed_file": "relaxed/candidate_0508.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0508/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0508.cif",
+      "generated_sha256": "45d2a9afc45233f3bd64b8a550264f94e40bbf7485733983e00fa4ea723cd2fc",
+      "relaxed_sha256": "e2b42fcab1264d959a59ca1c144ba426210a25a1ba709b5b19126eadaee6a0fd"
+    },
+    {
+      "candidate_id": "candidate_0515",
+      "role": "screened",
+      "generated_file": "generated/candidate_0515.POSCAR",
+      "relaxed_file": "relaxed/candidate_0515.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0515/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0515.cif",
+      "generated_sha256": "ff4dfbcfe55800a94cf76c9a9136c4686672353f749e7448d3f46860816d0ddb",
+      "relaxed_sha256": "7bf40f13bb344104f81f0cc2d239145641d6de00df3b5373463b5914b93be93f"
+    },
+    {
+      "candidate_id": "candidate_0516",
+      "role": "screened",
+      "generated_file": "generated/candidate_0516.POSCAR",
+      "relaxed_file": "relaxed/candidate_0516.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0516/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0516.cif",
+      "generated_sha256": "f9eb9ae38d7c49b588e7738d456e3936115c340d811255b219452eba6919b844",
+      "relaxed_sha256": "0d2ee4b0cbde3fa6da4a316acf3b818f593791aa4428eae6fb02c9613c88f3c4"
+    },
+    {
+      "candidate_id": "candidate_0517",
+      "role": "control",
+      "generated_file": "generated/candidate_0517.POSCAR",
+      "relaxed_file": "relaxed/candidate_0517.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0517/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0517.cif",
+      "generated_sha256": "08ec8680f6f917d4aa80cc6503b53d5b8bb5377bcdc4dc6dfd2f1c0e6d64ddcc",
+      "relaxed_sha256": "890fb40a923da1e29730e4ed297b0fb951ba06ca11b07e8ca1ef686f6bda79f8"
+    },
+    {
+      "candidate_id": "candidate_0522",
+      "role": "control",
+      "generated_file": "generated/candidate_0522.POSCAR",
+      "relaxed_file": "relaxed/candidate_0522.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0522/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0522.cif",
+      "generated_sha256": "0e15f636b7b4ccc965f0e27abd11c16d853273918276fcdb413af184254eb89a",
+      "relaxed_sha256": "07bc979135eb83731fc024bfafe276a632097b30c27106664ccd270e5531dc85"
+    },
+    {
+      "candidate_id": "candidate_0523",
+      "role": "control",
+      "generated_file": "generated/candidate_0523.POSCAR",
+      "relaxed_file": "relaxed/candidate_0523.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0523/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0523.cif",
+      "generated_sha256": "fef01c4fc9580b759c9c11a340b229d9d2db0590328a7cc66c22a256637dbbf1",
+      "relaxed_sha256": "d29c1fdf41d1ac089f90c301a1e23e368f170cb6c5a9e2afed90b218ce626853"
+    },
+    {
+      "candidate_id": "candidate_0539",
+      "role": "priority",
+      "generated_file": "generated/candidate_0539.POSCAR",
+      "relaxed_file": "relaxed/candidate_0539.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0539/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0539.cif",
+      "generated_sha256": "9933ebbca69a433ab668ad8b0123b66f895535e112f366f2289375955353b305",
+      "relaxed_sha256": "f45cc596aabb8fe7faca785ad83ffe2d4144024c0fde9b658cfa3a7ef0dadc26"
+    },
+    {
+      "candidate_id": "candidate_0542",
+      "role": "priority",
+      "generated_file": "generated/candidate_0542.POSCAR",
+      "relaxed_file": "relaxed/candidate_0542.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0542/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0542.cif",
+      "generated_sha256": "db6bd0653aa59d61a1b2e38941417269a4974073a847be7868326e1123f4d5ff",
+      "relaxed_sha256": "8e8184ff689f829d328a2c98cfe08d7dca850d0e5f4a73f05131d0b9a977dac0"
+    },
+    {
+      "candidate_id": "candidate_0543",
+      "role": "screened",
+      "generated_file": "generated/candidate_0543.POSCAR",
+      "relaxed_file": "relaxed/candidate_0543.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0543/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0543.cif",
+      "generated_sha256": "cd149f1e61c0306c17d23794b436a878e263653f04bd93b4563f80dfe01c365b",
+      "relaxed_sha256": "706e1687c28181ad5349cb0b05e043ac3718741ee641c87840738fece1913663"
+    },
+    {
+      "candidate_id": "candidate_0549",
+      "role": "control",
+      "generated_file": "generated/candidate_0549.POSCAR",
+      "relaxed_file": "relaxed/candidate_0549.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0549/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0549.cif",
+      "generated_sha256": "f3341a7d7584bffa53fa6801989e0baf013d2eac0b70a33c1c61e393232aa6c0",
+      "relaxed_sha256": "5fe9f2e7ea11ca83dd8d3b379ea1feffdb950be4c6d8624716f1a8ab02f1ed1b"
+    },
+    {
+      "candidate_id": "candidate_0550",
+      "role": "screened",
+      "generated_file": "generated/candidate_0550.POSCAR",
+      "relaxed_file": "relaxed/candidate_0550.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0550/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0550.cif",
+      "generated_sha256": "17b941baf40c9b624e551822a50703f4fa8395dd0f12e7bb0b6e88d0e8d82887",
+      "relaxed_sha256": "f1e91886757d426b81e29374cc8b2fa639eb57b98e5c19899ca7bc588959efe4"
+    },
+    {
+      "candidate_id": "candidate_0554",
+      "role": "screened",
+      "generated_file": "generated/candidate_0554.POSCAR",
+      "relaxed_file": "relaxed/candidate_0554.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0554/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0554.cif",
+      "generated_sha256": "ea95b675c00e9c38f729b6d4a090ca8bca07df1bfcd7c471cc1b8907251bd0bf",
+      "relaxed_sha256": "c882e317348972e2d6ed13895cfae05673bbd845719183138e55160f61811809"
+    },
+    {
+      "candidate_id": "candidate_0560",
+      "role": "priority",
+      "generated_file": "generated/candidate_0560.POSCAR",
+      "relaxed_file": "relaxed/candidate_0560.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0560/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0560.cif",
+      "generated_sha256": "c8e1d12fd61d94a098c2ea56fb80188f7df6a0e36f2cdad88db686ee790db74e",
+      "relaxed_sha256": "52a501b61ae10aad0a83a5eec52c3e83a15dc30e28bca2269b07ce96b1e3e693"
+    },
+    {
+      "candidate_id": "candidate_0563",
+      "role": "priority",
+      "generated_file": "generated/candidate_0563.POSCAR",
+      "relaxed_file": "relaxed/candidate_0563.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0563/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0563.cif",
+      "generated_sha256": "23bfe804c2f222d7e0875384e26138cf264bd5eb93f36a0704f392435cb8bd4d",
+      "relaxed_sha256": "f3ca5f3f89a16d33f900f2321753792702b83327d7cf0972be51432b76b9a130"
+    },
+    {
+      "candidate_id": "candidate_0565",
+      "role": "priority",
+      "generated_file": "generated/candidate_0565.POSCAR",
+      "relaxed_file": "relaxed/candidate_0565.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0565/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0565.cif",
+      "generated_sha256": "06c3bc02cf5a7b35b65532df696474f6633f53b52c7604b49e8f17c96292ecdd",
+      "relaxed_sha256": "7b67fc157f3a3486777d59e04721ce52e275da348d61aa6f31425dec1335df6d"
+    },
+    {
+      "candidate_id": "candidate_0568",
+      "role": "priority",
+      "generated_file": "generated/candidate_0568.POSCAR",
+      "relaxed_file": "relaxed/candidate_0568.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0568/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0568.cif",
+      "generated_sha256": "34b3d8aa86eee9c068f8364d018b73cd064bf562ff045b21cfb0984b42e7c6fb",
+      "relaxed_sha256": "5d70672dc970f11d53614a112300e6909cdcaf1803e363cecccb5b7ea1145553"
+    },
+    {
+      "candidate_id": "candidate_0574",
+      "role": "priority",
+      "generated_file": "generated/candidate_0574.POSCAR",
+      "relaxed_file": "relaxed/candidate_0574.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0574/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0574.cif",
+      "generated_sha256": "aac5431ea8d04b9e98c06124e95933bcd03f49a5bd394f5345ea2b19fb11a4a7",
+      "relaxed_sha256": "c66ad68312035b108a96648562d6d36c4aea97eceff2dcf94eb4da743b21bc41"
+    },
+    {
+      "candidate_id": "candidate_0583",
+      "role": "priority",
+      "generated_file": "generated/candidate_0583.POSCAR",
+      "relaxed_file": "relaxed/candidate_0583.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0583/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0583.cif",
+      "generated_sha256": "fbf12a321b8a221fc09124f495fc99fd4d6968fbd18fc68c84bff38cd5d6ca93",
+      "relaxed_sha256": "5d87851dd9e80678e50ee7228d0dde8303827d58effc88e413b9e66d8b7478b1"
+    },
+    {
+      "candidate_id": "candidate_0591",
+      "role": "priority",
+      "generated_file": "generated/candidate_0591.POSCAR",
+      "relaxed_file": "relaxed/candidate_0591.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0591/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0591.cif",
+      "generated_sha256": "d51169bb58a1cf0e3511043a65c8a32ba63ec3df321147589e40d1d6a2edf5a5",
+      "relaxed_sha256": "fe42f8c23ca55a8d2440df0adf4eaf6bcad45803948706c392846ca4e2c0864a"
+    },
+    {
+      "candidate_id": "candidate_0594",
+      "role": "screened",
+      "generated_file": "generated/candidate_0594.POSCAR",
+      "relaxed_file": "relaxed/candidate_0594.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0594/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0594.cif",
+      "generated_sha256": "6b2143272e79d843cd0ada3a74b2bbf6de5838e4a84890e55f990c9bf3eadd50",
+      "relaxed_sha256": "dffcfad61146d056e624aa761cfb99c3bc6d1bfbd5519c64710834ebd84e0eb9"
+    },
+    {
+      "candidate_id": "candidate_0595",
+      "role": "screened",
+      "generated_file": "generated/candidate_0595.POSCAR",
+      "relaxed_file": "relaxed/candidate_0595.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0595/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0595.cif",
+      "generated_sha256": "0f972b789f80bd645f0c44ab67d5d014c1bbd2ce3bebfdae8d25eedff015f947",
+      "relaxed_sha256": "fb69410133656a0500bec61f47de5e29e6d0c8e43b27021ce31b2e8b7041de9e"
+    },
+    {
+      "candidate_id": "candidate_0603",
+      "role": "priority",
+      "generated_file": "generated/candidate_0603.POSCAR",
+      "relaxed_file": "relaxed/candidate_0603.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0603/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0603.cif",
+      "generated_sha256": "d7e7001bc55efdb87b7d75a1aaaec7f532faa6555a7e21a995b8d57118673216",
+      "relaxed_sha256": "b3467f98e40694fae2ac45a0f225f99d5b1621f0c10267b03208281825edabe4"
+    },
+    {
+      "candidate_id": "candidate_0619",
+      "role": "control",
+      "generated_file": "generated/candidate_0619.POSCAR",
+      "relaxed_file": "relaxed/candidate_0619.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0619/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0619.cif",
+      "generated_sha256": "7b43ed804788064a972c537de80b6c843ed58d29bcebfd699f481cbb24f830e2",
+      "relaxed_sha256": "ca213871995add5b8c7052dddb365e8f6c367fb2038d54bb2981815b2a471ee2"
+    },
+    {
+      "candidate_id": "candidate_0625",
+      "role": "priority",
+      "generated_file": "generated/candidate_0625.POSCAR",
+      "relaxed_file": "relaxed/candidate_0625.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0625/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0625.cif",
+      "generated_sha256": "fa1e499baf6062b14cda8763d4f9bce8b0cae3c9ce91479a53b3be56bb1f5aca",
+      "relaxed_sha256": "82b852db310b548c37b5461d5e68c96e95f945362b083c9c7d873c53f45c6997"
+    },
+    {
+      "candidate_id": "candidate_0629",
+      "role": "control",
+      "generated_file": "generated/candidate_0629.POSCAR",
+      "relaxed_file": "relaxed/candidate_0629.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0629/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0629.cif",
+      "generated_sha256": "47f56f382a1436d8b4587153907e717910297cc7edd56874d86d929ba5381fc9",
+      "relaxed_sha256": "5318f7c5c9aeec701c5dab7f8d7880a4c1206cc1930c6e2ddd9299eb1ede5db0"
+    },
+    {
+      "candidate_id": "candidate_0631",
+      "role": "control",
+      "generated_file": "generated/candidate_0631.POSCAR",
+      "relaxed_file": "relaxed/candidate_0631.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0631/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0631.cif",
+      "generated_sha256": "6319e78cacf2dccb387a0f75b878a8cad34e5bf94f5179ec35d70b9a461e6225",
+      "relaxed_sha256": "1c20c0cac7542a488793a9d461d9f0f95d5372305d17e6d650e5e3f662723f58"
+    },
+    {
+      "candidate_id": "candidate_0632",
+      "role": "screened",
+      "generated_file": "generated/candidate_0632.POSCAR",
+      "relaxed_file": "relaxed/candidate_0632.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0632/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0632.cif",
+      "generated_sha256": "03b974d1a42d250fc8688124d8cc737d12b8ae93ffbbe61db8a04c9d7c273347",
+      "relaxed_sha256": "0e2e128fca67099b5345fa0d48308e7b970b96a5e76907fa2077f5b939f76bcb"
+    },
+    {
+      "candidate_id": "candidate_0633",
+      "role": "priority",
+      "generated_file": "generated/candidate_0633.POSCAR",
+      "relaxed_file": "relaxed/candidate_0633.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0633/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0633.cif",
+      "generated_sha256": "e20d1cf417f19ec4db64f8ddb660dbf6c99067c023e79595458d3383acdd16b0",
+      "relaxed_sha256": "7faa5a5962287f8eee22443557ca5cb6a102470102ec2ef23e3ddd151d8055b6"
+    },
+    {
+      "candidate_id": "candidate_0635",
+      "role": "control",
+      "generated_file": "generated/candidate_0635.POSCAR",
+      "relaxed_file": "relaxed/candidate_0635.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0635/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0635.cif",
+      "generated_sha256": "1acd2065b05a0c55778fd57f17c0432838b68a95feffbc2c65942c1df885ee16",
+      "relaxed_sha256": "bd799b854b09150192cc7549e7b22981c254620f7ca91636b52ccf9014ebef5e"
+    },
+    {
+      "candidate_id": "candidate_0636",
+      "role": "priority",
+      "generated_file": "generated/candidate_0636.POSCAR",
+      "relaxed_file": "relaxed/candidate_0636.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0636/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0636.cif",
+      "generated_sha256": "4d57319276a3d15b96a012a42a90d6972f4cbc8096d8411097d4127691d13a22",
+      "relaxed_sha256": "cd24a55d34171f39bb3cf52b88f3f40d46ee7a40fd18f4d86670e96673ea6934"
+    },
+    {
+      "candidate_id": "candidate_0639",
+      "role": "control",
+      "generated_file": "generated/candidate_0639.POSCAR",
+      "relaxed_file": "relaxed/candidate_0639.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0639/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0639.cif",
+      "generated_sha256": "f4183436de70b0d642468a4e3263878a24d2c6597abf7435d2cd24c5e42c51d4",
+      "relaxed_sha256": "6f069cd5013032ccecb194e98434c0a961b122457523ca785887106607c46572"
+    },
+    {
+      "candidate_id": "candidate_0641",
+      "role": "priority",
+      "generated_file": "generated/candidate_0641.POSCAR",
+      "relaxed_file": "relaxed/candidate_0641.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0641/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0641.cif",
+      "generated_sha256": "0af7b89de50a6a154c377a072e4015889b01b8ecac221c43beabbcd9eaabc60f",
+      "relaxed_sha256": "2d80ce0b2c06ace44e63acb45da1f0d49c4e3757616f566b2c8af93b08c0c70e"
+    },
+    {
+      "candidate_id": "candidate_0648",
+      "role": "priority",
+      "generated_file": "generated/candidate_0648.POSCAR",
+      "relaxed_file": "relaxed/candidate_0648.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0648/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0648.cif",
+      "generated_sha256": "0a5b9b5f86f6a1a52e25d1d5532a3fb34afdcb6a18c2221d2e07d483e4a101fa",
+      "relaxed_sha256": "29c9895f8ba938b32f6bc9b10d63286c91720d4f12b2f337d9888fb15f334529"
+    },
+    {
+      "candidate_id": "candidate_0655",
+      "role": "control",
+      "generated_file": "generated/candidate_0655.POSCAR",
+      "relaxed_file": "relaxed/candidate_0655.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0655/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0655.cif",
+      "generated_sha256": "36f119039f89ca0cf73535c53a75a655ead1adeeaf0436dccbca67f064a2f2ce",
+      "relaxed_sha256": "9bc00b84b0d324af00b638b0819515f85c785b01ff8e46d7c5367b3264fe1434"
+    },
+    {
+      "candidate_id": "candidate_0656",
+      "role": "control",
+      "generated_file": "generated/candidate_0656.POSCAR",
+      "relaxed_file": "relaxed/candidate_0656.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0656/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0656.cif",
+      "generated_sha256": "d458ae97d6c74510474ecd49f7002d18edf2e92a8c7409212df82cc30ebd56d9",
+      "relaxed_sha256": "9395e7bf54f0b879a785fe0381e0c37c8bcfb9350290048bd680bcb22a19ce18"
+    },
+    {
+      "candidate_id": "candidate_0679",
+      "role": "priority",
+      "generated_file": "generated/candidate_0679.POSCAR",
+      "relaxed_file": "relaxed/candidate_0679.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0679/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0679.cif",
+      "generated_sha256": "3dc40859582671f8bc17aad5c4f286cfeb577081e8a41cfe429d46f12f919a14",
+      "relaxed_sha256": "1db0ad18a59e6e575b4a9315ac5336c5aa9bdb8b2ee2ec6014b216cc5a518dd2"
+    },
+    {
+      "candidate_id": "candidate_0680",
+      "role": "priority",
+      "generated_file": "generated/candidate_0680.POSCAR",
+      "relaxed_file": "relaxed/candidate_0680.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0680/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0680.cif",
+      "generated_sha256": "880653d4070fb23bd24130a3f4a78a023617a659ea3c7e0f34887a7756a3abf2",
+      "relaxed_sha256": "48506b2b6a100ed84d25aab81da257470a512bc6dfce25c3e170fb3c1caecf2e"
+    },
+    {
+      "candidate_id": "candidate_0682",
+      "role": "priority",
+      "generated_file": "generated/candidate_0682.POSCAR",
+      "relaxed_file": "relaxed/candidate_0682.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0682/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0682.cif",
+      "generated_sha256": "d2bdc1e5bd6f2850780907e5dda0b29a99c0a5256d1dc40079462f67f6f0387c",
+      "relaxed_sha256": "c43eca3a204929fe9c64972d1fac23e0352b3b7d39ca769b2365d78227c3a830"
+    },
+    {
+      "candidate_id": "candidate_0687",
+      "role": "priority",
+      "generated_file": "generated/candidate_0687.POSCAR",
+      "relaxed_file": "relaxed/candidate_0687.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0687/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0687.cif",
+      "generated_sha256": "3e944fad4a18df2087a9049fe86e2fee566785b1499d304f63f2a2baea59e402",
+      "relaxed_sha256": "89a09e9747be5e518228fb075aa3f3a4226d8724b7e14233823b9ca885f474f1"
+    },
+    {
+      "candidate_id": "candidate_0691",
+      "role": "screened",
+      "generated_file": "generated/candidate_0691.POSCAR",
+      "relaxed_file": "relaxed/candidate_0691.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0691/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0691.cif",
+      "generated_sha256": "ac85128895a2ad311c3e983d76adb9d46095f0c925fa01d9add8ec3dc1b0befb",
+      "relaxed_sha256": "d46ccda6b7174214fded780e142ba3b7848b6a6f3bec3469bfe7080e6be291bd"
+    },
+    {
+      "candidate_id": "candidate_0704",
+      "role": "control",
+      "generated_file": "generated/candidate_0704.POSCAR",
+      "relaxed_file": "relaxed/candidate_0704.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0704/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0704.cif",
+      "generated_sha256": "339ef2cc7326b7ce71f88d6e1245b3abc5731082337f1257b3b43b960cc1bef3",
+      "relaxed_sha256": "773d8183d3bcffc9acd7c3980aecfd85ab1bcb41223b656df246e5eaf6713bef"
+    },
+    {
+      "candidate_id": "candidate_0706",
+      "role": "screened",
+      "generated_file": "generated/candidate_0706.POSCAR",
+      "relaxed_file": "relaxed/candidate_0706.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0706/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0706.cif",
+      "generated_sha256": "094947df85cbfb19a65c80f276d4378a229bb977f2cb1ef84fd8e2d6f85dfbbe",
+      "relaxed_sha256": "2b0116b6ccfa77e0f434c6b4ec430cd6d002f888c6ae2bc52482f4ec0a288071"
+    },
+    {
+      "candidate_id": "candidate_0709",
+      "role": "screened",
+      "generated_file": "generated/candidate_0709.POSCAR",
+      "relaxed_file": "relaxed/candidate_0709.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0709/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0709.cif",
+      "generated_sha256": "75562655238854d2b70db554c41bcf6ee3f77849686df6b9ce7f355dd11b5f06",
+      "relaxed_sha256": "f27543a2ebc753f06b03514d3bedb0b45ba2e78ee037b1aa6e13deb2e51fc0cf"
+    },
+    {
+      "candidate_id": "candidate_0713",
+      "role": "priority",
+      "generated_file": "generated/candidate_0713.POSCAR",
+      "relaxed_file": "relaxed/candidate_0713.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0713/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0713.cif",
+      "generated_sha256": "26977d86eb99f7711fd3708620e19bf81536531a99f96e9b4065a38b929bb56e",
+      "relaxed_sha256": "570d5d122b2d4d5a42366916630f73d12b0411fd8c4b88c2510257db559c89fa"
+    },
+    {
+      "candidate_id": "candidate_0714",
+      "role": "priority",
+      "generated_file": "generated/candidate_0714.POSCAR",
+      "relaxed_file": "relaxed/candidate_0714.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0714/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0714.cif",
+      "generated_sha256": "360f5178506328a436a043c496aad2fce3cb11cbc2ca207dc76e09986915b4d3",
+      "relaxed_sha256": "0d6c9283b6031ab38edabc2038e942975719ed76fbf6b6a19a39d6ce5a4cec2a"
+    },
+    {
+      "candidate_id": "candidate_0715",
+      "role": "screened",
+      "generated_file": "generated/candidate_0715.POSCAR",
+      "relaxed_file": "relaxed/candidate_0715.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0715/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0715.cif",
+      "generated_sha256": "8d2ac2dfcb190b7f0de5e3a44f964bc99dc5957514be2c49a5c8d815219d072c",
+      "relaxed_sha256": "75a0adc3fa7a9b02f9f717f381447521bb60c4c77eb08ee7b6a06e41da493026"
+    },
+    {
+      "candidate_id": "candidate_0716",
+      "role": "control",
+      "generated_file": "generated/candidate_0716.POSCAR",
+      "relaxed_file": "relaxed/candidate_0716.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0716/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0716.cif",
+      "generated_sha256": "071c00b6b4c3bc43e3a1fa8c02c18b9888144fc9516fb68196287fc0ee5c296d",
+      "relaxed_sha256": "655d3cdaabe20e014fd997fd028abb3f33e8a11eaf422bd2e71629aa314b26df"
+    },
+    {
+      "candidate_id": "candidate_0719",
+      "role": "screened",
+      "generated_file": "generated/candidate_0719.POSCAR",
+      "relaxed_file": "relaxed/candidate_0719.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0719/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0719.cif",
+      "generated_sha256": "bf002ef6663aa4ced6e0eb9eb52d918e921ec1f70e25e6423505ab9a27f0b3ba",
+      "relaxed_sha256": "0cf8ca411187d651c3bb348cd2fc69d1672ecd6e466fa0a77910fa12b70c779d"
+    },
+    {
+      "candidate_id": "candidate_0721",
+      "role": "priority",
+      "generated_file": "generated/candidate_0721.POSCAR",
+      "relaxed_file": "relaxed/candidate_0721.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0721/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0721.cif",
+      "generated_sha256": "787dd9e1809ae439fe09089afa40b05eb640e28452f4bca85300326b6d831f30",
+      "relaxed_sha256": "e9dc3bfcd91d7a94d4ce9a7d2af12c5c784ec3f4c9d9e17f21aa06d986815d80"
+    },
+    {
+      "candidate_id": "candidate_0730",
+      "role": "screened",
+      "generated_file": "generated/candidate_0730.POSCAR",
+      "relaxed_file": "relaxed/candidate_0730.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0730/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0730.cif",
+      "generated_sha256": "bc62504e48ccbd599d4afbf483b9f672df40993426995046971d0267d6e3c0cb",
+      "relaxed_sha256": "8d35d7472b855a4e11cfbe708069a38f3a7a80f19806c608afa83a0731821259"
+    },
+    {
+      "candidate_id": "candidate_0731",
+      "role": "priority",
+      "generated_file": "generated/candidate_0731.POSCAR",
+      "relaxed_file": "relaxed/candidate_0731.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0731/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0731.cif",
+      "generated_sha256": "06c029bb88c0c8b747eaaaa88ee55a221428cd14c77275675d56d79fa83437e5",
+      "relaxed_sha256": "59c43015bf6e5e9bf2fd001913bbf1cd3cfa497441a1a167c3028a07e9f826b6"
+    },
+    {
+      "candidate_id": "candidate_0735",
+      "role": "priority",
+      "generated_file": "generated/candidate_0735.POSCAR",
+      "relaxed_file": "relaxed/candidate_0735.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0735/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0735.cif",
+      "generated_sha256": "9fed74675dd150aba100ba623724a17c5597bb5a6b1b0b74cf535e4adf7fb70e",
+      "relaxed_sha256": "92953ccafac0c35861896a956066b528ef7b42f1c6e0b05759317e64f561995d"
+    },
+    {
+      "candidate_id": "candidate_0736",
+      "role": "priority",
+      "generated_file": "generated/candidate_0736.POSCAR",
+      "relaxed_file": "relaxed/candidate_0736.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0736/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0736.cif",
+      "generated_sha256": "dd08c66d99a4ad0a73cce435e7c30dd23c5f3d4ca557ddbdd37a0c57bde6e99a",
+      "relaxed_sha256": "e83e8e518b39812b553bd2ed1de1df061e10912cbd9ebf8925db5c40816c5d4e"
+    },
+    {
+      "candidate_id": "candidate_0737",
+      "role": "priority",
+      "generated_file": "generated/candidate_0737.POSCAR",
+      "relaxed_file": "relaxed/candidate_0737.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0737/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0737.cif",
+      "generated_sha256": "5187f732fabc8776b3083cd7967bca7a5c804f8e529025707b0c1f5df629367e",
+      "relaxed_sha256": "813bbf8ad8319af38f451046a26e171f9010c4f903b81171a3868b137bbae933"
+    },
+    {
+      "candidate_id": "candidate_0744",
+      "role": "screened",
+      "generated_file": "generated/candidate_0744.POSCAR",
+      "relaxed_file": "relaxed/candidate_0744.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0744/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0744.cif",
+      "generated_sha256": "9892b5f455450d445694a0bd3df7c882f567fa4dbfc5573d517072e2f80a9e8c",
+      "relaxed_sha256": "4f4481e68abf4692e66b61dbbf242e729088cd555fde90e28fcd32359bdb4e53"
+    },
+    {
+      "candidate_id": "candidate_0750",
+      "role": "control",
+      "generated_file": "generated/candidate_0750.POSCAR",
+      "relaxed_file": "relaxed/candidate_0750.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0750/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0750.cif",
+      "generated_sha256": "d19253e9168ac67e05c2dbf8d376b04c17162a648b8b9b6f70e8b9b54267b659",
+      "relaxed_sha256": "fa82c10ce708a45f8f6a9545c4e02bf909fe33b76176a81318a0b2e6faca893b"
+    },
+    {
+      "candidate_id": "candidate_0751",
+      "role": "control",
+      "generated_file": "generated/candidate_0751.POSCAR",
+      "relaxed_file": "relaxed/candidate_0751.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0751/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0751.cif",
+      "generated_sha256": "4d22393d53d0d67a6bb09390d1198f6a0a333288048c22c47b72519947cb64fd",
+      "relaxed_sha256": "841f6ab7ecdb3517dcd48fec0273319a73080a08abcb5f1b98b871d02c2e0bcb"
+    },
+    {
+      "candidate_id": "candidate_0752",
+      "role": "priority",
+      "generated_file": "generated/candidate_0752.POSCAR",
+      "relaxed_file": "relaxed/candidate_0752.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0752/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0752.cif",
+      "generated_sha256": "f4251c5d66d7124bdc533d45963b87f272810f5cb8ee93b5afbfb4ca3469b3fe",
+      "relaxed_sha256": "fe7d40b6a1a6cdd9778523b3cf00c39c948c90c02fd4e6485062b45049a9d340"
+    },
+    {
+      "candidate_id": "candidate_0774",
+      "role": "priority",
+      "generated_file": "generated/candidate_0774.POSCAR",
+      "relaxed_file": "relaxed/candidate_0774.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0774/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0774.cif",
+      "generated_sha256": "e25ea1c000e690d5151bfb883bd4acc2241fb125cffae07125c6e4e324ebccdc",
+      "relaxed_sha256": "d1dc0893333bda444bd38e3ab631efcaf79bb88536960d22228c15f9ebaf9aec"
+    },
+    {
+      "candidate_id": "candidate_0775",
+      "role": "control",
+      "generated_file": "generated/candidate_0775.POSCAR",
+      "relaxed_file": "relaxed/candidate_0775.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0775/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0775.cif",
+      "generated_sha256": "1355092df463e0095bdbbd120b5e3fa176053167114ac915c61217ccf78036b0",
+      "relaxed_sha256": "971c2671dd5c9104f5ab723c6ba272f6a9b4fbc422732abc4c6e0f02519414a3"
+    },
+    {
+      "candidate_id": "candidate_0782",
+      "role": "control",
+      "generated_file": "generated/candidate_0782.POSCAR",
+      "relaxed_file": "relaxed/candidate_0782.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0782/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0782.cif",
+      "generated_sha256": "f8818490ee2629be5a5a532fc32f067a0c0010e835aeeed3badd2c161ec40164",
+      "relaxed_sha256": "c283252068c239252b5c5acc56129e1bd6d6ee14452a39e2aecc3fe64eee4da0"
+    },
+    {
+      "candidate_id": "candidate_0785",
+      "role": "control",
+      "generated_file": "generated/candidate_0785.POSCAR",
+      "relaxed_file": "relaxed/candidate_0785.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0785/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0785.cif",
+      "generated_sha256": "b07e8571e44e8b03d83e0678b38c89c7a8a829fa0d9ea2d1284ff4256776ff19",
+      "relaxed_sha256": "28d1f17289326b0b5f9df87afad1aa6b3b09006e2dadcd537649b6ec359284ce"
+    },
+    {
+      "candidate_id": "candidate_0788",
+      "role": "control",
+      "generated_file": "generated/candidate_0788.POSCAR",
+      "relaxed_file": "relaxed/candidate_0788.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0788/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0788.cif",
+      "generated_sha256": "29e8ee8e6b7857bfd2f4d51c160ac1451b0a4062772c230419ded3c81d05b20f",
+      "relaxed_sha256": "f802891284ed9f511c461cec391441d184a78e45cd0dbb03a68d70a0193bbd68"
+    },
+    {
+      "candidate_id": "candidate_0796",
+      "role": "control",
+      "generated_file": "generated/candidate_0796.POSCAR",
+      "relaxed_file": "relaxed/candidate_0796.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0796/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0796.cif",
+      "generated_sha256": "b0f6ea75e26b0a61b7b304b339ef90762c2d321cac4b589cbee3a1e9782c6841",
+      "relaxed_sha256": "b8f0a550d8fb1932bcb24aea0cb5785fd5e5bbd20110d060f9f79ed4f1d20915"
+    },
+    {
+      "candidate_id": "candidate_0801",
+      "role": "priority",
+      "generated_file": "generated/candidate_0801.POSCAR",
+      "relaxed_file": "relaxed/candidate_0801.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0801/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0801.cif",
+      "generated_sha256": "1037e54591bc5a702a34adf96ab780469e5282d5d2f3c72cdaebd1f139bdaf65",
+      "relaxed_sha256": "66b1b4f4891f156647bc463695f9341aae36057b6d233c10cf139fd2c15c7213"
+    },
+    {
+      "candidate_id": "candidate_0802",
+      "role": "priority",
+      "generated_file": "generated/candidate_0802.POSCAR",
+      "relaxed_file": "relaxed/candidate_0802.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0802/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0802.cif",
+      "generated_sha256": "741848bbe890c8ecb6510d4dc4b6d1428eef890276fd20dcd7ba28ebfe82494f",
+      "relaxed_sha256": "f351224001492e5dc55b270ed2249967430c9570a64edecef29342a007f9634c"
+    },
+    {
+      "candidate_id": "candidate_0803",
+      "role": "control",
+      "generated_file": "generated/candidate_0803.POSCAR",
+      "relaxed_file": "relaxed/candidate_0803.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0803/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0803.cif",
+      "generated_sha256": "6aee0a626852e9aab2ab1d64169104ac3657c2c6c4ec9b5a3f1cae32b24aa2e6",
+      "relaxed_sha256": "8654343365429e72377e0dfab8a996c23f79e38abaecca5d2538775283e6cbeb"
+    },
+    {
+      "candidate_id": "candidate_0806",
+      "role": "control",
+      "generated_file": "generated/candidate_0806.POSCAR",
+      "relaxed_file": "relaxed/candidate_0806.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0806/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0806.cif",
+      "generated_sha256": "f3818bb798e7bef8dc0ab089eb00cdde0083f36cc09bc8149e3633fd1a0f8061",
+      "relaxed_sha256": "a9254709851c28359f5b3475c65aecf8114cdd8636b38969ec687a826ce9cc6f"
+    },
+    {
+      "candidate_id": "candidate_0809",
+      "role": "priority",
+      "generated_file": "generated/candidate_0809.POSCAR",
+      "relaxed_file": "relaxed/candidate_0809.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0809/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0809.cif",
+      "generated_sha256": "797a87cb4c4e3b39b120e0fe0d8e2a8ee4aa3349ae1d5a8626a5e0c88a4df72f",
+      "relaxed_sha256": "30a22510d38ca2ca84a0c820995cb1a10704f58b13ee642cadf7d7d5946e5fb1"
+    },
+    {
+      "candidate_id": "candidate_0814",
+      "role": "priority",
+      "generated_file": "generated/candidate_0814.POSCAR",
+      "relaxed_file": "relaxed/candidate_0814.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0814/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0814.cif",
+      "generated_sha256": "f2a4663d581a6884b68534070b89c88661b412587a6743f11a7b1976d272677c",
+      "relaxed_sha256": "c56af8a8aa6f5a60ad239e210feeb577f7b9ab33213c58c5309bea3066a5409f"
+    },
+    {
+      "candidate_id": "candidate_0817",
+      "role": "priority",
+      "generated_file": "generated/candidate_0817.POSCAR",
+      "relaxed_file": "relaxed/candidate_0817.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0817/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0817.cif",
+      "generated_sha256": "b4a7d0895f6b807c2183c333e74b8e77b3faf599b7964ab40fc91cb0aac67658",
+      "relaxed_sha256": "cf3240a8dba225374e9d2d7e4117a6fde6938a6786b338a8ee74d0218734d5de"
+    },
+    {
+      "candidate_id": "candidate_0819",
+      "role": "control",
+      "generated_file": "generated/candidate_0819.POSCAR",
+      "relaxed_file": "relaxed/candidate_0819.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0819/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0819.cif",
+      "generated_sha256": "b7c6b8bc4a6fa9b304b8dd3914c830d675a901ee778d8dcd87801a709eecce02",
+      "relaxed_sha256": "630962f81bc9939b7b706565be59db6385a40d78562e37814ec844c5941ba8fa"
+    },
+    {
+      "candidate_id": "candidate_0821",
+      "role": "priority",
+      "generated_file": "generated/candidate_0821.POSCAR",
+      "relaxed_file": "relaxed/candidate_0821.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0821/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0821.cif",
+      "generated_sha256": "d9fec9a2ecd6cefb6486ae6f59638c2210e266223ce0b5358d6636ab57223484",
+      "relaxed_sha256": "67fdae7560742b6b0f51689bc230c4bc99fd4428ca6ffbe0cff9156643af11e7"
+    },
+    {
+      "candidate_id": "candidate_0824",
+      "role": "priority",
+      "generated_file": "generated/candidate_0824.POSCAR",
+      "relaxed_file": "relaxed/candidate_0824.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0824/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0824.cif",
+      "generated_sha256": "b3e3293bd5c3de93cef351be1b3ab0c2c334c2b1f29b0f0918d2de5f93adc530",
+      "relaxed_sha256": "5ca65ffb4e6b65dd2f155871598b75f5155c51a5268e677fa983bc22cedc0a61"
+    },
+    {
+      "candidate_id": "candidate_0825",
+      "role": "screened",
+      "generated_file": "generated/candidate_0825.POSCAR",
+      "relaxed_file": "relaxed/candidate_0825.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0825/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0825.cif",
+      "generated_sha256": "648d396e463e5d9516183e0a9362119f92b15dbb0c835ea036cd1321ae89fc19",
+      "relaxed_sha256": "56f36c4d15793306f36c9bf68bd6b37f2b1e9c0c0718da610fdf952cf48844ef"
+    },
+    {
+      "candidate_id": "candidate_0832",
+      "role": "priority",
+      "generated_file": "generated/candidate_0832.POSCAR",
+      "relaxed_file": "relaxed/candidate_0832.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0832/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0832.cif",
+      "generated_sha256": "82ec23065e5de1d77e57ad8eebb25a02edc45450a709a932a9053bec67617fd2",
+      "relaxed_sha256": "5f51403b49b3ba9361052937326d61eb88da99829109811d247847385a04761d"
+    },
+    {
+      "candidate_id": "candidate_0834",
+      "role": "priority",
+      "generated_file": "generated/candidate_0834.POSCAR",
+      "relaxed_file": "relaxed/candidate_0834.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0834/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0834.cif",
+      "generated_sha256": "bf4e1885f427d8615319d88839ca11aab597fb85b36a4eab8f660efe6f894633",
+      "relaxed_sha256": "8371d88629ca5064ade179f757752c8e9d9bb643922576d2bcc866e75c32c84b"
+    },
+    {
+      "candidate_id": "candidate_0838",
+      "role": "control",
+      "generated_file": "generated/candidate_0838.POSCAR",
+      "relaxed_file": "relaxed/candidate_0838.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0838/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0838.cif",
+      "generated_sha256": "b331398236db8ce406defb29608926b616a29ae8e7129d574e1577b4dd160f74",
+      "relaxed_sha256": "5fb411dc34e5df0cd28b9a1107943411a35991af5309e5c40999cde7fde4a0f8"
+    },
+    {
+      "candidate_id": "candidate_0841",
+      "role": "control",
+      "generated_file": "generated/candidate_0841.POSCAR",
+      "relaxed_file": "relaxed/candidate_0841.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0841/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0841.cif",
+      "generated_sha256": "27dbe26a4bb58e5774c57149ed0630584a817feef9add41305fcaeaa6b0cd162",
+      "relaxed_sha256": "306feb0bc5e6fbc275986f3b313f9528bfdeb1b931f9fbf049fb6c933b5a624d"
+    },
+    {
+      "candidate_id": "candidate_0844",
+      "role": "priority",
+      "generated_file": "generated/candidate_0844.POSCAR",
+      "relaxed_file": "relaxed/candidate_0844.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0844/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0844.cif",
+      "generated_sha256": "756505f78ce528fda06c36e3e14df334972e508a1a05a42cae6183ff1437226b",
+      "relaxed_sha256": "49cfd4bb6daacce539e5e2c924bcb5d00502359e71e7b462ae5a743a5a39f207"
+    },
+    {
+      "candidate_id": "candidate_0845",
+      "role": "priority",
+      "generated_file": "generated/candidate_0845.POSCAR",
+      "relaxed_file": "relaxed/candidate_0845.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0845/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0845.cif",
+      "generated_sha256": "c2e9a80963aa3680fe786891ff54aea1ddc4818ccb26a8d16a716903d0317b7e",
+      "relaxed_sha256": "29dec3cfa8879b4d24c5e99c366b44cdfe04de56bf0146aa43a438660977196b"
+    },
+    {
+      "candidate_id": "candidate_0848",
+      "role": "control",
+      "generated_file": "generated/candidate_0848.POSCAR",
+      "relaxed_file": "relaxed/candidate_0848.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0848/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0848.cif",
+      "generated_sha256": "5ee15b45fe0ea28e95987efc9a6b80e90b0e3959be221a016ea779dfce113fa8",
+      "relaxed_sha256": "ab7f8720bb4b3fc7b8303171d74a32991a7f8772b3c1192e2aa64a1db42a7c4f"
+    },
+    {
+      "candidate_id": "candidate_0851",
+      "role": "priority",
+      "generated_file": "generated/candidate_0851.POSCAR",
+      "relaxed_file": "relaxed/candidate_0851.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0851/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0851.cif",
+      "generated_sha256": "e86379efe1ff7ec7ed16193fc35943e93a96439ec29834b7788e0979b48b5c92",
+      "relaxed_sha256": "b7430dc89b21f5f024d203bf58ab9175a4f28b0d5d22c45929ae1d6b9c4df82c"
+    },
+    {
+      "candidate_id": "candidate_0852",
+      "role": "screened",
+      "generated_file": "generated/candidate_0852.POSCAR",
+      "relaxed_file": "relaxed/candidate_0852.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0852/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0852.cif",
+      "generated_sha256": "8706224cb78500a51ca2f30347c322e6581ba99388781bc100ff70a651405054",
+      "relaxed_sha256": "8645fcdbe6770a879e6e5e1f45fe44f004b22e2c31e7221da9507e57175e1789"
+    },
+    {
+      "candidate_id": "candidate_0853",
+      "role": "priority",
+      "generated_file": "generated/candidate_0853.POSCAR",
+      "relaxed_file": "relaxed/candidate_0853.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0853/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0853.cif",
+      "generated_sha256": "28a50813608b014d497bd99f663f87f263361a5b86803dbc705c422ba8e97c3b",
+      "relaxed_sha256": "3a2ece7420322a6aa763094e25dff1efbf3d934c0f76a3d6788a8fc6a637721a"
+    },
+    {
+      "candidate_id": "candidate_0858",
+      "role": "screened",
+      "generated_file": "generated/candidate_0858.POSCAR",
+      "relaxed_file": "relaxed/candidate_0858.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0858/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0858.cif",
+      "generated_sha256": "f048fccba07ceaf32fd0de112e10a9d5763893cd01e735a306b5d212082e85db",
+      "relaxed_sha256": "1d0258e62e971eb300ee1bca3bc403065829421c6cd856709ae40ab2131793a3"
+    },
+    {
+      "candidate_id": "candidate_0859",
+      "role": "screened",
+      "generated_file": "generated/candidate_0859.POSCAR",
+      "relaxed_file": "relaxed/candidate_0859.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0859/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0859.cif",
+      "generated_sha256": "15eb3b038df72d0a481649890a2b2680d4ccbf6b4db2a63abcef67d220a1b4a1",
+      "relaxed_sha256": "2c694e09acf10ea81f07d2181aaea1d1d019568614029f371634ce516ef9a6f9"
+    },
+    {
+      "candidate_id": "candidate_0860",
+      "role": "screened",
+      "generated_file": "generated/candidate_0860.POSCAR",
+      "relaxed_file": "relaxed/candidate_0860.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0860/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0860.cif",
+      "generated_sha256": "56941ca46587fac77610ebf46f3b03182e2d4d88382a51a8b21eda09559128ad",
+      "relaxed_sha256": "16c46adf80d817cf0b020928b655e5f765efb221ec4d7ba87067aef90ca0de5f"
+    },
+    {
+      "candidate_id": "candidate_0862",
+      "role": "screened",
+      "generated_file": "generated/candidate_0862.POSCAR",
+      "relaxed_file": "relaxed/candidate_0862.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0862/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0862.cif",
+      "generated_sha256": "b6bd4c5d786c703b91f14eb21f29f5ca32801ee5d53757766df0511b2ae6faf1",
+      "relaxed_sha256": "f79e4a6f1f6b9e1fabe952aec8a4ff7cc49fc51340685c76cf9a4565f9312adf"
+    },
+    {
+      "candidate_id": "candidate_0864",
+      "role": "screened",
+      "generated_file": "generated/candidate_0864.POSCAR",
+      "relaxed_file": "relaxed/candidate_0864.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0864/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0864.cif",
+      "generated_sha256": "03936fbc944ed49369efcb32d61d66da0bf656f4d5e11d05fcf81b2f575818fa",
+      "relaxed_sha256": "000a4243a011069d0271b52b537954c7d82f075e973732602dbbdc49cfedceb2"
+    },
+    {
+      "candidate_id": "candidate_0872",
+      "role": "control",
+      "generated_file": "generated/candidate_0872.POSCAR",
+      "relaxed_file": "relaxed/candidate_0872.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0872/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0872.cif",
+      "generated_sha256": "c1769e3bceb5d2795baf85e4e79991a6c28de7f0a85c0645116095b4b3da4d0f",
+      "relaxed_sha256": "15264c97cc96087d52b7e50e4944d16ed837a34f4a17643c6c296e24744486c7"
+    },
+    {
+      "candidate_id": "candidate_0879",
+      "role": "screened",
+      "generated_file": "generated/candidate_0879.POSCAR",
+      "relaxed_file": "relaxed/candidate_0879.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0879/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0879.cif",
+      "generated_sha256": "ee28e105a036cd37052c6a04170550f5b7fcefc55ba14d65f23b2f9482bdc8d0",
+      "relaxed_sha256": "7c9a57c9c7bc64453f99b0a349b0c28c8517b24eb58b8014e1d168664953431a"
+    },
+    {
+      "candidate_id": "candidate_0883",
+      "role": "screened",
+      "generated_file": "generated/candidate_0883.POSCAR",
+      "relaxed_file": "relaxed/candidate_0883.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0883/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0883.cif",
+      "generated_sha256": "9599524d72353a77b7500cba99b76e212bf9e6080c5d6ce7400178c7d54f895a",
+      "relaxed_sha256": "271c60730732fce94ebe54037b4d6afaada2dccc7668dc45b6302cadf643e90c"
+    },
+    {
+      "candidate_id": "candidate_0884",
+      "role": "priority",
+      "generated_file": "generated/candidate_0884.POSCAR",
+      "relaxed_file": "relaxed/candidate_0884.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0884/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0884.cif",
+      "generated_sha256": "6fbb19204869ab3420f2dc1c673302558663e0f86f263eb32a6043ab63ad7a8d",
+      "relaxed_sha256": "42dec30570a06b24a3e6faef8843926d6dfe204d63d660000f88b364527d938e"
+    },
+    {
+      "candidate_id": "candidate_0885",
+      "role": "priority",
+      "generated_file": "generated/candidate_0885.POSCAR",
+      "relaxed_file": "relaxed/candidate_0885.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0885/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0885.cif",
+      "generated_sha256": "2c3657e2b92398c1e6277ba7f72d19b7dfd794e5e6346ab9aec6b3c5e69f584f",
+      "relaxed_sha256": "6e0ba382da315c922e54bf4ace96397b8419f799662c17f6bf8d525b5c4cd25f"
+    },
+    {
+      "candidate_id": "candidate_0895",
+      "role": "priority",
+      "generated_file": "generated/candidate_0895.POSCAR",
+      "relaxed_file": "relaxed/candidate_0895.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0895/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0895.cif",
+      "generated_sha256": "7672a1954928a412b5594146026c3b51ad518b7a77b0ee1eb9ff4ffcff3a023a",
+      "relaxed_sha256": "bb9ef5f64a415a5281c3fd89f0ff0cb5ab4dd70b8fad9127d94b190007215efe"
+    },
+    {
+      "candidate_id": "candidate_0898",
+      "role": "control",
+      "generated_file": "generated/candidate_0898.POSCAR",
+      "relaxed_file": "relaxed/candidate_0898.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0898/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0898.cif",
+      "generated_sha256": "a809023688643d4ba633b3824068eb94a60fcf233ea976576e167b21e19af372",
+      "relaxed_sha256": "2b80f9971ebd078625c21ef3edf1ad4e346ffd111f5e2b77fa576ef2a51cd351"
+    },
+    {
+      "candidate_id": "candidate_0899",
+      "role": "priority",
+      "generated_file": "generated/candidate_0899.POSCAR",
+      "relaxed_file": "relaxed/candidate_0899.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0899/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0899.cif",
+      "generated_sha256": "3b722e8892bd6548504a6be5717da1c4866e89dc6b13bf396f9aa948d411af22",
+      "relaxed_sha256": "b2ec0ba2d575e56f57d3fd474017b4e7ad67f27334c53a08eed7ac614c98dd44"
+    },
+    {
+      "candidate_id": "candidate_0902",
+      "role": "screened",
+      "generated_file": "generated/candidate_0902.POSCAR",
+      "relaxed_file": "relaxed/candidate_0902.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0902/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0902.cif",
+      "generated_sha256": "faa0d6f013674f56809d566f876c65a0b45418b8cdbb777cfdbe70b8c57a43ea",
+      "relaxed_sha256": "69015beb6c6ff73b476ca28e3acf9e2f8d16b3db065510ed7b6a784756f983b2"
+    },
+    {
+      "candidate_id": "candidate_0908",
+      "role": "priority",
+      "generated_file": "generated/candidate_0908.POSCAR",
+      "relaxed_file": "relaxed/candidate_0908.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0908/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0908.cif",
+      "generated_sha256": "d6579fd81f0792ddb1a7c6e7ed0983fb988d92be2f6bf4a28e01d476887a62d2",
+      "relaxed_sha256": "4e74abb591b0443db2e5f06421bf178a2508562c175634a12d379468130e5325"
+    },
+    {
+      "candidate_id": "candidate_0926",
+      "role": "priority",
+      "generated_file": "generated/candidate_0926.POSCAR",
+      "relaxed_file": "relaxed/candidate_0926.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0926/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0926.cif",
+      "generated_sha256": "85b9496d1dc35f65212f53ed41af310bed267b7c933fab33bf9894100d956aa5",
+      "relaxed_sha256": "d82f993336f8ea15fef78a1327a4999ea3f1854fba90df9ff09757f14c0f8553"
+    },
+    {
+      "candidate_id": "candidate_0927",
+      "role": "priority",
+      "generated_file": "generated/candidate_0927.POSCAR",
+      "relaxed_file": "relaxed/candidate_0927.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0927/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0927.cif",
+      "generated_sha256": "47e460bb9f0e1283e373cc9577f441c53fe11bc854108921847a3d212eb3173a",
+      "relaxed_sha256": "7662c8a69fdb479bbc22296db35e753d622e730f4686ebb4d62dab0597602fd5"
+    },
+    {
+      "candidate_id": "candidate_0928",
+      "role": "screened",
+      "generated_file": "generated/candidate_0928.POSCAR",
+      "relaxed_file": "relaxed/candidate_0928.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0928/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0928.cif",
+      "generated_sha256": "55961d6d1fbab919121fdf238361034cdf193c586c1b80dca48b607e5f0c1321",
+      "relaxed_sha256": "cd2e50d6146f3883d49576e23d37def214b093d04bb11e4a832d0165dafc2a94"
+    },
+    {
+      "candidate_id": "candidate_0937",
+      "role": "priority",
+      "generated_file": "generated/candidate_0937.POSCAR",
+      "relaxed_file": "relaxed/candidate_0937.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0937/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0937.cif",
+      "generated_sha256": "318cb9bd34c21072ca43000b0a08ff2345727ccffad67abe177004222a52a320",
+      "relaxed_sha256": "65136fbb38c37f5b40eb9d4395452df1183d6d1e58ed7190159d3fbd95bf68e8"
+    },
+    {
+      "candidate_id": "candidate_0939",
+      "role": "priority",
+      "generated_file": "generated/candidate_0939.POSCAR",
+      "relaxed_file": "relaxed/candidate_0939.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0939/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0939.cif",
+      "generated_sha256": "f97e8234b556c6070dc2673e78c0770b7c809b25d2bc8432b69b97b3413c1f10",
+      "relaxed_sha256": "29ec38a1ee1282b9c2ef857e5c47ba593c251d8961589a5a9d16b23f24982f20"
+    },
+    {
+      "candidate_id": "candidate_0941",
+      "role": "priority",
+      "generated_file": "generated/candidate_0941.POSCAR",
+      "relaxed_file": "relaxed/candidate_0941.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0941/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0941.cif",
+      "generated_sha256": "d0aa868601908bc291bc2611d2e01e71d74872282bb42915a6c77522035680e6",
+      "relaxed_sha256": "26cd3180217c94be584dcdad7a2c2e1fda51d68a85c905c2306384d099840418"
+    },
+    {
+      "candidate_id": "candidate_0944",
+      "role": "screened",
+      "generated_file": "generated/candidate_0944.POSCAR",
+      "relaxed_file": "relaxed/candidate_0944.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0944/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0944.cif",
+      "generated_sha256": "c7deb63b426b74c342a2214f98244cd22d2c033d29ae93f0d17ba7ed5b9603b0",
+      "relaxed_sha256": "e585d73082722388da6e35d121f7809780ac899155f470e07a4932f9a35499a8"
+    },
+    {
+      "candidate_id": "candidate_0946",
+      "role": "priority",
+      "generated_file": "generated/candidate_0946.POSCAR",
+      "relaxed_file": "relaxed/candidate_0946.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0946/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0946.cif",
+      "generated_sha256": "67a07b485c7021761de7cd55759b59b0204011438c7e13746d4a9a74954c47a6",
+      "relaxed_sha256": "cad8a6a7347d31de81429175452ab4dd92b34117d5a3fa584d508ed458f559aa"
+    },
+    {
+      "candidate_id": "candidate_0951",
+      "role": "priority",
+      "generated_file": "generated/candidate_0951.POSCAR",
+      "relaxed_file": "relaxed/candidate_0951.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0951/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0951.cif",
+      "generated_sha256": "cd2ccbe95fa32edf92718ee5aedd0edba594570aac802db1f77563ecfacfd401",
+      "relaxed_sha256": "a60dd20d0985adee1f08f8393ef8c5923c4066f2bc82fbd07a27f7152a9280b0"
+    },
+    {
+      "candidate_id": "candidate_0954",
+      "role": "screened",
+      "generated_file": "generated/candidate_0954.POSCAR",
+      "relaxed_file": "relaxed/candidate_0954.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0954/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0954.cif",
+      "generated_sha256": "b11d4c4607705c2c55c229fbe187229893f6261bfe52f60c9ba4fdc78dab6363",
+      "relaxed_sha256": "a67483797350070875bf54305c74aaa8ae8d1b1e1a5999848fb86bb554d8e3ef"
+    },
+    {
+      "candidate_id": "candidate_0959",
+      "role": "control",
+      "generated_file": "generated/candidate_0959.POSCAR",
+      "relaxed_file": "relaxed/candidate_0959.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0959/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0959.cif",
+      "generated_sha256": "5f55f377a4af2fed607eb4570613a165ace20fd7bc26249dc5809e7e20ae9222",
+      "relaxed_sha256": "7732ebfa2f4c4eb86bdde7354440f3531b62c9eb946745d07bcd56ef79f43067"
+    },
+    {
+      "candidate_id": "candidate_0961",
+      "role": "control",
+      "generated_file": "generated/candidate_0961.POSCAR",
+      "relaxed_file": "relaxed/candidate_0961.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0961/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0961.cif",
+      "generated_sha256": "a4ea7e30880bd53c169bb9413e70846b7aad44c345bc41a85e59cc96170d6768",
+      "relaxed_sha256": "2e60881fe24c4c2fcf38e1abfe9235e11618481478131f388e4b20edd72d8330"
+    },
+    {
+      "candidate_id": "candidate_0970",
+      "role": "priority",
+      "generated_file": "generated/candidate_0970.POSCAR",
+      "relaxed_file": "relaxed/candidate_0970.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0970/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0970.cif",
+      "generated_sha256": "76b98874ede0222eddba45e2414871c53cc2bdc1f464d142123321f99c31bf66",
+      "relaxed_sha256": "0d3f658d3da323680fc560631f68806a652233ed353cb5b5802851fa996dd843"
+    },
+    {
+      "candidate_id": "candidate_0979",
+      "role": "priority",
+      "generated_file": "generated/candidate_0979.POSCAR",
+      "relaxed_file": "relaxed/candidate_0979.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0979/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0979.cif",
+      "generated_sha256": "387917faaea0c38c1d5ff590f880265502ab45407f3c8eb7de56977447f5d070",
+      "relaxed_sha256": "b9f7bca8f57e9a7a11f5954db5748e205f18be9e08aed947c9247a563e050690"
+    },
+    {
+      "candidate_id": "candidate_0980",
+      "role": "screened",
+      "generated_file": "generated/candidate_0980.POSCAR",
+      "relaxed_file": "relaxed/candidate_0980.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0980/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0980.cif",
+      "generated_sha256": "b72198f1939818541e17c4faae6a277cac933a9a16a3199e53eea1609f739f71",
+      "relaxed_sha256": "ee1cbd6a1b63c2a525790016672f328ee6feac17c30d93acaa8ada91afa5cf86"
+    },
+    {
+      "candidate_id": "candidate_0982",
+      "role": "priority",
+      "generated_file": "generated/candidate_0982.POSCAR",
+      "relaxed_file": "relaxed/candidate_0982.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0982/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0982.cif",
+      "generated_sha256": "ff4ac35f1ee651198c7767f88327fb13cbc5f435a84b0088d23b207bc9e09172",
+      "relaxed_sha256": "764eac0649d4c4f4aed067b3500f16a8a88a7966144f55c65e85103593c96d9f"
+    },
+    {
+      "candidate_id": "candidate_0990",
+      "role": "screened",
+      "generated_file": "generated/candidate_0990.POSCAR",
+      "relaxed_file": "relaxed/candidate_0990.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0990/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0990.cif",
+      "generated_sha256": "4e8c65f61efb331fd4d63fd148e82ca6e304041701797281ed251ccf2f5e25d9",
+      "relaxed_sha256": "a6837a5ade76f82e55f05618b46b41623ffb45c46495678acf6ac205ac476086"
+    },
+    {
+      "candidate_id": "candidate_0995",
+      "role": "screened",
+      "generated_file": "generated/candidate_0995.POSCAR",
+      "relaxed_file": "relaxed/candidate_0995.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_0995/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_0995.cif",
+      "generated_sha256": "444e334d0b2458bca33a346d2f8814862cdc812958e99a37f3a6bc2995c319b5",
+      "relaxed_sha256": "912971778158f37710400441e3f171b31bb79eca96d334e23ee26708371c42ae"
+    },
+    {
+      "candidate_id": "candidate_1000",
+      "role": "control",
+      "generated_file": "generated/candidate_1000.POSCAR",
+      "relaxed_file": "relaxed/candidate_1000.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1000/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1000.cif",
+      "generated_sha256": "8105f73108f9d9875cad88c53fd04ad6a72b4dd8d502ec1c38b5923efccc6e8a",
+      "relaxed_sha256": "0488b32bbc9b06f9fd91bfd26a06653e9887affa935658efa031b4e74e291121"
+    },
+    {
+      "candidate_id": "candidate_1005",
+      "role": "priority",
+      "generated_file": "generated/candidate_1005.POSCAR",
+      "relaxed_file": "relaxed/candidate_1005.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1005/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1005.cif",
+      "generated_sha256": "6640bd0dde6f98a3a06fa06af330d2875fa8a39c33a8594e6ad7cfcf4595781b",
+      "relaxed_sha256": "bdbb5099ba90ef2e11fc7ed2dee75c516b511df883d4262f625428c83948717d"
+    },
+    {
+      "candidate_id": "candidate_1010",
+      "role": "priority",
+      "generated_file": "generated/candidate_1010.POSCAR",
+      "relaxed_file": "relaxed/candidate_1010.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1010/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1010.cif",
+      "generated_sha256": "8e445ad2198fa60f5211372e3b9370e9216ad3ab48f5145ba71c6540976e8e6f",
+      "relaxed_sha256": "5e212fbb184d1e694f212d53133e09b8a60d8179976906221761284c9225ba33"
+    },
+    {
+      "candidate_id": "candidate_1015",
+      "role": "control",
+      "generated_file": "generated/candidate_1015.POSCAR",
+      "relaxed_file": "relaxed/candidate_1015.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1015/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1015.cif",
+      "generated_sha256": "d657bbaaf99f036bb3fbad1cb65ecd5c17662f269f79e5a874b81915809d0071",
+      "relaxed_sha256": "f0bd91e8f33a43f92a26cc0c1cfea4077e8a362765ffc6b6e0747ceda70563a6"
+    },
+    {
+      "candidate_id": "candidate_1016",
+      "role": "priority",
+      "generated_file": "generated/candidate_1016.POSCAR",
+      "relaxed_file": "relaxed/candidate_1016.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1016/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1016.cif",
+      "generated_sha256": "0e4c5b332d72a2eb15d447a38d4b67ce605c789a2cf5074912d386eb6712a743",
+      "relaxed_sha256": "9e66ecbd96b9426701b2732b83a30b7bc4cabca6f46378b03355cd0440a87e80"
+    },
+    {
+      "candidate_id": "candidate_1019",
+      "role": "priority",
+      "generated_file": "generated/candidate_1019.POSCAR",
+      "relaxed_file": "relaxed/candidate_1019.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1019/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1019.cif",
+      "generated_sha256": "113272dad088ffcd0694c26e460418ac5174a9d513ad04938fa385a395262307",
+      "relaxed_sha256": "7898cab98b163d49619ae8e66f744a81af5f0fc9063cede7ed6e010494607d7a"
+    },
+    {
+      "candidate_id": "candidate_1020",
+      "role": "priority",
+      "generated_file": "generated/candidate_1020.POSCAR",
+      "relaxed_file": "relaxed/candidate_1020.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1020/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1020.cif",
+      "generated_sha256": "d9f88d22cd496c3219528f16e812aa0cb273d47c2de15d532942bc9d6b632849",
+      "relaxed_sha256": "7ab52202af92d7fdf3e49e32a884c8ea2f7d224ec085edd44a80606b87ddea1c"
+    },
+    {
+      "candidate_id": "candidate_1023",
+      "role": "priority",
+      "generated_file": "generated/candidate_1023.POSCAR",
+      "relaxed_file": "relaxed/candidate_1023.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1023/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1023.cif",
+      "generated_sha256": "bbc5ac85c86afc00f3cf85c5c94f0027c5ee99fb485712a50e853da32be237f2",
+      "relaxed_sha256": "a12e4e2b396cf96078ad2add4c454ee415cfcde68969e51ec42e5747d0dce461"
+    },
+    {
+      "candidate_id": "candidate_1025",
+      "role": "priority",
+      "generated_file": "generated/candidate_1025.POSCAR",
+      "relaxed_file": "relaxed/candidate_1025.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1025/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1025.cif",
+      "generated_sha256": "317b9b110cb56eca40d80f584775ec43524d2545cfe718507a22711c31574fa5",
+      "relaxed_sha256": "8d2434967c78b0374abd4ca4faf8b71df67fd6d675527d82cde497f83578922d"
+    },
+    {
+      "candidate_id": "candidate_1029",
+      "role": "priority",
+      "generated_file": "generated/candidate_1029.POSCAR",
+      "relaxed_file": "relaxed/candidate_1029.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1029/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1029.cif",
+      "generated_sha256": "8674ff2eef522ae76ace345ac60b5253eda5efde6e5c4dd031bd75c0fc8d4e4f",
+      "relaxed_sha256": "73b075f65b19731f53cd64ba3176ecf02d727f66b2b21720024e65c408354d82"
+    },
+    {
+      "candidate_id": "candidate_1031",
+      "role": "screened",
+      "generated_file": "generated/candidate_1031.POSCAR",
+      "relaxed_file": "relaxed/candidate_1031.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1031/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1031.cif",
+      "generated_sha256": "29a74f7ce404377943cf157faa5e61655ede5790ffb9258496c66a484a669b64",
+      "relaxed_sha256": "26d838af7f618659b57e523978e110dd0e9688eeb78270426d55bf7a305601bb"
+    },
+    {
+      "candidate_id": "candidate_1033",
+      "role": "control",
+      "generated_file": "generated/candidate_1033.POSCAR",
+      "relaxed_file": "relaxed/candidate_1033.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1033/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1033.cif",
+      "generated_sha256": "2a1ff36a47a8ce0b8c98ee91737503d9b781b5db691c8be56e954a9bf505fd3d",
+      "relaxed_sha256": "91e80397b81f502aac9bba9f115e7943289fd9583c0317b5c1015fbdc2d61006"
+    },
+    {
+      "candidate_id": "candidate_1034",
+      "role": "priority",
+      "generated_file": "generated/candidate_1034.POSCAR",
+      "relaxed_file": "relaxed/candidate_1034.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1034/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1034.cif",
+      "generated_sha256": "0b22d7de81af7b312e378d3c500f8b5dd04f2d0c240ae3c4dd929f26c734bbe4",
+      "relaxed_sha256": "a1b1ac9cfc919567db45f939bf97057a0c6cae4d76d662505f8641b369932e49"
+    },
+    {
+      "candidate_id": "candidate_1035",
+      "role": "control",
+      "generated_file": "generated/candidate_1035.POSCAR",
+      "relaxed_file": "relaxed/candidate_1035.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1035/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1035.cif",
+      "generated_sha256": "989fb24749bbc2732d2778f9b031fcc8725bb990738b05a001c1a308396938b2",
+      "relaxed_sha256": "da37aeca4f6730f6bf04c99f6e022b90c2bc6a1edf0e3fc9e8a0b1dc1fa0e50c"
+    },
+    {
+      "candidate_id": "candidate_1048",
+      "role": "screened",
+      "generated_file": "generated/candidate_1048.POSCAR",
+      "relaxed_file": "relaxed/candidate_1048.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1048/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1048.cif",
+      "generated_sha256": "1e11b3d6e823ee6a2c4c165d298fc711301529aefdc81cb8e2eacdb38bcf83e0",
+      "relaxed_sha256": "6b8a48c1a1b85c1b476ffc2f594161d882b77be889681750e96ae28c78eb4098"
+    },
+    {
+      "candidate_id": "candidate_1050",
+      "role": "priority",
+      "generated_file": "generated/candidate_1050.POSCAR",
+      "relaxed_file": "relaxed/candidate_1050.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1050/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1050.cif",
+      "generated_sha256": "b71e7116ac072257e0e24d53592edc90c9f29a2fb04f14f99532260e73e10208",
+      "relaxed_sha256": "3ebc3a5f9cb88f05b162334c208d105b0a6dde4765d3e3afcee708de06e9c11e"
+    },
+    {
+      "candidate_id": "candidate_1053",
+      "role": "control",
+      "generated_file": "generated/candidate_1053.POSCAR",
+      "relaxed_file": "relaxed/candidate_1053.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1053/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1053.cif",
+      "generated_sha256": "5cf2335e4258b67098ada5b3fc246dc891c60111050c3ca44b33e6c287bdab5f",
+      "relaxed_sha256": "3a2938ed17d38dbcab7b779ab2f08fdf7dc00f74bc967f58d053b82b733d6d22"
+    },
+    {
+      "candidate_id": "candidate_1064",
+      "role": "priority",
+      "generated_file": "generated/candidate_1064.POSCAR",
+      "relaxed_file": "relaxed/candidate_1064.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1064/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1064.cif",
+      "generated_sha256": "2a6a8040bc7ab4782b8d4666c111de83fabf734d4e45ebd28de17aeecd93967f",
+      "relaxed_sha256": "742519b0e37b2c38105288f1ac7ae013d479b3e2587aaa55d89bee548ab73e6f"
+    },
+    {
+      "candidate_id": "candidate_1078",
+      "role": "screened",
+      "generated_file": "generated/candidate_1078.POSCAR",
+      "relaxed_file": "relaxed/candidate_1078.cif",
+      "generated_source": "dft/E4_design/tasks/E4-candidate_1078/POSCAR.init",
+      "relaxed_source": "outputs/20260828_dft_supplementary_structures/structures/candidate_1078.cif",
+      "generated_sha256": "3b863cba1d03bc607072f5682205c0971aec5bb21849e34a6c9de02a6356cc26",
+      "relaxed_sha256": "b9f61d2ca3119a87f5d325ab5fa0c4818335547d947b05caef2557f106dd8635"
+    }
+  ],
+  "references": [
+    {
+      "source": "outputs/20260828_dft_supplementary_structures/SUMMARY.json",
+      "file": "reference/published_summary.json",
+      "sha256": "73c5d71de3c4c28d84d9b6a9a82573033340648361b0503210bdd345371e0f3d"
+    },
+    {
+      "source": "outputs/20260828_dft_supplementary_structures/index.csv",
+      "file": "reference/published_index.csv",
+      "sha256": "c908d05a6e4f8bd6565733b18325649de3f46a5608e4fe4739ae924c113c7c8f"
+    },
+    {
+      "source": "src/dft_supplementary_data.py",
+      "file": "reference/dft_supplementary_data.py",
+      "sha256": "2191f8ec76a2628fd666fd1523323dcf94d93f7f5fa7ee08dbebdcfc03b28fdd"
+    },
+    {
+      "source": "dft/analyze.py",
+      "file": "reference/dft_analyze.py",
+      "sha256": "e6bfa142c29cefcd267fb442c0072d322f80d1c4f915b61b0cbb213ac67f8c37"
+    }
+  ]
+}

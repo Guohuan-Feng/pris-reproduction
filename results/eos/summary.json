@@ -1,0 +1,75 @@
+{
+  "scope": "Independent numerical reanalysis of published collected DFT energies; no new VASP/DFT calculations.",
+  "source_url": "https://github.com/AI4QC/PRIS",
+  "source_commit": "34e6c86c083759dc1ee594ae22238ea9b5ebd8f4",
+  "selection": "Retain complete and unconverged records; final static energy; static final_cell or relaxation final_cell; >=4 volume points; positive modulus and fitted V0 inside sampled interval.",
+  "optimizer": "scipy.optimize.least_squares, independent algebraically equivalent BM3, centered energy, 3-point numerical Jacobian, tolerances 1e-12",
+  "input_records": 1300,
+  "input_status_counts": {
+    "complete": 1296,
+    "failed": 3,
+    "unconverged": 1
+  },
+  "used_volume_points": 1297,
+  "fitted_candidates": 260,
+  "published_candidates": 260,
+  "published_candidates_missing_from_refit": [],
+  "fit_point_count_distribution": {
+    "5": 257,
+    "4": 3
+  },
+  "role_counts": {
+    "control": 60,
+    "priority": 140,
+    "screened": 60
+  },
+  "b0_absolute_error_gpa_median": 5.089376031719439e-08,
+  "b0_absolute_error_gpa_max": 0.00023252674819218555,
+  "b0_relative_error_median": 1.4263777105218214e-10,
+  "b0_relative_error_max": 9.614572864582026e-07,
+  "largest_discrepancy_candidate": "candidate_0751",
+  "all_b0_within_0_01_gpa": true,
+  "max_refit_rms_ev": 0.026815451695598787,
+  "refit_b0_median_gpa": 374.47090796569626,
+  "refit_b0_max_gpa": 418.54560854117994,
+  "proxy_dft_pearson": 0.7692591247123107,
+  "proxy_dft_spearman": 0.7101427308323859,
+  "median_dft_to_uma_ratio": 0.939546852425756,
+  "mapped_dft_threshold_gpa": 375.8187409703024,
+  "at_or_above_original_400_gpa": {
+    "priority": 1,
+    "screened": 1,
+    "control": 0
+  },
+  "at_or_above_mapped_threshold": {
+    "retained": 123,
+    "screened": 1,
+    "retention_fraction": 0.9919354838709677
+  },
+  "priority_vs_screened_pairwise_ranking_accuracy": 0.9661904761904762,
+  "sampling_limit": "E4 deliberately oversamples high UMA bulk moduli. These 260-candidate proportions cannot be extrapolated to the full 1081-candidate generation pool.",
+  "excluded_records": [
+    {
+      "task": "E4-candidate_0066-v3",
+      "reason": "stage static exited 1"
+    },
+    {
+      "task": "E4-candidate_0542-v1",
+      "reason": "stage relax_ions exited 1"
+    },
+    {
+      "task": "E4-candidate_0802-v3",
+      "reason": "stage relax_ions exited 1"
+    }
+  ],
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "input_sha256": {
+    "stage_b_collected.json": "9908b49e704fb5962d0e35f559726f744713c62ca9345a8d11ee16d72df4f9e0",
+    "published_bulk_moduli.json": "09862d1c82a03d913e419cbcb17446cdd4ba56d0b31fde6bb11164e5d0ac26f1"
+  },
+  "script_sha256": "69f79d56c88be1ffae48d1a2c870887db2bd003cf6bb9caca33a1708ab49c84d"
+}

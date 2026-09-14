@@ -1,0 +1,21 @@
+{
+  "input_records": 1300,
+  "used_volume_points": 1297,
+  "fitted_candidates": 260,
+  "b0_absolute_error_gpa_max": 0.00023252674819218555,
+  "b0_absolute_error_gpa_median": 5.089376031719439e-08,
+  "b0_relative_error_max": 9.614572864582026e-07,
+  "all_b0_within_0_01_gpa": true,
+  "proxy_dft_pearson": 0.7692591247123107,
+  "median_dft_to_uma_ratio": 0.939546852425756,
+  "at_or_above_original_400_gpa": {
+    "priority": 1,
+    "screened": 1,
+    "control": 0
+  },
+  "at_or_above_mapped_threshold": {
+    "retained": 123,
+    "screened": 1,
+    "retention_fraction": 0.9919354838709677
+  }
+}
