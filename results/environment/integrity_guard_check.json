@@ -1,0 +1,8 @@
+{
+  "test": "Archived input changed in isolated temporary bundle",
+  "expected_exit_code": 1,
+  "observed_exit_code": 1,
+  "identified_exact_input": true,
+  "input_restored": true,
+  "published_input_modified": false
+}

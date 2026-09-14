@@ -24,6 +24,14 @@ The packaged six-step run completed with all exit codes zero; see [the run log s
 
 Use Python 3.12. From this directory:
 
+```text
+python bootstrap.py --workers 4
+```
+
+This entry point creates `.venv`, installs the 48 pinned distributions, runs `pip check`, verifies bundled source and scientific input hashes, and executes the six-step reproduction. `python bootstrap.py --install-only` prepares and validates the environment without rerunning the calculations. Existing unrelated directories are not overwritten. The validated environment and outstanding upstream inputs are documented in [DEPENDENCIES.md](DEPENDENCIES.md).
+
+The equivalent manual setup is:
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --no-compile -r requirements-lock.txt
@@ -79,6 +87,9 @@ Fig. 2 was attempted and fails because `outputs/20260815_threshold_transfer/tran
 - `vendor_manifest.json`: hashes and origin of vendored source.
 - `FILE_MANIFEST.json`: portable deliverable hashes after final validation.
 - `LOG_REDACTION.md`: local path redactions applied to published logs.
+- `DEPENDENCIES.md` / `DEPENDENCIES_zh.md`: independent environment validation and the availability of upstream inputs.
+- `bootstrap.py`: isolated environment creation, installation, verification, and execution.
+- `scripts/check_environment.py`: exact package versions, source integrity, input integrity, and optional upstream-file checks.
 
 The README, report, source audit, and auxiliary data/result explanations are provided in both English and Chinese. Machine-readable measurements and unchanged upstream source retain their original language. Both reports refer to the same computed data.
 

@@ -1,0 +1,321 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows",
+  "supported_python": true,
+  "packages": [
+    {
+      "name": "Pygments",
+      "required": "2.21.0",
+      "installed": "2.21.0",
+      "matches": true
+    },
+    {
+      "name": "ase",
+      "required": "3.29.0",
+      "installed": "3.29.0",
+      "matches": true
+    },
+    {
+      "name": "bibtexparser",
+      "required": "1.4.4",
+      "installed": "1.4.4",
+      "matches": true
+    },
+    {
+      "name": "certifi",
+      "required": "2026.7.22",
+      "installed": "2026.7.22",
+      "matches": true
+    },
+    {
+      "name": "charset-normalizer",
+      "required": "3.5.1",
+      "installed": "3.5.1",
+      "matches": true
+    },
+    {
+      "name": "cloudpickle",
+      "required": "3.1.2",
+      "installed": "3.1.2",
+      "matches": true
+    },
+    {
+      "name": "colorama",
+      "required": "0.4.6",
+      "installed": "0.4.6",
+      "matches": true
+    },
+    {
+      "name": "contourpy",
+      "required": "1.4.0",
+      "installed": "1.4.0",
+      "matches": true
+    },
+    {
+      "name": "cycler",
+      "required": "0.12.1",
+      "installed": "0.12.1",
+      "matches": true
+    },
+    {
+      "name": "fonttools",
+      "required": "4.65.0",
+      "installed": "4.65.0",
+      "matches": true
+    },
+    {
+      "name": "idna",
+      "required": "3.19",
+      "installed": "3.19",
+      "matches": true
+    },
+    {
+      "name": "iniconfig",
+      "required": "2.3.0",
+      "installed": "2.3.0",
+      "matches": true
+    },
+    {
+      "name": "joblib",
+      "required": "1.6.0",
+      "installed": "1.6.0",
+      "matches": true
+    },
+    {
+      "name": "kiwisolver",
+      "required": "1.5.1",
+      "installed": "1.5.1",
+      "matches": true
+    },
+    {
+      "name": "lxml",
+      "required": "6.1.3",
+      "installed": "6.1.3",
+      "matches": true
+    },
+    {
+      "name": "matplotlib",
+      "required": "3.11.2",
+      "installed": "3.11.2",
+      "matches": true
+    },
+    {
+      "name": "monty",
+      "required": "2026.7.16",
+      "installed": "2026.7.16",
+      "matches": true
+    },
+    {
+      "name": "mpmath",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "matches": true
+    },
+    {
+      "name": "narwhals",
+      "required": "2.26.0",
+      "installed": "2.26.0",
+      "matches": true
+    },
+    {
+      "name": "networkx",
+      "required": "3.6.1",
+      "installed": "3.6.1",
+      "matches": true
+    },
+    {
+      "name": "numpy",
+      "required": "2.5.3",
+      "installed": "2.5.3",
+      "matches": true
+    },
+    {
+      "name": "orjson",
+      "required": "3.12.0",
+      "installed": "3.12.0",
+      "matches": true
+    },
+    {
+      "name": "packaging",
+      "required": "26.3",
+      "installed": "26.3",
+      "matches": true
+    },
+    {
+      "name": "palettable",
+      "required": "3.3.3",
+      "installed": "3.3.3",
+      "matches": true
+    },
+    {
+      "name": "pandas",
+      "required": "3.0.5",
+      "installed": "3.0.5",
+      "matches": true
+    },
+    {
+      "name": "pillow",
+      "required": "12.3.0",
+      "installed": "12.3.0",
+      "matches": true
+    },
+    {
+      "name": "plotly",
+      "required": "7.0.0",
+      "installed": "7.0.0",
+      "matches": true
+    },
+    {
+      "name": "pluggy",
+      "required": "1.6.0",
+      "installed": "1.6.0",
+      "matches": true
+    },
+    {
+      "name": "pyarrow",
+      "required": "25.0.1",
+      "installed": "25.0.1",
+      "matches": true
+    },
+    {
+      "name": "pymatgen-core",
+      "required": "2026.8.30",
+      "installed": "2026.8.30",
+      "matches": true
+    },
+    {
+      "name": "pymatgen",
+      "required": "2026.5.4",
+      "installed": "2026.5.4",
+      "matches": true
+    },
+    {
+      "name": "pyparsing",
+      "required": "3.3.2",
+      "installed": "3.3.2",
+      "matches": true
+    },
+    {
+      "name": "pytest",
+      "required": "9.1.1",
+      "installed": "9.1.1",
+      "matches": true
+    },
+    {
+      "name": "python-dateutil",
+      "required": "2.9.0.post0",
+      "installed": "2.9.0.post0",
+      "matches": true
+    },
+    {
+      "name": "requests",
+      "required": "2.34.2",
+      "installed": "2.34.2",
+      "matches": true
+    },
+    {
+      "name": "ruamel.yaml",
+      "required": "0.19.1",
+      "installed": "0.19.1",
+      "matches": true
+    },
+    {
+      "name": "scikit-learn",
+      "required": "1.9.1",
+      "installed": "1.9.1",
+      "matches": true
+    },
+    {
+      "name": "scipy",
+      "required": "1.18.1",
+      "installed": "1.18.1",
+      "matches": true
+    },
+    {
+      "name": "six",
+      "required": "1.17.0",
+      "installed": "1.17.0",
+      "matches": true
+    },
+    {
+      "name": "spglib",
+      "required": "2.7.0",
+      "installed": "2.7.0",
+      "matches": true
+    },
+    {
+      "name": "sympy",
+      "required": "1.14.0",
+      "installed": "1.14.0",
+      "matches": true
+    },
+    {
+      "name": "tabulate",
+      "required": "0.10.0",
+      "installed": "0.10.0",
+      "matches": true
+    },
+    {
+      "name": "threadpoolctl",
+      "required": "3.6.0",
+      "installed": "3.6.0",
+      "matches": true
+    },
+    {
+      "name": "tqdm",
+      "required": "4.70.1",
+      "installed": "4.70.1",
+      "matches": true
+    },
+    {
+      "name": "typing_extensions",
+      "required": "4.16.0",
+      "installed": "4.16.0",
+      "matches": true
+    },
+    {
+      "name": "tzdata",
+      "required": "2026.4",
+      "installed": "2026.4",
+      "matches": true
+    },
+    {
+      "name": "uncertainties",
+      "required": "3.2.3",
+      "installed": "3.2.3",
+      "matches": true
+    },
+    {
+      "name": "urllib3",
+      "required": "2.7.0",
+      "installed": "2.7.0",
+      "matches": true
+    }
+  ],
+  "vendor_source_problems": [],
+  "missing_bundled_data": [],
+  "input_files_checked": 703,
+  "input_hash_problems": [],
+  "bundled_workflow_ready": true,
+  "upstream_inputs": [
+    {
+      "path": "src/build_bonds.py",
+      "kind": "source",
+      "reason": "Historical bond-feature pipeline; absent from the public release.",
+      "present": false
+    },
+    {
+      "path": "outputs/20260815_threshold_transfer/transfer.json",
+      "kind": "data",
+      "reason": "Exact threshold-transfer measurements required by Fig. 2.",
+      "present": false
+    },
+    {
+      "path": "outputs/20260822_property_design_synthesis_score/inverse_scores.parquet",
+      "kind": "data",
+      "reason": "Full inverse-design candidate scores, not the selected E4 subset.",
+      "present": false
+    }
+  ],
+  "scope": "The bundled six-step reproduction only. Full original search, feature stores, PU shards, and licensed VASP inputs are not supplied by installing Python packages."
+}

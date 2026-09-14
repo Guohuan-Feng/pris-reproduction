@@ -16,6 +16,11 @@
       "sha256": "bf2ee42ccf00412d66682929c12737a7b1faf0e6e541daabcfed739f1e9ae823"
     },
     {
+      "path": "bootstrap.py",
+      "bytes": 2078,
+      "sha256": "30fedc89ee3eb10c302aa5c94148be770768389c96de1009b1241aeeb0592e52"
+    },
+    {
       "path": "data/eos/manifest.json",
       "bytes": 853,
       "sha256": "9631c55b64098cc1ab4a5cef0f6bbfbe1cf3c083bebb8d2ebdfe1a3487739695"
@@ -4496,39 +4501,49 @@
       "sha256": "b9f61d2ca3119a87f5d325ab5fa0c4818335547d947b05caef2557f106dd8635"
     },
     {
+      "path": "DEPENDENCIES.md",
+      "bytes": 6491,
+      "sha256": "487326adfcf182ac3196f7efe9ca371e9f62146715c4879ee32677f589159b0c"
+    },
+    {
+      "path": "DEPENDENCIES_zh.md",
+      "bytes": 5557,
+      "sha256": "31a432bf73fac09e6820086f7aade9befc10c9e39ec4274075b05b78ff1b87c6"
+    },
+    {
       "path": "LOG_REDACTION.md",
       "bytes": 2456,
       "sha256": "f2608db43979a6979bca6f1069ee4af8fed74224b80a4ffa92a8539aa4016dbf"
     },
     {
       "path": "README.md",
-      "bytes": 5876,
-      "sha256": "8a9cb3d883380fcf89c805365c385b46e536ea067b0c5fa6ee5b69abb23ef1a7"
+      "bytes": 6754,
+      "sha256": "41cbb0a2e42dcb2ae30569520dc33200d9387ea1ca3e566acd3e244f58379872"
     },
     {
       "path": "README_zh.md",
-      "bytes": 5480,
-      "sha256": "fc218af502c10836b492144260922a629a76eba9e0d16c2e862e0d6aa1f69f45"
+      "bytes": 6227,
+      "sha256": "5d3ee1864649fcb66880f00c8d53a84206095a0b02a430b8742ed374c6147d1b"
     },
     {
       "path": "REPORT.md",
-      "bytes": 14027,
-      "sha256": "9ff667e23144788137ddb1aa1d03d654a4d56923f3324386fd10474d33b5bc81"
+      "bytes": 18672,
+      "sha256": "c2a182b6381c8615fca43ffae081fb919f5339b81dccd533107fd4247de30b22"
     },
     {
       "path": "REPORT_zh.md",
-      "bytes": 11149,
-      "sha256": "12a9cdd9d5a6205b8cceed909d98524aae4f26485449b1b69d28674b469fb6a5"
+      "bytes": 15426,
+      "sha256": "9509d5040398cde8f8ed00a88d0721a6852ec61548c370b5c84fe7a113797603"
     },
     {
       "path": "REPRODUCTION_AUDIT.md",
-      "bytes": 12770,
-      "sha256": "87911bcc3467f3793736652ed977e5f9c42d8036b2892b841ee8376949c18820"
+      "bytes": 12890,
+      "sha256": "4675e7a2f5aaa7cb2376411f04a65f643235d983f506c7b73d95ea15e7c16d3e"
     },
     {
       "path": "REPRODUCTION_AUDIT_zh.md",
-      "bytes": 12541,
-      "sha256": "5815bc2c150e2c9b2b1ed90f5bf9d83fc99425d9b0fad9f9ab0c55e0cebd3a80"
+      "bytes": 12513,
+      "sha256": "a5a4448bfc9ca51f36d1454b0c5cd361cca49784fa131882ac3495561e8bb784"
     },
     {
       "path": "requirements-lock.txt",
@@ -4706,6 +4721,31 @@
       "sha256": "6dbac11b70fe113859e6ed9f61815dd4b4017793dd44efde7dfc3d2b490c92a9"
     },
     {
+      "path": "results/environment/bootstrap.log",
+      "bytes": 19389,
+      "sha256": "0b71d316552461f237147c0ccdcf056c200a52057311b79a2e4cde4c489cfb27"
+    },
+    {
+      "path": "results/environment/clean_environment_validation.json",
+      "bytes": 9834,
+      "sha256": "d819f1f393611c2e5e7843d8968f88616ee3a5a441e627f875d74e998ff86344"
+    },
+    {
+      "path": "results/environment/dependency_check.json",
+      "bytes": 7042,
+      "sha256": "0a1a2e18fd7dcbec2ebf245a1ffb4ef2a8b56ad6b1425ee6f11adfc2eec62847"
+    },
+    {
+      "path": "results/environment/integrity_guard_check.json",
+      "bytes": 227,
+      "sha256": "564dea8cca88f53c3a156cd00ada8919ff41f919bc2f13f0f9e5e1d234c20720"
+    },
+    {
+      "path": "results/environment/public_input_audit.json",
+      "bytes": 2978,
+      "sha256": "4cd2928d533c1c767b4407f25251f2ac52f46a70dcf39f398efbf18d5a8b1c50"
+    },
+    {
       "path": "results/eos/energy_volume_points.csv",
       "bytes": 124814,
       "sha256": "313f5dd9f24ffdae87485caf4014964f3d0b3062e14e31df1da01b5ed103f238"
@@ -4844,6 +4884,11 @@
       "path": "run_all.py",
       "bytes": 2170,
       "sha256": "37ff63249e4e28c91ac7cd536d90a8e702e9d04ea055216269bdb42f58cc57ab"
+    },
+    {
+      "path": "scripts/check_environment.py",
+      "bytes": 4581,
+      "sha256": "c1df723a4c2c26c4c0107b9c5d5c1275b76fa456fcad88da8d96dad4dfbb5edd"
     },
     {
       "path": "scripts/make_report_figures.py",

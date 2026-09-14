@@ -24,6 +24,14 @@
 
 使用 Python 3.12，在仓库根目录执行：
 
+```text
+python bootstrap.py --workers 4
+```
+
+该入口创建 `.venv`，安装 48 个固定版本依赖，运行 `pip check`，核验所引用源码及科学输入的哈希，然后执行六步复现流程。`python bootstrap.py --install-only` 仅安装并验证环境，不重新计算。已有的无关目录不会被覆盖。独立环境验证及上游输入的可获取性详见[依赖说明](DEPENDENCIES_zh.md)。
+
+等价的手动安装步骤如下：
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --no-compile -r requirements-lock.txt
@@ -79,6 +87,9 @@ Fig. 2 已尝试执行，但发布材料缺少 `outputs/20260815_threshold_trans
 - `vendor_manifest.json`：所引用上游文件的来源及哈希。
 - `FILE_MANIFEST.json`：最终验证后的交付文件哈希。
 - `LOG_REDACTION.md`：公开日志中本机路径的脱敏说明。
+- `DEPENDENCIES.md` / `DEPENDENCIES_zh.md`：独立环境验证及上游输入可获取性说明。
+- `bootstrap.py`：隔离环境创建、依赖安装、核验和执行入口。
+- `scripts/check_environment.py`：精确版本、源码与输入完整性以及可选上游文件检查。
 
 首页、完整报告、来源审计及各数据/结果目录的说明均有中英文版本。机器可读数值和未经修改的上游源文件保留原始语言；两种语言的报告引用同一份计算结果。
 

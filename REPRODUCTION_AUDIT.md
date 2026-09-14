@@ -3,7 +3,7 @@
 English | [中文](REPRODUCTION_AUDIT_zh.md)
 
 Source: https://github.com/AI4QC/PRIS, commit `34e6c86c083759dc1ee594ae22238ea9b5ebd8f4`.
-Read-only source inspection; no AGENTS.md found beneath work/PRIS. No upstream analysis/cluster scripts executed by this auditor.
+This audit records input provenance, split definitions, numerical protocols, and limitations identified in the public source. Independent computational results are recorded separately from the source inspection.
 
 ## What can be recomputed honestly
 
@@ -30,7 +30,7 @@ Files: `work/PRIS/dft/E3_crosscheck/tasks/E3-cod-<id>-<variant>/POSCAR.init`; me
 
 ## E3 feature path and report definitions
 
-`src/pris_analyze.py:measure` uses the public maintained scientific functions: guess_oxi/frac_oxi, phys_law.phys_feats, elec_feat.elec_feats, discriminate.criteria, f3_features._feats and composition-only ionicity. The full 440-parent deployment script uses the same core phys_feats/elec_feats/criteria, with direct spglib symmetry at 0.01 Å. E3 itself originally tests DFT vs MatterSim relaxation energies; I found no frozen table reporting PRIS satisfaction/detection specifically on the 30 E3 COD parents. Therefore new E3 PRIS measurements have no exact paper percentage to match.
+`src/pris_analyze.py:measure` uses the public maintained scientific functions: guess_oxi/frac_oxi, phys_law.phys_feats, elec_feat.elec_feats, discriminate.criteria, f3_features._feats and composition-only ionicity. The full 440-parent deployment script uses the same core phys_feats/elec_feats/criteria, with direct spglib symmetry at 0.01 Å. E3 itself originally tests DFT vs MatterSim relaxation energies. No frozen table reporting PRIS satisfaction/detection specifically on the 30 E3 COD parents was identified in the inspected release. Therefore the E3 PRIS measurements have no exact paper percentage for comparison.
 
 For each law set on each cohort, preserve all input rows and report counts P=plausible, I=implausible, U=no verdict, N=P+I+U:
 

@@ -1,0 +1,86 @@
+{
+  "checked_utc": "2026-09-14T15:06:24.883941+00:00",
+  "github": {
+    "releases": 0,
+    "tags": 0,
+    "branches": [
+      "english-only",
+      "main"
+    ],
+    "main_commits": 8,
+    "initial_entries": 8472,
+    "initial_tree_truncated": false,
+    "initial_missing_asset_matches": [],
+    "english_entries": 8499,
+    "english_tree_truncated": false,
+    "english_missing_asset_matches": []
+  },
+  "arxiv": {
+    "download_url": "https://arxiv.org/src/2609.01209v1",
+    "download_bytes": 1725375,
+    "members": 282,
+    "cif_count": 260,
+    "other_data": {
+      "index.csv": {
+        "bytes": 57824,
+        "identical_to_github": false,
+        "identical_after_newline_normalization": true
+      },
+      "SUMMARY.json": {
+        "bytes": 996,
+        "identical_to_github": false,
+        "identical_after_newline_normalization": true
+      }
+    },
+    "missing_asset_matches": [],
+    "raw_byte_differences_count": 260,
+    "cif_differences_after_line_ending_normalization": [],
+    "cif_total_uncompressed_bytes": 329283,
+    "line_ending_note": "Local Windows checkout has CRLF; arXiv has LF. All 260 CIFs, index.csv and SUMMARY.json have identical text after newline normalization."
+  },
+  "external": {
+    "hf_org_datasets": {
+      "url": "https://huggingface.co/api/datasets?author=AI4QC&limit=100",
+      "count": 0
+    },
+    "hf_org_models": {
+      "url": "https://huggingface.co/api/models?author=AI4QC&limit=100",
+      "count": 0
+    },
+    "hf_author_datasets": {
+      "url": "https://huggingface.co/api/datasets?author=zhilong777&limit=100",
+      "count": 0
+    },
+    "zenodo_paper": {
+      "url": "https://zenodo.org/api/records?q=%222609.01209%22&size=10",
+      "count": 0
+    },
+    "zenodo_title": {
+      "url": "https://zenodo.org/api/records?q=%22structure-plausibility%22&size=10",
+      "count": 1,
+      "relevant_pris_records": 0,
+      "excluded_record": "22647104: unrelated syntax/stuttering study by Nathan Maxfield"
+    }
+  },
+  "fig2_transfer": {
+    "required_path": "outputs/20260815_threshold_transfer/transfer.json",
+    "branch_histories": [
+      {
+        "branch": "main",
+        "url": "https://api.github.com/repos/AI4QC/PRIS/commits?path=outputs/20260815_threshold_transfer/transfer.json&sha=main&per_page=100",
+        "commits_touching_exact_path": 0
+      },
+      {
+        "branch": "english-only",
+        "url": "https://api.github.com/repos/AI4QC/PRIS/commits?path=outputs/20260815_threshold_transfer/transfer.json&sha=english-only&per_page=100",
+        "commits_touching_exact_path": 0
+      }
+    ],
+    "arxiv_source_matching_members": [],
+    "tree_matching_paths": {
+      "github_initial_tree.json": [],
+      "github_english_tree.json": []
+    },
+    "result": "No original transfer.json recovered; preserve figure as blocked by missing input, do not reconstruct from approximate aggregate examples."
+  }
+}

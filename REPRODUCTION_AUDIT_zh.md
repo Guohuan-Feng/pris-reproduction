@@ -3,7 +3,7 @@
 [English](REPRODUCTION_AUDIT.md) | 中文
 
 来源：[AI4QC/PRIS](https://github.com/AI4QC/PRIS)，固定提交 `34e6c86c083759dc1ee594ae22238ea9b5ebd8f4`。
-本审计只读检查上游源码；`work/PRIS` 下没有发现 AGENTS.md。审计人员没有执行上游分析或集群脚本。后文单独记录使用独立脚本完成的数值复算。
+本审计记录公开源码中的输入来源、数据分割定义、数值协议及局限。源码检查与独立脚本完成的数值复算结果分别记录。
 
 ## 可以据实复算的内容
 
