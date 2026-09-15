@@ -87,14 +87,16 @@ All 260 candidates were fitted successfully. The maximum absolute difference fro
 
 ![Refitted bulk moduli and screening thresholds](results/eos/eos_reproduction.png)
 
-Retention estimates depended on the property threshold applied to the 260 selected candidates:
+At the fixed PSS cutoff of −0.6368790173149083, retention estimates depended on the property threshold applied to the 260 selected candidates:
 
 | DFT threshold | Candidates above threshold | Retained | Screened out |
 |---|---:|---:|---:|
 | Upstream UMA-to-DFT mapped threshold, 375.81874 GPa | 124 | 123 (99.19355%) | 1 |
 | Original absolute target, 400 GPa | 2 | 1 | 1 |
 
-The approximately 99.2% retention statement corresponds to the mapped threshold. The two candidates with refitted DFT bulk moduli exceeding 400 GPa were `candidate_0017` (Os, priority group, approximately 400.38451 GPa) and `candidate_0980` (Re2IrOs6, screened group, approximately 418.54561 GPa). The latter had the highest modulus in the 260-candidate cohort and belonged to the screened-out group.
+The approximately 99.2% retention statement corresponds to the mapped threshold, calculated as 400 × median(B_DFT/B_UMA) ≈ 375.81874 GPa. The 123 retained candidates above this threshold comprised 104 from the UMA-priority group and 19 from the control group. Section 4.4 distinguishes this selected-cohort DFT result from the full-pool screening counts.
+
+The two candidates with refitted DFT bulk moduli exceeding 400 GPa were `candidate_0017` (Os, priority group, approximately 400.38451 GPa) and `candidate_0980` (Re2IrOs6, screened group, approximately 418.54561 GPa). The latter had the highest modulus in the 260-candidate cohort and belonged to the screened-out group.
 
 The [per-candidate fits](results/eos/per_candidate.csv), [E(V) points](results/eos/energy_volume_points.csv), and [EOS method notes](results/eos/README.md) document the numerical analysis.
 
@@ -152,9 +154,21 @@ Agreement of the independent EOS fits verifies numerical processing from publish
 
 The complete 5,297/3,612 held-out benchmark, the 440-parent deployment benchmark, several gigabytes of feature tables, some structure blobs, and the full set of 1,081 inverse-design candidates were not included in the public release. The available E3 subset and aggregate curves do not replace those inputs. The search involving more than two million candidate evaluations and new VASP calculations were not executed. Missing figure inputs and the historical source-file omission are identified in Section 3.6.
 
-### 4.4 Distinct screening policies
+### 4.4 Interpretation of the 67.3% and 99.2% headline results
 
-The upstream [STATUS.json](https://github.com/AI4QC/PRIS/blob/34e6c86c083759dc1ee594ae22238ea9b5ebd8f4/outputs/20260823_fig45_merged_nature_inverse_f_v1/STATUS.json) reports that Set 4 removes 728/1,081 candidates (67.345%) while retaining 45/140 candidates with UMA bulk-modulus proxy ≥400 GPa. PSS at the selected cutoff removes 61/1,081 candidates (5.643%) and retains 140/140. These are published aggregate counts, not independently recomputed full-pool results. They describe distinct screening policies and cannot be combined into a single reduction-and-retention estimate.
+The [paper's abstract](https://arxiv.org/html/2609.01209v1) presents a queue reduction of up to 67.3% and retention of 99.2% together as outcomes of PRIS and PSS. A summary reporting both percentages therefore faithfully reflects the abstract. A reproduction-level interpretation additionally requires the screening policy, evaluated cohort, and property threshold associated with each percentage.
+
+The pinned [STATUS.json](https://github.com/AI4QC/PRIS/blob/34e6c86c083759dc1ee594ae22238ea9b5ebd8f4/outputs/20260823_fig45_merged_nature_inverse_f_v1/STATUS.json) and [E4 queue-sweep record](https://github.com/AI4QC/PRIS/blob/34e6c86c083759dc1ee594ae22238ea9b5ebd8f4/dft/E4_design/queue_sweep.json) distinguish the following evaluations. The fixed PSS cutoff is c = −0.6368790173149083, with scores below c screened out.
+
+| Screening policy and cohort | Queue reduction | Property criterion defining the retention denominator | Retained / eligible |
+|---|---|---|---:|
+| Set 4; full pool of 1,081 candidates | 728/1,081 (67.345%) | UMA bulk-modulus proxy ≥400 GPa | 45/140 |
+| PSS at cutoff c; full pool of 1,081 candidates | 61/1,081 (5.643%) | UMA bulk-modulus proxy ≥400 GPa | 140/140 |
+| Same PSS cutoff c; selected DFT cohort of 260 candidates | No full-pool reduction estimate inferred from this cohort | DFT bulk modulus ≥400 × median(B_DFT/B_UMA) ≈375.81874 GPa | 123/124 (99.19355%) |
+
+The first two rows reproduce the authors' published aggregate counts; the full candidate pool was not independently rescored. The third row was checked by independently refitting the released E(V) data. Its 123 retained candidates consist of 104 UMA-priority and 19 control candidates. The UMA-priority denominator of 140 and the bias-adjusted DFT-qualified denominator of 124 therefore describe different selections.
+
+Accordingly, 67.3% refers to the Set 4 queue-reduction operating point, whereas 99.2% refers to retention under the fixed PSS cutoff in the selected, bias-adjusted DFT evaluation. The same PSS cutoff has a reported full-pool queue reduction of 5.643%. These distinctions specify the scope of the joint abstract summary: the released records do not establish a single fixed operating point that simultaneously achieves 67.3% overall queue reduction and 99.2% retention of property-qualified candidates for the same evaluated pool. The original absolute DFT target of 400 GPa remains a separate criterion, as reported in Section 3.3.
 
 ### 4.5 Representation-dependent criteria
 
