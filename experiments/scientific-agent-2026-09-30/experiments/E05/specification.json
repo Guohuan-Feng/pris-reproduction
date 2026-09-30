@@ -1,0 +1,26 @@
+{
+  "id": "E05",
+  "name": "coordination_shell_topology_ablation",
+  "hypothesis": "Site-to-site distributions of first-shell coordination and normalized bond-length distortion encode packing topology that global minima and volume omit; if this is the main source of E04's gains, a chemistry-free topology set should retain substantial performance.",
+  "scope": "All periodic crystals with full neighbor edges through 6 A. Hard shells use q=d/(r_cov,i+r_cov,j) thresholds 1.15 and 1.35; smooth coordination uses exp(-(q/1.20)^6). Undercoordination is CN1.35<2 and high coordination is CN1.35>8. These are covalent-radius geometric definitions, not oxidation or ionic coordination.",
+  "falsification": "Falsified if the topology-only descriptors fail to improve both tasks over raw30 or are clearly inferior to E04. Inferiority to E04 supports, but does not prove, that contact chemistry rather than topology alone carries the added development signal.",
+  "revision_of": "none",
+  "code_sha": "347d1d937cc901ee1fb77523d1f3418e79d21e6ac26743e46f9ca786c6e5465e",
+  "started_utc": "2026-09-30T21:11:49.353544+00:00",
+  "descriptor_names": [
+    "cn115_mean",
+    "cn115_std",
+    "cn135_mean",
+    "cn135_std",
+    "smooth_cn_mean",
+    "smooth_cn_std",
+    "site_q_mean",
+    "site_q_std",
+    "site_distortion_mean",
+    "site_distortion_std",
+    "undercoord_fraction",
+    "highcoord_fraction"
+  ],
+  "status": "complete",
+  "finished_utc": "2026-09-30T21:12:02.585768+00:00"
+}

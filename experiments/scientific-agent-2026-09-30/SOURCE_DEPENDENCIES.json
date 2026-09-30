@@ -1,0 +1,14 @@
+{
+  "paths_relative_to_original_workspace": {
+    "outputs/pris_mp_rules_2026-09-30/data/prepare_mp.py": "777ffe3d10650c4f79c14ca161a4cc6b79b4707f7955671c4a60665fffc4a6c3",
+    "outputs/pris_mp_rules_2026-09-30/data/stream_cse.py": "a534fd517bfee9c05558927ff51c84c8dd0963cd7ec8767f50240c4f41e1eced",
+    "outputs/pris_incremental_rules_2026-09-30/allowed_features.json": "cdd88b069b1520213e659abcbd4c5750e3065296ca6cc55af45a2e94f4cc7e50",
+    "outputs/pris_incremental_rules_2026-09-30/data/feature_schema.json": "19852fe2a767559d128c0cff80fb3550d23c0f084cc6e6c1ffb53e92a69a63e2",
+    "outputs/pris_incremental_rules_2026-09-30/data/source_identity_inventory.csv.gz": "b2b13aefd2afebb560a0fd5980c828a1ce98f78c7aa4b4293868822da4889498",
+    "outputs/pris_incremental_rules_2026-09-30/data/split_assignments.csv": "32997fde5d97100e35a256e836ca0fbc4e3627ca7324fc42b9a3d0b347432f21",
+    "outputs/pris_incremental_rules_2026-09-30/data/excluded_prior_ids.csv": "a7f56d06f8dda9d3e4865932f50849137931a1424b21fe0125af47afc1d39983",
+    "outputs/pris_incremental_rules_2026-09-30/data/excluded_chemical_systems.csv": "b51efbefe7a3b7836d61e6dda42c06f75728971d163ba777171b99025b954b4d"
+  },
+  "archive_sha256": "d2caa99bfc8c6a156bf816c32b2f79ad9af687891072ccdc91f3591fb05aecc7",
+  "contains_original_source_archives": false
+}

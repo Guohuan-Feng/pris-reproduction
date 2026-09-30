@@ -1,0 +1,96 @@
+{
+  "arm": "E03",
+  "tasks": {
+    "formation": {
+      "train": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.3221260208300047,
+        "RMSE_eV_atom": 0.5014921929009803
+      },
+      "validation": {
+        "rows": 715,
+        "MAE_eV_atom": 0.31133834553868217,
+        "RMSE_eV_atom": 0.484922013100624
+      },
+      "effective_columns": 40
+    },
+    "hull": {
+      "train": {
+        "rows": 2164,
+        "logloss": 0.5256513573831716,
+        "AUC": 0.7695055362634022,
+        "AP": 0.577403216601875,
+        "threshold": 0.5,
+        "TP": 272,
+        "FP": 171,
+        "TN": 1291,
+        "FN": 430,
+        "precision": 0.6139954853273137,
+        "recall": 0.38746438746438744,
+        "F1": 0.47510917030567684,
+        "balanced_accuracy": 0.6352506615844509
+      },
+      "validation": {
+        "rows": 715,
+        "logloss": 0.5527467196496484,
+        "AUC": 0.7269750566893425,
+        "AP": 0.4863520316004619,
+        "threshold": 0.5,
+        "TP": 76,
+        "FP": 68,
+        "TN": 422,
+        "FN": 149,
+        "precision": 0.5277777777777778,
+        "recall": 0.3377777777777778,
+        "F1": 0.41192411924119243,
+        "balanced_accuracy": 0.5995011337868481
+      },
+      "effective_columns": 40
+    }
+  },
+  "descriptor_columns": [
+    "comp_n_elements",
+    "comp_entropy",
+    "comp_max_fraction",
+    "comp_electronegativity_mean",
+    "comp_electronegativity_std",
+    "comp_electronegativity_min",
+    "comp_electronegativity_max",
+    "comp_electronegativity_range",
+    "comp_atomic_radius_mean",
+    "comp_atomic_radius_std",
+    "comp_radius_cv",
+    "comp_Z_mean",
+    "comp_Z_std",
+    "comp_fraction_Z001",
+    "comp_fraction_Z005",
+    "comp_fraction_Z006",
+    "comp_fraction_Z007",
+    "comp_fraction_Z008",
+    "comp_fraction_Z009",
+    "comp_fraction_Z015",
+    "comp_fraction_Z016",
+    "comp_fraction_Z017",
+    "comp_halogen_fraction",
+    "comp_chalcogen_fraction",
+    "comp_alkali_alkaline_fraction",
+    "comp_transition_fraction",
+    "relaxed_min_distance_A",
+    "relaxed_min_covalent_ratio",
+    "relaxed_volume_per_atom_A3",
+    "relaxed_covalent_sphere_volume_fraction",
+    "site_field_abs_mean",
+    "site_field_abs_std",
+    "site_field_abs_max",
+    "site_ionic_load_mean",
+    "site_ionic_load_std",
+    "en_coord_correlation",
+    "contact_en_assortativity",
+    "contact_radius_mismatch_mean",
+    "contact_radius_mismatch_std",
+    "strain_ionic_coupling"
+  ],
+  "training_rows": 2164,
+  "validation_rows": 715,
+  "missing_values": {}
+}

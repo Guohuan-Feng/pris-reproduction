@@ -1,0 +1,26 @@
+{
+  "id": "E04",
+  "name": "revised_fields_with_openness",
+  "hypothesis": "The E03 site-resolved chemical-field signal is useful only when conditioned on structural regime. Adding robust openness and normalized-contact controls should prevent sparse-cell extrapolation while retaining local chemical-organization information.",
+  "scope": "Revision of E03 for all variable-size periodic cells. It retains eight site/contact chemistry summaries and adds log1p(volume/N), log1p(E6/N), smooth coordination, and weighted mean q. Contact weight remains exp(-(q/1.20)^6); q=d/(r_cov,i+r_cov,j); denominator floors are 0.1 A, 1e-6, or 1e-12 as shown.",
+  "falsification": "Falsified as a revision if it does not lower adaptive formation MAE below E03's 0.311338 eV/atom. Hull support additionally requires logloss below E03's 0.552747; a tradeoff will motivate task-specific selection rather than a universal descriptor claim.",
+  "revision_of": "E03",
+  "code_sha": "5bf33c75071d43d986e50ab1680d79e0d9eaad062aa9e39051f7a6e2a82ad46b",
+  "started_utc": "2026-09-30T21:11:00.716528+00:00",
+  "descriptor_names": [
+    "log_volume_per_atom",
+    "log_edges6_per_atom",
+    "smooth_coord_mean",
+    "contact_q_mean",
+    "site_field_abs_mean",
+    "site_field_abs_std",
+    "site_ionic_load_mean",
+    "site_ionic_load_std",
+    "en_coord_correlation",
+    "contact_en_assortativity",
+    "contact_radius_mismatch_mean",
+    "strain_ionic_coupling"
+  ],
+  "status": "complete",
+  "finished_utc": "2026-09-30T21:11:24.170354+00:00"
+}

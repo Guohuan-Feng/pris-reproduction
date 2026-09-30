@@ -1,0 +1,20 @@
+{
+  "id": "E02",
+  "name": "robust_cell_openness",
+  "hypothesis": "Nonlinear intensive measures of cell openness and lattice shape identify sparse, vacuum-dominated, or highly open structural regimes where linear raw volume-per-atom extrapolates poorly; these regimes should alter formation-energy prediction and may affect hull calibration.",
+  "scope": "All variable-size periodic cells. Parameters are fixed: log1p(volume/N), covalent-sphere packing using 4*pi*r_cov^3/3, neighbor counts at 3.0 and 6.0 A, sparse indicator E/N<1, cube-root spacing normalized by mean covalent radius, and max/min row-vector length plus mean absolute pairwise lattice cosine.",
+  "falsification": "Falsified if adaptive formation MAE does not improve over raw30, especially if the extreme sparse-cell errors remain, and if hull logloss also does not improve. A gain confined to the inspected outliers with worse aggregate validation counts as failure.",
+  "revision_of": "none",
+  "code_sha": "d89b32cef9bc848da5150973c88eb1c463a2f26f3b60676c642a3451f1fe9317",
+  "started_utc": "2026-09-30T21:09:31.264283+00:00",
+  "descriptor_names": [
+    "log_volume_per_atom",
+    "log_inverse_packing",
+    "cell_length_anisotropy",
+    "cell_angle_skew",
+    "normalized_spacing",
+    "log_edges6_per_atom",
+    "log_edges3_per_atom",
+    "sparse_neighbor_indicator"
+  ]
+}

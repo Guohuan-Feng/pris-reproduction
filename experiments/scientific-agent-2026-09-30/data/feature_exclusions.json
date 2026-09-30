@@ -1,0 +1,38 @@
+{
+  "candidate_prefix": 4000,
+  "checked": 4000,
+  "missing_feature_exclusions": [
+    {
+      "material_id": "mp-614456",
+      "reason": "nonfinite_original_30_features",
+      "features": [
+        "comp_electronegativity_mean",
+        "comp_electronegativity_std",
+        "comp_electronegativity_min",
+        "comp_electronegativity_max",
+        "comp_electronegativity_range",
+        "comp_atomic_radius_mean",
+        "comp_atomic_radius_std",
+        "comp_radius_cv"
+      ]
+    }
+  ],
+  "excluded_before_selected_boundary": [
+    {
+      "material_id": "mp-614456",
+      "reason": "nonfinite_original_30_features",
+      "features": [
+        "comp_electronegativity_mean",
+        "comp_electronegativity_std",
+        "comp_electronegativity_min",
+        "comp_electronegativity_max",
+        "comp_electronegativity_range",
+        "comp_atomic_radius_mean",
+        "comp_atomic_radius_std",
+        "comp_radius_cv"
+      ]
+    }
+  ],
+  "sampling_complete_prefix_last_rank": 3601,
+  "unexpected_failures": 0
+}

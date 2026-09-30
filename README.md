@@ -6,6 +6,17 @@ Reproduced on 2026-09-14 from [AI4QC/PRIS](https://github.com/AI4QC/PRIS), commi
 
 Read the full report in [English](REPORT.md) or [Chinese](REPORT_zh.md). This repository contains actual calculations, original public input structures, derived numerical tables, logs, and unchanged upstream analyzer source. It is an independent, partial scientific reproduction of the data-complete portions of the release. It does not rerun the two-million-candidate agent search or VASP, and it does not reproduce the missing full held-out benchmark. It is not the official PRIS repository.
 
+## Tool-using GPT extension — 2026-09-30
+
+A separate [scientific-agent experiment](experiments/scientific-agent-2026-09-30/README.md)
+adds real hypothesis/code/experiment/counterexample/revision tools. GPT authored five
+descriptor programs in 14 tool calls. On 721 fresh MP test structures, the selected
+program reduced formation-energy MAE from 0.3515 to 0.3138 eV/atom (10.7%);
+HGB reached 0.2793, and the hull-classification improvement was inconclusive.
+Read the [English report](experiments/scientific-agent-2026-09-30/REPORT_EN.md)
+or [中文报告](experiments/scientific-agent-2026-09-30/REPORT_ZH.md).
+The original reproduction results below concern a different task and dataset.
+
 ## Results at a glance
 
 | Experiment | Recomputed result | Scope |

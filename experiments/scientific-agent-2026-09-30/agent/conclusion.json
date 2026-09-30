@@ -1,0 +1,23 @@
+{
+  "summary": "Five adaptive-development experiments were completed. Select E04 (revised_fields_with_openness) for both formation and hull among authored descriptor candidates. Relative to raw30, E04 changed validation formation MAE from 0.342530 to 0.301590 eV/atom and hull logloss from 0.565847 to 0.552641. E04 combines 12 explicit descriptors: log1p(volume/N), log1p(E_6A/N), smooth coordination and mean q using w=exp(-(q/1.20)^6), plus site-normalized electronegativity fields/ionic loads, electronegativity-coordination correlation, contact electronegativity assortativity, covalent-radius mismatch, and strain-ionic coupling. E04 revised E03 after counterexamples showed ultra-open cells remained dominant formation failures. The gains are adaptive validation evidence only. The separate nonlinear 30-feature HGB reference remains better on this development split (formation MAE 0.272786; hull logloss 0.543171), so these experiments do not establish improvement over every model using raw30.",
+  "supported_hypotheses": [
+    "On adaptive development, realized periodic local chemistry-environment coupling adds information beyond global composition and minimum-distance summaries: E03 improved formation MAE by 0.031192 eV/atom and hull logloss by 0.013100 versus raw30.",
+    "Conditioning site-resolved chemical fields on robust cell openness and contact geometry improves formation prediction: E04 beat its parent E03 by 0.009748 eV/atom MAE and slightly improved hull logloss by 0.000106.",
+    "Smooth covalent-radius-normalized edge aggregation is viable across variable cell sizes with full periodic neighbor lists; E01 improved both development objectives over raw30."
+  ],
+  "failed_hypotheses": [
+    "Cell openness and lattice shape alone (E02) were weaker than local chemistry-field descriptors: formation MAE 0.324630 and hull logloss 0.561970.",
+    "Hard coordination-shell topology and site bond-length distortion alone (E05) did not retain E04 performance: formation MAE 0.337721 and hull logloss 0.562772. This falsified the idea that topology alone explains E04's gains on development data.",
+    "The descriptors did not surpass the separate HGB raw30 reference on adaptive validation for either task; therefore improvement is model-arm-specific, not universal."
+  ],
+  "limitations": [
+    "Validation was repeatedly inspected and is adaptive development feedback, not an independent result; unseen chemical-system performance is unverified.",
+    "On-hull status depends on energies of competing phases, which a single relaxed structure cannot encode directly; E04's hull improvement is modest and residual high-confidence errors remain.",
+    "Pauling electronegativity and covalent radii are proxies; covalent radii were not treated as ionic radii, and no oxidation states, charge transfer, magnetism, electronic structure, or temperature effects were modeled.",
+    "A few extreme open-cell records strongly influenced revision choices; log scaling reduces extrapolation but may encode dataset or representation artifacts rather than a general physical mechanism.",
+    "Smooth cutoff 1.20, hard q cutoffs 1.15/1.35, and coordination thresholds were fixed hypotheses, not exhaustively optimized; tuning them on the same validation split would increase overfitting risk.",
+    "E04 still has large development errors in unusual chemistries and ultra-open structures, and it remains worse than the nonlinear HGB raw30 reference."
+  ],
+  "recorded_utc": "2026-09-30T21:12:27.845925+00:00",
+  "evidence_scope": "adaptive development only"
+}

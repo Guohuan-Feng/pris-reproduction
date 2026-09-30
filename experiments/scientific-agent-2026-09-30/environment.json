@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "direct_dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pymatgen": "2026.5.4",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.11.2",
+    "mcp": "2.2.0"
+  },
+  "mcp_installation": "Isolated --target work/scientific_agent_mcp_deps; original numerical environment was not modified."
+}

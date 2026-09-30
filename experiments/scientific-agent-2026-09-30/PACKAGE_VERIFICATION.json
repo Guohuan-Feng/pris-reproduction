@@ -1,0 +1,9 @@
+{
+  "archive": "PRIS_tool_using_scientific_agent_2026-09-30.zip",
+  "archive_sha256": "d8ce03c88f672086f970691fb09b55e08a3f2cd15519016fb5463ab773f7b4bb",
+  "archive_bytes": 34388805,
+  "payload_files": 160,
+  "all_payload_hashes_verified": true,
+  "zip_crc_verified": true,
+  "local_markdown_links_checked": 68
+}

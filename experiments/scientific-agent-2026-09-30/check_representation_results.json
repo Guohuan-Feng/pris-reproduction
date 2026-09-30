@@ -1,0 +1,1292 @@
+{
+  "scope": "Post hoc five-TRAIN-structure representation audit; not fed to discovery or selection.",
+  "selection_seed": "representation-audit-20260930-v1",
+  "selection_rule": "First five TRAIN IDs by SHA256(seed + material_id), then ID.",
+  "material_ids": [
+    "mp-29693",
+    "mp-3868",
+    "mp-1215714",
+    "mp-555893",
+    "mp-1209809"
+  ],
+  "atol": 1e-08,
+  "rtol": 1e-08,
+  "neighbor_cutoff_A": 6.0,
+  "neighbor_numerical_tolerance_A": 1e-08,
+  "helper_policy": "Exact structural_record AST from frozen data_prepare.py; module top-level code was not executed.",
+  "helper_function_sha256": "6ddba8b2bdb2a673e11d7fcc05febedc0a64e3ec34f9fdee913c2998edc2d118",
+  "source_hashes": {
+    "data\\split_assignments.csv": "aedb7ddfb72b329a2ea689af4b737f9dd3b8725c2a09aa2e9d9490cc689476c7",
+    "data\\descriptor_development.jsonl.gz": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32",
+    "agent\\recovered\\invocation.json": "c6f76ef42c9ee6210195ee2426f6228b64267463add52afc5ebb3f4e85ec17b9",
+    "evaluation\\selection.json": "523dc2ee3ba503fbf635f3b783ed4e09af95405f7b05a93a117ce0f9ca74bbcc",
+    "data_prepare.py": "8c3fb270b66f20b54a8164e89e6904c975133db8f843248a1fdb63ff5d9061ad",
+    "descriptor_runtime.py": "c55bfb61379096bf97078d3961909a2ec67bc949617c639511e5ff8518fa7eee",
+    "check_representation.py": "e8c7723cf64fb1005e81f5b80bade5e6c57d2a00c89203b5c7d23d32795099f1"
+  },
+  "experiments": [
+    {
+      "id": "E01",
+      "name": "smooth_local_bond_geometry",
+      "code_sha256": "47a0c5988646ecdf848b8c1440a7e0f8962e1d7c69342fb8149c738c493b261f",
+      "descriptor_names": [
+        "smooth_coord_mean",
+        "smooth_coord_std",
+        "smooth_coord_cv",
+        "contact_q_mean",
+        "contact_q_std",
+        "bond_dx_mean",
+        "bond_dx_std",
+        "ionic_contact_index",
+        "heterocontact_fraction",
+        "coord_low_fraction"
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "robust_cell_openness",
+      "code_sha256": "d89b32cef9bc848da5150973c88eb1c463a2f26f3b60676c642a3451f1fe9317",
+      "descriptor_names": [
+        "log_volume_per_atom",
+        "log_inverse_packing",
+        "cell_length_anisotropy",
+        "cell_angle_skew",
+        "normalized_spacing",
+        "log_edges6_per_atom",
+        "log_edges3_per_atom",
+        "sparse_neighbor_indicator"
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "site_resolved_chemical_fields",
+      "code_sha256": "f0531a9de1b77ae0dde4ee05f86004797aaf1f97ffc13227d175bb8b6dfade72",
+      "descriptor_names": [
+        "site_field_abs_mean",
+        "site_field_abs_std",
+        "site_field_abs_max",
+        "site_ionic_load_mean",
+        "site_ionic_load_std",
+        "en_coord_correlation",
+        "contact_en_assortativity",
+        "contact_radius_mismatch_mean",
+        "contact_radius_mismatch_std",
+        "strain_ionic_coupling"
+      ]
+    },
+    {
+      "id": "E04",
+      "name": "revised_fields_with_openness",
+      "code_sha256": "5bf33c75071d43d986e50ab1680d79e0d9eaad062aa9e39051f7a6e2a82ad46b",
+      "descriptor_names": [
+        "log_volume_per_atom",
+        "log_edges6_per_atom",
+        "smooth_coord_mean",
+        "contact_q_mean",
+        "site_field_abs_mean",
+        "site_field_abs_std",
+        "site_ionic_load_mean",
+        "site_ionic_load_std",
+        "en_coord_correlation",
+        "contact_en_assortativity",
+        "contact_radius_mismatch_mean",
+        "strain_ionic_coupling"
+      ]
+    },
+    {
+      "id": "E05",
+      "name": "coordination_shell_topology_ablation",
+      "code_sha256": "347d1d937cc901ee1fb77523d1f3418e79d21e6ac26743e46f9ca786c6e5465e",
+      "descriptor_names": [
+        "cn115_mean",
+        "cn115_std",
+        "cn135_mean",
+        "cn135_std",
+        "smooth_cn_mean",
+        "smooth_cn_std",
+        "site_q_mean",
+        "site_q_std",
+        "site_distortion_mean",
+        "site_distortion_std",
+        "undercoord_fraction",
+        "highcoord_fraction"
+      ]
+    }
+  ],
+  "transformations": [
+    {
+      "material_id": "mp-29693",
+      "transformation": "regenerated_original",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 776.5897291994427,
+      "transformed_volume_A3": 776.5897291994427,
+      "original_neighbor_edges": 592,
+      "transformed_neighbor_edges": 592,
+      "purpose": "Original-input reconstruction control"
+    },
+    {
+      "material_id": "mp-29693",
+      "transformation": "site_permutation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 776.5897291994427,
+      "transformed_volume_A3": 776.5897291994427,
+      "original_neighbor_edges": 592,
+      "transformed_neighbor_edges": 592,
+      "permutation": [
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "material_id": "mp-29693",
+      "transformation": "fractional_origin_translation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 776.5897291994427,
+      "transformed_volume_A3": 776.5897291994427,
+      "original_neighbor_edges": 592,
+      "transformed_neighbor_edges": 592,
+      "fractional_shift": [
+        0.137,
+        0.271,
+        0.419
+      ],
+      "wrap_to_unit_cell": true
+    },
+    {
+      "material_id": "mp-29693",
+      "transformation": "cartesian_rigid_rotation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 776.5897291994427,
+      "transformed_volume_A3": 776.5897291994427,
+      "original_neighbor_edges": 592,
+      "transformed_neighbor_edges": 592,
+      "rotation_matrix": [
+        [
+          0.7738027532001823,
+          -0.4896519051233319,
+          0.4018336856821605
+        ],
+        [
+          0.5592510579848142,
+          0.8260021178462941,
+          -0.07041843122580083
+        ],
+        [
+          -0.297434956389937,
+          0.2792158898102479,
+          0.9130010589231471
+        ]
+      ],
+      "row_vector_map": "cartesian @ rotation.T"
+    },
+    {
+      "material_id": "mp-29693",
+      "transformation": "twofold_supercell",
+      "original_sites": 24,
+      "transformed_sites": 48,
+      "original_volume_A3": 776.5897291994427,
+      "transformed_volume_A3": 1553.1794583988853,
+      "original_neighbor_edges": 592,
+      "transformed_neighbor_edges": 1184,
+      "supercell_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "material_id": "mp-3868",
+      "transformation": "regenerated_original",
+      "original_sites": 40,
+      "transformed_sites": 40,
+      "original_volume_A3": 765.056670216036,
+      "transformed_volume_A3": 765.056670216036,
+      "original_neighbor_edges": 1900,
+      "transformed_neighbor_edges": 1900,
+      "purpose": "Original-input reconstruction control"
+    },
+    {
+      "material_id": "mp-3868",
+      "transformation": "site_permutation",
+      "original_sites": 40,
+      "transformed_sites": 40,
+      "original_volume_A3": 765.056670216036,
+      "transformed_volume_A3": 765.056670216036,
+      "original_neighbor_edges": 1900,
+      "transformed_neighbor_edges": 1900,
+      "permutation": [
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "material_id": "mp-3868",
+      "transformation": "fractional_origin_translation",
+      "original_sites": 40,
+      "transformed_sites": 40,
+      "original_volume_A3": 765.056670216036,
+      "transformed_volume_A3": 765.056670216036,
+      "original_neighbor_edges": 1900,
+      "transformed_neighbor_edges": 1900,
+      "fractional_shift": [
+        0.137,
+        0.271,
+        0.419
+      ],
+      "wrap_to_unit_cell": true
+    },
+    {
+      "material_id": "mp-3868",
+      "transformation": "cartesian_rigid_rotation",
+      "original_sites": 40,
+      "transformed_sites": 40,
+      "original_volume_A3": 765.056670216036,
+      "transformed_volume_A3": 765.0566702160361,
+      "original_neighbor_edges": 1900,
+      "transformed_neighbor_edges": 1900,
+      "rotation_matrix": [
+        [
+          0.7738027532001823,
+          -0.4896519051233319,
+          0.4018336856821605
+        ],
+        [
+          0.5592510579848142,
+          0.8260021178462941,
+          -0.07041843122580083
+        ],
+        [
+          -0.297434956389937,
+          0.2792158898102479,
+          0.9130010589231471
+        ]
+      ],
+      "row_vector_map": "cartesian @ rotation.T"
+    },
+    {
+      "material_id": "mp-3868",
+      "transformation": "twofold_supercell",
+      "original_sites": 40,
+      "transformed_sites": 80,
+      "original_volume_A3": 765.056670216036,
+      "transformed_volume_A3": 1530.113340432072,
+      "original_neighbor_edges": 1900,
+      "transformed_neighbor_edges": 3800,
+      "supercell_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "material_id": "mp-1215714",
+      "transformation": "regenerated_original",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 349.8369848454234,
+      "transformed_volume_A3": 349.8369848454234,
+      "original_neighbor_edges": 1520,
+      "transformed_neighbor_edges": 1520,
+      "purpose": "Original-input reconstruction control"
+    },
+    {
+      "material_id": "mp-1215714",
+      "transformation": "site_permutation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 349.8369848454234,
+      "transformed_volume_A3": 349.8369848454234,
+      "original_neighbor_edges": 1520,
+      "transformed_neighbor_edges": 1520,
+      "permutation": [
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "material_id": "mp-1215714",
+      "transformation": "fractional_origin_translation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 349.8369848454234,
+      "transformed_volume_A3": 349.8369848454234,
+      "original_neighbor_edges": 1520,
+      "transformed_neighbor_edges": 1520,
+      "fractional_shift": [
+        0.137,
+        0.271,
+        0.419
+      ],
+      "wrap_to_unit_cell": true
+    },
+    {
+      "material_id": "mp-1215714",
+      "transformation": "cartesian_rigid_rotation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 349.8369848454234,
+      "transformed_volume_A3": 349.83698484542344,
+      "original_neighbor_edges": 1520,
+      "transformed_neighbor_edges": 1520,
+      "rotation_matrix": [
+        [
+          0.7738027532001823,
+          -0.4896519051233319,
+          0.4018336856821605
+        ],
+        [
+          0.5592510579848142,
+          0.8260021178462941,
+          -0.07041843122580083
+        ],
+        [
+          -0.297434956389937,
+          0.2792158898102479,
+          0.9130010589231471
+        ]
+      ],
+      "row_vector_map": "cartesian @ rotation.T"
+    },
+    {
+      "material_id": "mp-1215714",
+      "transformation": "twofold_supercell",
+      "original_sites": 24,
+      "transformed_sites": 48,
+      "original_volume_A3": 349.8369848454234,
+      "transformed_volume_A3": 699.6739696908468,
+      "original_neighbor_edges": 1520,
+      "transformed_neighbor_edges": 3040,
+      "supercell_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "material_id": "mp-555893",
+      "transformation": "regenerated_original",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 530.8590642816794,
+      "transformed_volume_A3": 530.8590642816794,
+      "original_neighbor_edges": 996,
+      "transformed_neighbor_edges": 996,
+      "purpose": "Original-input reconstruction control"
+    },
+    {
+      "material_id": "mp-555893",
+      "transformation": "site_permutation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 530.8590642816794,
+      "transformed_volume_A3": 530.8590642816794,
+      "original_neighbor_edges": 996,
+      "transformed_neighbor_edges": 996,
+      "permutation": [
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "material_id": "mp-555893",
+      "transformation": "fractional_origin_translation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 530.8590642816794,
+      "transformed_volume_A3": 530.8590642816794,
+      "original_neighbor_edges": 996,
+      "transformed_neighbor_edges": 996,
+      "fractional_shift": [
+        0.137,
+        0.271,
+        0.419
+      ],
+      "wrap_to_unit_cell": true
+    },
+    {
+      "material_id": "mp-555893",
+      "transformation": "cartesian_rigid_rotation",
+      "original_sites": 24,
+      "transformed_sites": 24,
+      "original_volume_A3": 530.8590642816794,
+      "transformed_volume_A3": 530.8590642816794,
+      "original_neighbor_edges": 996,
+      "transformed_neighbor_edges": 996,
+      "rotation_matrix": [
+        [
+          0.7738027532001823,
+          -0.4896519051233319,
+          0.4018336856821605
+        ],
+        [
+          0.5592510579848142,
+          0.8260021178462941,
+          -0.07041843122580083
+        ],
+        [
+          -0.297434956389937,
+          0.2792158898102479,
+          0.9130010589231471
+        ]
+      ],
+      "row_vector_map": "cartesian @ rotation.T"
+    },
+    {
+      "material_id": "mp-555893",
+      "transformation": "twofold_supercell",
+      "original_sites": 24,
+      "transformed_sites": 48,
+      "original_volume_A3": 530.8590642816794,
+      "transformed_volume_A3": 1061.7181285633587,
+      "original_neighbor_edges": 996,
+      "transformed_neighbor_edges": 1992,
+      "supercell_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "material_id": "mp-1209809",
+      "transformation": "regenerated_original",
+      "original_sites": 44,
+      "transformed_sites": 44,
+      "original_volume_A3": 970.2471122847,
+      "transformed_volume_A3": 970.2471122847,
+      "original_neighbor_edges": 1700,
+      "transformed_neighbor_edges": 1700,
+      "purpose": "Original-input reconstruction control"
+    },
+    {
+      "material_id": "mp-1209809",
+      "transformation": "site_permutation",
+      "original_sites": 44,
+      "transformed_sites": 44,
+      "original_volume_A3": 970.2471122847,
+      "transformed_volume_A3": 970.2471122847,
+      "original_neighbor_edges": 1700,
+      "transformed_neighbor_edges": 1700,
+      "permutation": [
+        43,
+        42,
+        41,
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "material_id": "mp-1209809",
+      "transformation": "fractional_origin_translation",
+      "original_sites": 44,
+      "transformed_sites": 44,
+      "original_volume_A3": 970.2471122847,
+      "transformed_volume_A3": 970.2471122847,
+      "original_neighbor_edges": 1700,
+      "transformed_neighbor_edges": 1700,
+      "fractional_shift": [
+        0.137,
+        0.271,
+        0.419
+      ],
+      "wrap_to_unit_cell": true
+    },
+    {
+      "material_id": "mp-1209809",
+      "transformation": "cartesian_rigid_rotation",
+      "original_sites": 44,
+      "transformed_sites": 44,
+      "original_volume_A3": 970.2471122847,
+      "transformed_volume_A3": 970.2471122847,
+      "original_neighbor_edges": 1700,
+      "transformed_neighbor_edges": 1700,
+      "rotation_matrix": [
+        [
+          0.7738027532001823,
+          -0.4896519051233319,
+          0.4018336856821605
+        ],
+        [
+          0.5592510579848142,
+          0.8260021178462941,
+          -0.07041843122580083
+        ],
+        [
+          -0.297434956389937,
+          0.2792158898102479,
+          0.9130010589231471
+        ]
+      ],
+      "row_vector_map": "cartesian @ rotation.T"
+    },
+    {
+      "material_id": "mp-1209809",
+      "transformation": "twofold_supercell",
+      "original_sites": 44,
+      "transformed_sites": 88,
+      "original_volume_A3": 970.2471122847,
+      "transformed_volume_A3": 1940.4942245694,
+      "original_neighbor_edges": 1700,
+      "transformed_neighbor_edges": 3400,
+      "supercell_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "completed_experiments": 5,
+    "descriptor_columns": 52,
+    "comparisons": 1300,
+    "finite_comparisons": 1300,
+    "failed_comparisons": 4,
+    "execution_errors": 0
+  },
+  "per_descriptor": [
+    {
+      "experiment": "E01",
+      "descriptor": "smooth_coord_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-14
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "smooth_coord_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.3322676295501878e-15
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "smooth_coord_cv",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "contact_q_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "contact_q_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 8.178180355145059e-14
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "bond_dx_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 8.659739592076221e-15
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "bond_dx_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 6.217248937900877e-15
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "ionic_contact_index",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 6.661338147750939e-15
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "heterocontact_fraction",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 5.551115123125783e-15
+    },
+    {
+      "experiment": "E01",
+      "descriptor": "coord_low_fraction",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "log_volume_per_atom",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "log_inverse_packing",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.475586568020162e-16
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "cell_length_anisotropy",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 4,
+      "failed_transformations": [
+        "twofold_supercell"
+      ],
+      "largest_absolute_difference": 2.004048962125395
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "cell_angle_skew",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 9.8879238130678e-17
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "normalized_spacing",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "log_edges6_per_atom",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "log_edges3_per_atom",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E02",
+      "descriptor": "sparse_neighbor_indicator",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "site_field_abs_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.6653345369377348e-16
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "site_field_abs_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "site_field_abs_max",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "site_ionic_load_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "site_ionic_load_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "en_coord_correlation",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 5.551115123125783e-16
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "contact_en_assortativity",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 3.6914915568786455e-15
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "contact_radius_mismatch_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.7486012637846216e-15
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "contact_radius_mismatch_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.582067810090848e-15
+    },
+    {
+      "experiment": "E03",
+      "descriptor": "strain_ionic_coupling",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 8.187894806610529e-16
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "log_volume_per_atom",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "log_edges6_per_atom",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "smooth_coord_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-14
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "contact_q_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "site_field_abs_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.6653345369377348e-16
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "site_field_abs_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "site_ionic_load_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "site_ionic_load_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "en_coord_correlation",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 5.551115123125783e-16
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "contact_en_assortativity",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 3.6914915568786455e-15
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "contact_radius_mismatch_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "experiment": "E04",
+      "descriptor": "strain_ionic_coupling",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 8.187894806610529e-16
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "cn115_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "cn115_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "cn135_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "cn135_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "smooth_cn_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.7763568394002505e-15
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "smooth_cn_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.3322676295501878e-15
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "site_q_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "site_q_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.1449174941446927e-16
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "site_distortion_mean",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 1.7208456881689926e-15
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "site_distortion_std",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 4.517219931443606e-15
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "undercoord_fraction",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    },
+    {
+      "experiment": "E05",
+      "descriptor": "highcoord_fraction",
+      "finite_comparisons": 25,
+      "both_missing_comparisons": 0,
+      "failed_comparisons": 0,
+      "failed_transformations": [],
+      "largest_absolute_difference": 0.0
+    }
+  ],
+  "failures": [
+    {
+      "experiment": "E02",
+      "material_id": "mp-29693",
+      "transformation": "twofold_supercell",
+      "descriptor": "cell_length_anisotropy",
+      "original_value": 4.00809792425079,
+      "transformed_value": 2.004048962125395,
+      "finite_pair": true,
+      "both_missing": false,
+      "agrees_at_tolerance": false,
+      "missingness_changed": false,
+      "absolute_difference": 2.004048962125395,
+      "allowed_difference": 5.00809792425079e-08
+    },
+    {
+      "experiment": "E02",
+      "material_id": "mp-3868",
+      "transformation": "twofold_supercell",
+      "descriptor": "cell_length_anisotropy",
+      "original_value": 1.0,
+      "transformed_value": 2.0,
+      "finite_pair": true,
+      "both_missing": false,
+      "agrees_at_tolerance": false,
+      "missingness_changed": false,
+      "absolute_difference": 1.0,
+      "allowed_difference": 2e-08
+    },
+    {
+      "experiment": "E02",
+      "material_id": "mp-555893",
+      "transformation": "twofold_supercell",
+      "descriptor": "cell_length_anisotropy",
+      "original_value": 1.7733080103115795,
+      "transformed_value": 3.546616020623159,
+      "finite_pair": true,
+      "both_missing": false,
+      "agrees_at_tolerance": false,
+      "missingness_changed": false,
+      "absolute_difference": 1.7733080103115795,
+      "allowed_difference": 2.7733080103115796e-08
+    },
+    {
+      "experiment": "E02",
+      "material_id": "mp-1209809",
+      "transformation": "twofold_supercell",
+      "descriptor": "cell_length_anisotropy",
+      "original_value": 1.225576923982943,
+      "transformed_value": 2.0,
+      "finite_pair": true,
+      "both_missing": false,
+      "agrees_at_tolerance": false,
+      "missingness_changed": false,
+      "absolute_difference": 0.774423076017057,
+      "allowed_difference": 2.225576923982943e-08
+    }
+  ],
+  "execution_errors": [],
+  "interpretation": [
+    "Five examples and four transformations do not prove universal invariance.",
+    "The regenerated-original control checks input reconstruction, not a distinct invariance.",
+    "Cell-vector length anisotropy is expected to change when one lattice vector is doubled, despite equivalent infinite crystal geometry.",
+    "Cell angles can pass these tests while remaining sensitive to a general change of lattice basis, which is not tested here.",
+    "Near-zero variance summaries can differ because of cancellation and rounding; inspect magnitudes before attributing a physical change.",
+    "A fixed 6 A neighbor cutoff can produce numerical edge-membership changes at its boundary.",
+    "This audit does not read target values or establish predictive, causal or mechanistic benefit."
+  ]
+}

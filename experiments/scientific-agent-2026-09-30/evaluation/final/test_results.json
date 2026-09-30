@@ -1,0 +1,130 @@
+{
+  "at": "2026-09-30T21:13:55.288104+00:00",
+  "selection": {
+    "formation": {
+      "candidate_id": "E04",
+      "validation_loss": 0.3015899103528464,
+      "n_descriptors": 12
+    },
+    "hull": {
+      "candidate_id": "E04",
+      "validation_loss": 0.5526412138499018,
+      "n_descriptors": 12
+    }
+  },
+  "tasks": {
+    "formation": {
+      "metrics": {
+        "selected": {
+          "rows": 721,
+          "MAE_eV_atom": 0.313819469924682,
+          "RMSE_eV_atom": 0.47360622602900454
+        },
+        "raw": {
+          "rows": 721,
+          "MAE_eV_atom": 0.3514664949762587,
+          "RMSE_eV_atom": 0.5147961021114675
+        },
+        "hgb": {
+          "rows": 721,
+          "MAE_eV_atom": 0.2792760905652284,
+          "RMSE_eV_atom": 0.423955799184295
+        }
+      },
+      "paired_bootstrap": {
+        "raw": {
+          "rows": 721,
+          "systems": 681,
+          "selected_minus_control": -0.03764702505157663,
+          "lower95": -0.051500846266147426,
+          "upper95": -0.025196672595591326,
+          "resamples": 1000,
+          "seed": 20260930,
+          "scope": "Paired system-cluster percentile interval conditional on fitted selected models; excludes search/training uncertainty."
+        },
+        "hgb": {
+          "rows": 721,
+          "systems": 681,
+          "selected_minus_control": 0.03454337935945365,
+          "lower95": 0.01339511600762239,
+          "upper95": 0.05404170712884064,
+          "resamples": 1000,
+          "seed": 20260930,
+          "scope": "Paired system-cluster percentile interval conditional on fitted selected models; excludes search/training uncertainty."
+        }
+      }
+    },
+    "hull": {
+      "metrics": {
+        "selected": {
+          "rows": 721,
+          "logloss": 0.5670583504724018,
+          "AUC": 0.7324643660915229,
+          "AP": 0.529908342045165,
+          "threshold": 0.5,
+          "TP": 92,
+          "FP": 67,
+          "TN": 406,
+          "FN": 156,
+          "precision": 0.5786163522012578,
+          "recall": 0.3709677419354839,
+          "F1": 0.4520884520884521,
+          "balanced_accuracy": 0.6146593466548456
+        },
+        "raw": {
+          "rows": 721,
+          "logloss": 0.5696726230479162,
+          "AUC": 0.7206318625110824,
+          "AP": 0.5215943453385851,
+          "threshold": 0.5,
+          "TP": 84,
+          "FP": 64,
+          "TN": 409,
+          "FN": 164,
+          "precision": 0.5675675675675675,
+          "recall": 0.3387096774193548,
+          "F1": 0.42424242424242425,
+          "balanced_accuracy": 0.6017015617540749
+        },
+        "hgb": {
+          "rows": 721,
+          "logloss": 0.5430849219753081,
+          "AUC": 0.7626679397122007,
+          "AP": 0.5997891851318371,
+          "threshold": 0.5,
+          "TP": 104,
+          "FP": 68,
+          "TN": 405,
+          "FN": 144,
+          "precision": 0.6046511627906976,
+          "recall": 0.41935483870967744,
+          "F1": 0.49523809523809526,
+          "balanced_accuracy": 0.637795812589511
+        }
+      },
+      "paired_bootstrap": {
+        "raw": {
+          "rows": 721,
+          "systems": 681,
+          "selected_minus_control": -0.002614272575514392,
+          "lower95": -0.018057194484167486,
+          "upper95": 0.015068104010819738,
+          "resamples": 1000,
+          "seed": 20260930,
+          "scope": "Paired system-cluster percentile interval conditional on fitted selected models; excludes search/training uncertainty."
+        },
+        "hgb": {
+          "rows": 721,
+          "systems": 681,
+          "selected_minus_control": 0.023973428497093736,
+          "lower95": -0.003141606597980514,
+          "upper95": 0.05032031505558338,
+          "resamples": 1000,
+          "seed": 20260930,
+          "scope": "Paired system-cluster percentile interval conditional on fitted selected models; excludes search/training uncertainty."
+        }
+      }
+    }
+  },
+  "claim_limit": "Single fresh system-heldout test after adaptive validation; intervals conditional on frozen models. No matched broad descriptor-search control, so no isolated GPT-specific attribution."
+}

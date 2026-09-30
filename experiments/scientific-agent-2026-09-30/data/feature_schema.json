@@ -1,0 +1,198 @@
+{
+  "features": [
+    "comp_n_elements",
+    "comp_entropy",
+    "comp_max_fraction",
+    "comp_electronegativity_mean",
+    "comp_electronegativity_std",
+    "comp_electronegativity_min",
+    "comp_electronegativity_max",
+    "comp_electronegativity_range",
+    "comp_atomic_radius_mean",
+    "comp_atomic_radius_std",
+    "comp_radius_cv",
+    "comp_Z_mean",
+    "comp_Z_std",
+    "comp_fraction_Z001",
+    "comp_fraction_Z005",
+    "comp_fraction_Z006",
+    "comp_fraction_Z007",
+    "comp_fraction_Z008",
+    "comp_fraction_Z009",
+    "comp_fraction_Z015",
+    "comp_fraction_Z016",
+    "comp_fraction_Z017",
+    "comp_halogen_fraction",
+    "comp_chalcogen_fraction",
+    "comp_alkali_alkaline_fraction",
+    "comp_transition_fraction",
+    "relaxed_min_distance_A",
+    "relaxed_min_covalent_ratio",
+    "relaxed_volume_per_atom_A3",
+    "relaxed_covalent_sphere_volume_fraction"
+  ],
+  "feature_count": 30,
+  "definitions": {
+    "comp_n_elements": {
+      "unit": "count",
+      "definition": "Number of distinct elements, independent of cell replication.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_entropy": {
+      "unit": "nats",
+      "definition": "Composition mixing entropy -sum(x*ln x), no thermodynamic temperature factor.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_max_fraction": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Largest elemental atomic fraction.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_electronegativity_mean": {
+      "unit": "dimensionless Pauling",
+      "definition": "mean of tabulated elemental electronegativity; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_electronegativity_std": {
+      "unit": "dimensionless Pauling",
+      "definition": "std of tabulated elemental electronegativity; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_electronegativity_min": {
+      "unit": "dimensionless Pauling",
+      "definition": "min of tabulated elemental electronegativity; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_electronegativity_max": {
+      "unit": "dimensionless Pauling",
+      "definition": "max of tabulated elemental electronegativity; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_electronegativity_range": {
+      "unit": "dimensionless Pauling",
+      "definition": "comp_electronegativity_max minus comp_electronegativity_min; tabulated missing values omitted as in original statistics.",
+      "source": "composition"
+    },
+    "comp_atomic_radius_mean": {
+      "unit": "angstrom",
+      "definition": "mean of tabulated elemental atomic_radius; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_atomic_radius_std": {
+      "unit": "angstrom",
+      "definition": "std of tabulated elemental atomic_radius; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_radius_cv": {
+      "unit": "dimensionless",
+      "definition": "comp_atomic_radius_std / comp_atomic_radius_mean; NaN for missing or nonpositive denominator.",
+      "source": "composition"
+    },
+    "comp_Z_mean": {
+      "unit": "dimensionless atomic number",
+      "definition": "mean of tabulated elemental Z; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_Z_std": {
+      "unit": "dimensionless atomic number",
+      "definition": "std of tabulated elemental Z; mean/std use atomic fractions; std is population standard deviation. Missing elemental values are omitted and remaining weights renormalized; if none are known the output is missing.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z001": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 1; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z005": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 5; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z006": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 6; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z007": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 7; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z008": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 8; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z009": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 9; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z015": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 15; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z016": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 16; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_fraction_Z017": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Atomic fraction of atomic number 17; absent elements are zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_halogen_fraction": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Sum of elemental atomic fractions with exact atomic numbers [9, 17, 35, 53, 85]. All other elements contribute zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_chalcogen_fraction": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Sum of elemental atomic fractions with exact atomic numbers [8, 16, 34, 52, 84]. All other elements contribute zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_alkali_alkaline_fraction": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Sum of elemental atomic fractions with exact atomic numbers [3, 4, 11, 12, 19, 20, 37, 38, 55, 56, 87, 88]. All other elements contribute zero.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "comp_transition_fraction": {
+      "unit": "dimensionless atomic fraction",
+      "definition": "Sum of elemental atomic fractions with exact atomic numbers [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 72, 73, 74, 75, 76, 77, 78, 79, 80]. All other elements contribute zero. Fixed operational subset; excludes lanthanides and does not include Z>94.",
+      "source": "composition of supplied relaxed structure"
+    },
+    "relaxed_min_distance_A": {
+      "unit": "angstrom",
+      "definition": "Minimum periodic inter-site distance including nonzero self-images, excluding the same site at zero image.",
+      "source": "DFT-relaxed structure"
+    },
+    "relaxed_min_covalent_ratio": {
+      "unit": "dimensionless",
+      "definition": "Minimum periodic d_ij/(r_cov_i+r_cov_j), using pymatgen CovalentRadius table; radius-based proxy, not a bond-validity verdict.",
+      "source": "DFT-relaxed structure"
+    },
+    "relaxed_volume_per_atom_A3": {
+      "unit": "angstrom^3/atom",
+      "definition": "DFT-relaxed cell volume divided by number of sites in an ordered structure.",
+      "source": "DFT-relaxed structure"
+    },
+    "relaxed_covalent_sphere_volume_fraction": {
+      "unit": "dimensionless",
+      "definition": "Sum of tabulated elemental covalent sphere volumes divided by cell volume. Spheres can overlap; not literal nonoverlapping packing fraction.",
+      "source": "DFT-relaxed structure"
+    }
+  },
+  "id": "material_id",
+  "group": "chemical_system",
+  "split_column": "split",
+  "targets": {
+    "formation_energy_per_atom": "eV/atom; released MP GGA/GGA+U, MP2020 convention",
+    "energy_above_hull": "native own-hull eV/atom; on-hull label is <=1e-8"
+  },
+  "feature_file": "features.csv.gz",
+  "development_targets": "development.csv.gz",
+  "sealed_test_targets": "sealed_test.csv.gz",
+  "missing_policy": "Exclude nonfinite original30 descriptors before splitting; never target-filter or replace after splitting."
+}

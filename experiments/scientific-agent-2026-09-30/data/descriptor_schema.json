@@ -1,0 +1,28 @@
+{
+  "record_id": "material_id",
+  "development_file": "descriptor_development.jsonl.gz",
+  "test_file": "descriptor_test.jsonl.gz",
+  "test_policy": "Must not be read by development server; available only after frozen selection. No energies or targets in either descriptor file.",
+  "cell": "Original supplied DFT-relaxed ordered cell; no standardization or idealization.",
+  "indexing": "Zero-based site indices. All site lists follow the same original site order.",
+  "fields": {
+    "material_id": "Exact MP identity, string",
+    "n_sites": "Number of ordered sites, integer",
+    "volume": "Cell volume, angstrom^3",
+    "symbols": "Element symbols, length N",
+    "atomic_numbers": "Integer atomic numbers, length N",
+    "frac_coords": "N x3 fractional coordinates; Cartesian = fractional @ lattice",
+    "lattice": "3x3 row lattice vectors, angstrom",
+    "distance_matrix": "N xN nearest periodic pair distance in angstrom. Offdiag=min over lattice translations. Diag=shortest NONZERO lattice translation, not zero self distance. Does not encode image multiplicities and cannot alone define coordination.",
+    "electronegativities": "Pauling electronegativities from Pymatgen Element.X, length N; null if unknown. Aggregate original features renormalize available element values.",
+    "covalent_radii": "Pymatgen CovalentRadius.radius element table, angstrom, same table as original geometric features; not atomic_radius field.",
+    "neighbor_center": "Central site i for every directed periodic neighbor edge within6angstrom",
+    "neighbor_index": "Neighbor site j within original cell for each edge",
+    "neighbor_image": "Integer3-vector image of neighbor j: displacement=(frac[j]+image-frac[i])@lattice",
+    "neighbor_distance": "Distance in angstrom, same-length list as other neighbor fields; all images within6angstrom including nonzero self-images; zero-image same-site edge excluded."
+  },
+  "neighbor_cutoff_A": 6.0,
+  "neighbor_numerical_tolerance_A": 1e-08,
+  "neighbor_limitation": "Complete finite-cutoff list, not unlimited-range electrostatics or arbitrary larger-cutoff coordination. Directed edge pairs and image multiplicities are retained.",
+  "source_has_targets": false
+}

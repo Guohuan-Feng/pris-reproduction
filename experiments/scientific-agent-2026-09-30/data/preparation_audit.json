@@ -1,0 +1,51 @@
+{
+  "rows": 3600,
+  "feature_count": 30,
+  "finite_feature_rows": 3600,
+  "chemical_systems": 3401,
+  "split_counts": {
+    "train": {
+      "rows": 2164,
+      "chemical_systems": 2040
+    },
+    "validation": {
+      "rows": 715,
+      "chemical_systems": 680
+    },
+    "test": {
+      "rows": 721,
+      "chemical_systems": 681
+    }
+  },
+  "overlap": {
+    "train__validation": {
+      "material_id": 0,
+      "chemical_system": 0,
+      "composition_signature": 0
+    },
+    "train__test": {
+      "material_id": 0,
+      "chemical_system": 0,
+      "composition_signature": 0
+    },
+    "validation__test": {
+      "material_id": 0,
+      "chemical_system": 0,
+      "composition_signature": 0
+    }
+  },
+  "prior_id_overlap": 0,
+  "prior_chemical_system_overlap": 0,
+  "descriptor_counts": {
+    "development": 2879,
+    "test": 721
+  },
+  "periodic_neighbor_edges": 3786268,
+  "structure_composition_checks": 3600,
+  "source_energy_compatibility_checks": 3600,
+  "source_formula_missing": 0,
+  "max_abs_source_energy_difference_eV_atom": 5.000089231543825e-11,
+  "max_abs_source_formation_difference_eV_atom": 5.00013364046481e-11,
+  "target_summaries": "None computed, printed or exported. Test file not reopened after writing.",
+  "elapsed_seconds": 60.15396269992925
+}

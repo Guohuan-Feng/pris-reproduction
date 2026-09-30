@@ -1,0 +1,22 @@
+{
+  "id": "E01",
+  "name": "smooth_local_bond_geometry",
+  "hypothesis": "Formation energy and on-hull probability depend on realized periodic local bonding: smoothly counted contacts near the sum of covalent radii encode coordination, bond-length strain, chemical ordering, and electronegativity contrast that global composition and minimum-distance features omit.",
+  "scope": "DFT-relaxed crystals with valid covalent radii and neighbor edges through 6 A; Pauling-electronegativity terms use only edges whose endpoint values are finite. Contact weight is exp(-(q/1.20)^6), q=d/(r_cov,i+r_cov,j). No oxidation states or ionic radii are inferred.",
+  "falsification": "Falsified on adaptive development if adding these ten descriptors fails to lower formation MAE and also fails to lower hull logloss relative to the fixed raw30 HGB baseline; strong train-only improvement with unchanged/worse validation will be treated as overfit.",
+  "revision_of": "none",
+  "code_sha": "47a0c5988646ecdf848b8c1440a7e0f8962e1d7c69342fb8149c738c493b261f",
+  "started_utc": "2026-09-30T21:08:33.973467+00:00",
+  "descriptor_names": [
+    "smooth_coord_mean",
+    "smooth_coord_std",
+    "smooth_coord_cv",
+    "contact_q_mean",
+    "contact_q_std",
+    "bond_dx_mean",
+    "bond_dx_std",
+    "ionic_contact_index",
+    "heterocontact_fraction",
+    "coord_low_fraction"
+  ]
+}

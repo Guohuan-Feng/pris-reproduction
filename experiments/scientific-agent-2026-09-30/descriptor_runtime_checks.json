@@ -1,0 +1,128 @@
+{
+  "scope": "Synthetic runtime checks only; no dataset, labels, MCP server or model calls loaded.",
+  "runtime_sha256": "c55bfb61379096bf97078d3961909a2ec67bc949617c639511e5ff8518fa7eee",
+  "test_sha256": "571e1214ccfee23a5287addc3a644568f597d58d58a1d4357d5bc1e89c03c90c",
+  "passed": 19,
+  "total": 19,
+  "checks": [
+    {
+      "name": "site_permutation",
+      "passed": true,
+      "detail": "Known invariant descriptor agrees within atol=rtol=1e-9.",
+      "seconds": 0.0
+    },
+    {
+      "name": "fractional_translation",
+      "passed": true,
+      "detail": "Known invariant descriptor agrees within atol=rtol=1e-9.",
+      "seconds": 0.0
+    },
+    {
+      "name": "cell_replication",
+      "passed": true,
+      "detail": "Known invariant descriptor agrees within atol=rtol=1e-9.",
+      "seconds": 0.0
+    },
+    {
+      "name": "rigid_rotation",
+      "passed": true,
+      "detail": "Known invariant descriptor agrees within atol=rtol=1e-9.",
+      "seconds": 0.0
+    },
+    {
+      "name": "import",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "file_open",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "numpy_file_function",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "private_reflection",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "indirect_call",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "while_loop",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "nested_function",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "too_many_outputs",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "array_output",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "infinite_output",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "identity_collision",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "numeric_namespace_mutation",
+      "passed": true,
+      "detail": "Rejected.",
+      "seconds": 0.0
+    },
+    {
+      "name": "input_target_and_identity_stripping",
+      "passed": true,
+      "detail": "Target, split and material ID are absent from the function argument.",
+      "seconds": 0.0
+    },
+    {
+      "name": "missing_output_serialization",
+      "passed": true,
+      "detail": "NaN becomes JSON null; this check does not test evaluator imputation.",
+      "seconds": 0.0
+    },
+    {
+      "name": "bounded_worker_timeout",
+      "passed": true,
+      "detail": "Synthetic CPU loop terminated by subprocess timeout=2s.",
+      "seconds": 2.0160000000614673
+    }
+  ],
+  "limitations": [
+    "Not a hostile-code security audit or OS sandbox proof.",
+    "Invariance of one known descriptor does not establish invariance of arbitrary generated code.",
+    "Server budgeting, actual tool exposure and evaluator leakage require separate checks."
+  ]
+}

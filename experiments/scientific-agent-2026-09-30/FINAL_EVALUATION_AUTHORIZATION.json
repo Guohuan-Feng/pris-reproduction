@@ -1,0 +1,7 @@
+{
+  "authorized": true,
+  "at": "2026-09-30T21:13:47.001871+00:00",
+  "basis": "Root accepts 560 passing independent development/event checks. Execute once-only frozen test within user-authorized experiment.",
+  "audit_sha256": "1468de962478fafded724b101c15b7c7a78fc6530ea48da78c9f948ccdd554c5",
+  "invocation_sha256": "c6f76ef42c9ee6210195ee2426f6228b64267463add52afc5ebb3f4e85ec17b9"
+}

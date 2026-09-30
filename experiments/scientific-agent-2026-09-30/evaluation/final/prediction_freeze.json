@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-30T21:13:55.237977+00:00",
+  "selection_sha256": "523dc2ee3ba503fbf635f3b783ed4e09af95405f7b05a93a117ce0f9ca74bbcc",
+  "predictions_sha256": "723c5e21a08bb59b823ba6efa7d0431b47e965a92114d0a03364fb460dc8394d",
+  "descriptor_provenance": {
+    "E04": {
+      "code_sha": "5bf33c75071d43d986e50ab1680d79e0d9eaad062aa9e39051f7a6e2a82ad46b",
+      "runtime_sha256": "c55bfb61379096bf97078d3961909a2ec67bc949617c639511e5ff8518fa7eee",
+      "structure_input_sha256": "709bafabea7fb680eb063e148d100fb676c04a94d8acb95c176423f1d438f3b0"
+    }
+  },
+  "test_descriptor_hashes": {
+    "E04_test_descriptors.csv.gz": "bbd1c9cb259820647f77910ff98e1bcb42df8cdbdbba1f11e66efe41613fe1f6"
+  }
+}

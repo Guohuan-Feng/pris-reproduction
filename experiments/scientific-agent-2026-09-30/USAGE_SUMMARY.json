@@ -1,0 +1,38 @@
+{
+  "sessions": [
+    {
+      "infrastructure_recovery": false,
+      "scientific_completed": false,
+      "elapsed_seconds": 21.04700000002049,
+      "input_tokens": 17880,
+      "cached_input_tokens": 8576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 585,
+      "reasoning_output_tokens": 398
+    },
+    {
+      "infrastructure_recovery": true,
+      "scientific_completed": true,
+      "elapsed_seconds": 284.7650000001304,
+      "input_tokens": 364621,
+      "cached_input_tokens": 315264,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 9424,
+      "reasoning_output_tokens": 2288
+    }
+  ],
+  "totals": {
+    "input_tokens": 382501,
+    "cached_input_tokens": 323840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 10009,
+    "reasoning_output_tokens": 2686
+  },
+  "scientific_tool_calls": 14,
+  "descriptor_experiments": 5,
+  "reasoning_tokens_are_subset_of_output": true,
+  "cached_tokens_are_subset_of_input": true,
+  "authentication": "Existing ChatGPT/Codex login; no professor project API key used.",
+  "exclusions": "Parent conversation and internal helper-agent usage are not included. Dollar cost cannot be inferred from these subscription CLI events.",
+  "budget": "6 descriptor attempts,24 processed tools,900 seconds per working run; no monetary cap."
+}

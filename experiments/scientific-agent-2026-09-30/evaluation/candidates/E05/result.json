@@ -1,0 +1,103 @@
+{
+  "arm": "E05",
+  "tasks": {
+    "formation": {
+      "train": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.33136223834851586,
+        "RMSE_eV_atom": 0.5112627585671394
+      },
+      "validation": {
+        "rows": 715,
+        "MAE_eV_atom": 0.33772147833042215,
+        "RMSE_eV_atom": 0.5443121516965164
+      },
+      "effective_columns": 42,
+      "validation_loss_change_vs_raw": -0.004808585550384437
+    },
+    "hull": {
+      "train": {
+        "rows": 2164,
+        "logloss": 0.5249559346944205,
+        "AUC": 0.7688887719667474,
+        "AP": 0.584464819270357,
+        "threshold": 0.5,
+        "TP": 271,
+        "FP": 167,
+        "TN": 1295,
+        "FN": 431,
+        "precision": 0.6187214611872146,
+        "recall": 0.38603988603988604,
+        "F1": 0.47543859649122805,
+        "balanced_accuracy": 0.6359063999282877
+      },
+      "validation": {
+        "rows": 715,
+        "logloss": 0.5627722896116283,
+        "AUC": 0.7108571428571429,
+        "AP": 0.47069186193068646,
+        "threshold": 0.5,
+        "TP": 73,
+        "FP": 77,
+        "TN": 413,
+        "FN": 152,
+        "precision": 0.4866666666666667,
+        "recall": 0.3244444444444444,
+        "F1": 0.3893333333333333,
+        "balanced_accuracy": 0.5836507936507936
+      },
+      "effective_columns": 42,
+      "validation_loss_change_vs_raw": -0.0030744147502860253
+    }
+  },
+  "descriptor_columns": [
+    "comp_n_elements",
+    "comp_entropy",
+    "comp_max_fraction",
+    "comp_electronegativity_mean",
+    "comp_electronegativity_std",
+    "comp_electronegativity_min",
+    "comp_electronegativity_max",
+    "comp_electronegativity_range",
+    "comp_atomic_radius_mean",
+    "comp_atomic_radius_std",
+    "comp_radius_cv",
+    "comp_Z_mean",
+    "comp_Z_std",
+    "comp_fraction_Z001",
+    "comp_fraction_Z005",
+    "comp_fraction_Z006",
+    "comp_fraction_Z007",
+    "comp_fraction_Z008",
+    "comp_fraction_Z009",
+    "comp_fraction_Z015",
+    "comp_fraction_Z016",
+    "comp_fraction_Z017",
+    "comp_halogen_fraction",
+    "comp_chalcogen_fraction",
+    "comp_alkali_alkaline_fraction",
+    "comp_transition_fraction",
+    "relaxed_min_distance_A",
+    "relaxed_min_covalent_ratio",
+    "relaxed_volume_per_atom_A3",
+    "relaxed_covalent_sphere_volume_fraction",
+    "cn115_mean",
+    "cn115_std",
+    "cn135_mean",
+    "cn135_std",
+    "smooth_cn_mean",
+    "smooth_cn_std",
+    "site_q_mean",
+    "site_q_std",
+    "site_distortion_mean",
+    "site_distortion_std",
+    "undercoord_fraction",
+    "highcoord_fraction"
+  ],
+  "training_rows": 2164,
+  "validation_rows": 715,
+  "missing_values": {},
+  "code_sha": "347d1d937cc901ee1fb77523d1f3418e79d21e6ac26743e46f9ca786c6e5465e",
+  "status": "evaluated",
+  "claim_limit": "Adaptive validation feedback; not an independent test or verified physical law."
+}

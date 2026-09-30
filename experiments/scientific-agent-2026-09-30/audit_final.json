@@ -1,0 +1,4794 @@
+{
+  "stage": "final",
+  "at": "2026-09-30T21:14:13.728940+00:00",
+  "passed": true,
+  "complete_agent_session_required": true,
+  "checks": [
+    {
+      "name": "invocation/prompt_hash",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/data_prepare.py",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/descriptor_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/evaluator.py",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/run_agent.py",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/scientific_server.py",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/test_descriptor_runtime.py",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/test_evaluator.py",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "invocation/frozen_source/data\\dataset_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "invocation/single_completed_turn",
+      "passed": true
+    },
+    {
+      "name": "invocation/completed",
+      "passed": true
+    },
+    {
+      "name": "invocation/prompt_disallows_test",
+      "passed": true
+    },
+    {
+      "name": "events/no_foreign_executed_tools",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "events/processed_cap",
+      "passed": true
+    },
+    {
+      "name": "events/serial_processed_numbers",
+      "passed": true
+    },
+    {
+      "name": "events/server_transcript_count",
+      "passed": true,
+      "details": {
+        "completed_mcp_calls": 14,
+        "processed_server_calls": 14,
+        "budget_rejections": 0
+      }
+    },
+    {
+      "name": "events/1/tool",
+      "passed": true
+    },
+    {
+      "name": "events/1/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/1/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/2/tool",
+      "passed": true
+    },
+    {
+      "name": "events/2/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/2/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/3/tool",
+      "passed": true
+    },
+    {
+      "name": "events/3/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/3/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/4/tool",
+      "passed": true
+    },
+    {
+      "name": "events/4/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/4/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/5/tool",
+      "passed": true
+    },
+    {
+      "name": "events/5/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/5/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/6/tool",
+      "passed": true
+    },
+    {
+      "name": "events/6/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/6/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/7/tool",
+      "passed": true
+    },
+    {
+      "name": "events/7/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/7/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/8/tool",
+      "passed": true
+    },
+    {
+      "name": "events/8/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/8/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/9/tool",
+      "passed": true
+    },
+    {
+      "name": "events/9/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/9/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/10/tool",
+      "passed": true
+    },
+    {
+      "name": "events/10/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/10/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/11/tool",
+      "passed": true
+    },
+    {
+      "name": "events/11/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/11/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/12/tool",
+      "passed": true
+    },
+    {
+      "name": "events/12/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/12/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/13/tool",
+      "passed": true
+    },
+    {
+      "name": "events/13/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/13/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/14/tool",
+      "passed": true
+    },
+    {
+      "name": "events/14/arguments",
+      "passed": true
+    },
+    {
+      "name": "events/14/returned_result",
+      "passed": true,
+      "details": {
+        "parsed_explicit_response": true
+      }
+    },
+    {
+      "name": "events/experiment_attempt_cap",
+      "passed": true
+    },
+    {
+      "name": "events/state_call_count",
+      "passed": true
+    },
+    {
+      "name": "events/state_attempt_count",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/assigned_id",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/authored_code",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/code_hash",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/single_descriptor_function",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/no_imports",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/descriptor_budget",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/metadata/name",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/metadata/hypothesis",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/metadata/scope",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/metadata/falsification",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/metadata/revision_of",
+      "passed": true
+    },
+    {
+      "name": "experiment/E01/lineage",
+      "passed": true
+    },
+    {
+      "name": "boundary/counterexamples/3",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/3/ranked_IDs",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/3/formation_energy_per_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/3/energy_above_hull",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/3/formation_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/3/hull_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "boundary/counterexamples/4",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/4/ranked_IDs",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/4/formation_energy_per_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/4/energy_above_hull",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/4/formation_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/4/hull_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "boundary/inspect/5",
+      "passed": true
+    },
+    {
+      "name": "boundary/inspect/6",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/assigned_id",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/authored_code",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/code_hash",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/single_descriptor_function",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/no_imports",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/descriptor_budget",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/metadata/name",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/metadata/hypothesis",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/metadata/scope",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/metadata/falsification",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/metadata/revision_of",
+      "passed": true
+    },
+    {
+      "name": "experiment/E02/lineage",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/assigned_id",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/authored_code",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/code_hash",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/single_descriptor_function",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/no_imports",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/descriptor_budget",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/metadata/name",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/metadata/hypothesis",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/metadata/scope",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/metadata/falsification",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/metadata/revision_of",
+      "passed": true
+    },
+    {
+      "name": "experiment/E03/lineage",
+      "passed": true
+    },
+    {
+      "name": "boundary/counterexamples/9",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/9/ranked_IDs",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/9/formation_energy_per_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/9/energy_above_hull",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/9/formation_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/9/hull_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "boundary/counterexamples/10",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/10/ranked_IDs",
+      "passed": true
+    },
+    {
+      "name": "counterexamples/10/formation_energy_per_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/10/energy_above_hull",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/10/formation_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "counterexamples/10/hull_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "experiment/E04/assigned_id",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/authored_code",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/code_hash",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/single_descriptor_function",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/no_imports",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/descriptor_budget",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/metadata/name",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/metadata/hypothesis",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/metadata/scope",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/metadata/falsification",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/metadata/revision_of",
+      "passed": true
+    },
+    {
+      "name": "experiment/E04/lineage",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/assigned_id",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/authored_code",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/code_hash",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/single_descriptor_function",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/no_imports",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/descriptor_budget",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/metadata/name",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/metadata/hypothesis",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/metadata/scope",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/metadata/falsification",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/metadata/revision_of",
+      "passed": true
+    },
+    {
+      "name": "experiment/E05/lineage",
+      "passed": true
+    },
+    {
+      "name": "recovery/initial_zero_scientific_calls",
+      "passed": true
+    },
+    {
+      "name": "recovery/initial_failed_completion",
+      "passed": true
+    },
+    {
+      "name": "recovery/initial_prompt_preserved",
+      "passed": true
+    },
+    {
+      "name": "recovery/initial_runner_preserved",
+      "passed": true
+    },
+    {
+      "name": "recovery/initial_protocol_preserved",
+      "passed": true
+    },
+    {
+      "name": "numerical/evaluator_hash",
+      "passed": true
+    },
+    {
+      "name": "sources/features.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "sources/development.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "sources/split_assignments.csv",
+      "passed": true
+    },
+    {
+      "name": "sources/sealed_hash_manifest_only",
+      "passed": true
+    },
+    {
+      "name": "boundary/development_IDs",
+      "passed": true
+    },
+    {
+      "name": "boundary/development_roles",
+      "passed": true
+    },
+    {
+      "name": "boundary/prepared_train_IDs",
+      "passed": true
+    },
+    {
+      "name": "boundary/prepared_validation_IDs",
+      "passed": true
+    },
+    {
+      "name": "boundary/disjoint_chemical_system",
+      "passed": true
+    },
+    {
+      "name": "boundary/disjoint_composition_signature",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw30",
+      "passed": true
+    },
+    {
+      "name": "boundary/runtime_input_whitelist_present",
+      "passed": true
+    },
+    {
+      "name": "boundary/runtime_no_ID_or_target_inputs",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/descriptor_IDs",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/descriptor_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/code_provenance",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/formation/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/formation/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/formation/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/formation/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/train/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/train/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/formation/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/validation/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/formation/validation/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/hull/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/hull/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/hull/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/train/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E01/hull/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E01/hull/validation/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/descriptor_IDs",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/descriptor_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/code_provenance",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/formation/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/formation/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/formation/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/formation/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/train/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/train/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/formation/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/validation/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/formation/validation/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/hull/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/hull/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/hull/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/train/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E02/hull/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E02/hull/validation/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/descriptor_IDs",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/descriptor_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/code_provenance",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/formation/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/formation/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/formation/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/formation/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/train/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/train/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/formation/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/validation/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/formation/validation/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/hull/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/hull/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/hull/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 5.551115123125783e-17,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/train/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E03/hull/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E03/hull/validation/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/descriptor_IDs",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/descriptor_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/code_provenance",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/formation/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/formation/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/formation/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/formation/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/train/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/train/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/formation/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/validation/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/formation/validation/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/hull/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/hull/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/hull/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/train/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E04/hull/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E04/hull/validation/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/descriptor_IDs",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/descriptor_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/code_provenance",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/formation/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/formation/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/formation/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/formation/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/train/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/train/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/formation/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/validation/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/formation/validation/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/hull/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/hull/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/hull/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/train/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/E05/hull/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/E05/hull/validation/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/formation/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/formation/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/formation/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/train/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/train/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/formation/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/validation/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/formation/validation/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/hull/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/hull/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/hull/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 1.1102230246251565e-16,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/train/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/hgb/hull/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 5.551115123125783e-17,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/hgb/hull/validation/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/formation/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/formation/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/formation/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/train/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/train/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/formation/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/validation/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/formation/validation/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/training_rows",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/hull/column_names",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/hull/train_only_medians",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train_only_means",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train_only_scales",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train_only_kept_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train_only_missing_indicator_indices",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": null,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/serialized_predictions",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/row_losses",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/hull/train/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/train/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "numerical/raw/hull/validation/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 1.1102230246251565e-16,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 5.551115123125783e-17,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "numerical/raw/hull/validation/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/authorized",
+      "passed": true
+    },
+    {
+      "name": "final/prediction_before_targets",
+      "passed": true
+    },
+    {
+      "name": "final/selection_before_prediction",
+      "passed": true
+    },
+    {
+      "name": "final/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "final/frozen_prediction_hash",
+      "passed": true
+    },
+    {
+      "name": "final/prediction_freeze_hash",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E01/development_descriptors.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E01/result.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E01/specification.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E01/status.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E02/development_descriptors.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E02/result.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E02/specification.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E02/status.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E03/development_descriptors.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E03/result.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E03/specification.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E03/status.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E04/development_descriptors.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E04/result.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E04/specification.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E04/status.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E05/development_descriptors.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E05/result.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E05/specification.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/candidates/E05/status.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/development_summary.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E01/development_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E01/formation_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E01/formation_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E01/hull_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E01/hull_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E01/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E02/development_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E02/formation_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E02/formation_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E02/hull_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E02/hull_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E02/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E03/development_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E03/formation_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E03/formation_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E03/hull_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E03/hull_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E03/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E04/development_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E04/formation_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E04/formation_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E04/hull_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E04/hull_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E04/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E05/development_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E05/formation_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E05/formation_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E05/hull_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E05/hull_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/E05/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/hgb/development_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/hgb/formation_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/hgb/formation_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/hgb/hull_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/hgb/hull_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/hgb/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/raw/development_predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/raw/formation_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/raw/formation_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/raw/hull_estimator.joblib",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/raw/hull_model.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/models/raw/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/PREPARE_STARTED.json",
+      "passed": true
+    },
+    {
+      "name": "final/development_frozen/prepared.json",
+      "passed": true
+    },
+    {
+      "name": "final/test_descriptor_hash/E04_test_descriptors.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "final/formation/validation_selection",
+      "passed": true
+    },
+    {
+      "name": "final/hull/validation_selection",
+      "passed": true
+    },
+    {
+      "name": "final/test_IDs",
+      "passed": true
+    },
+    {
+      "name": "final/test_systems",
+      "passed": true
+    },
+    {
+      "name": "final/frozen_predictions_target_free",
+      "passed": true
+    },
+    {
+      "name": "final/formation/truth",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/E04/frozen_code",
+      "passed": true
+    },
+    {
+      "name": "final/formation/selected/prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/selected/same_saved_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/selected/metrics/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "final/formation/selected/metrics/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/selected/metrics/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/selected/metrics/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/raw/prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/raw/same_saved_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/raw/metrics/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "final/formation/raw/metrics/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/raw/metrics/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/raw/metrics/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/hgb/prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/hgb/same_saved_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/hgb/metrics/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "final/formation/hgb/metrics/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/hgb/metrics/MAE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/hgb/metrics/RMSE_eV_atom",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/formation/raw/paired_bootstrap",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/raw/bootstrap_metadata",
+      "passed": true
+    },
+    {
+      "name": "final/formation/hgb/paired_bootstrap",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/formation/hgb/bootstrap_metadata",
+      "passed": true
+    },
+    {
+      "name": "final/hull/truth",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/E04/frozen_code",
+      "passed": true
+    },
+    {
+      "name": "final/hull/selected/prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/same_saved_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "final/hull/selected/metrics/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 5.551115123125783e-17,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/selected/metrics/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/same_saved_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "final/hull/raw/metrics/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/metrics/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/same_saved_prediction",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/metric_keys",
+      "passed": true
+    },
+    {
+      "name": "final/hull/hgb/metrics/rows",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/logloss",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/AUC",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/AP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/threshold",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/TP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/FP",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/TN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/FN",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/precision",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/recall",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/F1",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 1.1102230246251565e-16,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/metrics/balanced_accuracy",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 2e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/paired_bootstrap",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/raw/bootstrap_metadata",
+      "passed": true
+    },
+    {
+      "name": "final/hull/hgb/paired_bootstrap",
+      "passed": true,
+      "details": {
+        "maximum_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-10
+      }
+    },
+    {
+      "name": "final/hull/hgb/bootstrap_metadata",
+      "passed": true
+    }
+  ],
+  "check_count": 715,
+  "failures": [],
+  "observed_evidence": {
+    "invocation_completed": true,
+    "processed_calls": 14,
+    "experiment_attempts": 5,
+    "budget_rejections": 0,
+    "observed_capabilities": [
+      {
+        "capability_tool": "compare_experiments",
+        "observed_processed_calls": 1,
+        "event_numbers": [
+          13
+        ],
+        "observed": true
+      },
+      {
+        "capability_tool": "counterexamples",
+        "observed_processed_calls": 4,
+        "event_numbers": [
+          3,
+          4,
+          9,
+          10
+        ],
+        "observed": true
+      },
+      {
+        "capability_tool": "describe_data",
+        "observed_processed_calls": 1,
+        "event_numbers": [
+          1
+        ],
+        "observed": true
+      },
+      {
+        "capability_tool": "inspect_records",
+        "observed_processed_calls": 2,
+        "event_numbers": [
+          5,
+          6
+        ],
+        "observed": true
+      },
+      {
+        "capability_tool": "record_conclusion",
+        "observed_processed_calls": 1,
+        "event_numbers": [
+          14
+        ],
+        "observed": true
+      },
+      {
+        "capability_tool": "run_experiment",
+        "observed_processed_calls": 5,
+        "event_numbers": [
+          2,
+          7,
+          8,
+          11,
+          12
+        ],
+        "observed": true
+      }
+    ],
+    "experiment_lineage": [
+      {
+        "experiment_id": "E01",
+        "revision_of": "none",
+        "status": "complete",
+        "code_sha256": "47a0c5988646ecdf848b8c1440a7e0f8962e1d7c69342fb8149c738c493b261f",
+        "prior_observed_counterexample_calls": [],
+        "prior_parent_counterexample_calls": [],
+        "code_changed_from_parent": null,
+        "hypothesis": "Formation energy and on-hull probability depend on realized periodic local bonding: smoothly counted contacts near the sum of covalent radii encode coordination, bond-length strain, chemical ordering, and electronegativity contrast that global composition and minimum-distance features omit."
+      },
+      {
+        "experiment_id": "E02",
+        "revision_of": "none",
+        "status": "complete",
+        "code_sha256": "d89b32cef9bc848da5150973c88eb1c463a2f26f3b60676c642a3451f1fe9317",
+        "prior_observed_counterexample_calls": [
+          {
+            "number": 3,
+            "candidate_id": "E01",
+            "task": "formation",
+            "rows": 6
+          },
+          {
+            "number": 4,
+            "candidate_id": "E01",
+            "task": "hull",
+            "rows": 6
+          }
+        ],
+        "prior_parent_counterexample_calls": [],
+        "code_changed_from_parent": null,
+        "hypothesis": "Nonlinear intensive measures of cell openness and lattice shape identify sparse, vacuum-dominated, or highly open structural regimes where linear raw volume-per-atom extrapolates poorly; these regimes should alter formation-energy prediction and may affect hull calibration."
+      },
+      {
+        "experiment_id": "E03",
+        "revision_of": "none",
+        "status": "complete",
+        "code_sha256": "f0531a9de1b77ae0dde4ee05f86004797aaf1f97ffc13227d175bb8b6dfade72",
+        "prior_observed_counterexample_calls": [
+          {
+            "number": 3,
+            "candidate_id": "E01",
+            "task": "formation",
+            "rows": 6
+          },
+          {
+            "number": 4,
+            "candidate_id": "E01",
+            "task": "hull",
+            "rows": 6
+          }
+        ],
+        "prior_parent_counterexample_calls": [],
+        "code_changed_from_parent": null,
+        "hypothesis": "Stability-related signals depend on how electronegativity and size contrast are distributed among realized local environments, not only their composition-wide or bond-wide averages. Balanced site fields and chemically disassortative contacts may capture network organization, while concentrated ionic load or strain-coupled contrast may mark heterogeneous environments."
+      },
+      {
+        "experiment_id": "E04",
+        "revision_of": "E03",
+        "status": "complete",
+        "code_sha256": "5bf33c75071d43d986e50ab1680d79e0d9eaad062aa9e39051f7a6e2a82ad46b",
+        "prior_observed_counterexample_calls": [
+          {
+            "number": 3,
+            "candidate_id": "E01",
+            "task": "formation",
+            "rows": 6
+          },
+          {
+            "number": 4,
+            "candidate_id": "E01",
+            "task": "hull",
+            "rows": 6
+          },
+          {
+            "number": 9,
+            "candidate_id": "E03",
+            "task": "formation",
+            "rows": 6
+          },
+          {
+            "number": 10,
+            "candidate_id": "E03",
+            "task": "hull",
+            "rows": 6
+          }
+        ],
+        "prior_parent_counterexample_calls": [
+          {
+            "number": 9,
+            "candidate_id": "E03",
+            "task": "formation",
+            "rows": 6
+          },
+          {
+            "number": 10,
+            "candidate_id": "E03",
+            "task": "hull",
+            "rows": 6
+          }
+        ],
+        "code_changed_from_parent": true,
+        "hypothesis": "The E03 site-resolved chemical-field signal is useful only when conditioned on structural regime. Adding robust openness and normalized-contact controls should prevent sparse-cell extrapolation while retaining local chemical-organization information."
+      },
+      {
+        "experiment_id": "E05",
+        "revision_of": "none",
+        "status": "complete",
+        "code_sha256": "347d1d937cc901ee1fb77523d1f3418e79d21e6ac26743e46f9ca786c6e5465e",
+        "prior_observed_counterexample_calls": [
+          {
+            "number": 3,
+            "candidate_id": "E01",
+            "task": "formation",
+            "rows": 6
+          },
+          {
+            "number": 4,
+            "candidate_id": "E01",
+            "task": "hull",
+            "rows": 6
+          },
+          {
+            "number": 9,
+            "candidate_id": "E03",
+            "task": "formation",
+            "rows": 6
+          },
+          {
+            "number": 10,
+            "candidate_id": "E03",
+            "task": "hull",
+            "rows": 6
+          }
+        ],
+        "prior_parent_counterexample_calls": [],
+        "code_changed_from_parent": null,
+        "hypothesis": "Site-to-site distributions of first-shell coordination and normalized bond-length distortion encode packing topology that global minima and volume omit; if this is the main source of E04's gains, a chemistry-free topology set should retain substantial performance."
+      }
+    ],
+    "counterexample_calls": [
+      {
+        "number": 3,
+        "candidate_id": "E01",
+        "task": "formation",
+        "rows": 6
+      },
+      {
+        "number": 4,
+        "candidate_id": "E01",
+        "task": "hull",
+        "rows": 6
+      },
+      {
+        "number": 9,
+        "candidate_id": "E03",
+        "task": "formation",
+        "rows": 6
+      },
+      {
+        "number": 10,
+        "candidate_id": "E03",
+        "task": "hull",
+        "rows": 6
+      }
+    ],
+    "transcript_sha256": "4d4dadb3bf1e0e072c8dc35404e81df0e40f09a6c3fc25a1e7ddda3568a4df09",
+    "server_events_sha256": "59013823638f4dbf3ce578c25d799d66daf02b81f1e9e7d75f7ed2c9c5e24028",
+    "preserved_startup_failure": {
+      "scientific_tool_calls": 0,
+      "completed": false,
+      "usage_events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 17880,
+            "cached_input_tokens": 8576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 585,
+            "reasoning_output_tokens": 398
+          }
+        }
+      ],
+      "transcript_sha256": "47c51147f5e9e5feeff4009f2f14e29862b82d3d2036f5f73a24501ae478349c",
+      "interpretation": "Infrastructure failure before any scientific experiment, preserved separately from the working discovery session."
+    }
+  },
+  "notes": [
+    {
+      "startup_warning_items": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in C:\\Users\\28908\\.codex\\config.toml."
+      ]
+    }
+  ],
+  "scope": "Independent scalar metric/preprocessing/serialized-model replay; observed process evidence is not an OS-level proof against hostile-code access. No evaluator functions imported.",
+  "test_labels_parsed": true
+}

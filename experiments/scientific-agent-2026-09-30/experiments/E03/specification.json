@@ -1,0 +1,24 @@
+{
+  "id": "E03",
+  "name": "site_resolved_chemical_fields",
+  "hypothesis": "Stability-related signals depend on how electronegativity and size contrast are distributed among realized local environments, not only their composition-wide or bond-wide averages. Balanced site fields and chemically disassortative contacts may capture network organization, while concentrated ionic load or strain-coupled contrast may mark heterogeneous environments.",
+  "scope": "Periodic neighbor edges through 6 A, smoothly weighted by exp(-(d/(1.20*(r_cov,i+r_cov,j)))^6). Pauling electronegativity is used only when finite; radius mismatch uses covalent radii. Site fields are normalized by smooth site coordination with denominator floor 1e-6.",
+  "falsification": "Falsified if neither formation MAE nor hull logloss improves over raw30 on adaptive validation. If train loss improves but validation degrades, the site heterogeneity summaries are treated as overfit; if only one task gains, scope is narrowed to that task.",
+  "revision_of": "none",
+  "code_sha": "f0531a9de1b77ae0dde4ee05f86004797aaf1f97ffc13227d175bb8b6dfade72",
+  "started_utc": "2026-09-30T21:10:05.059981+00:00",
+  "descriptor_names": [
+    "site_field_abs_mean",
+    "site_field_abs_std",
+    "site_field_abs_max",
+    "site_ionic_load_mean",
+    "site_ionic_load_std",
+    "en_coord_correlation",
+    "contact_en_assortativity",
+    "contact_radius_mismatch_mean",
+    "contact_radius_mismatch_std",
+    "strain_ionic_coupling"
+  ],
+  "status": "complete",
+  "finished_utc": "2026-09-30T21:10:28.206651+00:00"
+}

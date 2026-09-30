@@ -1,0 +1,154 @@
+{
+  "dataset": "MP scientific-agent pilot",
+  "sampling_seed": "scientific-agent-20260930-v1",
+  "sampling": "SHA256(seed+material_id) rank; select first3600 with complete original30 features; missing-feature eligibility applied uniformly before any split. Candidate prefix inspected4000; every earlier hash rank checked. No target-value filtering.",
+  "ordered_maximum_original_sites": 60,
+  "seed_outer": 2417747138,
+  "seed_inner": 4068787567,
+  "nominal_group_fractions": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "eligible_before_descriptor_check": 45438,
+  "eligible_systems_before_descriptor_check": 28319,
+  "prior_excluded_ids": 23115,
+  "prior_excluded_systems": 17725,
+  "audit": {
+    "rows": 3600,
+    "feature_count": 30,
+    "finite_feature_rows": 3600,
+    "chemical_systems": 3401,
+    "split_counts": {
+      "train": {
+        "rows": 2164,
+        "chemical_systems": 2040
+      },
+      "validation": {
+        "rows": 715,
+        "chemical_systems": 680
+      },
+      "test": {
+        "rows": 721,
+        "chemical_systems": 681
+      }
+    },
+    "overlap": {
+      "train__validation": {
+        "material_id": 0,
+        "chemical_system": 0,
+        "composition_signature": 0
+      },
+      "train__test": {
+        "material_id": 0,
+        "chemical_system": 0,
+        "composition_signature": 0
+      },
+      "validation__test": {
+        "material_id": 0,
+        "chemical_system": 0,
+        "composition_signature": 0
+      }
+    },
+    "prior_id_overlap": 0,
+    "prior_chemical_system_overlap": 0,
+    "descriptor_counts": {
+      "development": 2879,
+      "test": 721
+    },
+    "periodic_neighbor_edges": 3786268,
+    "structure_composition_checks": 3600,
+    "source_energy_compatibility_checks": 3600,
+    "source_formula_missing": 0,
+    "max_abs_source_energy_difference_eV_atom": 5.000089231543825e-11,
+    "max_abs_source_formation_difference_eV_atom": 5.00013364046481e-11,
+    "target_summaries": "None computed, printed or exported. Test file not reopened after writing.",
+    "elapsed_seconds": 60.15396269992925
+  },
+  "source_release": "Matbench Discovery Figshare22715158v38; CC BY4.0",
+  "source_doi": "https://doi.org/10.6084/m9.figshare.22715158.v38",
+  "source_energy_convention": "MP GGA/GGA+U with released MP2020 references; native own-hull energy, not decomposition_enthalpy.",
+  "source_hashes": {
+    "work/mp_rule_pilot/raw/2025-02-01-mp-energies.csv.gz": "f1d083a56cacb02cdcb556830f58216890f84503c6a19e1c53bf92939aaedb8e",
+    "work/mp_rule_pilot/raw/2023-02-07-mp-computed-structure-entries.json.gz": "553d6272f049a8f4ec26e503b89751e2616dd3af53d086545f6ea00f317a361f",
+    "work/mp_rule_pilot/raw/2023-02-07-mp-elemental-reference-entries.json.gz": "9fd6ef848a91c88840a0d1709b5856d0edb4af22095237e59db52f2acd6bbf79",
+    "outputs/pris_incremental_rules_2026-09-30/data/source_identity_inventory.csv.gz": "b2b13aefd2afebb560a0fd5980c828a1ce98f78c7aa4b4293868822da4889498",
+    "outputs/pris_incremental_rules_2026-09-30/data/split_assignments.csv": "32997fde5d97100e35a256e836ca0fbc4e3627ca7324fc42b9a3d0b347432f21",
+    "outputs/pris_incremental_rules_2026-09-30/data/excluded_prior_ids.csv": "a7f56d06f8dda9d3e4865932f50849137931a1424b21fe0125af47afc1d39983",
+    "outputs/pris_incremental_rules_2026-09-30/data/excluded_chemical_systems.csv": "b51efbefe7a3b7836d61e6dda42c06f75728971d163ba777171b99025b954b4d",
+    "outputs/pris_incremental_rules_2026-09-30/allowed_features.json": "cdd88b069b1520213e659abcbd4c5750e3065296ca6cc55af45a2e94f4cc7e50",
+    "outputs/pris_mp_rules_2026-09-30/data/prepare_mp.py": "777ffe3d10650c4f79c14ca161a4cc6b79b4707f7955671c4a60665fffc4a6c3",
+    "outputs/pris_mp_rules_2026-09-30/data/stream_cse.py": "a534fd517bfee9c05558927ff51c84c8dd0963cd7ec8767f50240c4f41e1eced"
+  },
+  "preparation_sha256": "8c3fb270b66f20b54a8164e89e6904c975133db8f843248a1fdb63ff5d9061ad",
+  "files": {
+    "candidate_ids.csv": {
+      "sha256": "7a37e6742248fba6a5f90bffdb787aa119d6e9091dea3d00e1b71f85e306a6b9",
+      "bytes": 413871
+    },
+    "descriptor_development.jsonl.gz": {
+      "sha256": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32",
+      "bytes": 22130455
+    },
+    "descriptor_schema.json": {
+      "sha256": "9ae6d4bea63d3a2918c1188db32fd817991052f77f00fce866d8541c7640db51",
+      "bytes": 2237
+    },
+    "descriptor_test.jsonl.gz": {
+      "sha256": "709bafabea7fb680eb063e148d100fb676c04a94d8acb95c176423f1d438f3b0",
+      "bytes": 5153688
+    },
+    "development.csv.gz": {
+      "sha256": "3edc913e10a50da97e50433af2a4e9f867f3472198e1b061f67143c9fd7bbff1",
+      "bytes": 96398
+    },
+    "excluded_chemical_systems.csv": {
+      "sha256": "92f9cb4b6ea0b0fa97147d780d4cc683f129393e1c17f39950ad79cc102a1ed5",
+      "bytes": 181905
+    },
+    "excluded_prior_ids.csv": {
+      "sha256": "04173bf125d9b3baca90ad024b9f761e2969fb29d1de5f72327698a70827a62c",
+      "bytes": 261923
+    },
+    "feature_exclusions.json": {
+      "sha256": "26f7b1b45eededfa7ede348babfb70bd3be5448e55543e012b117af4203ce2c1",
+      "bytes": 1069
+    },
+    "feature_schema.json": {
+      "sha256": "3cf90de32c1889e46c9472a4ed1a73ba99970ec659d1b1a1dbd00c3079b042e4",
+      "bytes": 10203
+    },
+    "features.csv.gz": {
+      "sha256": "c49a848cacf901aa75a5c2f0dc7b8f045db8a37a0651a8968ee807d932527810",
+      "bytes": 512040
+    },
+    "preparation_audit.json": {
+      "sha256": "5c0505d45c6b99ff34f912c93222820a59691db8d0cc8db47f577367619b3f5e",
+      "bytes": 1332
+    },
+    "sealed_test.csv.gz": {
+      "sha256": "48c9d51724101f30f4d91208161732fc8358db1d7bd81da5bfb59b932a2a9727",
+      "bytes": 24275
+    },
+    "selected_ids.csv": {
+      "sha256": "9cc66967e6cb378794a0ce22c50e3be7e8a6f55ba75305d5c66f158bffb53dda",
+      "bytes": 389312
+    },
+    "split_assignments.csv": {
+      "sha256": "aedb7ddfb72b329a2ea689af4b737f9dd3b8725c2a09aa2e9d9490cc689476c7",
+      "bytes": 340358
+    }
+  },
+  "package_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pymatgen": "2026.5.4",
+    "scikit-learn": "1.9.1"
+  },
+  "limitations": [
+    "Released DFT-relaxed snapshot, not live full MP or pre-DFT prediction.",
+    "Prior chemical-system exclusions cover old MP cohorts and mapped3DSC parents; unmapped COD/WBM physical overlaps and pretrained-model exposure not established.",
+    "Thermodynamic native-hull label does not prove synthesizability.",
+    "Finite6angstrom neighbor range; missing elemental electronegativity may occur as null in raw inputs."
+  ]
+}
