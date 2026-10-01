@@ -6,6 +6,32 @@ Reproduced on 2026-09-14 from [AI4QC/PRIS](https://github.com/AI4QC/PRIS), commi
 
 Read the full report in [English](REPORT.md) or [Chinese](REPORT_zh.md). This repository contains actual calculations, original public input structures, derived numerical tables, logs, and unchanged upstream analyzer source. It is an independent, partial scientific reproduction of the data-complete portions of the release. It does not rerun the two-million-candidate agent search or VASP, and it does not reproduce the missing full held-out benchmark. It is not the official PRIS repository.
 
+## Research progress for advisor review 2026-10-01
+
+Two property-prediction directions are progressing in parallel:
+
+| Direction | Completed work | Current conclusion | Report |
+| --- | --- | --- | --- |
+| Formation energy and hull classification | 14 tool calls; five descriptor programs; 721 fresh MP test structures | Formation-energy MAE 0.3515 to 0.3138 eV/atom; HGB remains stronger at 0.2793; hull-classification gain inconclusive | [English](experiments/scientific-agent-2026-09-30/REPORT_EN.md) / [中文](experiments/scientific-agent-2026-09-30/REPORT_ZH.md) |
+| Superconducting critical temperature | 12 tool calls; five descriptor programs; 5773 3DSC records; numerical and representation audits | Historical MAE 4.392 to 4.364 K; interval crosses zero; high-Tc error worsens; stable improvement not established | [English](experiments/superconductivity-agent-2026-10-01/REPORT.md) / [中文](experiments/superconductivity-agent-2026-10-01/REPORT_zh.md) |
+
+### Current superconductivity workflow
+
+```mermaid
+flowchart TD
+    A["3DSC composition and matched structures<br/>Strict grouped train / validation / historical split"] --> B["GPT proposes and codes structure descriptors"]
+    B --> C["Scientific tools compute features<br/>ExtraTrees fits log1p Tc"]
+    C --> D["Validation scores and counterexamples"]
+    D -->|"Revise: 5 experiments"| B
+    A --> E["Composition, conventional structure<br/>and numerical-search controls"]
+    D --> F["Validation selection and model freeze"]
+    E --> F
+    F --> G["Historical evaluation and numerical replay"]
+    G --> H["Representation audit<br/>Next: correct invariance and test training target"]
+```
+
+The superconductivity historical cohort has been analyzed before and is not a new independent test. The proposed second round has not been executed. See the [full workflow and supporting evidence](experiments/superconductivity-agent-2026-10-01/README.md).
+
 ## Tool-using GPT extension — 2026-09-30
 
 A separate [scientific-agent experiment](experiments/scientific-agent-2026-09-30/README.md)

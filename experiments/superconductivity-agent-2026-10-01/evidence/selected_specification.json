@@ -1,0 +1,26 @@
+{
+  "id": "E04",
+  "name": "smooth_local_environment_revision",
+  "hypothesis": "After failure of thresholded heteropolar topology, smooth periodic bond summaries plus nearest-shell dispersion and constituent-normalized within-site mixing entropy may generalize better than hard chemical partitions.",
+  "scope": "Development proxy structures only; fixed 3.2/3.5 A edges, covalent radii, and locally normalized species occupancies. Mixed constituents remain one geometric site; entropy describes occupancy mixing, not configurational thermodynamics.",
+  "falsification": "Falsified as a revision if weighted validation MAE does not beat E01's 8.62790 K. The mixing refinement is not supported if the aggregate revision also fails to improve E01.",
+  "revision_of": "E03",
+  "code_sha": "f6905bf8499002c3d6d3e251ae01e5e20930a7ea514670d67220f991eded6b5d",
+  "started_utc": "2026-10-01T18:14:03.668189+00:00",
+  "descriptor_names": [
+    "new4_bondcount32",
+    "new4_bondratio_mean",
+    "new4_bondratio_std",
+    "new4_Xgradient",
+    "new4_Zgradient",
+    "new4_direction_anis",
+    "new4_coord_std",
+    "new4_nearest_mean",
+    "new4_nearest_std",
+    "new4_site_mix_entropy_mean",
+    "new4_site_mix_entropy_max",
+    "new4_mix_entropy_coord"
+  ],
+  "status": "complete",
+  "finished_utc": "2026-10-01T18:14:15.742798+00:00"
+}

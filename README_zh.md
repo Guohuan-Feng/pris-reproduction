@@ -6,6 +6,32 @@
 
 完整报告提供[中文版](REPORT_zh.md)和[英文版](REPORT.md)。本仓库保存实际执行的复现代码、公开原始结构、数值结果、图表、日志以及未经修改的作者分析器。**这是对公开输入完整部分的独立、部分复现，并非官方 PRIS 仓库。**没有重跑原始 200 万次候选搜索或 VASP，也没有复现缺少输入的完整留出集。
 
+## 导师汇报进展 2026-10-01
+
+目前两条性质预测方向同步推进：
+
+| 方向 | 已完成工作 | 当前结论 | 汇报 |
+| --- | --- | --- | --- |
+| 形成能与凸包分类 | 14 次工具调用；5 组描述符；721 条全新 MP 测试记录 | 形成能 MAE 从 0.3515 降至 0.3138 eV/atom；HGB 为 0.2793，仍更强；凸包分类改善不明确 | [中文](experiments/scientific-agent-2026-09-30/REPORT_ZH.md) / [English](experiments/scientific-agent-2026-09-30/REPORT_EN.md) |
+| 超导临界温度 | 12 次工具调用；5 组描述符；5773 条 3DSC 记录；数值及表示审计 | 历史 MAE 从 4.392 降至 4.364 K；区间跨零；高 Tc 误差变差；尚未证实稳定改善 | [中文](experiments/superconductivity-agent-2026-10-01/REPORT_zh.md) / [English](experiments/superconductivity-agent-2026-10-01/REPORT.md) |
+
+### 当前超导流程
+
+```mermaid
+flowchart TD
+    A["3DSC 成分与匹配晶体结构<br/>严格分组：训练 / 验证 / 历史测试"] --> B["GPT 提出结构特征并编写代码"]
+    B --> C["科学工具计算特征<br/>ExtraTrees 拟合对数 Tc"]
+    C --> D["验证集评分与错误案例"]
+    D -->|"反馈修订，共 5 次实验"| B
+    A --> E["纯成分、常规结构<br/>及数值搜索对照"]
+    D --> F["验证集选择方案并冻结模型"]
+    E --> F
+    F --> G["历史评估与数值复核"]
+    G --> H["结构表示审计<br/>下一步：修不变性、检验训练目标"]
+```
+
+超导历史测试队列此前已分析过，不能视为全新独立验证。第二轮方案尚未执行。详见[完整流程与证据入口](experiments/superconductivity-agent-2026-10-01/README.md)。
+
 ## 使用科学工具的 GPT 扩展实验 — 2026-09-30
 
 新增独立的[科学代理实验](experiments/scientific-agent-2026-09-30/README.md)：

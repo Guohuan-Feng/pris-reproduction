@@ -1,0 +1,75 @@
+{
+  "algorithm": "SHA256",
+  "copies": [
+    {
+      "source_relative_path": "evaluation/final/test_results.json",
+      "published_relative_path": "evidence/test_results.json",
+      "bytes": 5217,
+      "sha256": "746da021d04bbac71885e4c4beed0dee85de11bceeb95b2e255c08545390df98",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "representation_audit.json",
+      "published_relative_path": "evidence/representation_audit.json",
+      "bytes": 169298,
+      "sha256": "239543d18d25a67e042852b34310d2df0edf63586437273551a0eeed66ff10c3",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "audit_final.json",
+      "published_relative_path": "evidence/audit_final.json",
+      "bytes": 9015,
+      "sha256": "920830bdcadfb9c7e8f4eb2785b39fe1ff35e7ab7caa249f62aa8fe5001730f1",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "audit_development.json",
+      "published_relative_path": "evidence/audit_development.json",
+      "bytes": 8145,
+      "sha256": "bfc9d8e41f7571863cf9e7eb3793d8d56fb033d3d6aa105f31bad7f905fa9cc1",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "data/preparation_audit.json",
+      "published_relative_path": "evidence/preparation_audit.json",
+      "bytes": 1832,
+      "sha256": "236d0b267a84b1c098d119ac8a0418a9c5ddb89a1e56a3c6b3f8fc4f68803f36",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "controls/results.json",
+      "published_relative_path": "evidence/numeric_control_results.json",
+      "bytes": 478,
+      "sha256": "997513c133f39e0f02b58195209cc6972a36d87cfe122d1e9c8890042391e4f6",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "experiments/E04/descriptor.py",
+      "published_relative_path": "evidence/selected_descriptor.py",
+      "bytes": 3793,
+      "sha256": "f6905bf8499002c3d6d3e251ae01e5e20930a7ea514670d67220f991eded6b5d",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "experiments/E04/specification.json",
+      "published_relative_path": "evidence/selected_specification.json",
+      "bytes": 1356,
+      "sha256": "9ad0c4cf2b0934f4183392400be54d476728c20e10ed4b571a94da0ac809dd6a",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "experiments/E04/result.json",
+      "published_relative_path": "evidence/selected_development_result.json",
+      "bytes": 6723,
+      "sha256": "5d679173e1fb7977f391696470f1337887d4dd50a1736801173dab44992de368",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "figures/test_comparison.png",
+      "published_relative_path": "figures/test_comparison.png",
+      "bytes": 77017,
+      "sha256": "0a730218b68c2f421708925c5244758d4d85a617e9382051a4ef536b8d03be51",
+      "byte_identical": true
+    }
+  ]
+}

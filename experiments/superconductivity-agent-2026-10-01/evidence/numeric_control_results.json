@@ -1,0 +1,26 @@
+{
+  "attempts": 5,
+  "results": [
+    {
+      "id": "C01",
+      "validation_MAE_K": 8.809007846247182
+    },
+    {
+      "id": "C02",
+      "validation_MAE_K": 8.856418315472025
+    },
+    {
+      "id": "C03",
+      "validation_MAE_K": 8.767209005211159
+    },
+    {
+      "id": "C04",
+      "validation_MAE_K": 8.578286752116073
+    },
+    {
+      "id": "C05",
+      "validation_MAE_K": 8.773386300316957
+    }
+  ],
+  "matched_attempt_count": true
+}

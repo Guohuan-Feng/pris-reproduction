@@ -1,0 +1,160 @@
+{
+  "completed_utc": "2026-10-01T18:25:34.856333+00:00",
+  "rows": 1140,
+  "strict_components": 350,
+  "selections": {
+    "agent": {
+      "candidate_id": "E04",
+      "validation_MAE_K": 8.59144044633458
+    },
+    "numeric_search": {
+      "candidate_id": "C04",
+      "validation_MAE_K": 8.578286752116073
+    }
+  },
+  "metrics": {
+    "raw": {
+      "rows": 1140,
+      "weight_sum": 1140.0,
+      "MAE_K": 4.392005946731833,
+      "RMSE_K": 8.66334366474638,
+      "MSLE_log1p": 0.8579984761105954,
+      "unweighted_MAE_K": 4.392005946731833,
+      "unweighted_RMSE_K": 8.66334366474638,
+      "unweighted_MSLE_log1p": 0.8579984761105954,
+      "subgroups": {
+        "reported_zero": {
+          "rows": 361,
+          "MAE_K": 1.5061536632777082,
+          "RMSE_K": 2.970868870714153
+        },
+        "positive_tc": {
+          "rows": 779,
+          "MAE_K": 5.72935212686911,
+          "RMSE_K": 10.283204672879409
+        },
+        "high_tc_ge40K": {
+          "rows": 11,
+          "MAE_K": 42.72403599718572,
+          "RMSE_K": 50.662823663885206
+        }
+      }
+    },
+    "structure_reference": {
+      "rows": 1140,
+      "weight_sum": 1140.0,
+      "MAE_K": 4.4146642042513475,
+      "RMSE_K": 9.178467623121124,
+      "MSLE_log1p": 0.8015244125961489,
+      "unweighted_MAE_K": 4.4146642042513475,
+      "unweighted_RMSE_K": 9.178467623121124,
+      "unweighted_MSLE_log1p": 0.8015244125961489,
+      "subgroups": {
+        "reported_zero": {
+          "rows": 361,
+          "MAE_K": 1.3737146192572378,
+          "RMSE_K": 2.24982761625872
+        },
+        "positive_tc": {
+          "rows": 779,
+          "MAE_K": 5.823884743638861,
+          "RMSE_K": 10.997209527172897
+        },
+        "high_tc_ge40K": {
+          "rows": 11,
+          "MAE_K": 46.92277663105727,
+          "RMSE_K": 57.312194885191225
+        }
+      }
+    },
+    "agent": {
+      "rows": 1140,
+      "weight_sum": 1140.0,
+      "MAE_K": 4.364134632263871,
+      "RMSE_K": 9.201964882011284,
+      "MSLE_log1p": 0.7795789019007087,
+      "unweighted_MAE_K": 4.364134632263871,
+      "unweighted_RMSE_K": 9.201964882011284,
+      "unweighted_MSLE_log1p": 0.7795789019007087,
+      "subgroups": {
+        "reported_zero": {
+          "rows": 361,
+          "MAE_K": 1.2874056707100274,
+          "RMSE_K": 2.1293874043830496
+        },
+        "positive_tc": {
+          "rows": 779,
+          "MAE_K": 5.789935858349799,
+          "RMSE_K": 11.03698652949805
+        },
+        "high_tc_ge40K": {
+          "rows": 11,
+          "MAE_K": 49.654523857585126,
+          "RMSE_K": 59.250769844155215
+        }
+      }
+    },
+    "numeric_search": {
+      "rows": 1140,
+      "weight_sum": 1140.0,
+      "MAE_K": 4.337195545981792,
+      "RMSE_K": 8.861836701241018,
+      "MSLE_log1p": 0.7914393494030922,
+      "unweighted_MAE_K": 4.337195545981792,
+      "unweighted_RMSE_K": 8.861836701241018,
+      "unweighted_MSLE_log1p": 0.7914393494030922,
+      "subgroups": {
+        "reported_zero": {
+          "rows": 361,
+          "MAE_K": 1.3063574919062617,
+          "RMSE_K": 2.1998247284214436
+        },
+        "positive_tc": {
+          "rows": 779,
+          "MAE_K": 5.741730253968013,
+          "RMSE_K": 10.615202668340899
+        },
+        "high_tc_ge40K": {
+          "rows": 11,
+          "MAE_K": 43.4141777382434,
+          "RMSE_K": 52.001878960228325
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "agent_minus_raw": {
+      "MAE_difference_K": -0.027871314467962337,
+      "conditional_95_percent_interval_K": [
+        -0.2209645327220008,
+        0.15536323012418984
+      ],
+      "groups": 350,
+      "resamples": 1000,
+      "scope": "Paired strict-component bootstrap conditional on frozen models and historically inspected cohort. Excludes training/search uncertainty; not new independent validation."
+    },
+    "agent_minus_structure_reference": {
+      "MAE_difference_K": -0.05052957198747648,
+      "conditional_95_percent_interval_K": [
+        -0.2640790021617584,
+        0.1194131993726887
+      ],
+      "groups": 350,
+      "resamples": 1000,
+      "scope": "Paired strict-component bootstrap conditional on frozen models and historically inspected cohort. Excludes training/search uncertainty; not new independent validation."
+    },
+    "agent_minus_numeric_search": {
+      "MAE_difference_K": 0.02693908628207903,
+      "conditional_95_percent_interval_K": [
+        -0.14478074737859709,
+        0.23924086693369373
+      ],
+      "groups": 350,
+      "resamples": 1000,
+      "scope": "Paired strict-component bootstrap conditional on frozen models and historically inspected cohort. Excludes training/search uncertainty; not new independent validation."
+    }
+  },
+  "claim_limit": "Retrospective evaluation on previously analyzed public cohort; no new independent confirmation.",
+  "no_refit_on_validation": true,
+  "numeric_control_limit": "Matched candidate-count and descriptor-count caps; numerical descriptor pool differs from agent space, so this is not a fully matched search-space attribution."
+}

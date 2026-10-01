@@ -1,0 +1,211 @@
+{
+  "started_utc": "2026-10-01T18:23:06.545592+00:00",
+  "mode": "development",
+  "checks": [
+    {
+      "name": "dataset_ids_groups_weights_and_source_hashes",
+      "passed": true,
+      "detail": {
+        "rows": 5773,
+        "development_rows": 4633,
+        "strict_components": 1747,
+        "inverse_composition_match_weights_verified": true,
+        "label_file_policy": "Retrospective bytes hashed; contents never parsed in development mode."
+      }
+    },
+    {
+      "name": "independent_development_model_prediction_and_metric_replay",
+      "passed": true,
+      "detail": [
+        {
+          "candidate": "C01",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "C02",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "C03",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "C04",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "C05",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "E01",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "E02",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "E03",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "E04",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "E05",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "raw",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        },
+        {
+          "candidate": "structure_reference",
+          "max_prediction_abs_difference_K": 0.0,
+          "train_and_validation_all_metrics_recomputed": true,
+          "training_preprocessing_reconstructed": true,
+          "all_tree_roots_verified_training_count_weight_sum_and_weighted_log_target": true
+        }
+      ]
+    },
+    {
+      "name": "GPT_tool_events_program_origin_revision_and_budgets",
+      "passed": true,
+      "detail": {
+        "processed_tool_calls": 12,
+        "experiment_attempts": 5,
+        "source_of_code": "Exact GPT CLI mcp_tool_call arguments matched scientific events and stored programs.",
+        "counterexample_followed_by_changed_revision": [
+          {
+            "experiment": "E03",
+            "revision_of": "E01",
+            "feedback_tool_numbers": [
+              5
+            ]
+          }
+        ],
+        "requested_model": "gpt-5.6-sol",
+        "model_identity_limit": "Requested CLI model recorded; this does not independently verify provider backend implementation.",
+        "usage_events": [
+          {
+            "type": "turn.completed",
+            "usage": {
+              "input_tokens": 565447,
+              "cached_input_tokens": 495616,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 11915,
+              "reasoning_output_tokens": 2636
+            }
+          }
+        ],
+        "all_failures_preserved": []
+      }
+    },
+    {
+      "name": "predeclared_numerical_control_budget_and_subsets",
+      "passed": true,
+      "detail": {
+        "plan_frozen_before_scientific_calls": true,
+        "matched_attempts": 5,
+        "matched_descriptor_counts": [
+          {
+            "candidate": "C01",
+            "corresponding_agent_attempt": "E01",
+            "descriptor_count": 12
+          },
+          {
+            "candidate": "C02",
+            "corresponding_agent_attempt": "E02",
+            "descriptor_count": 12
+          },
+          {
+            "candidate": "C03",
+            "corresponding_agent_attempt": "E03",
+            "descriptor_count": 12
+          },
+          {
+            "candidate": "C04",
+            "corresponding_agent_attempt": "E04",
+            "descriptor_count": 12
+          },
+          {
+            "candidate": "C05",
+            "corresponding_agent_attempt": "E05",
+            "descriptor_count": 9
+          }
+        ],
+        "attribution_limit": "Generic numerical pool differs from GPT hypothesis space; matching attempt/scalar budgets alone cannot isolate GPT-specific value."
+      }
+    },
+    {
+      "name": "generated_descriptor_program_replay",
+      "passed": true,
+      "detail": {
+        "replays": [
+          {
+            "candidate": "E01",
+            "all_development_descriptors_replayed": true
+          },
+          {
+            "candidate": "E02",
+            "all_development_descriptors_replayed": true
+          },
+          {
+            "candidate": "E03",
+            "all_development_descriptors_replayed": true
+          },
+          {
+            "candidate": "E04",
+            "all_development_descriptors_replayed": true
+          },
+          {
+            "candidate": "E05",
+            "all_development_descriptors_replayed": true
+          }
+        ],
+        "runtime_independence_limit": "Uses the original bounded descriptor interpreter; independently verifies generated-code reproducibility, not a separately reimplemented physical formula."
+      }
+    }
+  ],
+  "retrospective_labels_parsed": false,
+  "scope": "Previously analyzed historical cohort; diagnostic reuse, not fresh independent confirmation.",
+  "independence": "Independent metric arithmetic, preprocessing reconstruction, selection and bootstrap. Saved estimators are replayed; no model refit or second adaptive search.",
+  "passed": true,
+  "status": "passed",
+  "finished_utc": "2026-10-01T18:24:07.804364+00:00"
+}

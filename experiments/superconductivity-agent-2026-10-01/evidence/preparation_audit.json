@@ -1,0 +1,70 @@
+{
+  "rows": 5773,
+  "raw_features": 109,
+  "structure_features": 28,
+  "unique_material_ids": 5773,
+  "split_counts": {
+    "retrospective_test": {
+      "rows": 1140,
+      "groups": 350,
+      "chemical_systems": 459,
+      "parents": 582
+    },
+    "train": {
+      "rows": 3764,
+      "groups": 1117,
+      "chemical_systems": 1588,
+      "parents": 1712
+    },
+    "validation": {
+      "rows": 869,
+      "groups": 280,
+      "chemical_systems": 385,
+      "parents": 421
+    }
+  },
+  "overlap": {
+    "train__validation": {
+      "material_id": 0,
+      "group": 0,
+      "chemical_system": 0,
+      "parent_id": 0,
+      "canonical_composition": 0
+    },
+    "train__retrospective_test": {
+      "material_id": 0,
+      "group": 0,
+      "chemical_system": 0,
+      "parent_id": 0,
+      "canonical_composition": 0
+    },
+    "validation__retrospective_test": {
+      "material_id": 0,
+      "group": 0,
+      "chemical_system": 0,
+      "parent_id": 0,
+      "canonical_composition": 0
+    }
+  },
+  "descriptor_counts": {
+    "development": 4633,
+    "retrospective_test": 1140
+  },
+  "structural_totals": {
+    "rows": 5773,
+    "neighbor_edges": 3527322,
+    "disordered_sites": 8917,
+    "partial_occupancy_sites": 3072,
+    "missing_X_species": 0,
+    "missing_radius_species": 0
+  },
+  "all_source_CIF_hashes_verified": true,
+  "all_payload_geometry_compared_to_cached_structure_features": true,
+  "max_abs_geometry_difference": 5.684341886080802e-14,
+  "feature_missing_counts": {},
+  "synth_doped_rows": 3437,
+  "disordered_structure_rows": 3435,
+  "source_target_compatibility_checks": 5773,
+  "target_summaries": "None computed or printed. Retrospective target file was written without reopening it.",
+  "elapsed_seconds": 28.881377500016242
+}

@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-01T18:10:32.092672+00:00",
+  "finished_utc": "2026-10-01T18:15:37.346842+00:00",
+  "requested_model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "cli_version": "codex-cli 0.159.2",
+  "elapsed_seconds": 305.25,
+  "completed": true,
+  "experiment_attempts": 5,
+  "scientific_processed_calls": 12,
+  "tool_event_count": 12,
+  "tool_call_cap": 24,
+  "experiment_attempt_cap": 6,
+  "descriptor_cap": 12,
+  "tool_counts": {
+    "describe_data": 1,
+    "counterexamples": 3,
+    "inspect_records": 1,
+    "run_experiment": 5,
+    "compare_experiments": 1,
+    "record_conclusion": 1
+  },
+  "tool_event_source_sha256": "21773a2a686c39f8eee9165e838324e052fd652833bd66e5999a417b9957cdc0",
+  "publication_scope": "Derived activity metadata; full local execution transcript, fitted models and data are outside this progress-report subset."
+}
