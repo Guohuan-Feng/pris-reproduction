@@ -17,6 +17,13 @@ Two property-prediction directions are progressing in parallel:
 
 ### Current superconductivity workflow
 
+![Current superconductivity workflow](experiments/superconductivity-agent-2026-10-01/figures/workflow.png)
+
+[Vector workflow SVG](experiments/superconductivity-agent-2026-10-01/figures/workflow.svg)
+
+<details>
+<summary>Expand detailed workflow</summary>
+
 ```mermaid
 flowchart TD
     A["3DSC composition and matched structures<br/>Strict grouped train / validation / historical split"] --> B["GPT proposes and codes structure descriptors"]
@@ -29,6 +36,8 @@ flowchart TD
     F --> G["Historical evaluation and numerical replay"]
     G --> H["Representation audit<br/>Next: correct invariance and test training target"]
 ```
+
+</details>
 
 The superconductivity historical cohort has been analyzed before and is not a new independent test. The proposed second round has not been executed. See the [full workflow and supporting evidence](experiments/superconductivity-agent-2026-10-01/README.md).
 

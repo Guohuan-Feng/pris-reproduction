@@ -4517,13 +4517,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9367,
-      "sha256": "fa0ae66515192c7e45ac1d595d3c06544f76556ecd669bccebe21f1f77348b62"
+      "bytes": 9634,
+      "sha256": "37af1d24ec65288f1851fe8d37cfa28f39a7874a6740f889877fc977dedcb4a0"
     },
     {
       "path": "README_zh.md",
-      "bytes": 8557,
-      "sha256": "e88828c6ea7b7f6301ee78ef4113b99379670dce51927d91cde9133a4ef044b7"
+      "bytes": 8811,
+      "sha256": "b8c783c207e4f93fb38b461e8f283c1ed577d83c07a08386b438f67bf76dc476"
     },
     {
       "path": "REPORT.md",
@@ -5027,18 +5027,18 @@
     },
     {
       "path": "experiments/superconductivity-agent-2026-10-01/README.md",
-      "bytes": 3710,
-      "sha256": "1327c994307ca531af3676849817c213b03b3f0e4a0cf312845c92cd6a5ef7d3"
+      "bytes": 3892,
+      "sha256": "3ee49979855e826c5dbbb0f5db4386954dd4310a08756b78d1ed58afd7666392"
     },
     {
       "path": "experiments/superconductivity-agent-2026-10-01/REPORT.md",
-      "bytes": 8714,
-      "sha256": "87293751920de97234fad84ce01263fa2fe647f2a9dde21e9d762ad3280622fb"
+      "bytes": 8887,
+      "sha256": "53d3677543941b4009f70d922ac1a4ebba4269b6ea6bfce0deec906b106506d4"
     },
     {
       "path": "experiments/superconductivity-agent-2026-10-01/REPORT_zh.md",
-      "bytes": 7401,
-      "sha256": "1e710c8ad66ff5a7af911898e0dfd762c2909462564c20efa140d2040ec14cee"
+      "bytes": 7561,
+      "sha256": "cadff7999f0724b9ccab49d58cc95973b9f66ab5dd48a7ba8cf0b69e4a320eba"
     },
     {
       "path": "experiments/superconductivity-agent-2026-10-01/evidence/agent_activity_summary.json",
@@ -5099,6 +5099,21 @@
       "path": "experiments/superconductivity-agent-2026-10-01/figures/test_comparison.png",
       "bytes": 77017,
       "sha256": "0a730218b68c2f421708925c5244758d4d85a617e9382051a4ef536b8d03be51"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/figures/draw_workflow.py",
+      "bytes": 4922,
+      "sha256": "7dea28af280e507b07ee706d4e944d8ff8cd3c57e00f33d971deea574389e0ad"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/figures/workflow.png",
+      "bytes": 286145,
+      "sha256": "453043ad4eddd2c980a673ce7962764c22c32f0a924fc05ccc8d765aa20970e0"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/figures/workflow.svg",
+      "bytes": 134618,
+      "sha256": "f26927539ad5bd6ce24be6abeae38d5029f4ba3817bd9378ac65bcb7946b03fa"
     }
   ]
 }

@@ -10,6 +10,13 @@ The first tool-using agent pilot for superconducting critical temperature predic
 
 The diagram below shows the workflow actually executed in the first pilot. GPT proposes and implements structure descriptors; a fixed ExtraTrees regressor produces numerical Tc predictions. The retrospective branch is separated from adaptive candidate selection within this run, but the entire public cohort had been analyzed previously.
 
+![Current superconductivity workflow](figures/workflow.png)
+
+[Vector workflow SVG](figures/workflow.svg)
+
+<details>
+<summary>Expand detailed workflow</summary>
+
 ```mermaid
 flowchart TD
     A["3DSC MP cohort<br/>Composition, matched structure and Tc<br/>5773 records"] --> B["Group linked chemical systems<br/>and MP parent structures"]
@@ -31,6 +38,8 @@ flowchart TD
     H --> R
     R --> Q["Numerical replay and representation audit<br/>Report results and diagnosed failures"]
 ```
+
+</details>
 
 Completed work includes **12 processed tool calls and 5 completed descriptor experiments**, with 3 counterexample inspections and no failed experiment attempts. Revisions progressed from bond chemistry to thresholded heteropolar descriptors, then smoother local summaries and a mixing-descriptor ablation. E04 was selected by validation weighted MAE of 8.5914 K; the numerical control selected C04 at 8.5783 K. These are adaptive development scores.
 

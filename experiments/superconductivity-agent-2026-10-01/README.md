@@ -8,6 +8,13 @@
 
 ## Current workflow
 
+![Current superconductivity workflow](figures/workflow.png)
+
+[Vector workflow SVG](figures/workflow.svg)
+
+<details>
+<summary>Expand detailed workflow</summary>
+
 ```mermaid
 flowchart TD
     A["3DSC: composition, matched structures and Tc<br/>5773 records"] --> B["Strict chemical-system and parent grouping"]
@@ -28,6 +35,8 @@ flowchart TD
     H --> I
     I --> J["Numerical replay and representation audit<br/>Rotation-sensitive descriptor identified"]
 ```
+
+</details>
 
 The historical cohort was excluded from this pilot's adaptive tools but had been analyzed in earlier work. It is **not fresh independent validation**. GPT proposes feature programs; the fixed numerical regressor predicts Tc.
 

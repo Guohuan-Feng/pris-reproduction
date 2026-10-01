@@ -17,6 +17,13 @@
 
 ### 当前超导流程
 
+![当前超导实验流程](experiments/superconductivity-agent-2026-10-01/figures/workflow.png)
+
+[矢量流程图 SVG](experiments/superconductivity-agent-2026-10-01/figures/workflow.svg)
+
+<details>
+<summary>展开详细流程图</summary>
+
 ```mermaid
 flowchart TD
     A["3DSC 成分与匹配晶体结构<br/>严格分组：训练 / 验证 / 历史测试"] --> B["GPT 提出结构特征并编写代码"]
@@ -29,6 +36,8 @@ flowchart TD
     F --> G["历史评估与数值复核"]
     G --> H["结构表示审计<br/>下一步：修不变性、检验训练目标"]
 ```
+
+</details>
 
 超导历史测试队列此前已分析过，不能视为全新独立验证。第二轮方案尚未执行。详见[完整流程与证据入口](experiments/superconductivity-agent-2026-10-01/README.md)。
 
