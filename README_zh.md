@@ -6,13 +6,21 @@
 
 完整报告提供[中文版](REPORT_zh.md)和[英文版](REPORT.md)。本仓库保存实际执行的复现代码、公开原始结构、数值结果、图表、日志以及未经修改的作者分析器。**这是对公开输入完整部分的独立、部分复现，并非官方 PRIS 仓库。**没有重跑原始 200 万次候选搜索或 VASP，也没有复现缺少输入的完整留出集。
 
+## 导师汇报：材料能量与稳定性 — 2026-10-01
+
+**已完成 Agent 的“假设 → 工具计算 → 反例 → 修订 → 再检验”闭环。** 使用已观察的 2,879 条开发数据，对照 39 组同成分材料；两条修订均未通过预设检验，目前尚未建立稳健物理机制。独立数值复核通过，未观察材料或物理验证尚未开展。
+
+查看[中文导师汇报](reports/materials-agent-2026-10-01/README.md)或 [English briefing](reports/materials-agent-2026-10-01/README_EN.md)，包括流程图、已完成工作、失败结果、限制、下一步与完整对照表。本轮没有训练新预测模型或运行新 DFT。
+
+![Agent 工作流程与当前进展](reports/materials-agent-2026-10-01/figures/workflow.png)
+
 ## 导师汇报进展 2026-10-01
 
 目前两条性质预测方向同步推进：
 
 | 方向 | 已完成工作 | 当前结论 | 汇报 |
 | --- | --- | --- | --- |
-| 形成能与凸包分类 | 14 次工具调用；5 组描述符；721 条全新 MP 测试记录 | 形成能 MAE 从 0.3515 降至 0.3138 eV/atom；HGB 为 0.2793，仍更强；凸包分类改善不明确 | [中文](experiments/scientific-agent-2026-09-30/REPORT_ZH.md) / [English](experiments/scientific-agent-2026-09-30/REPORT_EN.md) |
+| 材料形成能与稳定性 | 已有描述符基准；本轮机制探索：39 个组成组、21 对匹配结构、8 例源核查 | 本轮两条修订均未通过检验，尚未建立稳健机制；此前预测结果单独保留 | [本轮中文](reports/materials-agent-2026-10-01/README.md) / [English](reports/materials-agent-2026-10-01/README_EN.md)；[此前基准](experiments/scientific-agent-2026-09-30/REPORT_ZH.md) |
 | 超导临界温度 | 12 次工具调用；5 组描述符；5773 条 3DSC 记录；数值及表示审计 | 历史 MAE 从 4.392 降至 4.364 K；区间跨零；高 Tc 误差变差；尚未证实稳定改善 | [中文](experiments/superconductivity-agent-2026-10-01/REPORT_zh.md) / [English](experiments/superconductivity-agent-2026-10-01/REPORT.md) |
 
 ### 当前超导流程

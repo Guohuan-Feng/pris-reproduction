@@ -1,0 +1,664 @@
+{
+  "date": "2026-10-01",
+  "study": "Observed-development material energy/stability agent investigation",
+  "status": "First exploratory hypothesis-counterexample-revision cycle completed",
+  "investigators": "Current Codex coordinating agent plus three subagents; not a new archived GPT CLI session",
+  "data_scope": {
+    "records": 2879,
+    "train_role": 2164,
+    "adaptive_validation_role": 715,
+    "repeated_composition_groups": 39,
+    "repeated_composition_materials": 80,
+    "all_unordered_pairs": 43,
+    "H02_matched_pairs": 21,
+    "input_sha256": {
+      "features.csv.gz": "d9ed4527de86de901c70772250a0b01872dd56a18719d6b5c9f5d2ebfe5d78f0",
+      "targets.csv.gz": "5314fd23de873eaa08b9a14083aaf53569c8d9bf241a196c3d5954ce6f3edbfa",
+      "structures.jsonl.gz": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32"
+    },
+    "independent_scientific_validation": false
+  },
+  "H01": {
+    "question": "Within identical composition, does the higher formation-energy structure contain more short covalent-radius-normalized contacts?",
+    "registered_at": "2026-10-01T19:11:35.789662+00:00",
+    "result_at": "2026-10-01T19:11:41.636845+00:00",
+    "groups": 39,
+    "matched_members": 80,
+    "direction_criterion_met": false,
+    "primary": {
+      "all_group_count": 39,
+      "non_energy_tie_groups": 39,
+      "energy_tie_groups": 0,
+      "positive": 2,
+      "negative": 1,
+      "zero": 36,
+      "fraction_positive_among_nonzero": 0.6666666666666666,
+      "mean_high_minus_low_equal_group_weight": 0.007724867724867724,
+      "median_high_minus_low_equal_group_weight": 0.0,
+      "spearman_energy_gap_vs_difference": {
+        "rho": 0.18660354707433657,
+        "permutation_p_two_sided": 0.275972402759724,
+        "groups": 39,
+        "resamples": 10000,
+        "seed": 20261001,
+        "scope": "Descriptive randomization of already-observed group differences; no training/test inference."
+      }
+    },
+    "secondary": {
+      "all_group_count": 39,
+      "non_energy_tie_groups": 39,
+      "energy_tie_groups": 0,
+      "positive": 2,
+      "negative": 1,
+      "zero": 36,
+      "fraction_positive_among_nonzero": 0.6666666666666666,
+      "mean_high_minus_low_equal_group_weight": 0.00011471440993086849,
+      "median_high_minus_low_equal_group_weight": 0.0,
+      "spearman_energy_gap_vs_difference": {
+        "rho": 0.18660354707433657,
+        "permutation_p_two_sided": 0.275972402759724,
+        "groups": 39,
+        "resamples": 10000,
+        "seed": 20261001,
+        "scope": "Descriptive randomization of already-observed group differences; no training/test inference."
+      }
+    }
+  },
+  "H01b": {
+    "question": "Within composition, do higher-energy members exhibit systematic relative shortest-contact compression when each element pair is compared with the lowest-energy member, rather than a global q cutoff?",
+    "registered_at": "2026-10-01T19:14:29.033256+00:00",
+    "result_at": "2026-10-01T19:14:31.138484+00:00",
+    "revision_trigger": "Global q<0.8 differences are zero for 36/39 groups; a Mo-O reverse-direction pair and native-on-hull U-O short contacts defeat the universal interpretation.",
+    "direction_criterion_met": false,
+    "primary": {
+      "all_group_count": 39,
+      "non_energy_tie_groups": 39,
+      "energy_tie_groups": 0,
+      "positive": 19,
+      "negative": 20,
+      "zero": 0,
+      "fraction_positive_among_nonzero": 0.48717948717948717,
+      "mean_high_minus_low_equal_group_weight": -0.0015758174071904228,
+      "median_high_minus_low_equal_group_weight": -0.0009707170994464661,
+      "spearman_energy_gap_vs_difference": {
+        "rho": -0.2111336032388664,
+        "permutation_p_two_sided": 0.20187981201879812,
+        "groups": 39,
+        "resamples": 10000,
+        "seed": 20261001,
+        "scope": "Descriptive randomization of already-observed group differences; no training/test inference."
+      }
+    }
+  },
+  "H02": {
+    "matching": "symmetric per-atom volume difference <=5%; absolute qmin difference <=0.03; composition matched",
+    "matched_pairs": {
+      "count": 21,
+      "median_absolute_energy_difference": 0.010482187999999892,
+      "mean_absolute_energy_difference": 0.04047832101904754,
+      "max_absolute_energy_difference": 0.23757400870000023,
+      "large_energy_gap_count": 3,
+      "median_environment_distance": 0.014007887946747958
+    },
+    "small_environment_pairs": {
+      "count": 8,
+      "median_absolute_energy_difference": 0.006554390399999832,
+      "mean_absolute_energy_difference": 0.010551630262499865,
+      "max_absolute_energy_difference": 0.051852186100000086,
+      "large_energy_gap_count": 0,
+      "median_environment_distance": 0.005193353700883673
+    },
+    "named_cases": [
+      {
+        "material_id_a": "mp-1191157",
+        "material_id_b": "mp-18511",
+        "formula_a": "NdF3",
+        "formula_b": "NdF3",
+        "composition_signature": "[[\"F\",0.75],[\"Nd\",0.25]]",
+        "n_sites_a": 24,
+        "n_sites_b": 24,
+        "volume_per_atom_a": 12.931952429163651,
+        "volume_per_atom_b": 13.181750752893757,
+        "relative_volume_difference": 0.019131589417906932,
+        "qmin_a": 0.9176748950985927,
+        "qmin_b": 0.9163399420103323,
+        "absolute_qmin_difference": 0.001334953088260371,
+        "matched": true,
+        "formation_energy_a": -4.2474919638,
+        "formation_energy_b": -4.4850659725,
+        "absolute_energy_difference": 0.23757400870000023,
+        "hull_energy_a": 0.2375740088,
+        "hull_energy_b": 0.0,
+        "distance_coordination": 0.02258636281076132,
+        "distance_signed_EN": 0.047326544463276596,
+        "distance_unsigned_EN": 0.047326544463276596,
+        "distance_contact_matrix": 0.022586362810761373,
+        "distance_combined": 0.03495645363701897,
+        "available_distance_components": 4
+      },
+      {
+        "material_id_a": "mp-1017630",
+        "material_id_b": "mp-1222174",
+        "formula_a": "Mg2ZnAs2",
+        "formula_b": "Mg2ZnAs2",
+        "composition_signature": "[[\"As\",0.4],[\"Mg\",0.4],[\"Zn\",0.2]]",
+        "n_sites_a": 5,
+        "n_sites_b": 10,
+        "volume_per_atom_a": 21.025934006528047,
+        "volume_per_atom_b": 20.56682979923131,
+        "relative_volume_difference": 0.022076157739398115,
+        "qmin_a": 1.0090492114634557,
+        "qmin_b": 0.9977738193954951,
+        "absolute_qmin_difference": 0.011275392067960577,
+        "matched": true,
+        "formation_energy_a": -0.303756932,
+        "formation_energy_b": -0.473159024,
+        "absolute_energy_difference": 0.169402092,
+        "hull_energy_a": 0.169402092,
+        "hull_energy_b": 0.0,
+        "distance_coordination": 0.031221764610736752,
+        "distance_signed_EN": 0.027252575651054323,
+        "distance_unsigned_EN": 0.02782406378847926,
+        "distance_contact_matrix": 0.0618570657188409,
+        "distance_combined": 0.03703886744227781,
+        "available_distance_components": 4
+      }
+    ],
+    "claim": "Structural distinguishability is not energy-ordering explanation or causation"
+  },
+  "H02R1": {
+    "fixed_cutoffs_q": [
+      1.1,
+      1.2,
+      1.3
+    ],
+    "pair_cutoff_tests": 63,
+    "supported_cutoffs": [
+      1.2
+    ],
+    "all_cutoff_prediction_supported": false,
+    "named_cases": [
+      {
+        "lower_energy_material": "mp-18511",
+        "higher_energy_material": "mp-1191157",
+        "absolute_energy_difference": 0.23757400870000023,
+        "cutoff_results": [
+          {
+            "cutoff_q": 1.1,
+            "lower_minus_higher_contact_matrix": {
+              "F|F": 0.0,
+              "F|Nd": 0.0,
+              "Nd|F": 0.0,
+              "Nd|Nd": 0.0
+            },
+            "lower_energy_element_contacts": {
+              "F": {
+                "total_contact_count_mean": 3.3333333333333335,
+                "total_contact_count_min": 3.0,
+                "total_contact_count_max": 4.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 0.0,
+                  "Nd": 3.3333333333333335
+                }
+              },
+              "Nd": {
+                "total_contact_count_mean": 22.0,
+                "total_contact_count_min": 22.0,
+                "total_contact_count_max": 22.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 10.0,
+                  "Nd": 12.0
+                }
+              }
+            },
+            "higher_energy_element_contacts": {
+              "F": {
+                "total_contact_count_mean": 3.3333333333333335,
+                "total_contact_count_min": 0.0,
+                "total_contact_count_max": 4.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 0.0,
+                  "Nd": 3.3333333333333335
+                }
+              },
+              "Nd": {
+                "total_contact_count_mean": 22.0,
+                "total_contact_count_min": 22.0,
+                "total_contact_count_max": 22.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 10.0,
+                  "Nd": 12.0
+                }
+              }
+            }
+          },
+          {
+            "cutoff_q": 1.2,
+            "lower_minus_higher_contact_matrix": {
+              "F|F": 0.0,
+              "F|Nd": -0.25,
+              "Nd|F": -0.25,
+              "Nd|Nd": 0.0
+            },
+            "lower_energy_element_contacts": {
+              "F": {
+                "total_contact_count_mean": 3.6666666666666665,
+                "total_contact_count_min": 3.0,
+                "total_contact_count_max": 4.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 0.0,
+                  "Nd": 3.6666666666666665
+                }
+              },
+              "Nd": {
+                "total_contact_count_mean": 23.0,
+                "total_contact_count_min": 23.0,
+                "total_contact_count_max": 23.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 11.0,
+                  "Nd": 12.0
+                }
+              }
+            },
+            "higher_energy_element_contacts": {
+              "F": {
+                "total_contact_count_mean": 4.0,
+                "total_contact_count_min": 3.0,
+                "total_contact_count_max": 6.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 0.0,
+                  "Nd": 4.0
+                }
+              },
+              "Nd": {
+                "total_contact_count_mean": 24.0,
+                "total_contact_count_min": 24.0,
+                "total_contact_count_max": 24.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 12.0,
+                  "Nd": 12.0
+                }
+              }
+            }
+          },
+          {
+            "cutoff_q": 1.3,
+            "lower_minus_higher_contact_matrix": {
+              "F|F": 0.0,
+              "F|Nd": -0.25,
+              "Nd|F": -0.25,
+              "Nd|Nd": 0.0
+            },
+            "lower_energy_element_contacts": {
+              "F": {
+                "total_contact_count_mean": 3.6666666666666665,
+                "total_contact_count_min": 3.0,
+                "total_contact_count_max": 4.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 0.0,
+                  "Nd": 3.6666666666666665
+                }
+              },
+              "Nd": {
+                "total_contact_count_mean": 23.0,
+                "total_contact_count_min": 23.0,
+                "total_contact_count_max": 23.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 11.0,
+                  "Nd": 12.0
+                }
+              }
+            },
+            "higher_energy_element_contacts": {
+              "F": {
+                "total_contact_count_mean": 4.0,
+                "total_contact_count_min": 3.0,
+                "total_contact_count_max": 6.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 0.0,
+                  "Nd": 4.0
+                }
+              },
+              "Nd": {
+                "total_contact_count_mean": 24.0,
+                "total_contact_count_min": 24.0,
+                "total_contact_count_max": 24.0,
+                "contact_counts_by_neighbor_species": {
+                  "F": 12.0,
+                  "Nd": 12.0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "lower_energy_material": "mp-1222174",
+        "higher_energy_material": "mp-1017630",
+        "absolute_energy_difference": 0.169402092,
+        "cutoff_results": [
+          {
+            "cutoff_q": 1.1,
+            "lower_minus_higher_contact_matrix": {
+              "As|As": 0.0,
+              "As|Mg": -0.20000000000000018,
+              "As|Zn": 0.6,
+              "Mg|As": -0.20000000000000018,
+              "Mg|Mg": 0.0,
+              "Mg|Zn": 0.0,
+              "Zn|As": 0.6,
+              "Zn|Mg": 0.0,
+              "Zn|Zn": 0.0
+            },
+            "lower_energy_element_contacts": {
+              "As": {
+                "total_contact_count_mean": 5.0,
+                "total_contact_count_min": 4.0,
+                "total_contact_count_max": 6.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 0.0,
+                  "Mg": 3.5,
+                  "Zn": 1.5
+                }
+              },
+              "Mg": {
+                "total_contact_count_mean": 3.5,
+                "total_contact_count_min": 3.0,
+                "total_contact_count_max": 4.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 3.5,
+                  "Mg": 0.0,
+                  "Zn": 0.0
+                }
+              },
+              "Zn": {
+                "total_contact_count_mean": 3.0,
+                "total_contact_count_min": 3.0,
+                "total_contact_count_max": 3.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 3.0,
+                  "Mg": 0.0,
+                  "Zn": 0.0
+                }
+              }
+            },
+            "higher_energy_element_contacts": {
+              "As": {
+                "total_contact_count_mean": 4.0,
+                "total_contact_count_min": 4.0,
+                "total_contact_count_max": 4.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 0.0,
+                  "Mg": 4.0,
+                  "Zn": 0.0
+                }
+              },
+              "Mg": {
+                "total_contact_count_mean": 4.0,
+                "total_contact_count_min": 4.0,
+                "total_contact_count_max": 4.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 4.0,
+                  "Mg": 0.0,
+                  "Zn": 0.0
+                }
+              },
+              "Zn": {
+                "total_contact_count_mean": 0.0,
+                "total_contact_count_min": 0.0,
+                "total_contact_count_max": 0.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 0.0,
+                  "Mg": 0.0,
+                  "Zn": 0.0
+                }
+              }
+            },
+            "MgMg_reduction": false,
+            "MgZn_increase": false,
+            "revision_prediction_supported_at_this_cutoff": false
+          },
+          {
+            "cutoff_q": 1.2,
+            "lower_minus_higher_contact_matrix": {
+              "As|As": 0.0,
+              "As|Mg": 0.3999999999999999,
+              "As|Zn": -0.3999999999999999,
+              "Mg|As": 0.3999999999999999,
+              "Mg|Mg": -1.2,
+              "Mg|Zn": 0.6,
+              "Zn|As": -0.3999999999999999,
+              "Zn|Mg": 0.6,
+              "Zn|Zn": 0.0
+            },
+            "lower_energy_element_contacts": {
+              "As": {
+                "total_contact_count_mean": 7.0,
+                "total_contact_count_min": 7.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 0.0,
+                  "Mg": 5.0,
+                  "Zn": 2.0
+                }
+              },
+              "Mg": {
+                "total_contact_count_mean": 6.5,
+                "total_contact_count_min": 6.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 5.0,
+                  "Mg": 0.0,
+                  "Zn": 1.5
+                }
+              },
+              "Zn": {
+                "total_contact_count_mean": 7.0,
+                "total_contact_count_min": 7.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 4.0,
+                  "Mg": 3.0,
+                  "Zn": 0.0
+                }
+              }
+            },
+            "higher_energy_element_contacts": {
+              "As": {
+                "total_contact_count_mean": 7.0,
+                "total_contact_count_min": 7.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 0.0,
+                  "Mg": 4.0,
+                  "Zn": 3.0
+                }
+              },
+              "Mg": {
+                "total_contact_count_mean": 7.0,
+                "total_contact_count_min": 7.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 4.0,
+                  "Mg": 3.0,
+                  "Zn": 0.0
+                }
+              },
+              "Zn": {
+                "total_contact_count_mean": 6.0,
+                "total_contact_count_min": 6.0,
+                "total_contact_count_max": 6.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 6.0,
+                  "Mg": 0.0,
+                  "Zn": 0.0
+                }
+              }
+            },
+            "MgMg_reduction": true,
+            "MgZn_increase": true,
+            "revision_prediction_supported_at_this_cutoff": true
+          },
+          {
+            "cutoff_q": 1.3,
+            "lower_minus_higher_contact_matrix": {
+              "As|As": 0.0,
+              "As|Mg": 0.3999999999999999,
+              "As|Zn": -0.3999999999999999,
+              "Mg|As": 0.3999999999999999,
+              "Mg|Mg": 0.0,
+              "Mg|Zn": -0.6,
+              "Zn|As": -0.3999999999999999,
+              "Zn|Mg": -0.6,
+              "Zn|Zn": 0.0
+            },
+            "lower_energy_element_contacts": {
+              "As": {
+                "total_contact_count_mean": 7.0,
+                "total_contact_count_min": 7.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 0.0,
+                  "Mg": 5.0,
+                  "Zn": 2.0
+                }
+              },
+              "Mg": {
+                "total_contact_count_mean": 9.5,
+                "total_contact_count_min": 9.0,
+                "total_contact_count_max": 10.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 5.0,
+                  "Mg": 3.0,
+                  "Zn": 1.5
+                }
+              },
+              "Zn": {
+                "total_contact_count_mean": 7.0,
+                "total_contact_count_min": 7.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 4.0,
+                  "Mg": 3.0,
+                  "Zn": 0.0
+                }
+              }
+            },
+            "higher_energy_element_contacts": {
+              "As": {
+                "total_contact_count_mean": 7.0,
+                "total_contact_count_min": 7.0,
+                "total_contact_count_max": 7.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 0.0,
+                  "Mg": 4.0,
+                  "Zn": 3.0
+                }
+              },
+              "Mg": {
+                "total_contact_count_mean": 10.0,
+                "total_contact_count_min": 10.0,
+                "total_contact_count_max": 10.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 4.0,
+                  "Mg": 3.0,
+                  "Zn": 3.0
+                }
+              },
+              "Zn": {
+                "total_contact_count_mean": 12.0,
+                "total_contact_count_min": 12.0,
+                "total_contact_count_max": 12.0,
+                "contact_counts_by_neighbor_species": {
+                  "As": 6.0,
+                  "Mg": 6.0,
+                  "Zn": 0.0
+                }
+              }
+            },
+            "MgMg_reduction": false,
+            "MgZn_increase": false,
+            "revision_prediction_supported_at_this_cutoff": false
+          }
+        ]
+      }
+    ],
+    "near_equal_energy_counterexamples": [
+      {
+        "material_id_a": "mp-1211732",
+        "material_id_b": "mp-1211783",
+        "formula_a": "KAgTeS3",
+        "formula_b": "KAgTeS3",
+        "composition_signature": "[[\"Ag\",0.1666666667],[\"K\",0.1666666667],[\"S\",0.5],[\"Te\",0.1666666667]]",
+        "n_sites_a": "24",
+        "n_sites_b": "24",
+        "volume_per_atom_a": "28.326463607961628",
+        "volume_per_atom_b": "28.335564835732114",
+        "relative_volume_difference": "0.0003212460979765438",
+        "qmin_a": "0.980474512229534",
+        "qmin_b": "0.9800183039398411",
+        "absolute_qmin_difference": "0.0004562082896928388",
+        "matched": "True",
+        "formation_energy_a": "-0.6438690822",
+        "formation_energy_b": "-0.6465404118",
+        "absolute_energy_difference": "0.0026713295999999387",
+        "hull_energy_a": "0.0400019571",
+        "hull_energy_b": "0.0373306275",
+        "distance_coordination": "0.021570092123480676",
+        "distance_signed_EN": "0.027383103584244412",
+        "distance_unsigned_EN": "0.023639502778000594",
+        "distance_contact_matrix": "0.048027611630281075",
+        "distance_combined": "0.030155077529001692",
+        "available_distance_components": "4"
+      },
+      {
+        "material_id_a": "mp-1221290",
+        "material_id_b": "mp-34492",
+        "formula_a": "Na2TbO3",
+        "formula_b": "Na2TbO3",
+        "composition_signature": "[[\"Na\",0.3333333333],[\"O\",0.5],[\"Tb\",0.1666666667]]",
+        "n_sites_a": "12",
+        "n_sites_b": "12",
+        "volume_per_atom_a": "14.494557527900177",
+        "volume_per_atom_b": "14.066911285012937",
+        "relative_volume_difference": "0.02994567581159512",
+        "qmin_a": "0.8766409995936866",
+        "qmin_b": "0.8729688734425951",
+        "absolute_qmin_difference": "0.0036721261510914704",
+        "matched": "True",
+        "formation_energy_a": "-2.4489618516",
+        "formation_energy_b": "-2.4473345157",
+        "absolute_energy_difference": "0.00162733589999986",
+        "hull_energy_a": "0.0759786214",
+        "hull_energy_b": "0.0776059572",
+        "distance_coordination": "0.021844297184780554",
+        "distance_signed_EN": "0.027222569766628082",
+        "distance_unsigned_EN": "0.02582085236478883",
+        "distance_contact_matrix": "0.03221342119688727",
+        "distance_combined": "0.02677528512827118",
+        "available_distance_components": "4"
+      }
+    ]
+  },
+  "thermodynamic_identity": {
+    "all_pairs": 43,
+    "lowest_member_still_above_hull_groups": 30,
+    "maximum_pairwise_hull_minus_formation_delta_error_eV_atom": 1.0000034134094449e-10,
+    "conclusion": "At fixed composition in these data, formation-energy and native-hull differences share the same reference and are not independent confirmations. Lowest within the small observed set is not sufficient for global stability."
+  },
+  "numerical_audit": {
+    "contact_thermodynamic": "PASS_with_interpretation_limits",
+    "environment": "passed_with_provenance_limits",
+    "replay": "NUMERICAL_REPLAY_PASSED",
+    "source_audit_rerun_by_replay": false,
+    "historical_limit": "Successful H02 stage-1 source was not independently snapshotted; final-code replay does not restore it."
+  },
+  "new_predictor_fits": 0,
+  "new_DFT": false,
+  "prior_final_confirmation_used": false,
+  "next_investigation": {
+    "status": "planned, not executed",
+    "question": "Angle/topology evidence within same composition and matched corrections/settings; then unseen-data or physical validation"
+  },
+  "publication_scope": "Faculty workflow report and selected numerical evidence; full local source snapshots, raw inputs and replay package are not included here."
+}

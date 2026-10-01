@@ -6,13 +6,21 @@ Reproduced on 2026-09-14 from [AI4QC/PRIS](https://github.com/AI4QC/PRIS), commi
 
 Read the full report in [English](REPORT.md) or [Chinese](REPORT_zh.md). This repository contains actual calculations, original public input structures, derived numerical tables, logs, and unchanged upstream analyzer source. It is an independent, partial scientific reproduction of the data-complete portions of the release. It does not rerun the two-million-candidate agent search or VASP, and it does not reproduce the missing full held-out benchmark. It is not the official PRIS repository.
 
+## Faculty progress report — 2026-10-01
+
+**Material energy and stability:** the agents completed a hypothesis → tool calculation → counterexample → revision → retest cycle on 2,879 previously observed development records (39 composition groups). Both revised explanations failed their specified tests; no robust physical mechanism is established. Independent numerical checks passed. Unseen-data/physical validation remains pending.
+
+Read the [English faculty briefing](reports/materials-agent-2026-10-01/README_EN.md) or [中文汇报](reports/materials-agent-2026-10-01/README.md), with the executed workflow, current findings, limitations, next investigation and complete comparison tables. This round fitted no new predictor and ran no new DFT.
+
+![Agent workflow and current progress](reports/materials-agent-2026-10-01/figures/workflow_en.png)
+
 ## Research progress for advisor review 2026-10-01
 
 Two property-prediction directions are progressing in parallel:
 
 | Direction | Completed work | Current conclusion | Report |
 | --- | --- | --- | --- |
-| Formation energy and hull classification | 14 tool calls; five descriptor programs; 721 fresh MP test structures | Formation-energy MAE 0.3515 to 0.3138 eV/atom; HGB remains stronger at 0.2793; hull-classification gain inconclusive | [English](experiments/scientific-agent-2026-09-30/REPORT_EN.md) / [中文](experiments/scientific-agent-2026-09-30/REPORT_ZH.md) |
+| Material formation energy and stability | Earlier descriptor benchmark; current mechanism study: 39 composition groups, 21 matched pairs, eight source cases | Current: both revised explanations failed their tests; robust mechanism not established. Earlier prediction results remain documented separately | [Latest English](reports/materials-agent-2026-10-01/README_EN.md) / [中文](reports/materials-agent-2026-10-01/README.md); [earlier benchmark](experiments/scientific-agent-2026-09-30/REPORT_EN.md) |
 | Superconducting critical temperature | 12 tool calls; five descriptor programs; 5773 3DSC records; numerical and representation audits | Historical MAE 4.392 to 4.364 K; interval crosses zero; high-Tc error worsens; stable improvement not established | [English](experiments/superconductivity-agent-2026-10-01/REPORT.md) / [中文](experiments/superconductivity-agent-2026-10-01/REPORT_zh.md) |
 
 ### Current superconductivity workflow

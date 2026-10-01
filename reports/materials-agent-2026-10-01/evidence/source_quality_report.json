@@ -1,0 +1,75 @@
+{
+  "status": "PASS_SOURCE_COMPATIBILITY",
+  "scope": "Eight selected observed development cases; not a new confirmation or general dataset quality certification",
+  "case_count": 8,
+  "composition_pair_count": 5,
+  "development_role_counts": {
+    "train": 7,
+    "validation": 1
+  },
+  "source_compatibility_tolerance_eV_atom": 1e-06,
+  "max_absolute_energy_or_label_compatibility_error_eV_atom": 4.999911595859885e-11,
+  "exact_composition_pair_checks_passed": 5,
+  "literal_duplicate_pair_count": 0,
+  "strict_crystal_matching_pair_count": 0,
+  "same_composition_correction_gap_zero_within_1e12": false,
+  "run_types": [
+    "GGA"
+  ],
+  "all_cases_no_Hubbard_U_in_source_parameters": true,
+  "metadata_available": {
+    "site_magmom": "Present; semantics and convergence not established",
+    "oxidation_states": "Element-level source maps present; completeness recorded case by case",
+    "oxide_type": "Source classification present; shipped correction components recorded",
+    "run_type_and_potcar_spec": "Present; compare exact serialized settings within each composition"
+  },
+  "not_testable_from_these_files": [
+    "Electronic/ionic convergence status and residual forces",
+    "DFT input/output histories and whether reported geometry is fully relaxed",
+    "Energy cutoff/k-point convergence tests and raw wavefunctions",
+    "Initial versus final provenance of site magmom and magnetic configuration",
+    "Site-resolved physical oxidation/charge measurement",
+    "Experimental temperature, pressure, synthesis or measurement conditions",
+    "Full generation-time executable/version/configuration for historical MP2020 corrections",
+    "Independent proof against upstream task/structure association errors"
+  ],
+  "summary_zh": "八例原始条目、元素参考及开发标签兼容，五组成分配对无字面或声明容差内的结构重复。Bi高能成员采用peroxide修正，两个低能成员采用oxide修正；高–最低总能隙3.981423153=未修正能隙3.854566010＋修正差0.126857143eV/atom，不能把全部差异归因几何，也不能说修正完全相消。NdF3和Mg2ZnAs2配对修正差为0。氧化态图均覆盖全部元素，但不证明真实价态；磁矩与充分收敛、测量条件仍缺过程证据。",
+  "summary_en": "All eight selected raw entries, elemental references and development labels agree; five composition pairs show no literal or declared-tolerance geometric duplicates. Bi has a real oxide/peroxide correction difference:3.981423153=3.854566010+0.126857143eV/atom. Corrections neither cancel nor explain the whole gap. NdF3/Mg2ZnAs2 corrections cancel. Metadata does not establish physical valence, convergence or mechanism.",
+  "bookkeeping_hypothesis_revision": "Selected source labels and structures agree, excluding a mismatch within the inspected released records. Two Bi pairs have a0.126857143eV/atom oxide/peroxide correction difference; it contributes to, but does not explain, the full energy gaps. No physical mechanism or convergence conclusion is established.",
+  "no_new_confirmation_or_final_files_read": true,
+  "supervised_predictors_fitted": 0,
+  "interpretation_revision": "H03b_partial_correction; first report retained separately",
+  "nonzero_same_composition_correction_pairs": [
+    {
+      "group": "Bi(PdO2)2",
+      "left": "mp-1104660",
+      "right": "mp-1423351",
+      "orientation": "right minus left",
+      "uncorrected_energy_gap_eV_atom": 3.85456601,
+      "shipped_correction_gap_eV_atom": 0.1268571428571429,
+      "formation_energy_gap_eV_atom": 3.981423152857143,
+      "absolute_correction_fraction_of_total_gap": 0.03186226080141918,
+      "correction_alone_explains_gap_within1e6": false,
+      "oxide_type_left": "oxide",
+      "oxide_type_right": "peroxide"
+    },
+    {
+      "group": "Bi(PdO2)2",
+      "left": "mp-1423351",
+      "right": "mp-25201",
+      "orientation": "right minus left",
+      "uncorrected_energy_gap_eV_atom": -3.6971909992857137,
+      "shipped_correction_gap_eV_atom": -0.1268571428571429,
+      "formation_energy_gap_eV_atom": -3.8240481421428565,
+      "absolute_correction_fraction_of_total_gap": 0.03317352139454416,
+      "correction_alone_explains_gap_within1e6": false,
+      "oxide_type_left": "peroxide",
+      "oxide_type_right": "oxide"
+    }
+  ],
+  "all_eight_oxidation_maps_cover_all_elements": true,
+  "all_oxidation_metadata_charge_sums_zero_within1e12": true,
+  "nonzero_reported_site_magmom_cases": [
+    "mp-25201"
+  ]
+}

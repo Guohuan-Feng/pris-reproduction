@@ -1,0 +1,553 @@
+{
+  "strict_matcher_settings": {
+    "ltol": 1e-05,
+    "stol": 0.0001,
+    "angle_tol": 0.001,
+    "primitive_cell": true,
+    "scale": false,
+    "attempt_supercell": true,
+    "supercell_size": "num_sites"
+  },
+  "loose_matcher_settings": {
+    "ltol": 0.2,
+    "stol": 0.3,
+    "angle_tol": 5.0,
+    "primitive_cell": true,
+    "scale": true,
+    "attempt_supercell": true,
+    "supercell_size": "num_sites"
+  },
+  "matcher_comparator": "ElementComparator; ignores oxidation states and magmom",
+  "interpretation": "Literal duplicate checks are exact. StructureMatcher reports equivalence only within declared geometric tolerances and ignores electronic/magnetic state; a match is not proof of duplicate calculation.",
+  "pairs": [
+    {
+      "group": "Bi(PdO2)2",
+      "left": "mp-1104660",
+      "right": "mp-1423351",
+      "delta_orientation": "right minus left",
+      "exact_fractional_composition_match": true,
+      "literal_ordered_geometry_duplicate": false,
+      "same_site_count_and_species_order": true,
+      "max_cell_matrix_absolute_difference_A": 3.172616,
+      "max_wrapped_frac_coordinate_difference_same_order": 0.5,
+      "relative_volume_per_atom_difference": 1.8870156319288513e-08,
+      "strict_crystal_match": false,
+      "loose_scaled_crystal_match": false,
+      "same_potcar_specs_as_sets": true,
+      "same_run_type": true,
+      "same_oxide_type": false,
+      "same_element_oxidation_state_map": false,
+      "correction_delta_eV_atom": 0.1268571428571429,
+      "uncorrected_energy_delta_eV_atom": 3.85456601,
+      "formation_energy_delta_eV_atom": 3.981423152857143,
+      "native_hull_delta_minus_formation_delta_eV_atom": 4.285727328579014e-11,
+      "site_magmom_summary_left": {
+        "Bi": {
+          "site_count": 2,
+          "values": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "Pd": {
+          "site_count": 4,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "O": {
+          "site_count": 8,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      },
+      "site_magmom_summary_right": {
+        "Bi": {
+          "site_count": 2,
+          "values": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "Pd": {
+          "site_count": 4,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "O": {
+          "site_count": 8,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      }
+    },
+    {
+      "group": "Bi(PdO2)2",
+      "left": "mp-1104660",
+      "right": "mp-25201",
+      "delta_orientation": "right minus left",
+      "exact_fractional_composition_match": true,
+      "literal_ordered_geometry_duplicate": false,
+      "same_site_count_and_species_order": true,
+      "max_cell_matrix_absolute_difference_A": 2.563505,
+      "max_wrapped_frac_coordinate_difference_same_order": 0.5,
+      "relative_volume_per_atom_difference": 0.14640969236262913,
+      "strict_crystal_match": false,
+      "loose_scaled_crystal_match": false,
+      "same_potcar_specs_as_sets": true,
+      "same_run_type": true,
+      "same_oxide_type": true,
+      "same_element_oxidation_state_map": false,
+      "correction_delta_eV_atom": 0.0,
+      "uncorrected_energy_delta_eV_atom": 0.1573750107142864,
+      "formation_energy_delta_eV_atom": 0.1573750107142864,
+      "native_hull_delta_minus_formation_delta_eV_atom": -1.428637763645213e-11,
+      "site_magmom_summary_left": {
+        "Bi": {
+          "site_count": 2,
+          "values": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "Pd": {
+          "site_count": 4,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "O": {
+          "site_count": 8,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      },
+      "site_magmom_summary_right": {
+        "Bi": {
+          "site_count": 2,
+          "values": [
+            -0.037,
+            -0.037
+          ],
+          "min": -0.037,
+          "max": -0.037,
+          "signed_sum": -0.074,
+          "absolute_sum": 0.074
+        },
+        "Pd": {
+          "site_count": 4,
+          "values": [
+            -0.215,
+            -0.208,
+            -0.193,
+            -0.208
+          ],
+          "min": -0.215,
+          "max": -0.193,
+          "signed_sum": -0.824,
+          "absolute_sum": 0.824
+        },
+        "O": {
+          "site_count": 8,
+          "values": [
+            -0.083,
+            -0.071,
+            -0.071,
+            -0.087,
+            -0.083,
+            -0.087,
+            -0.064,
+            -0.064
+          ],
+          "min": -0.087,
+          "max": -0.064,
+          "signed_sum": -0.61,
+          "absolute_sum": 0.61
+        }
+      }
+    },
+    {
+      "group": "Bi(PdO2)2",
+      "left": "mp-1423351",
+      "right": "mp-25201",
+      "delta_orientation": "right minus left",
+      "exact_fractional_composition_match": true,
+      "literal_ordered_geometry_duplicate": false,
+      "same_site_count_and_species_order": true,
+      "max_cell_matrix_absolute_difference_A": 3.213756,
+      "max_wrapped_frac_coordinate_difference_same_order": 0.5,
+      "relative_volume_per_atom_difference": 0.1464097111316612,
+      "strict_crystal_match": false,
+      "loose_scaled_crystal_match": false,
+      "same_potcar_specs_as_sets": true,
+      "same_run_type": true,
+      "same_oxide_type": false,
+      "same_element_oxidation_state_map": false,
+      "correction_delta_eV_atom": -0.1268571428571429,
+      "uncorrected_energy_delta_eV_atom": -3.6971909992857137,
+      "formation_energy_delta_eV_atom": -3.8240481421428565,
+      "native_hull_delta_minus_formation_delta_eV_atom": -5.714362316666666e-11,
+      "site_magmom_summary_left": {
+        "Bi": {
+          "site_count": 2,
+          "values": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "Pd": {
+          "site_count": 4,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "O": {
+          "site_count": 8,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      },
+      "site_magmom_summary_right": {
+        "Bi": {
+          "site_count": 2,
+          "values": [
+            -0.037,
+            -0.037
+          ],
+          "min": -0.037,
+          "max": -0.037,
+          "signed_sum": -0.074,
+          "absolute_sum": 0.074
+        },
+        "Pd": {
+          "site_count": 4,
+          "values": [
+            -0.215,
+            -0.208,
+            -0.193,
+            -0.208
+          ],
+          "min": -0.215,
+          "max": -0.193,
+          "signed_sum": -0.824,
+          "absolute_sum": 0.824
+        },
+        "O": {
+          "site_count": 8,
+          "values": [
+            -0.083,
+            -0.071,
+            -0.071,
+            -0.087,
+            -0.083,
+            -0.087,
+            -0.064,
+            -0.064
+          ],
+          "min": -0.087,
+          "max": -0.064,
+          "signed_sum": -0.61,
+          "absolute_sum": 0.61
+        }
+      }
+    },
+    {
+      "group": "NdF3",
+      "left": "mp-1191157",
+      "right": "mp-18511",
+      "delta_orientation": "right minus left",
+      "exact_fractional_composition_match": true,
+      "literal_ordered_geometry_duplicate": false,
+      "same_site_count_and_species_order": true,
+      "max_cell_matrix_absolute_difference_A": 0.19479700000000033,
+      "max_wrapped_frac_coordinate_difference_same_order": 0.490317,
+      "relative_volume_per_atom_difference": 0.019131589417906932,
+      "strict_crystal_match": false,
+      "loose_scaled_crystal_match": false,
+      "same_potcar_specs_as_sets": true,
+      "same_run_type": true,
+      "same_oxide_type": true,
+      "same_element_oxidation_state_map": true,
+      "correction_delta_eV_atom": 0.0,
+      "uncorrected_energy_delta_eV_atom": -0.23757400874999934,
+      "formation_energy_delta_eV_atom": -0.23757400875000023,
+      "native_hull_delta_minus_formation_delta_eV_atom": -4.9999782092413625e-11,
+      "site_magmom_summary_left": {
+        "Nd": {
+          "site_count": 6,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "F": {
+          "site_count": 18,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      },
+      "site_magmom_summary_right": {
+        "Nd": {
+          "site_count": 6,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "F": {
+          "site_count": 18,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      }
+    },
+    {
+      "group": "Mg2ZnAs2",
+      "left": "mp-1017630",
+      "right": "mp-1222174",
+      "delta_orientation": "right minus left",
+      "exact_fractional_composition_match": true,
+      "literal_ordered_geometry_duplicate": false,
+      "same_site_count_and_species_order": false,
+      "max_cell_matrix_absolute_difference_A": 6.925013999999999,
+      "max_wrapped_frac_coordinate_difference_same_order": null,
+      "relative_volume_per_atom_difference": 0.022076157739398115,
+      "strict_crystal_match": false,
+      "loose_scaled_crystal_match": false,
+      "same_potcar_specs_as_sets": true,
+      "same_run_type": true,
+      "same_oxide_type": true,
+      "same_element_oxidation_state_map": true,
+      "correction_delta_eV_atom": 0.0,
+      "uncorrected_energy_delta_eV_atom": -0.16940209200000034,
+      "formation_energy_delta_eV_atom": -0.16940209200000034,
+      "native_hull_delta_minus_formation_delta_eV_atom": 3.3306690738754696e-16,
+      "site_magmom_summary_left": {
+        "Mg": {
+          "site_count": 2,
+          "values": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "Zn": {
+          "site_count": 1,
+          "values": [
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "As": {
+          "site_count": 2,
+          "values": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      },
+      "site_magmom_summary_right": {
+        "Mg": {
+          "site_count": 4,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "Zn": {
+          "site_count": 2,
+          "values": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        },
+        "As": {
+          "site_count": 4,
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0,
+          "signed_sum": 0.0,
+          "absolute_sum": 0.0
+        }
+      }
+    }
+  ]
+}
