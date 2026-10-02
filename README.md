@@ -12,6 +12,8 @@ Read the full report in [English](REPORT.md) or [Chinese](REPORT_zh.md). This re
 
 Read the [English faculty briefing](reports/materials-agent-2026-10-01/README_EN.md) or [中文汇报](reports/materials-agent-2026-10-01/README.md), with the executed workflow, current findings, limitations, next investigation and complete comparison tables. This round fitted no new predictor and ran no new DFT.
 
+The same 2,879 prepared development records are publicly available on [Hugging Face](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev): browse the dataset page and [merged material table](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/blob/main/materials.csv), or download the complete prepared structures from the [file directory](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/tree/main). These are already observed data, not a new experiment or test set.
+
 ![Agent workflow and current progress](reports/materials-agent-2026-10-01/figures/workflow_en.png)
 
 ## Research progress for advisor review 2026-10-01

@@ -1,8 +1,8 @@
 # Methods and evidence / 方法与证据
 
-This page accompanies the faculty progress report. It publishes selected complete numerical comparison tables and source-check summaries. It does not include the complete local code/data/replay archive. The two revised explanations failed their defined exploratory tests; passing a numerical audit is not independent scientific confirmation.
+This page accompanies the faculty progress report. It publishes selected complete numerical comparison tables and source-check summaries. The 2,879 prepared inputs are publicly available on [Hugging Face](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev); the full analysis source and complete replay archive are not included here. The two revised explanations failed their defined exploratory tests; passing a numerical audit is not independent scientific confirmation.
 
-本页是导师汇报的证据索引，提供完整组表及源核查摘要。本次未发布完整本地源码、原始输入和重放包；数值复核通过不等于独立科学确认。
+本页是导师汇报的证据索引，提供完整组表及源核查摘要。本轮 2,879 条准备后的输入已在 [Hugging Face](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev) 公开；完整分析源码及全部重放包仍未完整公开。数值复核通过不等于独立科学确认。
 
 | File | Contents / 内容 |
 |---|---|
@@ -31,6 +31,10 @@ This page accompanies the faculty progress report. It publishes selected complet
 
 The original input filenames and SHA256 are in progress_summary.json. Prepared development inputs were derived from the earlier [scientific-agent experiment](../../experiments/scientific-agent-2026-09-30/README.md). Source release: Materials Project / Matbench Discovery Figshare article 22715158 version 38. Raw filenames inspected were 2023-02-07-mp-computed-structure-entries.json.gz, 2023-02-07-mp-elemental-reference-entries.json.gz and 2025-02-01-mp-energies.csv.gz. Snapshot attribution/license details are preserved in the earlier [data license](../../experiments/scientific-agent-2026-09-30/DATA_LICENSE.md) (CC BY 4.0).
 
+Public data repository: [fgh123654/materials-energy-stability-agent-dev](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev). It contains the same 2,879 already observed development records: 2,164 historical train-role and 715 adaptive-validation-role records. The [online material table](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/viewer/default/development) is available with HF viewer config `default` and one `development` split. The retained `split` column records the historical roles and does not create a new held-out test. The [complete prepared structures](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/resolve/main/structures.jsonl.gz?download=true), `features.csv.gz` and `targets.csv.gz` are at the [repository root](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/tree/main). These three gzip inputs retain their original SHA256 values recorded in [progress_summary.json](evidence/progress_summary.json); [materials.csv](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/blob/main/materials.csv) is a merged derivative. Materials Project / Matbench Discovery source attribution and CC BY 4.0 remain applicable. This is data publication, not new original experimental data or a new model training run.
+
 The selected CSV/JSON evidence copies are byte-identical to their completed local result files. progress_summary.json is a derived publication summary; it excludes local machine paths and does not replace historical registration records. Figures are copies of the reviewed findings plot and newly drawn workflow diagrams; drawing a workflow is not an additional experiment. PUBLICATION_MANIFEST.json inventories only this report's publication files. The full local scientific archive remains unchanged.
 
 中文要点：保持原有科学证据不变；上传的是导师报告与选定完整表格。汇总 JSON 为发布时整理的派生摘要，不冒充原始登记文件。所有研究仍限于已观察开发数据；本轮没有拟合预测器、运行新 DFT 或使用此前最终/确认数据。当前 Agent 调查不能冒充 2026-09-30 另一轮 GPT CLI 实验。
+
+The [dataset publication receipt](evidence/dataset_publication.json) pins HF revision `11d4111608864bb8ecc4a8a8f50360097deb82a7`, records an anonymous byte-for-byte download check of all 11 release files, and confirms the fully indexed 2,879-row, 40-column viewer. / [数据发布校验记录](evidence/dataset_publication.json)固定 HF 版本并记录公开下载一致性与完整在线表格检查。

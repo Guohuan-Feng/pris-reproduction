@@ -1,0 +1,96 @@
+{
+  "verified_utc": "2026-10-02T01:17:26.244172+00:00",
+  "dataset_url": "https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev",
+  "revision": "11d4111608864bb8ecc4a8a8f50360097deb82a7",
+  "public_without_authentication": true,
+  "records": 2879,
+  "historical_split_counts": {
+    "train": 2164,
+    "validation": 715
+  },
+  "files": [
+    {
+      "file": "DATA_LICENSE.md",
+      "bytes": 1391,
+      "sha256": "df0bbd4cc6bcc804d95c12f0322e2d42a967ccc52437845ab6f6984033087a12",
+      "byte_identical": true
+    },
+    {
+      "file": "data_manifest.json",
+      "bytes": 3780,
+      "sha256": "a9f84c8964b9b73788c0cc840b9c3044e640bcccac8f56facc92ddc710c2f595",
+      "byte_identical": true
+    },
+    {
+      "file": "feature_schema.json",
+      "bytes": 10385,
+      "sha256": "152ca13628d461a0024a36153011922a404df2d7f5c4c0b3ef52b86de041bd21",
+      "byte_identical": true
+    },
+    {
+      "file": "features.csv.gz",
+      "bytes": 389810,
+      "sha256": "d9ed4527de86de901c70772250a0b01872dd56a18719d6b5c9f5d2ebfe5d78f0",
+      "byte_identical": true
+    },
+    {
+      "file": "FILE_MANIFEST.json",
+      "bytes": 1666,
+      "sha256": "798bc7ef2f2c70828bb066325ff692c37dbd0963d0eb57d5e504642f78995632",
+      "byte_identical": true
+    },
+    {
+      "file": "materials.csv",
+      "bytes": 1369566,
+      "sha256": "388723a284acf4f65409a15fe716bc3b5b5775eac3d66ea3f8ebc78b0b13204a",
+      "byte_identical": true,
+      "records": 2879,
+      "columns": 40
+    },
+    {
+      "file": "PREVIEW_ZH.md",
+      "bytes": 1956,
+      "sha256": "dd257e77a70da744b83116df66b5984ffb3c0d221e5025517471d83c4d3ad53e",
+      "byte_identical": true
+    },
+    {
+      "file": "README.md",
+      "bytes": 6828,
+      "sha256": "682735e33ee505ae3647b5824f3e58ca6f0d7a08a0ff93ffed5b108264c346e4",
+      "byte_identical": true
+    },
+    {
+      "file": "structure_schema.json",
+      "bytes": 2039,
+      "sha256": "a021a33b459d0d69619cacbc037b0e386a955e7c32848916222250c82d4b45e5",
+      "byte_identical": true
+    },
+    {
+      "file": "structures.jsonl.gz",
+      "bytes": 22130455,
+      "sha256": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32",
+      "byte_identical": true
+    },
+    {
+      "file": "targets.csv.gz",
+      "bytes": 91149,
+      "sha256": "5314fd23de873eaa08b9a14083aaf53569c8d9bf241a196c3d5954ce6f3edbfa",
+      "byte_identical": true
+    }
+  ],
+  "viewer_verified": {
+    "config": "default",
+    "split": "development",
+    "features": 40,
+    "first_rows": 100,
+    "first_material_id": "mp-1002069",
+    "last_preview_material_id": "mp-1028336",
+    "total_records": 2879,
+    "columns": 40,
+    "pending": [],
+    "failed": [],
+    "partial": false,
+    "browser_visible": "development (2.88k rows)"
+  },
+  "viewer_url": "https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/viewer/default/development"
+}

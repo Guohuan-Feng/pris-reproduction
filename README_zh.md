@@ -12,6 +12,8 @@
 
 查看[中文导师汇报](reports/materials-agent-2026-10-01/README.md)或 [English briefing](reports/materials-agent-2026-10-01/README_EN.md)，包括流程图、已完成工作、失败结果、限制、下一步与完整对照表。本轮没有训练新预测模型或运行新 DFT。
 
+同一批 2,879 条准备后的开发数据已在 [Hugging Face](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev) 公开，可浏览数据集页面与[合并材料表](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/blob/main/materials.csv)，并从[文件目录](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/tree/main)下载完整准备结构。这些是已观察的数据，不是新实验或新测试集。
+
 ![Agent 工作流程与当前进展](reports/materials-agent-2026-10-01/figures/workflow.png)
 
 ## 导师汇报进展 2026-10-01

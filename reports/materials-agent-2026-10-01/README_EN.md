@@ -8,6 +8,10 @@
 
 The investigation used 2,879 previously observed development records and examined 39 repeated-composition groups containing 80 materials and 43 structure pairs. It also verified eight examples against their original source entries. The main progress is a completed research process, explicit negative results and a narrower next question. See the [progress summary](evidence/progress_summary.json).
 
+**Public data:** [Hugging Face dataset page](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev) · [online material table](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/viewer/default/development) · [materials.csv](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/blob/main/materials.csv) · [complete prepared structure download](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/resolve/main/structures.jsonl.gz?download=true) · [all files](https://huggingface.co/datasets/fgh123654/materials-energy-stability-agent-dev/tree/main). The complete structure file is `structures.jsonl.gz`; original features and labels are `features.csv.gz` and `targets.csv.gz`.
+
+All 2,879 records were already observed: 2,164 historical train-role and 715 adaptive-validation-role records. The online table is available under HF viewer config/split `default/development`. The retained `split` column preserves historical roles and does not define a new independent test.
+
 | What has progressed | Current result |
 |---|---|
 | Short-contact explanation | No consistent direction across all composition groups; its element-pair revision also failed |
@@ -15,7 +19,7 @@ The investigation used 2,879 previously observed development records and examine
 | Source and stability checks | Bi has a nonzero oxide/peroxide correction difference; a group minimum need not lie on the database hull |
 | Next investigation | Test angles and periodic connectivity within matched compositions, correction categories and computational settings |
 
-Read the [full English report](REPORT_EN.md) for specific materials, test results and the next research question. This directory publishes the faculty report, figures and selected complete comparison tables; it does not include the full local source code, raw inputs or replay archive.
+Read the [full English report](REPORT_EN.md) for specific materials, test results and the next research question. This directory publishes the faculty report, figures and selected complete comparison tables; the 2,879 prepared inputs are public on HF, while the full analysis source and complete replay archive are still not publicly included.
 
 ![Executed agent workflow and pending scientific validation](figures/workflow_en.png)
 

@@ -4517,13 +4517,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 11329,
-      "sha256": "c8a6f6fb11a001dddda48db1bdc4f451c8efd9570105eae2ae71f6a93087a58c"
+      "bytes": 11882,
+      "sha256": "1df6b35345dfcba3d2e830e154bb31b181313d48c26cccf5eef5d4808003e95a"
     },
     {
       "path": "README_zh.md",
-      "bytes": 10285,
-      "sha256": "d4c18673260f032588d80ca78e641bf0b18b8fb798d75fc42931a1e23e51ab50"
+      "bytes": 10792,
+      "sha256": "cfb19d7025dd82feb2f926d986237bf6ebd8fbd1404cecf6e72f2fbc8bfa3ca3"
     },
     {
       "path": "REPORT.md",
@@ -5117,33 +5117,33 @@
     },
     {
       "path": "reports/materials-agent-2026-10-01/EVIDENCE.md",
-      "bytes": 5896,
-      "sha256": "db941c07d985184355fd713446f678cffadf54cd51633b533fd4a5c33660194b"
+      "bytes": 7970,
+      "sha256": "43454df64faeed2063d5393fec1b05118b94bed644dcf02dddc00566009471e2"
     },
     {
       "path": "reports/materials-agent-2026-10-01/PUBLICATION_MANIFEST.json",
-      "bytes": 3081,
-      "sha256": "98a641747fa8b7cb2ce5a907bbd9180fccc8ec2f5432613cbdc5fed73a4318ce"
+      "bytes": 3623,
+      "sha256": "d07d5d03bbe643f873d764662b157ef6cc7a8cf6675b6d9b42f70949f00f015f"
     },
     {
       "path": "reports/materials-agent-2026-10-01/README.md",
-      "bytes": 3371,
-      "sha256": "037fa39fe3fc69b243a9c3c62111866076d377a2ddf66f69469160dec3b7bf29"
+      "bytes": 4453,
+      "sha256": "e931214d499830a44b1c5541d6316c9b7e713ee495d1d95651e61866819ce31f"
     },
     {
       "path": "reports/materials-agent-2026-10-01/README_EN.md",
-      "bytes": 4186,
-      "sha256": "8f5df03a2418353434f00bb5efc86aa57e82cd5f2ce9c6305f6be3e8f160e837"
+      "bytes": 5321,
+      "sha256": "627f54912717e7e1be4f852f5c3af8a4f0c1c72785d516f124032d1b253613f6"
     },
     {
       "path": "reports/materials-agent-2026-10-01/REPORT_EN.md",
-      "bytes": 8074,
-      "sha256": "ac09e36d13690cc7b5e6646120e70bb94345f1c76e0d5cb3dbf260a697daa215"
+      "bytes": 8451,
+      "sha256": "4c8d450b0d638951c1a5ac6055ed70a35d0716a65eda92e7d1e207469142114c"
     },
     {
       "path": "reports/materials-agent-2026-10-01/REPORT_ZH.md",
-      "bytes": 7329,
-      "sha256": "b64fda2ac49fb76014552d508befac3e8e4ca1caedeeae78890ac9befb6eead9"
+      "bytes": 7535,
+      "sha256": "691b1a58bb4a642c63c23402e71679f3fa72342ded2e48a28717515aa5315eda"
     },
     {
       "path": "reports/materials-agent-2026-10-01/evidence/composition_groups.csv",
@@ -5219,6 +5219,11 @@
       "path": "reports/materials-agent-2026-10-01/figures/workflow_en.svg",
       "bytes": 119871,
       "sha256": "b283fa95ae83d38d8fee9aff27c2d4726304db72089a3684f2153b0f4ff1b961"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/dataset_publication.json",
+      "bytes": 2997,
+      "sha256": "14eeb5100920df6d61a025d66cc20101f7b702f6366445391009f3f580d602b6"
     }
   ]
 }
