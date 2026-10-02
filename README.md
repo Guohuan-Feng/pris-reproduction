@@ -23,6 +23,10 @@ Two property-prediction directions are progressing in parallel:
 | Material formation energy and stability | Earlier descriptor benchmark; current mechanism study: 39 composition groups, 21 matched pairs, eight source cases | Current: both revised explanations failed their tests; robust mechanism not established. Earlier prediction results remain documented separately | [Latest English](reports/materials-agent-2026-10-01/README_EN.md) / [中文](reports/materials-agent-2026-10-01/README.md); [earlier benchmark](experiments/scientific-agent-2026-09-30/REPORT_EN.md) |
 | Superconducting critical temperature | 12 tool calls; five descriptor programs; 5773 3DSC records; numerical and representation audits | Historical MAE 4.392 to 4.364 K; interval crosses zero; high-Tc error worsens; stable improvement not established | [English](experiments/superconductivity-agent-2026-10-01/REPORT.md) / [中文](experiments/superconductivity-agent-2026-10-01/REPORT_zh.md) |
 
+### Public superconductivity dataset
+
+The [Hugging Face dataset](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot) provides the 5,773-record 3DSC-MP research snapshot used in this pilot. Its `records` configuration previews formulas, Tc in kelvin and the fixed train / validation / retrospective split (3,764 / 869 / 1,140); `features` provides 109 composition and 28 conventional structure inputs. The [downloadable files](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot/tree/main) include all 5,773 CIFs, the exact frozen prepared data, field descriptions, provenance, CC BY 4.0 attribution and SHA-256 hashes. This GitHub repository holds the code and advisor reports.
+
 ### Current superconductivity workflow
 
 ![Current superconductivity workflow](experiments/superconductivity-agent-2026-10-01/figures/workflow.png)

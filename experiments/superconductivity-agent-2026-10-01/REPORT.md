@@ -6,6 +6,10 @@
 
 The first tool-using agent pilot for superconducting critical temperature prediction is complete. It established an auditable cycle of descriptor proposals, executable experiments, error inspection and revision. **A reliable prediction advantage has not yet been established.** The selected agent model slightly lowers overall retrospective MAE, but worsens positive-Tc and high-Tc errors; a numerical search control has a slightly better overall point estimate. The next stage will repair identified descriptor defects and test the training target through fixed comparisons before further agent search.
 
+## Dataset access
+
+The [public Hugging Face dataset](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot) provides online record preview and [downloads](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot/tree/main) for this pilot's 5,773-record 3DSC-MP snapshot. The fixed train / validation / retrospective split is 3,764 / 869 / 1,140. The `records` configuration displays formulas, Tc in kelvin and split metadata; `features` contains 109 composition and 28 conventional structure inputs. All 5,773 CIFs and exact frozen prepared files are included with field descriptions, provenance, CC BY 4.0 attribution and SHA-256 hashes. Publishing the data does not change the retrospective evidence's status.
+
 ## Current workflow and completed work
 
 The diagram below shows the workflow actually executed in the first pilot. GPT proposes and implements structure descriptors; a fixed ExtraTrees regressor produces numerical Tc predictions. The retrospective branch is separated from adaptive candidate selection within this run, but the entire public cohort had been analyzed previously.

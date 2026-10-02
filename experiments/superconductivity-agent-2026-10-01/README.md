@@ -6,6 +6,14 @@
 
 **截至 2026-10-01：** 超导工具调用流程已完成首轮，包含 12 次科学工具调用和 5 次描述符实验。尚未证实稳定预测优势。下一轮拟先修结构表示，再用固定对照检验特征与训练目标。
 
+## Public dataset
+
+[Hugging Face dataset](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot) · [Download files](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot/tree/main)
+
+The `records` configuration previews all 5,773 records with formulas, Tc in kelvin and the frozen train / validation / retrospective split (3,764 / 869 / 1,140). The `features` configuration contains 109 composition and 28 conventional structure inputs. Downloads include all 5,773 CIFs, exact frozen prepared files, schemas, provenance, CC BY 4.0 attribution and SHA-256 hashes. This is a prepared research snapshot of the public 3DSC-MP data.
+
+`records` 可在线查看全部 5773 条记录的化学式、Tc（K）和固定划分：训练 3764 条、验证 869 条、历史评估 1140 条。`features` 包含 109 个成分和 28 个常规结构输入。下载文件提供全部 5773 个 CIF、原样冻结的已制备文件、字段说明、来源、CC BY 4.0 归属声明及 SHA-256 哈希；这是公开 3DSC-MP 数据的研究整理快照。
+
 ## Current workflow
 
 ![Current superconductivity workflow](figures/workflow.png)

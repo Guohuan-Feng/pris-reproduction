@@ -23,6 +23,10 @@
 | 材料形成能与稳定性 | 已有描述符基准；本轮机制探索：39 个组成组、21 对匹配结构、8 例源核查 | 本轮两条修订均未通过检验，尚未建立稳健机制；此前预测结果单独保留 | [本轮中文](reports/materials-agent-2026-10-01/README.md) / [English](reports/materials-agent-2026-10-01/README_EN.md)；[此前基准](experiments/scientific-agent-2026-09-30/REPORT_ZH.md) |
 | 超导临界温度 | 12 次工具调用；5 组描述符；5773 条 3DSC 记录；数值及表示审计 | 历史 MAE 从 4.392 降至 4.364 K；区间跨零；高 Tc 误差变差；尚未证实稳定改善 | [中文](experiments/superconductivity-agent-2026-10-01/REPORT_zh.md) / [English](experiments/superconductivity-agent-2026-10-01/REPORT.md) |
 
+### 公开超导数据集
+
+[Hugging Face 数据集](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot)保存本轮实际使用的 5773 条 3DSC-MP 研究快照。`records` 可在线查看化学式、Tc（K）及固定的训练 / 验证 / 历史评估划分（3764 / 869 / 1140）；`features` 提供 109 个成分和 28 个常规结构输入。[下载文件](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot/tree/main)包含全部 5773 个 CIF、原样冻结的已制备数据、字段说明、来源、CC BY 4.0 归属声明与 SHA-256 哈希。代码和导师汇报保留在本 GitHub 仓库。
+
 ### 当前超导流程
 
 ![当前超导实验流程](experiments/superconductivity-agent-2026-10-01/figures/workflow.png)
