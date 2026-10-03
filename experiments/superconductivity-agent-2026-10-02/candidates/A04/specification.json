@@ -1,0 +1,22 @@
+{
+  "experts": {
+    "cu_o": {
+      "model": "hist_gradient_boosting",
+      "target": "raw"
+    },
+    "fe_anion": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "other": {
+      "model": "extra_trees",
+      "target": "raw"
+    }
+  },
+  "global": {
+    "model": "extra_trees",
+    "target": "raw"
+  },
+  "input": "composition",
+  "routing": "chemistry"
+}

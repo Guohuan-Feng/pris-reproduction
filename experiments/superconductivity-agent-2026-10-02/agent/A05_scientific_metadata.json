@@ -1,0 +1,28 @@
+{
+  "candidate_id": "A05",
+  "name": "chemistry_fe_global_et_raw",
+  "hypothesis": "The 37-group fe_anion specialist contributes avoidable small-route variance, while the cu_o expert supplies the observed high-Tc gain and the large other expert is well supported; falling fe_anion back to global raw ExtraTrees will improve A01 without sacrificing its positive-Tc guard.",
+  "falsification": "Falsified if pooled OOF MAE is not below A01's 7.8365759376 K or positive-Tc MAE exceeds G01's 8.8321655079 K; degradation localized to high-Tc error would indicate useful fe_anion specialization despite its small group count.",
+  "revision_of": "A01",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cu_o": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "other": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  },
+  "started_utc": "2026-10-03T00:24:34.868214+00:00",
+  "finished_utc": "2026-10-03T00:25:40.601732+00:00",
+  "status": "complete"
+}

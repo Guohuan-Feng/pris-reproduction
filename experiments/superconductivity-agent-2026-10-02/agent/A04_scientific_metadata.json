@@ -1,0 +1,32 @@
+{
+  "candidate_id": "A04",
+  "name": "chemistry_cuo_hgb_raw_retry",
+  "hypothesis": "The cu_o route benefits from specialization for high-Tc cases, but ExtraTrees is unstable across its relatively few connected groups; a raw-target histogram gradient boosting cu_o expert with raw ExtraTrees elsewhere will reduce extreme cu_o misses and improve A01.",
+  "falsification": "Falsified if pooled OOF MAE is not below A01's 7.8365759376 K or positive-Tc MAE exceeds G01's 8.8321655079 K; worse high-Tc MAE would refute the intended regularization benefit for rare high-Tc cases.",
+  "revision_of": "A01",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cu_o": {
+        "model": "hist_gradient_boosting",
+        "target": "raw"
+      },
+      "fe_anion": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "other": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  },
+  "started_utc": "2026-10-03T00:22:43.415358+00:00",
+  "finished_utc": "2026-10-03T00:24:00.466085+00:00",
+  "status": "complete"
+}

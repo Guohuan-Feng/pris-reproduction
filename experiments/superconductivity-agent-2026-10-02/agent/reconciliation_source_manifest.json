@@ -1,0 +1,5 @@
+{
+  "purpose": "Exact archived source used for post-session administrative record reconciliation before controls/freeze; executed from work/reconcile_tc_v2_attempts_2026-10-02.py, not from this archive copy.",
+  "sha256": "89a300ea5b175c88219bae3a4e2eeb5ed62f6738174a4942bdedb972af4823d6",
+  "independent_precondition_review": "No A03 candidate directory or metadata existed before reconstruction. Failure was at state persistence before any fit. Original state and original tool journal retained."
+}

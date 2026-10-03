@@ -6,6 +6,14 @@
 
 完整报告提供[中文版](REPORT_zh.md)和[英文版](REPORT.md)。本仓库保存实际执行的复现代码、公开原始结构、数值结果、图表、日志以及未经修改的作者分析器。**这是对公开输入完整部分的独立、部分复现，并非官方 PRIS 仓库。**没有重跑原始 200 万次候选搜索或 VASP，也没有复现缺少输入的完整留出集。
 
+## 超导第二轮：模型与分组选择 — 2026-10-02
+
+已完成真实 GPT 模型 / 路由选择、同尝试次数自动搜索与独立复核。旧验证加权 MAE：共享全局 G01 **8.0885 K**，Agent A05 **8.0849 K**，自动臂 G01 **8.0885 K**。该队列此前已观察，属于开发比较；子群误差与差值区间见完整报告。
+
+[最新中文导师汇报](experiments/superconductivity-agent-2026-10-02/REPORT_zh.md) · [English](experiments/superconductivity-agent-2026-10-02/REPORT.md) · [数据 / 代码 / 全部结果](experiments/superconductivity-agent-2026-10-02/README.md)
+
+![第二轮实际流程](experiments/superconductivity-agent-2026-10-02/figures/workflow_v2.png)
+
 ## 导师汇报：材料能量与稳定性 — 2026-10-01
 
 **已完成 Agent 的“假设 → 工具计算 → 反例 → 修订 → 再检验”闭环。** 使用已观察的 2,879 条开发数据，对照 39 组同成分材料；两条修订均未通过预设检验，目前尚未建立稳健物理机制。独立数值复核通过，未观察材料或物理验证尚未开展。
@@ -29,7 +37,7 @@
 
 [Hugging Face 数据集](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot)保存本轮实际使用的 5773 条 3DSC-MP 研究快照。`records` 可在线查看化学式、Tc（K）及固定的训练 / 验证 / 历史评估划分（3764 / 869 / 1140）；`features` 提供 109 个成分和 28 个常规结构输入。[下载文件](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot/tree/main)包含全部 5773 个 CIF、原样冻结的已制备数据、字段说明、来源、CC BY 4.0 归属声明与 SHA-256 哈希。代码和导师汇报保留在本 GitHub 仓库。
 
-### 当前超导流程
+### 第一轮冻结超导流程
 
 ![当前超导实验流程](experiments/superconductivity-agent-2026-10-01/figures/workflow.png)
 
@@ -53,7 +61,7 @@ flowchart TD
 
 </details>
 
-超导历史测试队列此前已分析过，不能视为全新独立验证。第二轮方案尚未执行。详见[完整流程与证据入口](experiments/superconductivity-agent-2026-10-01/README.md)。
+超导历史测试队列此前已分析过，不能视为全新独立验证。第二轮已执行，见[最新汇报](experiments/superconductivity-agent-2026-10-02/REPORT_zh.md)。详见[完整流程与证据入口](experiments/superconductivity-agent-2026-10-01/README.md)。
 
 ## 使用科学工具的 GPT 扩展实验 — 2026-09-30
 

@@ -1,0 +1,32 @@
+{
+  "candidate_id": "A01",
+  "name": "chemistry_et_raw_uniform",
+  "hypothesis": "Fold-local experts on the fixed mutually exclusive cu_o, fe_anion, and other composition routes will reduce pooled OOF MAE by separating target relationships, while raw-target ExtraTrees will preserve positive-Tc and rare high-Tc predictions.",
+  "falsification": "Falsified if pooled OOF MAE is not below G01's 7.9126834488 K or positive-Tc OOF MAE exceeds G01's 8.8321655079 K; high-Tc MAE and route behavior diagnose whether specialization merely overfits small groups.",
+  "revision_of": "none",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cu_o": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "fe_anion": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "other": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  },
+  "started_utc": "2026-10-03T00:19:25.122246+00:00",
+  "finished_utc": "2026-10-03T00:20:34.559138+00:00",
+  "status": "complete"
+}

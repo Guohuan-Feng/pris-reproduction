@@ -1,0 +1,20 @@
+{
+  "shared_global_ids": [
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08"
+  ],
+  "outside_menu_reference_ids": [
+    "D01",
+    "D02",
+    "R01",
+    "R02"
+  ],
+  "best_shared_global": "G01",
+  "selection_anchor": "Single shared global with lowest weighted overall 3-fold OOF MAE; its positive-Tc MAE is the guard for both search arms."
+}

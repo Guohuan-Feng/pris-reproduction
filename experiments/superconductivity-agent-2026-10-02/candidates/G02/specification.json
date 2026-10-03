@@ -1,0 +1,9 @@
+{
+  "experts": {},
+  "global": {
+    "model": "extra_trees",
+    "target": "log1p"
+  },
+  "input": "composition",
+  "routing": "global"
+}

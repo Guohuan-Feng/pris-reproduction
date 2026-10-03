@@ -1,0 +1,22 @@
+{
+  "experts": {
+    "cluster0": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "cluster1": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "cluster2": {
+      "model": "extra_trees",
+      "target": "log1p"
+    }
+  },
+  "global": {
+    "model": "extra_trees",
+    "target": "raw"
+  },
+  "input": "composition_repaired",
+  "routing": "kmeans3"
+}

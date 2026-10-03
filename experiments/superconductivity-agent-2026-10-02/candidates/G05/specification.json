@@ -1,0 +1,9 @@
+{
+  "experts": {},
+  "global": {
+    "model": "extra_trees",
+    "target": "raw"
+  },
+  "input": "composition_repaired",
+  "routing": "global"
+}

@@ -1,0 +1,28 @@
+{
+  "candidate_id": "A02",
+  "name": "chemistry_cuo_global_et_raw",
+  "hypothesis": "A01's largest errors reflect unstable cu_o specialization under group-distribution imbalance; routing cu_o through the global raw ExtraTrees model while retaining fe_anion and other experts will lower overall and recorded-zero error without losing the positive-Tc guard.",
+  "falsification": "Falsified as a revision if OOF MAE is not below A01's 7.8365759376 K, or if positive-Tc MAE exceeds G01's 8.8321655079 K; a rebound in high-Tc MAE would show that the cu_o expert's gains came with the observed zero-Tc tradeoff.",
+  "revision_of": "A01",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "fe_anion": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "other": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  },
+  "started_utc": "2026-10-03T00:20:56.957147+00:00",
+  "finished_utc": "2026-10-03T00:22:11.672284+00:00",
+  "status": "complete"
+}

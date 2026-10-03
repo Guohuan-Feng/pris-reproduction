@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/aimat-lab/3DSC",
+  "commit": "2471dd51a298a854cb4f365ebd39e72c7cbf3634",
+  "archive_url": "https://codeload.github.com/aimat-lab/3DSC/zip/2471dd51a298a854cb4f365ebd39e72c7cbf3634",
+  "archive_sha256": "eed0289f1c294c8db7a7bf4603bf368ef5f12dde12edf1243bcff2638357bbef",
+  "csv_sha256": "353b86f9c60505d11a3e25df8312da02ff88fd8e27af05b632dec4739d52eb24",
+  "structure_count": 5773,
+  "data_license": "CC BY 4.0",
+  "code_license": "upstream MIT",
+  "download_note": "Only referenced final CIFs extracted; upstream code not executed."
+}

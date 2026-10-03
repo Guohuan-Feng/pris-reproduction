@@ -6,6 +6,14 @@ Reproduced on 2026-09-14 from [AI4QC/PRIS](https://github.com/AI4QC/PRIS), commi
 
 Read the full report in [English](REPORT.md) or [Chinese](REPORT_zh.md). This repository contains actual calculations, original public input structures, derived numerical tables, logs, and unchanged upstream analyzer source. It is an independent, partial scientific reproduction of the data-complete portions of the release. It does not rerun the two-million-candidate agent search or VASP, and it does not reproduce the missing full held-out benchmark. It is not the official PRIS repository.
 
+## Superconductivity pipeline-selection follow-up — 2026-10-02
+
+Completed one real GPT pipeline/routing search, a matched-attempt seeded automated search, and independent verification. Old-validation weighted MAE: shared global G01 **8.0885 K**, Agent A05 **8.0849 K**, automated arm G01 **8.0885 K**. This previously inspected cohort supports a development comparison; the report retains subgroup tradeoffs and conditional difference intervals.
+
+[Latest English report](experiments/superconductivity-agent-2026-10-02/REPORT.md) · [中文导师汇报](experiments/superconductivity-agent-2026-10-02/REPORT_zh.md) · [Data, code and all results](experiments/superconductivity-agent-2026-10-02/README.md)
+
+![Executed second-round workflow](experiments/superconductivity-agent-2026-10-02/figures/workflow_v2.png)
+
 ## Faculty progress report — 2026-10-01
 
 **Material energy and stability:** the agents completed a hypothesis → tool calculation → counterexample → revision → retest cycle on 2,879 previously observed development records (39 composition groups). Both revised explanations failed their specified tests; no robust physical mechanism is established. Independent numerical checks passed. Unseen-data/physical validation remains pending.
@@ -29,7 +37,7 @@ Two property-prediction directions are progressing in parallel:
 
 The [Hugging Face dataset](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot) provides the 5,773-record 3DSC-MP research snapshot used in this pilot. Its `records` configuration previews formulas, Tc in kelvin and the fixed train / validation / retrospective split (3,764 / 869 / 1,140); `features` provides 109 composition and 28 conventional structure inputs. The [downloadable files](https://huggingface.co/datasets/fgh123654/3dsc-mp-tc-pilot/tree/main) include all 5,773 CIFs, the exact frozen prepared data, field descriptions, provenance, CC BY 4.0 attribution and SHA-256 hashes. This GitHub repository holds the code and advisor reports.
 
-### Current superconductivity workflow
+### Frozen first-round superconductivity workflow
 
 ![Current superconductivity workflow](experiments/superconductivity-agent-2026-10-01/figures/workflow.png)
 
@@ -53,7 +61,7 @@ flowchart TD
 
 </details>
 
-The superconductivity historical cohort has been analyzed before and is not a new independent test. The proposed second round has not been executed. See the [full workflow and supporting evidence](experiments/superconductivity-agent-2026-10-01/README.md).
+The superconductivity historical cohort has been analyzed before and is not a new independent test. The second round is complete: [latest report](experiments/superconductivity-agent-2026-10-02/REPORT.md). See the [full workflow and supporting evidence](experiments/superconductivity-agent-2026-10-01/README.md).
 
 ## Tool-using GPT extension — 2026-09-30
 

@@ -1,0 +1,9 @@
+{
+  "experts": {},
+  "global": {
+    "model": "hist_gradient_boosting",
+    "target": "raw"
+  },
+  "input": "composition",
+  "routing": "global"
+}

@@ -1,0 +1,26 @@
+{
+  "summary": "Select A05 by the fixed rule. A05 uses composition inputs, fixed chemistry routing, global raw-target ExtraTrees, raw-target ExtraTrees experts for cu_o and other, and global fallback for fe_anion. On pooled fixed 3-fold TRAIN group OOF it achieves MAE 7.7525987708 K and positive-Tc MAE 8.5050798470 K, improving the G01 anchor (7.9126834488 K overall; 8.8321655079 K positive). RMSE improves from 14.6097258617 to 13.9945002415 K and Tc>=40 K MAE from 32.7715994824 to 28.8502061198 K; recorded-zero MAE worsens from 5.8696526181 to 6.0806335345 K. A01 was eligible at 7.8365759376/8.5950743402 K (overall/positive); A02 failed the positive guard; A04 retained the guard but did not beat G01 overall. A03 was an infrastructure failure before fitting and consumed an attempt. The comparison confirms G01 is the best shared global, and its MAE is also lower than all four fixed outside-menu structural diagnostics, so it is the strongest evaluated global overall.",
+  "supported_hypotheses": [
+    "A01 supports the predictive hypothesis that fixed composition-template specialization with raw ExtraTrees can improve both anchored metrics and reduce rare high-Tc underprediction relative to G01, without implying physical material families.",
+    "The OOF counterexamples and route metrics localized the largest A01 misses to cu_o, especially fold 0 where 37 fitting groups served 571 held rows; nevertheless A02 showed that removing cu_o specialization sacrifices the positive-Tc guard and most of the high-Tc gain.",
+    "A05 supports the empirically informed small-route revision: global fallback for the 37-group fe_anion route improves A01 overall and positive-Tc MAE while retaining the cu_o-driven high-Tc benefit."
+  ],
+  "failed_hypotheses": [
+    "A02 falsified the proposed A01 revision that global fallback for cu_o would improve overall performance: MAE rose to 7.9112197448 K and positive-Tc MAE 8.9255455559 K violated the G01 guard, although recorded-zero MAE improved.",
+    "A04 falsified the claim that a histogram-gradient-boosting cu_o expert would improve A01 overall: it achieved 8.0417079792 K overall despite better positive-Tc and high-Tc errors, because recorded-zero MAE worsened to 7.1829475222 K.",
+    "Uniform log1p global references consistently improved recorded-zero error but substantially worsened positive and high-Tc errors, so heterogeneous log transforms were not supported strongly enough to displace the final small-group routing revision within the fixed attempt budget.",
+    "A03 yielded no scientific test because the state update failed with a permission error before fitting."
+  ],
+  "limitations": [
+    "All evidence is pooled out-of-fold prediction on the original training set's three fixed connected-group folds; no final validation or retrospective target outcome is available.",
+    "Selection follows the predeclared anchor guard and minimum-overall-MAE rule; diagnostics such as RMSE, recorded-zero error, and Tc>=40 K error do not override it.",
+    "Recorded Tc=0 is not universal evidence of nonsuperconductivity, and the selected model's recorded-zero MAE is slightly worse than G01.",
+    "Matched MP structures and artificial doping are proxies rather than measured paired experimental structures; repaired and outside-menu structure references did not establish structural causation.",
+    "cu_o and fe_anion are mutually exclusive operational composition rules, not proven material families; the observed route effects are predictive, not established superconductivity mechanisms.",
+    "Only 24 connected groups contain Tc>=40 K rows, and the cu_o fold populations are imbalanced, so the apparent high-Tc improvement may be unstable.",
+    "No kmeans3 candidate was fitted within the five-attempt budget; fold-local ordinal cluster labels would in any case describe potentially different populations across folds.",
+    "Training OOF evidence cannot establish fresh independent performance or discovery of new materials."
+  ],
+  "recorded_utc": "2026-10-03T00:26:25.687895+00:00",
+  "scope": "Training OOF on previously observed public historical records"
+}

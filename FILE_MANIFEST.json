@@ -16,19 +16,54 @@
       "sha256": "bf2ee42ccf00412d66682929c12737a7b1faf0e6e541daabcfed739f1e9ae823"
     },
     {
+      "path": "DEPENDENCIES.md",
+      "bytes": 6491,
+      "sha256": "487326adfcf182ac3196f7efe9ca371e9f62146715c4879ee32677f589159b0c"
+    },
+    {
+      "path": "DEPENDENCIES_zh.md",
+      "bytes": 5557,
+      "sha256": "31a432bf73fac09e6820086f7aade9befc10c9e39ec4274075b05b78ff1b87c6"
+    },
+    {
+      "path": "LOG_REDACTION.md",
+      "bytes": 2456,
+      "sha256": "f2608db43979a6979bca6f1069ee4af8fed74224b80a4ffa92a8539aa4016dbf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12771,
+      "sha256": "3480f9ec562137fca30d98f162a4a8a294ea93cbc02576dd8da342359d3214a6"
+    },
+    {
+      "path": "README_zh.md",
+      "bytes": 11584,
+      "sha256": "91b35d3d7331b66ff129bca4ec0bfae3dd92f4287df305d5fc1b20ec13b5dcc5"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 20902,
+      "sha256": "75ebf5c8240c0fcec92c1ceefd4f700de1703d76dbd5d1b62a728edfd3703e28"
+    },
+    {
+      "path": "REPORT_zh.md",
+      "bytes": 17361,
+      "sha256": "ba4a0d9c381ba858f532742c2c267a227484551086e698263b1646b835a1212e"
+    },
+    {
+      "path": "REPRODUCTION_AUDIT.md",
+      "bytes": 12890,
+      "sha256": "4675e7a2f5aaa7cb2376411f04a65f643235d983f506c7b73d95ea15e7c16d3e"
+    },
+    {
+      "path": "REPRODUCTION_AUDIT_zh.md",
+      "bytes": 12513,
+      "sha256": "a5a4448bfc9ca51f36d1454b0c5cd361cca49784fa131882ac3495561e8bb784"
+    },
+    {
       "path": "bootstrap.py",
       "bytes": 2078,
       "sha256": "30fedc89ee3eb10c302aa5c94148be770768389c96de1009b1241aeeb0592e52"
-    },
-    {
-      "path": "data/eos/manifest.json",
-      "bytes": 853,
-      "sha256": "9631c55b64098cc1ab4a5cef0f6bbfbe1cf3c083bebb8d2ebdfe1a3487739695"
-    },
-    {
-      "path": "data/eos/published_bulk_moduli.json",
-      "bytes": 96690,
-      "sha256": "09862d1c82a03d913e419cbcb17446cdd4ba56d0b31fde6bb11164e5d0ac26f1"
     },
     {
       "path": "data/eos/README.md",
@@ -41,24 +76,24 @@
       "sha256": "f553b248e9a90a48f7e101c874ac98fb551aef21cc6800cb8d176880308c2780"
     },
     {
-      "path": "data/eos/stage_b_collected.json",
-      "bytes": 9363370,
-      "sha256": "9908b49e704fb5962d0e35f559726f744713c62ca9345a8d11ee16d72df4f9e0"
-    },
-    {
       "path": "data/eos/UPSTREAM_LICENSE",
       "bytes": 1489,
       "sha256": "7a195f0cdaabf80a1ca50625d6727c82cec1be4819253e3e0d2ee8a2921d95f1"
     },
     {
-      "path": "data/original_e3/manifest.csv",
-      "bytes": 70229,
-      "sha256": "577de99da35946f4afc4da53d5fbf2c24ba00aad9ff8c69437a59bab75fccf05"
+      "path": "data/eos/manifest.json",
+      "bytes": 853,
+      "sha256": "9631c55b64098cc1ab4a5cef0f6bbfbe1cf3c083bebb8d2ebdfe1a3487739695"
     },
     {
-      "path": "data/original_e3/manifest.json",
-      "bytes": 145329,
-      "sha256": "3a1bd50176f57491a431f57b19617d9d0ecd6094d95ed77daeace2ba86f63a98"
+      "path": "data/eos/published_bulk_moduli.json",
+      "bytes": 96690,
+      "sha256": "09862d1c82a03d913e419cbcb17446cdd4ba56d0b31fde6bb11164e5d0ac26f1"
+    },
+    {
+      "path": "data/eos/stage_b_collected.json",
+      "bytes": 9363370,
+      "sha256": "9908b49e704fb5962d0e35f559726f744713c62ca9345a8d11ee16d72df4f9e0"
     },
     {
       "path": "data/original_e3/README.md",
@@ -69,6 +104,16 @@
       "path": "data/original_e3/README_zh.md",
       "bytes": 1179,
       "sha256": "1c510adc8ac62155419ebfcd5ff1f77e3de8e141d40186bdf33cefcb66693ebf"
+    },
+    {
+      "path": "data/original_e3/manifest.csv",
+      "bytes": 70229,
+      "sha256": "577de99da35946f4afc4da53d5fbf2c24ba00aad9ff8c69437a59bab75fccf05"
+    },
+    {
+      "path": "data/original_e3/manifest.json",
+      "bytes": 145329,
+      "sha256": "3a1bd50176f57491a431f57b19617d9d0ecd6094d95ed77daeace2ba86f63a98"
     },
     {
       "path": "data/original_e3/structures/E3-cod-1001469-P0/POSCAR.init",
@@ -4501,54 +4546,1664 @@
       "sha256": "b9f61d2ca3119a87f5d325ab5fa0c4818335547d947b05caef2557f106dd8635"
     },
     {
-      "path": "DEPENDENCIES.md",
-      "bytes": 6491,
-      "sha256": "487326adfcf182ac3196f7efe9ca371e9f62146715c4879ee32677f589159b0c"
+      "path": "experiments/scientific-agent-2026-09-30/AUDIT_DESIGN.md",
+      "bytes": 11873,
+      "sha256": "b61c26ef540b0988aa0cccb645cce4639a96bd411303868b38038536840dd55b"
     },
     {
-      "path": "DEPENDENCIES_zh.md",
-      "bytes": 5557,
-      "sha256": "31a432bf73fac09e6820086f7aade9befc10c9e39ec4274075b05b78ff1b87c6"
+      "path": "experiments/scientific-agent-2026-09-30/AUDIT_PROVENANCE_NOTE.md",
+      "bytes": 4630,
+      "sha256": "128ea22db952e36163d19a4f3e162047aa6523d77b832edc32786ad7f60e1cc6"
     },
     {
-      "path": "LOG_REDACTION.md",
-      "bytes": 2456,
-      "sha256": "f2608db43979a6979bca6f1069ee4af8fed74224b80a4ffa92a8539aa4016dbf"
+      "path": "experiments/scientific-agent-2026-09-30/DATA_LICENSE.md",
+      "bytes": 921,
+      "sha256": "c43882a418bd48a1ffcf7c6562e7e6862ec5e2f96a8e13c08d698613b80af149"
     },
     {
-      "path": "README.md",
-      "bytes": 11882,
-      "sha256": "1df6b35345dfcba3d2e830e154bb31b181313d48c26cccf5eef5d4808003e95a"
+      "path": "experiments/scientific-agent-2026-09-30/EVALUATOR_TESTS.md",
+      "bytes": 2083,
+      "sha256": "d54673026b05dfbd69ed2a862339e2d3c76a7b0422a4c5bf3726a313b87320fa"
     },
     {
-      "path": "README_zh.md",
-      "bytes": 10792,
-      "sha256": "cfb19d7025dd82feb2f926d986237bf6ebd8fbd1404cecf6e72f2fbc8bfa3ca3"
+      "path": "experiments/scientific-agent-2026-09-30/FINAL_EVALUATION_AUTHORIZATION.json",
+      "bytes": 393,
+      "sha256": "bb7470266754313fdbe5536d417ce6f5bf7806f822a35f2871ce8533842f1dbe"
     },
     {
-      "path": "REPORT.md",
-      "bytes": 20902,
-      "sha256": "75ebf5c8240c0fcec92c1ceefd4f700de1703d76dbd5d1b62a728edfd3703e28"
+      "path": "experiments/scientific-agent-2026-09-30/PACKAGE_MANIFEST.json",
+      "bytes": 25470,
+      "sha256": "97542588b680f4b47fc8f4ce783c3dd707feb6ae30995b5f8b4311acc39b0643"
     },
     {
-      "path": "REPORT_zh.md",
-      "bytes": 17361,
-      "sha256": "ba4a0d9c381ba858f532742c2c267a227484551086e698263b1646b835a1212e"
+      "path": "experiments/scientific-agent-2026-09-30/PACKAGE_VERIFICATION.json",
+      "bytes": 322,
+      "sha256": "5025e40e5ca3267cddf3454843a972aa6a273a49631cd7457d5778965f6ddaa3"
     },
     {
-      "path": "REPRODUCTION_AUDIT.md",
-      "bytes": 12890,
-      "sha256": "4675e7a2f5aaa7cb2376411f04a65f643235d983f506c7b73d95ea15e7c16d3e"
+      "path": "experiments/scientific-agent-2026-09-30/PROTOCOL.md",
+      "bytes": 5416,
+      "sha256": "2141b5ed3337b02ded1bf3b020eb5ebecc4cd1c6b12653f8a4349fb17d4df2f4"
     },
     {
-      "path": "REPRODUCTION_AUDIT_zh.md",
-      "bytes": 12513,
-      "sha256": "a5a4448bfc9ca51f36d1454b0c5cd361cca49784fa131882ac3495561e8bb784"
+      "path": "experiments/scientific-agent-2026-09-30/README.md",
+      "bytes": 2864,
+      "sha256": "e46141d84de1e9458c9086e28a873f6ea7e066f08ce74c3dd26f8b6acc4a97d3"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/REPORT_EN.md",
+      "bytes": 7941,
+      "sha256": "53d4d12d6c5f34d7cc3d7ea66c65c35f1e352679412e74045b8457fbcd88a79d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/REPORT_ZH.md",
+      "bytes": 8954,
+      "sha256": "dd77476ba319746b4a5b9ccc10f828fbdd81aec99bac312d2382fc236688329e"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/REPRODUCE.md",
+      "bytes": 4176,
+      "sha256": "cf279f612a46d84ad0d0f09ace37817f7a772c3752f38e6f0593a204150c6506"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/SOURCE_DEPENDENCIES.json",
+      "bytes": 1330,
+      "sha256": "8d662e6914b97a8ab500a47528ef2408ec83ace95777dfa80e84e4ea2d7a3536"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/STARTUP_RECOVERY.md",
+      "bytes": 1009,
+      "sha256": "64857ee6591d13488bd0a5613f89a62cb867010e5b016bfa017d5a23f3d01840"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/USAGE_SUMMARY.json",
+      "bytes": 1347,
+      "sha256": "f6a08b80669eb3167fd79a9c024306f28cf9fd00a7a8eb01a0baeb1c34997ae8"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/conclusion.json",
+      "bytes": 3597,
+      "sha256": "bb58c2ca20865dbfd4a32b14e86b4fcfff6f20f2fbd308c8b6170275780c18db"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/events.jsonl",
+      "bytes": 1463,
+      "sha256": "47c51147f5e9e5feeff4009f2f14e29862b82d3d2036f5f73a24501ae478349c"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/final_response.md",
+      "bytes": 295,
+      "sha256": "affc016990839591e0ea0b250c37ca7f747e7d648cd86054b42ddea4ca3010f9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/initial_PROTOCOL.md",
+      "bytes": 5192,
+      "sha256": "b1782668e7bfef7bab682e169bda0af2990f52e76b9d2758ee7bbc36842e2339"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/initial_run_agent.py",
+      "bytes": 8086,
+      "sha256": "745bcc6fa41b840a3f7f8a6b22c16ccb0b162ae7a47e88d1639a7be8f383274f"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/invocation.json",
+      "bytes": 5247,
+      "sha256": "dde07dbed53bd153026a6f7b41ad73292d30ff785e2e86bf0ce0202c3f8db090"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/prompt.txt",
+      "bytes": 3034,
+      "sha256": "5d01bad670532c4deeb837ef84873155d4c24e01f70fb3307021ce11cf7cde1f"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/recovered/events.jsonl",
+      "bytes": 160638,
+      "sha256": "4d4dadb3bf1e0e072c8dc35404e81df0e40f09a6c3fc25a1e7ddda3568a4df09"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/recovered/final_response.md",
+      "bytes": 2217,
+      "sha256": "f58d679fdc0a1b795216914795d04bb61e983e4bd1f64b5048cdda07c6beadee"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/recovered/invocation.json",
+      "bytes": 4722,
+      "sha256": "c6f76ef42c9ee6210195ee2426f6228b64267463add52afc5ebb3f4e85ec17b9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/recovered/prompt.txt",
+      "bytes": 3034,
+      "sha256": "5d01bad670532c4deeb837ef84873155d4c24e01f70fb3307021ce11cf7cde1f"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/recovered/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/state.json",
+      "bytes": 18346,
+      "sha256": "6d396e7d654b2613cdb04ada0c7de36fdf1ac5564a460c6bc8622022ac19637c"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/stderr.log",
+      "bytes": 94,
+      "sha256": "b7a7194e3f765c8decb6fd4c2c93bad0ef75012a4f4463b05f5eb6ae787496f9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/agent/tool_events.jsonl",
+      "bytes": 88515,
+      "sha256": "59013823638f4dbf3ce578c25d799d66daf02b81f1e9e7d75f7ed2c9c5e24028"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/audit_development.json",
+      "bytes": 98515,
+      "sha256": "9c1e46d66b0dbf7c2606b5f078786627bc918732b373582d46cabbac102d6f57"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/audit_development_authorized.json",
+      "bytes": 97671,
+      "sha256": "1468de962478fafded724b101c15b7c7a78fc6530ea48da78c9f948ccdd554c5"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/audit_final.json",
+      "bytes": 121135,
+      "sha256": "46a27a1210c79c24a8452cb67dd12e89c29255a5b47fa35423086d84534ce0d9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/audit_run.py",
+      "bytes": 22797,
+      "sha256": "e5303273c5383b3d0a5176a4dee55f1e961ddce49591e688a6be00ad7c2d88e9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/check_representation.py",
+      "bytes": 11628,
+      "sha256": "e8c7723cf64fb1005e81f5b80bade5e6c57d2a00c89203b5c7d23d32795099f1"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/check_representation_comparisons.csv",
+      "bytes": 190777,
+      "sha256": "9ff7c64d4fa688d457f59ca0860b4dfe30c12a3d7866aeffb7dea310dda26118"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/check_representation_results.json",
+      "bytes": 36759,
+      "sha256": "03de03a4b7240a8a06278f976f98f002e0d24e8ad7aa6c93e0a1621fe6473efb"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/candidate_ids.csv",
+      "bytes": 413871,
+      "sha256": "7a37e6742248fba6a5f90bffdb787aa119d6e9091dea3d00e1b71f85e306a6b9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/dataset_manifest.json",
+      "bytes": 6660,
+      "sha256": "1051b98db5f2ede5d4168952890ce003fa22d35ca12f1712b317a74373e979fa"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/descriptor_development.jsonl.gz",
+      "bytes": 22130455,
+      "sha256": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/descriptor_schema.json",
+      "bytes": 2237,
+      "sha256": "9ae6d4bea63d3a2918c1188db32fd817991052f77f00fce866d8541c7640db51"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/descriptor_test.jsonl.gz",
+      "bytes": 5153688,
+      "sha256": "709bafabea7fb680eb063e148d100fb676c04a94d8acb95c176423f1d438f3b0"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/development.csv.gz",
+      "bytes": 96398,
+      "sha256": "3edc913e10a50da97e50433af2a4e9f867f3472198e1b061f67143c9fd7bbff1"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/excluded_chemical_systems.csv",
+      "bytes": 181905,
+      "sha256": "92f9cb4b6ea0b0fa97147d780d4cc683f129393e1c17f39950ad79cc102a1ed5"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/excluded_prior_ids.csv",
+      "bytes": 261923,
+      "sha256": "04173bf125d9b3baca90ad024b9f761e2969fb29d1de5f72327698a70827a62c"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/feature_exclusions.json",
+      "bytes": 1069,
+      "sha256": "26f7b1b45eededfa7ede348babfb70bd3be5448e55543e012b117af4203ce2c1"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/feature_schema.json",
+      "bytes": 10203,
+      "sha256": "3cf90de32c1889e46c9472a4ed1a73ba99970ec659d1b1a1dbd00c3079b042e4"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/features.csv.gz",
+      "bytes": 512040,
+      "sha256": "c49a848cacf901aa75a5c2f0dc7b8f045db8a37a0651a8968ee807d932527810"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/preparation_audit.json",
+      "bytes": 1332,
+      "sha256": "5c0505d45c6b99ff34f912c93222820a59691db8d0cc8db47f577367619b3f5e"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/sealed_test.csv.gz",
+      "bytes": 24275,
+      "sha256": "48c9d51724101f30f4d91208161732fc8358db1d7bd81da5bfb59b932a2a9727"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/selected_ids.csv",
+      "bytes": 389312,
+      "sha256": "9cc66967e6cb378794a0ce22c50e3be7e8a6f55ba75305d5c66f158bffb53dda"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data/split_assignments.csv",
+      "bytes": 340358,
+      "sha256": "aedb7ddfb72b329a2ea689af4b737f9dd3b8725c2a09aa2e9d9490cc689476c7"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/data_prepare.py",
+      "bytes": 18567,
+      "sha256": "8c3fb270b66f20b54a8164e89e6904c975133db8f843248a1fdb63ff5d9061ad"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/descriptor_runtime.py",
+      "bytes": 5936,
+      "sha256": "c55bfb61379096bf97078d3961909a2ec67bc949617c639511e5ff8518fa7eee"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/descriptor_runtime_checks.json",
+      "bytes": 3386,
+      "sha256": "cf02135b3d505a3996aa8bafe20d92f0c9863a8f8e88d95b94818ce7d4fff927"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/environment.json",
+      "bytes": 466,
+      "sha256": "94ce7ee83e7e8b147362d9a01df4efee40c7e4bb0ce546421976d9b2221a72cf"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/PREPARE_STARTED.json",
+      "bytes": 48,
+      "sha256": "05558c0f80159742e50faf9b871b10f402e2dc309999e0d2d493955083729234"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E01/development_descriptors.csv.gz",
+      "bytes": 244800,
+      "sha256": "1287b76de20da11de10193386efb5b1c4c9e4f608f409ccb5eb01568f9131308"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E01/result.json",
+      "bytes": 2888,
+      "sha256": "b49a260b4b9d98a1a98719a1ca33e58d73917157038ef866816744b0d96e8815"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E01/specification.json",
+      "bytes": 1382,
+      "sha256": "4eddb1c7cf944338a512b567f30f04a0bc336a2a8fab42aeec18a16841e806ec"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E01/status.json",
+      "bytes": 73,
+      "sha256": "fe138d27e0381efac6c0ccd97daa09277ea6a4066f36c4d0db757884d4f0cb2a"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E02/development_descriptors.csv.gz",
+      "bytes": 156124,
+      "sha256": "8227b27648333be10c6143577ad279a1eced2b1281e5f0a72a2c60654bee7852"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E02/result.json",
+      "bytes": 2847,
+      "sha256": "ebd84b99d726ec180b60270fa8d696505ddbfdeac78cce16b47edb965bc7b76c"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E02/specification.json",
+      "bytes": 1367,
+      "sha256": "76ecebee35f2347630ade83c942b16bd58744abb70969989d8a170e8f98d9d81"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E02/status.json",
+      "bytes": 73,
+      "sha256": "eff8e551491115ab7127596a9773926a940e152b071d12ea438de75098b8ab0c"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E03/development_descriptors.csv.gz",
+      "bytes": 267399,
+      "sha256": "e9bed6aeeb29574bf6e424cad3981def87255da608099f33ed0170e878fcc6b1"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E03/result.json",
+      "bytes": 2955,
+      "sha256": "0d3d9c6613067947e78902d62a5ebe1d098e43711432683748858b36ffe60ff2"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E03/specification.json",
+      "bytes": 1514,
+      "sha256": "7624f493d75872d91e90b8674e047b49a8f8bece5355dc758086352039530a5d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E03/status.json",
+      "bytes": 73,
+      "sha256": "aa189c609b203c6a0138bd605d381c7639cfd6f365126f5652c891db2b59f68b"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E04/development_descriptors.csv.gz",
+      "bytes": 314038,
+      "sha256": "0976c800e70bd74e44dcbc3890afe7937618a551abad99a765b7e050e2b8ff84"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E04/result.json",
+      "bytes": 2995,
+      "sha256": "b91a8fe0b2e33e7feb746f1f6e9f377d67a067344fed12add26082daca0fd0e7"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E04/specification.json",
+      "bytes": 1467,
+      "sha256": "cb7b5ea24903ad6990eb07522b2f925da497ab71864e995e483323e43bf96f4f"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E04/status.json",
+      "bytes": 73,
+      "sha256": "fce898c41794b8f3723357cc7ce24cbbf38c916347fca0fdbdb29605caa6f79a"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E05/development_descriptors.csv.gz",
+      "bytes": 224919,
+      "sha256": "92c3c2e9de10d19fc301c2d42eb32ab323093512970561574c7a4b88a3f2a948"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E05/result.json",
+      "bytes": 2925,
+      "sha256": "6d96588ae19744f4b312c7875fa5968bb61ee6f1ad8041edb3c6467a63db589d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E05/specification.json",
+      "bytes": 1424,
+      "sha256": "19d60aeddabd728c6ffbd7269f5997c0ba8ea49aa71e3a39a31d66c755f4abf9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/candidates/E05/status.json",
+      "bytes": 73,
+      "sha256": "e4ba7633b0f2357b3d0df0a2583ed7a28bd95e6f209804a1efcc6291c79230b4"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/development_summary.json",
+      "bytes": 5001,
+      "sha256": "f249032fc3eaec5a0bf9e4c6026cee91f0928d2b5fdbe5f321086686fe092383"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/final/E04_test_descriptors.csv.gz",
+      "bytes": 79876,
+      "sha256": "bbd1c9cb259820647f77910ff98e1bcb42df8cdbdbba1f11e66efe41613fe1f6"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/final/TEST_ACCESS_STARTED.json",
+      "bytes": 574,
+      "sha256": "62cdb9a2cf70ef4b30927227ea8d5805eb18253f757ba15e00690f386a157fab"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/final/frozen_test_predictions.csv.gz",
+      "bytes": 47691,
+      "sha256": "723c5e21a08bb59b823ba6efa7d0431b47e965a92114d0a03364fb460dc8394d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/final/prediction_freeze.json",
+      "bytes": 709,
+      "sha256": "b3bb24a32712edb460dd102bb7ef053e5977cc8d8382a7c465d9ea6ebb1752f3"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/final/test_predictions_with_targets.csv.gz",
+      "bytes": 52616,
+      "sha256": "afe917b216b6ba52fe6eb837257814b728b08327c66666bf34b539dd6879e858"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/final/test_results.json",
+      "bytes": 4275,
+      "sha256": "1e5e083a55c5c18bc960fa4eca592b92cdcba001cd8280b46fee966dbfda95c9"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E01/development_predictions.csv.gz",
+      "bytes": 164941,
+      "sha256": "e4544e5d2d2603d9fdff37f125d090474db4d87964756226892a30aea853a028"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E01/formation_estimator.joblib",
+      "bytes": 3131,
+      "sha256": "064904860069d7ee8c3f851d5fe97136c60bdef4d2ae0dc1ea6da1daa10c4eea"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E01/formation_model.json",
+      "bytes": 7496,
+      "sha256": "ebe91a1e83fd224e9320a7d2699e56b958b0776c26b04033002a8a9e7c0ec439"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E01/hull_estimator.joblib",
+      "bytes": 1167,
+      "sha256": "03d5972a2c3dfaf1d3661cb8eff098fcd750c76cefa8cdaf79d44c5a85ef9700"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E01/hull_model.json",
+      "bytes": 7675,
+      "sha256": "4ca59293183201bb37badc50e8e55b6cab511304cd6057954e20c3c2d1f23201"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E01/metrics.json",
+      "bytes": 2552,
+      "sha256": "b5ffb413520c975a59fb38765c3a2f240d5096e25f7cd8595a52c70c9a4477ee"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E02/development_predictions.csv.gz",
+      "bytes": 164732,
+      "sha256": "0dc3b3187b4100ccd93361e8f68c485eb8ad8a1521b8cec8d964c7aef3153053"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E02/formation_estimator.joblib",
+      "bytes": 3115,
+      "sha256": "3f155f4323b05a2951edc4e55eb94f36ae9da05ac38a2f11f46f1cd078c1d597"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E02/formation_model.json",
+      "bytes": 7218,
+      "sha256": "153311bdce0c48549b036bf8fe8bb76a8bb4f3f6d7108f055a189d3eeaba1eca"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E02/hull_estimator.joblib",
+      "bytes": 1151,
+      "sha256": "68a7d861b893ae2b31ef1fe915e6cd7e8dc6cb6f194f36f03e17189bb118349e"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E02/hull_model.json",
+      "bytes": 7398,
+      "sha256": "aec46bc5c9976560147ae4f7d82924e326b3e2195b8b0a32d6b30e700ae2153d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E02/metrics.json",
+      "bytes": 2512,
+      "sha256": "77e58168e2bc4cf6a92067cfde5dda098a0308259f1b708a4b3d8078b8cdf78a"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E03/development_predictions.csv.gz",
+      "bytes": 164906,
+      "sha256": "dea1ce77494bb9ef3fdbd66fe2c54c5e08b74751bd899195e9a08e2de47d83c7"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E03/formation_estimator.joblib",
+      "bytes": 3131,
+      "sha256": "06051b3f400e042b585f07bef90b76d307cadec57ca44d8c9dc1cba8bc106cb4"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E03/formation_model.json",
+      "bytes": 7636,
+      "sha256": "718a4ba17dd0cdcec750966ffdfe3008700f1a6d5b3cc7cf3f41fce8b9ca8796"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E03/hull_estimator.joblib",
+      "bytes": 1167,
+      "sha256": "8074531e7ac7bed5cb056d0127e3b7a4d372c9b30c6adfe36305bea865d34eeb"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E03/hull_model.json",
+      "bytes": 7815,
+      "sha256": "ef601b71d74432beb2d7f54c42474ef83ceb0cf7f0606790d47fa1fedca79028"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E03/metrics.json",
+      "bytes": 2620,
+      "sha256": "e398f1098218981ab9cb927ea1afaccb27be6880ddd88daab02643cf27718817"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E04/development_predictions.csv.gz",
+      "bytes": 164834,
+      "sha256": "726f76d6e8b937139138b3af53c8c99ca8cd648bb207a8698f571a8f8bc84cad"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E04/formation_estimator.joblib",
+      "bytes": 3147,
+      "sha256": "2a2eebe65dfb1c71d775b92a98242626abd02c75ac6f080f93c29abfcb3f2eab"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E04/formation_model.json",
+      "bytes": 7958,
+      "sha256": "b66e6e1cbff234de577a695835f5b760dcfff54c13895256b80de64e5efd4441"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E04/hull_estimator.joblib",
+      "bytes": 1183,
+      "sha256": "06993e37d8ec574df985bedab1be53f4440d0b6905c7e47d17abfa83a1b1a380"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E04/hull_model.json",
+      "bytes": 8138,
+      "sha256": "499b702843c498701fc970a88eba004aa87b97f83d8e04ff5ce7af1409b59919"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E04/metrics.json",
+      "bytes": 2660,
+      "sha256": "304b5cbd93083d5fb9704efa36053596e383b3b119eb6e758f484d396bcb5b8a"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E05/development_predictions.csv.gz",
+      "bytes": 164719,
+      "sha256": "f2e0ab6c42b583c1cb63f2adf8080a7127f181b034c1fe3963fe1fefda580809"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E05/formation_estimator.joblib",
+      "bytes": 3147,
+      "sha256": "f0fbe66a8692876e61b86301b1d4f621eced1ab55240fcc9486081250aba261d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E05/formation_model.json",
+      "bytes": 7754,
+      "sha256": "d33427be89a2e3495e4a860905c9f3279c98bc604f8a052d48344ebce493582b"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E05/hull_estimator.joblib",
+      "bytes": 1183,
+      "sha256": "0eceb7927d6eba26e6c7b8567d561b9d464298dfbec2f2bc5adad3c7e8ececcb"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E05/hull_model.json",
+      "bytes": 7933,
+      "sha256": "db5293dc13c00ad307cd4c35d27505cc9a406b5e024e251c1da7c868b43fa094"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/E05/metrics.json",
+      "bytes": 2588,
+      "sha256": "45c2cbbe0dbac93d69c6871575b5d2f06b0dcfefdabfba22608368733c715b30"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/hgb/development_predictions.csv.gz",
+      "bytes": 164487,
+      "sha256": "15ca4e3a4b76805d4c9bd650153893388e2c27bf406c6680e803c12a9a5da2dd"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/hgb/formation_estimator.joblib",
+      "bytes": 313398,
+      "sha256": "ef92c6f78d6c3423677078a58d5d6f48d7330a9a61423996dc2c54517571c829"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/hgb/formation_model.json",
+      "bytes": 5368,
+      "sha256": "958394755d13dd1229dcfe35d08195c9b469ac2689aa6d5df74c38889116c9be"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/hgb/hull_estimator.joblib",
+      "bytes": 313600,
+      "sha256": "2e9f580fdc4ef486beafafcfd6ededd38de22cc13bdbdd7f72546d24968c1d43"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/hgb/hull_model.json",
+      "bytes": 5362,
+      "sha256": "88af4f06e34eb005de9c64b54954f120cc5bf13fa49319769ed0b8447ab4ad83"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/hgb/metrics.json",
+      "bytes": 2316,
+      "sha256": "726754a983f892064d64b7416540c09e45d469d321f237c77da30911e62b5874"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/raw/development_predictions.csv.gz",
+      "bytes": 164689,
+      "sha256": "03e8d80e848848b09c831ba1d1366b2db20fa4898085806e887b2c78d72d4d61"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/raw/formation_estimator.joblib",
+      "bytes": 3051,
+      "sha256": "258e4f8f33920b633f5c75473e9912eaa805c1036e4b57a768719c915be6f7d5"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/raw/formation_model.json",
+      "bytes": 5788,
+      "sha256": "721ab7ccb56bc3676596906086d412fd0c11f6df1ace86185d269f5b3b16e1fd"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/raw/hull_estimator.joblib",
+      "bytes": 1087,
+      "sha256": "6529e52f9a3c51e82f7a04f48b47b0fda89fc6881fcf5841ae3f82c74026522b"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/raw/hull_model.json",
+      "bytes": 5975,
+      "sha256": "83f3df8b4957462b5a8029f1f73f2c314edb886873b4d5a5164d806831c02a91"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/models/raw/metrics.json",
+      "bytes": 2318,
+      "sha256": "866a80aa2e6fc8582416071f69b842e5ed06b87c6fbccc1ef2653cd80e073776"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/prepared.json",
+      "bytes": 54788,
+      "sha256": "7a9e6ceeafff8219fe22937d4a531c2e5ac1a1dc8f8ba5e3f48e77ff73096e89"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluation/selection.json",
+      "bytes": 29560,
+      "sha256": "523dc2ee3ba503fbf635f3b783ed4e09af95405f7b05a93a117ce0f9ca74bbcc"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluator.py",
+      "bytes": 29575,
+      "sha256": "e107cdde40a2cef068c7db77b4040f45dfe7eeef871f051b65bda94f1a09b214"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/evaluator_prepare.log",
+      "bytes": 5003,
+      "sha256": "747390cff8fcba7f5a56bf1933c7ffaeceeb952f97af93b514b23bf939a74d61"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E01/descriptor.py",
+      "bytes": 1836,
+      "sha256": "47a0c5988646ecdf848b8c1440a7e0f8962e1d7c69342fb8149c738c493b261f"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E01/development_descriptors.csv.gz",
+      "bytes": 245930,
+      "sha256": "b4968c53a0bb0e85b83a9ff568c4bd992cd2c021d9d69260c185a209eed26c54"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E01/result.json",
+      "bytes": 2890,
+      "sha256": "66458012a4a4f9d2f356385fdb3a0b4bdb750047ba4dc338ba54cc76d4bd5044"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E01/specification.json",
+      "bytes": 1464,
+      "sha256": "ce911904507fb178495181bab417d0a0ee58d8a9f4ff069e66a9674e3f31c832"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E02/descriptor.py",
+      "bytes": 1273,
+      "sha256": "d89b32cef9bc848da5150973c88eb1c463a2f26f3b60676c642a3451f1fe9317"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E02/development_descriptors.csv.gz",
+      "bytes": 157421,
+      "sha256": "0049183d95ec8660be8a49c6b7705974e01ae3a7e8597e91c2c8396eb2718c1f"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E02/result.json",
+      "bytes": 2849,
+      "sha256": "a0f8cec0f4d4a9c3674a0c222804fd199a882372d73f0810a9e31af05bfcc22d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E02/specification.json",
+      "bytes": 1449,
+      "sha256": "89ba68846c77b59140afa4a84f5288c782cbea876dd504e6cf07ec4f22077d5d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E03/descriptor.py",
+      "bytes": 2382,
+      "sha256": "f0531a9de1b77ae0dde4ee05f86004797aaf1f97ffc13227d175bb8b6dfade72"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E03/development_descriptors.csv.gz",
+      "bytes": 268210,
+      "sha256": "8be4c0133f9bb31b7c76cf94f5c340150d662be4460467e92e6cc614b5628ab3"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E03/result.json",
+      "bytes": 2957,
+      "sha256": "5632332fda732f25c712594fe4ea4ddaf0ba1c999f0c7eac374b3c31257c6826"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E03/specification.json",
+      "bytes": 1596,
+      "sha256": "1d2c75edc5100b8ad6e8573c7480c9eb168e64c86b33bbeecf4c7f5c67936250"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E04/descriptor.py",
+      "bytes": 2417,
+      "sha256": "5bf33c75071d43d986e50ab1680d79e0d9eaad062aa9e39051f7a6e2a82ad46b"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E04/development_descriptors.csv.gz",
+      "bytes": 315367,
+      "sha256": "742e2af21629d9920ae1a783e31c7183306f14f8a5699449be189a1edb97d053"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E04/result.json",
+      "bytes": 2997,
+      "sha256": "8a4e252233930efc053873315a561877994428b11f0f2a70c0b356d285ae512e"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E04/specification.json",
+      "bytes": 1549,
+      "sha256": "0bfe80fb0fb1a3c4023f0d4eab1fed865a212f5af8ead30ecaafd2cfc709b3f0"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E05/descriptor.py",
+      "bytes": 1585,
+      "sha256": "347d1d937cc901ee1fb77523d1f3418e79d21e6ac26743e46f9ca786c6e5465e"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E05/development_descriptors.csv.gz",
+      "bytes": 226210,
+      "sha256": "86eabd117b570cf2c704333eada866bff60304e65ba092f686109a43e0face88"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E05/result.json",
+      "bytes": 2927,
+      "sha256": "8fe0bba36ffd8afa2dbbdd201f28d05dcb4520c2cbec0a079a7415ca150cff97"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/experiments/E05/specification.json",
+      "bytes": 1506,
+      "sha256": "315c973068796cf17d3b02e15172afed8c4910b4bbc98e1022665d531a14f6cf"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/figures/test_comparison.pdf",
+      "bytes": 36527,
+      "sha256": "f6c965df63e7223636e221ce97af846afebc81a6fa48349e669ba7bd09c21794"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/figures/test_comparison.png",
+      "bytes": 178114,
+      "sha256": "0d7b59a8679b1cd914d362516256bfe2c6034dfab158a4baf3503fbff2be635b"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/figures/test_comparison.svg",
+      "bytes": 129618,
+      "sha256": "e940959b0512a39e57308e5bcbb16c5ecfdb749e82c4050765b1d33da3573617"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/finalize.py",
+      "bytes": 2566,
+      "sha256": "3f357037ff5acbabe6a096de26f3cc79adc385f2884fb3639297a544c470aa3c"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/package_results.py",
+      "bytes": 4925,
+      "sha256": "4fda310423ae9900c81a2231c50de1a8b5e774c1ee1a9aab6cab053dd245247e"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/plot_results.py",
+      "bytes": 2689,
+      "sha256": "e27b4fe7665707b935af8fbb97ea02a95f49ff9f3773ef3522e61bb3819fe1ef"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/requirements.txt",
+      "bytes": 154,
+      "sha256": "383f7f2764220b6a29698b4be5ba9cbc39034d4a4c237cd0c2b2a21688b4c181"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/run_agent.py",
+      "bytes": 8613,
+      "sha256": "9483f261d8e979b0b202144e29c2ff15e93486f5c92f9a2c1ed4a210925a2791"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/scientific_server.py",
+      "bytes": 11683,
+      "sha256": "632dbca6b889ab57bcfe0144b709a0d4259026cf10538fa87eae5048a01ffa3d"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/source_dependencies.zip",
+      "bytes": 1344620,
+      "sha256": "d2caa99bfc8c6a156bf816c32b2f79ad9af687891072ccdc91f3591fb05aecc7"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/test_descriptor_runtime.py",
+      "bytes": 8077,
+      "sha256": "571e1214ccfee23a5287addc3a644568f597d58d58a1d4357d5bc1e89c03c90c"
+    },
+    {
+      "path": "experiments/scientific-agent-2026-09-30/test_evaluator.py",
+      "bytes": 7380,
+      "sha256": "fe0d54fecb2abedd3341b0c1df5896df0a5cda8bd6516c88d46b2c0560d32950"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/README.md",
+      "bytes": 4941,
+      "sha256": "260394dd375aaebb272af5a0a97fbfb51bebe8925f074a2062b841fd6a233b7c"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/REPORT.md",
+      "bytes": 9607,
+      "sha256": "0ac9bdf9a9b2920983bb01c4f57ee620999201ae2479b70c6921db8aefa5c7d8"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/REPORT_zh.md",
+      "bytes": 8192,
+      "sha256": "e7fee746eaa506ea8ef9c5d9fb28538c2bffaaaff1c39e88933e6538dc81835e"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/agent_activity_summary.json",
+      "bytes": 889,
+      "sha256": "8c5bd86699e8a091e614c10eaaf802e6abf8bbff86103d9f5f845a3d5b4ee28a"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/audit_development.json",
+      "bytes": 8145,
+      "sha256": "bfc9d8e41f7571863cf9e7eb3793d8d56fb033d3d6aa105f31bad7f905fa9cc1"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/audit_final.json",
+      "bytes": 9015,
+      "sha256": "920830bdcadfb9c7e8f4eb2785b39fe1ff35e7ab7caa249f62aa8fe5001730f1"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/numeric_control_results.json",
+      "bytes": 478,
+      "sha256": "997513c133f39e0f02b58195209cc6972a36d87cfe122d1e9c8890042391e4f6"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/preparation_audit.json",
+      "bytes": 1832,
+      "sha256": "236d0b267a84b1c098d119ac8a0418a9c5ddb89a1e56a3c6b3f8fc4f68803f36"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/representation_audit.json",
+      "bytes": 169298,
+      "sha256": "239543d18d25a67e042852b34310d2df0edf63586437273551a0eeed66ff10c3"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/selected_descriptor.py",
+      "bytes": 3793,
+      "sha256": "f6905bf8499002c3d6d3e251ae01e5e20930a7ea514670d67220f991eded6b5d"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/selected_development_result.json",
+      "bytes": 6723,
+      "sha256": "5d679173e1fb7977f391696470f1337887d4dd50a1736801173dab44992de368"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/selected_specification.json",
+      "bytes": 1356,
+      "sha256": "9ad0c4cf2b0934f4183392400be54d476728c20e10ed4b571a94da0ac809dd6a"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/source_copy_manifest.json",
+      "bytes": 2884,
+      "sha256": "64eb728c77d9b0b6c0c946ae0ee2876ffb43afcff501832c91bb5fecce4ed0de"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/evidence/test_results.json",
+      "bytes": 5217,
+      "sha256": "746da021d04bbac71885e4c4beed0dee85de11bceeb95b2e255c08545390df98"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/figures/draw_workflow.py",
+      "bytes": 4922,
+      "sha256": "7dea28af280e507b07ee706d4e944d8ff8cd3c57e00f33d971deea574389e0ad"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/figures/test_comparison.png",
+      "bytes": 77017,
+      "sha256": "0a730218b68c2f421708925c5244758d4d85a617e9382051a4ef536b8d03be51"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/figures/workflow.png",
+      "bytes": 286145,
+      "sha256": "453043ad4eddd2c980a673ce7962764c22c32f0a924fc05ccc8d765aa20970e0"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-01/figures/workflow.svg",
+      "bytes": 134618,
+      "sha256": "f26927539ad5bd6ce24be6abeae38d5029f4ba3817bd9378ac65bcb7946b03fa"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/DATA_PROVENANCE.md",
+      "bytes": 2418,
+      "sha256": "59edd8e7ade55b621c6f07edb4de98f19b093271413a1a95be8bc5c8cbf634ab"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/PACKAGE_MANIFEST.json",
+      "bytes": 21333,
+      "sha256": "ff8076e2e1007753d6b4a9c9d87fcf6943622a4638b2deb3797888f1a6d526d9"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/PROTOCOL.md",
+      "bytes": 8409,
+      "sha256": "65897774f8dcaa037dd852b92dfd53275b17e0044868cc8b7ea416c35e60f90f"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/README.md",
+      "bytes": 1374,
+      "sha256": "d03396ebc9fadbdf84de8217e82866dbd4a8c9071205e950f7b87d933a9ae2f7"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/REPORT.md",
+      "bytes": 8510,
+      "sha256": "7294babb977597c7f602d40b13fdc866b5365ba26e16a297c63feb47ba2d54c9"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/REPORT_zh.md",
+      "bytes": 16405,
+      "sha256": "5bc07a7519b1942df002a57d69dfc553dd3d8a5fd9b63eca5041f66d387b3ff9"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/UPSTREAM_LICENSE.md",
+      "bytes": 1423,
+      "sha256": "bcf9a13dc5bf11da712a495ba9944b9667a3ae43a1b74a3fe1154ea35b3b8842"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/A01_scientific_metadata.json",
+      "bytes": 1173,
+      "sha256": "4871099bd30d823b6563cbb701fa7aed9e9809f782abaf6e94547f0561ea6a88"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/A02_scientific_metadata.json",
+      "bytes": 1138,
+      "sha256": "2dac4c50ea398d1f3bf03c7a606b5fd0fad46d052402b98fc29946cade75d2e7"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/A03_scientific_metadata.json",
+      "bytes": 1611,
+      "sha256": "20e07f8b566bee6bb8d5370ce92c95e733bd2dde34364034d898b1eadd72fc88"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/A04_scientific_metadata.json",
+      "bytes": 1203,
+      "sha256": "eb7bb3a8e1c6ce913ef4cdf4c4efed0f091f35f2660bfee837442da4e28d1c83"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/A05_scientific_metadata.json",
+      "bytes": 1148,
+      "sha256": "a17ac761bda04df94f871395dffc39277a2739d1f6bd202afa750d5e4e7ba497"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/attempt_record_reconciliation.json",
+      "bytes": 1030,
+      "sha256": "a355ed44c8332d62b518832255f89b101eabe41576af580dca9daa448951e295"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/conclusion.json",
+      "bytes": 4167,
+      "sha256": "ad696a47c6dc4ec7b4a116b4e9b4a010987271d0a1bab42600a59b6af443d4ee"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/events.jsonl",
+      "bytes": 254702,
+      "sha256": "5c7029055b77ee2c3df0de4339ccdd9e32bbc50dcddd3e8f1b73f9ce72f44250"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/final_response.md",
+      "bytes": 2064,
+      "sha256": "18741cdbf2cbb7083ed80c8917868b1e1d09123fac72262b022579a8fc782661"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/invocation.json",
+      "bytes": 5782,
+      "sha256": "c0b8b360e42659d8e892ca7089ea8f75aa33d79e13abef9b8f8b08fdaabc4262"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/prompt.txt",
+      "bytes": 3135,
+      "sha256": "afb6f713c482a3323db62cfe768cc6118602914d280d2fc2a125ebbfb5bf0cd4"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/reconciliation_source.py",
+      "bytes": 3500,
+      "sha256": "89a300ea5b175c88219bae3a4e2eeb5ed62f6738174a4942bdedb972af4823d6"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/reconciliation_source_manifest.json",
+      "bytes": 506,
+      "sha256": "9dd8276ba772d6f20f68ff588541269199066fb3aa81038061bdd8a35f4a2362"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/state.json",
+      "bytes": 45590,
+      "sha256": "9f4aec38c1f0a2542943520c760e2e9c29fb6d2eac030fc49779024793d4b6b7"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/state.original_before_reconciliation.json",
+      "bytes": 44973,
+      "sha256": "477a702a7356be3e410b01c8d02a1aad553057008f798fdedde5e53cc47ee61c"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/agent/tool_events.jsonl",
+      "bytes": 135071,
+      "sha256": "f4f307043e2ee78b0080400b66dfc380e72cbabbb6541b4f7595c733aeafa02b"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/benchmark_results.json",
+      "bytes": 399,
+      "sha256": "4def3998e3506c6d3bd94449fde7db213b885b5a6195a84602f29c34f9dee537"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/build_report.py",
+      "bytes": 21968,
+      "sha256": "cb5668544789f4a123c7ff9a89bcad71a670550953949842a23c0b4ca12c8c52"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A01/oof_predictions.csv.gz",
+      "bytes": 83181,
+      "sha256": "8c2b57e45b04c175205654d52aad0dd470b31af8349f78aa0c325b00a0658d8d"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A01/result.json",
+      "bytes": 9266,
+      "sha256": "93c1c560089d895be060675738308dd5c673aea9b8374e6fc0b05c82907df909"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A01/specification.json",
+      "bytes": 387,
+      "sha256": "1f0fea42b7fc805264ce5b142556e4aa6be0de408356b6bade88beafe125f0f7"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A02/oof_predictions.csv.gz",
+      "bytes": 83458,
+      "sha256": "75d7c3419053b3e988bf2ed09185daa1c5433f30aae77510e5429bed0d82ede8"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A02/result.json",
+      "bytes": 9240,
+      "sha256": "f176e46e3f90279425354f0a6c5edd469f881e9c8c361a9a399e462fcfa5dbca"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A02/specification.json",
+      "bytes": 310,
+      "sha256": "cde72c990f2cd6d782c7a175db01b2aa86b1b3e343fc0fff80947ea020221228"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A04/oof_predictions.csv.gz",
+      "bytes": 82828,
+      "sha256": "fcfd3b08bbfb4376fcf3fde361aeb79cb00d8368154f272ce8023abd1af122eb"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A04/result.json",
+      "bytes": 9278,
+      "sha256": "7b9936c4ef23e1e951f2ba615c42c94bf74edb6ec383aa844aa2897e7edae040"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A04/specification.json",
+      "bytes": 398,
+      "sha256": "11acce826ed6f665029c6ae2291e30a3a535061758cf43ccd11a96dd99b701ea"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A05/oof_predictions.csv.gz",
+      "bytes": 83362,
+      "sha256": "0e075ef68cc47207f14751eaf2d753547f80bac5dcbabd384fe7959e8169dd00"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A05/result.json",
+      "bytes": 9220,
+      "sha256": "c0f616cb725f61d21aaf9575b1b6910ccbbfab1f558b8ebd20877c828b718ec8"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/A05/specification.json",
+      "bytes": 306,
+      "sha256": "845761e99f11c801a3a3a117abf8de0990ee05dbd5f5fa7779131b72578300b7"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C01/oof_predictions.csv.gz",
+      "bytes": 81752,
+      "sha256": "73e7ed10f6428c450ee8e26c98d17a316550b1cf6af351c219e985489cf75441"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C01/result.json",
+      "bytes": 9297,
+      "sha256": "0381888f29bcfea3dee72886b5d921f1bf590f18a169c9b50381dccaa2239aa1"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C01/specification.json",
+      "bytes": 424,
+      "sha256": "3f8ebd835baf18d97f458c20cd6cf34d9d62e311077b4cb00263234cb1c2e025"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C02/oof_predictions.csv.gz",
+      "bytes": 82988,
+      "sha256": "89cd2bf3381f6d38fdcc93c053b5412f17bd17d8f038e8ba2eb6e2efebd82bbe"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C02/result.json",
+      "bytes": 9622,
+      "sha256": "4db1433d7dcfbf3b04f3e2729c0c30b952e60629989349c12321abda7c026049"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C02/specification.json",
+      "bytes": 440,
+      "sha256": "f626161538187e2bc06ad8f3c7cc1967fba36ee0c1bc0e44a5bca39c76527185"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C03/oof_predictions.csv.gz",
+      "bytes": 85680,
+      "sha256": "2e565abaf819d2b64bae5b149936a6287cdd221d3d7c48e2e4a7e74b2072cdd7"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C03/result.json",
+      "bytes": 9305,
+      "sha256": "6d5ca67c4363a3b13a736f4cd3d3a2da652287d3b36f03a9b51d784090dfdaf2"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C03/specification.json",
+      "bytes": 422,
+      "sha256": "fe18ab7b3fdc12e90afad588267d3c1543dbe90192455d1c8c71a2770228dd8d"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C04/oof_predictions.csv.gz",
+      "bytes": 87108,
+      "sha256": "ace7052c8f31f2bb62222a2ac44f35701d6e03575631135bfbcf651cbf7e4179"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C04/result.json",
+      "bytes": 9607,
+      "sha256": "9ee6b875b3a6e2d684ce2616f8b71d39297556afe48d632a4087ffcb539ada22"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C04/specification.json",
+      "bytes": 403,
+      "sha256": "d49d7a81f6e7fdfe0a0936473bf8c2bf295b18eda1e9b4e11fc342dd78e926f5"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C05/oof_predictions.csv.gz",
+      "bytes": 82828,
+      "sha256": "fcfd3b08bbfb4376fcf3fde361aeb79cb00d8368154f272ce8023abd1af122eb"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C05/result.json",
+      "bytes": 9268,
+      "sha256": "c79d0eb371b337de67df372a6a0d91ef2700db2797c28802e11b813418a2dada"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/C05/specification.json",
+      "bytes": 400,
+      "sha256": "4bf2c9c362cc613b14791b590a76aae60992c1ec824b04c1df655e1ba95e8d43"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/D01/oof_predictions.csv.gz",
+      "bytes": 84674,
+      "sha256": "3284c9f72feaa0c9989467c923e100e6c3e41ee6e8f2f6602e396318a645337c"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/D01/result.json",
+      "bytes": 6900,
+      "sha256": "e84f04f39f6c68cbd53b012cbbd370d44c5a7b02b674c56db8f98e0818efb326"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/D01/specification.json",
+      "bytes": 153,
+      "sha256": "05cdba96c8e0c774c6a9528be18bf04f9779b5eeaa63655b853e8e28c23a2248"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/D02/oof_predictions.csv.gz",
+      "bytes": 89057,
+      "sha256": "6197280f02e70824ed3cc3f1c25f32d4cfdf0fe4c4533aee2e3c280350787bdb"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/D02/result.json",
+      "bytes": 6904,
+      "sha256": "d5f1365aa20217fe5a1c983349280701ac632536e62bf0e3d2679be851bb6776"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/D02/specification.json",
+      "bytes": 155,
+      "sha256": "cb8a5a65890c36fee8ed1e66fbc35b33e1c6aab769eb1e4aa803cec5c6918ae2"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G01/oof_predictions.csv.gz",
+      "bytes": 83226,
+      "sha256": "cad5d2de4b720015837628ab04126c19fc5a9e7854932fa9ba8f758f22782089"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G01/result.json",
+      "bytes": 6894,
+      "sha256": "7357b787350ee2ff78c39a6b9ce5c709d377eeae87f1ad1eb290572497e6cf5a"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G01/specification.json",
+      "bytes": 145,
+      "sha256": "ae3b1e9a1f901bf40e830f7b274bf242906634b168bdead15e12e0601c8032e2"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G02/oof_predictions.csv.gz",
+      "bytes": 87921,
+      "sha256": "90ebd73d8db0dbf5d7a439d8f09908f51397e6f8d2f4dd02f8edd4836ab09a56"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G02/result.json",
+      "bytes": 6917,
+      "sha256": "fae922fd2fa60241a9cd381c8a407c9e2347c51723bb708a43bdaf5759d710dc"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G02/specification.json",
+      "bytes": 147,
+      "sha256": "5473e1f6aa4b8d2156a4001b69d3b28e5335aadf3e3d943839c6ee3041fb849f"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G03/oof_predictions.csv.gz",
+      "bytes": 77396,
+      "sha256": "34d79f495ba83c5ca353c433bd202554114eb9d8e90dcbe5acc98515ab8575ab"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G03/result.json",
+      "bytes": 6918,
+      "sha256": "7424ea3acab755b081220451fd856d87b1cdb55d0379a2b760c82f7f28119f6e"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G03/specification.json",
+      "bytes": 156,
+      "sha256": "a0b679055041c94e7ca760cced8da8158fec3ba37282ce70d2f573d7d256074f"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G04/oof_predictions.csv.gz",
+      "bytes": 81753,
+      "sha256": "c0c5ea97a65ca2fab25a7b27bfbea3ed1d44012bf43547f61e5c42f547db0b26"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G04/result.json",
+      "bytes": 6920,
+      "sha256": "b5bdfb2f6b4b1ffc78d5c95470b6d7a196c2f7617dc5c8ae96e5def079c9e638"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G04/specification.json",
+      "bytes": 158,
+      "sha256": "0400f7919666870e5f4732265dd0306985de9f1b02b7df77f627e0f86a2d841b"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G05/oof_predictions.csv.gz",
+      "bytes": 84859,
+      "sha256": "0ffdd365495c52682fb916a8df1c45022a0a4c839c06429c9402a1f4ee6375f3"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G05/result.json",
+      "bytes": 6915,
+      "sha256": "ac157d6fd5d8dcbdbf35e2d261a51302b5dd565a571d909f76c381510a2a9fa8"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G05/specification.json",
+      "bytes": 154,
+      "sha256": "1b7fa07435aa7b73b1d9ee24bc9a7f03ac6ebf28511c3eba98d3686cb459d9d6"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G06/oof_predictions.csv.gz",
+      "bytes": 89149,
+      "sha256": "f8579d27fb789caa65faa8860c796158cffe0a048f6dc047b0c65892408d06cc"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G06/result.json",
+      "bytes": 6919,
+      "sha256": "7ece3fa002eb67eaf7b3c548f3ad3fa2e7d273c551dbb95dcf262235cdae9904"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G06/specification.json",
+      "bytes": 156,
+      "sha256": "061cff77bd1cc941f513e4d8da38f5a622f726a0e955f817c68a192652cfcfa2"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G07/oof_predictions.csv.gz",
+      "bytes": 83373,
+      "sha256": "307922696e33356ff9aba53f9705b9afc8088bbd3f838f1f85eaf331a134caf9"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G07/result.json",
+      "bytes": 6911,
+      "sha256": "758ebaa64e1c3c4414217f0352f3136a1bebd3adbf94157eff813be3b1c0abc6"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G07/specification.json",
+      "bytes": 165,
+      "sha256": "349d1c330953f8a08424ca49452d4c3c2dac9cec7e2547e5961050ac83cfc1f9"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G08/oof_predictions.csv.gz",
+      "bytes": 85495,
+      "sha256": "c6faa3b60835dfc6e0da0505c1a1c5af2a898b6dd1f72767cb5335e7b72c2a67"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G08/result.json",
+      "bytes": 6924,
+      "sha256": "55c9baa3bbc491c23b982cca5e7d1f825401b508cb278ce184cd5b86d980daa2"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/G08/specification.json",
+      "bytes": 167,
+      "sha256": "6115b4261d7cb8b1785c3a6c5f62d76afcdcdfca2940b0392b15439fb9321039"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/R01/oof_predictions.csv.gz",
+      "bytes": 83013,
+      "sha256": "834b7b4ea1d0a5d415176d4dfb6807246a4b94a0a1485765834a1efb77afbb12"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/R01/result.json",
+      "bytes": 6922,
+      "sha256": "f446febc33d0da0151f0ca9ec6712ad48cb3c3f307b5c28cb9cd041af60a2d91"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/R01/specification.json",
+      "bytes": 155,
+      "sha256": "33ea0099de8de62e5a1e13d641d2024b91442c006c290d94250214ed3c0f9f69"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/R02/oof_predictions.csv.gz",
+      "bytes": 87631,
+      "sha256": "f5840c7ca7901222434b8af2f31cff49f71ea840c715381a5b2a7a2e6e3d48f1"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/R02/result.json",
+      "bytes": 6912,
+      "sha256": "22605c3919c44518e4bf84157b13515eb8ebf1bdda5409b1c38cdeab893dd2c4"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/candidates/R02/specification.json",
+      "bytes": 157,
+      "sha256": "8101f41a10b2a1111beaaf70ecbf29fd20073bd6e3ca02fae6937421fff41e4a"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/comparison_table.csv",
+      "bytes": 4282,
+      "sha256": "1453e8ee2c06b894d7341a1115c5d71b2e5e8d5308a49ebf08a80a8bcabd291b"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/controls/execution.json",
+      "bytes": 57588,
+      "sha256": "4ca9f225c5d0f182e61768d1d6e2b152c616370f0a0643b9100c2f9f0da7ecc7"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/controls/plan.json",
+      "bytes": 3562,
+      "sha256": "eb4966f82ce789575b4083798d9ce1c0cc07ac8605e728f8e32811bd81a8face"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/data/data_audit.json",
+      "bytes": 2385,
+      "sha256": "c07558b60965249109f6ab59ded553a68d24f16f1961713e828459a5056d4b41"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/data/fold_assignments.csv",
+      "bytes": 100318,
+      "sha256": "df202fd80adeaadeb1bc84110a5cf6a8827222fd73e6ff4fd2df44898a569d39"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/data/schema.json",
+      "bytes": 19098,
+      "sha256": "12219f9abb4b01856d70a967dc94234897da265cacbfe017aac072be786b2a22"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/data/train.csv.gz",
+      "bytes": 955664,
+      "sha256": "9bda72e2eff6ca851e4f588a6e8427f14216840ad8ac08845167272b212c27c5"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/data/validation_inputs.csv.gz",
+      "bytes": 220018,
+      "sha256": "243d5374864b9a428ea4012a076fa666efb5b3aec626243774b87a213982b318"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/data/validation_labels.csv.gz",
+      "bytes": 3998,
+      "sha256": "2d5eca47e2dac13b3414df91e5cd4038ef09b8d549a68a2c8c0bd4746d2198b9"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/environment_versions.json",
+      "bytes": 152,
+      "sha256": "86f12bbc5320a218942a9c35eeba10c06b0b515ee5a0529f4c52b1edfdbf4d5c"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/figures/workflow_v2.png",
+      "bytes": 624901,
+      "sha256": "62f6eb579031060e67c83ee3b59d8cd6e2ed89ffe4c723c0ebc82c65d6e2e83b"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/figures/workflow_v2.svg",
+      "bytes": 212070,
+      "sha256": "b631b3baaca96e4b935f9a41fed81e25f5af868bc4714c4fad7f23c877870721"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/access_journal.json",
+      "bytes": 709,
+      "sha256": "e0137c5952d5566d211d69b13666ebaa4430f54610f10c0c2614a3a4de7eb7d0"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/administrative_audit.json",
+      "bytes": 4702,
+      "sha256": "6f1c7b14fecb7302d4c5d8e3dc79ed4a32d5ff18693ada810e7edf70fca0e2d9"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/final_interpretation_audit.md",
+      "bytes": 2362,
+      "sha256": "0777337a0713a2a89757253a4003c831943baa03bbb4e4f5314ac1eef40220fc"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/predictions.csv.gz",
+      "bytes": 138210,
+      "sha256": "c3ae5797ab9eee8d8520577a5198d8213938f879b3fe987dd2a6d8ce3d4c3261"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/predictions_before_labels.csv.gz",
+      "bytes": 136690,
+      "sha256": "a80a0d398ce7e2ac598a8ad9687d8ff688956553d253ff37703c161b1a9f3d08"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/results.json",
+      "bytes": 54275,
+      "sha256": "e5d86159adfeef5c2847a47152c5536f8250bc3be7d63ea15fae64a2ecdf914f"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/route_diagnostics.json",
+      "bytes": 1073114,
+      "sha256": "3fe6119395402fe31a52fb84f89b62544365dc7930ee84ffb95634f7c7f0e7a6"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/final/verification.json",
+      "bytes": 1026028,
+      "sha256": "ae02f5fffae24c6eda5436b412ab3de07c55c671650d0b77e0d203db06fcaff2"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/make_control_plan.py",
+      "bytes": 1528,
+      "sha256": "d91e2c4820034786457dc97ff530bc41e019fe068f566723da16bea2a64f5431"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/original_source_manifest.json",
+      "bytes": 581,
+      "sha256": "6edc423111e4e25f6c00875597bfaaecec585c19683dbb67a174446ee4a575c0"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/pipeline.py",
+      "bytes": 31028,
+      "sha256": "a3298ce3291f170f9c4d5f168e6bdcc5ec0f66c81fdbc5af3e95baedec019bab"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/prepare_data.py",
+      "bytes": 7173,
+      "sha256": "fd5eae83c091552bd21ee64af23538e74b25c2d0e37d9af07d0580f639c26713"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/protocol_review.md",
+      "bytes": 8719,
+      "sha256": "7ae660235c29a25202465448b9486e756e586f490d8417a9deb0665775eb0520"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/public_verification.json",
+      "bytes": 988301,
+      "sha256": "8125531b6e72b946b65e418c272a64eae4bd256c967e05c4f17d79480000b4d5"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/repair/audit.json",
+      "bytes": 313040,
+      "sha256": "996ab762d97c1b58875c41449242f0fe55069e5cd260513e31753187a84ea597"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/repair/create_workflow.py",
+      "bytes": 5120,
+      "sha256": "6b64897ec1af0abca86de065e7d8805d00a6daaf6bd53962298acc02239e996e"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/repair/features11.csv.gz",
+      "bytes": 356275,
+      "sha256": "8358ede12e151e03a9d2a01ffff110250d86a30896653a7886ae7d78a08c9405"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/repair/features12.csv.gz",
+      "bytes": 384081,
+      "sha256": "08ab8def77532cbbf78231a28ae8b33af7df48e08b2971a52686707d1253b863"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/repair/prepare_and_audit.py",
+      "bytes": 13390,
+      "sha256": "debd0789ec4196006908283f50e9b59d6bc10d7f0a263fb2d147c7a19ec1df11"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/repair/repair_descriptor.py",
+      "bytes": 3874,
+      "sha256": "d0e1f8bb621c4773f879015338d0ce0722559834e7517c3b6958045f6e91f52a"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/run_agent.py",
+      "bytes": 10157,
+      "sha256": "97a264c417604afa8fb75aabacf26b9cc39558444afc2f7f557a095d12d9e055"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/run_controls_and_finalize.py",
+      "bytes": 2684,
+      "sha256": "a9c501a1c284c54394d449fb17f9eb0f1ad7bc27c6504e4215ae100bbf7993e1"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/scientific_server.py",
+      "bytes": 6535,
+      "sha256": "1d241cb77bd4f6dfb248a789f262289e6b070bfa597406e60f36ca183a6bc3cd"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/selection.json",
+      "bytes": 13186,
+      "sha256": "d24ab5d478473f58118bc3d3617b8f81fc9d7bc0d5cb8a48eb066bdce1b64497"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/test_pipeline.py",
+      "bytes": 10572,
+      "sha256": "b8c735ed9a62e0b50da7d2c98429e891bc1a6ad0ac2ad2dd3e5f3cc1ae1642b4"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/verification.json",
+      "bytes": 1026028,
+      "sha256": "ae02f5fffae24c6eda5436b412ab3de07c55c671650d0b77e0d203db06fcaff2"
+    },
+    {
+      "path": "experiments/superconductivity-agent-2026-10-02/verify_results.py",
+      "bytes": 23373,
+      "sha256": "5642338cad9ef84f7d7d56ceaa103b1c4b047b49f759660fd1c6e31cd3201abf"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/EVIDENCE.md",
+      "bytes": 7970,
+      "sha256": "43454df64faeed2063d5393fec1b05118b94bed644dcf02dddc00566009471e2"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/PUBLICATION_MANIFEST.json",
+      "bytes": 3623,
+      "sha256": "d07d5d03bbe643f873d764662b157ef6cc7a8cf6675b6d9b42f70949f00f015f"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/README.md",
+      "bytes": 4453,
+      "sha256": "e931214d499830a44b1c5541d6316c9b7e713ee495d1d95651e61866819ce31f"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/README_EN.md",
+      "bytes": 5321,
+      "sha256": "627f54912717e7e1be4f852f5c3af8a4f0c1c72785d516f124032d1b253613f6"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/REPORT_EN.md",
+      "bytes": 8451,
+      "sha256": "4c8d450b0d638951c1a5ac6055ed70a35d0716a65eda92e7d1e207469142114c"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/REPORT_ZH.md",
+      "bytes": 7535,
+      "sha256": "691b1a58bb4a642c63c23402e71679f3fa72342ded2e48a28717515aa5315eda"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/H01_pairs.csv",
+      "bytes": 12281,
+      "sha256": "36b71802c0aa57357119247f541362d1e24f606e2566799203d539cf483dbe0e"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/H01b_group_scores.csv",
+      "bytes": 14310,
+      "sha256": "37aacc0af9d5a58056916ad1b97b54207a615aaa14cf21ca18a895898b385b1a"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/composition_groups.csv",
+      "bytes": 7964,
+      "sha256": "23b5b5776e341b91366ce2a629df9c3bc42982882bc25ab07b6291437ab8224a"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/composition_pairs.csv",
+      "bytes": 4787,
+      "sha256": "26f81d66ac83c24107ecc8b21c832d557a208de69da5f1e28dc211909a61c902"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/dataset_publication.json",
+      "bytes": 2997,
+      "sha256": "14eeb5100920df6d61a025d66cc20101f7b702f6366445391009f3f580d602b6"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/matched_pairs_stage1.csv",
+      "bytes": 9155,
+      "sha256": "0b0d0705e5342b4b37e8e43fda619d7bb558502352083d2672766090072ba2c7"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/matched_pairs_stage2.csv",
+      "bytes": 7258,
+      "sha256": "d6b9751c59fc6ffe367a6d3e4adb0da11217997baabb16f4393b0324a520f04e"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/pair_comparisons.json",
+      "bytes": 14542,
+      "sha256": "4149903cd94a403c44eae56fba0198361c9ac334beed78bec1469c7d7fa6f266"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/progress_summary.json",
+      "bytes": 25338,
+      "sha256": "7448461714157cf9a59de506188c210d5c55dcf245f762c6bd215a7d8fe9316a"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/evidence/source_quality_report.json",
+      "bytes": 4563,
+      "sha256": "371d25ed3b16b463c80b048319ed8c9b56296e8e4891964322530f9bff17ce75"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/figures/agent_findings.png",
+      "bytes": 150383,
+      "sha256": "ba0a021ae83daa06ba7f02f507489b675b49cfc572ea371ce252b57bcf23a8ae"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/figures/agent_findings_zh.png",
+      "bytes": 193979,
+      "sha256": "fd613995cbf4b7c0a37f914064c8a4ca1210f1433f1ac8e1ceb4447e0da271a7"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/figures/workflow.png",
+      "bytes": 205727,
+      "sha256": "920aeff9530b19df22963ea0e1d22c88e84bd9106a25b3b022311228d8b5313d"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/figures/workflow.svg",
+      "bytes": 187041,
+      "sha256": "aa6d5a8917c5f0dd211c8475fbf93306eb44ad0d2a41c22f46bc76e09a502039"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/figures/workflow_en.png",
+      "bytes": 194136,
+      "sha256": "a016ea7e50682adcc646232e1e7d7df5f10536d7d0599a30d3f2e13fbf68139f"
+    },
+    {
+      "path": "reports/materials-agent-2026-10-01/figures/workflow_en.svg",
+      "bytes": 119871,
+      "sha256": "b283fa95ae83d38d8fee9aff27c2d4726304db72089a3684f2153b0f4ff1b961"
     },
     {
       "path": "requirements-lock.txt",
       "bytes": 860,
       "sha256": "39252087eeb8cf5eb2e1990289e079a5cc65a008159937d71ad7df36272c6cf0"
+    },
+    {
+      "path": "results/author_figures/README.md",
+      "bytes": 2259,
+      "sha256": "8c2ff310dbd4015d9c27e991ed4bd08fa609a51d5aab427854d24e1f288d18b5"
+    },
+    {
+      "path": "results/author_figures/README_zh.md",
+      "bytes": 2007,
+      "sha256": "c893e06880f9827632fa388c31a6ff721c66d17ff5901ad1660ff2b444c897b9"
     },
     {
       "path": "results/author_figures/fig1_agentic_law_learning.pdf",
@@ -4626,41 +6281,6 @@
       "sha256": "10552e8584dda95c2e3a763df65ffc4cec12708093a8e6faa02d988a712078ed"
     },
     {
-      "path": "results/author_figures/README.md",
-      "bytes": 2259,
-      "sha256": "8c2ff310dbd4015d9c27e991ed4bd08fa609a51d5aab427854d24e1f288d18b5"
-    },
-    {
-      "path": "results/author_figures/README_zh.md",
-      "bytes": 2007,
-      "sha256": "c893e06880f9827632fa388c31a6ff721c66d17ff5901ad1660ff2b444c897b9"
-    },
-    {
-      "path": "results/core_validation/bundled_analyzer_pytest.log",
-      "bytes": 1911,
-      "sha256": "4f1c4f5c11f5425b8e1e0f9990b9a4caf5dddbfeb65755f2348c302dbfb0b033"
-    },
-    {
-      "path": "results/core_validation/cell_representation.png",
-      "bytes": 67177,
-      "sha256": "b5c0940ea5f60286e075441ab44aebd85cf29e6233fefe9216c2891bead6d418"
-    },
-    {
-      "path": "results/core_validation/core_validation.md",
-      "bytes": 7128,
-      "sha256": "909609ae41970033973595dd6d9bf8aafecdde9b734d52240eb8e8f086aacb82"
-    },
-    {
-      "path": "results/core_validation/core_validation_run.log",
-      "bytes": 24738,
-      "sha256": "6356e5216d34e2fb8c36d32a2db025387fbc21ef095eb6d1ae1d28fb05f8bd0a"
-    },
-    {
-      "path": "results/core_validation/core_validation_zh.md",
-      "bytes": 6652,
-      "sha256": "66116f2136d3c088809746a10ea109cf2f07a3353397478b86df9016918798a1"
-    },
-    {
       "path": "results/core_validation/CsCl_two_site.cif",
       "bytes": 784,
       "sha256": "11ebf21486eee545c8fb01c60a4eb15a82041791a6200982c84abc09e33fbc37"
@@ -4689,6 +6309,31 @@
       "path": "results/core_validation/NaCl_primitive_2x2x2.cif",
       "bytes": 1543,
       "sha256": "eb01d03e82ae75e94b9f6c70d2ce2a6c45d076281ab53c572e29b3c478f2704b"
+    },
+    {
+      "path": "results/core_validation/bundled_analyzer_pytest.log",
+      "bytes": 1911,
+      "sha256": "4f1c4f5c11f5425b8e1e0f9990b9a4caf5dddbfeb65755f2348c302dbfb0b033"
+    },
+    {
+      "path": "results/core_validation/cell_representation.png",
+      "bytes": 67177,
+      "sha256": "b5c0940ea5f60286e075441ab44aebd85cf29e6233fefe9216c2891bead6d418"
+    },
+    {
+      "path": "results/core_validation/core_validation.md",
+      "bytes": 7128,
+      "sha256": "909609ae41970033973595dd6d9bf8aafecdde9b734d52240eb8e8f086aacb82"
+    },
+    {
+      "path": "results/core_validation/core_validation_run.log",
+      "bytes": 24738,
+      "sha256": "6356e5216d34e2fb8c36d32a2db025387fbc21ef095eb6d1ae1d28fb05f8bd0a"
+    },
+    {
+      "path": "results/core_validation/core_validation_zh.md",
+      "bytes": 6652,
+      "sha256": "66116f2136d3c088809746a10ea109cf2f07a3353397478b86df9016918798a1"
     },
     {
       "path": "results/core_validation/one_atom_tiny_cubic_control.cif",
@@ -4746,6 +6391,16 @@
       "sha256": "4cd2928d533c1c767b4407f25251f2ac52f46a70dcf39f398efbf18d5a8b1c50"
     },
     {
+      "path": "results/eos/README.md",
+      "bytes": 2805,
+      "sha256": "a16089e79ccaaa93dffe7bb34505434df894e9694e871b4db5eab21797115f8a"
+    },
+    {
+      "path": "results/eos/README_zh.md",
+      "bytes": 2593,
+      "sha256": "00f4ac955cf3cb985619232c40032a7cbe5c75be8466348df86dce2c01d9a8f1"
+    },
+    {
       "path": "results/eos/energy_volume_points.csv",
       "bytes": 124814,
       "sha256": "313f5dd9f24ffdae87485caf4014964f3d0b3062e14e31df1da01b5ed103f238"
@@ -4759,16 +6414,6 @@
       "path": "results/eos/per_candidate.csv",
       "bytes": 86973,
       "sha256": "e7e72254d8f6452981490f42f21d4166705bb4bbeda5284f06fb9fbc2aa401d2"
-    },
-    {
-      "path": "results/eos/README.md",
-      "bytes": 2805,
-      "sha256": "a16089e79ccaaa93dffe7bb34505434df894e9694e871b4db5eab21797115f8a"
-    },
-    {
-      "path": "results/eos/README_zh.md",
-      "bytes": 2593,
-      "sha256": "00f4ac955cf3cb985619232c40032a7cbe5c75be8466348df86dce2c01d9a8f1"
     },
     {
       "path": "results/eos/summary.json",
@@ -4921,6 +6566,11 @@
       "sha256": "26d0001c3ea815ca20725cb57ec45afbb3e4945de801b311665d7d345505eeba"
     },
     {
+      "path": "vendor/pris/LICENSE",
+      "bytes": 1489,
+      "sha256": "7a195f0cdaabf80a1ca50625d6727c82cec1be4819253e3e0d2ee8a2921d95f1"
+    },
+    {
       "path": "vendor/pris/agent_loop/frozen/20260814_f3_synth/F3_frozen.json",
       "bytes": 14083,
       "sha256": "884c0fce3dfe280e0162e045ccc7dc86a89ca34d4a887594d1912b5f155f07af"
@@ -4929,11 +6579,6 @@
       "path": "vendor/pris/data/bvparm2020.cif",
       "bytes": 96339,
       "sha256": "6f921b6fd20b00fdbe4705a38f02e5c45ae91f1c39be55eb6b0620a454875b89"
-    },
-    {
-      "path": "vendor/pris/LICENSE",
-      "bytes": 1489,
-      "sha256": "7a195f0cdaabf80a1ca50625d6727c82cec1be4819253e3e0d2ee8a2921d95f1"
     },
     {
       "path": "vendor/pris/src/apply_rules.py",
@@ -5024,206 +6669,6 @@
       "path": "vendor_manifest.json",
       "bytes": 3136,
       "sha256": "817908e93f4742c4f77152c7d384b6ad47b1c8cf6a36ea58996cd0d40889ab04"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/README.md",
-      "bytes": 4941,
-      "sha256": "260394dd375aaebb272af5a0a97fbfb51bebe8925f074a2062b841fd6a233b7c"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/REPORT.md",
-      "bytes": 9607,
-      "sha256": "0ac9bdf9a9b2920983bb01c4f57ee620999201ae2479b70c6921db8aefa5c7d8"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/REPORT_zh.md",
-      "bytes": 8192,
-      "sha256": "e7fee746eaa506ea8ef9c5d9fb28538c2bffaaaff1c39e88933e6538dc81835e"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/agent_activity_summary.json",
-      "bytes": 889,
-      "sha256": "8c5bd86699e8a091e614c10eaaf802e6abf8bbff86103d9f5f845a3d5b4ee28a"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/audit_development.json",
-      "bytes": 8145,
-      "sha256": "bfc9d8e41f7571863cf9e7eb3793d8d56fb033d3d6aa105f31bad7f905fa9cc1"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/audit_final.json",
-      "bytes": 9015,
-      "sha256": "920830bdcadfb9c7e8f4eb2785b39fe1ff35e7ab7caa249f62aa8fe5001730f1"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/numeric_control_results.json",
-      "bytes": 478,
-      "sha256": "997513c133f39e0f02b58195209cc6972a36d87cfe122d1e9c8890042391e4f6"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/preparation_audit.json",
-      "bytes": 1832,
-      "sha256": "236d0b267a84b1c098d119ac8a0418a9c5ddb89a1e56a3c6b3f8fc4f68803f36"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/representation_audit.json",
-      "bytes": 169298,
-      "sha256": "239543d18d25a67e042852b34310d2df0edf63586437273551a0eeed66ff10c3"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/selected_descriptor.py",
-      "bytes": 3793,
-      "sha256": "f6905bf8499002c3d6d3e251ae01e5e20930a7ea514670d67220f991eded6b5d"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/selected_development_result.json",
-      "bytes": 6723,
-      "sha256": "5d679173e1fb7977f391696470f1337887d4dd50a1736801173dab44992de368"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/selected_specification.json",
-      "bytes": 1356,
-      "sha256": "9ad0c4cf2b0934f4183392400be54d476728c20e10ed4b571a94da0ac809dd6a"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/source_copy_manifest.json",
-      "bytes": 2884,
-      "sha256": "64eb728c77d9b0b6c0c946ae0ee2876ffb43afcff501832c91bb5fecce4ed0de"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/evidence/test_results.json",
-      "bytes": 5217,
-      "sha256": "746da021d04bbac71885e4c4beed0dee85de11bceeb95b2e255c08545390df98"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/figures/test_comparison.png",
-      "bytes": 77017,
-      "sha256": "0a730218b68c2f421708925c5244758d4d85a617e9382051a4ef536b8d03be51"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/figures/draw_workflow.py",
-      "bytes": 4922,
-      "sha256": "7dea28af280e507b07ee706d4e944d8ff8cd3c57e00f33d971deea574389e0ad"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/figures/workflow.png",
-      "bytes": 286145,
-      "sha256": "453043ad4eddd2c980a673ce7962764c22c32f0a924fc05ccc8d765aa20970e0"
-    },
-    {
-      "path": "experiments/superconductivity-agent-2026-10-01/figures/workflow.svg",
-      "bytes": 134618,
-      "sha256": "f26927539ad5bd6ce24be6abeae38d5029f4ba3817bd9378ac65bcb7946b03fa"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/EVIDENCE.md",
-      "bytes": 7970,
-      "sha256": "43454df64faeed2063d5393fec1b05118b94bed644dcf02dddc00566009471e2"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/PUBLICATION_MANIFEST.json",
-      "bytes": 3623,
-      "sha256": "d07d5d03bbe643f873d764662b157ef6cc7a8cf6675b6d9b42f70949f00f015f"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/README.md",
-      "bytes": 4453,
-      "sha256": "e931214d499830a44b1c5541d6316c9b7e713ee495d1d95651e61866819ce31f"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/README_EN.md",
-      "bytes": 5321,
-      "sha256": "627f54912717e7e1be4f852f5c3af8a4f0c1c72785d516f124032d1b253613f6"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/REPORT_EN.md",
-      "bytes": 8451,
-      "sha256": "4c8d450b0d638951c1a5ac6055ed70a35d0716a65eda92e7d1e207469142114c"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/REPORT_ZH.md",
-      "bytes": 7535,
-      "sha256": "691b1a58bb4a642c63c23402e71679f3fa72342ded2e48a28717515aa5315eda"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/composition_groups.csv",
-      "bytes": 7964,
-      "sha256": "23b5b5776e341b91366ce2a629df9c3bc42982882bc25ab07b6291437ab8224a"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/composition_pairs.csv",
-      "bytes": 4787,
-      "sha256": "26f81d66ac83c24107ecc8b21c832d557a208de69da5f1e28dc211909a61c902"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/H01b_group_scores.csv",
-      "bytes": 14310,
-      "sha256": "37aacc0af9d5a58056916ad1b97b54207a615aaa14cf21ca18a895898b385b1a"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/H01_pairs.csv",
-      "bytes": 12281,
-      "sha256": "36b71802c0aa57357119247f541362d1e24f606e2566799203d539cf483dbe0e"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/matched_pairs_stage1.csv",
-      "bytes": 9155,
-      "sha256": "0b0d0705e5342b4b37e8e43fda619d7bb558502352083d2672766090072ba2c7"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/matched_pairs_stage2.csv",
-      "bytes": 7258,
-      "sha256": "d6b9751c59fc6ffe367a6d3e4adb0da11217997baabb16f4393b0324a520f04e"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/pair_comparisons.json",
-      "bytes": 14542,
-      "sha256": "4149903cd94a403c44eae56fba0198361c9ac334beed78bec1469c7d7fa6f266"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/progress_summary.json",
-      "bytes": 25338,
-      "sha256": "7448461714157cf9a59de506188c210d5c55dcf245f762c6bd215a7d8fe9316a"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/source_quality_report.json",
-      "bytes": 4563,
-      "sha256": "371d25ed3b16b463c80b048319ed8c9b56296e8e4891964322530f9bff17ce75"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/figures/agent_findings.png",
-      "bytes": 150383,
-      "sha256": "ba0a021ae83daa06ba7f02f507489b675b49cfc572ea371ce252b57bcf23a8ae"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/figures/agent_findings_zh.png",
-      "bytes": 193979,
-      "sha256": "fd613995cbf4b7c0a37f914064c8a4ca1210f1433f1ac8e1ceb4447e0da271a7"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/figures/workflow.png",
-      "bytes": 205727,
-      "sha256": "920aeff9530b19df22963ea0e1d22c88e84bd9106a25b3b022311228d8b5313d"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/figures/workflow.svg",
-      "bytes": 187041,
-      "sha256": "aa6d5a8917c5f0dd211c8475fbf93306eb44ad0d2a41c22f46bc76e09a502039"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/figures/workflow_en.png",
-      "bytes": 194136,
-      "sha256": "a016ea7e50682adcc646232e1e7d7df5f10536d7d0599a30d3f2e13fbf68139f"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/figures/workflow_en.svg",
-      "bytes": 119871,
-      "sha256": "b283fa95ae83d38d8fee9aff27c2d4726304db72089a3684f2153b0f4ff1b961"
-    },
-    {
-      "path": "reports/materials-agent-2026-10-01/evidence/dataset_publication.json",
-      "bytes": 2997,
-      "sha256": "14eeb5100920df6d61a025d66cc20101f7b702f6366445391009f3f580d602b6"
     }
   ]
 }

@@ -1,0 +1,135 @@
+{
+  "seed": 20261002,
+  "attempts": 5,
+  "prefix_rule": "Run first N where N equals total Agent attempted pipelines, including invalid/duplicate attempts.",
+  "protocol_sha256": "65897774f8dcaa037dd852b92dfd53275b17e0044868cc8b7ea416c35e60f90f",
+  "matched_scope": "Common menu and attempted-pipeline count. Actual model fits, compute time and search priors differ.",
+  "candidates": [
+    {
+      "id": "C01",
+      "specification": {
+        "input": "composition",
+        "routing": "chemistry",
+        "global": {
+          "model": "extra_trees",
+          "target": "log1p"
+        },
+        "experts": {
+          "cu_o": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "fe_anion": {
+            "model": "hist_gradient_boosting",
+            "target": "log1p"
+          },
+          "other": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          }
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "specification": {
+        "input": "composition",
+        "routing": "kmeans3",
+        "global": {
+          "model": "hist_gradient_boosting",
+          "target": "log1p"
+        },
+        "experts": {
+          "cluster0": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "cluster1": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "cluster2": {
+            "model": "hist_gradient_boosting",
+            "target": "log1p"
+          }
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "specification": {
+        "input": "composition_repaired",
+        "routing": "chemistry",
+        "global": {
+          "model": "extra_trees",
+          "target": "raw"
+        },
+        "experts": {
+          "cu_o": {
+            "model": "hist_gradient_boosting",
+            "target": "log1p"
+          },
+          "fe_anion": {
+            "model": "extra_trees",
+            "target": "log1p"
+          },
+          "other": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          }
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "specification": {
+        "input": "composition_repaired",
+        "routing": "kmeans3",
+        "global": {
+          "model": "extra_trees",
+          "target": "raw"
+        },
+        "experts": {
+          "cluster0": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "cluster1": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "cluster2": {
+            "model": "extra_trees",
+            "target": "log1p"
+          }
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "specification": {
+        "input": "composition",
+        "routing": "chemistry",
+        "global": {
+          "model": "extra_trees",
+          "target": "log1p"
+        },
+        "experts": {
+          "cu_o": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "fe_anion": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "other": {
+            "model": "extra_trees",
+            "target": "raw"
+          }
+        }
+      }
+    }
+  ],
+  "prelaunch_clarification": "Clarified max_features=1.0 (all columns), matching unchanged executed code. No candidate configuration or seed changed."
+}

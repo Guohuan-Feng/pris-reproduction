@@ -1,0 +1,139 @@
+{
+  "completed_utc": "2026-10-03T00:37:07.166138+00:00",
+  "passed": true,
+  "scope": "Read-only administrative, precommit, frozen-manifest and training-OOF selection audit. No validation or retrospective target table was parsed; frozen file bytes were hashed. No scientific file edits or model calls.",
+  "summary": {
+    "frozen_files_checked": 106,
+    "precall_files_checked": 17,
+    "canonical_specifications": 21,
+    "agent_attempts": 5,
+    "agent_successful_pipelines": 4,
+    "agent_prefit_infrastructure_failures": 1,
+    "A03_regressor_fits": 0,
+    "agent_successful_additional_OOF_regressor_fits": 42,
+    "automated_successful_additional_OOF_regressor_fits": 60,
+    "shared_reference_OOF_regressor_fits": 36
+  },
+  "selection": {
+    "agent": "A05",
+    "automated": "G01",
+    "anchor": "G01"
+  },
+  "reconciliation": {
+    "A03_tool_event": 5,
+    "original_state_sha256": "477a702a7356be3e410b01c8d02a1aad553057008f798fdedde5e53cc47ee61c",
+    "reconciled_state_sha256": "9f4aec38c1f0a2542943520c760e2e9c29fb6d2eac030fc49779024793d4b6b7",
+    "original_journal_sha256": "f4f307043e2ee78b0080400b66dfc380e72cbabbb6541b4f7595c733aeafa02b",
+    "evidence": "The immutable run_strategy control flow increments the attempt then persists state before metadata, specification creation or fitting. Event 5 failed state replacement, while in-memory remaining_attempts was 2. No A03 candidate directory exists. Original successful records remain unchanged."
+  },
+  "clarifications": [
+    "Fit counts measure successful regressor fits; KMeans fitting is excluded and its time remains in pipeline timing.",
+    "A04 and C05 have different global target transforms, raw versus log1p. Matching expert configurations make their OOF outputs identical when all experts are active; the canonical cache must treat them as distinct specifications.",
+    "These are selection and bookkeeping checks, not validation performance evidence."
+  ],
+  "checks": [
+    {
+      "check": "original_success_records_unchanged",
+      "passes": true,
+      "original_success_ids": [
+        "A01",
+        "A02",
+        "A04",
+        "A05"
+      ]
+    },
+    {
+      "check": "only_A03_record_added",
+      "passes": true
+    },
+    {
+      "check": "state_counters_unchanged",
+      "passes": true,
+      "tool_calls": 10,
+      "strategy_attempts": 5
+    },
+    {
+      "check": "receipt.original_state_sha256",
+      "passes": true,
+      "actual_sha256": "477a702a7356be3e410b01c8d02a1aad553057008f798fdedde5e53cc47ee61c",
+      "recorded_sha256": "477a702a7356be3e410b01c8d02a1aad553057008f798fdedde5e53cc47ee61c"
+    },
+    {
+      "check": "receipt.reconciled_state_sha256",
+      "passes": true,
+      "actual_sha256": "9f4aec38c1f0a2542943520c760e2e9c29fb6d2eac030fc49779024793d4b6b7",
+      "recorded_sha256": "9f4aec38c1f0a2542943520c760e2e9c29fb6d2eac030fc49779024793d4b6b7"
+    },
+    {
+      "check": "receipt.tool_events_sha256",
+      "passes": true,
+      "actual_sha256": "f4f307043e2ee78b0080400b66dfc380e72cbabbb6541b4f7595c733aeafa02b",
+      "recorded_sha256": "f4f307043e2ee78b0080400b66dfc380e72cbabbb6541b4f7595c733aeafa02b"
+    },
+    {
+      "check": "A03_logged_infrastructure_failure",
+      "passes": true
+    },
+    {
+      "check": "A03_no_candidate_fit_artifacts",
+      "passes": true
+    },
+    {
+      "check": "A03_explicit_administrative_metadata",
+      "passes": true
+    },
+    {
+      "check": "tool_budget_and_attempt_journal",
+      "passes": true
+    },
+    {
+      "check": "all_frozen_files_unchanged",
+      "passes": true,
+      "checked_files": 106,
+      "failures": []
+    },
+    {
+      "check": "all_precall_files_unchanged",
+      "passes": true,
+      "checked_files": 17,
+      "failures": []
+    },
+    {
+      "check": "control_plan_execution_hash_matches",
+      "passes": true
+    },
+    {
+      "check": "control_plan_protocol_hash_matches",
+      "passes": true
+    },
+    {
+      "check": "canonical_specifications_21",
+      "passes": true,
+      "actual": 21
+    },
+    {
+      "check": "shared_anchor_selection",
+      "passes": true
+    },
+    {
+      "check": "agent_frozen_selection",
+      "passes": true,
+      "expected_winner": "A05"
+    },
+    {
+      "check": "automated_control_frozen_selection",
+      "passes": true,
+      "expected_winner": "G01"
+    },
+    {
+      "check": "successful_additional_OOF_regressor_fit_counts",
+      "passes": true,
+      "agent": 42,
+      "automated": 60
+    },
+    {
+      "check": "A04_C05_distinct_canonical_specifications",
+      "passes": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "experts": {},
+  "global": {
+    "model": "extra_trees",
+    "target": "raw"
+  },
+  "input": "reference_structure28",
+  "routing": "global"
+}

@@ -1,0 +1,22 @@
+{
+  "experts": {
+    "cluster0": {
+      "model": "hist_gradient_boosting",
+      "target": "raw"
+    },
+    "cluster1": {
+      "model": "hist_gradient_boosting",
+      "target": "raw"
+    },
+    "cluster2": {
+      "model": "hist_gradient_boosting",
+      "target": "log1p"
+    }
+  },
+  "global": {
+    "model": "hist_gradient_boosting",
+    "target": "log1p"
+  },
+  "input": "composition",
+  "routing": "kmeans3"
+}
