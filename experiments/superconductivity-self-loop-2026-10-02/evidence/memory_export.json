@@ -1,0 +1,3351 @@
+[
+  {
+    "seq": 1,
+    "at": "2026-10-03T02:35:04.873893+00:00",
+    "kind": "run.created",
+    "payload": {
+      "initial_incumbent": {
+        "id": "A05",
+        "MAE_K": 7.752598770753422
+      },
+      "config": {
+        "max_experiments": 2,
+        "max_llm_calls": 6,
+        "max_seconds": 1200.0,
+        "max_call_seconds": 240.0,
+        "max_fit_seconds": 240.0,
+        "patience": 4,
+        "min_improvement_K": 0.01,
+        "model": "gpt-5.6-sol"
+      }
+    }
+  },
+  {
+    "seq": 2,
+    "at": "2026-10-03T02:35:05.015423+00:00",
+    "kind": "llm.reserved",
+    "payload": {
+      "number": 1,
+      "phase": "propose"
+    }
+  },
+  {
+    "seq": 3,
+    "at": "2026-10-03T02:35:05.737111+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 0.6870000001508743
+    }
+  },
+  {
+    "seq": 4,
+    "at": "2026-10-03T02:35:05.750541+00:00",
+    "kind": "run.stopped",
+    "payload": {
+      "reason": "BrokenPipeError: [Errno 32] Broken pipe"
+    }
+  },
+  {
+    "seq": 5,
+    "at": "2026-10-03T02:36:41.042572+00:00",
+    "kind": "development.preflight_repaired",
+    "payload": {
+      "reason": "CLI 0.160 config rejected zero skills.max_context_tokens before remote turn. Corrected to 1; use currently installed Codex on PATH. Original reservation remains spent.",
+      "failed_call": "<local-runtime>\\calls\\001_propose",
+      "stderr_sha256": "752381c3e4bc9d4569d1738037dab37c98aae1275132c441ff1f038fa82b4f29",
+      "reservation_retained": 1,
+      "remote_turn_started": false
+    }
+  },
+  {
+    "seq": 6,
+    "at": "2026-10-03T02:36:43.246446+00:00",
+    "kind": "llm.reserved",
+    "payload": {
+      "number": 2,
+      "phase": "propose"
+    }
+  },
+  {
+    "seq": 7,
+    "at": "2026-10-03T02:36:44.356023+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0620000001508743
+    }
+  },
+  {
+    "seq": 8,
+    "at": "2026-10-03T02:36:45.382450+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 9,
+    "at": "2026-10-03T02:36:46.411412+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 10,
+    "at": "2026-10-03T02:36:47.441498+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 11,
+    "at": "2026-10-03T02:36:48.481797+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.047000000020489
+    }
+  },
+  {
+    "seq": 12,
+    "at": "2026-10-03T02:36:49.505098+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 13,
+    "at": "2026-10-03T02:36:50.525053+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 14,
+    "at": "2026-10-03T02:36:51.556113+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 15,
+    "at": "2026-10-03T02:36:52.578767+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 16,
+    "at": "2026-10-03T02:36:53.596118+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 17,
+    "at": "2026-10-03T02:36:54.624409+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 18,
+    "at": "2026-10-03T02:36:55.653786+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 19,
+    "at": "2026-10-03T02:36:56.672728+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 20,
+    "at": "2026-10-03T02:36:57.688716+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 21,
+    "at": "2026-10-03T02:36:58.715795+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 22,
+    "at": "2026-10-03T02:36:59.542461+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 0.8279999999795109
+    }
+  },
+  {
+    "seq": 23,
+    "at": "2026-10-03T02:36:59.593242+00:00",
+    "kind": "proposal.accepted",
+    "payload": {
+      "action": "experiment",
+      "hypothesis": "A05 shows that routing cu_o and other to extra_trees/raw while letting fe_anion fall back to the global extra_trees/raw model is the best guard-eligible configuration so far. A01 indicates a separately fitted fe_anion extra_trees/raw expert degrades both pooled MAE and positive-Tc MAE relative to A05, suggesting that the small fe_anion partition benefits from a different inductive bias or broader fallback training. Using global hist_gradient_boosting/raw only for the omitted fe_anion route is a focused, previously untried test, while preserving A05's successful cu_o and other experts.",
+      "falsification": "Falsified as an eligible improvement if pooled weighted OOF MAE is not below 7.752598770753422 K, or if positive-Tc OOF MAE exceeds the fixed G01 guard of 8.832165507919859 K. Subgroup changes, especially any positive-Tc or high-Tc deterioration, should also be acknowledged even if pooled MAE improves.",
+      "reason": "This isolates the only unresolved chemistry-route choice around A05: replacing the fe_anion fallback prediction with hist_gradient_boosting/raw while holding the successful cu_o and other routes fixed. It is more informative than changing targets broadly, since every observed log1p configuration strongly worsened positive/high-Tc error, and it avoids repeating A01/A04/A05.",
+      "revision_of": "A05",
+      "specification": {
+        "input": "composition",
+        "routing": "chemistry",
+        "global": {
+          "model": "hist_gradient_boosting",
+          "target": "raw"
+        },
+        "experts": {
+          "cu_o": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "other": {
+            "model": "extra_trees",
+            "target": "raw"
+          }
+        }
+      },
+      "stop_reason": "",
+      "candidate_id": "L001"
+    }
+  },
+  {
+    "seq": 24,
+    "at": "2026-10-03T02:36:59.622857+00:00",
+    "kind": "experiment.started",
+    "payload": {
+      "candidate_id": "L001"
+    }
+  },
+  {
+    "seq": 25,
+    "at": "2026-10-03T02:37:01.367924+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 26,
+    "at": "2026-10-03T02:37:02.388440+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 27,
+    "at": "2026-10-03T02:37:03.411678+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 28,
+    "at": "2026-10-03T02:37:04.429126+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 29,
+    "at": "2026-10-03T02:37:05.447308+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 30,
+    "at": "2026-10-03T02:37:06.465884+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 31,
+    "at": "2026-10-03T02:37:07.483700+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 32,
+    "at": "2026-10-03T02:37:08.501247+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 33,
+    "at": "2026-10-03T02:37:09.518107+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 34,
+    "at": "2026-10-03T02:37:10.539275+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 35,
+    "at": "2026-10-03T02:37:11.569265+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 36,
+    "at": "2026-10-03T02:37:12.600705+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 37,
+    "at": "2026-10-03T02:37:13.631525+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 38,
+    "at": "2026-10-03T02:37:14.663044+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 39,
+    "at": "2026-10-03T02:37:15.694390+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 40,
+    "at": "2026-10-03T02:37:16.714078+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 41,
+    "at": "2026-10-03T02:37:17.731471+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 42,
+    "at": "2026-10-03T02:37:18.760612+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 43,
+    "at": "2026-10-03T02:37:19.785408+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 44,
+    "at": "2026-10-03T02:37:20.806083+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 45,
+    "at": "2026-10-03T02:37:21.825839+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 46,
+    "at": "2026-10-03T02:37:22.863966+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 47,
+    "at": "2026-10-03T02:37:23.889351+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0469999997876585
+    }
+  },
+  {
+    "seq": 48,
+    "at": "2026-10-03T02:37:24.914468+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 49,
+    "at": "2026-10-03T02:37:25.950472+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 50,
+    "at": "2026-10-03T02:37:26.976746+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 51,
+    "at": "2026-10-03T02:37:27.995253+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 52,
+    "at": "2026-10-03T02:37:29.012527+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 53,
+    "at": "2026-10-03T02:37:30.041222+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 54,
+    "at": "2026-10-03T02:37:31.059942+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 55,
+    "at": "2026-10-03T02:37:32.082005+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 56,
+    "at": "2026-10-03T02:37:33.101540+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 57,
+    "at": "2026-10-03T02:37:34.144458+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 58,
+    "at": "2026-10-03T02:37:35.170773+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.046000000089407
+    }
+  },
+  {
+    "seq": 59,
+    "at": "2026-10-03T02:37:36.195587+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 60,
+    "at": "2026-10-03T02:37:37.221493+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 61,
+    "at": "2026-10-03T02:37:38.248884+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 62,
+    "at": "2026-10-03T02:37:39.266073+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 63,
+    "at": "2026-10-03T02:37:40.283688+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 64,
+    "at": "2026-10-03T02:37:41.301750+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 65,
+    "at": "2026-10-03T02:37:42.330918+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 66,
+    "at": "2026-10-03T02:37:43.360573+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 67,
+    "at": "2026-10-03T02:37:44.388832+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 68,
+    "at": "2026-10-03T02:37:45.411250+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 69,
+    "at": "2026-10-03T02:37:46.438648+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 70,
+    "at": "2026-10-03T02:37:47.454945+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 71,
+    "at": "2026-10-03T02:37:48.470409+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 72,
+    "at": "2026-10-03T02:37:49.492515+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 73,
+    "at": "2026-10-03T02:37:50.607105+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.047000000020489
+    }
+  },
+  {
+    "seq": 74,
+    "at": "2026-10-03T02:37:51.574249+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 75,
+    "at": "2026-10-03T02:37:52.196806+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 0.625
+    }
+  },
+  {
+    "seq": 76,
+    "at": "2026-10-03T02:37:52.220485+00:00",
+    "kind": "experiment.observed",
+    "payload": {
+      "candidate_id": "L001",
+      "result": {
+        "candidate_id": "L001",
+        "spec": {
+          "experts": {
+            "cu_o": {
+              "model": "extra_trees",
+              "target": "raw"
+            },
+            "other": {
+              "model": "extra_trees",
+              "target": "raw"
+            }
+          },
+          "global": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "input": "composition",
+          "routing": "chemistry"
+        },
+        "fingerprint": "f71380188ecdaa9a31b8e7d244b47de17b3371a5fed6a154520e3f22ea17a3ff",
+        "feedback_scope": "Original training fixed-group OOF only; adaptive development feedback",
+        "metrics": {
+          "rows": 3764,
+          "groups": 1117,
+          "weight_sum": 3760.0,
+          "MAE_K": 7.793527988505537,
+          "RMSE_K": 14.019166977931661,
+          "bias_K": -2.8744707801334006,
+          "subgroups": {
+            "reported_zero": {
+              "rows": 1169,
+              "groups": 636,
+              "weight_sum": 1167.0,
+              "MAE_K": 6.094489288360432,
+              "RMSE_K": 13.492998090747783,
+              "bias_K": 6.094489288360432
+            },
+            "positive_tc": {
+              "rows": 2595,
+              "groups": 651,
+              "weight_sum": 2593.0,
+              "MAE_K": 8.558193689650674,
+              "RMSE_K": 14.249635102042047,
+              "bias_K": -6.911021647828081
+            },
+            "high_tc_ge40K": {
+              "rows": 310,
+              "groups": 24,
+              "weight_sum": 310.0,
+              "MAE_K": 29.060847990389572,
+              "RMSE_K": 33.09673715304592,
+              "bias_K": -27.547042703676116
+            }
+          }
+        },
+        "reused": false,
+        "reused_from": null,
+        "proposal_was_duplicate": false,
+        "candidate_total_regressor_fits": 9,
+        "actual_new_regressor_fits": 9,
+        "elapsed_seconds": 47.79700000002049,
+        "positive_guard_pass": true,
+        "positive_guard_anchor": "G01",
+        "evidence_directory": "workbench/candidates/L001",
+        "counterexamples": {
+          "scope": "Original training fixed-group OOF only; adaptive development feedback",
+          "candidate_id": "L001",
+          "examples": {
+            "overall": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "positive": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "zero": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "high_tc_ge40": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ]
+          },
+          "route_metrics": {
+            "cu_o": {
+              "rows": 712,
+              "groups": 66,
+              "weight_sum": 712.0,
+              "MAE_K": 24.39784884155065,
+              "RMSE_K": 29.53170200487865,
+              "bias_K": -6.803032255675577,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 248,
+                  "groups": 50,
+                  "weight_sum": 248.0,
+                  "MAE_K": 20.723853501542685,
+                  "RMSE_K": 28.245913424055335,
+                  "bias_K": 20.723853501542685
+                },
+                "positive_tc": {
+                  "rows": 464,
+                  "groups": 31,
+                  "weight_sum": 464.0,
+                  "MAE_K": 26.36153600603767,
+                  "RMSE_K": 30.196490517198427,
+                  "bias_K": -21.515678091430168
+                },
+                "high_tc_ge40K": {
+                  "rows": 267,
+                  "groups": 18,
+                  "weight_sum": 267.0,
+                  "MAE_K": 31.51075853086543,
+                  "RMSE_K": 35.136978138754195,
+                  "bias_K": -29.7885953559203
+                }
+              }
+            },
+            "fe_anion": {
+              "rows": 285,
+              "groups": 37,
+              "weight_sum": 285.0,
+              "MAE_K": 10.55659598581846,
+              "RMSE_K": 13.109407332254563,
+              "bias_K": -2.6730250832855953,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 64,
+                  "groups": 26,
+                  "weight_sum": 64.0,
+                  "MAE_K": 11.527877765453017,
+                  "RMSE_K": 13.092222056777146,
+                  "bias_K": 11.527877765453017
+                },
+                "positive_tc": {
+                  "rows": 221,
+                  "groups": 27,
+                  "weight_sum": 221.0,
+                  "MAE_K": 10.27531981434058,
+                  "RMSE_K": 13.114379858522954,
+                  "bias_K": -6.785503736313972
+                },
+                "high_tc_ge40K": {
+                  "rows": 43,
+                  "groups": 6,
+                  "weight_sum": 43.0,
+                  "MAE_K": 13.848612773946435,
+                  "RMSE_K": 15.197928269158325,
+                  "bias_K": -13.628564607183144
+                }
+              }
+            },
+            "other": {
+              "rows": 2767,
+              "groups": 1016,
+              "weight_sum": 2763.0,
+              "MAE_K": 3.2297383299451674,
+              "RMSE_K": 4.999084519675423,
+              "bias_K": -1.8828950483257985,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 857,
+                  "groups": 561,
+                  "weight_sum": 855.0,
+                  "MAE_K": 1.4444083674211048,
+                  "RMSE_K": 2.0613228023116377,
+                  "bias_K": 1.4444083674211048
+                },
+                "positive_tc": {
+                  "rows": 1910,
+                  "groups": 594,
+                  "weight_sum": 1908.0,
+                  "MAE_K": 4.029768265981893,
+                  "RMSE_K": 5.85538367885729,
+                  "bias_K": -3.3739036544387977
+                },
+                "high_tc_ge40K": {
+                  "rows": 0,
+                  "groups": 0,
+                  "weight_sum": 0.0,
+                  "MAE_K": null,
+                  "RMSE_K": null,
+                  "bias_K": null
+                }
+              }
+            }
+          }
+        },
+        "guard_eligible": true,
+        "improved_incumbent": false,
+        "MAE_gain_over_previous_incumbent_K": -0.04092921775211522
+      }
+    }
+  },
+  {
+    "seq": 77,
+    "at": "2026-10-03T02:37:52.871903+00:00",
+    "kind": "llm.reserved",
+    "payload": {
+      "number": 3,
+      "phase": "reflect"
+    }
+  },
+  {
+    "seq": 78,
+    "at": "2026-10-03T02:37:53.997365+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 79,
+    "at": "2026-10-03T02:37:55.017693+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 80,
+    "at": "2026-10-03T02:37:56.054743+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 81,
+    "at": "2026-10-03T02:37:57.082078+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 82,
+    "at": "2026-10-03T02:37:58.100898+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 83,
+    "at": "2026-10-03T02:37:59.127956+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 84,
+    "at": "2026-10-03T02:38:00.161341+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 85,
+    "at": "2026-10-03T02:38:01.190857+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 86,
+    "at": "2026-10-03T02:38:02.213443+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 87,
+    "at": "2026-10-03T02:38:03.234605+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 88,
+    "at": "2026-10-03T02:38:04.263798+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 89,
+    "at": "2026-10-03T02:38:05.302073+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.046000000089407
+    }
+  },
+  {
+    "seq": 90,
+    "at": "2026-10-03T02:38:06.335337+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 91,
+    "at": "2026-10-03T02:38:07.344722+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 92,
+    "at": "2026-10-03T02:38:08.364782+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 93,
+    "at": "2026-10-03T02:38:09.383377+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 94,
+    "at": "2026-10-03T02:38:10.402354+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 95,
+    "at": "2026-10-03T02:38:11.495017+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1100000001024455
+    }
+  },
+  {
+    "seq": 96,
+    "at": "2026-10-03T02:38:12.511049+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 97,
+    "at": "2026-10-03T02:38:12.524568+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 0.0
+    }
+  },
+  {
+    "seq": 98,
+    "at": "2026-10-03T02:38:12.555098+00:00",
+    "kind": "cycle.completed",
+    "payload": {
+      "candidate_id": "L001",
+      "hypothesis": "A05 shows that routing cu_o and other to extra_trees/raw while letting fe_anion fall back to the global extra_trees/raw model is the best guard-eligible configuration so far. A01 indicates a separately fitted fe_anion extra_trees/raw expert degrades both pooled MAE and positive-Tc MAE relative to A05, suggesting that the small fe_anion partition benefits from a different inductive bias or broader fallback training. Using global hist_gradient_boosting/raw only for the omitted fe_anion route is a focused, previously untried test, while preserving A05's successful cu_o and other experts.",
+      "revision_of": "A05",
+      "specification": {
+        "input": "composition",
+        "routing": "chemistry",
+        "global": {
+          "model": "hist_gradient_boosting",
+          "target": "raw"
+        },
+        "experts": {
+          "cu_o": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "other": {
+            "model": "extra_trees",
+            "target": "raw"
+          }
+        }
+      },
+      "evaluation": {
+        "candidate_id": "L001",
+        "spec": {
+          "experts": {
+            "cu_o": {
+              "model": "extra_trees",
+              "target": "raw"
+            },
+            "other": {
+              "model": "extra_trees",
+              "target": "raw"
+            }
+          },
+          "global": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "input": "composition",
+          "routing": "chemistry"
+        },
+        "fingerprint": "f71380188ecdaa9a31b8e7d244b47de17b3371a5fed6a154520e3f22ea17a3ff",
+        "feedback_scope": "Original training fixed-group OOF only; adaptive development feedback",
+        "metrics": {
+          "rows": 3764,
+          "groups": 1117,
+          "weight_sum": 3760.0,
+          "MAE_K": 7.793527988505537,
+          "RMSE_K": 14.019166977931661,
+          "bias_K": -2.8744707801334006,
+          "subgroups": {
+            "reported_zero": {
+              "rows": 1169,
+              "groups": 636,
+              "weight_sum": 1167.0,
+              "MAE_K": 6.094489288360432,
+              "RMSE_K": 13.492998090747783,
+              "bias_K": 6.094489288360432
+            },
+            "positive_tc": {
+              "rows": 2595,
+              "groups": 651,
+              "weight_sum": 2593.0,
+              "MAE_K": 8.558193689650674,
+              "RMSE_K": 14.249635102042047,
+              "bias_K": -6.911021647828081
+            },
+            "high_tc_ge40K": {
+              "rows": 310,
+              "groups": 24,
+              "weight_sum": 310.0,
+              "MAE_K": 29.060847990389572,
+              "RMSE_K": 33.09673715304592,
+              "bias_K": -27.547042703676116
+            }
+          }
+        },
+        "reused": false,
+        "reused_from": null,
+        "proposal_was_duplicate": false,
+        "candidate_total_regressor_fits": 9,
+        "actual_new_regressor_fits": 9,
+        "elapsed_seconds": 47.79700000002049,
+        "positive_guard_pass": true,
+        "positive_guard_anchor": "G01",
+        "evidence_directory": "workbench/candidates/L001",
+        "counterexamples": {
+          "scope": "Original training fixed-group OOF only; adaptive development feedback",
+          "candidate_id": "L001",
+          "examples": {
+            "overall": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "positive": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "zero": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "high_tc_ge40": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ]
+          },
+          "route_metrics": {
+            "cu_o": {
+              "rows": 712,
+              "groups": 66,
+              "weight_sum": 712.0,
+              "MAE_K": 24.39784884155065,
+              "RMSE_K": 29.53170200487865,
+              "bias_K": -6.803032255675577,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 248,
+                  "groups": 50,
+                  "weight_sum": 248.0,
+                  "MAE_K": 20.723853501542685,
+                  "RMSE_K": 28.245913424055335,
+                  "bias_K": 20.723853501542685
+                },
+                "positive_tc": {
+                  "rows": 464,
+                  "groups": 31,
+                  "weight_sum": 464.0,
+                  "MAE_K": 26.36153600603767,
+                  "RMSE_K": 30.196490517198427,
+                  "bias_K": -21.515678091430168
+                },
+                "high_tc_ge40K": {
+                  "rows": 267,
+                  "groups": 18,
+                  "weight_sum": 267.0,
+                  "MAE_K": 31.51075853086543,
+                  "RMSE_K": 35.136978138754195,
+                  "bias_K": -29.7885953559203
+                }
+              }
+            },
+            "fe_anion": {
+              "rows": 285,
+              "groups": 37,
+              "weight_sum": 285.0,
+              "MAE_K": 10.55659598581846,
+              "RMSE_K": 13.109407332254563,
+              "bias_K": -2.6730250832855953,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 64,
+                  "groups": 26,
+                  "weight_sum": 64.0,
+                  "MAE_K": 11.527877765453017,
+                  "RMSE_K": 13.092222056777146,
+                  "bias_K": 11.527877765453017
+                },
+                "positive_tc": {
+                  "rows": 221,
+                  "groups": 27,
+                  "weight_sum": 221.0,
+                  "MAE_K": 10.27531981434058,
+                  "RMSE_K": 13.114379858522954,
+                  "bias_K": -6.785503736313972
+                },
+                "high_tc_ge40K": {
+                  "rows": 43,
+                  "groups": 6,
+                  "weight_sum": 43.0,
+                  "MAE_K": 13.848612773946435,
+                  "RMSE_K": 15.197928269158325,
+                  "bias_K": -13.628564607183144
+                }
+              }
+            },
+            "other": {
+              "rows": 2767,
+              "groups": 1016,
+              "weight_sum": 2763.0,
+              "MAE_K": 3.2297383299451674,
+              "RMSE_K": 4.999084519675423,
+              "bias_K": -1.8828950483257985,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 857,
+                  "groups": 561,
+                  "weight_sum": 855.0,
+                  "MAE_K": 1.4444083674211048,
+                  "RMSE_K": 2.0613228023116377,
+                  "bias_K": 1.4444083674211048
+                },
+                "positive_tc": {
+                  "rows": 1910,
+                  "groups": 594,
+                  "weight_sum": 1908.0,
+                  "MAE_K": 4.029768265981893,
+                  "RMSE_K": 5.85538367885729,
+                  "bias_K": -3.3739036544387977
+                },
+                "high_tc_ge40K": {
+                  "rows": 0,
+                  "groups": 0,
+                  "weight_sum": 0.0,
+                  "MAE_K": null,
+                  "RMSE_K": null,
+                  "bias_K": null
+                }
+              }
+            }
+          }
+        },
+        "guard_eligible": true,
+        "improved_incumbent": false,
+        "MAE_gain_over_previous_incumbent_K": -0.04092921775211522
+      },
+      "reflection": {
+        "hypothesis_status": "not_supported",
+        "summary": "L001 passed the fixed G01 positive-Tc guard (8.5582 K <= 8.8322 K) but did not improve the A05 incumbent: pooled weighted OOF MAE was 7.7935 K versus 7.7526 K, a deterioration of 0.0409 K. Relative to A05, positive-Tc MAE also worsened from 8.5051 K to 8.5582 K, reported-zero MAE worsened from 6.0806 K to 6.0945 K, and high-Tc MAE worsened from 28.8502 K to 29.0608 K. Thus, changing only the omitted fe_anion fallback from extra_trees/raw to hist_gradient_boosting/raw was guard-eligible but uniformly unfavorable on the reported metrics.",
+        "next_action": "continue",
+        "next_focus": "Use the final experiment to test the remaining focused fe_anion alternative around A05: composition input, chemistry routing, global extra_trees/raw, extra_trees/raw experts for cu_o and other, and a hist_gradient_boosting/raw expert for fe_anion. A01 showed that a route-specific extra_trees/raw fe_anion expert was worse than A05's broad extra_trees/raw fallback, while L001 showed that a broad hist_gradient_boosting/raw fallback was also worse; this untried configuration isolates whether hist_gradient_boosting becomes useful only when specialized to fe_anion. It is falsified as an eligible improvement if pooled OOF MAE is not below 7.752598770753422 K or positive-Tc MAE exceeds 8.832165507919859 K.",
+        "stop_reason": "",
+        "limitations": [
+          "All results are adaptive development evidence from the same fixed-group training OOF folds, not independent validation.",
+          "The chemistry routes are operational composition partitions rather than verified physical families.",
+          "The fe_anion route is relatively small (285 rows, 37 groups), so its expert estimate may be unstable.",
+          "Large cu_o errors remain, including severe overprediction of some reported-zero materials and underprediction of high-Tc materials."
+        ]
+      }
+    }
+  },
+  {
+    "seq": 99,
+    "at": "2026-10-03T02:38:12.713344+00:00",
+    "kind": "llm.reserved",
+    "payload": {
+      "number": 4,
+      "phase": "propose"
+    }
+  },
+  {
+    "seq": 100,
+    "at": "2026-10-03T02:38:13.769698+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 101,
+    "at": "2026-10-03T02:38:14.802546+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.046000000089407
+    }
+  },
+  {
+    "seq": 102,
+    "at": "2026-10-03T02:38:15.913018+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1099999998696148
+    }
+  },
+  {
+    "seq": 103,
+    "at": "2026-10-03T02:38:17.033918+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.077999999979511
+    }
+  },
+  {
+    "seq": 104,
+    "at": "2026-10-03T02:38:18.124435+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.125
+    }
+  },
+  {
+    "seq": 105,
+    "at": "2026-10-03T02:38:19.177050+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0620000001508743
+    }
+  },
+  {
+    "seq": 106,
+    "at": "2026-10-03T02:38:20.194451+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 107,
+    "at": "2026-10-03T02:38:21.220460+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 108,
+    "at": "2026-10-03T02:38:22.239510+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 109,
+    "at": "2026-10-03T02:38:23.268201+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 110,
+    "at": "2026-10-03T02:38:24.288925+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 111,
+    "at": "2026-10-03T02:38:24.304351+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 0.01500000013038516
+    }
+  },
+  {
+    "seq": 112,
+    "at": "2026-10-03T02:38:24.356476+00:00",
+    "kind": "proposal.accepted",
+    "payload": {
+      "action": "experiment",
+      "hypothesis": "A05 is the best guard-eligible configuration, while A01 shows that a route-specific extra_trees/raw fe_anion expert worsens performance and L001 shows that a broad hist_gradient_boosting/raw fallback also worsens performance. The remaining focused test is whether hist_gradient_boosting/raw helps only when specialized to the 285-row, 37-group fe_anion route, while preserving A05's extra_trees/raw behavior for cu_o and other.",
+      "falsification": "The hypothesis is falsified as an eligible improvement if pooled weighted OOF MAE is not below 7.752598770753422 K or if positive-Tc OOF MAE exceeds the fixed G01 guard of 8.832165507919859 K. Route specialization should also be interpreted cautiously because fe_anion is small and all evidence reuses the adaptive training OOF folds.",
+      "reason": "This is an untried, single-route revision of A05 that directly follows the prior reflection and uses the last experiment to isolate estimator specialization from fallback training scope. It preserves the incumbent settings on the dominant other route and the high-error cu_o route while changing only fe_anion.",
+      "revision_of": "A05",
+      "specification": {
+        "input": "composition",
+        "routing": "chemistry",
+        "global": {
+          "model": "extra_trees",
+          "target": "raw"
+        },
+        "experts": {
+          "cu_o": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "fe_anion": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "other": {
+            "model": "extra_trees",
+            "target": "raw"
+          }
+        }
+      },
+      "stop_reason": "",
+      "candidate_id": "L002"
+    }
+  },
+  {
+    "seq": 113,
+    "at": "2026-10-03T02:38:24.404396+00:00",
+    "kind": "experiment.started",
+    "payload": {
+      "candidate_id": "L002"
+    }
+  },
+  {
+    "seq": 114,
+    "at": "2026-10-03T02:38:26.265474+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0469999997876585
+    }
+  },
+  {
+    "seq": 115,
+    "at": "2026-10-03T02:38:27.291144+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 116,
+    "at": "2026-10-03T02:38:28.322205+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 117,
+    "at": "2026-10-03T02:38:29.351495+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 118,
+    "at": "2026-10-03T02:38:30.370629+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 119,
+    "at": "2026-10-03T02:38:31.391508+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 120,
+    "at": "2026-10-03T02:38:32.419139+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 121,
+    "at": "2026-10-03T02:38:33.457195+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 122,
+    "at": "2026-10-03T02:38:34.482013+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.047000000020489
+    }
+  },
+  {
+    "seq": 123,
+    "at": "2026-10-03T02:38:35.515790+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 124,
+    "at": "2026-10-03T02:38:36.554351+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.046000000089407
+    }
+  },
+  {
+    "seq": 125,
+    "at": "2026-10-03T02:38:37.578304+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 126,
+    "at": "2026-10-03T02:38:38.605769+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 127,
+    "at": "2026-10-03T02:38:39.634153+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 128,
+    "at": "2026-10-03T02:38:40.663521+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 129,
+    "at": "2026-10-03T02:38:41.695973+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 130,
+    "at": "2026-10-03T02:38:42.720833+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 131,
+    "at": "2026-10-03T02:38:43.748886+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 132,
+    "at": "2026-10-03T02:38:44.780597+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 133,
+    "at": "2026-10-03T02:38:45.807897+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 134,
+    "at": "2026-10-03T02:38:46.830692+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 135,
+    "at": "2026-10-03T02:38:47.859838+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 136,
+    "at": "2026-10-03T02:38:48.894713+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 137,
+    "at": "2026-10-03T02:38:49.930404+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.046000000089407
+    }
+  },
+  {
+    "seq": 138,
+    "at": "2026-10-03T02:38:50.954790+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 139,
+    "at": "2026-10-03T02:38:51.986392+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 140,
+    "at": "2026-10-03T02:38:53.010754+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 141,
+    "at": "2026-10-03T02:38:54.030292+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 142,
+    "at": "2026-10-03T02:38:55.054593+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 143,
+    "at": "2026-10-03T02:38:56.084086+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 144,
+    "at": "2026-10-03T02:38:57.106284+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 145,
+    "at": "2026-10-03T02:38:58.138079+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 146,
+    "at": "2026-10-03T02:38:59.156539+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 147,
+    "at": "2026-10-03T02:39:00.183511+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 148,
+    "at": "2026-10-03T02:39:01.212525+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 149,
+    "at": "2026-10-03T02:39:02.230439+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 150,
+    "at": "2026-10-03T02:39:03.251065+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 151,
+    "at": "2026-10-03T02:39:04.271994+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 152,
+    "at": "2026-10-03T02:39:05.289174+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 153,
+    "at": "2026-10-03T02:39:06.317987+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 154,
+    "at": "2026-10-03T02:39:07.332093+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 155,
+    "at": "2026-10-03T02:39:08.351788+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 156,
+    "at": "2026-10-03T02:39:09.373353+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 157,
+    "at": "2026-10-03T02:39:10.390358+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 158,
+    "at": "2026-10-03T02:39:11.412337+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 159,
+    "at": "2026-10-03T02:39:12.431680+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 160,
+    "at": "2026-10-03T02:39:13.449018+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 161,
+    "at": "2026-10-03T02:39:14.485386+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 162,
+    "at": "2026-10-03T02:39:15.534900+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0469999997876585
+    }
+  },
+  {
+    "seq": 163,
+    "at": "2026-10-03T02:39:16.667693+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0780000002123415
+    }
+  },
+  {
+    "seq": 164,
+    "at": "2026-10-03T02:39:17.798220+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1879999998491257
+    }
+  },
+  {
+    "seq": 165,
+    "at": "2026-10-03T02:39:18.836033+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 166,
+    "at": "2026-10-03T02:39:19.920413+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1090000001713634
+    }
+  },
+  {
+    "seq": 167,
+    "at": "2026-10-03T02:39:21.016536+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0939999998081475
+    }
+  },
+  {
+    "seq": 168,
+    "at": "2026-10-03T02:39:22.148514+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.125
+    }
+  },
+  {
+    "seq": 169,
+    "at": "2026-10-03T02:39:23.265514+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0940000000409782
+    }
+  },
+  {
+    "seq": 170,
+    "at": "2026-10-03T02:39:24.235666+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0
+    }
+  },
+  {
+    "seq": 171,
+    "at": "2026-10-03T02:39:25.270210+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 172,
+    "at": "2026-10-03T02:39:26.446345+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.172000000020489
+    }
+  },
+  {
+    "seq": 173,
+    "at": "2026-10-03T02:39:27.679343+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.2190000000409782
+    }
+  },
+  {
+    "seq": 174,
+    "at": "2026-10-03T02:39:28.809449+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1559999999590218
+    }
+  },
+  {
+    "seq": 175,
+    "at": "2026-10-03T02:39:30.028502+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.202999999979511
+    }
+  },
+  {
+    "seq": 176,
+    "at": "2026-10-03T02:39:31.151413+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.125
+    }
+  },
+  {
+    "seq": 177,
+    "at": "2026-10-03T02:39:32.255730+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1100000001024455
+    }
+  },
+  {
+    "seq": 178,
+    "at": "2026-10-03T02:39:33.446576+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.171000000089407
+    }
+  },
+  {
+    "seq": 179,
+    "at": "2026-10-03T02:39:34.648269+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.203999999910593
+    }
+  },
+  {
+    "seq": 180,
+    "at": "2026-10-03T02:39:35.918986+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.171000000089407
+    }
+  },
+  {
+    "seq": 181,
+    "at": "2026-10-03T02:39:36.870599+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.078999999910593
+    }
+  },
+  {
+    "seq": 182,
+    "at": "2026-10-03T02:39:38.021929+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1089999999385327
+    }
+  },
+  {
+    "seq": 183,
+    "at": "2026-10-03T02:39:39.161126+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.172000000020489
+    }
+  },
+  {
+    "seq": 184,
+    "at": "2026-10-03T02:39:40.390274+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1870000001508743
+    }
+  },
+  {
+    "seq": 185,
+    "at": "2026-10-03T02:39:41.410717+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0629999998491257
+    }
+  },
+  {
+    "seq": 186,
+    "at": "2026-10-03T02:39:42.492186+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.077999999979511
+    }
+  },
+  {
+    "seq": 187,
+    "at": "2026-10-03T02:39:43.594050+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1090000001713634
+    }
+  },
+  {
+    "seq": 188,
+    "at": "2026-10-03T02:39:44.705798+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0939999998081475
+    }
+  },
+  {
+    "seq": 189,
+    "at": "2026-10-03T02:39:45.750762+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0630000000819564
+    }
+  },
+  {
+    "seq": 190,
+    "at": "2026-10-03T02:39:46.955246+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.171000000089407
+    }
+  },
+  {
+    "seq": 191,
+    "at": "2026-10-03T02:39:48.057089+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1409999998286366
+    }
+  },
+  {
+    "seq": 192,
+    "at": "2026-10-03T02:39:49.203363+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1410000000614673
+    }
+  },
+  {
+    "seq": 193,
+    "at": "2026-10-03T02:39:50.243883+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 194,
+    "at": "2026-10-03T02:39:51.390404+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1410000000614673
+    }
+  },
+  {
+    "seq": 195,
+    "at": "2026-10-03T02:39:52.590439+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1869999999180436
+    }
+  },
+  {
+    "seq": 196,
+    "at": "2026-10-03T02:39:53.668105+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1090000001713634
+    }
+  },
+  {
+    "seq": 197,
+    "at": "2026-10-03T02:39:54.677259+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0
+    }
+  },
+  {
+    "seq": 198,
+    "at": "2026-10-03T02:39:55.885005+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0939999998081475
+    }
+  },
+  {
+    "seq": 199,
+    "at": "2026-10-03T02:39:56.960448+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1880000000819564
+    }
+  },
+  {
+    "seq": 200,
+    "at": "2026-10-03T02:39:58.008330+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.047000000020489
+    }
+  },
+  {
+    "seq": 201,
+    "at": "2026-10-03T02:39:59.201805+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1869999999180436
+    }
+  },
+  {
+    "seq": 202,
+    "at": "2026-10-03T02:40:00.384140+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1880000000819564
+    }
+  },
+  {
+    "seq": 203,
+    "at": "2026-10-03T02:40:01.405489+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 204,
+    "at": "2026-10-03T02:40:02.423542+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 205,
+    "at": "2026-10-03T02:40:03.451589+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 206,
+    "at": "2026-10-03T02:40:04.476539+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 207,
+    "at": "2026-10-03T02:40:05.498955+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 208,
+    "at": "2026-10-03T02:40:06.528179+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 209,
+    "at": "2026-10-03T02:40:07.563489+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 210,
+    "at": "2026-10-03T02:40:08.588204+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 211,
+    "at": "2026-10-03T02:40:09.695643+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0619999999180436
+    }
+  },
+  {
+    "seq": 212,
+    "at": "2026-10-03T02:40:10.841588+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.2030000002123415
+    }
+  },
+  {
+    "seq": 213,
+    "at": "2026-10-03T02:40:10.860502+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 0.015999999828636646
+    }
+  },
+  {
+    "seq": 214,
+    "at": "2026-10-03T02:40:10.904721+00:00",
+    "kind": "experiment.observed",
+    "payload": {
+      "candidate_id": "L002",
+      "result": {
+        "candidate_id": "L002",
+        "spec": {
+          "experts": {
+            "cu_o": {
+              "model": "extra_trees",
+              "target": "raw"
+            },
+            "fe_anion": {
+              "model": "hist_gradient_boosting",
+              "target": "raw"
+            },
+            "other": {
+              "model": "extra_trees",
+              "target": "raw"
+            }
+          },
+          "global": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "input": "composition",
+          "routing": "chemistry"
+        },
+        "fingerprint": "e0d964981ba56db9481283584dca3b6fbf2e542b467cf9b2a6e8af8656fbc629",
+        "feedback_scope": "Original training fixed-group OOF only; adaptive development feedback",
+        "metrics": {
+          "rows": 3764,
+          "groups": 1117,
+          "weight_sum": 3760.0,
+          "MAE_K": 7.80182095214835,
+          "RMSE_K": 14.067347306639908,
+          "bias_K": -2.7305101876581492,
+          "subgroups": {
+            "reported_zero": {
+              "rows": 1169,
+              "groups": 636,
+              "weight_sum": 1167.0,
+              "MAE_K": 6.15081993763281,
+              "RMSE_K": 13.637796076017725,
+              "bias_K": 6.15081993763281
+            },
+            "positive_tc": {
+              "rows": 2595,
+              "groups": 651,
+              "weight_sum": 2593.0,
+              "MAE_K": 8.544866915873623,
+              "RMSE_K": 14.256447628285498,
+              "bias_K": -6.727622511689985
+            },
+            "high_tc_ge40K": {
+              "rows": 310,
+              "groups": 24,
+              "weight_sum": 310.0,
+              "MAE_K": 28.765405352362418,
+              "RMSE_K": 33.00133828001628,
+              "bias_K": -27.18672776972824
+            }
+          }
+        },
+        "reused": false,
+        "reused_from": null,
+        "proposal_was_duplicate": false,
+        "candidate_total_regressor_fits": 12,
+        "actual_new_regressor_fits": 12,
+        "elapsed_seconds": 100.875,
+        "positive_guard_pass": true,
+        "positive_guard_anchor": "G01",
+        "evidence_directory": "workbench/candidates/L002",
+        "counterexamples": {
+          "scope": "Original training fixed-group OOF only; adaptive development feedback",
+          "candidate_id": "L002",
+          "examples": {
+            "overall": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "positive": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "zero": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "high_tc_ge40": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ]
+          },
+          "route_metrics": {
+            "cu_o": {
+              "rows": 712,
+              "groups": 66,
+              "weight_sum": 712.0,
+              "MAE_K": 24.39784884155065,
+              "RMSE_K": 29.53170200487865,
+              "bias_K": -6.803032255675577,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 248,
+                  "groups": 50,
+                  "weight_sum": 248.0,
+                  "MAE_K": 20.723853501542685,
+                  "RMSE_K": 28.245913424055335,
+                  "bias_K": 20.723853501542685
+                },
+                "positive_tc": {
+                  "rows": 464,
+                  "groups": 31,
+                  "weight_sum": 464.0,
+                  "MAE_K": 26.36153600603767,
+                  "RMSE_K": 30.196490517198427,
+                  "bias_K": -21.515678091430168
+                },
+                "high_tc_ge40K": {
+                  "rows": 267,
+                  "groups": 18,
+                  "weight_sum": 267.0,
+                  "MAE_K": 31.51075853086543,
+                  "RMSE_K": 35.136978138754195,
+                  "bias_K": -29.7885953559203
+                }
+              }
+            },
+            "fe_anion": {
+              "rows": 285,
+              "groups": 37,
+              "weight_sum": 285.0,
+              "MAE_K": 10.666004909667487,
+              "RMSE_K": 13.773508456978991,
+              "bias_K": -0.7737555123840271,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 64,
+                  "groups": 26,
+                  "weight_sum": 64.0,
+                  "MAE_K": 12.555031948279044,
+                  "RMSE_K": 15.589731713982538,
+                  "bias_K": 12.555031948279044
+                },
+                "positive_tc": {
+                  "rows": 221,
+                  "groups": 27,
+                  "weight_sum": 221.0,
+                  "MAE_K": 10.118956355499433,
+                  "RMSE_K": 13.200965702648247,
+                  "bias_K": -4.633675862983288
+                },
+                "high_tc_ge40K": {
+                  "rows": 43,
+                  "groups": 6,
+                  "weight_sum": 43.0,
+                  "MAE_K": 11.718677476541352,
+                  "RMSE_K": 13.620479303131633,
+                  "bias_K": -11.030945315931001
+                }
+              }
+            },
+            "other": {
+              "rows": 2767,
+              "groups": 1016,
+              "weight_sum": 2763.0,
+              "MAE_K": 3.2297383299451674,
+              "RMSE_K": 4.999084519675423,
+              "bias_K": -1.8828950483257985,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 857,
+                  "groups": 561,
+                  "weight_sum": 855.0,
+                  "MAE_K": 1.4444083674211048,
+                  "RMSE_K": 2.0613228023116377,
+                  "bias_K": 1.4444083674211048
+                },
+                "positive_tc": {
+                  "rows": 1910,
+                  "groups": 594,
+                  "weight_sum": 1908.0,
+                  "MAE_K": 4.029768265981893,
+                  "RMSE_K": 5.85538367885729,
+                  "bias_K": -3.3739036544387977
+                },
+                "high_tc_ge40K": {
+                  "rows": 0,
+                  "groups": 0,
+                  "weight_sum": 0.0,
+                  "MAE_K": null,
+                  "RMSE_K": null,
+                  "bias_K": null
+                }
+              }
+            }
+          }
+        },
+        "guard_eligible": true,
+        "improved_incumbent": false,
+        "MAE_gain_over_previous_incumbent_K": -0.049222181394927844
+      }
+    }
+  },
+  {
+    "seq": 215,
+    "at": "2026-10-03T02:40:11.647450+00:00",
+    "kind": "llm.reserved",
+    "payload": {
+      "number": 5,
+      "phase": "reflect"
+    }
+  },
+  {
+    "seq": 216,
+    "at": "2026-10-03T02:40:12.939959+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1870000001508743
+    }
+  },
+  {
+    "seq": 217,
+    "at": "2026-10-03T02:40:13.974963+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.047000000020489
+    }
+  },
+  {
+    "seq": 218,
+    "at": "2026-10-03T02:40:15.124305+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.156999999890104
+    }
+  },
+  {
+    "seq": 219,
+    "at": "2026-10-03T02:40:16.145387+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0
+    }
+  },
+  {
+    "seq": 220,
+    "at": "2026-10-03T02:40:17.259547+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.125
+    }
+  },
+  {
+    "seq": 221,
+    "at": "2026-10-03T02:40:18.496631+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.2339999999385327
+    }
+  },
+  {
+    "seq": 222,
+    "at": "2026-10-03T02:40:19.534702+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.047000000020489
+    }
+  },
+  {
+    "seq": 223,
+    "at": "2026-10-03T02:40:20.728259+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.1870000001508743
+    }
+  },
+  {
+    "seq": 224,
+    "at": "2026-10-03T02:40:21.747910+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.031999999890104
+    }
+  },
+  {
+    "seq": 225,
+    "at": "2026-10-03T02:40:22.764576+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0149999998975545
+    }
+  },
+  {
+    "seq": 226,
+    "at": "2026-10-03T02:40:23.789404+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0160000000614673
+    }
+  },
+  {
+    "seq": 227,
+    "at": "2026-10-03T02:40:24.802843+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0150000001303852
+    }
+  },
+  {
+    "seq": 228,
+    "at": "2026-10-03T02:40:25.826504+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 229,
+    "at": "2026-10-03T02:40:26.848526+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0310000001918525
+    }
+  },
+  {
+    "seq": 230,
+    "at": "2026-10-03T02:40:27.871553+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0159999998286366
+    }
+  },
+  {
+    "seq": 231,
+    "at": "2026-10-03T02:40:28.889370+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 1.0309999999590218
+    }
+  },
+  {
+    "seq": 232,
+    "at": "2026-10-03T02:40:29.301617+00:00",
+    "kind": "runtime.elapsed",
+    "payload": {
+      "seconds": 0.40600000019185245
+    }
+  },
+  {
+    "seq": 233,
+    "at": "2026-10-03T02:40:29.335999+00:00",
+    "kind": "cycle.completed",
+    "payload": {
+      "candidate_id": "L002",
+      "hypothesis": "A05 is the best guard-eligible configuration, while A01 shows that a route-specific extra_trees/raw fe_anion expert worsens performance and L001 shows that a broad hist_gradient_boosting/raw fallback also worsens performance. The remaining focused test is whether hist_gradient_boosting/raw helps only when specialized to the 285-row, 37-group fe_anion route, while preserving A05's extra_trees/raw behavior for cu_o and other.",
+      "revision_of": "A05",
+      "specification": {
+        "input": "composition",
+        "routing": "chemistry",
+        "global": {
+          "model": "extra_trees",
+          "target": "raw"
+        },
+        "experts": {
+          "cu_o": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "fe_anion": {
+            "model": "hist_gradient_boosting",
+            "target": "raw"
+          },
+          "other": {
+            "model": "extra_trees",
+            "target": "raw"
+          }
+        }
+      },
+      "evaluation": {
+        "candidate_id": "L002",
+        "spec": {
+          "experts": {
+            "cu_o": {
+              "model": "extra_trees",
+              "target": "raw"
+            },
+            "fe_anion": {
+              "model": "hist_gradient_boosting",
+              "target": "raw"
+            },
+            "other": {
+              "model": "extra_trees",
+              "target": "raw"
+            }
+          },
+          "global": {
+            "model": "extra_trees",
+            "target": "raw"
+          },
+          "input": "composition",
+          "routing": "chemistry"
+        },
+        "fingerprint": "e0d964981ba56db9481283584dca3b6fbf2e542b467cf9b2a6e8af8656fbc629",
+        "feedback_scope": "Original training fixed-group OOF only; adaptive development feedback",
+        "metrics": {
+          "rows": 3764,
+          "groups": 1117,
+          "weight_sum": 3760.0,
+          "MAE_K": 7.80182095214835,
+          "RMSE_K": 14.067347306639908,
+          "bias_K": -2.7305101876581492,
+          "subgroups": {
+            "reported_zero": {
+              "rows": 1169,
+              "groups": 636,
+              "weight_sum": 1167.0,
+              "MAE_K": 6.15081993763281,
+              "RMSE_K": 13.637796076017725,
+              "bias_K": 6.15081993763281
+            },
+            "positive_tc": {
+              "rows": 2595,
+              "groups": 651,
+              "weight_sum": 2593.0,
+              "MAE_K": 8.544866915873623,
+              "RMSE_K": 14.256447628285498,
+              "bias_K": -6.727622511689985
+            },
+            "high_tc_ge40K": {
+              "rows": 310,
+              "groups": 24,
+              "weight_sum": 310.0,
+              "MAE_K": 28.765405352362418,
+              "RMSE_K": 33.00133828001628,
+              "bias_K": -27.18672776972824
+            }
+          }
+        },
+        "reused": false,
+        "reused_from": null,
+        "proposal_was_duplicate": false,
+        "candidate_total_regressor_fits": 12,
+        "actual_new_regressor_fits": 12,
+        "elapsed_seconds": 100.875,
+        "positive_guard_pass": true,
+        "positive_guard_anchor": "G01",
+        "evidence_directory": "workbench/candidates/L002",
+        "counterexamples": {
+          "scope": "Original training fixed-group OOF only; adaptive development feedback",
+          "candidate_id": "L002",
+          "examples": {
+            "overall": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "positive": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "zero": [
+              {
+                "material_id": "3dsc_mp_row_001997",
+                "formula": "Ba2Cu3Pr1O6",
+                "chemical_system": "Ba-Cu-O-Pr",
+                "tc": 0.0,
+                "prediction": 68.63429861123959,
+                "absolute_error_K": 68.63429861123959,
+                "signed_error_K": 68.63429861123959,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001768",
+                "formula": "Ba2Ca0.03Cu3Y0.97O6",
+                "chemical_system": "Ba-Ca-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.90135069458334,
+                "absolute_error_K": 66.90135069458334,
+                "signed_error_K": 66.90135069458334,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002004",
+                "formula": "Ba2Cu3Y1O6",
+                "chemical_system": "Ba-Cu-O-Y",
+                "tc": 0.0,
+                "prediction": 66.5615381946354,
+                "absolute_error_K": 66.5615381946354,
+                "signed_error_K": 66.5615381946354,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ],
+            "high_tc_ge40": [
+              {
+                "material_id": "3dsc_mp_row_001895",
+                "formula": "Ba2Cu1Tl1O5",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 95.0,
+                "prediction": 30.011656250010418,
+                "absolute_error_K": 64.98834374998958,
+                "signed_error_K": -64.98834374998958,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_002155",
+                "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+                "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+                "tc": 107.25,
+                "prediction": 43.328784722239604,
+                "absolute_error_K": 63.921215277760396,
+                "signed_error_K": -63.921215277760396,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              },
+              {
+                "material_id": "3dsc_mp_row_001901",
+                "formula": "Ba2Cu1Tl2O6.12",
+                "chemical_system": "Ba-Cu-O-Tl",
+                "tc": 87.8,
+                "prediction": 26.334427083354164,
+                "absolute_error_K": 61.46557291664583,
+                "signed_error_K": -61.46557291664583,
+                "route": "cu_o",
+                "used_model": "expert_cu_o",
+                "fold": 0
+              }
+            ]
+          },
+          "route_metrics": {
+            "cu_o": {
+              "rows": 712,
+              "groups": 66,
+              "weight_sum": 712.0,
+              "MAE_K": 24.39784884155065,
+              "RMSE_K": 29.53170200487865,
+              "bias_K": -6.803032255675577,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 248,
+                  "groups": 50,
+                  "weight_sum": 248.0,
+                  "MAE_K": 20.723853501542685,
+                  "RMSE_K": 28.245913424055335,
+                  "bias_K": 20.723853501542685
+                },
+                "positive_tc": {
+                  "rows": 464,
+                  "groups": 31,
+                  "weight_sum": 464.0,
+                  "MAE_K": 26.36153600603767,
+                  "RMSE_K": 30.196490517198427,
+                  "bias_K": -21.515678091430168
+                },
+                "high_tc_ge40K": {
+                  "rows": 267,
+                  "groups": 18,
+                  "weight_sum": 267.0,
+                  "MAE_K": 31.51075853086543,
+                  "RMSE_K": 35.136978138754195,
+                  "bias_K": -29.7885953559203
+                }
+              }
+            },
+            "fe_anion": {
+              "rows": 285,
+              "groups": 37,
+              "weight_sum": 285.0,
+              "MAE_K": 10.666004909667487,
+              "RMSE_K": 13.773508456978991,
+              "bias_K": -0.7737555123840271,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 64,
+                  "groups": 26,
+                  "weight_sum": 64.0,
+                  "MAE_K": 12.555031948279044,
+                  "RMSE_K": 15.589731713982538,
+                  "bias_K": 12.555031948279044
+                },
+                "positive_tc": {
+                  "rows": 221,
+                  "groups": 27,
+                  "weight_sum": 221.0,
+                  "MAE_K": 10.118956355499433,
+                  "RMSE_K": 13.200965702648247,
+                  "bias_K": -4.633675862983288
+                },
+                "high_tc_ge40K": {
+                  "rows": 43,
+                  "groups": 6,
+                  "weight_sum": 43.0,
+                  "MAE_K": 11.718677476541352,
+                  "RMSE_K": 13.620479303131633,
+                  "bias_K": -11.030945315931001
+                }
+              }
+            },
+            "other": {
+              "rows": 2767,
+              "groups": 1016,
+              "weight_sum": 2763.0,
+              "MAE_K": 3.2297383299451674,
+              "RMSE_K": 4.999084519675423,
+              "bias_K": -1.8828950483257985,
+              "subgroups": {
+                "reported_zero": {
+                  "rows": 857,
+                  "groups": 561,
+                  "weight_sum": 855.0,
+                  "MAE_K": 1.4444083674211048,
+                  "RMSE_K": 2.0613228023116377,
+                  "bias_K": 1.4444083674211048
+                },
+                "positive_tc": {
+                  "rows": 1910,
+                  "groups": 594,
+                  "weight_sum": 1908.0,
+                  "MAE_K": 4.029768265981893,
+                  "RMSE_K": 5.85538367885729,
+                  "bias_K": -3.3739036544387977
+                },
+                "high_tc_ge40K": {
+                  "rows": 0,
+                  "groups": 0,
+                  "weight_sum": 0.0,
+                  "MAE_K": null,
+                  "RMSE_K": null,
+                  "bias_K": null
+                }
+              }
+            }
+          }
+        },
+        "guard_eligible": true,
+        "improved_incumbent": false,
+        "MAE_gain_over_previous_incumbent_K": -0.049222181394927844
+      },
+      "reflection": {
+        "hypothesis_status": "not_supported",
+        "summary": "L002 executed successfully and passed the fixed G01 positive-Tc guard (8.5449 K <= 8.8322 K), but it did not improve the A05 incumbent. Pooled weighted OOF MAE was 7.8018 K versus 7.7526 K, a deterioration of 0.0492 K. Relative to A05, positive-Tc MAE worsened from 8.5051 K to 8.5449 K and reported-zero MAE worsened from 6.0806 K to 6.1508 K. High-Tc MAE improved slightly from 28.8502 K to 28.7654 K, showing a subgroup tradeoff rather than an eligible pooled win. On fe_anion specifically, hist_gradient_boosting/raw improved positive-Tc and high-Tc errors but worsened overall and reported-zero errors; the latter costs outweighed the gains. Thus neither a specialized hist_gradient_boosting/raw fe_anion expert nor the previously tested broad hist-gradient fallback improves A05.",
+        "next_action": "stop",
+        "next_focus": "Retain A05 as the best guard-eligible development configuration: composition input, chemistry routing, extra_trees/raw global model, and extra_trees/raw experts for cu_o and other with fe_anion falling back globally. Any future work should evaluate A05 on a separately designed holdout or new data and, if development resumes, focus on richer ways to resolve the persistent cu_o zero-versus-high-Tc ambiguity rather than further combinations from this exhausted fixed menu.",
+        "stop_reason": "The experiment budget is exhausted. The final focused untried fe_anion specialization was guard-eligible but failed to beat A05, leaving A05 at 7.7526 K pooled weighted OOF MAE as the incumbent. The available adaptive OOF evidence provides no eligible improvement from the tested estimator, target, input, and routing variants; further claims require independent evaluation rather than additional conclusions from these reused folds.",
+        "limitations": [
+          "All measurements are adaptive development evidence from the same fixed-group training OOF folds, not independent validation or proof of generalization.",
+          "The chemistry routes are operational composition partitions, not verified physical material families.",
+          "The fe_anion route is small (285 rows, 37 groups), and its high-Tc subgroup has only 43 rows across 6 groups, so subgroup comparisons may be unstable.",
+          "Large cu_o errors persist: reported-zero materials are severely overpredicted while positive and high-Tc materials are often underpredicted.",
+          "No new superconductors can be inferred or claimed from these modeling results."
+        ]
+      }
+    }
+  },
+  {
+    "seq": 234,
+    "at": "2026-10-03T02:40:29.519474+00:00",
+    "kind": "run.stopped",
+    "payload": {
+      "reason": "agent_stop: The experiment budget is exhausted. The final focused untried fe_anion specialization was guard-eligible but failed to beat A05, leaving A05 at 7.7526 K pooled weighted OOF MAE as the incumbent. The available adaptive OOF evidence provides no eligible improvement from the tested estimator, target, input, and routing variants; further claims require independent evaluation rather than additional conclusions from these reused folds."
+    }
+  }
+]

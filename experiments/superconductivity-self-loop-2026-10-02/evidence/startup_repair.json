@@ -1,0 +1,7 @@
+{
+  "reason": "CLI 0.160 config rejected zero skills.max_context_tokens before remote turn. Corrected to 1; use currently installed Codex on PATH. Original reservation remains spent.",
+  "failed_call": "<local-runtime>\\calls\\001_propose",
+  "stderr_sha256": "752381c3e4bc9d4569d1738037dab37c98aae1275132c441ff1f038fa82b4f29",
+  "reservation_retained": 1,
+  "remote_turn_started": false
+}

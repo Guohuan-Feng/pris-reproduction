@@ -1,0 +1,21 @@
+{
+  "candidate_id": "L001",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "hist_gradient_boosting",
+      "target": "raw"
+    },
+    "experts": {
+      "cu_o": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "other": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  }
+}

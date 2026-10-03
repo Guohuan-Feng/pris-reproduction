@@ -1,0 +1,49 @@
+{
+  "scope": "Two consecutive real model-driven training-OOF cycles; no validation evaluation",
+  "local_date": "2026-10-02 America/New_York",
+  "completed_cycles": 2,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "0.160.0",
+  "python": "3.12.14",
+  "successful_model_calls": [
+    "002_propose",
+    "003_reflect",
+    "004_propose",
+    "005_reflect"
+  ],
+  "reserved_calls": 5,
+  "pre_remote_config_failures": 1,
+  "new_regressor_fits": 21,
+  "active_child_seconds": 223.10800000000745,
+  "usage": {
+    "input_tokens": 82403,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2175,
+    "reasoning_output_tokens": 452
+  },
+  "incumbent": {
+    "id": "A05",
+    "MAE_K": 7.752598770753422
+  },
+  "cycles": [
+    {
+      "id": "L001",
+      "weighted_OOF_MAE_K": 7.793527988505537,
+      "positive_Tc_MAE_K": 8.558193689650674,
+      "guard_eligible": true,
+      "improved_incumbent": false
+    },
+    {
+      "id": "L002",
+      "weighted_OOF_MAE_K": 7.80182095214835,
+      "positive_Tc_MAE_K": 8.544866915873623,
+      "guard_eligible": true,
+      "improved_incumbent": false
+    }
+  ],
+  "stop": "Agent ended after completing this run's two-experiment budget. The full action menu was not exhausted.",
+  "audit_note": "Raw final reflection contains an unsupported exhausted-fixed-menu phrase. Only this run budget is exhausted; that phrase is not adopted as a scientific conclusion.",
+  "publication_transform": "Absolute run/source directories replaced in text exports; scientific values, decisions, responses, OOF files unchanged. Runtime database, fitted models and process command records are not distributed."
+}

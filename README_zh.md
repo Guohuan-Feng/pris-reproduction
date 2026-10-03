@@ -6,6 +6,14 @@
 
 完整报告提供[中文版](REPORT_zh.md)和[英文版](REPORT.md)。本仓库保存实际执行的复现代码、公开原始结构、数值结果、图表、日志以及未经修改的作者分析器。**这是对公开输入完整部分的独立、部分复现，并非官方 PRIS 仓库。**没有重跑原始 200 万次候选搜索或 VASP，也没有复现缺少输入的完整留出集。
 
+## 超导研究 Agent 自循环
+
+控制程序已实现“提出假设 → 自动实验 → 分析反馈 → 反思修订 → 自动进入下一轮”，并持久保存记忆。真实连续两轮运行完成 4 次模型调用和 21 次回归器拟合，31 项行为与数据测试通过。两项新配置均未超过起始最佳 A05 的训练折外 MAE 7.7526 K；本次验证在事先设置的两次实验预算用完后结束，没有新增泛化收益结论。
+
+[自循环流程图与中文汇报](experiments/superconductivity-self-loop-2026-10-02/README_zh.md) · [代码与运行方法](experiments/superconductivity-self-loop-2026-10-02/README.md) · [真实运行记录](experiments/superconductivity-self-loop-2026-10-02/evidence/status.json)
+
+![超导研究 Agent 自循环](experiments/superconductivity-self-loop-2026-10-02/figures/workflow.png)
+
 ## 超导第二轮：模型与分组选择 — 2026-10-02
 
 已完成真实 GPT 模型 / 路由选择、同尝试次数自动搜索与独立复核。旧验证加权 MAE：共享全局 G01 **8.0885 K**，Agent A05 **8.0849 K**，自动臂 G01 **8.0885 K**。该队列此前已观察，属于开发比较；子群误差与差值区间见完整报告。

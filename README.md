@@ -6,6 +6,14 @@ Reproduced on 2026-09-14 from [AI4QC/PRIS](https://github.com/AI4QC/PRIS), commi
 
 Read the full report in [English](REPORT.md) or [Chinese](REPORT_zh.md). This repository contains actual calculations, original public input structures, derived numerical tables, logs, and unchanged upstream analyzer source. It is an independent, partial scientific reproduction of the data-complete portions of the release. It does not rerun the two-million-candidate agent search or VASP, and it does not reproduce the missing full held-out benchmark. It is not the official PRIS repository.
 
+## Persistent superconductivity self loop
+
+The controller now automatically proposes an experiment, executes it, reflects on measured results and starts the next cycle with persistent memory. A real two-cycle integration run completed four model calls and 21 regressor fits; 31 behavior/data tests passed. Neither new configuration improved the starting A05 training OOF MAE of 7.7526 K. The demonstration stopped at its configured two-experiment limit; no new validation claim is made.
+
+[Self-loop code, usage and evidence](experiments/superconductivity-self-loop-2026-10-02/README.md) · [中文导师汇报与流程图](experiments/superconductivity-self-loop-2026-10-02/README_zh.md)
+
+![Persistent research loop](experiments/superconductivity-self-loop-2026-10-02/figures/workflow.png)
+
 ## Superconductivity pipeline-selection follow-up — 2026-10-02
 
 Completed one real GPT pipeline/routing search, a matched-attempt seeded automated search, and independent verification. Old-validation weighted MAE: shared global G01 **8.0885 K**, Agent A05 **8.0849 K**, automated arm G01 **8.0885 K**. This previously inspected cohort supports a development comparison; the report retains subgroup tradeoffs and conditional difference intervals.
