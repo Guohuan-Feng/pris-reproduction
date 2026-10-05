@@ -1,0 +1,22 @@
+{
+  "action": "experiment",
+  "hypothesis": "L012 showed that homogeneous kmeans3 specialization was harmful overall, but its route-level evidence was heterogeneous: cluster2 achieved 2.9293 K MAE on 1,242 rows and contained no high-Tc cases, whereas cluster1 was especially poor. Using only an extra_trees/raw cluster2 expert while letting cluster0 and cluster1 fall back to the G01 global extra_trees/raw model may retain cluster2's low-temperature benefit without the errors introduced by the other cluster experts.",
+  "falsification": "The hypothesis is falsified as an eligible improvement unless pooled weighted OOF MAE is below 7.742598770753422 K, representing at least the required 0.01 K gain over A05, and positive-Tc MAE is at most the fixed G01 guard of 8.832165507919859 K. Route-specific or reported-zero gains without both conditions are only subgroup tradeoffs.",
+  "reason": "The required successful-unique-cycle minimum remains pending, so continuation is mandatory. This untried selective-routing ablation directly isolates the apparently useful cluster2 expert identified by L012 while removing its harmful cluster0 and cluster1 experts. L012 itself failed the deterministic guard and was 0.5278 K worse than A05, so it is not an eligible win; the proposed experiment tests whether that failure arose from the poor cluster0/cluster1 experts rather than kmeans routing as a whole. Any result remains adaptive fixed-fold training OOF evidence, and kmeans cluster identities may shift between folds.",
+  "revision_of": "L012",
+  "specification": {
+    "input": "composition",
+    "routing": "kmeans3",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cluster2": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  },
+  "stop_reason": ""
+}

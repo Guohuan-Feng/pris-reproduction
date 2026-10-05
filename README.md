@@ -6,6 +6,12 @@ Reproduced on 2026-09-14 from [AI4QC/PRIS](https://github.com/AI4QC/PRIS), commi
 
 Read the full report in [English](REPORT.md) or [Chinese](REPORT_zh.md). This repository contains actual calculations, original public input structures, derived numerical tables, logs, and unchanged upstream analyzer source. It is an independent, partial scientific reproduction of the data-complete portions of the release. It does not rerun the two-million-candidate agent search or VASP, and it does not reproduce the missing full held-out benchmark. It is not the official PRIS repository.
 
+## Twenty additional superconductivity self loop experiments
+
+The continuation completed 20 additional experimental cycles (22 including the inherited two), with model-driven proposals and reflections around fixed three-fold training OOF evaluations. The retained configuration is **A05**, weighted training OOF MAE **7.752599 K**. These adaptive development results do not establish independent generalization gains.
+
+[Report, code and verification](experiments/superconductivity-self-loop-2026-10-05/README.md) · [中文逐轮汇报](experiments/superconductivity-self-loop-2026-10-05/README_zh.md)
+
 ## Persistent superconductivity self loop
 
 The controller now automatically proposes an experiment, executes it, reflects on measured results and starts the next cycle with persistent memory. A real two-cycle integration run completed four model calls and 21 regressor fits; 31 behavior/data tests passed. Neither new configuration improved the starting A05 training OOF MAE of 7.7526 K. The demonstration stopped at its configured two-experiment limit; no new validation claim is made.

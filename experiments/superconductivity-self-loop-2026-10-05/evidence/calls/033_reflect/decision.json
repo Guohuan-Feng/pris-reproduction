@@ -1,0 +1,14 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L016 executed successfully and passed the fixed G01 positive-Tc guard (8.5861 K <= 8.8322 K), but it was not an eligible improvement. Its pooled weighted training OOF MAE was 8.2679 K, which is 0.5153 K worse than A05's 7.7526 K and well above the required improvement threshold of 7.7426 K. Relative to L015, replacing the cluster1 extra_trees/raw expert with hist_gradient_boosting/raw improved positive-Tc MAE from 8.8559 K to 8.5861 K and high-Tc MAE from 30.7888 K to 29.7893 K, but worsened reported-zero MAE from 6.7567 K to 7.5609 K and pooled MAE from 8.2044 K to 8.2679 K. Cluster1 retained severe opposing errors, including reported-zero predictions near 70–72 K and 87.8–95 K materials predicted near 0.6–13.6 K. Estimator smoothing therefore shifted the subgroup tradeoff enough to restore guard eligibility but did not rescue cluster1 specialization.",
+  "next_action": "continue",
+  "next_focus": "The required minimum remains pending, with 16 of 22 successful unique cycles completed. Test the untried cluster0 estimator-only analogue: composition input, kmeans3 routing, global extra_trees/raw, and only a cluster0 hist_gradient_boosting/raw expert, leaving cluster1 and cluster2 on global fallback. L014's cluster0 extra_trees/raw expert narrowly failed the positive-Tc guard while slightly improving reported-zero MAE relative to G01; L016 shows that hist_gradient_boosting/raw can improve positive- and high-Tc errors for a kmeans route, although at a substantial zero-Tc cost. This experiment isolates whether that estimator tradeoff is more favorable in cluster0. It is falsified as an eligible improvement unless pooled weighted OOF MAE is below 7.742598770753422 K and positive-Tc MAE remains at or below 8.832165507919859 K.",
+  "stop_reason": "",
+  "limitations": [
+    "All measurements are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "L016 passed the positive-Tc guard but missed the incumbent by 0.5153 K, so it is not an eligible win.",
+    "The aggregate positive- and high-Tc improvements came with a substantial deterioration on reported-zero rows.",
+    "KMeans cluster identities may shift between folds, and these partitions are operational composition rules rather than verified physical families.",
+    "The counterexamples are historically observed materials and do not identify new superconductors."
+  ]
+}

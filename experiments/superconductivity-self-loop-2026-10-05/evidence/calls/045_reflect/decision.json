@@ -1,0 +1,14 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L022 executed successfully and passed the deterministic positive-Tc guard: 8.7678 K was below the fixed G01 limit of 8.8322 K by 0.0644 K. However, its pooled weighted training OOF MAE was 7.8738 K, which is 0.1212 K worse than A05's 7.7526 K and 0.1312 K above the eligible threshold of 7.7426 K, so it was not an eligible improvement. Relative to L021, using the globally trained extra_trees/log1p fallback for fe_anion improved reported-zero MAE from 5.9709 K to 5.8876 K, but worsened positive-Tc MAE from 8.6254 K to 8.7678 K, high-Tc MAE from 29.0322 K to 30.0815 K, and pooled MAE from 7.8015 K to 7.8738 K. Thus broader global training did not rescue the localized log1p strategy; it reproduced the established zero-versus-positive tradeoff. Large opposing cu_o errors also remained, with reported-zero predictions near 67–69 K and high-Tc underpredictions of roughly 61–65 K.",
+  "next_action": "stop",
+  "next_focus": "If development is later reopened with a fresh evaluation design, prioritize independently assessing A05 rather than further adaptively selecting among these fixed-fold OOF variants. The allowed menu is not claimed to be exhausted.",
+  "stop_reason": "The authorized minimum is now satisfied with 22 successful unique continuation cycles. L022 produced no eligible gain, and the incumbent has survived 22 stagnant experiments spanning both inputs, both estimators, both targets, global and routed models, route ablations, and targeted interactions. Given this sustained adaptive-OOF stagnation and the controller's stopping policy, further selection on the same folds is unlikely to provide reliable evidence proportional to its overfitting risk; stopping does not imply that every allowed specification was tested.",
+  "limitations": [
+    "All measurements are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "L022 passed the positive-Tc guard but failed the required 0.01 K pooled-MAE improvement criterion.",
+    "The allowed configuration menu has not been exhaustively enumerated; the stop is based on the completed minimum and sustained stagnation, not exhaustive search.",
+    "Chemistry routes are operational composition partitions rather than verified physical families.",
+    "The historical counterexamples do not identify new superconductors."
+  ]
+}

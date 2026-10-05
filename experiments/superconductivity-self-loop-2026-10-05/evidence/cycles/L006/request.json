@@ -1,0 +1,21 @@
+{
+  "candidate_id": "L006",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cu_o": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "other": {
+        "model": "extra_trees",
+        "target": "log1p"
+      }
+    }
+  }
+}

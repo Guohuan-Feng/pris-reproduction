@@ -1,0 +1,22 @@
+{
+  "action": "experiment",
+  "hypothesis": "L014 showed that a cluster0 extra_trees/raw expert slightly improved reported-zero MAE relative to G01 but narrowly failed the positive-Tc guard, while L016 showed that switching a kmeans-route expert to hist_gradient_boosting/raw improved positive- and high-Tc errors at the cost of reported-zero performance. Replacing only the cluster0 expert with hist_gradient_boosting/raw tests whether this estimator tradeoff is more favorable in cluster0, with cluster1 and cluster2 retaining the G01 fallback.",
+  "falsification": "The hypothesis is falsified as an eligible improvement unless pooled weighted training OOF MAE is below 7.742598770753422 K, a gain of at least 0.01 K over A05, and positive-Tc MAE is at most 8.832165507919859 K. Any improvement confined to positive/high-Tc or cluster0 that worsens pooled MAE or fails the guard is only a subgroup tradeoff.",
+  "reason": "The continuation minimum is pending at 16 of 22 successful unique cycles. This untried configuration is the direct estimator-only analogue of L014 and isolates whether the positive-Tc benefit observed from hist_gradient_boosting/raw in cluster1 transfers to cluster0 without introducing other routing changes.",
+  "revision_of": "L014",
+  "specification": {
+    "input": "composition",
+    "routing": "kmeans3",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cluster0": {
+        "model": "hist_gradient_boosting",
+        "target": "raw"
+      }
+    }
+  },
+  "stop_reason": ""
+}

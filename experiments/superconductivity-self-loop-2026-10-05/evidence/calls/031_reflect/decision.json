@@ -1,0 +1,14 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L015 executed successfully but was not an eligible improvement. Its pooled weighted training OOF MAE was 8.2044 K, 0.4518 K worse than A05's 7.7526 K and well above the eligible threshold of 7.7426 K. It also failed the deterministic positive-Tc guard: 8.8559 K exceeded the fixed G01 limit of 8.8322 K by 0.0238 K. Relative to A05, reported-zero MAE worsened from 6.0806 K to 6.7567 K, positive-Tc MAE worsened from 8.5051 K to 8.8559 K, and high-Tc MAE worsened from 28.8502 K to 30.7888 K. Cluster1's expert made severe opposing errors, overpredicting some reported-zero cuprates by about 67–69 K while underpredicting positive high-Tc materials by about 77–80 K. Thus its poor result in the homogeneous kmeans model reflects harm relative to global fallback, not merely intrinsic route difficulty. Together with L013 and L014, this completes the single-cluster extra_trees/raw ablations without a guard-eligible gain.",
+  "next_action": "continue",
+  "next_focus": "The continuation minimum remains pending, with 15 of 22 successful unique cycles completed. Test an untried estimator-only follow-up to L015: composition input, kmeans3 routing, global extra_trees/raw, and only a cluster1 hist_gradient_boosting/raw expert, leaving cluster0 and cluster2 on global fallback. L015 shows that cluster1 extra_trees/raw produces extreme errors on both zero- and high-Tc cases; the smoother boosting estimator may reduce these extremes without introducing the severe positive-Tc compression consistently observed with log1p. The hypothesis is falsified as an eligible improvement unless pooled weighted OOF MAE is below 7.742598770753422 K and positive-Tc MAE is at most 8.832165507919859 K; reductions in isolated route or subgroup errors without both conditions remain development tradeoffs.",
+  "stop_reason": "",
+  "limitations": [
+    "All measurements are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "L015 failed the fixed positive-Tc guard and therefore cannot be considered an eligible win.",
+    "The cluster1 expert worsened every reported aggregate subgroup relative to A05, despite cluster-level heterogeneity.",
+    "KMeans cluster identities may shift between folds, and the partitions are operational composition rules rather than verified physical families.",
+    "The counterexamples concern historically observed materials and do not identify new superconductors."
+  ]
+}

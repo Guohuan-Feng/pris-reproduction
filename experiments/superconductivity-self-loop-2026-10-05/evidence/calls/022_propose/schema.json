@@ -1,0 +1,134 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "experiment",
+        "stop"
+      ]
+    },
+    "hypothesis": {
+      "type": "string"
+    },
+    "falsification": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "revision_of": {
+      "type": "string"
+    },
+    "specification": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "input": {
+              "type": "string",
+              "enum": [
+                "composition",
+                "composition_repaired"
+              ]
+            },
+            "routing": {
+              "type": "string",
+              "enum": [
+                "global",
+                "chemistry",
+                "kmeans3"
+              ]
+            },
+            "global": {
+              "type": "object",
+              "properties": {
+                "model": {
+                  "type": "string",
+                  "enum": [
+                    "extra_trees",
+                    "hist_gradient_boosting"
+                  ]
+                },
+                "target": {
+                  "type": "string",
+                  "enum": [
+                    "raw",
+                    "log1p"
+                  ]
+                }
+              },
+              "required": [
+                "model",
+                "target"
+              ],
+              "additionalProperties": false
+            },
+            "experts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "route": {
+                    "type": "string",
+                    "enum": [
+                      "cu_o",
+                      "fe_anion",
+                      "other",
+                      "cluster0",
+                      "cluster1",
+                      "cluster2"
+                    ]
+                  },
+                  "model": {
+                    "type": "string",
+                    "enum": [
+                      "extra_trees",
+                      "hist_gradient_boosting"
+                    ]
+                  },
+                  "target": {
+                    "type": "string",
+                    "enum": [
+                      "raw",
+                      "log1p"
+                    ]
+                  }
+                },
+                "required": [
+                  "route",
+                  "model",
+                  "target"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "input",
+            "routing",
+            "global",
+            "experts"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "stop_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "hypothesis",
+    "falsification",
+    "reason",
+    "revision_of",
+    "specification",
+    "stop_reason"
+  ],
+  "additionalProperties": false
+}

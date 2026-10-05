@@ -1,0 +1,14 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L006 executed successfully but was not an eligible improvement. Its pooled weighted OOF MAE was 7.8837 K versus A05's 7.7526 K, a deterioration of 0.1312 K rather than the required gain of at least 0.01 K. It also failed the deterministic positive-Tc guard: 8.8646 K exceeded the G01 anchor of 8.8322 K by 0.0324 K. Relative to A05, reported-zero MAE improved from 6.0806 K to 5.7044 K, but positive-Tc MAE worsened from 8.5051 K to 8.8646 K, while high-Tc MAE was unchanged at 28.8502 K because the cu_o expert was unchanged. Thus, applying log1p only to the other expert intensified the expected zero-versus-positive tradeoff and cannot be called a guard-eligible win. The large opposing cu_o errors also persist, with reported-zero cases overpredicted by roughly 67–69 K and high-Tc cases underpredicted by roughly 61–65 K.",
+  "next_action": "continue",
+  "next_focus": "Because the required successful-unique-cycle minimum remains pending, test an untried model-only perturbation of A05: composition input, chemistry routing, global extra_trees/raw, cu_o extra_trees/raw, and other hist_gradient_boosting/raw, with fe_anion falling back globally. L006 rejects target compression for the other route, but does not determine whether a different raw-target estimator can improve its fit. This configuration preserves A05's cu_o and fe_anion behavior while isolating the estimator used for the large other partition. It is falsified as an eligible improvement unless pooled weighted OOF MAE is below 7.742598770753422 K and positive-Tc MAE is at most 8.832165507919859 K; subgroup improvements alone remain tradeoffs.",
+  "stop_reason": "",
+  "limitations": [
+    "All measurements are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "L006 failed the fixed positive-Tc guard and therefore is ineligible regardless of its reported-zero improvement.",
+    "Chemistry routes are operational composition partitions rather than verified physical material families.",
+    "The cu_o route contains only 66 groups and retains severe ambiguity between reported-zero and high-Tc materials.",
+    "Many allowed configurations remain untried, and these results neither establish generalization nor identify new superconductors."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "action": "experiment",
+  "hypothesis": "L015 showed that a cluster1 extra_trees/raw expert worsened pooled MAE and produced extreme errors on both reported-zero and high-Tc cases. Replacing only that expert with the smoother hist_gradient_boosting/raw estimator may reduce those extremes while avoiding the severe positive-Tc underprediction repeatedly associated with log1p targets; cluster0 and cluster2 remain on the G01 extra_trees/raw fallback to isolate the estimator change.",
+  "falsification": "The hypothesis is falsified as an eligible improvement unless pooled weighted training OOF MAE is below 7.742598770753422 K, representing at least the required 0.01 K gain over A05, and positive-Tc MAE is at most the fixed G01 guard of 8.832165507919859 K. Any route or subgroup improvement without both conditions is only a development tradeoff.",
+  "reason": "The required minimum remains pending at 15 of 22 successful unique cycles. This untried configuration follows directly from the completed single-cluster extra_trees/raw ablations and isolates whether estimator smoothing can rescue the particularly harmful cluster1 specialization without confounding target, input, or fallback changes.",
+  "revision_of": "L015",
+  "specification": {
+    "input": "composition",
+    "routing": "kmeans3",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cluster1": {
+        "model": "hist_gradient_boosting",
+        "target": "raw"
+      }
+    }
+  },
+  "stop_reason": ""
+}

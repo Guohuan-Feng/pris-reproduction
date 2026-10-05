@@ -1,0 +1,13 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L018 executed successfully, but it failed both eligibility criteria. Its pooled weighted training OOF MAE was 8.0069 K, which is 0.2543 K worse than A05's 7.7526 K and above the required improvement threshold of 7.7426 K. Its positive-Tc MAE was 8.9686 K, exceeding the fixed G01 guard of 8.8322 K by 0.1364 K, so it cannot be an eligible win. Relative to L013, changing only the cluster2 expert from extra_trees/raw to hist_gradient_boosting/raw worsened pooled MAE from 7.9882 K to 8.0069 K, reported-zero MAE from 5.8521 K to 5.8700 K, and positive-Tc MAE from 8.9496 K to 8.9686 K. High-Tc MAE remained exactly 32.7716 K because cluster2 contains no high-Tc rows. Thus smoothing did not reverse cluster2's zero-versus-positive tradeoff; it slightly degraded every affected aggregate while leaving the dominant cluster1 high-Tc underprediction unchanged.",
+  "next_action": "continue",
+  "next_focus": "The continuation minimum remains pending, with 18 of 22 successful unique cycles completed. Test an untried chemistry interaction based on the two closest raw-target A05 variants: composition input, chemistry routing, global hist_gradient_boosting/raw, cu_o extra_trees/raw, and other hist_gradient_boosting/raw, leaving fe_anion on the global fallback. L007 found that changing only other to hist_gradient_boosting/raw missed A05 by just 0.0086 K while improving positive-Tc MAE, and L001 isolated hist_gradient_boosting/raw fallback for fe_anion. Combining those changes tests whether their route-specific errors interact favorably while preserving A05's cu_o expert. It is falsified as an eligible improvement unless pooled weighted OOF MAE is below 7.742598770753422 K and positive-Tc MAE is at most 8.832165507919859 K.",
+  "stop_reason": "",
+  "limitations": [
+    "All results are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "L018 failed the deterministic positive-Tc guard and is ineligible regardless of its low cluster2 route MAE.",
+    "KMeans cluster identities may shift between folds, and the partitions are operational composition rules rather than verified physical families.",
+    "The measured counterexamples are historical materials and do not identify new superconductors."
+  ]
+}

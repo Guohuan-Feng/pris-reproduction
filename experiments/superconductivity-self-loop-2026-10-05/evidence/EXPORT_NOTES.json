@@ -1,0 +1,9 @@
+{
+  "policy": "Scientific evidence and hashed lineage are byte-preserved. No fitted model binaries, live SQLite database, process command records, authentication files, meeting media or held-out data are distributed.",
+  "cohort": "3764 previously observed training records, 1117 linked-identity groups, fixed 3-fold OOF.",
+  "initial_source": "../superconductivity-agent-2026-10-02",
+  "parent_report": "../superconductivity-self-loop-2026-10-02",
+  "local_date": "2026-10-05 America/New_York",
+  "goal": "20 additional completed unique measured cycles, 22 including inherited two.",
+  "reproducibility": "Use audit_run.py on evidence for public-file verification; original runtime mode also validates full training source dependencies."
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_id": "L012",
+  "specification": {
+    "input": "composition",
+    "routing": "kmeans3",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cluster0": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "cluster1": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "cluster2": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "experts": {
+    "cu_o": {
+      "model": "extra_trees",
+      "target": "raw"
+    }
+  },
+  "global": {
+    "model": "extra_trees",
+    "target": "raw"
+  },
+  "input": "composition",
+  "routing": "chemistry"
+}

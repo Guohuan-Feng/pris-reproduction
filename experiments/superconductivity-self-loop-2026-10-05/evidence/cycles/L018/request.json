@@ -1,0 +1,17 @@
+{
+  "candidate_id": "L018",
+  "specification": {
+    "input": "composition",
+    "routing": "kmeans3",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cluster2": {
+        "model": "hist_gradient_boosting",
+        "target": "raw"
+      }
+    }
+  }
+}

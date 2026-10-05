@@ -1,0 +1,19 @@
+{
+  "exit_code": 0,
+  "model_requested": "gpt-5.6-sol",
+  "completed": true,
+  "native_tool_events": [],
+  "usage": [
+    {
+      "type": "turn.completed",
+      "usage": {
+        "input_tokens": 22268,
+        "cached_input_tokens": 6144,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 360,
+        "reasoning_output_tokens": 44
+      }
+    }
+  ],
+  "errors": []
+}

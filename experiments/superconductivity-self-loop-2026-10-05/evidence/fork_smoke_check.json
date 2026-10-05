@@ -1,0 +1,12 @@
+{
+  "rows": 3764,
+  "groups": 1117,
+  "known_candidates": 23,
+  "guard": {
+    "candidate_id": "G01",
+    "MAE_K": 7.912683448781036,
+    "positive_tc_MAE_K": 8.832165507919859,
+    "rule": "Positive-Tc OOF MAE must not exceed this same best-overall shared global anchor"
+  },
+  "new_model_fits": 0
+}

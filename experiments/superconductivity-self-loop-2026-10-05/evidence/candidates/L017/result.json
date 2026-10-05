@@ -1,0 +1,315 @@
+{
+  "candidate_id": "L017",
+  "specification": {
+    "experts": {
+      "cluster0": {
+        "model": "hist_gradient_boosting",
+        "target": "raw"
+      }
+    },
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "input": "composition",
+    "routing": "kmeans3"
+  },
+  "completed_utc": "2026-10-05T15:13:04.282516+00:00",
+  "feedback_scope": "Original training fixed-group OOF only",
+  "metrics": {
+    "rows": 3764,
+    "groups": 1117,
+    "weight_sum": 3760.0,
+    "MAE_K": 8.223004524538208,
+    "RMSE_K": 15.46773453875803,
+    "MSLE_log1p": 1.4326862003402674,
+    "bias_K": -3.508652046360617,
+    "subgroups": {
+      "reported_zero": {
+        "rows": 1169,
+        "groups": 636,
+        "weight_sum": 1167.0,
+        "MAE_K": 5.926105391875623,
+        "RMSE_K": 12.699376088285934,
+        "MSLE_log1p": 2.6012789654083397,
+        "bias_K": 5.926105391875623
+      },
+      "positive_tc": {
+        "rows": 2595,
+        "groups": 651,
+        "weight_sum": 2593.0,
+        "MAE_K": 9.256742005377868,
+        "RMSE_K": 16.563357720816267,
+        "MSLE_log1p": 0.9067518552440698,
+        "bias_K": -7.754838675910053
+      },
+      "high_tc_ge40K": {
+        "rows": 310,
+        "groups": 24,
+        "weight_sum": 310.0,
+        "MAE_K": 35.8528342115097,
+        "RMSE_K": 41.46621879365077,
+        "MSLE_log1p": 0.8322216256458167,
+        "bias_K": -35.3184920797315
+      }
+    }
+  },
+  "actual_model_fits": 6,
+  "elapsed_seconds": 8.703000000001339,
+  "fold_details": [
+    {
+      "fold": 0,
+      "fit_rows": 2288,
+      "held_rows": 1476,
+      "fit_groups": 744,
+      "held_groups": 373,
+      "fit_count": 2,
+      "elapsed_fit_seconds": 2.7030000000013388,
+      "training_routes": {
+        "cluster0": {
+          "training_rows": 812,
+          "training_groups": 210,
+          "configured": true,
+          "active_expert": true,
+          "fallback_reason": null
+        },
+        "cluster1": {
+          "training_rows": 824,
+          "training_groups": 265,
+          "configured": false,
+          "active_expert": false,
+          "fallback_reason": "unspecified_route"
+        },
+        "cluster2": {
+          "training_rows": 652,
+          "training_groups": 295,
+          "configured": false,
+          "active_expert": false,
+          "fallback_reason": "unspecified_route"
+        }
+      },
+      "router_centroid_comp_Z_mean": [
+        28.697542872088828,
+        51.966973940457265,
+        27.243819783075054
+      ],
+      "prediction_usage": {
+        "global_fallback": 1306,
+        "expert_cluster0": 170
+      },
+      "held_metrics": {
+        "rows": 1476,
+        "groups": 373,
+        "weight_sum": 1474.0,
+        "MAE_K": 11.81874273567803,
+        "RMSE_K": 20.12519158610951,
+        "MSLE_log1p": 1.9865831672581478,
+        "bias_K": -4.021271409349722,
+        "subgroups": {
+          "reported_zero": {
+            "rows": 525,
+            "groups": 225,
+            "weight_sum": 525.0,
+            "MAE_K": 8.868927549878663,
+            "RMSE_K": 16.837192414189023,
+            "MSLE_log1p": 3.620266524160123,
+            "bias_K": 8.868927549878663
+          },
+          "positive_tc": {
+            "rows": 951,
+            "groups": 213,
+            "weight_sum": 949.0,
+            "MAE_K": 13.45062152655755,
+            "RMSE_K": 21.731467703070305,
+            "MSLE_log1p": 1.0828068107001532,
+            "bias_K": -11.152308768248458
+          },
+          "high_tc_ge40K": {
+            "rows": 221,
+            "groups": 12,
+            "weight_sum": 221.0,
+            "MAE_K": 34.97333669457876,
+            "RMSE_K": 40.06044115188347,
+            "MSLE_log1p": 0.8675640312894365,
+            "bias_K": -34.5440025285258
+          }
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "fit_rows": 2624,
+      "held_rows": 1140,
+      "fit_groups": 745,
+      "held_groups": 372,
+      "fit_count": 2,
+      "elapsed_fit_seconds": 2.8440000000045984,
+      "training_routes": {
+        "cluster0": {
+          "training_rows": 1055,
+          "training_groups": 177,
+          "configured": true,
+          "active_expert": true,
+          "fallback_reason": null
+        },
+        "cluster1": {
+          "training_rows": 860,
+          "training_groups": 258,
+          "configured": false,
+          "active_expert": false,
+          "fallback_reason": "unspecified_route"
+        },
+        "cluster2": {
+          "training_rows": 709,
+          "training_groups": 333,
+          "configured": false,
+          "active_expert": false,
+          "fallback_reason": "unspecified_route"
+        }
+      },
+      "router_centroid_comp_Z_mean": [
+        26.46562426610502,
+        53.19611318658252,
+        28.457208452534307
+      ],
+      "prediction_usage": {
+        "global_fallback": 737,
+        "expert_cluster0": 403
+      },
+      "held_metrics": {
+        "rows": 1140,
+        "groups": 372,
+        "weight_sum": 1140.0,
+        "MAE_K": 5.782748499712105,
+        "RMSE_K": 12.291579955588142,
+        "MSLE_log1p": 1.0414485501893787,
+        "bias_K": -2.7286012799171684,
+        "subgroups": {
+          "reported_zero": {
+            "rows": 329,
+            "groups": 205,
+            "weight_sum": 329.0,
+            "MAE_K": 3.5689105258347102,
+            "RMSE_K": 6.723404046787926,
+            "MSLE_log1p": 1.9002952278484264,
+            "bias_K": 3.5689105258347102
+          },
+          "positive_tc": {
+            "rows": 811,
+            "groups": 223,
+            "weight_sum": 811.0,
+            "MAE_K": 6.6808406000890015,
+            "RMSE_K": 13.929644417458823,
+            "MSLE_log1p": 0.6930384922981,
+            "bias_K": -5.2833255513011
+          },
+          "high_tc_ge40K": {
+            "rows": 48,
+            "groups": 7,
+            "weight_sum": 48.0,
+            "MAE_K": 43.96297281419378,
+            "RMSE_K": 50.167167177872926,
+            "MSLE_log1p": 0.9611754864084373,
+            "bias_K": -42.54947942336364
+          }
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "fit_rows": 2616,
+      "held_rows": 1148,
+      "fit_groups": 745,
+      "held_groups": 372,
+      "fit_count": 2,
+      "elapsed_fit_seconds": 2.938000000001921,
+      "training_routes": {
+        "cluster0": {
+          "training_rows": 836,
+          "training_groups": 91,
+          "configured": true,
+          "active_expert": true,
+          "fallback_reason": null
+        },
+        "cluster1": {
+          "training_rows": 934,
+          "training_groups": 317,
+          "configured": false,
+          "active_expert": false,
+          "fallback_reason": "unspecified_route"
+        },
+        "cluster2": {
+          "training_rows": 846,
+          "training_groups": 353,
+          "configured": false,
+          "active_expert": false,
+          "fallback_reason": "unspecified_route"
+        }
+      },
+      "router_centroid_comp_Z_mean": [
+        27.774138467535217,
+        24.911642174115944,
+        50.06277324858291
+      ],
+      "prediction_usage": {
+        "global_fallback": 994,
+        "expert_cluster0": 154
+      },
+      "held_metrics": {
+        "rows": 1148,
+        "groups": 372,
+        "weight_sum": 1146.0,
+        "MAE_K": 6.025599415534425,
+        "RMSE_K": 10.664816537791765,
+        "MSLE_log1p": 1.1094460536867397,
+        "bias_K": -3.6252811324859135,
+        "subgroups": {
+          "reported_zero": {
+            "rows": 315,
+            "groups": 206,
+            "weight_sum": 313.0,
+            "MAE_K": 3.467752286367205,
+            "RMSE_K": 8.847657564727832,
+            "MSLE_log1p": 1.6289313018700826,
+            "bias_K": 3.467752286367205
+          },
+          "positive_tc": {
+            "rows": 833,
+            "groups": 215,
+            "weight_sum": 833.0,
+            "MAE_K": 6.986711241980213,
+            "RMSE_K": 11.27215111025938,
+            "MSLE_log1p": 0.914249315773911,
+            "bias_K": -6.290490568381503
+          },
+          "high_tc_ge40K": {
+            "rows": 41,
+            "groups": 5,
+            "weight_sum": 41.0,
+            "MAE_K": 31.098743926458592,
+            "RMSE_K": 37.46722555043026,
+            "MSLE_log1p": 0.490747065552018,
+            "bias_K": -31.027633502222166
+          }
+        }
+      }
+    }
+  ],
+  "prediction_usage": {
+    "global_fallback": 3037,
+    "expert_cluster0": 727
+  },
+  "source_sha256": {
+    "train.csv.gz": "9bda72e2eff6ca851e4f588a6e8427f14216840ad8ac08845167272b212c27c5",
+    "validation_inputs.csv.gz": "243d5374864b9a428ea4012a076fa666efb5b3aec626243774b87a213982b318",
+    "validation_labels.csv.gz": "2d5eca47e2dac13b3414df91e5cd4038ef09b8d549a68a2c8c0bd4746d2198b9",
+    "fold_assignments.csv": "df202fd80adeaadeb1bc84110a5cf6a8827222fd73e6ff4fd2df44898a569d39",
+    "schema.json": "12219f9abb4b01856d70a967dc94234897da265cacbfe017aac072be786b2a22"
+  },
+  "specification_sha256": "6e1bc7477c38aa7843e0c48afbc2ac510b507b9d05cf79e2c1cd263643aa50d1",
+  "oof_predictions_sha256": "7aebae16f1587394b7e647498366316af45f2ed47ce373f4aa9cf4aac7dd0b92",
+  "adapter_reused": false,
+  "reused_from": null,
+  "actual_new_regressor_fits": 6,
+  "candidate_total_regressor_fits": 6
+}

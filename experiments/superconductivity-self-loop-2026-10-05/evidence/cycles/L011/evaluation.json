@@ -1,0 +1,332 @@
+{
+  "candidate_id": "L011",
+  "spec": {
+    "experts": {
+      "cu_o": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "fe_anion": {
+        "model": "hist_gradient_boosting",
+        "target": "log1p"
+      },
+      "other": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    },
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "input": "composition",
+    "routing": "chemistry"
+  },
+  "fingerprint": "08ae6302a2cd7c7869e0a18e5866d359ad72da34608776395a4b1c0a7ec2d2b1",
+  "feedback_scope": "Original training fixed-group OOF only; adaptive development feedback",
+  "metrics": {
+    "rows": 3764,
+    "groups": 1117,
+    "weight_sum": 3760.0,
+    "MAE_K": 7.889042900205868,
+    "RMSE_K": 14.199039057806804,
+    "bias_K": -3.112776121911616,
+    "subgroups": {
+      "reported_zero": {
+        "rows": 1169,
+        "groups": 636,
+        "weight_sum": 1167.0,
+        "MAE_K": 5.8000865556194,
+        "RMSE_K": 13.303045230084772,
+        "bias_K": 5.8000865556194
+      },
+      "positive_tc": {
+        "rows": 2595,
+        "groups": 651,
+        "weight_sum": 2593.0,
+        "MAE_K": 8.829194097325965,
+        "RMSE_K": 14.584337476776144,
+        "bias_K": -7.124079918548213
+      },
+      "high_tc_ge40K": {
+        "rows": 310,
+        "groups": 24,
+        "weight_sum": 310.0,
+        "MAE_K": 29.716422016142293,
+        "RMSE_K": 33.561443278770845,
+        "bias_K": -27.894653291191407
+      }
+    }
+  },
+  "reused": false,
+  "reused_from": null,
+  "proposal_was_duplicate": false,
+  "candidate_total_regressor_fits": 12,
+  "actual_new_regressor_fits": 12,
+  "elapsed_seconds": 13.281000000002678,
+  "positive_guard_pass": true,
+  "positive_guard_anchor": "G01",
+  "evidence_directory": "workbench/candidates/L011",
+  "counterexamples": {
+    "scope": "Original training fixed-group OOF only; adaptive development feedback",
+    "candidate_id": "L011",
+    "examples": {
+      "overall": [
+        {
+          "material_id": "3dsc_mp_row_001997",
+          "formula": "Ba2Cu3Pr1O6",
+          "chemical_system": "Ba-Cu-O-Pr",
+          "tc": 0.0,
+          "prediction": 68.63429861123959,
+          "absolute_error_K": 68.63429861123959,
+          "signed_error_K": 68.63429861123959,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_001768",
+          "formula": "Ba2Ca0.03Cu3Y0.97O6",
+          "chemical_system": "Ba-Ca-Cu-O-Y",
+          "tc": 0.0,
+          "prediction": 66.90135069458334,
+          "absolute_error_K": 66.90135069458334,
+          "signed_error_K": 66.90135069458334,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_002004",
+          "formula": "Ba2Cu3Y1O6",
+          "chemical_system": "Ba-Cu-O-Y",
+          "tc": 0.0,
+          "prediction": 66.5615381946354,
+          "absolute_error_K": 66.5615381946354,
+          "signed_error_K": 66.5615381946354,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        }
+      ],
+      "positive": [
+        {
+          "material_id": "3dsc_mp_row_001895",
+          "formula": "Ba2Cu1Tl1O5",
+          "chemical_system": "Ba-Cu-O-Tl",
+          "tc": 95.0,
+          "prediction": 30.011656250010418,
+          "absolute_error_K": 64.98834374998958,
+          "signed_error_K": -64.98834374998958,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_002155",
+          "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+          "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+          "tc": 107.25,
+          "prediction": 43.328784722239604,
+          "absolute_error_K": 63.921215277760396,
+          "signed_error_K": -63.921215277760396,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_001901",
+          "formula": "Ba2Cu1Tl2O6.12",
+          "chemical_system": "Ba-Cu-O-Tl",
+          "tc": 87.8,
+          "prediction": 26.334427083354164,
+          "absolute_error_K": 61.46557291664583,
+          "signed_error_K": -61.46557291664583,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        }
+      ],
+      "zero": [
+        {
+          "material_id": "3dsc_mp_row_001997",
+          "formula": "Ba2Cu3Pr1O6",
+          "chemical_system": "Ba-Cu-O-Pr",
+          "tc": 0.0,
+          "prediction": 68.63429861123959,
+          "absolute_error_K": 68.63429861123959,
+          "signed_error_K": 68.63429861123959,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_001768",
+          "formula": "Ba2Ca0.03Cu3Y0.97O6",
+          "chemical_system": "Ba-Ca-Cu-O-Y",
+          "tc": 0.0,
+          "prediction": 66.90135069458334,
+          "absolute_error_K": 66.90135069458334,
+          "signed_error_K": 66.90135069458334,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_002004",
+          "formula": "Ba2Cu3Y1O6",
+          "chemical_system": "Ba-Cu-O-Y",
+          "tc": 0.0,
+          "prediction": 66.5615381946354,
+          "absolute_error_K": 66.5615381946354,
+          "signed_error_K": 66.5615381946354,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        }
+      ],
+      "high_tc_ge40": [
+        {
+          "material_id": "3dsc_mp_row_001895",
+          "formula": "Ba2Cu1Tl1O5",
+          "chemical_system": "Ba-Cu-O-Tl",
+          "tc": 95.0,
+          "prediction": 30.011656250010418,
+          "absolute_error_K": 64.98834374998958,
+          "signed_error_K": -64.98834374998958,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_002155",
+          "formula": "Bi1.7Ca2Cu3Pb0.3Sr2O10",
+          "chemical_system": "Bi-Ca-Cu-O-Pb-Sr",
+          "tc": 107.25,
+          "prediction": 43.328784722239604,
+          "absolute_error_K": 63.921215277760396,
+          "signed_error_K": -63.921215277760396,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        },
+        {
+          "material_id": "3dsc_mp_row_001901",
+          "formula": "Ba2Cu1Tl2O6.12",
+          "chemical_system": "Ba-Cu-O-Tl",
+          "tc": 87.8,
+          "prediction": 26.334427083354164,
+          "absolute_error_K": 61.46557291664583,
+          "signed_error_K": -61.46557291664583,
+          "route": "cu_o",
+          "used_model": "expert_cu_o",
+          "fold": 0
+        }
+      ]
+    },
+    "route_metrics": {
+      "cu_o": {
+        "rows": 712,
+        "groups": 66,
+        "weight_sum": 712.0,
+        "MAE_K": 24.39784884155065,
+        "RMSE_K": 29.53170200487865,
+        "bias_K": -6.803032255675577,
+        "subgroups": {
+          "reported_zero": {
+            "rows": 248,
+            "groups": 50,
+            "weight_sum": 248.0,
+            "MAE_K": 20.723853501542685,
+            "RMSE_K": 28.245913424055335,
+            "bias_K": 20.723853501542685
+          },
+          "positive_tc": {
+            "rows": 464,
+            "groups": 31,
+            "weight_sum": 464.0,
+            "MAE_K": 26.36153600603767,
+            "RMSE_K": 30.196490517198427,
+            "bias_K": -21.515678091430168
+          },
+          "high_tc_ge40K": {
+            "rows": 267,
+            "groups": 18,
+            "weight_sum": 267.0,
+            "MAE_K": 31.51075853086543,
+            "RMSE_K": 35.136978138754195,
+            "bias_K": -29.7885953559203
+          }
+        }
+      },
+      "fe_anion": {
+        "rows": 285,
+        "groups": 37,
+        "weight_sum": 285.0,
+        "MAE_K": 11.816722540180724,
+        "RMSE_K": 15.45379408741485,
+        "bias_K": -5.816983276570121,
+        "subgroups": {
+          "reported_zero": {
+            "rows": 64,
+            "groups": 26,
+            "weight_sum": 64.0,
+            "MAE_K": 6.159627935628254,
+            "RMSE_K": 8.865302117340365,
+            "bias_K": 6.159627935628254
+          },
+          "positive_tc": {
+            "rows": 221,
+            "groups": 27,
+            "weight_sum": 221.0,
+            "MAE_K": 13.454976181318088,
+            "RMSE_K": 16.88846027731439,
+            "bias_K": -9.285323175125306
+          },
+          "high_tc_ge40K": {
+            "rows": 43,
+            "groups": 6,
+            "weight_sum": 43.0,
+            "MAE_K": 18.57484412239626,
+            "RMSE_K": 21.31421411229738,
+            "bias_K": -16.13459442415385
+          }
+        }
+      },
+      "other": {
+        "rows": 2767,
+        "groups": 1016,
+        "weight_sum": 2763.0,
+        "MAE_K": 3.2297383299451674,
+        "RMSE_K": 4.999084519675423,
+        "bias_K": -1.8828950483257985,
+        "subgroups": {
+          "reported_zero": {
+            "rows": 857,
+            "groups": 561,
+            "weight_sum": 855.0,
+            "MAE_K": 1.4444083674211048,
+            "RMSE_K": 2.0613228023116377,
+            "bias_K": 1.4444083674211048
+          },
+          "positive_tc": {
+            "rows": 1910,
+            "groups": 594,
+            "weight_sum": 1908.0,
+            "MAE_K": 4.029768265981893,
+            "RMSE_K": 5.85538367885729,
+            "bias_K": -3.3739036544387977
+          },
+          "high_tc_ge40K": {
+            "rows": 0,
+            "groups": 0,
+            "weight_sum": 0.0,
+            "MAE_K": null,
+            "RMSE_K": null,
+            "bias_K": null
+          }
+        }
+      }
+    }
+  }
+}

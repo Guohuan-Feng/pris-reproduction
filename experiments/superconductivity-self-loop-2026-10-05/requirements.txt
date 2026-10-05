@@ -1,0 +1,10 @@
+# Versions used for the recorded integration run (Python 3.12.14).
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.6.0
+pymatgen==2026.5.4
+# Regeneration of the published progress figures.
+matplotlib==3.11.2

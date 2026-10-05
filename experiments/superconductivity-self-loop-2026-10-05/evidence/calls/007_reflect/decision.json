@@ -1,0 +1,14 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L003 executed successfully and passed the fixed G01 positive-Tc guard (8.7105 K <= 8.8322 K), but it was not an eligible improvement. Its pooled weighted OOF MAE was 8.0061 K versus A05's 7.7526 K, a deterioration of 0.2535 K and far from the required 0.01 K gain. Relative to A05, reported-zero MAE worsened from 6.0806 K to 6.4411 K, positive-Tc MAE worsened from 8.5051 K to 8.7105 K, and high-Tc MAE worsened from 28.8502 K to 29.6487 K. The repaired input therefore harmed every reported subgroup in this controlled A05 input ablation, despite remaining guard-eligible. Counterexamples also confirm the persistent cu_o ambiguity: some reported-zero cuprates were overpredicted by more than 72 K, while high-Tc cuprates were underpredicted by roughly 67–70 K.",
+  "next_action": "continue",
+  "next_focus": "Because the required continuation minimum remains pending, test an untried component ablation of A05 using composition input, chemistry routing, global extra_trees/raw, and only a cu_o extra_trees/raw expert, with both fe_anion and other falling back to the global model. This isolates whether A05's improvement is primarily supplied by its cu_o specialization or requires the separate other-route fit. It is falsified as an eligible improvement unless pooled OOF MAE is below 7.742598770753422 K and positive-Tc MAE remains at or below 8.832165507919859 K; subgroup changes remain tradeoffs rather than substitutes for those criteria.",
+  "stop_reason": "",
+  "limitations": [
+    "All results are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "Chemistry routes are operational composition partitions rather than verified physical material families.",
+    "The repaired-input result does not rule out all other untried estimator, target, routing, and expert combinations.",
+    "The cu_o route has only 66 groups, and its high-Tc subgroup has 18 groups, so route-level comparisons may be unstable.",
+    "These modeling results do not establish or identify new superconductors."
+  ]
+}

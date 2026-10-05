@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "hypothesis_status": {
+      "type": "string",
+      "enum": [
+        "supported",
+        "not_supported",
+        "inconclusive",
+        "execution_failed"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "next_action": {
+      "type": "string",
+      "enum": [
+        "continue",
+        "stop"
+      ]
+    },
+    "next_focus": {
+      "type": "string"
+    },
+    "stop_reason": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "hypothesis_status",
+    "summary",
+    "next_action",
+    "next_focus",
+    "stop_reason",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

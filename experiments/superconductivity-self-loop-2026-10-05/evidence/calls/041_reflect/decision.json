@@ -1,0 +1,13 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L020 executed successfully and passed the deterministic positive-Tc guard: 8.5146 K was below the fixed G01 limit of 8.8322 K. However, its pooled weighted training OOF MAE was 7.8021 K, which is 0.0495 K worse than A05's 7.7526 K and 0.0595 K above the eligible threshold of 7.7426 K, so it did not improve the incumbent. Relative to L007, changing the fe_anion fallback from extra_trees/raw to hist_gradient_boosting/raw worsened pooled MAE from 7.7612 K to 7.8021 K and positive-Tc MAE from 8.4615 K to 8.5146 K; reported-zero MAE also worsened from 6.2051 K to 6.2189 K, while high-Tc MAE worsened from 28.8502 K to 29.0608 K. The interaction therefore remained guard-eligible but degraded every reported aggregate subgroup. Large opposing cu_o errors persisted, with some reported-zero materials predicted near 67–69 K and high-Tc materials underpredicted by roughly 61–65 K.",
+  "next_action": "continue",
+  "next_focus": "The continuation minimum remains pending, with 20 of 22 successful unique cycles completed. Test an untried chemistry configuration combining the near-incumbent L007 other-route estimator with L010's fe_anion target alternative: composition input, chemistry routing, global extra_trees/raw, cu_o extra_trees/raw, fe_anion extra_trees/log1p, and other hist_gradient_boosting/raw. L020 rejects hist_gradient_boosting/raw as the fe_anion fallback, while L010 showed that extra_trees/log1p improved the explicitly specialized fe_anion variant relative to extra_trees/raw. This experiment tests whether that localized target effect interacts favorably with other-route smoothing. It is falsified as an eligible improvement unless pooled weighted OOF MAE is below 7.742598770753422 K and positive-Tc MAE is at most 8.832165507919859 K; subgroup gains without both conditions remain tradeoffs.",
+  "stop_reason": "",
+  "limitations": [
+    "All measurements are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "L020 passed the positive-Tc guard but failed the required 0.01 K pooled-MAE improvement criterion.",
+    "Chemistry routes are operational composition partitions rather than verified physical families.",
+    "The counterexamples are historical prediction errors and do not identify new superconductors."
+  ]
+}

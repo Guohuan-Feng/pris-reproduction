@@ -1,0 +1,22 @@
+{
+  "action": "experiment",
+  "hypothesis": "L013 showed that cluster2-only extra_trees/raw specialization slightly improved reported-zero MAE but worsened positive-Tc and pooled MAE, while L012 showed that specializing all three clusters was substantially harmful, with cluster1 especially poor. The complementary cluster0-only ablation will isolate whether cluster0 contributes useful routing signal independently of the rejected cluster2 expert and harmful cluster1 expert, while preserving G01 fallback predictions elsewhere.",
+  "falsification": "The hypothesis is falsified as an eligible improvement unless pooled weighted training OOF MAE is below 7.742598770753422 K, representing at least the required 0.01 K gain over A05, and positive-Tc MAE is at most the fixed G01 guard of 8.832165507919859 K. Any cluster or subgroup improvement without both conditions is only a development tradeoff.",
+  "reason": "Only 13 of 22 required successful unique cycles are complete, so continuation is mandatory. This untried selective-routing configuration directly follows the measured kmeans ablations and isolates cluster0 without changing the input, estimator, target, or global fallback.",
+  "revision_of": "L012",
+  "specification": {
+    "input": "composition",
+    "routing": "kmeans3",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cluster0": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  },
+  "stop_reason": ""
+}

@@ -1,0 +1,22 @@
+{
+  "action": "experiment",
+  "hypothesis": "L013 and L018 showed that raw-target specialization of cluster2 was slightly harmful, but cluster2 contains no high-Tc rows and has comparatively low temperatures. A cluster2-only extra_trees/log1p expert may exploit that localized target distribution: prior global log1p models sharply reduced reported-zero error but damaged positive and high-Tc predictions, so restricting log1p to this no-high-Tc cluster could retain some zero-Tc benefit while containing the positive-Tc penalty. Cluster0 and cluster1 remain on the G01 extra_trees/raw fallback to isolate the target change.",
+  "falsification": "The hypothesis is falsified as an eligible improvement unless pooled weighted training OOF MAE is below 7.742598770753422 K, representing at least the required 0.01 K gain over A05, and positive-Tc MAE is at most the fixed G01 guard of 8.832165507919859 K. A lower reported-zero or cluster2 MAE without both conditions is only a subgroup tradeoff.",
+  "reason": "The required minimum is still pending at 18 of 22 successful unique cycles. This untried configuration completes a clean target-only comparison against L013 for cluster2 and tests whether the consistently observed log1p zero-versus-positive tradeoff becomes favorable when confined to a low-temperature route with no high-Tc cases.",
+  "revision_of": "L013",
+  "specification": {
+    "input": "composition",
+    "routing": "kmeans3",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cluster2": {
+        "model": "extra_trees",
+        "target": "log1p"
+      }
+    }
+  },
+  "stop_reason": ""
+}

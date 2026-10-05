@@ -1,0 +1,14 @@
+{
+  "experts": {
+    "cluster1": {
+      "model": "hist_gradient_boosting",
+      "target": "raw"
+    }
+  },
+  "global": {
+    "model": "extra_trees",
+    "target": "raw"
+  },
+  "input": "composition",
+  "routing": "kmeans3"
+}

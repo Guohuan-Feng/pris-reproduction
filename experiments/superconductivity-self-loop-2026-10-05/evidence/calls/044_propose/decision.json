@@ -1,0 +1,26 @@
+{
+  "action": "experiment",
+  "hypothesis": "L021 showed that a route-trained fe_anion extra_trees/log1p expert improved reported-zero MAE but worsened pooled, positive-Tc, and high-Tc MAE relative to L007. A05 versus A01 also showed that global fallback can outperform a separately trained fe_anion expert. Using a globally trained extra_trees/log1p fallback only for the omitted fe_anion route may be less harmful than L021's route-trained log1p expert, while retaining L007's near-incumbent cu_o extra_trees/raw and other hist_gradient_boosting/raw experts.",
+  "falsification": "The hypothesis is falsified as an eligible improvement unless pooled weighted training OOF MAE is below 7.742598770753422 K, representing at least the required 0.01 K gain over A05, and positive-Tc MAE is at most the fixed G01 guard of 8.832165507919859 K. Any reported-zero or route-specific gain without both conditions is only a subgroup tradeoff.",
+  "reason": "The continuation minimum is pending at 21 of 22 successful unique cycles, so an untried valid configuration is required. This experiment isolates whether broader global training changes the effect of the fe_anion log1p fallback while preserving the strongest components of the near-incumbent L007 configuration.",
+  "revision_of": "L021",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "extra_trees",
+      "target": "log1p"
+    },
+    "experts": {
+      "cu_o": {
+        "model": "extra_trees",
+        "target": "raw"
+      },
+      "other": {
+        "model": "hist_gradient_boosting",
+        "target": "raw"
+      }
+    }
+  },
+  "stop_reason": ""
+}

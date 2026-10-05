@@ -1,0 +1,22 @@
+{
+  "action": "experiment",
+  "hypothesis": "A05’s gain over the global G01 model may be driven mainly by the cu_o-specific extra_trees/raw fit, while its separate other-route fit may be unnecessary or mildly harmful. This untried component ablation retains A05’s cu_o expert but lets both fe_anion and other use the global extra_trees/raw model, directly isolating the contribution of other-route specialization after L003 showed that changing the input representation worsened every reported subgroup.",
+  "falsification": "The hypothesis is falsified as an eligible improvement if pooled weighted OOF MAE is not below 7.742598770753422 K, which is the A05 incumbent minus the required 0.01 K gain, or if positive-Tc MAE exceeds the fixed G01 guard of 8.832165507919859 K. Any subgroup benefit without both conditions is only a tradeoff, not an eligible win.",
+  "reason": "The continuation minimum is pending, and this valid untried specification follows the previous reflection’s focused A05 ablation. It tests whether the successful chemistry routing needs both the cu_o and other experts rather than introducing another simultaneous model, target, or input change.",
+  "revision_of": "A05",
+  "specification": {
+    "input": "composition",
+    "routing": "chemistry",
+    "global": {
+      "model": "extra_trees",
+      "target": "raw"
+    },
+    "experts": {
+      "cu_o": {
+        "model": "extra_trees",
+        "target": "raw"
+      }
+    }
+  },
+  "stop_reason": ""
+}

@@ -1,0 +1,14 @@
+{
+  "hypothesis_status": "not_supported",
+  "summary": "L012 executed successfully but failed the deterministic positive-Tc guard and did not improve the incumbent. Its pooled weighted OOF MAE was 8.2804 K, 0.5278 K worse than A05's 7.7526 K and far above the eligible threshold of 7.7426 K. Positive-Tc MAE was 9.0166 K, exceeding the fixed G01 guard of 8.8322 K by 0.1845 K. Relative to A05, reported-zero MAE worsened from 6.0806 K to 6.6445 K, positive-Tc MAE worsened from 8.5051 K to 9.0166 K, and high-Tc MAE worsened from 28.8502 K to 30.7953 K. Route evidence is heterogeneous: cluster1 was especially poor at 11.8570 K MAE and contained the largest opposing zero/high-Tc errors, whereas cluster2 achieved 2.9293 K MAE on 1,242 rows and contained no high-Tc cases. Therefore homogeneous kmeans3 specialization is not supported, but the route-level evidence motivates isolating cluster2 rather than rejecting all selective kmeans routing.",
+  "next_action": "continue",
+  "next_focus": "Because the continuation minimum remains pending, test an untried selective kmeans3 configuration using composition input, global extra_trees/raw, and only a cluster2 extra_trees/raw expert; cluster0 and cluster1 should fall back to the global model. L012 shows that cluster0 and especially cluster1 specialization caused poor errors, while cluster2 was substantially more accurate and has no high-Tc rows. This ablation tests whether cluster2 specialization supplies useful low-temperature gains without the harmful cluster0/cluster1 experts. It is falsified as an eligible improvement unless pooled weighted OOF MAE is below 7.742598770753422 K and positive-Tc MAE is at most 8.832165507919859 K; route or subgroup gains without both conditions remain tradeoffs.",
+  "stop_reason": "",
+  "limitations": [
+    "All results are adaptive development evidence from reused fixed-group training OOF folds, not independent validation or proof of generalization.",
+    "L012 failed the fixed positive-Tc guard and therefore cannot be considered an eligible win.",
+    "KMeans cluster identities may shift between folds, so cluster2's apparent advantage may not represent a stable physical subgroup.",
+    "Cluster2 contains no high-Tc cases, while severe opposing zero/high-Tc errors remain concentrated in cluster1.",
+    "The routing partitions are operational composition rules, not verified physical families, and these results do not identify new superconductors."
+  ]
+}
