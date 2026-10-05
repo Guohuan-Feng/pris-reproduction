@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "publication_scope": "Faculty report, figures, per-experiment metrics and sanitized audit/registration summaries only",
+  "preparation_script_sha256": "8851983960d28d13c4a66620ccfff1c16add8b10fe0ec6b3ecc2cf1c272022f8",
+  "excluded": [
+    "raw run/session/log trees",
+    "credentials",
+    "private meeting media/transcripts",
+    "raw manifests and resource archives",
+    "confirmation/test data",
+    "full research source"
+  ],
+  "sanitation_policy": "Absolute local paths replaced by visible placeholders; report links point to curated summaries. Full raw research archives and source are not included.",
+  "relative_links_checked": [
+    {
+      "from": "REPORT_ZH.md",
+      "to": "figures/results_zh.png"
+    },
+    {
+      "from": "REPORT_ZH.md",
+      "to": "figures/workflow_zh.png"
+    },
+    {
+      "from": "REPORT_ZH.md",
+      "to": "SCIENTIFIC_AUDIT_SUMMARY.json"
+    },
+    {
+      "from": "REPORT_ZH.md",
+      "to": "AUDIT_SUMMARY.json"
+    },
+    {
+      "from": "REPORT_ZH.md",
+      "to": "agent_cycles.csv"
+    },
+    {
+      "from": "REPORT_ZH.md",
+      "to": "ordinary_search_results.csv"
+    },
+    {
+      "from": "REPORT_ZH.md",
+      "to": "REGISTRATION_SUMMARY.json"
+    },
+    {
+      "from": "REPORT_ZH.md",
+      "to": "PROTOCOL.md"
+    },
+    {
+      "from": "README.md",
+      "to": "figures/workflow_zh.png"
+    },
+    {
+      "from": "README.md",
+      "to": "figures/results_zh.png"
+    },
+    {
+      "from": "README.md",
+      "to": "REPORT_ZH.md"
+    },
+    {
+      "from": "README.md",
+      "to": "agent_cycles.csv"
+    },
+    {
+      "from": "README.md",
+      "to": "ordinary_search_results.csv"
+    },
+    {
+      "from": "README.md",
+      "to": "PROTOCOL.md"
+    },
+    {
+      "from": "README.md",
+      "to": "SCIENTIFIC_AUDIT_SUMMARY.json"
+    },
+    {
+      "from": "README.md",
+      "to": "AUDIT_SUMMARY.json"
+    },
+    {
+      "from": "README.md",
+      "to": "REGISTRATION_SUMMARY.json"
+    },
+    {
+      "from": "README.md",
+      "to": "PUBLICATION_MANIFEST.json"
+    }
+  ],
+  "files": {
+    "AUDIT_SUMMARY.json": {
+      "sha256": "12601e3e2708d62e29896dbf0bc788e6762731dd4e0bff0e259ccca8bf395f2e",
+      "bytes": 13423
+    },
+    "PROTOCOL.md": {
+      "sha256": "d522be77dd5f6812ad9a3d010a71623d2f79ecb766a67bb945c0d7c79027e3c0",
+      "bytes": 2363
+    },
+    "README.md": {
+      "sha256": "cec77811ec447a93176cb0c1f205cc65aa073afa7089d403413293db328c584c",
+      "bytes": 2730
+    },
+    "REGISTRATION_SUMMARY.json": {
+      "sha256": "1d30992babd3aa90be852fdf78d5adac03a356587bf5794b66004aabc2f7b1ea",
+      "bytes": 41018
+    },
+    "REPORT_ZH.md": {
+      "sha256": "bf145afdb9a6ca121c45709816e2c481c05498c80074c9e7ddd22620a6d558e8",
+      "bytes": 131406
+    },
+    "SCIENTIFIC_AUDIT_SUMMARY.json": {
+      "sha256": "9f0d1e387713ccb9dad011855b03dc3b279e48f291d129df9ed8bb4d89ae5990",
+      "bytes": 723
+    },
+    "agent_cycles.csv": {
+      "sha256": "ee1bcb14e8e98919d0022a4f4065c5f8bb088c9425e09bb2cdef85a4b9db9107",
+      "bytes": 3801
+    },
+    "figures/results_zh.png": {
+      "sha256": "2dcb44c29e4024d6e22f7647b33ce6d4c20357bcff6898a201ce024f94618367",
+      "bytes": 125585
+    },
+    "figures/results_zh.svg": {
+      "sha256": "9423db99618695fa8cbee58870a4453184a4d2bac7f7609225a378a3d5e78393",
+      "bytes": 103877
+    },
+    "figures/workflow_zh.png": {
+      "sha256": "5bb5da6c899af3618a446455c2f77b848354c72d0b8a4b5cf646c002c4d55d02",
+      "bytes": 282272
+    },
+    "figures/workflow_zh.svg": {
+      "sha256": "77c37a53e00859843263919fa220cfe49bfb24093c0951d3832dedf338f74286",
+      "bytes": 186200
+    },
+    "ordinary_search_results.csv": {
+      "sha256": "c6c0bc6ed8bd2cdc4fb97b0f94e033d96dce8a553f933ea23eb1303c8d94634b",
+      "bytes": 4030
+    }
+  },
+  "manifest_self_hash_excluded": true,
+  "public_text_format": "UTF-8, LF line endings, stripped trailing spaces"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "checks": 4086,
+  "failure_count": 0,
+  "no_fitting_performed": true,
+  "no_confirmation_data_loaded": true,
+  "scientific_audit_source_sha256": "8696634dcb65d644bda45aa1109aa0f6232070d97b0d775043d2b15da158c476",
+  "quality_review": {
+    "status": "pass",
+    "final_review_completed": true,
+    "source_sha256": "fcebe8df0d616fb38e10c426f99529a89055ba3112966b20c3855517cb760fe1"
+  },
+  "reviewed_utc": "2026-10-05T22:39:17.979324+00:00",
+  "count_definition": "7 initial plus 13 supplementary information experiments",
+  "resource_amendment_audit_valid": true,
+  "interpretation": "Execution and numeric consistency only; not physical proof or universal Agent advantage."
+}

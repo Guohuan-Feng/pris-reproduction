@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "scientific_status": "observed_development_only_two_phases",
+  "data_boundary": {
+    "rows": 2879,
+    "training_rows": 2164,
+    "validation_rows": 715,
+    "training_systems": 2040,
+    "validation_systems": 680,
+    "train_validation_system_intersection": 0
+  },
+  "baseline": {
+    "id": "H20_E021",
+    "validation_MAE": 0.22249280778196956,
+    "OOF_MAE": 0.2473902731880717,
+    "selection_score": 0.23494154048502064,
+    "spec": {
+      "routing": "anion_family",
+      "global_estimator": "extra_trees",
+      "blend_weight": 0.5,
+      "expert_estimators": {
+        "halogen": "blend",
+        "other": "blend",
+        "other_chalcogen": "extra_trees",
+        "oxygen": "blend"
+      },
+      "min_train_per_group": 150,
+      "shrinkage": 0.5,
+      "feature_set": "full42",
+      "training_weight": "uniform",
+      "model_options": {
+        "et_min_samples_leaf": 2,
+        "et_max_features": 1.0,
+        "hgb_loss": "squared_error",
+        "hgb_max_leaf_nodes": 15,
+        "hgb_min_samples_leaf": 20,
+        "hgb_l2_regularization": 10,
+        "hgb_learning_rate": 0.05
+      }
+    }
+  },
+  "recovery_baseline": {
+    "id": "H_ADAPT_E002",
+    "intervention_family": "parameters",
+    "diagnosis_id": "D001",
+    "preflight_id": "P002",
+    "promotion_reference": "H20_E021",
+    "promotion_pass": true,
+    "validation_MAE": 0.21838773192058245,
+    "OOF_MAE": 0.24297728903757893,
+    "selection_score": 0.23068251047908067,
+    "learner_fits": 18,
+    "spec": {
+      "routing": "anion_family",
+      "global_estimator": "extra_trees",
+      "blend_weight": 0.5,
+      "expert_estimators": {
+        "halogen": "blend",
+        "other": "blend",
+        "other_chalcogen": "extra_trees",
+        "oxygen": "blend"
+      },
+      "min_train_per_group": 150,
+      "shrinkage": 0.5,
+      "feature_set": "full42",
+      "training_weight": "uniform",
+      "model_options": {
+        "et_min_samples_leaf": 1,
+        "et_max_features": 1.0,
+        "hgb_loss": "squared_error",
+        "hgb_max_leaf_nodes": 15,
+        "hgb_min_samples_leaf": 20,
+        "hgb_l2_regularization": 10,
+        "hgb_learning_rate": 0.05
+      }
+    }
+  },
+  "initial_agent": {
+    "name": "initial_Agent",
+    "new_information_count": 7,
+    "already_determined_experiments": [
+      "E008"
+    ],
+    "fits_charged": 162,
+    "fits_started": 147,
+    "fits_completed": 146,
+    "rows_audited": 23032,
+    "family_counts": {
+      "loss": 2,
+      "parameters": 4,
+      "weighting": 1,
+      "representation": 1
+    },
+    "consecutive_family_changes": 4,
+    "mandatory_switch_experiments": 3,
+    "preflights": 9,
+    "preflight_rejections": 0,
+    "best_observed": {
+      "id": "E004",
+      "parent_id": "E002",
+      "intervention_family": "parameters",
+      "diagnosis_id": "D004",
+      "preflight_id": "P004",
+      "promotion_reference": "E002",
+      "promotion_pass": false,
+      "validation_MAE": 0.21747375282419976,
+      "OOF_MAE": 0.24317505861142016,
+      "selection_score": 0.23032440571780996,
+      "learner_fits": 18,
+      "configuration_diff": "hgb_max_leaf_nodes: 15 → 31",
+      "mandatory_switch_before": false,
+      "nonpromoting_streak_before": 1,
+      "new_information_eligible": true,
+      "spec": {
+        "routing": "anion_family",
+        "global_estimator": "extra_trees",
+        "blend_weight": 0.5,
+        "expert_estimators": {
+          "halogen": "blend",
+          "other": "blend",
+          "other_chalcogen": "extra_trees",
+          "oxygen": "blend"
+        },
+        "min_train_per_group": 150,
+        "shrinkage": 0.5,
+        "feature_set": "full42",
+        "training_weight": "uniform",
+        "model_options": {
+          "et_min_samples_leaf": 1,
+          "et_max_features": 1.0,
+          "hgb_loss": "squared_error",
+          "hgb_max_leaf_nodes": 31,
+          "hgb_min_samples_leaf": 20,
+          "hgb_l2_regularization": 10,
+          "hgb_learning_rate": 0.05
+        }
+      }
+    },
+    "last_joint_promoted": {
+      "id": "E002",
+      "parent_id": "H20_E021",
+      "intervention_family": "parameters",
+      "diagnosis_id": "D001",
+      "preflight_id": "P002",
+      "promotion_reference": "H20_E021",
+      "promotion_pass": true,
+      "validation_MAE": 0.21838773192058245,
+      "OOF_MAE": 0.24297728903757893,
+      "selection_score": 0.23068251047908067,
+      "learner_fits": 18,
+      "configuration_diff": "et_min_samples_leaf: 2 → 1",
+      "mandatory_switch_before": false,
+      "nonpromoting_streak_before": 1,
+      "new_information_eligible": true,
+      "spec": {
+        "routing": "anion_family",
+        "global_estimator": "extra_trees",
+        "blend_weight": 0.5,
+        "expert_estimators": {
+          "halogen": "blend",
+          "other": "blend",
+          "other_chalcogen": "extra_trees",
+          "oxygen": "blend"
+        },
+        "min_train_per_group": 150,
+        "shrinkage": 0.5,
+        "feature_set": "full42",
+        "training_weight": "uniform",
+        "model_options": {
+          "et_min_samples_leaf": 1,
+          "et_max_features": 1.0,
+          "hgb_loss": "squared_error",
+          "hgb_max_leaf_nodes": 15,
+          "hgb_min_samples_leaf": 20,
+          "hgb_l2_regularization": 10,
+          "hgb_learning_rate": 0.05
+        }
+      }
+    },
+    "terminal_counts": {
+      "status": "runtime_stopped",
+      "completed_cycles": 8,
+      "attempted_sessions": 8,
+      "minimum_cycles_met": false,
+      "usage": {
+        "tool_calls": 51,
+        "experiments": 9,
+        "investigations": 0,
+        "wall_seconds": 14675.71271276474,
+        "cycles": 8,
+        "uncached_input_tokens": 462029,
+        "output_tokens": 23645
+      }
+    }
+  },
+  "agent": {
+    "name": "Agent",
+    "new_information_count": 13,
+    "already_determined_experiments": [],
+    "fits_charged": 237,
+    "fits_started": 237,
+    "fits_completed": 237,
+    "rows_audited": 37427,
+    "family_counts": {
+      "parameters": 8,
+      "weighting": 1,
+      "representation": 1,
+      "loss": 1,
+      "routing": 2
+    },
+    "consecutive_family_changes": 8,
+    "mandatory_switch_experiments": 8,
+    "preflights": 17,
+    "preflight_rejections": 3,
+    "best_observed": {
+      "id": "E011",
+      "parent_id": "E008",
+      "intervention_family": "routing",
+      "diagnosis_id": "D017",
+      "preflight_id": "P014",
+      "promotion_reference": "E001",
+      "promotion_pass": true,
+      "validation_MAE": 0.21523546763324838,
+      "OOF_MAE": 0.24069775371169688,
+      "selection_score": 0.22796661067247265,
+      "learner_fits": 15,
+      "configuration_diff": "routing: anion_family → oxygen_presence; expert_estimators: {'halogen': 'blend', 'other': 'blend', 'other_chalcogen': 'extra_trees', 'oxygen': 'blend'} → {'no_oxygen': 'blend', 'oxygen': 'blend'}",
+      "mandatory_switch_before": true,
+      "nonpromoting_streak_before": 9,
+      "new_information_eligible": true,
+      "spec": {
+        "routing": "oxygen_presence",
+        "global_estimator": "extra_trees",
+        "blend_weight": 0.5,
+        "expert_estimators": {
+          "no_oxygen": "blend",
+          "oxygen": "blend"
+        },
+        "min_train_per_group": 150,
+        "shrinkage": 0.5,
+        "feature_set": "full42",
+        "training_weight": "uniform",
+        "model_options": {
+          "et_min_samples_leaf": 1,
+          "et_max_features": 1.0,
+          "hgb_loss": "squared_error",
+          "hgb_max_leaf_nodes": 15,
+          "hgb_min_samples_leaf": 20,
+          "hgb_l2_regularization": 0,
+          "hgb_learning_rate": 0.1
+        }
+      }
+    },
+    "last_joint_promoted": {
+      "id": "E011",
+      "parent_id": "E008",
+      "intervention_family": "routing",
+      "diagnosis_id": "D017",
+      "preflight_id": "P014",
+      "promotion_reference": "E001",
+      "promotion_pass": true,
+      "validation_MAE": 0.21523546763324838,
+      "OOF_MAE": 0.24069775371169688,
+      "selection_score": 0.22796661067247265,
+      "learner_fits": 15,
+      "configuration_diff": "routing: anion_family → oxygen_presence; expert_estimators: {'halogen': 'blend', 'other': 'blend', 'other_chalcogen': 'extra_trees', 'oxygen': 'blend'} → {'no_oxygen': 'blend', 'oxygen': 'blend'}",
+      "mandatory_switch_before": true,
+      "nonpromoting_streak_before": 9,
+      "new_information_eligible": true,
+      "spec": {
+        "routing": "oxygen_presence",
+        "global_estimator": "extra_trees",
+        "blend_weight": 0.5,
+        "expert_estimators": {
+          "no_oxygen": "blend",
+          "oxygen": "blend"
+        },
+        "min_train_per_group": 150,
+        "shrinkage": 0.5,
+        "feature_set": "full42",
+        "training_weight": "uniform",
+        "model_options": {
+          "et_min_samples_leaf": 1,
+          "et_max_features": 1.0,
+          "hgb_loss": "squared_error",
+          "hgb_max_leaf_nodes": 15,
+          "hgb_min_samples_leaf": 20,
+          "hgb_l2_regularization": 0,
+          "hgb_learning_rate": 0.1
+        }
+      }
+    },
+    "terminal_counts": {
+      "status": "agent_stopped",
+      "completed_cycles": 13,
+      "attempted_sessions": 13,
+      "minimum_cycles_met": true,
+      "usage": {
+        "tool_calls": 97,
+        "experiments": 13,
+        "investigations": 0,
+        "wall_seconds": 3010.425260066986,
+        "cycles": 13,
+        "uncached_input_tokens": 998301,
+        "output_tokens": 40873
+      }
+    }
+  },
+  "ordinary_search": {
+    "name": "ordinary_search",
+    "new_information_count": 14,
+    "already_determined_experiments": [],
+    "fits_charged": 232,
+    "fits_started": 232,
+    "fits_completed": 232,
+    "rows_audited": 40306,
+    "family_counts": {
+      "parameters": 5,
+      "weighting": 1,
+      "loss": 1,
+      "routing": 6,
+      "representation": 1
+    },
+    "consecutive_family_changes": 13,
+    "mandatory_switch_experiments": 14,
+    "preflights": 29,
+    "preflight_rejections": 14,
+    "best_observed": {
+      "id": "H_ADAPT_E004",
+      "intervention_family": "parameters",
+      "diagnosis_id": "D004",
+      "preflight_id": "P004",
+      "promotion_reference": "E002",
+      "promotion_pass": false,
+      "validation_MAE": 0.21747375282419976,
+      "OOF_MAE": 0.24317505861142016,
+      "selection_score": 0.23032440571780996,
+      "learner_fits": 18,
+      "spec": {
+        "routing": "anion_family",
+        "global_estimator": "extra_trees",
+        "blend_weight": 0.5,
+        "expert_estimators": {
+          "halogen": "blend",
+          "other": "blend",
+          "other_chalcogen": "extra_trees",
+          "oxygen": "blend"
+        },
+        "min_train_per_group": 150,
+        "shrinkage": 0.5,
+        "feature_set": "full42",
+        "training_weight": "uniform",
+        "model_options": {
+          "et_min_samples_leaf": 1,
+          "et_max_features": 1.0,
+          "hgb_loss": "squared_error",
+          "hgb_max_leaf_nodes": 31,
+          "hgb_min_samples_leaf": 20,
+          "hgb_l2_regularization": 10,
+          "hgb_learning_rate": 0.05
+        }
+      }
+    },
+    "last_joint_promoted": {
+      "id": "H_ADAPT_E002",
+      "intervention_family": "parameters",
+      "diagnosis_id": "D001",
+      "preflight_id": "P002",
+      "promotion_reference": "H20_E021",
+      "promotion_pass": true,
+      "validation_MAE": 0.21838773192058245,
+      "OOF_MAE": 0.24297728903757893,
+      "selection_score": 0.23068251047908067,
+      "learner_fits": 18,
+      "spec": {
+        "routing": "anion_family",
+        "global_estimator": "extra_trees",
+        "blend_weight": 0.5,
+        "expert_estimators": {
+          "halogen": "blend",
+          "other": "blend",
+          "other_chalcogen": "extra_trees",
+          "oxygen": "blend"
+        },
+        "min_train_per_group": 150,
+        "shrinkage": 0.5,
+        "feature_set": "full42",
+        "training_weight": "uniform",
+        "model_options": {
+          "et_min_samples_leaf": 1,
+          "et_max_features": 1.0,
+          "hgb_loss": "squared_error",
+          "hgb_max_leaf_nodes": 15,
+          "hgb_min_samples_leaf": 20,
+          "hgb_l2_regularization": 10,
+          "hgb_learning_rate": 0.05
+        }
+      }
+    },
+    "terminal_counts": {
+      "status": "completed",
+      "completed_strategies": 14,
+      "charged_learner_fits": 232,
+      "completed_learner_fits": 232,
+      "learner_fit_budget": 237,
+      "unused_learner_fit_budget": 5,
+      "wall_seconds": 1849.7165534496307,
+      "budget_matched": false
+    }
+  },
+  "total_agent_counts": {
+    "complete_results": 21,
+    "already_determined_results": 1,
+    "information_experiments": 20,
+    "fits_charged": 399,
+    "fits_started": 384,
+    "fits_completed": 383,
+    "continuous_uninterrupted": false
+  },
+  "audit": {
+    "status": "pass",
+    "checks": 4086,
+    "failure_count": 0
+  },
+  "limits": [
+    "Only repeatedly observed development data; no independent confirmation",
+    "Formation energy only; no separate Ehull stability evaluation",
+    "No generated descriptors, DFT data or physical-mechanism proof",
+    "Initial phase interrupted; 7 initial plus 13 supplementary information experiments",
+    "One Agent run and one ordinary-search seed; no universal Agent advantage",
+    "Supplementary comparison excludes initial-phase cost; fit count is not CPU time",
+    "Original 900000 input-token allocation exceeded; explicit engineering amendment to 1500000"
+  ]
+}

@@ -1,0 +1,22 @@
+phase,id,parent_id,intervention_family,diagnosis_id,preflight_id,promotion_reference,promotion_pass,validation_MAE,OOF_MAE,selection_score,learner_fits,configuration_diff,mandatory_switch_before,nonpromoting_streak_before,new_information_eligible
+initial,E001,H20_E021,loss,D001,P001,H20_E021,False,0.22469668233990547,0.2487084545364172,0.23670256843816134,18,hgb_loss: squared_error → absolute_error,False,0,True
+initial,E002,H20_E021,parameters,D001,P002,H20_E021,True,0.21838773192058245,0.24297728903757893,0.23068251047908067,18,et_min_samples_leaf: 2 → 1,False,1,True
+initial,E003,E002,parameters,D004,P003,E002,False,0.22055219313273797,0.24325125877938708,0.2319017259560625,18,et_max_features: 1.0 → 0.75,False,0,True
+initial,E004,E002,parameters,D004,P004,E002,False,0.21747375282419976,0.24317505861142016,0.23032440571780996,18,hgb_max_leaf_nodes: 15 → 31,False,1,True
+initial,E005,E002,parameters,D004,P005,E002,False,0.21801041293386042,0.24296619561011576,0.23048830427198808,18,hgb_min_samples_leaf: 20 → 10,False,2,True
+initial,E006,E002,weighting,D004,P006,E002,False,0.21880177627832045,0.24380103592990532,0.23130140610411287,18,training_weight: uniform → chemical_system_balanced,True,3,True
+initial,E007,E002,representation,D004,P007,E002,False,0.2399270347838662,0.2648822937250326,0.2524046642544494,18,feature_set: full42 → raw30,True,4,True
+initial,E008,E002,loss,D004,P008,E002,False,0.2207597043905041,0.24457139320980795,0.23266554880015602,18,hgb_loss: squared_error → absolute_error,True,5,False
+recovery2,E001,H_ADAPT_E002,parameters,D001,P002,H_ADAPT_E002,True,0.21683445386970637,0.24210791384876743,0.2294711838592369,18,hgb_learning_rate: 0.05 → 0.1,True,5,True
+recovery2,E002,E001,parameters,D003,P003,E001,False,0.21642375091675375,0.24217210974487496,0.22929793033081436,18,hgb_max_leaf_nodes: 15 → 31,False,0,True
+recovery2,E003,E001,parameters,D003,P004,E001,False,0.21638130374987583,0.24165738590651448,0.22901934482819514,18,hgb_min_samples_leaf: 20 → 10,False,1,True
+recovery2,E004,E001,parameters,D003,P006,E001,False,0.2198539032480272,0.243580673975964,0.2317172886119956,18,et_max_features: 1.0 → 0.5,False,2,True
+recovery2,E005,E001,weighting,D003,P007,E001,False,0.21750973764717457,0.242951108961643,0.2302304233044088,18,training_weight: uniform → chemical_system_balanced,True,3,True
+recovery2,E006,E001,representation,D003,P008,E001,False,0.23755665174942947,0.26375434038175877,0.2506554960655941,18,feature_set: full42 → raw30,True,4,True
+recovery2,E007,E001,loss,D003,P009,E001,False,0.21921734876138455,0.24400894982156074,0.23161314929147264,18,hgb_loss: squared_error → absolute_error,True,5,True
+recovery2,E008,E001,parameters,D003,P010,E001,False,0.21615641036121278,0.24139048129834131,0.22877344582977704,18,hgb_l2_regularization: 10 → 0,True,6,True
+recovery2,E009,E008,routing,D017,P011,E001,False,0.21615641036121278,0.2425919056430098,0.2293741580021113,24,min_train_per_group: 150 → 100,True,7,True
+recovery2,E010,E009,parameters,D019,P013,E001,False,0.22683595800139741,0.2547892109181513,0.24081258445977438,24,et_min_samples_leaf: 1 → 4,True,8,True
+recovery2,E011,E008,routing,D017,P014,E001,True,0.21523546763324838,0.24069775371169688,0.22796661067247265,15,"routing: anion_family → oxygen_presence; expert_estimators: {'halogen': 'blend', 'other': 'blend', 'other_chalcogen': 'extra_trees', 'oxygen': 'blend'} → {'no_oxygen': 'blend', 'oxygen': 'blend'}",True,9,True
+recovery2,E012,E011,parameters,D023,P016,E011,False,0.21605011789894552,0.24108392915597396,0.22856702352745972,15,hgb_min_samples_leaf: 20 → 10,False,0,True
+recovery2,E013,E011,parameters,D023,P017,E011,False,0.21579176368496408,0.24047394231096597,0.22813285299796504,15,hgb_max_leaf_nodes: 15 → 31,False,1,True
