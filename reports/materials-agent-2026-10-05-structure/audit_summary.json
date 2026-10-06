@@ -1,0 +1,5816 @@
+{
+  "scientific_reviews": {
+    "quality_review.json": {
+      "original_private_artifact_sha256": "f27ac8d34aaa5e944882c917910d89c4eadb52003e8133c2c027728db304d981",
+      "status": "pass",
+      "final_review_completed": true,
+      "checks": null,
+      "component_checks_summary": {
+        "baseline": 45,
+        "prefit_protocol": 25,
+        "source_descriptor_registration_Agent_chain_ledger": 399,
+        "prediction_metrics_and_trainonly_KRR_preprocessing": 520,
+        "resource_reconciliation": 5
+      },
+      "failures": 0,
+      "scope": "Final independent quality audit of original4 structural-information pilot comparisons only. M0 separate stage needs its own matched_control_quality_review. No independent scientific confirmation.",
+      "scientific_limit": null
+    },
+    "matched_control_quality_review.json": {
+      "original_private_artifact_sha256": "33f225b69bc64288a41463157b107cb100f3c423e35bdde8c05c4538198a13fb",
+      "status": "pass",
+      "final_review_completed": true,
+      "checks": 131,
+      "component_checks_summary": null,
+      "failures": 0,
+      "scope": "Separate M0 same-reader old42/E011 numerical control; parent original4 final quality remains immutable. No fit by reviewer, no old1000 access.",
+      "scientific_limit": "Existing development only. Keep original4 negative results and E011 promotion criterion; matched-reader comparison isolates feature addition from parser difference, not new independent confirmation or physical mechanism proof."
+    },
+    "nested_residual_quality_review.json": {
+      "original_private_artifact_sha256": "0b591ef4730f5c0923fea814c08da1a593cb44695f7d4a4c5e693decc096d9cd",
+      "status": "pass",
+      "final_review_completed": true,
+      "checks": 273,
+      "component_checks_summary": null,
+      "failures": 0,
+      "scope": "P5 single accepted-or-declined honest nested residual trial. Reviewer performs no fit and reads no old1000. Earlier quality artifacts immutable.",
+      "scientific_limit": "Adaptive observed development only. Reused full-train inner10 are a subset of cached M0 outer15, not25 unique cached models; P5 contributes23 actual new fits and one optional scientific comparison. No independent confirmation, significance or mechanism claim."
+    }
+  },
+  "report_audit_original_sha256": "0313fedc3757339caf51b4acfe134e28537a6f521c20e07165709e3feeefabc3",
+  "report_audit": {
+    "status": "pass",
+    "checks": 838,
+    "failures": [],
+    "facts": [
+      {
+        "name": "protocol/state hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "frozen source:backend.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "frozen source:science_server.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "frozen source:run_session.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "frozen source:controller.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "frozen source:descriptor_runtime.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "frozen source:pilot_evaluation.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:features.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:targets.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:E04_descriptors.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:structures.jsonl.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:evaluation.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registered input:E011_OOF_DIAGNOSIS.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "all four configurations frozen",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registration before any fit",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "registration SHA",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "descriptor approval/state",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "descriptor frozen:descriptor/angular_features.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "descriptor frozen:descriptor/approved_compute.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "descriptor frozen:descriptor/submissions/S001/validation.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "descriptor frozen:descriptor/submissions/S001/whole_validation.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "descriptor frozen:descriptor/submissions/S001/hypothesis.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "B0 validation:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "B0 validation:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.21523546763324838,
+          "saved": 0.21523546763324838
+        }
+      },
+      {
+        "name": "B0 validation:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3296357940176692,
+          "saved": 0.3296357940176692
+        }
+      },
+      {
+        "name": "B0 OOF:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "B0 OOF:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24069775371169688,
+          "saved": 0.24069775371169688
+        }
+      },
+      {
+        "name": "B0 OOF:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.373659510864794,
+          "saved": 0.373659510864794
+        }
+      },
+      {
+        "name": "fixed row boundary",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cached baseline has zero new fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cached baseline score",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "raw development ID boundary",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "raw material IDs unique",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 fixed spec",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 registration SHA",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 validation ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 validation target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 validation chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 validation:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P1 validation:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2179826983825324,
+          "saved": 0.2179826983825324
+        }
+      },
+      {
+        "name": "P1 validation:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.33488650379083845,
+          "saved": 0.33488650379083845
+        }
+      },
+      {
+        "name": "P1 validation global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P1 validation global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2179826983825324,
+          "saved": 0.2179826983825324
+        }
+      },
+      {
+        "name": "P1 validation global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.33488650379083845,
+          "saved": 0.33488650379083845
+        }
+      },
+      {
+        "name": "P1 validation global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.0047825600363886655,
+          "saved": -0.0047825600363886655
+        }
+      },
+      {
+        "name": "P1 validation global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4906387173401242,
+          "saved": 0.4906387173401242
+        }
+      },
+      {
+        "name": "P1 validation global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1255990661415727,
+          "saved": 1.1255990661415727
+        }
+      },
+      {
+        "name": "P1 validation global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P1 validation oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 286,
+          "saved": 286
+        }
+      },
+      {
+        "name": "P1 validation oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2571791364946451,
+          "saved": 0.2571791364946451
+        }
+      },
+      {
+        "name": "P1 validation oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.36779459915274454,
+          "saved": 0.36779459915274454
+        }
+      },
+      {
+        "name": "P1 validation oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.031840019158997486,
+          "saved": 0.031840019158997486
+        }
+      },
+      {
+        "name": "P1 validation oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5421489048526544,
+          "saved": 0.5421489048526544
+        }
+      },
+      {
+        "name": "P1 validation oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0853057620548554,
+          "saved": 1.0853057620548554
+        }
+      },
+      {
+        "name": "P1 validation oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4719257783355408,
+          "saved": 0.4719257783355408
+        }
+      },
+      {
+        "name": "P1 validation no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 429,
+          "saved": 429
+        }
+      },
+      {
+        "name": "P1 validation no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.19185173964112395,
+          "saved": 0.19185173964112395
+        }
+      },
+      {
+        "name": "P1 validation no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.31101935511818773,
+          "saved": 0.31101935511818773
+        }
+      },
+      {
+        "name": "P1 validation no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.02919761283331276,
+          "saved": -0.02919761283331276
+        }
+      },
+      {
+        "name": "P1 validation no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.41130225958559496,
+          "saved": 0.41130225958559496
+        }
+      },
+      {
+        "name": "P1 validation no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0876409028803604,
+          "saved": 1.0876409028803604
+        }
+      },
+      {
+        "name": "P1 validation no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5280742216644593,
+          "saved": 0.5280742216644593
+        }
+      },
+      {
+        "name": "P1 validation nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 52,
+          "saved": 52
+        }
+      },
+      {
+        "name": "P1 validation nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3553713294530828,
+          "saved": 0.3553713294530828
+        }
+      },
+      {
+        "name": "P1 validation nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5237377124264553,
+          "saved": 0.5237377124264553
+        }
+      },
+      {
+        "name": "P1 validation nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.12745001168906425,
+          "saved": -0.12745001168906425
+        }
+      },
+      {
+        "name": "P1 validation nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.7018188329995523,
+          "saved": 0.7018188329995523
+        }
+      },
+      {
+        "name": "P1 validation nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.7893191650848805,
+          "saved": 1.7893191650848805
+        }
+      },
+      {
+        "name": "P1 validation nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.1185653163685164,
+          "saved": 0.1185653163685164
+        }
+      },
+      {
+        "name": "P1 validation no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 663,
+          "saved": 663
+        }
+      },
+      {
+        "name": "P1 validation no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.20720711947503828,
+          "saved": 0.20720711947503828
+        }
+      },
+      {
+        "name": "P1 validation no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.315327051117769,
+          "saved": 0.315327051117769
+        }
+      },
+      {
+        "name": "P1 validation no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.004838416563821185,
+          "saved": 0.004838416563821185
+        }
+      },
+      {
+        "name": "P1 validation no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4686969339082934,
+          "saved": 0.4686969339082934
+        }
+      },
+      {
+        "name": "P1 validation no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9145160588096921,
+          "saved": 0.9145160588096921
+        }
+      },
+      {
+        "name": "P1 validation no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8814346836314837,
+          "saved": 0.8814346836314837
+        }
+      },
+      {
+        "name": "P1 OOF ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 OOF target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 OOF chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 OOF:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P1 OOF:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24377432207441896,
+          "saved": 0.24377432207441896
+        }
+      },
+      {
+        "name": "P1 OOF:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.37550725897183834,
+          "saved": 0.37550725897183834
+        }
+      },
+      {
+        "name": "P1 OOF global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P1 OOF global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24377432207441896,
+          "saved": 0.24377432207441896
+        }
+      },
+      {
+        "name": "P1 OOF global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.37550725897183834,
+          "saved": 0.37550725897183834
+        }
+      },
+      {
+        "name": "P1 OOF global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.013999887715817956,
+          "saved": -0.013999887715817956
+        }
+      },
+      {
+        "name": "P1 OOF global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.535368816021743,
+          "saved": 0.535368816021743
+        }
+      },
+      {
+        "name": "P1 OOF global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.251602147579005,
+          "saved": 1.251602147579005
+        }
+      },
+      {
+        "name": "P1 OOF global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P1 OOF oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 837,
+          "saved": 837
+        }
+      },
+      {
+        "name": "P1 OOF oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2809656014883979,
+          "saved": 0.2809656014883979
+        }
+      },
+      {
+        "name": "P1 OOF oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.43594896631676455,
+          "saved": 0.43594896631676455
+        }
+      },
+      {
+        "name": "P1 OOF oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.006337256536908397,
+          "saved": -0.006337256536908397
+        }
+      },
+      {
+        "name": "P1 OOF oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5820280501532861,
+          "saved": 0.5820280501532861
+        }
+      },
+      {
+        "name": "P1 OOF oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1995829397877638,
+          "saved": 1.1995829397877638
+        }
+      },
+      {
+        "name": "P1 OOF oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4457931561275949,
+          "saved": 0.4457931561275949
+        }
+      },
+      {
+        "name": "P1 OOF no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1327,
+          "saved": 1327
+        }
+      },
+      {
+        "name": "P1 OOF no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.22031606972362747,
+          "saved": 0.22031606972362747
+        }
+      },
+      {
+        "name": "P1 OOF no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.33176837918081875,
+          "saved": 0.33176837918081875
+        }
+      },
+      {
+        "name": "P1 OOF no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.01883306201630575,
+          "saved": -0.01883306201630575
+        }
+      },
+      {
+        "name": "P1 OOF no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.49463374064344945,
+          "saved": 0.49463374064344945
+        }
+      },
+      {
+        "name": "P1 OOF no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.252519321469214,
+          "saved": 1.252519321469214
+        }
+      },
+      {
+        "name": "P1 OOF no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5542068438724052,
+          "saved": 0.5542068438724052
+        }
+      },
+      {
+        "name": "P1 OOF nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 169,
+          "saved": 169
+        }
+      },
+      {
+        "name": "P1 OOF nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.38176021994670617,
+          "saved": 0.38176021994670617
+        }
+      },
+      {
+        "name": "P1 OOF nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5291193927846414,
+          "saved": 0.5291193927846414
+        }
+      },
+      {
+        "name": "P1 OOF nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.1307266885734753,
+          "saved": -0.1307266885734753
+        }
+      },
+      {
+        "name": "P1 OOF nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9174498124006084,
+          "saved": 0.9174498124006084
+        }
+      },
+      {
+        "name": "P1 OOF nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.5114811960928258,
+          "saved": 1.5114811960928258
+        }
+      },
+      {
+        "name": "P1 OOF nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.12230160685208974,
+          "saved": 0.12230160685208974
+        }
+      },
+      {
+        "name": "P1 OOF no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1995,
+          "saved": 1995
+        }
+      },
+      {
+        "name": "P1 OOF no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.23208529112684176,
+          "saved": 0.23208529112684176
+        }
+      },
+      {
+        "name": "P1 OOF no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3594913275232412,
+          "saved": 0.3594913275232412
+        }
+      },
+      {
+        "name": "P1 OOF no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.004111752705820916,
+          "saved": -0.004111752705820916
+        }
+      },
+      {
+        "name": "P1 OOF no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5131029445121732,
+          "saved": 0.5131029445121732
+        }
+      },
+      {
+        "name": "P1 OOF no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1709633476086596,
+          "saved": 1.1709633476086596
+        }
+      },
+      {
+        "name": "P1 OOF no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8776983931479103,
+          "saved": 0.8776983931479103
+        }
+      },
+      {
+        "name": "P1 exact old fold assignment",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 score recomputation",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 joint criterion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 live/final fit events",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 charged/started/completed fit count",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 each fit exactly once",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 saved artifact:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 saved artifact:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 saved artifact:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 saved artifact:base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P1 saved artifact:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 fixed spec",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 registration SHA",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 validation ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 validation target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 validation chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 validation:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P2 validation:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.217990114310013,
+          "saved": 0.217990114310013
+        }
+      },
+      {
+        "name": "P2 validation:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.33636173621892484,
+          "saved": 0.33636173621892484
+        }
+      },
+      {
+        "name": "P2 validation global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P2 validation global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.217990114310013,
+          "saved": 0.217990114310013
+        }
+      },
+      {
+        "name": "P2 validation global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.33636173621892484,
+          "saved": 0.33636173621892484
+        }
+      },
+      {
+        "name": "P2 validation global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.002032823484276806,
+          "saved": -0.002032823484276806
+        }
+      },
+      {
+        "name": "P2 validation global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4779293425858036,
+          "saved": 0.4779293425858036
+        }
+      },
+      {
+        "name": "P2 validation global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.976166144597255,
+          "saved": 0.976166144597255
+        }
+      },
+      {
+        "name": "P2 validation global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P2 validation oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 286,
+          "saved": 286
+        }
+      },
+      {
+        "name": "P2 validation oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.25809798777272713,
+          "saved": 0.25809798777272713
+        }
+      },
+      {
+        "name": "P2 validation oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.37160358458184317,
+          "saved": 0.37160358458184317
+        }
+      },
+      {
+        "name": "P2 validation oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.033434827595773514,
+          "saved": 0.033434827595773514
+        }
+      },
+      {
+        "name": "P2 validation oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5525777939383939,
+          "saved": 0.5525777939383939
+        }
+      },
+      {
+        "name": "P2 validation oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9998487256350062,
+          "saved": 0.9998487256350062
+        }
+      },
+      {
+        "name": "P2 validation oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4735957657339911,
+          "saved": 0.4735957657339911
+        }
+      },
+      {
+        "name": "P2 validation no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 429,
+          "saved": 429
+        }
+      },
+      {
+        "name": "P2 validation no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.1912515320015369,
+          "saved": 0.1912515320015369
+        }
+      },
+      {
+        "name": "P2 validation no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.310653955290501,
+          "saved": 0.310653955290501
+        }
+      },
+      {
+        "name": "P2 validation no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.025677924204310358,
+          "saved": -0.025677924204310358
+        }
+      },
+      {
+        "name": "P2 validation no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.42002468794546827,
+          "saved": 0.42002468794546827
+        }
+      },
+      {
+        "name": "P2 validation no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9759528924555421,
+          "saved": 0.9759528924555421
+        }
+      },
+      {
+        "name": "P2 validation no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5264042342660089,
+          "saved": 0.5264042342660089
+        }
+      },
+      {
+        "name": "P2 validation nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 52,
+          "saved": 52
+        }
+      },
+      {
+        "name": "P2 validation nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3546025971162311,
+          "saved": 0.3546025971162311
+        }
+      },
+      {
+        "name": "P2 validation nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5191848706030352,
+          "saved": 0.5191848706030352
+        }
+      },
+      {
+        "name": "P2 validation nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.08074291953083194,
+          "saved": -0.08074291953083194
+        }
+      },
+      {
+        "name": "P2 validation nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.7307487242661178,
+          "saved": 0.7307487242661178
+        }
+      },
+      {
+        "name": "P2 validation nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.8125810755187743,
+          "saved": 1.8125810755187743
+        }
+      },
+      {
+        "name": "P2 validation nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.11830481337146932,
+          "saved": 0.11830481337146932
+        }
+      },
+      {
+        "name": "P2 validation no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 663,
+          "saved": 663
+        }
+      },
+      {
+        "name": "P2 validation no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.207275409776192,
+          "saved": 0.207275409776192
+        }
+      },
+      {
+        "name": "P2 validation no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3176027006392058,
+          "saved": 0.3176027006392058
+        }
+      },
+      {
+        "name": "P2 validation no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.004140517382119676,
+          "saved": 0.004140517382119676
+        }
+      },
+      {
+        "name": "P2 validation no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.45785269928216205,
+          "saved": 0.45785269928216205
+        }
+      },
+      {
+        "name": "P2 validation no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9084945680069669,
+          "saved": 0.9084945680069669
+        }
+      },
+      {
+        "name": "P2 validation no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8816951866285307,
+          "saved": 0.8816951866285307
+        }
+      },
+      {
+        "name": "P2 OOF ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 OOF target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 OOF chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 OOF:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P2 OOF:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24323849290209304,
+          "saved": 0.24323849290209304
+        }
+      },
+      {
+        "name": "P2 OOF:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3734853355342942,
+          "saved": 0.3734853355342942
+        }
+      },
+      {
+        "name": "P2 OOF global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P2 OOF global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24323849290209304,
+          "saved": 0.24323849290209304
+        }
+      },
+      {
+        "name": "P2 OOF global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3734853355342942,
+          "saved": 0.3734853355342942
+        }
+      },
+      {
+        "name": "P2 OOF global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.013610696191532476,
+          "saved": -0.013610696191532476
+        }
+      },
+      {
+        "name": "P2 OOF global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5251343283182033,
+          "saved": 0.5251343283182033
+        }
+      },
+      {
+        "name": "P2 OOF global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.2099132353337223,
+          "saved": 1.2099132353337223
+        }
+      },
+      {
+        "name": "P2 OOF global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P2 OOF oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 837,
+          "saved": 837
+        }
+      },
+      {
+        "name": "P2 OOF oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2806393763857908,
+          "saved": 0.2806393763857908
+        }
+      },
+      {
+        "name": "P2 OOF oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4362072183841293,
+          "saved": 0.4362072183841293
+        }
+      },
+      {
+        "name": "P2 OOF oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.004253092829225186,
+          "saved": -0.004253092829225186
+        }
+      },
+      {
+        "name": "P2 OOF oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5714018175511827,
+          "saved": 0.5714018175511827
+        }
+      },
+      {
+        "name": "P2 OOF oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.2173300098165252,
+          "saved": 1.2173300098165252
+        }
+      },
+      {
+        "name": "P2 OOF oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4462564479909743,
+          "saved": 0.4462564479909743
+        }
+      },
+      {
+        "name": "P2 OOF no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1327,
+          "saved": 1327
+        }
+      },
+      {
+        "name": "P2 OOF no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.21964803361358134,
+          "saved": 0.21964803361358134
+        }
+      },
+      {
+        "name": "P2 OOF no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3278087545322666,
+          "saved": 0.3278087545322666
+        }
+      },
+      {
+        "name": "P2 OOF no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.019512967490892836,
+          "saved": -0.019512967490892836
+        }
+      },
+      {
+        "name": "P2 OOF no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.47610331718958393,
+          "saved": 0.47610331718958393
+        }
+      },
+      {
+        "name": "P2 OOF no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.2013927897609387,
+          "saved": 1.2013927897609387
+        }
+      },
+      {
+        "name": "P2 OOF no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5537435520090257,
+          "saved": 0.5537435520090257
+        }
+      },
+      {
+        "name": "P2 OOF nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 169,
+          "saved": 169
+        }
+      },
+      {
+        "name": "P2 OOF nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.37988522434762134,
+          "saved": 0.37988522434762134
+        }
+      },
+      {
+        "name": "P2 OOF nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5088698558122622,
+          "saved": 0.5088698558122622
+        }
+      },
+      {
+        "name": "P2 OOF nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.08433274103970209,
+          "saved": -0.08433274103970209
+        }
+      },
+      {
+        "name": "P2 OOF nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8662725738862818,
+          "saved": 0.8662725738862818
+        }
+      },
+      {
+        "name": "P2 OOF nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.4334180561218932,
+          "saved": 1.4334180561218932
+        }
+      },
+      {
+        "name": "P2 OOF nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.12196902335192825,
+          "saved": 0.12196902335192825
+        }
+      },
+      {
+        "name": "P2 OOF no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1995,
+          "saved": 1995
+        }
+      },
+      {
+        "name": "P2 OOF no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.23166290512550441,
+          "saved": 0.23166290512550441
+        }
+      },
+      {
+        "name": "P2 OOF no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3596830006742113,
+          "saved": 0.3596830006742113
+        }
+      },
+      {
+        "name": "P2 OOF no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.007619705926198808,
+          "saved": -0.007619705926198808
+        }
+      },
+      {
+        "name": "P2 OOF no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.513150034087278,
+          "saved": 0.513150034087278
+        }
+      },
+      {
+        "name": "P2 OOF no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1412218069171987,
+          "saved": 1.1412218069171987
+        }
+      },
+      {
+        "name": "P2 OOF no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8780309766480716,
+          "saved": 0.8780309766480716
+        }
+      },
+      {
+        "name": "P2 exact old fold assignment",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 score recomputation",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 joint criterion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 live/final fit events",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 charged/started/completed fit count",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 each fit exactly once",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 saved artifact:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 saved artifact:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 saved artifact:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 saved artifact:base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P2 saved artifact:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 fixed spec",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 registration SHA",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P3 validation:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24760010324872053,
+          "saved": 0.24760010324872053
+        }
+      },
+      {
+        "name": "P3 validation:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3663675386238301,
+          "saved": 0.3663675386238301
+        }
+      },
+      {
+        "name": "P3 validation global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P3 validation global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24760010324872053,
+          "saved": 0.24760010324872053
+        }
+      },
+      {
+        "name": "P3 validation global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3663675386238301,
+          "saved": 0.3663675386238301
+        }
+      },
+      {
+        "name": "P3 validation global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.009940129636884574,
+          "saved": -0.009940129636884574
+        }
+      },
+      {
+        "name": "P3 validation global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5114704108340516,
+          "saved": 0.5114704108340516
+        }
+      },
+      {
+        "name": "P3 validation global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1604212074790632,
+          "saved": 1.1604212074790632
+        }
+      },
+      {
+        "name": "P3 validation global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P3 validation oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 286,
+          "saved": 286
+        }
+      },
+      {
+        "name": "P3 validation oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2837944580266198,
+          "saved": 0.2837944580266198
+        }
+      },
+      {
+        "name": "P3 validation oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.38158003867284024,
+          "saved": 0.38158003867284024
+        }
+      },
+      {
+        "name": "P3 validation oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.03334739165463763,
+          "saved": 0.03334739165463763
+        }
+      },
+      {
+        "name": "P3 validation oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5751680931674523,
+          "saved": 0.5751680931674523
+        }
+      },
+      {
+        "name": "P3 validation oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1428855653633956,
+          "saved": 1.1428855653633956
+        }
+      },
+      {
+        "name": "P3 validation oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.45847227735852936,
+          "saved": 0.45847227735852936
+        }
+      },
+      {
+        "name": "P3 validation no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 429,
+          "saved": 429
+        }
+      },
+      {
+        "name": "P3 validation no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2234705333967877,
+          "saved": 0.2234705333967877
+        }
+      },
+      {
+        "name": "P3 validation no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3558647753287221,
+          "saved": 0.3558647753287221
+        }
+      },
+      {
+        "name": "P3 validation no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.03879847716456604,
+          "saved": -0.03879847716456604
+        }
+      },
+      {
+        "name": "P3 validation no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.48292750549557495,
+          "saved": 0.48292750549557495
+        }
+      },
+      {
+        "name": "P3 validation no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1573061404901,
+          "saved": 1.1573061404901
+        }
+      },
+      {
+        "name": "P3 validation no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5415277226414706,
+          "saved": 0.5415277226414706
+        }
+      },
+      {
+        "name": "P3 validation nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 52,
+          "saved": 52
+        }
+      },
+      {
+        "name": "P3 validation nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3925195401009479,
+          "saved": 0.3925195401009479
+        }
+      },
+      {
+        "name": "P3 validation nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5056091762745882,
+          "saved": 0.5056091762745882
+        }
+      },
+      {
+        "name": "P3 validation nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.05445672477832711,
+          "saved": -0.05445672477832711
+        }
+      },
+      {
+        "name": "P3 validation nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9302644249866494,
+          "saved": 0.9302644249866494
+        }
+      },
+      {
+        "name": "P3 validation nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.3060384412901527,
+          "saved": 1.3060384412901527
+        }
+      },
+      {
+        "name": "P3 validation nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.11529428004732796,
+          "saved": 0.11529428004732796
+        }
+      },
+      {
+        "name": "P3 validation no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 663,
+          "saved": 663
+        }
+      },
+      {
+        "name": "P3 validation no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.23623387290736939,
+          "saved": 0.23623387290736939
+        }
+      },
+      {
+        "name": "P3 validation no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3531322581240779,
+          "saved": 0.3531322581240779
+        }
+      },
+      {
+        "name": "P3 validation no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.006448631978732219,
+          "saved": -0.006448631978732219
+        }
+      },
+      {
+        "name": "P3 validation no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.49241622180607053,
+          "saved": 0.49241622180607053
+        }
+      },
+      {
+        "name": "P3 validation no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1335330659605174,
+          "saved": 1.1335330659605174
+        }
+      },
+      {
+        "name": "P3 validation no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8847057199526721,
+          "saved": 0.8847057199526721
+        }
+      },
+      {
+        "name": "P3 OOF ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P3 OOF:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.28260710523537946,
+          "saved": 0.28260710523537946
+        }
+      },
+      {
+        "name": "P3 OOF:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.42611959384795034,
+          "saved": 0.42611959384795034
+        }
+      },
+      {
+        "name": "P3 OOF global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P3 OOF global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.28260710523537946,
+          "saved": 0.28260710523537946
+        }
+      },
+      {
+        "name": "P3 OOF global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.42611959384795034,
+          "saved": 0.42611959384795034
+        }
+      },
+      {
+        "name": "P3 OOF global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.01831529590290585,
+          "saved": -0.01831529590290585
+        }
+      },
+      {
+        "name": "P3 OOF global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.610287919423296,
+          "saved": 0.610287919423296
+        }
+      },
+      {
+        "name": "P3 OOF global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.4305315025648104,
+          "saved": 1.4305315025648104
+        }
+      },
+      {
+        "name": "P3 OOF global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P3 OOF oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 837,
+          "saved": 837
+        }
+      },
+      {
+        "name": "P3 OOF oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3187417271747018,
+          "saved": 0.3187417271747018
+        }
+      },
+      {
+        "name": "P3 OOF oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4790060036425726,
+          "saved": 0.4790060036425726
+        }
+      },
+      {
+        "name": "P3 OOF oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.0022378563774263244,
+          "saved": -0.0022378563774263244
+        }
+      },
+      {
+        "name": "P3 OOF oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.6684380591992727,
+          "saved": 0.6684380591992727
+        }
+      },
+      {
+        "name": "P3 OOF oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1914368078050759,
+          "saved": 1.1914368078050759
+        }
+      },
+      {
+        "name": "P3 OOF oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.43623855550332574,
+          "saved": 0.43623855550332574
+        }
+      },
+      {
+        "name": "P3 OOF no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1327,
+          "saved": 1327
+        }
+      },
+      {
+        "name": "P3 OOF no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2598153354062817,
+          "saved": 0.2598153354062817
+        }
+      },
+      {
+        "name": "P3 OOF no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3890820283117788,
+          "saved": 0.3890820283117788
+        }
+      },
+      {
+        "name": "P3 OOF no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.028456077276550428,
+          "saved": -0.028456077276550428
+        }
+      },
+      {
+        "name": "P3 OOF no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5416313475814543,
+          "saved": 0.5416313475814543
+        }
+      },
+      {
+        "name": "P3 OOF no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.4945073793636998,
+          "saved": 1.4945073793636998
+        }
+      },
+      {
+        "name": "P3 OOF no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5637614444966743,
+          "saved": 0.5637614444966743
+        }
+      },
+      {
+        "name": "P3 OOF nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 169,
+          "saved": 169
+        }
+      },
+      {
+        "name": "P3 OOF nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.36792602362311233,
+          "saved": 0.36792602362311233
+        }
+      },
+      {
+        "name": "P3 OOF nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5235033322134471,
+          "saved": 0.5235033322134471
+        }
+      },
+      {
+        "name": "P3 OOF nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.11828000692242986,
+          "saved": -0.11828000692242986
+        }
+      },
+      {
+        "name": "P3 OOF nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9547095711301361,
+          "saved": 0.9547095711301361
+        }
+      },
+      {
+        "name": "P3 OOF nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.6387674660794587,
+          "saved": 1.6387674660794587
+        }
+      },
+      {
+        "name": "P3 OOF nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.1016732903526376,
+          "saved": 0.1016732903526376
+        }
+      },
+      {
+        "name": "P3 OOF no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1995,
+          "saved": 1995
+        }
+      },
+      {
+        "name": "P3 OOF no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.275379587838123,
+          "saved": 0.275379587838123
+        }
+      },
+      {
+        "name": "P3 OOF no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.41682603886199215,
+          "saved": 0.41682603886199215
+        }
+      },
+      {
+        "name": "P3 OOF no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.009847107350374742,
+          "saved": -0.009847107350374742
+        }
+      },
+      {
+        "name": "P3 OOF no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5867781776291597,
+          "saved": 0.5867781776291597
+        }
+      },
+      {
+        "name": "P3 OOF no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.38860551138371,
+          "saved": 1.38860551138371
+        }
+      },
+      {
+        "name": "P3 OOF no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8983267096473626,
+          "saved": 0.8983267096473626
+        }
+      },
+      {
+        "name": "P3 exact old fold assignment",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 score recomputation",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 joint criterion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 live/final fit events",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 charged/started/completed fit count",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 each fit exactly once",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 saved artifact:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 saved artifact:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 saved artifact:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 saved artifact:base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 saved artifact:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 fixed spec",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 registration SHA",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P4 validation:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2573333245662145,
+          "saved": 0.2573333245662145
+        }
+      },
+      {
+        "name": "P4 validation:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3821941805867099,
+          "saved": 0.3821941805867099
+        }
+      },
+      {
+        "name": "P4 validation global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P4 validation global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2573333245662145,
+          "saved": 0.2573333245662145
+        }
+      },
+      {
+        "name": "P4 validation global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3821941805867099,
+          "saved": 0.3821941805867099
+        }
+      },
+      {
+        "name": "P4 validation global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.013855058385042574,
+          "saved": -0.013855058385042574
+        }
+      },
+      {
+        "name": "P4 validation global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5730690102983395,
+          "saved": 0.5730690102983395
+        }
+      },
+      {
+        "name": "P4 validation global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.2256248257013806,
+          "saved": 1.2256248257013806
+        }
+      },
+      {
+        "name": "P4 validation global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P4 validation oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 286,
+          "saved": 286
+        }
+      },
+      {
+        "name": "P4 validation oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.29605739591054336,
+          "saved": 0.29605739591054336
+        }
+      },
+      {
+        "name": "P4 validation oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.39559236143192966,
+          "saved": 0.39559236143192966
+        }
+      },
+      {
+        "name": "P4 validation oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.04268186332969631,
+          "saved": 0.04268186332969631
+        }
+      },
+      {
+        "name": "P4 validation oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.6327114946872755,
+          "saved": 0.6327114946872755
+        }
+      },
+      {
+        "name": "P4 validation oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1074821912366486,
+          "saved": 1.1074821912366486
+        }
+      },
+      {
+        "name": "P4 validation oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4601928590626276,
+          "saved": 0.4601928590626276
+        }
+      },
+      {
+        "name": "P4 validation no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 429,
+          "saved": 429
+        }
+      },
+      {
+        "name": "P4 validation no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.23151727700332864,
+          "saved": 0.23151727700332864
+        }
+      },
+      {
+        "name": "P4 validation no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.37299478348682574,
+          "saved": 0.37299478348682574
+        }
+      },
+      {
+        "name": "P4 validation no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.05154633952820183,
+          "saved": -0.05154633952820183
+        }
+      },
+      {
+        "name": "P4 validation no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4867943671718097,
+          "saved": 0.4867943671718097
+        }
+      },
+      {
+        "name": "P4 validation no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.3040583227033604,
+          "saved": 1.3040583227033604
+        }
+      },
+      {
+        "name": "P4 validation no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5398071409373726,
+          "saved": 0.5398071409373726
+        }
+      },
+      {
+        "name": "P4 validation nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 52,
+          "saved": 52
+        }
+      },
+      {
+        "name": "P4 validation nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4112453031210169,
+          "saved": 0.4112453031210169
+        }
+      },
+      {
+        "name": "P4 validation nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5136208480937414,
+          "saved": 0.5136208480937414
+        }
+      },
+      {
+        "name": "P4 validation nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.014710989210595845,
+          "saved": -0.014710989210595845
+        }
+      },
+      {
+        "name": "P4 validation nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8719936991953096,
+          "saved": 0.8719936991953096
+        }
+      },
+      {
+        "name": "P4 validation nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.293524936829342,
+          "saved": 1.293524936829342
+        }
+      },
+      {
+        "name": "P4 validation nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.11622571374426212,
+          "saved": 0.11622571374426212
+        }
+      },
+      {
+        "name": "P4 validation no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 663,
+          "saved": 663
+        }
+      },
+      {
+        "name": "P4 validation no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2452617968364261,
+          "saved": 0.2452617968364261
+        }
+      },
+      {
+        "name": "P4 validation no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.369916684835471,
+          "saved": 0.369916684835471
+        }
+      },
+      {
+        "name": "P4 validation no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.013787926555587422,
+          "saved": -0.013787926555587422
+        }
+      },
+      {
+        "name": "P4 validation no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5339086800900222,
+          "saved": 0.5339086800900222
+        }
+      },
+      {
+        "name": "P4 validation no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1227208170977623,
+          "saved": 1.1227208170977623
+        }
+      },
+      {
+        "name": "P4 validation no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8837742862557381,
+          "saved": 0.8837742862557381
+        }
+      },
+      {
+        "name": "P4 OOF ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF chemical-system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P4 OOF:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2881442400652372,
+          "saved": 0.2881442400652372
+        }
+      },
+      {
+        "name": "P4 OOF:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.43619299249357757,
+          "saved": 0.43619299249357757
+        }
+      },
+      {
+        "name": "P4 OOF global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P4 OOF global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2881442400652372,
+          "saved": 0.2881442400652372
+        }
+      },
+      {
+        "name": "P4 OOF global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.43619299249357757,
+          "saved": 0.43619299249357757
+        }
+      },
+      {
+        "name": "P4 OOF global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.023193080032408463,
+          "saved": -0.023193080032408463
+        }
+      },
+      {
+        "name": "P4 OOF global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.6228532869099991,
+          "saved": 0.6228532869099991
+        }
+      },
+      {
+        "name": "P4 OOF global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.5235676135449747,
+          "saved": 1.5235676135449747
+        }
+      },
+      {
+        "name": "P4 OOF global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P4 OOF oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 837,
+          "saved": 837
+        }
+      },
+      {
+        "name": "P4 OOF oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.327477255358784,
+          "saved": 0.327477255358784
+        }
+      },
+      {
+        "name": "P4 OOF oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4896660402137996,
+          "saved": 0.4896660402137996
+        }
+      },
+      {
+        "name": "P4 OOF oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.003871721690273378,
+          "saved": -0.003871721690273378
+        }
+      },
+      {
+        "name": "P4 OOF oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.6636171415883504,
+          "saved": 0.6636171415883504
+        }
+      },
+      {
+        "name": "P4 OOF oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.333241336076382,
+          "saved": 1.333241336076382
+        }
+      },
+      {
+        "name": "P4 OOF oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4395814941230996,
+          "saved": 0.4395814941230996
+        }
+      },
+      {
+        "name": "P4 OOF no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1327,
+          "saved": 1327
+        }
+      },
+      {
+        "name": "P4 OOF no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.26333509628174157,
+          "saved": 0.26333509628174157
+        }
+      },
+      {
+        "name": "P4 OOF no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3987944752907206,
+          "saved": 0.3987944752907206
+        }
+      },
+      {
+        "name": "P4 OOF no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.035379950365767215,
+          "saved": -0.035379950365767215
+        }
+      },
+      {
+        "name": "P4 OOF no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5431273196528587,
+          "saved": 0.5431273196528587
+        }
+      },
+      {
+        "name": "P4 OOF no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.6037662245772004,
+          "saved": 1.6037662245772004
+        }
+      },
+      {
+        "name": "P4 OOF no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5604185058769003,
+          "saved": 0.5604185058769003
+        }
+      },
+      {
+        "name": "P4 OOF nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 169,
+          "saved": 169
+        }
+      },
+      {
+        "name": "P4 OOF nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.393298765925442,
+          "saved": 0.393298765925442
+        }
+      },
+      {
+        "name": "P4 OOF nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5361743110610103,
+          "saved": 0.5361743110610103
+        }
+      },
+      {
+        "name": "P4 OOF nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.06049291814609601,
+          "saved": -0.06049291814609601
+        }
+      },
+      {
+        "name": "P4 OOF nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8372534201645022,
+          "saved": 0.8372534201645022
+        }
+      },
+      {
+        "name": "P4 OOF nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.6457470708332558,
+          "saved": 1.6457470708332558
+        }
+      },
+      {
+        "name": "P4 OOF nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.10659628991294495,
+          "saved": 0.10659628991294495
+        }
+      },
+      {
+        "name": "P4 OOF no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1995,
+          "saved": 1995
+        }
+      },
+      {
+        "name": "P4 OOF no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.27923641306254315,
+          "saved": 0.27923641306254315
+        }
+      },
+      {
+        "name": "P4 OOF no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.42664829667062476,
+          "saved": 0.42664829667062476
+        }
+      },
+      {
+        "name": "P4 OOF no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.02003334437265248,
+          "saved": -0.02003334437265248
+        }
+      },
+      {
+        "name": "P4 OOF no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5947967666869608,
+          "saved": 0.5947967666869608
+        }
+      },
+      {
+        "name": "P4 OOF no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.4448400287680914,
+          "saved": 1.4448400287680914
+        }
+      },
+      {
+        "name": "P4 OOF no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.893403710087055,
+          "saved": 0.893403710087055
+        }
+      },
+      {
+        "name": "P4 exact old fold assignment",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 score recomputation",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 joint criterion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 live/final fit events",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 charged/started/completed fit count",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 each fit exactly once",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 saved artifact:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 saved artifact:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 saved artifact:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 saved artifact:base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 saved artifact:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation train-only scaler mean",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 validation train-only scaler variance",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 validation train-only scaler scale",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 validation train-only target_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -1.2855450539132627,
+          "saved": -1.2855450539132627
+        }
+      },
+      {
+        "name": "P3 validation train-only distance_median",
+        "passed": true,
+        "detail": {
+          "recomputed": 8.787719784395968,
+          "saved": 8.787719784395968
+        }
+      },
+      {
+        "name": "P3 validation train-only gamma",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.012949338985874628,
+          "saved": 0.012949338985874628
+        }
+      },
+      {
+        "name": "P3 validation exact KRR preprocessing rows",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation fixed KRR alpha/kernel",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation zero-median rule",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 validation exact current-training ID order",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_0 train-only scaler mean",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 OOF_0 train-only scaler variance",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 OOF_0 train-only scaler scale",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 OOF_0 train-only target_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -1.2891250277948243,
+          "saved": -1.2891250277948243
+        }
+      },
+      {
+        "name": "P3 OOF_0 train-only distance_median",
+        "passed": true,
+        "detail": {
+          "recomputed": 8.799780330807677,
+          "saved": 8.799780330807677
+        }
+      },
+      {
+        "name": "P3 OOF_0 train-only gamma",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.012913867854931106,
+          "saved": 0.012913867854931106
+        }
+      },
+      {
+        "name": "P3 OOF_0 exact KRR preprocessing rows",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_0 fixed KRR alpha/kernel",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_0 zero-median rule",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_0 exact current-training ID order",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_1 train-only scaler mean",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 OOF_1 train-only scaler variance",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 OOF_1 train-only scaler scale",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P3 OOF_1 train-only target_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -1.2819650800317004,
+          "saved": -1.2819650800317004
+        }
+      },
+      {
+        "name": "P3 OOF_1 train-only distance_median",
+        "passed": true,
+        "detail": {
+          "recomputed": 8.786150213375404,
+          "saved": 8.786150213375404
+        }
+      },
+      {
+        "name": "P3 OOF_1 train-only gamma",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.01295396597770836,
+          "saved": 0.01295396597770836
+        }
+      },
+      {
+        "name": "P3 OOF_1 exact KRR preprocessing rows",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_1 fixed KRR alpha/kernel",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_1 zero-median rule",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P3 OOF_1 exact current-training ID order",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation train-only scaler mean",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 validation train-only scaler variance",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 validation train-only scaler scale",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 validation train-only target_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -1.2855450539132627,
+          "saved": -1.2855450539132627
+        }
+      },
+      {
+        "name": "P4 validation train-only distance_median",
+        "passed": true,
+        "detail": {
+          "recomputed": 10.301017053048454,
+          "saved": 10.301017053048454
+        }
+      },
+      {
+        "name": "P4 validation train-only gamma",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.009424097871786897,
+          "saved": 0.009424097871786897
+        }
+      },
+      {
+        "name": "P4 validation exact KRR preprocessing rows",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation fixed KRR alpha/kernel",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation zero-median rule",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 validation exact current-training ID order",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_0 train-only scaler mean",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 OOF_0 train-only scaler variance",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 OOF_0 train-only scaler scale",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 OOF_0 train-only target_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -1.2891250277948243,
+          "saved": -1.2891250277948243
+        }
+      },
+      {
+        "name": "P4 OOF_0 train-only distance_median",
+        "passed": true,
+        "detail": {
+          "recomputed": 10.43360417052325,
+          "saved": 10.43360417052325
+        }
+      },
+      {
+        "name": "P4 OOF_0 train-only gamma",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.009186102500937977,
+          "saved": 0.009186102500937977
+        }
+      },
+      {
+        "name": "P4 OOF_0 exact KRR preprocessing rows",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_0 fixed KRR alpha/kernel",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_0 zero-median rule",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_0 exact current-training ID order",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_1 train-only scaler mean",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 OOF_1 train-only scaler variance",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 OOF_1 train-only scaler scale",
+        "passed": true,
+        "detail": {
+          "maximum_absolute_residual": 0.0
+        }
+      },
+      {
+        "name": "P4 OOF_1 train-only target_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -1.2819650800317004,
+          "saved": -1.2819650800317004
+        }
+      },
+      {
+        "name": "P4 OOF_1 train-only distance_median",
+        "passed": true,
+        "detail": {
+          "recomputed": 10.257116499531266,
+          "saved": 10.257116499531266
+        }
+      },
+      {
+        "name": "P4 OOF_1 train-only gamma",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.009504940959094368,
+          "saved": 0.009504940959094368
+        }
+      },
+      {
+        "name": "P4 OOF_1 exact KRR preprocessing rows",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_1 fixed KRR alpha/kernel",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_1 zero-median rule",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P4 OOF_1 exact current-training ID order",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "four actual predictor experiments",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "36 fits including all reservations",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "controller research counter identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "serialized server tool counter",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "no active scientific operation",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "resource cap:base_fits_reserved",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "resource cap:uncached_input_tokens",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "resource cap:output_tokens",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "resource cap:tool_calls",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "wall resource cap",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "five saved decisions",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 0 real isolated completion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 0 decision/state",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 0 fresh required scientific tool",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 0 counted model work",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "Agent submitted actual descriptor source",
+        "passed": true,
+        "detail": {
+          "runtime_source_string_sha256": "0e6fd28abf76938fe9c4a785a5bcc3cdde9ac2ca5c66de815d1d9b9088458595",
+          "frozen_file_bytes_sha256": "ece7dc8bb57faaed59c511f4ebd3f2cf0746089d5dcff99581e23fe2c6a9f123"
+        }
+      },
+      {
+        "name": "descriptor cycle has zero model reservations",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 1 real isolated completion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 1 decision/state",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 1 fresh required scientific tool",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 1 counted model work",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 1 prior decision chose actual candidate",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 1 reflection injected into next actual session",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 2 real isolated completion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 2 decision/state",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 2 fresh required scientific tool",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 2 counted model work",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 2 prior decision chose actual candidate",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 2 reflection injected into next actual session",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 3 real isolated completion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 3 decision/state",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 3 fresh required scientific tool",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 3 counted model work",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 3 prior decision chose actual candidate",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 3 reflection injected into next actual session",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 4 real isolated completion",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 4 decision/state",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 4 fresh required scientific tool",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 4 counted model work",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 4 prior decision chose actual candidate",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "cycle 4 reflection injected into next actual session",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "Agent final stop",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "session usage exact once",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 frozen registration SHA",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 frozen source:control_backend.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 frozen source:evaluation_adapter.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 frozen source:science_server.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 frozen source:run_session.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 frozen source:launch_control.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 immutable parent/trigger:parent_protocol_sha256",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 immutable parent/trigger:parent_registration_sha256",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 immutable parent/trigger:parent_outcome_sha256",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 immutable parent/trigger:parser_audit_sha256",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 no pre-registration fit",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 fixed old42 E011 spec",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 is no new descriptor or residual",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preflight/provenance binding",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preflight self hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 parent_provenance self hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 result receipt binding",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 adapter source receipt",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P1/result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P1/validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P1/internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P1/folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P1/base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P2/result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P2/validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P2/internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P2/folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P2/base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P3/result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P3/validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P3/internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P3/folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P3/base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P4/result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P4/validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P4/internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P4/folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 preserves original P4/base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 matched default-parser old42 matrix SHA",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 validation ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 validation target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 validation system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 validation:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "M0 validation:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2162193240197367,
+          "saved": 0.2162193240197367
+        }
+      },
+      {
+        "name": "M0 validation:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.330625907580303,
+          "saved": 0.330625907580303
+        }
+      },
+      {
+        "name": "M0 validation global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "M0 validation global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2162193240197367,
+          "saved": 0.2162193240197367
+        }
+      },
+      {
+        "name": "M0 validation global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.330625907580303,
+          "saved": 0.330625907580303
+        }
+      },
+      {
+        "name": "M0 validation global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.0015173633156440004,
+          "saved": 0.0015173633156440004
+        }
+      },
+      {
+        "name": "M0 validation global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4846401609282886,
+          "saved": 0.4846401609282886
+        }
+      },
+      {
+        "name": "M0 validation global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.103063367698122,
+          "saved": 1.103063367698122
+        }
+      },
+      {
+        "name": "M0 validation global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "M0 validation oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 286,
+          "saved": 286
+        }
+      },
+      {
+        "name": "M0 validation oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.25662485216535325,
+          "saved": 0.25662485216535325
+        }
+      },
+      {
+        "name": "M0 validation oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3669353385782917,
+          "saved": 0.3669353385782917
+        }
+      },
+      {
+        "name": "M0 validation oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.03519637420268993,
+          "saved": 0.03519637420268993
+        }
+      },
+      {
+        "name": "M0 validation oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5533184593862892,
+          "saved": 0.5533184593862892
+        }
+      },
+      {
+        "name": "M0 validation oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0295237010860592,
+          "saved": 1.0295237010860592
+        }
+      },
+      {
+        "name": "M0 validation oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4747491526556217,
+          "saved": 0.4747491526556217
+        }
+      },
+      {
+        "name": "M0 validation no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 429,
+          "saved": 429
+        }
+      },
+      {
+        "name": "M0 validation no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.18928230525599235,
+          "saved": 0.18928230525599235
+        }
+      },
+      {
+        "name": "M0 validation no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.30401993817366874,
+          "saved": 0.30401993817366874
+        }
+      },
+      {
+        "name": "M0 validation no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.020935310609053282,
+          "saved": -0.020935310609053282
+        }
+      },
+      {
+        "name": "M0 validation no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.41067041314495056,
+          "saved": 0.41067041314495056
+        }
+      },
+      {
+        "name": "M0 validation no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0731453318089499,
+          "saved": 1.0731453318089499
+        }
+      },
+      {
+        "name": "M0 validation no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5252508473443783,
+          "saved": 0.5252508473443783
+        }
+      },
+      {
+        "name": "M0 validation nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 52,
+          "saved": 52
+        }
+      },
+      {
+        "name": "M0 validation nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3408106128502971,
+          "saved": 0.3408106128502971
+        }
+      },
+      {
+        "name": "M0 validation nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5109630687921524,
+          "saved": 0.5109630687921524
+        }
+      },
+      {
+        "name": "M0 validation nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.11236288150526699,
+          "saved": -0.11236288150526699
+        }
+      },
+      {
+        "name": "M0 validation nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.6779852666150733,
+          "saved": 0.6779852666150733
+        }
+      },
+      {
+        "name": "M0 validation nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.755396494232428,
+          "saved": 1.755396494232428
+        }
+      },
+      {
+        "name": "M0 validation nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.11463464933804902,
+          "saved": 0.11463464933804902
+        }
+      },
+      {
+        "name": "M0 validation no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 663,
+          "saved": 663
+        }
+      },
+      {
+        "name": "M0 validation no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2064474582291045,
+          "saved": 0.2064474582291045
+        }
+      },
+      {
+        "name": "M0 validation no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.31210571868102865,
+          "saved": 0.31210571868102865
+        }
+      },
+      {
+        "name": "M0 validation no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.010449147223166432,
+          "saved": 0.010449147223166432
+        }
+      },
+      {
+        "name": "M0 validation no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4642021974283967,
+          "saved": 0.4642021974283967
+        }
+      },
+      {
+        "name": "M0 validation no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9361569654378746,
+          "saved": 0.9361569654378746
+        }
+      },
+      {
+        "name": "M0 validation no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8853653506619509,
+          "saved": 0.8853653506619509
+        }
+      },
+      {
+        "name": "M0 OOF ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 OOF target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 OOF system identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 OOF:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "M0 OOF:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24065027042997694,
+          "saved": 0.24065027042997694
+        }
+      },
+      {
+        "name": "M0 OOF:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3737226193346646,
+          "saved": 0.3737226193346646
+        }
+      },
+      {
+        "name": "M0 OOF global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "M0 OOF global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24065027042997694,
+          "saved": 0.24065027042997694
+        }
+      },
+      {
+        "name": "M0 OOF global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3737226193346646,
+          "saved": 0.3737226193346646
+        }
+      },
+      {
+        "name": "M0 OOF global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.01337757387717294,
+          "saved": -0.01337757387717294
+        }
+      },
+      {
+        "name": "M0 OOF global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5322863680573348,
+          "saved": 0.5322863680573348
+        }
+      },
+      {
+        "name": "M0 OOF global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.234561837145464,
+          "saved": 1.234561837145464
+        }
+      },
+      {
+        "name": "M0 OOF global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "M0 OOF oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 837,
+          "saved": 837
+        }
+      },
+      {
+        "name": "M0 OOF oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2790887579645081,
+          "saved": 0.2790887579645081
+        }
+      },
+      {
+        "name": "M0 OOF oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4368101166463324,
+          "saved": 0.4368101166463324
+        }
+      },
+      {
+        "name": "M0 OOF oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.003929829966721969,
+          "saved": -0.003929829966721969
+        }
+      },
+      {
+        "name": "M0 OOF oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5834269621790483,
+          "saved": 0.5834269621790483
+        }
+      },
+      {
+        "name": "M0 OOF oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1570910923578843,
+          "saved": 1.1570910923578843
+        }
+      },
+      {
+        "name": "M0 OOF oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.44856376716955393,
+          "saved": 0.44856376716955393
+        }
+      },
+      {
+        "name": "M0 OOF no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1327,
+          "saved": 1327
+        }
+      },
+      {
+        "name": "M0 OOF no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.21640534649146706,
+          "saved": 0.21640534649146706
+        }
+      },
+      {
+        "name": "M0 OOF no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3277433814870616,
+          "saved": 0.3277433814870616
+        }
+      },
+      {
+        "name": "M0 OOF no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.01933670097065257,
+          "saved": -0.01933670097065257
+        }
+      },
+      {
+        "name": "M0 OOF no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.48547424876281847,
+          "saved": 0.48547424876281847
+        }
+      },
+      {
+        "name": "M0 OOF no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.2593722987938174,
+          "saved": 1.2593722987938174
+        }
+      },
+      {
+        "name": "M0 OOF no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5514362328304461,
+          "saved": 0.5514362328304461
+        }
+      },
+      {
+        "name": "M0 OOF nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 169,
+          "saved": 169
+        }
+      },
+      {
+        "name": "M0 OOF nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3677633956302256,
+          "saved": 0.3677633956302256
+        }
+      },
+      {
+        "name": "M0 OOF nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5128558640417554,
+          "saved": 0.5128558640417554
+        }
+      },
+      {
+        "name": "M0 OOF nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.12590334253030191,
+          "saved": -0.12590334253030191
+        }
+      },
+      {
+        "name": "M0 OOF nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.877918942050928,
+          "saved": 0.877918942050928
+        }
+      },
+      {
+        "name": "M0 OOF nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.5392128022955398,
+          "saved": 1.5392128022955398
+        }
+      },
+      {
+        "name": "M0 OOF nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.11934702421080765,
+          "saved": 0.11934702421080765
+        }
+      },
+      {
+        "name": "M0 OOF no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1995,
+          "saved": 1995
+        }
+      },
+      {
+        "name": "M0 OOF no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2298822914029884,
+          "saved": 0.2298822914029884
+        }
+      },
+      {
+        "name": "M0 OOF no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.35947069831628287,
+          "saved": 0.35947069831628287
+        }
+      },
+      {
+        "name": "M0 OOF no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.00384531578074247,
+          "saved": -0.00384531578074247
+        }
+      },
+      {
+        "name": "M0 OOF no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5093882082760227,
+          "saved": 0.5093882082760227
+        }
+      },
+      {
+        "name": "M0 OOF no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1384389701435063,
+          "saved": 1.1384389701435063
+        }
+      },
+      {
+        "name": "M0 OOF no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8806529757891922,
+          "saved": 0.8806529757891922
+        }
+      },
+      {
+        "name": "M0 exact old outer fold IDs",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 composite score",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 live/final event identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 15 started fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 15 completed fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 separate 15 reserved fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 only old42 in all actual learners",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 saved artifact SHA:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 saved artifact SHA:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 saved artifact SHA:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 saved artifact SHA:base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 saved artifact SHA:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 saved artifact SHA:adapter_provenance.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 single real isolated session",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 fresh evaluated tool cited",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 Agent saved stop/reflection",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 prior Agent reflection carried into actual next session",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 actual server tool count",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "M0 single session token metering",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined 5 experiments/51 fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined original resource cap:base_fits_reserved",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined original resource cap:uncached_input_tokens",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined original resource cap:output_tokens",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined original resource cap:tool_calls",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined original wall cap including pause/audit",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 protocol frozen",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen source:residual_backend.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen source:evaluation_adapter.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen source:science_server.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen source:run_session.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen source:launch_residual.py",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:protocol.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:registration.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:controller_outcome.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:quality_review.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:matched_control_quality_review.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:registration.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:controller_outcome.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen prior evidence:decision.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual inherited counters",
+        "passed": true,
+        "detail": {
+          "recomputed": {
+            "experiments": 5,
+            "investigations": 1,
+            "base_fits_reserved": 51,
+            "fit_started": 51,
+            "fit_completed": 51,
+            "uncached_input_tokens": 176664,
+            "output_tokens": 14898,
+            "tool_calls": 27
+          },
+          "registered": {
+            "base_fits_reserved": 51,
+            "fit_started": 51,
+            "fit_completed": 51,
+            "uncached_input_tokens": 176664,
+            "output_tokens": 14898,
+            "experiments": 5,
+            "investigations": 1,
+            "tool_calls": 27
+          }
+        }
+      },
+      {
+        "name": "P5 inherited original caps unchanged",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 frozen dual-baseline criterion:score_max",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.22682677761911027,
+          "saved": 0.22682677761911027
+        }
+      },
+      {
+        "name": "P5 frozen dual-baseline criterion:validation_MAE_max",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.21523546763324838,
+          "saved": 0.21523546763324838
+        }
+      },
+      {
+        "name": "P5 frozen dual-baseline criterion:OOF_MAE_max",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24065027042997694,
+          "saved": 0.24065027042997694
+        }
+      },
+      {
+        "name": "P5 no unfinished operation",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 one actual isolated accept-or-decline cycle",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 original protocol failure remains explicit",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery only saves metadata without science or LLM retry",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:invocation.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:controller_failure.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:transport_result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:server_state.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:server_ledger.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:research_state.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery preserves original bytes:protocol.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery artifact hash:canonical_decision.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery artifact hash:recovered_controller_outcome.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 recovery leaves science source frozen",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 original attempted Agent decision argument hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 reflection conclusion action evidence all preserved",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 only rejected status enum normalized transparently",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 canonical decision is never labeled original tool success",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual stop-or-decline action preserved",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 decision cites actual completed tools",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual session carries M0 reflection",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 Agent hypothesis frozen before fit",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual completed fit count equals frozen accept-or-decline plan",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual experiment count",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:ridge_correctors.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:training_residuals.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved artifact hash:adapter_provenance.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 validation exact ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 validation target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 validation:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P5 validation:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2174659544406434,
+          "saved": 0.2174659544406434
+        }
+      },
+      {
+        "name": "P5 validation:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3289837865281521,
+          "saved": 0.3289837865281521
+        }
+      },
+      {
+        "name": "P5 validation global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 715,
+          "saved": 715
+        }
+      },
+      {
+        "name": "P5 validation global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2174659544406434,
+          "saved": 0.2174659544406434
+        }
+      },
+      {
+        "name": "P5 validation global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3289837865281521,
+          "saved": 0.3289837865281521
+        }
+      },
+      {
+        "name": "P5 validation global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.01414174473583508,
+          "saved": 0.01414174473583508
+        }
+      },
+      {
+        "name": "P5 validation global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4835432906328866,
+          "saved": 0.4835432906328866
+        }
+      },
+      {
+        "name": "P5 validation global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9976990691441929,
+          "saved": 0.9976990691441929
+        }
+      },
+      {
+        "name": "P5 validation global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P5 validation oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 286,
+          "saved": 286
+        }
+      },
+      {
+        "name": "P5 validation oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.258616641536393,
+          "saved": 0.258616641536393
+        }
+      },
+      {
+        "name": "P5 validation oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3685579052601997,
+          "saved": 0.3685579052601997
+        }
+      },
+      {
+        "name": "P5 validation oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.041747895814856086,
+          "saved": 0.041747895814856086
+        }
+      },
+      {
+        "name": "P5 validation oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5637056336918431,
+          "saved": 0.5637056336918431
+        }
+      },
+      {
+        "name": "P5 validation oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0280024565731605,
+          "saved": 1.0280024565731605
+        }
+      },
+      {
+        "name": "P5 validation oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.47569127259776484,
+          "saved": 0.47569127259776484
+        }
+      },
+      {
+        "name": "P5 validation no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 429,
+          "saved": 429
+        }
+      },
+      {
+        "name": "P5 validation no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.19003216304347695,
+          "saved": 0.19003216304347695
+        }
+      },
+      {
+        "name": "P5 validation no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.2997119728074667,
+          "saved": 0.2997119728074667
+        }
+      },
+      {
+        "name": "P5 validation no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.0042623559835122645,
+          "saved": -0.0042623559835122645
+        }
+      },
+      {
+        "name": "P5 validation no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.41732591846203304,
+          "saved": 0.41732591846203304
+        }
+      },
+      {
+        "name": "P5 validation no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9827404935125115,
+          "saved": 0.9827404935125115
+        }
+      },
+      {
+        "name": "P5 validation no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5243087274022351,
+          "saved": 0.5243087274022351
+        }
+      },
+      {
+        "name": "P5 validation nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 52,
+          "saved": 52
+        }
+      },
+      {
+        "name": "P5 validation nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3550406956270501,
+          "saved": 0.3550406956270501
+        }
+      },
+      {
+        "name": "P5 validation nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4972621491491684,
+          "saved": 0.4972621491491684
+        }
+      },
+      {
+        "name": "P5 validation nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.005182255726290947,
+          "saved": 0.005182255726290947
+        }
+      },
+      {
+        "name": "P5 validation nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.7278661979892695,
+          "saved": 0.7278661979892695
+        }
+      },
+      {
+        "name": "P5 validation nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.6332336458006282,
+          "saved": 1.6332336458006282
+        }
+      },
+      {
+        "name": "P5 validation nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.11873647793083351,
+          "saved": 0.11873647793083351
+        }
+      },
+      {
+        "name": "P5 validation no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 663,
+          "saved": 663
+        }
+      },
+      {
+        "name": "P5 validation no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.20667577866131737,
+          "saved": 0.20667577866131737
+        }
+      },
+      {
+        "name": "P5 validation no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3119700107824041,
+          "saved": 0.3119700107824041
+        }
+      },
+      {
+        "name": "P5 validation no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.014844449756191484,
+          "saved": 0.014844449756191484
+        }
+      },
+      {
+        "name": "P5 validation no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.46114857372343826,
+          "saved": 0.46114857372343826
+        }
+      },
+      {
+        "name": "P5 validation no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.9274155817752102,
+          "saved": 0.9274155817752102
+        }
+      },
+      {
+        "name": "P5 validation no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8812635220691665,
+          "saved": 0.8812635220691665
+        }
+      },
+      {
+        "name": "P5 OOF exact ID set",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 OOF target identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 OOF:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P5 OOF:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24103594025116065,
+          "saved": 0.24103594025116065
+        }
+      },
+      {
+        "name": "P5 OOF:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3725415260843962,
+          "saved": 0.3725415260843962
+        }
+      },
+      {
+        "name": "P5 OOF global:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 2164,
+          "saved": 2164
+        }
+      },
+      {
+        "name": "P5 OOF global:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.24103594025116065,
+          "saved": 0.24103594025116065
+        }
+      },
+      {
+        "name": "P5 OOF global:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.3725415260843962,
+          "saved": 0.3725415260843962
+        }
+      },
+      {
+        "name": "P5 OOF global:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 2.15591039062178e-05,
+          "saved": 2.15591039062178e-05
+        }
+      },
+      {
+        "name": "P5 OOF global:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5340607631224005,
+          "saved": 0.5340607631224005
+        }
+      },
+      {
+        "name": "P5 OOF global:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.2073891679856963,
+          "saved": 1.2073891679856963
+        }
+      },
+      {
+        "name": "P5 OOF global:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.0,
+          "saved": 1.0
+        }
+      },
+      {
+        "name": "P5 OOF oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 837,
+          "saved": 837
+        }
+      },
+      {
+        "name": "P5 OOF oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.279585633541518,
+          "saved": 0.279585633541518
+        }
+      },
+      {
+        "name": "P5 OOF oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4370180207094371,
+          "saved": 0.4370180207094371
+        }
+      },
+      {
+        "name": "P5 OOF oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.008596689122320061,
+          "saved": 0.008596689122320061
+        }
+      },
+      {
+        "name": "P5 OOF oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5973795646123176,
+          "saved": 0.5973795646123176
+        }
+      },
+      {
+        "name": "P5 OOF oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1718331339303583,
+          "saved": 1.1718331339303583
+        }
+      },
+      {
+        "name": "P5 OOF oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4486433647724226,
+          "saved": 0.4486433647724226
+        }
+      },
+      {
+        "name": "P5 OOF no_oxygen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1327,
+          "saved": 1327
+        }
+      },
+      {
+        "name": "P5 OOF no_oxygen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.21672087372212595,
+          "saved": 0.21672087372212595
+        }
+      },
+      {
+        "name": "P5 OOF no_oxygen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.32536715120192233,
+          "saved": 0.32536715120192233
+        }
+      },
+      {
+        "name": "P5 OOF no_oxygen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.0053871702294866885,
+          "saved": -0.0053871702294866885
+        }
+      },
+      {
+        "name": "P5 OOF no_oxygen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.49965916291931367,
+          "saved": 0.49965916291931367
+        }
+      },
+      {
+        "name": "P5 OOF no_oxygen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.213225309130207,
+          "saved": 1.213225309130207
+        }
+      },
+      {
+        "name": "P5 OOF no_oxygen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5513566352275775,
+          "saved": 0.5513566352275775
+        }
+      },
+      {
+        "name": "P5 OOF nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 169,
+          "saved": 169
+        }
+      },
+      {
+        "name": "P5 OOF nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.36588069581456995,
+          "saved": 0.36588069581456995
+        }
+      },
+      {
+        "name": "P5 OOF nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.4964604924001672,
+          "saved": 0.4964604924001672
+        }
+      },
+      {
+        "name": "P5 OOF nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.0023598498869264696,
+          "saved": 0.0023598498869264696
+        }
+      },
+      {
+        "name": "P5 OOF nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8144417739659097,
+          "saved": 0.8144417739659097
+        }
+      },
+      {
+        "name": "P5 OOF nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.4136261420092224,
+          "saved": 1.4136261420092224
+        }
+      },
+      {
+        "name": "P5 OOF nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.11854606443356112,
+          "saved": 0.11854606443356112
+        }
+      },
+      {
+        "name": "P5 OOF no_nitrogen:rows",
+        "passed": true,
+        "detail": {
+          "recomputed": 1995,
+          "saved": 1995
+        }
+      },
+      {
+        "name": "P5 OOF no_nitrogen:MAE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.23046011885255607,
+          "saved": 0.23046011885255607
+        }
+      },
+      {
+        "name": "P5 OOF no_nitrogen:RMSE_eV_atom",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.36009016956768714,
+          "saved": 0.36009016956768714
+        }
+      },
+      {
+        "name": "P5 OOF no_nitrogen:prediction_minus_truth_mean",
+        "passed": true,
+        "detail": {
+          "recomputed": -0.00017652166919174015,
+          "saved": -0.00017652166919174015
+        }
+      },
+      {
+        "name": "P5 OOF no_nitrogen:p90_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.5066240958182728,
+          "saved": 0.5066240958182728
+        }
+      },
+      {
+        "name": "P5 OOF no_nitrogen:p99_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 1.1296295200516824,
+          "saved": 1.1296295200516824
+        }
+      },
+      {
+        "name": "P5 OOF no_nitrogen:share_total_abs_error",
+        "passed": true,
+        "detail": {
+          "recomputed": 0.8814539355664389,
+          "saved": 0.8814539355664389
+        }
+      },
+      {
+        "name": "P5 exact old outer fold IDs",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 score recomputed",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 live/final fit identity",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual started fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual completed fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 fresh20 inner bases plus3 Ridge fit decomposition",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 cached10 inner folds overlap unique15 bases and incur0 new fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 registered preflight reproduced exactly",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 heldout truth attached after fits",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 exact frozen M0 cache:result.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 exact frozen M0 cache:validation_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 exact frozen M0 cache:internal_oof_predictions.csv.gz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 exact frozen M0 cache:folds.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 exact frozen M0 cache:base_fit_events.jsonl",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 exact frozen M0 cache:adapter_provenance.json",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 validation saved base is exact M0 cache",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 validation saved final equals base plus correction",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved correction application:validation",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 OOF saved base is exact M0 cache",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 OOF saved final equals base plus correction",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved correction application:OOF_0",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 saved correction application:OOF_1",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 strict joint promotion against B0 and M0",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 actual tool count",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 single-session metering",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "P5 authoritative all-stage terminal counters",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined actual model and fit totals",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined P5 original resource cap:base_fits_reserved",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined P5 original resource cap:uncached_input_tokens",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined P5 original resource cap:output_tokens",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined P5 original resource cap:tool_calls",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "combined P5 original wall cap",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "name": "original four final independent quality",
+        "passed": true,
+        "detail": {
+          "status": "pass",
+          "final_review_completed": true
+        }
+      },
+      {
+        "name": "matched M0 final independent quality",
+        "passed": true,
+        "detail": {
+          "status": "pass",
+          "final_review_completed": true
+        }
+      },
+      {
+        "name": "P5 accept-or-decline final independent quality",
+        "passed": true,
+        "detail": {
+          "status": "pass",
+          "final_review_completed": true
+        }
+      },
+      {
+        "name": "reporter preserved all scientific evidence bytes",
+        "passed": true,
+        "detail": null
+      }
+    ],
+    "plot_font": "Microsoft YaHei",
+    "independent_quality_status": "pass",
+    "final_quality_review_completed": true,
+    "quality_sha256": "f27ac8d34aaa5e944882c917910d89c4eadb52003e8133c2c027728db304d981",
+    "fits_performed_by_reporter": 0,
+    "matched_control_quality_sha256": "33f225b69bc64288a41463157b107cb100f3c423e35bdde8c05c4538198a13fb",
+    "matched_control_final_review_completed": true,
+    "combined_resource_counters": {
+      "base_fits_reserved": 74,
+      "fit_started": 74,
+      "fit_completed": 74,
+      "uncached_input_tokens": 201694,
+      "output_tokens": 16297,
+      "experiments": 6,
+      "investigations": 1,
+      "tool_calls": 31
+    },
+    "actual_llm_cycles": 7,
+    "nested_residual_status": "complete",
+    "nested_residual_new_fits": 23,
+    "nested_residual_quality_sha256": "0b591ef4730f5c0923fea814c08da1a593cb44695f7d4a4c5e693decc096d9cd",
+    "nested_residual_final_review_completed": true,
+    "nested_residual_metadata_recovered": true,
+    "normal_saved_decisions": 6,
+    "recovered_decisions": 1,
+    "recovery_receipt_sha256": "bc3ed802fc4d9a6ddd10d4fea9d2d6afe67652a3fc7f6252514007754b2b60fb"
+  },
+  "original_execution_outcome": {
+    "original_controller_completed": false,
+    "original_decision_saved": false,
+    "original_transport_completed": false,
+    "original_failure_kind": "protocol",
+    "original_CLI_turn_completed": true,
+    "metadata_recovered": true,
+    "normalization": {
+      "from": "completed_no_promotion",
+      "to": "unsupported"
+    },
+    "extra_LLM_turns": 0,
+    "extra_model_fits": 0,
+    "recovery_receipt_sha256": "bc3ed802fc4d9a6ddd10d4fea9d2d6afe67652a3fc7f6252514007754b2b60fb",
+    "canonical_decision_sha256": "4c930207785ac25510304d14b0abd990c3dcc1d78c9281fc725691ac571176d8",
+    "recovered_outcome_sha256": "0015b9cd4a7a306524d4faa5088b97d8e1dcf2c9717065f1aac63ad5a3c3a0b1",
+    "interpretation": "Seven actual CLI turns; six normal decision saves plus one enum-only metadata recovery. The original seventh controller did not complete successfully."
+  },
+  "combined_authoritative_usage": {
+    "uncached_input_tokens": 201694,
+    "output_tokens": 16297,
+    "tool_calls": 31,
+    "base_fits_reserved": 74,
+    "fit_started": 74,
+    "fit_completed": 74,
+    "experiments": 6,
+    "investigations": 1,
+    "actual_isolated_Agent_sessions": 7,
+    "normal_original_decision_saves": 6,
+    "enum_only_recovered_decision_saves": 1,
+    "total_wall_seconds": 2262.04084,
+    "declared_total_wall_seconds": 2262.039839
+  },
+  "disclosure": "Scientific outputs complete; seventh original controller did not complete successfully. Six normal decision saves plus one enum-only metadata recovery; no extra fit or LLM turn. Parent raw controller tool counter zero was stale; 24 parent calls are evidenced by server ledger plus 3 control and 4 residual calls, total31."
+}

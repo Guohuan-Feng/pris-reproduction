@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "files": {
+    "audit_summary.json": {
+      "bytes": 152828,
+      "sha256": "d94cc174f0c3433e12e3fd1b1e673ea3a82783e5f1bb71aaa030fb53ecb1427a"
+    },
+    "code/approved_compute.py": {
+      "bytes": 1616,
+      "sha256": "ece7dc8bb57faaed59c511f4ebd3f2cf0746089d5dcff99581e23fe2c6a9f123"
+    },
+    "code/controller.py": {
+      "bytes": 6534,
+      "sha256": "b8b13b1f08d5e31187305d3b3b36b4d9585241e2fdc988a2f2ea0dfc53446aeb"
+    },
+    "code/descriptor_runtime.py": {
+      "bytes": 38546,
+      "sha256": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06"
+    },
+    "code/frozen_legacy_evaluation.py": {
+      "bytes": 37778,
+      "sha256": "799aa512d7c049a24a0ae1848fd3228187aed8276be539d6bfdef343ad9b05b5"
+    },
+    "code/nested_residual_adapter.py": {
+      "bytes": 21189,
+      "sha256": "53198fe14b196ebfa64684ee587a0cc70a511b758e3387ab1ec48beca8f2df4d"
+    },
+    "code/parser_control_adapter.py": {
+      "bytes": 13195,
+      "sha256": "6d67c75194b8cfdf2a00e2ca1eb502064b450004c59011bb45a8e85903dd7f78"
+    },
+    "code/pilot_evaluation.py": {
+      "bytes": 25050,
+      "sha256": "00fd0bff69ca9fc317701f044b6dc6346867509b88a67e01060a41a16eda6401"
+    },
+    "code/README.md": {
+      "bytes": 1506,
+      "sha256": "8546f8c166b1f50390c555f242d754ecfa17ec9b05a3543705286e85d48c2169"
+    },
+    "comparison.csv": {
+      "bytes": 922,
+      "sha256": "87168d1d5a68a7f5b88e95f74816c27d32117cc324bdd605bd22f5b92a9770a9"
+    },
+    "experiment_results.json": {
+      "bytes": 173258,
+      "sha256": "3565752e68389c4cadfa73d4312a2c11f776ddb066226ceddebf3688345011fe"
+    },
+    "protocols/matched_control_public_summary.json": {
+      "bytes": 16313,
+      "sha256": "c461d31fffa601ffb86c8d6f62d71457c170dd0a3fcce4aabbec46e3debaff27"
+    },
+    "protocols/nested_residual_public_summary.json": {
+      "bytes": 607530,
+      "sha256": "04708a1bee2a9d1ab67d834d9e720aa7b17c53d209a03fb374ff6aa2f893a8b6"
+    },
+    "protocols/pilot_public_summary.json": {
+      "bytes": 6724,
+      "sha256": "f0289b204d53dd8cf928f891d3a97b2d8bff87231c948a60e4c971911a599eff"
+    },
+    "README.md": {
+      "bytes": 3385,
+      "sha256": "6cd2c48b5210deef61f1393125a598df2dfd65e0b6a11646d5a7be21f75f013d"
+    },
+    "REPORT_ZH.md": {
+      "bytes": 46398,
+      "sha256": "e3f4fd3fc8147b07748cd24dc36141c1a44fb52aebf5e8ae13028f8dfb23a3a0"
+    },
+    "results.png": {
+      "bytes": 206598,
+      "sha256": "e7af3fe1a0820c5cef43d8306ee7438236dbfe0a288aba258d083cc75a272d39"
+    },
+    "results.svg": {
+      "bytes": 137644,
+      "sha256": "72ebf7df5dcfca900eba49c82292b1715a4b712d10478b4f75c83cf2e6a2886c"
+    },
+    "source_snapshot_receipt.json": {
+      "bytes": 1709,
+      "sha256": "6ad81430b1911fbe03fbc2663a90d07c1f79ea5e69557518ccd02df4b5f8ae0a"
+    },
+    "workflow.png": {
+      "bytes": 439656,
+      "sha256": "967917fb7b90dd430fd5fe976fd30f4f04e13dd9c32ddea3121bfc2ae6fb492f"
+    },
+    "workflow.svg": {
+      "bytes": 281387,
+      "sha256": "88c324847bd11a9d3a1aae28d64fe10bcf2b9cd7c45c03f7c6a55be92c6cd836"
+    }
+  },
+  "manifest_self_excluded": true,
+  "publication_type": "Mentor-facing scientific report and original-byte code review snapshot",
+  "not_included": [
+    "raw CLI transcripts",
+    "credentials",
+    "local absolute paths",
+    "new independent confirmation evidence"
+  ],
+  "source_report_audit_sha256": "0313fedc3757339caf51b4acfe134e28537a6f521c20e07165709e3feeefabc3"
+}

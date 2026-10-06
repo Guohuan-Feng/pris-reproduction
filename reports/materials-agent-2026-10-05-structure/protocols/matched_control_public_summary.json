@@ -1,0 +1,295 @@
+{
+  "original_private_artifact_sha256": "4e62d9238faeae3ba10b93e7425361f053aeafb59091910f285792ba231ee83f",
+  "publication_scope": "Path-sanitized public semantic copy; original pre-fit artifact remains immutable locally.",
+  "content": {
+    "schema_version": 1,
+    "registered_utc": "2026-10-06T01:33:45.186914+00:00",
+    "candidate_id": "M0",
+    "trigger": "Read-only audit found CSV default vs round_trip changes original42 HGB bin partitions. Matched-reader old42 baseline necessary for feature attribution.",
+    "hypothesis": "M0 with the exact same default-reader old42 inputs and immutable E011 models provides the valid comparator for P1/P2 feature effects. No assumption the reader difference improves or worsens performance.",
+    "falsification": "B0 and M0 predictions equal within1e-12 would show no realized prediction effect for this configuration; otherwise report the effect. Compare P1/P2 against M0 and retain B0 original metrics; never assign reader effects to angles.",
+    "spec": {
+      "estimator": "e011_tree",
+      "feature_set": "old42"
+    },
+    "target": "formation_energy_per_atom",
+    "new_base_fit_reservation": 15,
+    "expected_combined_base_fits": 51,
+    "expected_combined_experiments": 5,
+    "inherited_remaining_budget_at_registration": {
+      "base_fit_reservations": 60,
+      "uncached_input_tokens": 155879,
+      "output_tokens": 7254,
+      "scientific_wall_seconds": 6290.831214,
+      "tool_calls": 56
+    },
+    "original_caps": {
+      "base_fit_reservations": 96,
+      "scientific_wall_seconds": 7200,
+      "max_completed_experiments": 6,
+      "uncached_input_tokens": 300000,
+      "output_tokens": 20000,
+      "tool_calls": 80,
+      "descriptor_attempts": 4,
+      "descriptor_worker_wall_seconds": 300,
+      "descriptor_worker_memory_mb": 2048
+    },
+    "parent_protocol_sha256": "0c4c05a6d8468319416acdeff5fc59b5d987dcad62850d8d97b8a28436c8aed3",
+    "parent_registration_sha256": "b4b9b5f6eba52b3e733071f6501c7f91696a9ef19b743b0e2a7c195b55f0bc9e",
+    "parent_outcome_sha256": "843e09402a67862c28a91adedfe5961d75e38e6515de8780399f06ba2f212d28",
+    "parser_audit_sha256": "8a64b97c26a94a0f069c19192b0daa29f05ec48cc946d2bc7a30135ab8989104",
+    "parent_sources": {
+      "backend.py": "52f1909257e4a21e313d5310a7170767b90cea1bc8479470ccdb3491d9c69da9",
+      "science_server.py": "fd004751f34a96fdb6ea0cfaebd8d29ac321a8e846620a281dfa0f720fb6e561",
+      "run_session.py": "4623ee676882e74fd66fa45d940cb8d3b400772cd61f3f16eab7387cf182d389",
+      "controller.py": "b8b13b1f08d5e31187305d3b3b36b4d9585241e2fdc988a2f2ea0dfc53446aeb",
+      "descriptor_runtime.py": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06",
+      "pilot_evaluation.py": "00fd0bff69ca9fc317701f044b6dc6346867509b88a67e01060a41a16eda6401"
+    },
+    "parent_inputs": {
+      "${WORKSPACE}/work/materials_strategy_agent_2026-10-02/development/features.csv.gz": "d9ed4527de86de901c70772250a0b01872dd56a18719d6b5c9f5d2ebfe5d78f0",
+      "${WORKSPACE}/work/materials_strategy_agent_2026-10-02/development/targets.csv.gz": "5314fd23de873eaa08b9a14083aaf53569c8d9bf241a196c3d5954ce6f3edbfa",
+      "${WORKSPACE}/work/materials_strategy_agent_2026-10-02/development/E04_descriptors.csv.gz": "742e2af21629d9920ae1a783e31c7183306f14f8a5699449be189a1edb97d053",
+      "${WORKSPACE}/work/materials_agent_analysis_2026-10-01/data/structures.jsonl.gz": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32",
+      "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/evaluation.py": "799aa512d7c049a24a0ae1848fd3228187aed8276be539d6bfdef343ad9b05b5",
+      "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/result.json": "9b87fbe3a7b40b8a632b53aef2c3a9926cec6e714a39dce8fb4af53c8f507fe3",
+      "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/internal_oof_predictions.csv.gz": "958f53c4cd7c0cf26555ffa65912da51c0e654ef213423259031e26664f72c6e",
+      "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/validation_predictions.csv.gz": "17c862b1b20d5e012a74ff644fa9dd7250c97b9c6de8d4a50adb3e8a695e139c",
+      "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/folds.json": "2ec7c31f6ce37fd67ebcafee60aaf093bfc31a17e4b57d5d3e9c137ecbe10dcd",
+      "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/reporting/next_phase_analysis/E011_OOF_DIAGNOSIS.json": "1f4adc2955ce25af68b35b5123556631c64c417a6fef7242f6a2ba2897ad94b1"
+    },
+    "source_hashes": {
+      "control_backend.py": "e5cc883e01c5cf5c41b73bcd5483534204628214f410bfadf29926aa540a249e",
+      "evaluation_adapter.py": "6d67c75194b8cfdf2a00e2ca1eb502064b450004c59011bb45a8e85903dd7f78",
+      "science_server.py": "f17ce8a6cb94a42b4e7c8045ba79efcb3374bb31ceded8fd9e541e44b35d49b6",
+      "run_session.py": "7e7a5c62a3b2ee6b19d6ff1d48a6399d5ce5e2fa0d10f729ce36ea3e6a99a3eb",
+      "launch_control.py": "db712269978000cac14285b2112485aaa1e266b3c51f8020f159cd5557addb73"
+    },
+    "new_fit_started_so_far": 0,
+    "matched_control_preflight": {
+      "schema_version": 1,
+      "id": "M0",
+      "spec": {
+        "estimator": "e011_tree",
+        "feature_set": "old42"
+      },
+      "new_descriptor": false,
+      "P5_residual_adjustment": false,
+      "fitting_performed": false,
+      "adapter_source_sha256": "6d67c75194b8cfdf2a00e2ca1eb502064b450004c59011bb45a8e85903dd7f78",
+      "rows": {
+        "train": 2164,
+        "validation": 715,
+        "total": 2879
+      },
+      "expected_new_learner_fits": 15,
+      "fit_reservation": {
+        "total_learner_fits": 15,
+        "blocks": [
+          {
+            "role": "validation",
+            "rows": 2164,
+            "learner_fits": 5
+          },
+          {
+            "role": "OOF_0",
+            "rows": 1082,
+            "learner_fits": 5
+          },
+          {
+            "role": "OOF_1",
+            "rows": 1082,
+            "learner_fits": 5
+          }
+        ],
+        "fitting_performed": false
+      },
+      "ordered_material_ids_sha256": "29e5d440c2a346308e6cc87c3c041759b37d5412d71ad7148a204b0bfe3d0fb1",
+      "old42_columns": [
+        "comp_n_elements",
+        "comp_entropy",
+        "comp_max_fraction",
+        "comp_electronegativity_mean",
+        "comp_electronegativity_std",
+        "comp_electronegativity_min",
+        "comp_electronegativity_max",
+        "comp_electronegativity_range",
+        "comp_atomic_radius_mean",
+        "comp_atomic_radius_std",
+        "comp_radius_cv",
+        "comp_Z_mean",
+        "comp_Z_std",
+        "comp_fraction_Z001",
+        "comp_fraction_Z005",
+        "comp_fraction_Z006",
+        "comp_fraction_Z007",
+        "comp_fraction_Z008",
+        "comp_fraction_Z009",
+        "comp_fraction_Z015",
+        "comp_fraction_Z016",
+        "comp_fraction_Z017",
+        "comp_halogen_fraction",
+        "comp_chalcogen_fraction",
+        "comp_alkali_alkaline_fraction",
+        "comp_transition_fraction",
+        "relaxed_min_distance_A",
+        "relaxed_min_covalent_ratio",
+        "relaxed_volume_per_atom_A3",
+        "relaxed_covalent_sphere_volume_fraction",
+        "log_volume_per_atom",
+        "log_edges6_per_atom",
+        "smooth_coord_mean",
+        "contact_q_mean",
+        "site_field_abs_mean",
+        "site_field_abs_std",
+        "site_ionic_load_mean",
+        "site_ionic_load_std",
+        "en_coord_correlation",
+        "contact_en_assortativity",
+        "contact_radius_mismatch_mean",
+        "strain_ionic_coupling"
+      ],
+      "old42_float64_le_sha256": "3b241de63ae2be8f0df6805fdebd81b9832594c443e3082a22a4c53d1e30c249",
+      "targets_float64_le_sha256": "13454e129580b6a79db2cb9eeed7acc5fcb1d9714a3ac6c8e6d693aad165d5e6",
+      "metadata_sha256": "68e9e841b48d9a55a4a7aa0b2b727842329f59953001d7d5623b54681778304c",
+      "fixed_outer_fold_id_sha256": "91ecb7b8d1e64fb62ada9cae5a58a3f17c7f5dcf851a90f549de75983f80879f",
+      "e011_tree_spec_sha256": "873dcdbfcd9e637c00e8affef3e85c5d873dcd601a2f21b45a52c09da3559ac0",
+      "legacy_evaluation_sha256": "799aa512d7c049a24a0ae1848fd3228187aed8276be539d6bfdef343ad9b05b5",
+      "read_semantics": "Same parent Context defaultCSV including target parsing; no parser substitution, new random seed or fold generation",
+      "scope": "M0 numerical matching control for existing development, not independent confirmation",
+      "receipt_sha256": "7d02c9551f9ff3098e3cb18f114da95ee87ee4133ace1adb9bfd40d1f2d90b66"
+    },
+    "parent_provenance": {
+      "schema_version": 1,
+      "parent_protocol_sha256": "0c4c05a6d8468319416acdeff5fc59b5d987dcad62850d8d97b8a28436c8aed3",
+      "parent_source_hashes": {
+        "backend.py": "52f1909257e4a21e313d5310a7170767b90cea1bc8479470ccdb3491d9c69da9",
+        "science_server.py": "fd004751f34a96fdb6ea0cfaebd8d29ac321a8e846620a281dfa0f720fb6e561",
+        "run_session.py": "4623ee676882e74fd66fa45d940cb8d3b400772cd61f3f16eab7387cf182d389",
+        "controller.py": "b8b13b1f08d5e31187305d3b3b36b4d9585241e2fdc988a2f2ea0dfc53446aeb",
+        "descriptor_runtime.py": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06",
+        "pilot_evaluation.py": "00fd0bff69ca9fc317701f044b6dc6346867509b88a67e01060a41a16eda6401"
+      },
+      "parent_registration_sha256": "b4b9b5f6eba52b3e733071f6501c7f91696a9ef19b743b0e2a7c195b55f0bc9e",
+      "parent_descriptor_artifact_hashes": {
+        "descriptor/angular_features.csv.gz": "e15e6a4edd4e85d7ade890f9b1963bb37f3ef878e7ea51b7b33fdba884e1fb66",
+        "descriptor/approved_compute.py": "ece7dc8bb57faaed59c511f4ebd3f2cf0746089d5dcff99581e23fe2c6a9f123",
+        "descriptor/submissions/S001/validation.json": "8cbfb5db0228938ac75fdf51fed1e0ab07448fdbcf517d26a0c7efd1c415f486",
+        "descriptor/submissions/S001/whole_validation.json": "932ff2089106da59013572a90af8653c40543d35a3824bf956ca79263cc7e041",
+        "descriptor/submissions/S001/hypothesis.json": "dd16b5f553f7891941d28d87b7f1976612c86b1b5696d6f13e692cb14c12f3c2"
+      },
+      "parent_input_hashes": [
+        {
+          "work_relative_path": "materials_adaptive_agent_2026-10-05_recovery2/evaluation.py",
+          "sha256": "799aa512d7c049a24a0ae1848fd3228187aed8276be539d6bfdef343ad9b05b5"
+        },
+        {
+          "work_relative_path": "materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/folds.json",
+          "sha256": "2ec7c31f6ce37fd67ebcafee60aaf093bfc31a17e4b57d5d3e9c137ecbe10dcd"
+        },
+        {
+          "work_relative_path": "materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/internal_oof_predictions.csv.gz",
+          "sha256": "958f53c4cd7c0cf26555ffa65912da51c0e654ef213423259031e26664f72c6e"
+        },
+        {
+          "work_relative_path": "materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/result.json",
+          "sha256": "9b87fbe3a7b40b8a632b53aef2c3a9926cec6e714a39dce8fb4af53c8f507fe3"
+        },
+        {
+          "work_relative_path": "materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/validation_predictions.csv.gz",
+          "sha256": "17c862b1b20d5e012a74ff644fa9dd7250c97b9c6de8d4a50adb3e8a695e139c"
+        },
+        {
+          "work_relative_path": "materials_adaptive_agent_2026-10-05_recovery2/reporting/next_phase_analysis/E011_OOF_DIAGNOSIS.json",
+          "sha256": "1f4adc2955ce25af68b35b5123556631c64c417a6fef7242f6a2ba2897ad94b1"
+        },
+        {
+          "work_relative_path": "materials_agent_analysis_2026-10-01/data/structures.jsonl.gz",
+          "sha256": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32"
+        },
+        {
+          "work_relative_path": "materials_strategy_agent_2026-10-02/development/E04_descriptors.csv.gz",
+          "sha256": "742e2af21629d9920ae1a783e31c7183306f14f8a5699449be189a1edb97d053"
+        },
+        {
+          "work_relative_path": "materials_strategy_agent_2026-10-02/development/features.csv.gz",
+          "sha256": "d9ed4527de86de901c70772250a0b01872dd56a18719d6b5c9f5d2ebfe5d78f0"
+        },
+        {
+          "work_relative_path": "materials_strategy_agent_2026-10-02/development/targets.csv.gz",
+          "sha256": "5314fd23de873eaa08b9a14083aaf53569c8d9bf241a196c3d5954ce6f3edbfa"
+        }
+      ],
+      "parent_results": {
+        "P1": {
+          "spec": {
+            "estimator": "e011_tree",
+            "feature_set": "new50"
+          },
+          "learner_fits": 15,
+          "files": {
+            "result.json": "9bc53d61a87245b5e8c6fb036e9fdea4d2cf7bfc2b7e6c7b67dca14bd301beda",
+            "validation_predictions.csv.gz": "11ac9ef78800ef3cd96bdf288507bd84edac8b0648bc13da8780a74d6249a65b",
+            "internal_oof_predictions.csv.gz": "a1206f2a93a78b22480681faa77710e6cbdce36b837595f03f847ea48ec14e67",
+            "folds.json": "d7594257467a5029ff3fc7e8c43c10a16ec464fc035171fe5ac17ea9605ddd4f",
+            "base_fit_events.jsonl": "adb4056e364e78b63d4d7f71f6829c330aa1aca8b1ea9268d4acda7dbc55dae3"
+          }
+        },
+        "P2": {
+          "spec": {
+            "estimator": "e011_tree",
+            "feature_set": "new58"
+          },
+          "learner_fits": 15,
+          "files": {
+            "result.json": "a19fb340182f295ef8ca2b9b2bcbc09afb56ceb4b8d403414a6b646e1c54085e",
+            "validation_predictions.csv.gz": "a875cce0ff3c990364abf22b34d36b97b1e45a5018d276d2f757362b48a05b34",
+            "internal_oof_predictions.csv.gz": "2f72cd9bc2128947995b34088cefeb2266d2f6bd47e0738e09aa7ad5f7b2f081",
+            "folds.json": "d7594257467a5029ff3fc7e8c43c10a16ec464fc035171fe5ac17ea9605ddd4f",
+            "base_fit_events.jsonl": "514192245767c397eb415274dbe7b75b7d8875dcba1c096fcac1dacc7922ceba"
+          }
+        },
+        "P3": {
+          "spec": {
+            "estimator": "krr",
+            "feature_set": "old42"
+          },
+          "learner_fits": 3,
+          "files": {
+            "result.json": "aa95b6f394c51105290a202a3c809e8b9528b62976c07e49c8953b9dae7f3e3b",
+            "validation_predictions.csv.gz": "78565a987c90494ba3b8c2fe8dc07fc7086944e6ac6354ff4226c6e45e75eaf1",
+            "internal_oof_predictions.csv.gz": "54d3aac7dbd5fbf1e0bd24c15cc17f3e2f73d6fcc2ee2369a55ef5c4833d5a32",
+            "folds.json": "d7594257467a5029ff3fc7e8c43c10a16ec464fc035171fe5ac17ea9605ddd4f",
+            "base_fit_events.jsonl": "4ce86d59ade4abea48823e60e72359183a9becd22cbd2dbe5659f3d058e774e9"
+          }
+        },
+        "P4": {
+          "spec": {
+            "estimator": "krr",
+            "feature_set": "new58"
+          },
+          "learner_fits": 3,
+          "files": {
+            "result.json": "0969fd275b843276f063b311ffc4c31f100d6850d00375c54f04a8206cff5f2b",
+            "validation_predictions.csv.gz": "c97098709eff6cb9eed6213dd86da9d0718556b440bd8c9da638f24099d46503",
+            "internal_oof_predictions.csv.gz": "15ffb818bb3dece7c78b57a0184a967c72a305f0d65d7eb6b5ea7e1ccfde22a0",
+            "folds.json": "d7594257467a5029ff3fc7e8c43c10a16ec464fc035171fe5ac17ea9605ddd4f",
+            "base_fit_events.jsonl": "c01ae43916195f34d5d48056429dd01c7b9609368eedb7770accb8a54f9bce32"
+          }
+        }
+      },
+      "parent_learner_counts": {
+        "base_fits_reserved": 36,
+        "fit_started": 36,
+        "fit_completed": 36,
+        "experiments": 4
+      },
+      "require_four_complete": true,
+      "current_csv_semantics": "Unmodified backend.Context pandas.read_csv default for original30/E04/targets and augmented descriptor; no round_trip override",
+      "scope": "Existing development only; numerical matching control, not a new feature or residual correction",
+      "receipt_sha256": "f52c2ab55fc61ee5f51baff3fe31bfbe0ab4f256c181640ab2928c066d5e2b1e"
+    },
+    "no_parent_mutation": "This is a separate control stage. Original protocol, sources, four experiments, decisions and outcome remain unchanged.",
+    "scope": "Observed development numerical reproducibility control, not independent confirmation and not evidence for new material mechanisms."
+  }
+}

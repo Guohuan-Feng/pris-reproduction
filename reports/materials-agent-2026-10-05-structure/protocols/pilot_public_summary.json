@@ -1,0 +1,143 @@
+{
+  "original_private_artifact_sha256": "0c4c05a6d8468319416acdeff5fc59b5d987dcad62850d8d97b8a28436c8aed3",
+  "publication_scope": "Semantic summary for public review. Local paths are replaced; this is not the original frozen artifact byte stream.",
+  "schema_version": 1,
+  "created_utc": "2026-10-06T01:18:18.607848+00:00",
+  "scope": "Observed adaptive development formation-energy pilot, not independent confirmation; no old1000 or superconductivity data.",
+  "target": "formation_energy_per_atom",
+  "units": "eV/atom",
+  "row_boundary": {
+    "train": 2164,
+    "validation": 715,
+    "total": 2879
+  },
+  "folds": "Exact saved E011 two chemical-system folds; never regenerate",
+  "cached_baseline": {
+    "id": "E011",
+    "new_fits": 0,
+    "selection_score": 0.22796661067247265,
+    "validation": {
+      "rows": 715,
+      "MAE_eV_atom": 0.21523546763324838,
+      "RMSE_eV_atom": 0.3296357940176692
+    },
+    "OOF": {
+      "rows": 2164,
+      "MAE_eV_atom": 0.24069775371169688,
+      "RMSE_eV_atom": 0.373659510864794
+    }
+  },
+  "promotion": {
+    "score_max": 0.22682677761911027,
+    "validation_MAE_max": 0.21523546763324838,
+    "OOF_MAE_max": 0.24069775371169688,
+    "interpretation": "0.5 percent scheduling threshold, not a significance claim"
+  },
+  "fixed_candidates": {
+    "P1": {
+      "estimator": "e011_tree",
+      "feature_set": "new50"
+    },
+    "P2": {
+      "estimator": "e011_tree",
+      "feature_set": "new58"
+    },
+    "P3": {
+      "estimator": "krr",
+      "feature_set": "old42"
+    },
+    "P4": {
+      "estimator": "krr",
+      "feature_set": "new58"
+    }
+  },
+  "required_completed_candidates": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "expected_new_base_fits": {
+    "P1": 15,
+    "P2": 15,
+    "P3": 3,
+    "P4": 3
+  },
+  "budget": {
+    "base_fit_reservations": 96,
+    "scientific_wall_seconds": 7200,
+    "max_completed_experiments": 6,
+    "uncached_input_tokens": 300000,
+    "output_tokens": 20000,
+    "tool_calls": 80,
+    "descriptor_attempts": 4,
+    "descriptor_worker_wall_seconds": 300,
+    "descriptor_worker_memory_mb": 2048
+  },
+  "optional_followups": "P5 honest nested-OOF residual adjustment or P6 second seed only after a separately frozen pre-fit registration and justified training evidence; not automatically enabled.",
+  "angular_contract": {
+    "features": [
+      "angular_G01",
+      "angular_G02",
+      "angular_G03",
+      "angular_G04",
+      "angular_G05",
+      "angular_G06",
+      "angular_G07",
+      "angular_G08",
+      "angular_N01",
+      "angular_N02",
+      "angular_N03",
+      "angular_N04",
+      "angular_O01",
+      "angular_O02",
+      "angular_O03",
+      "angular_O04"
+    ],
+    "closest_neighbors": "Periodic vectors within6Å, nearest12 plus all distance ties1e-8Å; exclude distance<=1e-10; cap256 per center else fail.",
+    "pairs": "Unordered distinct periodic neighbors of same center, each site normalized four-bin cosine histogram, fewer than2 neighbors zero.",
+    "bins": [
+      -1,
+      -0.5,
+      0,
+      0.5,
+      1
+    ],
+    "snap_cos_tolerance": 1e-10,
+    "G8": "Mean4 then population variance ddof0 four across all sites.",
+    "NO8": "N-centered mean4 then O-centered mean4; absent species zero.",
+    "security": "AST numeric whitelist plus memory/time-bounded child; AST is not an OS security sandbox.",
+    "frozen_after_validation": "No descriptor changes, cutoffs, bins, routes, folds or hyperparameter tuning after firstfit."
+  },
+  "tree": "Exact immutable E011 parameters, input-only old42 oxygen routing; only selected numeric columns change.",
+  "krr": {
+    "kernel": "rbf",
+    "alpha": 1,
+    "scaler": "StandardScaler current training block only",
+    "target_centering": "Current training mean only",
+    "gamma": "1 / median(all unordered distinct-row Euclidean distances after training-only scaling)^2; duplicate zero distances retained; if median zero gamma1.",
+    "tuning": false
+  },
+  "agent_role": "Actual isolated Codex writes descriptor function, receives real tool results, records falsifiable hypotheses/reflections/next plans. Four comparisons externally preregistered; this is not a new agent-policy versus random-control test.",
+  "source_hashes": {
+    "backend.py": "52f1909257e4a21e313d5310a7170767b90cea1bc8479470ccdb3491d9c69da9",
+    "science_server.py": "fd004751f34a96fdb6ea0cfaebd8d29ac321a8e846620a281dfa0f720fb6e561",
+    "run_session.py": "4623ee676882e74fd66fa45d940cb8d3b400772cd61f3f16eab7387cf182d389",
+    "controller.py": "b8b13b1f08d5e31187305d3b3b36b4d9585241e2fdc988a2f2ea0dfc53446aeb",
+    "descriptor_runtime.py": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06",
+    "pilot_evaluation.py": "00fd0bff69ca9fc317701f044b6dc6346867509b88a67e01060a41a16eda6401"
+  },
+  "input_hashes": {
+    "${WORKSPACE}/work/materials_strategy_agent_2026-10-02/development/features.csv.gz": "d9ed4527de86de901c70772250a0b01872dd56a18719d6b5c9f5d2ebfe5d78f0",
+    "${WORKSPACE}/work/materials_strategy_agent_2026-10-02/development/targets.csv.gz": "5314fd23de873eaa08b9a14083aaf53569c8d9bf241a196c3d5954ce6f3edbfa",
+    "${WORKSPACE}/work/materials_strategy_agent_2026-10-02/development/E04_descriptors.csv.gz": "742e2af21629d9920ae1a783e31c7183306f14f8a5699449be189a1edb97d053",
+    "${WORKSPACE}/work/materials_agent_analysis_2026-10-01/data/structures.jsonl.gz": "7c165c634f88af0fdfb3d0b99febcae936155301e5801dc529848ef1ab768e32",
+    "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/evaluation.py": "799aa512d7c049a24a0ae1848fd3228187aed8276be539d6bfdef343ad9b05b5",
+    "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/result.json": "9b87fbe3a7b40b8a632b53aef2c3a9926cec6e714a39dce8fb4af53c8f507fe3",
+    "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/internal_oof_predictions.csv.gz": "958f53c4cd7c0cf26555ffa65912da51c0e654ef213423259031e26664f72c6e",
+    "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/validation_predictions.csv.gz": "17c862b1b20d5e012a74ff644fa9dd7250c97b9c6de8d4a50adb3e8a695e139c",
+    "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/experiments/E011/folds.json": "2ec7c31f6ce37fd67ebcafee60aaf093bfc31a17e4b57d5d3e9c137ecbe10dcd",
+    "${WORKSPACE}/work/materials_adaptive_agent_2026-10-05_recovery2/reporting/next_phase_analysis/E011_OOF_DIAGNOSIS.json": "1f4adc2955ce25af68b35b5123556631c64c417a6fef7242f6a2ba2897ad94b1"
+  },
+  "old_quality_receipt_sha256": "fd10aa9bc000f8f6034573e49fe5c36567f2a73cf7350f356b945958c968cc91"
+}

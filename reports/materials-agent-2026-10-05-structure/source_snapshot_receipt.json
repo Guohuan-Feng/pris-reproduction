@@ -1,0 +1,35 @@
+{
+  "scope": "Seven original-byte scientific/controller code snapshots for review, not a standalone runnable bundle.",
+  "files": {
+    "approved_compute.py": {
+      "original_and_public_byte_sha256": "ece7dc8bb57faaed59c511f4ebd3f2cf0746089d5dcff99581e23fe2c6a9f123",
+      "byte_preserving_copy": true,
+      "runtime_logical_LF_source_sha256": "0e6fd28abf76938fe9c4a785a5bcc3cdde9ac2ca5c66de815d1d9b9088458595",
+      "newline_note": "Runtime binds normalized LF source text; this snapshot preserves original Windows CRLF file bytes. Both hashes are recorded."
+    },
+    "descriptor_runtime.py": {
+      "original_and_public_byte_sha256": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06",
+      "byte_preserving_copy": true
+    },
+    "pilot_evaluation.py": {
+      "original_and_public_byte_sha256": "00fd0bff69ca9fc317701f044b6dc6346867509b88a67e01060a41a16eda6401",
+      "byte_preserving_copy": true
+    },
+    "controller.py": {
+      "original_and_public_byte_sha256": "b8b13b1f08d5e31187305d3b3b36b4d9585241e2fdc988a2f2ea0dfc53446aeb",
+      "byte_preserving_copy": true
+    },
+    "parser_control_adapter.py": {
+      "original_and_public_byte_sha256": "6d67c75194b8cfdf2a00e2ca1eb502064b450004c59011bb45a8e85903dd7f78",
+      "byte_preserving_copy": true
+    },
+    "nested_residual_adapter.py": {
+      "original_and_public_byte_sha256": "53198fe14b196ebfa64684ee587a0cc70a511b758e3387ab1ec48beca8f2df4d",
+      "byte_preserving_copy": true
+    },
+    "frozen_legacy_evaluation.py": {
+      "original_and_public_byte_sha256": "799aa512d7c049a24a0ae1848fd3228187aed8276be539d6bfdef343ad9b05b5",
+      "byte_preserving_copy": true
+    }
+  }
+}
