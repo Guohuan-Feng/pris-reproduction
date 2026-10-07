@@ -1,0 +1,116 @@
+{
+  "artifact_kind": "CURATED_METADATA_EXTRACT_NOT_BYTEEXACT_REVIEW",
+  "original_sha256": "91192433f317892ca953a6b44cff382f866463f7587387f50dbba08bc4858b2a",
+  "original_artifact": "design/phaseC_terminal_review.json",
+  "status": "PASS",
+  "phase": "C_fixed_structure_ablation_terminal",
+  "checks_count": 2287,
+  "failure_count": 0,
+  "protocol_sha256": "47325f53514baa2bd16d1e82e5ad6f99a13d1d33b3dd232f3c50655fa090375c",
+  "outcome_sha256": "d30819158c7fa074a4f7829224a3bd646ed0f6bca826fc0b6ed4da8513c62058",
+  "reviewer_source_sha256": "81d2c0a315b104a572c26eb5df2c0d6961e83b347fdddf54c0666dab44476610",
+  "actual_known_native_fits": 18,
+  "actual_native_fit_counts": {
+    "reserved": 18,
+    "started": 18,
+    "completed": 18,
+    "failed": 0,
+    "unknown": 0
+  },
+  "actual_scaler_fits": 6,
+  "actual_PCA_fits": 6,
+  "independent_scores": {
+    "original66": [
+      {
+        "MAE": 0.2458828785655703,
+        "RMSE": 0.39332649784484225,
+        "p99_absolute_error": 1.2293466022577433
+      },
+      {
+        "MAE": 0.23804296806313482,
+        "RMSE": 0.36035973645576075,
+        "p99_absolute_error": 1.1295914172997374
+      },
+      {
+        "MAE": 0.23986000523351433,
+        "RMSE": 0.3635545328794696,
+        "p99_absolute_error": 1.154955941281834
+      }
+    ],
+    "linegraph90": [
+      {
+        "MAE": 0.24429697102599987,
+        "RMSE": 0.3923550226618188,
+        "p99_absolute_error": 1.2535023232678484
+      },
+      {
+        "MAE": 0.23306185906122429,
+        "RMSE": 0.3552678967100724,
+        "p99_absolute_error": 1.2048661309516389
+      },
+      {
+        "MAE": 0.2359149595981054,
+        "RMSE": 0.35434746140738294,
+        "p99_absolute_error": 1.1607179446309974
+      }
+    ],
+    "soap90": [
+      {
+        "MAE": 0.23931223450697653,
+        "RMSE": 0.38423211302774557,
+        "p99_absolute_error": 1.2243509843912115
+      },
+      {
+        "MAE": 0.23640883552648045,
+        "RMSE": 0.3688116646224001,
+        "p99_absolute_error": 1.2366955648439348
+      },
+      {
+        "MAE": 0.23501061091906478,
+        "RMSE": 0.36181851574362595,
+        "p99_absolute_error": 1.1896371099320324
+      }
+    ]
+  },
+  "independent_mean_MAE": {
+    "original66": 0.24126195062073982,
+    "linegraph90": 0.23775792989510983,
+    "soap90": 0.23691056031750723
+  },
+  "independent_contrasts": {
+    "original66": {
+      "mean_absolute_error_difference": -0.004351390303232579,
+      "paired_chemical_bootstrap_95CI": [
+        -0.007990467375867836,
+        -0.0009749027216289441
+      ]
+    },
+    "linegraph90": {
+      "mean_absolute_error_difference": -0.0008473695776026014,
+      "paired_chemical_bootstrap_95CI": [
+        -0.004936961467215357,
+        0.003446318455509482
+      ]
+    }
+  },
+  "independent_signal_gate": {
+    "checks": {
+      "mean_mae_ratio": true,
+      "bootstrap_upper_below_zero": true,
+      "P0_MAE_lower": true,
+      "P0_RMSE": true,
+      "P0_p99_absolute_error": true,
+      "P1_MAE_lower": true,
+      "P1_RMSE": false,
+      "P1_p99_absolute_error": false,
+      "P2_MAE_lower": true,
+      "P2_RMSE": true,
+      "P2_p99_absolute_error": false
+    },
+    "passed": false
+  },
+  "new_confirmation_labels_read": false,
+  "historical_heldout_labels_read": false,
+  "promotion_allowed": false,
+  "statistical_scope": "Reused/adaptively observed training2164. Three errors averaged per material; row-weighted 2040 chemical-system bootstrap. No independent confirmation or physical discovery."
+}

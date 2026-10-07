@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETED_TRAINING_DIAGNOSTIC_NOT_PROMOTED",
+  "target": "formation_energy_per_atom",
+  "unit": "eV/atom",
+  "training_materials": 2164,
+  "chemical_systems": 2040,
+  "partitions": 3,
+  "folds_per_partition": 2,
+  "partition_seeds": [
+    20261009,
+    20261010,
+    20261011
+  ],
+  "OOF_rows_per_arm": 6492,
+  "unique_materials": 2164,
+  "native_supervised_fits_completed": 18,
+  "learned_scaler_fits_completed": 6,
+  "learned_PCA_fits_completed": 6,
+  "experimental_LLM_calls": 0,
+  "arms": {
+    "original66": {
+      "label": "Original66",
+      "input_width": 66,
+      "mean_three_partition_MAE_eV_atom": 0.24126195062073982,
+      "MAE_improvement_percent_vs_original66": 0.0,
+      "partition_metrics": [
+        {
+          "MAE": 0.2458828785655703,
+          "RMSE": 0.39332649784484225,
+          "p99_absolute_error": 1.2293466022577433
+        },
+        {
+          "MAE": 0.23804296806313482,
+          "RMSE": 0.36035973645576075,
+          "p99_absolute_error": 1.1295914172997374
+        },
+        {
+          "MAE": 0.23986000523351433,
+          "RMSE": 0.3635545328794696,
+          "p99_absolute_error": 1.154955941281834
+        }
+      ]
+    },
+    "linegraph90": {
+      "label": "Original66 + LINEGRAPH24",
+      "input_width": 90,
+      "mean_three_partition_MAE_eV_atom": 0.23775792989510983,
+      "MAE_improvement_percent_vs_original66": 1.4523718790362738,
+      "partition_metrics": [
+        {
+          "MAE": 0.24429697102599987,
+          "RMSE": 0.3923550226618188,
+          "p99_absolute_error": 1.2535023232678484
+        },
+        {
+          "MAE": 0.23306185906122429,
+          "RMSE": 0.3552678967100724,
+          "p99_absolute_error": 1.2048661309516389
+        },
+        {
+          "MAE": 0.2359149595981054,
+          "RMSE": 0.35434746140738294,
+          "p99_absolute_error": 1.1607179446309974
+        }
+      ]
+    },
+    "soap90": {
+      "label": "Original66 + SOAP24",
+      "input_width": 90,
+      "mean_three_partition_MAE_eV_atom": 0.23691056031750723,
+      "MAE_improvement_percent_vs_original66": 1.8035957564120464,
+      "partition_metrics": [
+        {
+          "MAE": 0.23931223450697653,
+          "RMSE": 0.38423211302774557,
+          "p99_absolute_error": 1.2243509843912115
+        },
+        {
+          "MAE": 0.23640883552648045,
+          "RMSE": 0.3688116646224001,
+          "p99_absolute_error": 1.2366955648439348
+        },
+        {
+          "MAE": 0.23501061091906478,
+          "RMSE": 0.36181851574362595,
+          "p99_absolute_error": 1.1896371099320324
+        }
+      ]
+    }
+  },
+  "primary_comparison": "soap90_vs_original66",
+  "secondary_comparison": "soap90_vs_linegraph90",
+  "contrasts": {
+    "original66": {
+      "mean_absolute_error_difference": -0.004351390303232579,
+      "paired_chemical_bootstrap_95CI": [
+        -0.007990467375867836,
+        -0.0009749027216289441
+      ]
+    },
+    "linegraph90": {
+      "mean_absolute_error_difference": -0.0008473695776026014,
+      "paired_chemical_bootstrap_95CI": [
+        -0.004936961467215357,
+        0.003446318455509482
+      ]
+    }
+  },
+  "bootstrap": {
+    "method": "paired chemical-system bootstrap of row-wise mean of three OOF absolute errors",
+    "resamples": 2000,
+    "seed": 20261007,
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "not_independent_confirmation": true
+  },
+  "registered_signal_gate": {
+    "checks": {
+      "mean_mae_ratio": true,
+      "bootstrap_upper_below_zero": true,
+      "P0_MAE_lower": true,
+      "P0_RMSE": true,
+      "P0_p99_absolute_error": true,
+      "P1_MAE_lower": true,
+      "P1_RMSE": false,
+      "P1_p99_absolute_error": false,
+      "P2_MAE_lower": true,
+      "P2_RMSE": true,
+      "P2_p99_absolute_error": false
+    },
+    "passed": false
+  },
+  "gates_passed": 8,
+  "gates_total": 11,
+  "SOAP_to_original66_partition_metric_ratios": {
+    "0": {
+      "MAE": 0.9732773420543733,
+      "RMSE": 0.9768782808508258,
+      "p99_absolute_error": 0.9959363633841285
+    },
+    "1": {
+      "MAE": 0.9931351362741329,
+      "RMSE": 1.023454141269406,
+      "p99_absolute_error": 1.0948167150563408
+    },
+    "2": {
+      "MAE": 0.9797823971956956,
+      "RMSE": 0.9952248783089188,
+      "p99_absolute_error": 1.0300281312997164
+    }
+  },
+  "promotion_allowed": false,
+  "historical_C015_replaced": false,
+  "historical_C015_is_same_fixed_readout": false,
+  "heldout_confirmation_targets_read": false,
+  "stability_target_used": false,
+  "independent_confirmation_claim": false,
+  "Agent_invented_SOAP_claim": false,
+  "ALIGNN_training_or_checkpoint_used": false,
+  "next_phase_snapshot": {
+    "status": "STARTED_RESULTS_SEPARATE_NOT_INCLUDED_IN_PHASEC",
+    "planned_Agent_candidates": 20,
+    "planned_TPE_candidates": 20,
+    "shared_feasible_first_selection": true,
+    "native_fits_per_candidate": 12,
+    "planned_supervised_fit_cap": 480,
+    "PhaseD_results_included": false,
+    "launch_status_source": "Parent-confirmed unique actual launch; no PhaseD metrics collected by report builder"
+  },
+  "actual_outcome_sha256": "d30819158c7fa074a4f7829224a3bd646ed0f6bca826fc0b6ed4da8513c62058",
+  "actual_protocol_sha256": "47325f53514baa2bd16d1e82e5ad6f99a13d1d33b3dd232f3c50655fa090375c",
+  "actual_terminal_review_sha256": "91192433f317892ca953a6b44cff382f866463f7587387f50dbba08bc4858b2a"
+}

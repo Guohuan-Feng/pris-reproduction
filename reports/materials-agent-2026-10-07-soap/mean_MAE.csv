@@ -1,0 +1,4 @@
+arm,input_width,mean_three_partition_MAE_eV_atom,improvement_percent_vs_original66
+original66,66,0.24126195062073982,0.0
+linegraph90,90,0.23775792989510983,1.4523718790362738
+soap90,90,0.23691056031750723,1.8035957564120464

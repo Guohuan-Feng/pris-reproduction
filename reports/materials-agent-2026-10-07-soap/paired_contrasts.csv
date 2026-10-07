@@ -1,0 +1,3 @@
+comparison,registered_role,mean_absolute_error_difference_eV_atom,paired_chemical_95CI_lower,paired_chemical_95CI_upper
+soap90_vs_original66,primary,-0.004351390303232579,-0.007990467375867836,-0.0009749027216289441
+soap90_vs_linegraph90,secondary,-0.0008473695776026014,-0.004936961467215357,0.003446318455509482

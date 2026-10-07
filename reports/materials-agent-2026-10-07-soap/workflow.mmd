@@ -1,0 +1,12 @@
+flowchart TD
+    A["历史训练 /Historical training<br/>2164 materials ·2040 chemical systems"] --> B["3 grouped2-fold partitions<br/>相同分区 /Same splits"]
+    B --> C["Original66<br/>固定原特征"]
+    B --> D["Original66+LINEGRAPH24<br/>固定化学-角度描述符"]
+    B --> E["周期SOAP6016维 /Fixed descriptor<br/>训练fold内Scaler+PCA24"]
+    E --> F["Original66+SOAP24"]
+    C --> G["同一固定CatBoost /Fixed readout<br/>3 arms ×3 partitions ×2 folds =18 fits"]
+    D --> G
+    F --> G
+    G --> H["完整训练OOF /Training-only OOF<br/>MAE ·RMSE ·p99 ·paired chemical CI"]
+    H --> I["8/11 gates pass ·Gatefalse<br/>保留C015 /No promotion"]
+    I -. "后续已启动 /Started;results separate" .-> J["20Agent+20TPE<br/>风险前置 /Feasible-first selection"]

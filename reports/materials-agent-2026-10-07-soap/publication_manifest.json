@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "PARENT_REVIEWED_READY_FOR_PUBLICATION",
+  "publication_ready": true,
+  "ready_for_parent_review": true,
+  "original_artifact_hashes": {
+    "actual_protocol": "47325f53514baa2bd16d1e82e5ad6f99a13d1d33b3dd232f3c50655fa090375c",
+    "actual_outcome": "d30819158c7fa074a4f7829224a3bd646ed0f6bca826fc0b6ed4da8513c62058",
+    "actual_terminal_review": "91192433f317892ca953a6b44cff382f866463f7587387f50dbba08bc4858b2a",
+    "report_builder": "7f7ca3e1161c7379f2bdeb0b53a9a8ea81cdbbd260231c04f7e0e0c7a5c05cc2"
+  },
+  "files": {
+    "fixed_readout_error.png": "193ebe4e2163caa51f5799faf578fb2f3117b890c042e98928d1b2a552ebb578",
+    "fixed_readout_error.svg": "0c9dade0a826565c49b055705f3a177f431a0ca5e3023a14df96971cb7c8e10b",
+    "mean_MAE.csv": "4651cc6cd2117e758381cefd0389f9e00c512f84cc7c50ffd63057b77e8e9171",
+    "paired_contrasts.csv": "b7ad6b2ad0f4dd19413e98d6ab9fde4f00bb5d9ecbecf932d4e00fc323f85a20",
+    "partition_metrics.csv": "03a1d39cdc5ac8e8294cde7a419195ea614dc8a4df061fa65f75089145a38a38",
+    "partition_risk_ratios.png": "fc302b7b7c2cec83c903016f32bb22ca1e8695694afc811261ef72477ec348f1",
+    "partition_risk_ratios.svg": "db44987e3fe6da653c0d783f18cd4beebf4b31c38305e7bc085c153b216429f6",
+    "phaseC_outcome.json": "d30819158c7fa074a4f7829224a3bd646ed0f6bca826fc0b6ed4da8513c62058",
+    "protocol_summary.json": "2780077fd65f1180c2efd8c0dff3490d38c94e3c9d1928262e850d11c8066366",
+    "README.md": "9062caaeb85288eb189374b16fd6204a8d9de00fb64283c3df9dad1dc1d354e3",
+    "summary.json": "c8eb46178e6687a69fe43bbb51b48ffe1e7226190d28b12c3edbcaa59e46ae3a",
+    "terminal_review_summary.json": "013ccddae72c9c00ab0af1f3a6a19bba8ea77a01e73ac6cf5a2beb3bf6c2359d",
+    "workflow.mmd": "06ba6f6949d79bfa89d691b2c5629eda024fe00e5faf3854673d2cfd2b0010e1",
+    "code/fixed_readout.py": "2c424a0629cbc4fdf3a78036eb946c105d6ae032ef91821d2a2551360c6992d4",
+    "code/prepare_soap.py": "d25fd220ec59f0440d64fbc8ff6169a1ad9ba7bcddb6f41489196d8aa1ae4fc9",
+    "code/soap_representation.py": "c3fb2f33bf391d78c116a301e552cac7d56977d94614f90b4f5473d373da64fb"
+  },
+  "self_hash_excluded": true,
+  "native_scientific_fits_in_report_build": 0,
+  "new_target_values_read_in_report_build": false,
+  "prospective_D_not_reported_executed": true,
+  "phaseD_status": "Started; actual results separately reported; no PhaseD results included here",
+  "prior_review_draft_manifest_sha256": "d9ec712af77ed876e89a5dce05cf2c54f177a17177f020e250cf7cc5aa1bf142",
+  "parent_visual_review": {
+    "fixed_readout_error.png": "PASS",
+    "partition_risk_ratios.png": "PASS",
+    "numeric_and_scope_review": "PASS"
+  },
+  "original_child_manifest_sha256": "8a0cc9b901f77a386ddcd5d543441a6fc330b6dd20623ba70a2a6bf5ed30fe99"
+}
