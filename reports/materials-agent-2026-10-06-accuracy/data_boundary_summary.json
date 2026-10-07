@@ -1,0 +1,69 @@
+{
+  "status": "inputs_frozen",
+  "seed": "materials-accuracy-agent-confirmation-20261007-v1",
+  "requested_rows": 3000,
+  "fixed_buffer": 300,
+  "fixed_candidate_rows": 3300,
+  "rows": 3000,
+  "chemical_systems": 2893,
+  "identity_pool": {
+    "old_eligible_rows": 33535,
+    "old_eligible_systems": 23152,
+    "reconstructed_old_candidates": 1150,
+    "reconstructed_old_candidate_systems": 1133,
+    "reconstructed_evolving_candidates": 1200,
+    "reconstructed_evolving_candidate_systems": 1175,
+    "previous_evolving_pool_rows": 31292,
+    "previous_evolving_pool_systems": 22019,
+    "remaining_rows": 28990,
+    "remaining_systems": 20844,
+    "excluded_ids": 30815,
+    "excluded_systems": 25616
+  },
+  "selection_policy": "First3000 of fixed3300 with finite historical raw30+E04; only predeclared descriptor nonfiniteness can reject. Any other structural/source error aborts. New Agent representations never change eligibility.",
+  "target_values_accessed": false,
+  "source_energy_fields_accessed": false,
+  "limitations": [
+    "Unseen by these local tasks, not a new DFT measurement or external-source replication.",
+    "Unknown pretraining exposure and unmapped physical/structural overlap are not excluded.",
+    "Original relaxed structures include DFT-derived information; this is not pre-DFT discovery."
+  ],
+  "prepared_files": {
+    "candidate_ids.csv": {
+      "sha256": "3059047e1a375a0c3bf1650f0b235893dd2c606fe3ab045fbc42cbcc3864e01f",
+      "bytes": 338716
+    },
+    "reconstructed_old_candidate_ids.csv": {
+      "sha256": "a817d7e6f2db11cf49b427435b3ecdcd886dd26a1d432a302226d0f5837c4651",
+      "bytes": 98103
+    },
+    "reconstructed_evolving_candidate_ids.csv": {
+      "sha256": "995b6ac1c3b5b5ce69c9ea6b02fdf2e7f75f0c41ac2f5ee2e6c5edc8270f9f8a",
+      "bytes": 102225
+    },
+    "excluded_ids.csv": {
+      "sha256": "f63fb81720e8bb48ccd9e6476c83377c6548ea7471b11e93931f11248c9d7996",
+      "bytes": 319454
+    },
+    "excluded_systems.csv": {
+      "sha256": "e34fa72d9c2f1af0a43a519f75a0d8d66a092bbb5b17b66ee23d6e17fbc1ad7f",
+      "bytes": 241300
+    },
+    "features.csv.gz": {
+      "sha256": "dadd621a1ba940f0216dde9e3dc07708302a98c073de48d776022c7b58724ac9",
+      "bytes": 801240
+    },
+    "selected_ids.csv": {
+      "sha256": "ac312a500d49c6612ac150a9b8149dec499d5c7aa4978f96eefb372efe687d34",
+      "bytes": 307844
+    },
+    "structures.jsonl.gz": {
+      "sha256": "a557640f528003b0e0a4db8bd15071de8b3fbf3d6efa159d5b2206e55ebef28f",
+      "bytes": 22079232
+    },
+    "rejections.json": {
+      "sha256": "a20f8507b752cfbee306f2183f3945dc8256d820fbec0f0aeabbbc0c92218722",
+      "bytes": 99
+    }
+  }
+}

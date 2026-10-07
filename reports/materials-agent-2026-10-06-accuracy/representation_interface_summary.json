@@ -1,0 +1,249 @@
+{
+  "registered_exploration_goal_new_blocks": 6,
+  "active_approved_new_blocks": 0,
+  "goal_status": "blocked_by_engineering_interface",
+  "active_scope": "Predictor programs and training strategies with frozen66 inputs",
+  "blocker_evidence": {
+    "schema_version": 1,
+    "observed_utc": "2026-10-07T01:22:15.230030+00:00",
+    "scope": "Engineering observation only. No active-source/protocol/input/state/decision edits; no new scientific round or learner retry.",
+    "classification": "Trusted caller shape mismatch after R002 geometry validation. R001 was a separate Agent-authored empty-neighbor broadcast error.",
+    "protocol_sha256": "f47395d7a77bf6b345941e3ff10fab0ac01b95c28e5ce9b19c65a7c5621e17c8",
+    "registered_source_hashes": {
+      "backend.py": "289ae07fbcd16fdf500af0bf7bf520d12d1b6712ad5273f8b31c32c01b3c3cc6",
+      "science_server.py": "bbcdd27eea25ed0562f2f2be050ad3f27a53c1f9ed0e67d294f0352a8afcbae5",
+      "controller.py": "6c5b184d88bfba19dba91cf8103e490334aa5fa4c9d4012e03c62b605daede63",
+      "finalize.py": "5e980f2a5bee6f88389109949209a8f0e5c60c7d9f6e84c981d7c97046ba9dca",
+      "representation_runtime.py": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+      "predictor_runtime.py": "350e9f4ff9dadf97ec74063639b6b8f192fdeaea049cab9883ca5e3e0944be73",
+      "predictor_preflight.py": "633e651d28640508e586025177209c8a0a783d4326738da7fc59502fb19a9a79",
+      "session_transport.py": "c111b4186a773a79c3ed68f5e31cf27377a7bbaf676bec47f285133f10b19233",
+      "decision_contract.py": "82f0502c9e3fd89e03f526b0c0088130ce6961edc31890d8e55af5e69b010ad3",
+      "audited_decision_interceptor.py": "4d84db7d8b8be1093c84fbc34153e3ca30c86fce63189de66a33d33ef7e210c5",
+      "data_curator.py": "70e845518b80ebe404dfd4fddcd226829ee39d54f3d50cb3f42a9ac87ae871c6",
+      "runtime_config.json": "ae1e020ca9f150b53ea5f34d0eb5a163509db950a34aea2f1178dfe89eb5af05",
+      "carryover.json": "fabc15c090ca6135609acd2e4694ad4df5bebdd4eb096feedc273536d11a5f92",
+      "environment/dependency_lock.json": "97381b5db8b62e6f555f287ae2999cbd2cb2ca19246e3e17f75c5213ade61be9"
+    },
+    "caller": {
+      "source": "backend.py",
+      "line": 226,
+      "exact_source_line": "        matrix,whole=runtime.compute_validated(code,records,feature_names=feature_names,original_feature_rows=ctx.X.to_numpy(),validation=validation,batch_size=64,timeout_s=20,memory_mb=2048,whole_compute_deadline_s=240,receipt_path=whole_receipt)",
+      "actual_original_feature_rows_shape": [
+        2164,
+        66
+      ],
+      "required_original42_shape": [
+        2164,
+        42
+      ],
+      "next_stage_only_replacement": "original_feature_rows=ctx.old_X.to_numpy()"
+    },
+    "callee": {
+      "source": "representation_runtime.py",
+      "line": 456,
+      "exact_source_line": "    if old.shape != (len(records), 42) or not np.isfinite(old).all():",
+      "check_precedes_whole_structure_matrix_computation": true
+    },
+    "actual_submissions": {
+      "R001": {
+        "rejection": {
+          "reason": "ValueError: ValueError: operands could not be broadcast together with shapes (0,3) (0,) ",
+          "utc": "2026-10-07T01:14:14.636519+00:00",
+          "fits_performed": 0
+        },
+        "scientific_fits": 0
+      },
+      "R002": {
+        "rejection": {
+          "reason": "RuntimeRejected: old feature check requires aligned finite original42 only",
+          "utc": "2026-10-07T01:14:31.794047+00:00",
+          "fits_performed": 0
+        },
+        "geometry_validation_accepted": true,
+        "geometry_probe_summary": {
+          "invariant_real_records": 8,
+          "invariant_variants": 78,
+          "trusted_geometry_checks": 65,
+          "max_invariance_absolute_residual": 8.881784197001252e-16,
+          "batch_independence_verified": true
+        },
+        "scientific_fits": 0
+      }
+    },
+    "scientific_state_at_observation": {
+      "counters": {
+        "experiments": 3,
+        "investigations": 0,
+        "representation_submissions": 3,
+        "predictor_submissions": 3,
+        "baseline_comparisons": 2,
+        "base_fits_reserved": 128,
+        "fit_started": 128,
+        "fit_completed": 128,
+        "uncached_input_tokens": 68646,
+        "output_tokens": 10259,
+        "tool_calls": 14
+      },
+      "active_operation": null,
+      "stop_reason": null
+    },
+    "effects": "Current immutable phase may continue authored predictor research; its six-new-block exploration objective is blocked by this pre-fit engineering validation. Do not count engine regressions as approved blocks or scientific candidates.",
+    "evidence_sha256": {
+      "protocol.json": "f47395d7a77bf6b345941e3ff10fab0ac01b95c28e5ce9b19c65a7c5621e17c8",
+      "backend.py": "289ae07fbcd16fdf500af0bf7bf520d12d1b6712ad5273f8b31c32c01b3c3cc6",
+      "representation_runtime.py": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+      "representations/R001/compute.py": "7a1e10fc5f6bd171a5c250412c70c7175faefb3e37f3b7329e39e67ff538a4a5",
+      "representations/R001/proposal.json": "dc6b027c6312ed9c9ea6fe31fb5b0da98eea184cacb4004eda2372475b5dce80",
+      "representations/R001/rejection.json": "4dd6035e02051ba90612f48226b63c3c91d7f3e82389a7104efaf984e8226259",
+      "representations/R002/compute.py": "b57043ceadebac3bfc471ef8919aeb249f0c126aecad783772d68a84651daa89",
+      "representations/R002/proposal.json": "a7ce68b4f5013f7c8aabda15da280d25d5f61312c3bb98c58700aaf495667e10",
+      "representations/R002/rejection.json": "c7e7704b86cd028f065cba0cba0699f49e565f4f4b33f9dfebe176b3de7d1457",
+      "runtime_receipts/R002_invariance.json": "fd146571fc4b4b0107de90e9008a9cda3584c9e9470a3a1fb864433198d3a263"
+    },
+    "scientific_refits": 0,
+    "additional_LLM_calls": 0,
+    "fresh_confirmation_targets_read": false
+  },
+  "blocker_evidence_sha256": "4d2a2ded50dfe3f6aa57bbd81a9a147b3ff303686303aeae25719f0cc9618828",
+  "blocker_matches_immutable_active_stage": true,
+  "separate_future_repair": {
+    "stage": "materials_accuracy_representation_repair_2026-10-06",
+    "status": "PASS_ENGINEERING_INTERFACE_REGRESSION",
+    "active_source_changed": false,
+    "active_block_approval_credit": 0,
+    "active_scientific_round_credit": 0,
+    "receipts": [
+      {
+        "relative_stage": "materials_accuracy_representation_repair_2026-10-06",
+        "path": "reporting/pure_regression_initial_failure.json",
+        "sha256": "675e2ca406f149b7cb7bc1bfbab3e159e88437a18836be7263e29564091a47df",
+        "metadata": {
+          "created_utc": "2026-10-07T01:23:37.454361+00:00",
+          "status": "ENGINEERING_RECEIPT_PATH_ERROR",
+          "error": "RuntimeRejected: receipts may only be written as JSON under runtime_receipts",
+          "scope": "Geometry pure regression completed numerical checks but its engineering harness chose regression_output receipt location; full2164 matrix had not started. Correct output location only, no core source modification.",
+          "scientific_learner_fits": 0,
+          "actual_LLM_calls": 0,
+          "current_phase_mutations": 0,
+          "fresh_confirmation_targets_read": false
+        },
+        "active_stage_new_approved_blocks": 0,
+        "active_stage_scientific_rounds": 0,
+        "verified_engineering_interface_regression": false
+      },
+      {
+        "relative_stage": "materials_accuracy_representation_repair_2026-10-06",
+        "path": "representation_repair_regression.json",
+        "sha256": "4a06e9ed012bdd3d4e1e54c9ad4da7cea5bf716ed1572edb3f68839d399dac90",
+        "metadata": {
+          "schema_version": 1,
+          "status": "PASS_ENGINEERING_INTERFACE_REGRESSION",
+          "completed_utc": "2026-10-07T01:24:49.721051+00:00",
+          "scope": "Real2164 pure-structure engineering regression of existing Agent-authored R002 code. No learner fit, Agent CLI, performance comparison, phase-approved representation or scientific candidate.",
+          "original_immutable_root": "[local path omitted]",
+          "future_review_root": "[local path omitted]",
+          "original_protocol_sha256": "f47395d7a77bf6b345941e3ff10fab0ac01b95c28e5ce9b19c65a7c5621e17c8",
+          "old_backend_sha256": "289ae07fbcd16fdf500af0bf7bf520d12d1b6712ad5273f8b31c32c01b3c3cc6",
+          "repaired_backend_sha256": "379a456d4db0652ef397e17d93794354dbf1a34dd978d20aace5ca30778eb00f",
+          "representation_runtime_sha256": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+          "Agent_R002_code_sha256": "68c5a7f41f229f01a4bb97f5b8bcc20df8e281ae095bb2479526aee623c2f81c",
+          "exact_fix": "Only original_feature_rows=ctx.X.to_numpy() -> ctx.old_X.to_numpy(); globalnovelty fixed66 +12historical matrices remains unchanged.",
+          "wrong66_negative_control": "old feature check requires aligned finite original42 only",
+          "original_feature_rows_shape": [
+            2164,
+            42
+          ],
+          "fixed_incumbent_matrix_shape": [
+            2164,
+            66
+          ],
+          "new_engineering_matrix_shape": [
+            2164,
+            12
+          ],
+          "matrix_finite": true,
+          "geometry_validation": {
+            "accepted": true,
+            "invariant_real_records": 8,
+            "invariant_variants": 78,
+            "trusted_geometry_checks": 65,
+            "max_invariance_absolute_residual": 8.881784197001252e-16,
+            "batch_independence_verified": true
+          },
+          "whole_helper_validation": {
+            "accepted": true,
+            "rows": 2164,
+            "columns": 12,
+            "runtime_sha256": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+            "frozen_geometry_sha256": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06",
+            "ordered_material_ids_sha256": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e",
+            "matrix_float64_le_sha256": "460da5ef9be9c8353dbd4d6613f41471198c28550319c48e1dc58dd248d5d6b4",
+            "total_wall_seconds": 21.743913400016027,
+            "whole_compute_deadline_s": 240,
+            "constant_columns": [],
+            "exact_old42_duplicates": [],
+            "internal_duplicates": [],
+            "numeric_target_access": false,
+            "real_material_ids_sent_to_worker": false,
+            "model_fits": 0
+          },
+          "global_novelty": {
+            "comparison_columns_including_inherited_duplicateR004": 258,
+            "historical_blocks": 12,
+            "historical_matrix_sha256": {
+              "[local path omitted]:eed5a5eae2d8": "2ea33cbcf713b5de22535dbc7ac8d0ac41cf5418869bf02c0faf4ea67d55e22f",
+              "[local path omitted]:ad9046d62cdb": "eed7137b06bf3f6f35fdade9f2eb597fe22ee90a5dc91958703943357e6a71a8",
+              "[local path omitted]:1e568af91267": "3bc8b423004daffe72d383b36cefd7dafbca8a2b8537791ac14e40f2da4e1fbb",
+              "[local path omitted]:929aa1f4e5a3": "5d963ec3802c2e4d8a864151d0d962c725e2153b1efd28c000956f76d5018f53",
+              "[local path omitted]:4530e82e64bc": "f39cd4ab58491b1adc18beda048dad61eab8d4545063d4e3090959c33ce495c9",
+              "[local path omitted]:9c675d0b186f": "69805b56af00b76b5abf9489f451373230e423bedcc851300c3cd6e23f14c09a",
+              "[local path omitted]:8240ae79f2b3": "4eb872dc249804fb5f4b76d3c4cd186b2de75b4e431f9dec95265f1c0b470c1b",
+              "[local path omitted]:19781548c372": "2c47a003a946df8e10f394f9b44440b4bb4448fd62ce81afe9ede55fb2734210",
+              "[local path omitted]:c37ad1df8b39": "f9e5441a8356c00e6f2c56afc98c9878096230b0c8449883d22a50d048f6e591",
+              "[local path omitted]:ca8467662adc": "54aa7de2056064be979d4b54d891ffb4aa1027948020442db68de3aebbea7793",
+              "[local path omitted]:e3aaf676b33f": "cd6a06a6648bc08d5a8542fa2fa59b35217ca7f1d6f2e63c8dbb9c9a4fc7b4f5",
+              "[local path omitted]:849808198e05": "614743f332b30f0f11d90ab8a040a6ce7ae635831de9c4548d92ac819e31b4ca"
+            },
+            "novel_column_count": 12,
+            "novel_column_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "guard_would_accept_substantive_novel_information": true
+          },
+          "actual_scientific_learner_fits": 0,
+          "actual_LLM_calls": 0,
+          "current_phase_approved_representation_increment": 0,
+          "new_scientific_candidates": 0,
+          "fresh_confirmation_targets_read": false,
+          "current_frozen_scientific_sources_unchanged": true,
+          "future_scientific_launch_requires_new_registration_and_independent_confirmation": true,
+          "artifact_hashes": {
+            "repair_template_manifest.json": "5ac200487fdc6201ae576d3e263ed2b27c15d64a89e466874d68fed0ca11f16c",
+            "backend_one_line.patch": "0627b85acdb707a1071f4004ebf95573e939aaff5a9b32cfec6e14a2e48e37cc",
+            "run_pure_regression.py": "2188aa8edcf43426c6a568d7fa7f34d3d7e5e8f5502430c16736b818e1ac9f10",
+            "reporting/pure_regression_initial_failure.json": "675e2ca406f149b7cb7bc1bfbab3e159e88437a18836be7263e29564091a47df",
+            "runtime_receipts/R002_geometry_regression.json": "f7e33232a05374808696d46744e1e16028da445f91b27e3ffd580961eeec3c44",
+            "runtime_receipts/R002_whole_matrix_regression.json": "1b419bccad31b285d67cde74859fa6670db2629ecf70d878894a314062247a48",
+            "regression_output/R002_engineering_matrix.csv.gz": "434b3769acb1c34cd84a8a89bd6019808ce0df69a5c3a7c9c3e4b7e4c7c2f17c"
+          }
+        },
+        "active_stage_new_approved_blocks": 0,
+        "active_stage_scientific_rounds": 0,
+        "verified_engineering_interface_regression": true
+      }
+    ]
+  },
+  "interpretation": "R001 Agent empty-neighbor broadcasting error is distinct from R002 caller66-versus-required42 interface error. Unapproved blocks are not evidence that structural information is scientifically ineffective. Separate future repair is not applied to the active frozen stage."
+}

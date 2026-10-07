@@ -1,0 +1,76 @@
+{
+  "state_counters": {
+    "experiments": 20,
+    "investigations": 0,
+    "representation_submissions": 3,
+    "predictor_submissions": 24,
+    "baseline_comparisons": 2,
+    "base_fits_reserved": 622,
+    "fit_started": 622,
+    "fit_completed": 622,
+    "uncached_input_tokens": 1362434,
+    "output_tokens": 103246,
+    "tool_calls": 92
+  },
+  "actual_fit_journal_counts": {
+    "baselines": {
+      "started": 44,
+      "completed": 44,
+      "failed": 0
+    },
+    "experiments": {
+      "started": 560,
+      "completed": 560,
+      "failed": 0
+    },
+    "final": {
+      "started": 18,
+      "completed": 18,
+      "failed": 0
+    }
+  },
+  "actual_total_fit_started": 622,
+  "actual_total_fit_completed": 622,
+  "actual_total_fit_failed": 0,
+  "actual_Agent_sessions_started": 21,
+  "normal_cycle_decisions": 20,
+  "completed_real_candidates": 20,
+  "approved_new_representation_blocks": 0,
+  "active_operation": null,
+  "stop_reason": null,
+  "protocol_budget": {
+    "completed_candidates": 20,
+    "max_sessions": 23,
+    "max_representation_submissions": 30,
+    "max_predictor_submissions": 40,
+    "max_fits_per_block": 7,
+    "base_fit_reservations": 700,
+    "baseline_fit_reservations": 44,
+    "final_fit_reservation": 18,
+    "planned_maximum_atomic_fits": 622,
+    "uncached_input_tokens": 2000000,
+    "output_tokens": 180000,
+    "tool_calls": 220,
+    "wall_seconds": 14400,
+    "search_wall_seconds": 10800,
+    "final_reserved_wall_seconds": 3600,
+    "descriptor_whole_seconds": 240,
+    "descriptor_worker_memory_mb": 2048,
+    "predictor_block_seconds": 540
+  },
+  "trusted_fit_hard_cap": 700,
+  "planned_maximum_fits": {
+    "actual_baseline_stage": 44,
+    "twenty_candidate_comparisons": 560,
+    "final_three_arms": 18,
+    "total": 622
+  },
+  "prior_stage_fits_charged_in_this_stage": 0,
+  "original_normal_completed_candidates": 16,
+  "prospective_new_completed_candidates": 4,
+  "permanently_quarantined_unresolved_candidate": "C017",
+  "conservative_unknown_fit_charge": 28,
+  "observed_known_fit_starts_plus_unknown_budget_charge": 650,
+  "expected_effective_maximum_fit_reservations": 650,
+  "fit_semantics": "Trusted learner API fit starts/reservations. Historical E011 (B_E011) is5, prior-stage C018 (B_C018) is6, other atomic learners1. Arbitrary numeric learned parameter operations are not universally recognizable as extra learner fits."
+}

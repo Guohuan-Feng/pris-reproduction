@@ -1,0 +1,5 @@
+{
+  "error": "ValueError: AST construct Invert forbidden",
+  "fits_performed": 0,
+  "scientific_fit_started": false
+}

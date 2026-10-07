@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "scientific_fits": 0,
+  "actual_LLM_calls": 0,
+  "n_features": 66,
+  "max_fits_per_block": 7,
+  "scope": "Invented-array dry run with arithmetic model mocks; no scientific performance result",
+  "limitations": "Synthetic input routes may differ from real data. Inference checks are probes, not a universal proof.",
+  "timeout_seconds": 20,
+  "memory_mb": 2048,
+  "AST_validation": {
+    "accepted": true,
+    "code_sha256": "d524836372b667511b1a251e884243d76496a7d2cbd3234f5c5eab2b614cf2cb",
+    "ast_nodes": 446,
+    "max_fits_per_block": 7,
+    "fits_performed": 0
+  },
+  "code_sha256": "d524836372b667511b1a251e884243d76496a7d2cbd3234f5c5eab2b614cf2cb",
+  "accepted": false,
+  "error": "ValueError: Invalid current-training numeric arrays",
+  "mock_learner_fit_started": 5,
+  "mock_learner_fit_completed": 5,
+  "mock_factory_fit_calls": 5,
+  "worker_seconds": 0.4000980000128038,
+  "input_kind": "Invented deterministic arrays and targets only",
+  "mock_fit_events": [
+    {
+      "fit_id": "synthetic_preflight_F001",
+      "learner": "extra_trees",
+      "rows": 320,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2254577
+    },
+    {
+      "fit_id": "synthetic_preflight_F001",
+      "learner": "extra_trees",
+      "rows": 320,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.229477
+    },
+    {
+      "fit_id": "synthetic_preflight_F002",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.232989
+    },
+    {
+      "fit_id": "synthetic_preflight_F002",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2354214
+    },
+    {
+      "fit_id": "synthetic_preflight_F003",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2385175
+    },
+    {
+      "fit_id": "synthetic_preflight_F003",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2401514
+    },
+    {
+      "fit_id": "synthetic_preflight_F004",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2431521
+    },
+    {
+      "fit_id": "synthetic_preflight_F004",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2451448
+    },
+    {
+      "fit_id": "synthetic_preflight_F005",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2471507
+    },
+    {
+      "fit_id": "synthetic_preflight_F005",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791336824.2497208
+    }
+  ],
+  "stage": "synthetic_execution",
+  "wall_seconds": 2.2531569999991916
+}

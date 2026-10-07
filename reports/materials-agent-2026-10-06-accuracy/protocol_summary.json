@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "registered_utc": "2026-10-07T01:04:41.328228+00:00",
+  "scope": "Twenty adaptive Agent-authored accuracy candidates under two repeated chemical-system 2-fold training partitions. Previously observed715/1000 are history; only sealed3000 is new same-source confirmation. No new DFT/synthesis or stability/Ehull claim.",
+  "target": "formation_energy_per_atom",
+  "units": "eV/atom",
+  "selection_metric": "Mean of two repeat MAEs (4328 absolute errors over2164 unique materials); do not average predictions before MAE. Select only eligible candidates by meanMAE then candidateID. If none eligible, best-all is diagnostic and C018 cannot be replaced.",
+  "budget": {
+    "completed_candidates": 20,
+    "max_sessions": 23,
+    "max_representation_submissions": 30,
+    "max_predictor_submissions": 40,
+    "max_fits_per_block": 7,
+    "base_fit_reservations": 700,
+    "baseline_fit_reservations": 44,
+    "final_fit_reservation": 18,
+    "planned_maximum_atomic_fits": 622,
+    "uncached_input_tokens": 2000000,
+    "output_tokens": 180000,
+    "tool_calls": 220,
+    "wall_seconds": 14400,
+    "search_wall_seconds": 10800,
+    "final_reserved_wall_seconds": 3600,
+    "descriptor_whole_seconds": 240,
+    "descriptor_worker_memory_mb": 2048,
+    "predictor_block_seconds": 540
+  },
+  "OOF_candidate_gate": {
+    "each_repeat_MAE_ratio_max": 0.995,
+    "mean_MAE_ratio_max": 0.99,
+    "mean_repeat_RMSE_ratio_max": 1.0,
+    "each_repeat_p99_ratio_max": 1.02,
+    "reference": "Actual new-partition B_C018 baseline; all components required. Engineering selection rules, not statistical significance."
+  },
+  "representation_contract": "Agent authors compute(structure),4..32finite intensive invariant descriptors; single-material input only;0..2approved newblocks plusfixed66. Finite geometry/batch probes and ASTresourceguards are not formal security orphysical proof.",
+  "predictor_contract": "Agent authors fit(X_train,y_train) andpredict(state,X_eval); onlyfit cancall trustedAPI; max7 atomic learners perblock,4blocks/candidate. ET/HGB/Ridge/CatBoost allow validated normalized training weights; E011/KRR do not. No eval targets. Non-API learned numeric operations bounded but not universally counted as separatelearners.",
+  "source_hashes": {
+    "backend.py": "289ae07fbcd16fdf500af0bf7bf520d12d1b6712ad5273f8b31c32c01b3c3cc6",
+    "science_server.py": "bbcdd27eea25ed0562f2f2be050ad3f27a53c1f9ed0e67d294f0352a8afcbae5",
+    "controller.py": "6c5b184d88bfba19dba91cf8103e490334aa5fa4c9d4012e03c62b605daede63",
+    "finalize.py": "5e980f2a5bee6f88389109949209a8f0e5c60c7d9f6e84c981d7c97046ba9dca",
+    "representation_runtime.py": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+    "predictor_runtime.py": "350e9f4ff9dadf97ec74063639b6b8f192fdeaea049cab9883ca5e3e0944be73",
+    "predictor_preflight.py": "633e651d28640508e586025177209c8a0a783d4326738da7fc59502fb19a9a79",
+    "session_transport.py": "c111b4186a773a79c3ed68f5e31cf27377a7bbaf676bec47f285133f10b19233",
+    "decision_contract.py": "82f0502c9e3fd89e03f526b0c0088130ce6961edc31890d8e55af5e69b010ad3",
+    "audited_decision_interceptor.py": "4d84db7d8b8be1093c84fbc34153e3ca30c86fce63189de66a33d33ef7e210c5",
+    "data_curator.py": "70e845518b80ebe404dfd4fddcd226829ee39d54f3d50cb3f42a9ac87ae871c6",
+    "runtime_config.json": "ae1e020ca9f150b53ea5f34d0eb5a163509db950a34aea2f1178dfe89eb5af05",
+    "carryover.json": "fabc15c090ca6135609acd2e4694ad4df5bebdd4eb096feedc273536d11a5f92",
+    "environment/dependency_lock.json": "97381b5db8b62e6f555f287ae2999cbd2cb2ca19246e3e17f75c5213ade61be9"
+  },
+  "fresh_prefit_manifest_sha256": "f8f59a779becbc3c24ac0f419b654d6ded3645d9399fc2e0f0cb59aa3e542633",
+  "final_protocol": {
+    "fresh_rows": 3000,
+    "fresh_chemical_systems": 2893,
+    "arms": [
+      "baseline",
+      "legacy_baseline",
+      "champion"
+    ],
+    "primary_reference": "C018",
+    "secondary_reference": "E011",
+    "known715_role": "Historical regression diagnostic only, no selection or promotion criterion.",
+    "promotion": "Require training eligible, freshMAE strictly lower thanC018, paired chemical-system cluster bootstrap95%upper<0, freshRMSE andp99 bothnonworsening versusC018. No post-confirmation tuning/reselection/refit.",
+    "cluster_bootstrap": {
+      "resamples": 2000,
+      "seed": 20261007,
+      "cluster_unit": "chemical_system",
+      "estimator": "sum sampled cluster error sums / sum sampled cluster material counts",
+      "sorted_clusters": true
+    },
+    "release": "Freeze selected code/result/OOF/protocol/inherited artifacts; save all3 prediction hashes/ordered finite3000 IDs; exact historical715C018/E011 replay<=1e-12; onlythen labels release."
+  }
+}

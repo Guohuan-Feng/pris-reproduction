@@ -1,0 +1,645 @@
+{
+  "status": "complete",
+  "complete": true,
+  "problems": [],
+  "result": {
+    "schema_version": 1,
+    "candidate_id": "C015",
+    "selected_is_eligible": true,
+    "frozen_champion_sha256": "cffc70767ec7b683a242dc02e8e72ab64b7f45fe7ae120e6b403e3b4f8e8cbb5",
+    "results": {
+      "baseline": {
+        "known_validation": {
+          "rows": 715,
+          "MAE_eV_atom": 0.2101903175989464,
+          "RMSE_eV_atom": 0.32849350983255576,
+          "mean_prediction_minus_truth": 0.003442485874133944,
+          "p90_abs_error": 0.44423744458088,
+          "p99_abs_error": 1.0809746558308735
+        },
+        "fresh3000": {
+          "rows": 3000,
+          "MAE_eV_atom": 0.22280452226124564,
+          "RMSE_eV_atom": 0.35038624417050035,
+          "mean_prediction_minus_truth": -0.0026456267344413765,
+          "p90_abs_error": 0.48847784188420595,
+          "p99_abs_error": 1.2073263623814603
+        }
+      },
+      "legacy_baseline": {
+        "known_validation": {
+          "rows": 715,
+          "MAE_eV_atom": 0.2152354676332484,
+          "RMSE_eV_atom": 0.3296357940176691,
+          "mean_prediction_minus_truth": 0.0018773992576819444,
+          "p90_abs_error": 0.4848053216437025,
+          "p99_abs_error": 1.0845436170156992
+        },
+        "fresh3000": {
+          "rows": 3000,
+          "MAE_eV_atom": 0.22631555879618823,
+          "RMSE_eV_atom": 0.3555491850523527,
+          "mean_prediction_minus_truth": -0.012173245059240539,
+          "p90_abs_error": 0.5128422248107031,
+          "p99_abs_error": 1.2119060440362832
+        }
+      },
+      "champion": {
+        "known_validation": {
+          "rows": 715,
+          "MAE_eV_atom": 0.20775105066043292,
+          "RMSE_eV_atom": 0.31364987430677754,
+          "mean_prediction_minus_truth": 0.006369949534064721,
+          "p90_abs_error": 0.4533225757156492,
+          "p99_abs_error": 1.0525271585245284
+        },
+        "fresh3000": {
+          "rows": 3000,
+          "MAE_eV_atom": 0.21639258167586573,
+          "RMSE_eV_atom": 0.3343141918165197,
+          "mean_prediction_minus_truth": -0.009434964824372323,
+          "p90_abs_error": 0.4847475026890768,
+          "p99_abs_error": 1.1677471894810183
+        }
+      }
+    },
+    "fresh_comparisons": {
+      "baseline": {
+        "MAE_difference_champion_minus_baseline": -0.006411940585379919,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.009715409943592232,
+          -0.0029520078082450273
+        ],
+        "bootstrap_unit": "chemical_system",
+        "clusters": 2893,
+        "resamples": 2000,
+        "seed": 20261007,
+        "interpretation": "One fixed same-source confirmation cohort; no causal or universal physical claim."
+      },
+      "legacy_baseline": {
+        "MAE_difference_champion_minus_baseline": -0.009922977120322524,
+        "cluster_bootstrap_95_percent_interval": [
+          -0.012406283215568975,
+          -0.007406320892769701
+        ],
+        "bootstrap_unit": "chemical_system",
+        "clusters": 2893,
+        "resamples": 2000,
+        "seed": 20261007,
+        "interpretation": "One fixed same-source confirmation cohort; no causal or universal physical claim."
+      }
+    },
+    "promotion_gates": {
+      "training_eligible": true,
+      "fresh_MAE_improved": true,
+      "fresh_cluster_CI_upper_negative": true,
+      "fresh_RMSE_nonworsening": true,
+      "fresh_p99_nonworsening": true
+    },
+    "promotion_pass": true,
+    "incumbent": "chosenAgentprogram",
+    "counts": {
+      "fit_started": 18,
+      "fit_completed": 18,
+      "fit_failed": 0
+    },
+    "elapsed_seconds": 102.60999999998603,
+    "fresh_scope": "3000 previously unobserved local IDs and chemical systems, same public MP release; no new DFT or synthesis.",
+    "known715_role": "Previously observed historical regression diagnostic, not an independent confirmation or selection criterion.",
+    "fresh_prediction_receipt_sha256": "af66d056b7f90adb5011343dc26144544eb0a57ff2951dfcbe1dc290e280f119",
+    "labels_release_receipt_sha256": "875395a9261de7133035a9b87247b5591d5b17730cb22d3ce58ab59cd2751f76",
+    "artifact_hashes": {
+      "baseline_fresh_predictions.csv.gz": "ad7e03f8097e51723edef48d5e3b465546ecc2dbd9d0c167ccf248e1afd880ec",
+      "baseline_known_validation_predictions.csv.gz": "8bf1d408a78331adc79228e63b6b9a64aa980d83b38a02205293e70cdcb8ed7e",
+      "champion_fresh_predictions.csv.gz": "3bf0a752bf2af6813569708be66225b718039371e03137d8b0c17a3fafc005cf",
+      "champion_known_validation_predictions.csv.gz": "5fe7311e2fa8640beb3d7232ff19cf07cc54385cb34738c589cc0ed8f34aada2",
+      "fit_events_live.jsonl": "708962af6eebfd817d7bba7e79f9935e68bafd9405efd5e80c2694dcfa34c348",
+      "INHERITED_R004_fresh_features.csv.gz": "410921add1854bb95b5ab79976076f724cbafab5ad8b8bb15f6b89683b386ce3",
+      "INHERITED_R004_known_validation_features.csv.gz": "e6c99a7bd93da410c8a915e7002d82bb67ec0e56b2aee4c8e8d05abfc1e0107f",
+      "legacy_baseline_fresh_predictions.csv.gz": "41690df9ba5ecc0e79c4f8a2b7e025ff2192ec94832337cad567d33b0e686513",
+      "legacy_baseline_known_validation_predictions.csv.gz": "99d5813b689259d9754bf0e0159ac26c46af32c4478dee0f2e61b1aefb9e3076",
+      "prediction_receipt.json": "af66d056b7f90adb5011343dc26144544eb0a57ff2951dfcbe1dc290e280f119",
+      "reservation.json": "68b05616280202a4f6d006fcf055f3fd8106b7fbbd6fc12905d551dbda55e09d"
+    }
+  },
+  "frozen": {
+    "schema_version": 1,
+    "frozen_utc": "2026-10-07T03:12:14.822941+00:00",
+    "candidate_id": "C015",
+    "selection": "Minimum mean-repeat OOF MAE among eligible, then candidate ID; if none eligible, minimum all is diagnostic only.",
+    "eligible_candidate_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010",
+      "C011",
+      "C012",
+      "C013",
+      "C014",
+      "C015",
+      "C016",
+      "C018",
+      "C019",
+      "C020",
+      "C021"
+    ],
+    "selected_is_eligible": true,
+    "OOF_result": {
+      "candidate_id": "C015",
+      "OOF": {
+        "rows": 4328,
+        "unique_materials": 2164,
+        "OOF_predictions_per_material": 2,
+        "MAE_eV_atom": 0.22800726391853754,
+        "RMSE_eV_atom": 0.3563599551337349,
+        "mean_repeat_RMSE_eV_atom": 0.3563511104477931,
+        "mean_prediction_minus_truth": -0.009939116712233981,
+        "p90_abs_error": 0.49507714831294014,
+        "p99_abs_error": 1.1010924045538781,
+        "partitions": {
+          "0": {
+            "seed": 20261007,
+            "rows": 2164,
+            "MAE_eV_atom": 0.2294741608308078,
+            "RMSE_eV_atom": 0.35886182858058874,
+            "p99_abs_error": 1.0946199199472395
+          },
+          "1": {
+            "seed": 20261008,
+            "rows": 2164,
+            "MAE_eV_atom": 0.22654036700626728,
+            "RMSE_eV_atom": 0.3538403923149974,
+            "p99_abs_error": 1.1227136271653513
+          }
+        },
+        "folds": {
+          "0:0": {
+            "rows": 1078,
+            "MAE_eV_atom": 0.23162948632117,
+            "RMSE_eV_atom": 0.3299463192718566,
+            "mean_prediction_minus_truth": 0.01471673568828777,
+            "p99_abs_error": 1.0697825744652638
+          },
+          "0:1": {
+            "rows": 1086,
+            "MAE_eV_atom": 0.2273347125079621,
+            "RMSE_eV_atom": 0.3854248700266577,
+            "mean_prediction_minus_truth": -0.023013202813051345,
+            "p99_abs_error": 1.1000717753832678
+          },
+          "1:0": {
+            "rows": 1081,
+            "MAE_eV_atom": 0.23873521432704137,
+            "RMSE_eV_atom": 0.39576707890504326,
+            "mean_prediction_minus_truth": -0.04414365107535524,
+            "p99_abs_error": 1.1830613748155867
+          },
+          "1:1": {
+            "rows": 1083,
+            "MAE_eV_atom": 0.21436804017916036,
+            "RMSE_eV_atom": 0.30632091918927745,
+            "mean_prediction_minus_truth": 0.012770532654579777,
+            "p99_abs_error": 1.0538134836975748
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "unique_materials": 169,
+            "rows": 338,
+            "MAE_eV_atom": 0.33273914133242405,
+            "RMSE_eV_atom": 0.46320435383773684,
+            "mean_prediction_minus_truth": -0.07973127969128768,
+            "p99_abs_error": 1.6424853106328967
+          },
+          "oxygen": {
+            "unique_materials": 837,
+            "rows": 1674,
+            "MAE_eV_atom": 0.26008885862978476,
+            "RMSE_eV_atom": 0.4201360328941121,
+            "mean_prediction_minus_truth": -0.015689703044493932,
+            "p99_abs_error": 1.1194383726253403
+          },
+          "no_oxygen": {
+            "unique_materials": 1327,
+            "rows": 2654,
+            "MAE_eV_atom": 0.20777192497858737,
+            "RMSE_eV_atom": 0.3094457868210209,
+            "mean_prediction_minus_truth": -0.006311957134161952,
+            "p99_abs_error": 1.089246650818362
+          },
+          "ternary_plus": {
+            "unique_materials": 2016,
+            "rows": 4032,
+            "MAE_eV_atom": 0.22494961936487698,
+            "RMSE_eV_atom": 0.35559992721862965,
+            "mean_prediction_minus_truth": -0.009577260816332549,
+            "p99_abs_error": 1.09849848013913
+          }
+        },
+        "metric_definition": "Pooled absolute errors of two repeated chemical-system 2-fold partitions; 4328 predictions, 2164 unique materials. Repeated blocks are not independent confirmations. Eligibility RMSE is the arithmetic mean of each repeat RMSE, distinct from pooled RMSE."
+      },
+      "incumbent_OOF_MAE": 0.23651811024055402,
+      "OOF_schedule_gate_pass": true,
+      "selection_eligible": true,
+      "eligibility_components": {
+        "repeat_0_MAE": true,
+        "repeat_1_MAE": true,
+        "mean_MAE": true,
+        "mean_repeat_RMSE": true,
+        "repeat_0_p99": true,
+        "repeat_1_p99": true
+      },
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 28,
+        "fit_completed": 28,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "repeat": 0,
+          "fold": 0,
+          "seed": 20261007,
+          "train_rows": 1086,
+          "evaluation_rows": 1078,
+          "train_IDs_sha256": "b43fb6c37193c84f162d21777c83fe0d40f86a2d81a08565ef54d2f63128d85e",
+          "evaluation_IDs_sha256": "789bf9175493b31fde49618388d341f86ed4a5363d8dff9445232b3d659a8496",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 7,
+          "worker_seconds": 25.921905999974115,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1086,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "555b4290f5d9f0970e37c4292d3e917360e2b22511d2da4622bcd8acdba1b551"
+            },
+            "y_train": {
+              "shape": [
+                1086
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "5c2f9bb55efe27a635c92ad283105ed79cecf4551990c73316321d322b87c3f9"
+            },
+            "X_eval": {
+              "shape": [
+                1078,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "5decd8ca246b092d9b9abe45d20aedcc01fa98a4ab20455f066acbcf804f42d7"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 0,
+          "fold": 1,
+          "seed": 20261007,
+          "train_rows": 1078,
+          "evaluation_rows": 1086,
+          "train_IDs_sha256": "789bf9175493b31fde49618388d341f86ed4a5363d8dff9445232b3d659a8496",
+          "evaluation_IDs_sha256": "b43fb6c37193c84f162d21777c83fe0d40f86a2d81a08565ef54d2f63128d85e",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 7,
+          "worker_seconds": 25.192203800019342,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1078,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "5decd8ca246b092d9b9abe45d20aedcc01fa98a4ab20455f066acbcf804f42d7"
+            },
+            "y_train": {
+              "shape": [
+                1078
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "940de8775adf32776f644b761330bcca99edbd77093d653f3ebc33a5ab5cab45"
+            },
+            "X_eval": {
+              "shape": [
+                1086,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "555b4290f5d9f0970e37c4292d3e917360e2b22511d2da4622bcd8acdba1b551"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 1,
+          "fold": 0,
+          "seed": 20261008,
+          "train_rows": 1083,
+          "evaluation_rows": 1081,
+          "train_IDs_sha256": "e97bc51cb6d3926c26b22829fec5dff374254d6599dd3ca6cf55f0d224c3e04d",
+          "evaluation_IDs_sha256": "4c52d63d5f581b5b83b73d3a2af4425f19e2505ba696f71cb4dc5d4b0f97822e",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 7,
+          "worker_seconds": 24.40126750001218,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1083,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "dd7a2861e5903cbf87cf7e8ff04d4a7b6152cb4652d8dd401b34e46cad14ef0e"
+            },
+            "y_train": {
+              "shape": [
+                1083
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "d292fdac8b18cf4ee530780c3b7dcfc24be1a37589d29352de3f3fd8fc73702c"
+            },
+            "X_eval": {
+              "shape": [
+                1081,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "bdb4d97a6e42337e607b89fd172f026fdf430cde7ce617675124a691e656d7fe"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 1,
+          "fold": 1,
+          "seed": 20261008,
+          "train_rows": 1081,
+          "evaluation_rows": 1083,
+          "train_IDs_sha256": "4c52d63d5f581b5b83b73d3a2af4425f19e2505ba696f71cb4dc5d4b0f97822e",
+          "evaluation_IDs_sha256": "e97bc51cb6d3926c26b22829fec5dff374254d6599dd3ca6cf55f0d224c3e04d",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 7,
+          "worker_seconds": 25.09605590000865,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1081,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "bdb4d97a6e42337e607b89fd172f026fdf430cde7ce617675124a691e656d7fe"
+            },
+            "y_train": {
+              "shape": [
+                1081
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "df79ac6a8e1153faef58f32903968db5cb6363fc8e59a9ca4b405473877360b8"
+            },
+            "X_eval": {
+              "shape": [
+                1083,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "dd7a2861e5903cbf87cf7e8ff04d4a7b6152cb4652d8dd401b34e46cad14ef0e"
+            },
+            "evaluation_targets_received": false
+          }
+        }
+      ],
+      "elapsed_seconds": 106.39100000000326,
+      "registered_hypothesis": "Test an unweighted empirical-risk ablation of C008: remove marginal composition rarity weights from both Ridge and CatBoost, retaining its125-column oxygen-gated composition/environment trend and fixed66 residual input. The trend has13 fractions13:26, eight training-only tanh standardized R004 two-step means/stds42,43,48,49,54,55,60,61 and104 oxygen-gated products; Ridge alpha100, CatBoost RMSE900/depth6/.04/l2=8/subsample=.85, .65 unchanged exact raw42 E011+.35 trend/residual. Uniform material weights may align fitting with material-weighted OOF selection but sacrifice scarce chemistries. This changes empirical risk, not feature naming/scaling, a grid or blend tuning. C014's explicit residual products failed to beat C008; return to C008 inputs and test the unresolved role of weighting. Detrending and residual targets both change with weighting, so this is a joint weighting ablation, not physical causation. No new chemical information is added, all learned transforms stay in fit, and inference is row-independent. T0063 provides no actionable remedy for previous original42 alignment failures; zero approved new structural blocks remains disclosed.",
+      "falsification": "Eligibility requires BOTH repeat MAEs<=.995 corresponding C018, pooled4328 individual absolute-error mean<=.99 C018, mean-repeat RMSE<=C018, and EACH repeat p99<=1.02 corresponding C018. Any failed gate rejects eligibility. Specifically test whether removing weights improves pooled MAE versus C008 .228440979 without worsening either repeat p99 1.084392761/1.107195593. Require nitrogen MAE/RMSE<=C008 .333483558/.464294413, oxygen MAE/RMSE/p99<=.259738851/.419269020/1.113820335, and no-oxygen MAE/p99<=.208699971/1.085343286 for a simultaneous transfer benefit. Failure of any challenges that narrower hypothesis even if eligible. Inspect every repeat/fold/group MAE,RMSE,p99,bias, especially fold1:0 p99 versus1.176957763. Uniform weights may neglect rare compositions; overlapping groups and four correlated adaptive blocks are not independent confirmation, physical mechanism, stability, synthesis feasibility or new DFT.",
+      "code_sha256": "e56ef83dd2249938f4e37461e7af583f6d81f738763c135ae4fe6b433b74a626",
+      "feature_blocks": [],
+      "scope": "Adaptive repeated trainingOOF only. Previously seen evaluations are excluded; no independent scientific confirmation or mechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "c400f2ec489c62d53f5bde6e786b7ed126c768a0323f8acc73866b372628fb4f",
+        "fit_events_live.jsonl": "dce04631e793b6d6599ce46405591eae7602f1dbd87d8dc284d5380df4ab11b8",
+        "reservation.json": "90c0bb9e7bc89696703ffaf8530b227f49886f719fd0100b76cca5b2b0194408"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e",
+        "fold_assignments_int64_little_endian": "fe2d7adbe1de1c51db47559052cb753a32ce46638e7bd6f9e44050777d2f8348",
+        "fold_assignment_shape": [
+          2164,
+          2
+        ]
+      }
+    },
+    "OOF_gate_pass": true,
+    "fresh_targets_accessed": false,
+    "model_code_sha256": "e56ef83dd2249938f4e37461e7af583f6d81f738763c135ae4fe6b433b74a626",
+    "model_file_byte_sha256": "4da63d940e197cb5b407db4136c3bbfac23094b33efd23b598326a0a3faebdb1",
+    "registration_sha256": "a18b5f7336130de113ccdf21bd5e55223dcd21491107bcb3d63f8d2a37f8f02e",
+    "selection_result_sha256": "004bc97ab76d58d691b4719752a8c76616ed4c3c2925944269553429f1ea6620",
+    "selection_OOF_predictions_sha256": "c400f2ec489c62d53f5bde6e786b7ed126c768a0323f8acc73866b372628fb4f",
+    "protocol_sha256": "f47395d7a77bf6b345941e3ff10fab0ac01b95c28e5ce9b19c65a7c5621e17c8",
+    "representation_hashes": {},
+    "fresh_manifest_sha256": "f8f59a779becbc3c24ac0f419b654d6ded3645d9399fc2e0f0cb59aa3e542633",
+    "incumbent_artifact_hashes": {
+      "[local path omitted]:fd24271fd2f6": "ded517032df29f57e637bd1ceb7e0bec168ecacca36ba9c66b83ea2f2474b4d6",
+      "[local path omitted]:b8636a067353": "be3f75c5496b416a208dda171bc59033a401ca8185700abd3c80b98c1bdee367",
+      "[local path omitted]:e4ff9f363745": "5fcc38c85faae4c12854dd49a7a824fa7030215088cbb456d9d0f8bd982e977d",
+      "[local path omitted]:1d88140523c5": "11bf2af897f8e6b7a2f929d3b59900d20997deb022c23ecd7b9c9ab28f9d58f7",
+      "[local path omitted]:154028f33d0a": "08dde850e93bb7f4fbc5a4e2e3cd2fdf846b2eabdaacae3fd14d5322169fc108",
+      "[local path omitted]:1e568af91267": "3bc8b423004daffe72d383b36cefd7dafbca8a2b8537791ac14e40f2da4e1fbb",
+      "incumbent/compute.py": "11bf2af897f8e6b7a2f929d3b59900d20997deb022c23ecd7b9c9ab28f9d58f7",
+      "incumbent/predictor.py": "ded517032df29f57e637bd1ceb7e0bec168ecacca36ba9c66b83ea2f2474b4d6",
+      "incumbent/representation_proposal.json": "08dde850e93bb7f4fbc5a4e2e3cd2fdf846b2eabdaacae3fd14d5322169fc108",
+      "incumbent/train_features.csv.gz": "3bc8b423004daffe72d383b36cefd7dafbca8a2b8537791ac14e40f2da4e1fbb",
+      "[local path omitted]:a9b64d58d1af": "2233c6262d452f37d845d5745ff7c125b57922a782183a384c5a47139a7ef037"
+    },
+    "dependency_lock_sha256": "97381b5db8b62e6f555f287ae2999cbd2cb2ca19246e3e17f75c5213ade61be9",
+    "incumbent_rule": "Retain C018 unless eligible and new confirmation MAE improves with CI upper<0, RMSE and p99 nonworsening; known715 diagnostic only."
+  },
+  "predictions": {
+    "created_utc": "2026-10-07T03:13:56.729711+00:00",
+    "frozen_champion_path": "final/champion_frozen.json",
+    "frozen_champion_sha256": "cffc70767ec7b683a242dc02e8e72ab64b7f45fe7ae120e6b403e3b4f8e8cbb5",
+    "fresh_manifest_sha256": "f8f59a779becbc3c24ac0f419b654d6ded3645d9399fc2e0f0cb59aa3e542633",
+    "predictions": {
+      "baseline": {
+        "path": "final/baseline_fresh_predictions.csv.gz",
+        "sha256": "ad7e03f8097e51723edef48d5e3b465546ecc2dbd9d0c167ccf248e1afd880ec"
+      },
+      "legacy_baseline": {
+        "path": "final/legacy_baseline_fresh_predictions.csv.gz",
+        "sha256": "41690df9ba5ecc0e79c4f8a2b7e025ff2192ec94832337cad567d33b0e686513"
+      },
+      "champion": {
+        "path": "final/champion_fresh_predictions.csv.gz",
+        "sha256": "3bf0a752bf2af6813569708be66225b718039371e03137d8b0c17a3fafc005cf"
+      }
+    },
+    "historical_known_baseline_replay_max_absolute_difference": {
+      "baseline": 0.0,
+      "legacy_baseline": 4.440892098500626e-16
+    },
+    "workers": {
+      "baseline": {
+        "status": "ok",
+        "fit_started": 6,
+        "fit_completed": 6,
+        "worker_seconds": 18.582385799993062,
+        "inference_independence_checks": 10,
+        "numeric_input_receipts": {
+          "X_train": {
+            "shape": [
+              2164,
+              66
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740"
+          },
+          "y_train": {
+            "shape": [
+              2164
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13"
+          },
+          "X_eval": {
+            "shape": [
+              3715,
+              66
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "17b408b3e4f57ee41daacc70bbab5cb214c81e5ff54074d9901ec1db39c2cabb"
+          },
+          "evaluation_targets_received": false
+        },
+        "wall_seconds": 19.85641099998611,
+        "validation": {
+          "accepted": true,
+          "code_sha256": "5bbd5e74e43b2801b1bbbf20830e7992fe97912d0dc97ade5fccd3d2d3b679b2",
+          "ast_nodes": 141,
+          "max_fits_per_block": 6,
+          "fits_performed": 0
+        }
+      },
+      "legacy_baseline": {
+        "status": "ok",
+        "fit_started": 5,
+        "fit_completed": 5,
+        "worker_seconds": 11.892464400007157,
+        "inference_independence_checks": 10,
+        "numeric_input_receipts": {
+          "X_train": {
+            "shape": [
+              2164,
+              42
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "1d11a2df12975c22aef4cdaaa3e685a497f719b2e46e27e692e77bbe3350eb94"
+          },
+          "y_train": {
+            "shape": [
+              2164
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13"
+          },
+          "X_eval": {
+            "shape": [
+              3715,
+              42
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "9671289ce97986cee515970f2e6178e36fea86c9ea00b6ffb3846cacca4182f9"
+          },
+          "evaluation_targets_received": false
+        },
+        "wall_seconds": 13.082270400016569,
+        "validation": {
+          "accepted": true,
+          "code_sha256": "69d858fd225685a3b841e088f6c1d506d876e67bda1910f2c8bd40dd0dee8ee2",
+          "ast_nodes": 27,
+          "max_fits_per_block": 5,
+          "fits_performed": 0
+        }
+      },
+      "champion": {
+        "status": "ok",
+        "fit_started": 7,
+        "fit_completed": 7,
+        "worker_seconds": 29.032019899983425,
+        "inference_independence_checks": 10,
+        "numeric_input_receipts": {
+          "X_train": {
+            "shape": [
+              2164,
+              66
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740"
+          },
+          "y_train": {
+            "shape": [
+              2164
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13"
+          },
+          "X_eval": {
+            "shape": [
+              3715,
+              66
+            ],
+            "dtype": "float64_little_endian",
+            "sha256": "17b408b3e4f57ee41daacc70bbab5cb214c81e5ff54074d9901ec1db39c2cabb"
+          },
+          "evaluation_targets_received": false
+        },
+        "wall_seconds": 30.28463229999761,
+        "validation": {
+          "accepted": true,
+          "code_sha256": "e56ef83dd2249938f4e37461e7af583f6d81f738763c135ae4fe6b433b74a626",
+          "ast_nodes": 368,
+          "max_fits_per_block": 7,
+          "fits_performed": 0
+        }
+      }
+    },
+    "fresh_labels_accessed": false
+  },
+  "release": {
+    "labels_first_accessed_utc": "2026-10-07T03:13:57.044481+00:00",
+    "saved_utc": "2026-10-07T03:13:57.359071+00:00",
+    "rows": 3000,
+    "frozen_champion_sha256": "cffc70767ec7b683a242dc02e8e72ab64b7f45fe7ae120e6b403e3b4f8e8cbb5",
+    "prediction_receipt_sha256": "af66d056b7f90adb5011343dc26144544eb0a57ff2951dfcbe1dc290e280f119",
+    "prediction_hashes": {
+      "baseline": "ad7e03f8097e51723edef48d5e3b465546ecc2dbd9d0c167ccf248e1afd880ec",
+      "legacy_baseline": "41690df9ba5ecc0e79c4f8a2b7e025ff2192ec94832337cad567d33b0e686513",
+      "champion": "3bf0a752bf2af6813569708be66225b718039371e03137d8b0c17a3fafc005cf"
+    },
+    "fresh_manifest_sha256": "f8f59a779becbc3c24ac0f419b654d6ded3645d9399fc2e0f0cb59aa3e542633",
+    "labels_sha256": "8eb3db2c809836509c9acfbcea044db192c52b6057898cf14b028ab637158218",
+    "source_energy_sha256": "f1d083a56cacb02cdcb556830f58216890f84503c6a19e1c53bf92939aaedb8e",
+    "source_elemental_reference_sha256": "9fd6ef848a91c88840a0d1709b5856d0edb4af22095237e59db52f2acd6bbf79",
+    "scope": "Same-source newly held-out local cohort; not newDFT or external-source evidence."
+  }
+}

@@ -1,0 +1,696 @@
+{
+  "B_C018": {
+    "status": "complete",
+    "result": {
+      "baseline_id": "B_C018",
+      "OOF": {
+        "rows": 4328,
+        "unique_materials": 2164,
+        "OOF_predictions_per_material": 2,
+        "MAE_eV_atom": 0.23651811024055402,
+        "RMSE_eV_atom": 0.3687069006214051,
+        "mean_repeat_RMSE_eV_atom": 0.3687045539233502,
+        "mean_prediction_minus_truth": -0.0038881068599664792,
+        "p90_abs_error": 0.5242021205015536,
+        "p99_abs_error": 1.157772670160372,
+        "partitions": {
+          "0": {
+            "seed": 20261007,
+            "rows": 2164,
+            "MAE_eV_atom": 0.2372896557014717,
+            "RMSE_eV_atom": 0.3700200317931727,
+            "p99_abs_error": 1.1547317355941293
+          },
+          "1": {
+            "seed": 20261008,
+            "rows": 2164,
+            "MAE_eV_atom": 0.23574656477963635,
+            "RMSE_eV_atom": 0.3673890760535278,
+            "p99_abs_error": 1.1637829850114152
+          }
+        },
+        "folds": {
+          "0:0": {
+            "rows": 1078,
+            "MAE_eV_atom": 0.23916321044303823,
+            "RMSE_eV_atom": 0.34362993842405876,
+            "mean_prediction_minus_truth": 0.02101363088955144,
+            "p99_abs_error": 1.115842289394556
+          },
+          "0:1": {
+            "rows": 1086,
+            "MAE_eV_atom": 0.23542990246813028,
+            "RMSE_eV_atom": 0.39447354560051373,
+            "mean_prediction_minus_truth": -0.019142874898691705,
+            "p99_abs_error": 1.1751851112147587
+          },
+          "1:0": {
+            "rows": 1081,
+            "MAE_eV_atom": 0.24187613176329698,
+            "RMSE_eV_atom": 0.4000030192216112,
+            "mean_prediction_minus_truth": -0.04172127913983972,
+            "p99_abs_error": 1.2347918456418956
+          },
+          "1:1": {
+            "rows": 1083,
+            "MAE_eV_atom": 0.2296283174025938,
+            "RMSE_eV_atom": 0.3316523333153731,
+            "mean_prediction_minus_truth": 0.024385451801730886,
+            "p99_abs_error": 1.1185692742947595
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "unique_materials": 169,
+            "rows": 338,
+            "MAE_eV_atom": 0.34188688806862516,
+            "RMSE_eV_atom": 0.48419357201958313,
+            "mean_prediction_minus_truth": -0.10576894954186451,
+            "p99_abs_error": 1.8819598008607974
+          },
+          "oxygen": {
+            "unique_materials": 837,
+            "rows": 1674,
+            "MAE_eV_atom": 0.27476108875507205,
+            "RMSE_eV_atom": 0.43630010483670917,
+            "mean_prediction_minus_truth": -0.011860099893100154,
+            "p99_abs_error": 1.2284315231997824
+          },
+          "no_oxygen": {
+            "unique_materials": 1327,
+            "rows": 2654,
+            "MAE_eV_atom": 0.2123965028429266,
+            "RMSE_eV_atom": 0.31878518198178074,
+            "mean_prediction_minus_truth": 0.0011401962061472223,
+            "p99_abs_error": 1.1163376595938101
+          },
+          "ternary_plus": {
+            "unique_materials": 2016,
+            "rows": 4032,
+            "MAE_eV_atom": 0.23438109345600341,
+            "RMSE_eV_atom": 0.36923898522276627,
+            "mean_prediction_minus_truth": -0.0036548078723242492,
+            "p99_abs_error": 1.1549172486567112
+          }
+        },
+        "metric_definition": "Pooled absolute errors of two repeated chemical-system 2-fold partitions; 4328 predictions, 2164 unique materials. Repeated blocks are not independent confirmations. Eligibility RMSE is the arithmetic mean of each repeat RMSE, distinct from pooled RMSE."
+      },
+      "actual_new_fits": {
+        "fit_started": 24,
+        "fit_completed": 24,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "repeat": 0,
+          "fold": 0,
+          "seed": 20261007,
+          "train_rows": 1086,
+          "evaluation_rows": 1078,
+          "train_IDs_sha256": "b43fb6c37193c84f162d21777c83fe0d40f86a2d81a08565ef54d2f63128d85e",
+          "evaluation_IDs_sha256": "789bf9175493b31fde49618388d341f86ed4a5363d8dff9445232b3d659a8496",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 40.05482679998386,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1086,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "555b4290f5d9f0970e37c4292d3e917360e2b22511d2da4622bcd8acdba1b551"
+            },
+            "y_train": {
+              "shape": [
+                1086
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "5c2f9bb55efe27a635c92ad283105ed79cecf4551990c73316321d322b87c3f9"
+            },
+            "X_eval": {
+              "shape": [
+                1078,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "5decd8ca246b092d9b9abe45d20aedcc01fa98a4ab20455f066acbcf804f42d7"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 0,
+          "fold": 1,
+          "seed": 20261007,
+          "train_rows": 1078,
+          "evaluation_rows": 1086,
+          "train_IDs_sha256": "789bf9175493b31fde49618388d341f86ed4a5363d8dff9445232b3d659a8496",
+          "evaluation_IDs_sha256": "b43fb6c37193c84f162d21777c83fe0d40f86a2d81a08565ef54d2f63128d85e",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 14.159821999986889,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1078,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "5decd8ca246b092d9b9abe45d20aedcc01fa98a4ab20455f066acbcf804f42d7"
+            },
+            "y_train": {
+              "shape": [
+                1078
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "940de8775adf32776f644b761330bcca99edbd77093d653f3ebc33a5ab5cab45"
+            },
+            "X_eval": {
+              "shape": [
+                1086,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "555b4290f5d9f0970e37c4292d3e917360e2b22511d2da4622bcd8acdba1b551"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 1,
+          "fold": 0,
+          "seed": 20261008,
+          "train_rows": 1083,
+          "evaluation_rows": 1081,
+          "train_IDs_sha256": "e97bc51cb6d3926c26b22829fec5dff374254d6599dd3ca6cf55f0d224c3e04d",
+          "evaluation_IDs_sha256": "4c52d63d5f581b5b83b73d3a2af4425f19e2505ba696f71cb4dc5d4b0f97822e",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.987254300009226,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1083,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "dd7a2861e5903cbf87cf7e8ff04d4a7b6152cb4652d8dd401b34e46cad14ef0e"
+            },
+            "y_train": {
+              "shape": [
+                1083
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "d292fdac8b18cf4ee530780c3b7dcfc24be1a37589d29352de3f3fd8fc73702c"
+            },
+            "X_eval": {
+              "shape": [
+                1081,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "bdb4d97a6e42337e607b89fd172f026fdf430cde7ce617675124a691e656d7fe"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 1,
+          "fold": 1,
+          "seed": 20261008,
+          "train_rows": 1081,
+          "evaluation_rows": 1083,
+          "train_IDs_sha256": "4c52d63d5f581b5b83b73d3a2af4425f19e2505ba696f71cb4dc5d4b0f97822e",
+          "evaluation_IDs_sha256": "e97bc51cb6d3926c26b22829fec5dff374254d6599dd3ca6cf55f0d224c3e04d",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.462127199978568,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1081,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "bdb4d97a6e42337e607b89fd172f026fdf430cde7ce617675124a691e656d7fe"
+            },
+            "y_train": {
+              "shape": [
+                1081
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "df79ac6a8e1153faef58f32903968db5cb6363fc8e59a9ca4b405473877360b8"
+            },
+            "X_eval": {
+              "shape": [
+                1083,
+                66
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "dd7a2861e5903cbf87cf7e8ff04d4a7b6152cb4652d8dd401b34e46cad14ef0e"
+            },
+            "evaluation_targets_received": false
+          }
+        }
+      ],
+      "elapsed_seconds": 79.04699999999139,
+      "code_sha256": "5bbd5e74e43b2801b1bbbf20830e7992fe97912d0dc97ade5fccd3d2d3b679b2",
+      "features": [
+        "comp_n_elements",
+        "comp_entropy",
+        "comp_max_fraction",
+        "comp_electronegativity_mean",
+        "comp_electronegativity_std",
+        "comp_electronegativity_min",
+        "comp_electronegativity_max",
+        "comp_electronegativity_range",
+        "comp_atomic_radius_mean",
+        "comp_atomic_radius_std",
+        "comp_radius_cv",
+        "comp_Z_mean",
+        "comp_Z_std",
+        "comp_fraction_Z001",
+        "comp_fraction_Z005",
+        "comp_fraction_Z006",
+        "comp_fraction_Z007",
+        "comp_fraction_Z008",
+        "comp_fraction_Z009",
+        "comp_fraction_Z015",
+        "comp_fraction_Z016",
+        "comp_fraction_Z017",
+        "comp_halogen_fraction",
+        "comp_chalcogen_fraction",
+        "comp_alkali_alkaline_fraction",
+        "comp_transition_fraction",
+        "relaxed_min_distance_A",
+        "relaxed_min_covalent_ratio",
+        "relaxed_volume_per_atom_A3",
+        "relaxed_covalent_sphere_volume_fraction",
+        "log_volume_per_atom",
+        "log_edges6_per_atom",
+        "smooth_coord_mean",
+        "contact_q_mean",
+        "site_field_abs_mean",
+        "site_field_abs_std",
+        "site_ionic_load_mean",
+        "site_ionic_load_std",
+        "en_coord_correlation",
+        "contact_en_assortativity",
+        "contact_radius_mismatch_mean",
+        "strain_ionic_coupling",
+        "R004_graph_log_coordination_two_step_mean",
+        "R004_graph_log_coordination_two_step_std",
+        "R004_graph_log_coordination_edge_contrast_mean",
+        "R004_graph_log_coordination_edge_contrast_std",
+        "R004_graph_log_coordination_neighbor_environment_variance",
+        "R004_graph_log_coordination_edge_environment_covariance",
+        "R004_graph_neighbor_en_two_step_mean",
+        "R004_graph_neighbor_en_two_step_std",
+        "R004_graph_neighbor_en_edge_contrast_mean",
+        "R004_graph_neighbor_en_edge_contrast_std",
+        "R004_graph_neighbor_en_neighbor_environment_variance",
+        "R004_graph_neighbor_en_edge_environment_covariance",
+        "R004_graph_neighbor_en_variance_two_step_mean",
+        "R004_graph_neighbor_en_variance_two_step_std",
+        "R004_graph_neighbor_en_variance_edge_contrast_mean",
+        "R004_graph_neighbor_en_variance_edge_contrast_std",
+        "R004_graph_neighbor_en_variance_neighbor_environment_variance",
+        "R004_graph_neighbor_en_variance_edge_environment_covariance",
+        "R004_graph_unlike_fraction_two_step_mean",
+        "R004_graph_unlike_fraction_two_step_std",
+        "R004_graph_unlike_fraction_edge_contrast_mean",
+        "R004_graph_unlike_fraction_edge_contrast_std",
+        "R004_graph_unlike_fraction_neighbor_environment_variance",
+        "R004_graph_unlike_fraction_edge_environment_covariance"
+      ],
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e",
+        "fold_assignments_int64_little_endian": "fe2d7adbe1de1c51db47559052cb753a32ce46638e7bd6f9e44050777d2f8348",
+        "fold_assignment_shape": [
+          2164,
+          2
+        ]
+      },
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "scope": "Actual newly registered repeated training OOF baseline, not a new external confirmation.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "5353cd8bc077fbcb659526212fb13a18493fd6dc190be14811fe1ded0df8c04a",
+        "fit_events_live.jsonl": "f9d9d006702671467355d614b09b0191e00585e6e3d3176da5ec6344566c15b2",
+        "reservation.json": "837cc1b7dec2f0885cadb980804f3d10a7b39e4dc1c24f59899e45b94140720c",
+        "predictor.py": "ded517032df29f57e637bd1ceb7e0bec168ecacca36ba9c66b83ea2f2474b4d6"
+      }
+    },
+    "result_sha256": "fd1c18ddc9328bb1f154160ff5fe959f29255170268c3bc0768da1033b84f651"
+  },
+  "B_E011": {
+    "status": "complete",
+    "result": {
+      "baseline_id": "B_E011",
+      "OOF": {
+        "rows": 4328,
+        "unique_materials": 2164,
+        "OOF_predictions_per_material": 2,
+        "MAE_eV_atom": 0.23981190103999864,
+        "RMSE_eV_atom": 0.372875435648211,
+        "mean_repeat_RMSE_eV_atom": 0.3728695065531882,
+        "mean_prediction_minus_truth": -0.010690615590623445,
+        "p90_abs_error": 0.5301666211428951,
+        "p99_abs_error": 1.1823259521353642,
+        "partitions": {
+          "0": {
+            "seed": 20261007,
+            "rows": 2164,
+            "MAE_eV_atom": 0.24136517388868647,
+            "RMSE_eV_atom": 0.3749722648904888,
+            "p99_abs_error": 1.1743271760257694
+          },
+          "1": {
+            "seed": 20261008,
+            "rows": 2164,
+            "MAE_eV_atom": 0.23825862819131077,
+            "RMSE_eV_atom": 0.3707667482158876,
+            "p99_abs_error": 1.2027932665065812
+          }
+        },
+        "folds": {
+          "0:0": {
+            "rows": 1078,
+            "MAE_eV_atom": 0.24265087249104503,
+            "RMSE_eV_atom": 0.34982197606085336,
+            "mean_prediction_minus_truth": 0.009938857709810083,
+            "p99_abs_error": 1.1780845425192554
+          },
+          "0:1": {
+            "rows": 1086,
+            "MAE_eV_atom": 0.24008894636258843,
+            "RMSE_eV_atom": 0.3983700565014538,
+            "mean_prediction_minus_truth": -0.020773539337893027,
+            "p99_abs_error": 1.170330307428357
+          },
+          "1:0": {
+            "rows": 1081,
+            "MAE_eV_atom": 0.2490139763376117,
+            "RMSE_eV_atom": 0.4101154472589217,
+            "mean_prediction_minus_truth": -0.04648941092801716,
+            "p99_abs_error": 1.2635614713638017
+          },
+          "1:1": {
+            "rows": 1083,
+            "MAE_eV_atom": 0.22752314218378417,
+            "RMSE_eV_atom": 0.32679967374063307,
+            "mean_prediction_minus_truth": 0.014618692563937987,
+            "p99_abs_error": 1.1146490809051839
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "unique_materials": 169,
+            "rows": 338,
+            "MAE_eV_atom": 0.35786146184670187,
+            "RMSE_eV_atom": 0.49710884561398816,
+            "mean_prediction_minus_truth": -0.10275001556034119,
+            "p99_abs_error": 1.7670476270618636
+          },
+          "oxygen": {
+            "unique_materials": 837,
+            "rows": 1674,
+            "MAE_eV_atom": 0.2833840187397849,
+            "RMSE_eV_atom": 0.4434231030790338,
+            "mean_prediction_minus_truth": -0.01840495505120683,
+            "p99_abs_error": 1.2594044376487379
+          },
+          "no_oxygen": {
+            "unique_materials": 1327,
+            "rows": 2654,
+            "MAE_eV_atom": 0.21232896018489605,
+            "RMSE_eV_atom": 0.32048824306142176,
+            "mean_prediction_minus_truth": -0.005824826496042967,
+            "p99_abs_error": 1.1599741949886866
+          },
+          "ternary_plus": {
+            "unique_materials": 2016,
+            "rows": 4032,
+            "MAE_eV_atom": 0.23790975067649084,
+            "RMSE_eV_atom": 0.3732634639039159,
+            "mean_prediction_minus_truth": -0.010370589180675205,
+            "p99_abs_error": 1.1682069218977513
+          }
+        },
+        "metric_definition": "Pooled absolute errors of two repeated chemical-system 2-fold partitions; 4328 predictions, 2164 unique materials. Repeated blocks are not independent confirmations. Eligibility RMSE is the arithmetic mean of each repeat RMSE, distinct from pooled RMSE."
+      },
+      "actual_new_fits": {
+        "fit_started": 20,
+        "fit_completed": 20,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "repeat": 0,
+          "fold": 0,
+          "seed": 20261007,
+          "train_rows": 1086,
+          "evaluation_rows": 1078,
+          "train_IDs_sha256": "b43fb6c37193c84f162d21777c83fe0d40f86a2d81a08565ef54d2f63128d85e",
+          "evaluation_IDs_sha256": "789bf9175493b31fde49618388d341f86ed4a5363d8dff9445232b3d659a8496",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 6.824744899990037,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1086,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "9ec52ff3cb9518773c6b6f50b328acf8584994e5206e3b725fbfa9a0ae732d7c"
+            },
+            "y_train": {
+              "shape": [
+                1086
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "5c2f9bb55efe27a635c92ad283105ed79cecf4551990c73316321d322b87c3f9"
+            },
+            "X_eval": {
+              "shape": [
+                1078,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "1057cc7b73ef8f970ed82b56916d3da57303e407b65fc7207c71ceedd65932e9"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 0,
+          "fold": 1,
+          "seed": 20261007,
+          "train_rows": 1078,
+          "evaluation_rows": 1086,
+          "train_IDs_sha256": "789bf9175493b31fde49618388d341f86ed4a5363d8dff9445232b3d659a8496",
+          "evaluation_IDs_sha256": "b43fb6c37193c84f162d21777c83fe0d40f86a2d81a08565ef54d2f63128d85e",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 6.601398300001165,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1078,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "1057cc7b73ef8f970ed82b56916d3da57303e407b65fc7207c71ceedd65932e9"
+            },
+            "y_train": {
+              "shape": [
+                1078
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "940de8775adf32776f644b761330bcca99edbd77093d653f3ebc33a5ab5cab45"
+            },
+            "X_eval": {
+              "shape": [
+                1086,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "9ec52ff3cb9518773c6b6f50b328acf8584994e5206e3b725fbfa9a0ae732d7c"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 1,
+          "fold": 0,
+          "seed": 20261008,
+          "train_rows": 1083,
+          "evaluation_rows": 1081,
+          "train_IDs_sha256": "e97bc51cb6d3926c26b22829fec5dff374254d6599dd3ca6cf55f0d224c3e04d",
+          "evaluation_IDs_sha256": "4c52d63d5f581b5b83b73d3a2af4425f19e2505ba696f71cb4dc5d4b0f97822e",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 6.241209300002083,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1083,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "84d0613d4f0de534d829f7f23eb57e7cd5006b1052bd658b125fcac03497e5dc"
+            },
+            "y_train": {
+              "shape": [
+                1083
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "d292fdac8b18cf4ee530780c3b7dcfc24be1a37589d29352de3f3fd8fc73702c"
+            },
+            "X_eval": {
+              "shape": [
+                1081,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "90aedbe6aa96ef477b1b6291ace01d889ab40e438a47cf845f21b801439140c1"
+            },
+            "evaluation_targets_received": false
+          }
+        },
+        {
+          "repeat": 1,
+          "fold": 1,
+          "seed": 20261008,
+          "train_rows": 1081,
+          "evaluation_rows": 1083,
+          "train_IDs_sha256": "4c52d63d5f581b5b83b73d3a2af4425f19e2505ba696f71cb4dc5d4b0f97822e",
+          "evaluation_IDs_sha256": "e97bc51cb6d3926c26b22829fec5dff374254d6599dd3ca6cf55f0d224c3e04d",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 6.7754990000103135,
+          "inference_independence_checks": 10,
+          "numeric_input_receipts": {
+            "X_train": {
+              "shape": [
+                1081,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "90aedbe6aa96ef477b1b6291ace01d889ab40e438a47cf845f21b801439140c1"
+            },
+            "y_train": {
+              "shape": [
+                1081
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "df79ac6a8e1153faef58f32903968db5cb6363fc8e59a9ca4b405473877360b8"
+            },
+            "X_eval": {
+              "shape": [
+                1083,
+                42
+              ],
+              "dtype": "float64_little_endian",
+              "sha256": "84d0613d4f0de534d829f7f23eb57e7cd5006b1052bd658b125fcac03497e5dc"
+            },
+            "evaluation_targets_received": false
+          }
+        }
+      ],
+      "elapsed_seconds": 31.125,
+      "code_sha256": "69d858fd225685a3b841e088f6c1d506d876e67bda1910f2c8bd40dd0dee8ee2",
+      "features": [
+        "comp_n_elements",
+        "comp_entropy",
+        "comp_max_fraction",
+        "comp_electronegativity_mean",
+        "comp_electronegativity_std",
+        "comp_electronegativity_min",
+        "comp_electronegativity_max",
+        "comp_electronegativity_range",
+        "comp_atomic_radius_mean",
+        "comp_atomic_radius_std",
+        "comp_radius_cv",
+        "comp_Z_mean",
+        "comp_Z_std",
+        "comp_fraction_Z001",
+        "comp_fraction_Z005",
+        "comp_fraction_Z006",
+        "comp_fraction_Z007",
+        "comp_fraction_Z008",
+        "comp_fraction_Z009",
+        "comp_fraction_Z015",
+        "comp_fraction_Z016",
+        "comp_fraction_Z017",
+        "comp_halogen_fraction",
+        "comp_chalcogen_fraction",
+        "comp_alkali_alkaline_fraction",
+        "comp_transition_fraction",
+        "relaxed_min_distance_A",
+        "relaxed_min_covalent_ratio",
+        "relaxed_volume_per_atom_A3",
+        "relaxed_covalent_sphere_volume_fraction",
+        "log_volume_per_atom",
+        "log_edges6_per_atom",
+        "smooth_coord_mean",
+        "contact_q_mean",
+        "site_field_abs_mean",
+        "site_field_abs_std",
+        "site_ionic_load_mean",
+        "site_ionic_load_std",
+        "en_coord_correlation",
+        "contact_en_assortativity",
+        "contact_radius_mismatch_mean",
+        "strain_ionic_coupling"
+      ],
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "1d11a2df12975c22aef4cdaaa3e685a497f719b2e46e27e692e77bbe3350eb94",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e",
+        "fold_assignments_int64_little_endian": "fe2d7adbe1de1c51db47559052cb753a32ce46638e7bd6f9e44050777d2f8348",
+        "fold_assignment_shape": [
+          2164,
+          2
+        ]
+      },
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "scope": "Actual newly registered repeated training OOF baseline, not a new external confirmation.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "96c00b60423b2c419ebce279e8c9b932de2ab41582019288c7695314cfbc0e6d",
+        "fit_events_live.jsonl": "fa644f53f56bd6dac9300daf1874be6d7a451cd9852d3602f64d77598a41db38",
+        "reservation.json": "8db3fcf628c05ee3ba52b41fce385064a4b9aef48e2928f313aa626b24b82718",
+        "predictor.py": "0db5a5669d7154e9ed7b555495256391d83ce8905d2187a1ef740d07a30c24c7"
+      }
+    },
+    "result_sha256": "63b6504d73895fcdc0c4a65c21f81dab114598a3d10c20f7e6893338195ae547"
+  }
+}

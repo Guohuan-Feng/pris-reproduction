@@ -1,0 +1,8 @@
+{
+  "feature_blocks": [],
+  "max_fits_per_block": 7,
+  "hypothesis": "Test a previously unrun objective-complementary symmetric-tree boosting ensemble: 0.65 frozen raw42 E011 + 0.20 raw-target CatBoost RMSE + 0.15 raw-target CatBoost Huber(delta=0.5), both CatBoost learners using fixed66. Unlike incumbent signed-log HGB, raw-target symmetric trees learn composition/local-graph interactions with different partition regularization; Huber bounds large-residual influence while the RMSE component retains sensitivity to extreme formation energies. This tests a predictive inductive bias, not new chemical information or physical causation. Hyperparameters and weights are fixed before OOF feedback; no grid or fit on evaluation rows.",
+  "falsification": "The candidate is supported only if BOTH repeat MAEs <=0.995 times corresponding C018, pooled MAE <=0.99 C018, mean-repeat RMSE <=C018, and each repeat p99 <=1.02 C018. Failure of any condition falsifies promotion for this specific objective-complementary blend. Inspect all four folds and nitrogen/oxygen/no-oxygen/ternary-plus groups: worsened nitrogen or oxygen tail/bias would challenge the proposed robustness benefit even if pooled MAE improves. This single ensemble experiment cannot separately identify the contribution of tree architecture versus either loss.",
+  "attempt": "[local path omitted]",
+  "utc": "2026-10-07T01:09:28.732437+00:00"
+}

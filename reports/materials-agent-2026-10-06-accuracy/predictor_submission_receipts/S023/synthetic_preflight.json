@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "scientific_fits": 0,
+  "actual_LLM_calls": 0,
+  "n_features": 66,
+  "max_fits_per_block": 7,
+  "scope": "Invented-array dry run with arithmetic model mocks; no scientific performance result",
+  "limitations": "Synthetic input routes may differ from real data. Inference checks are probes, not a universal proof.",
+  "timeout_seconds": 20,
+  "memory_mb": 2048,
+  "AST_validation": {
+    "accepted": true,
+    "code_sha256": "b2bcaba2aff38c0d0b9cbbea87b6e213d8565978c920d0d4d34d8265e2a2a6ba",
+    "ast_nodes": 552,
+    "max_fits_per_block": 7,
+    "fits_performed": 0
+  },
+  "code_sha256": "b2bcaba2aff38c0d0b9cbbea87b6e213d8565978c920d0d4d34d8265e2a2a6ba",
+  "accepted": true,
+  "mock_learner_fit_started": 7,
+  "mock_learner_fit_completed": 7,
+  "mock_factory_fit_calls": 7,
+  "inference_independence_probes": 10,
+  "prediction_shape": [
+    19
+  ],
+  "prediction_finite": true,
+  "mock_calls": [
+    {
+      "rows": 320,
+      "features": 125,
+      "parameters": {
+        "alpha": 100.0,
+        "fit_intercept": true
+      },
+      "sample_weight_received": false
+    },
+    {
+      "rows": 320,
+      "features": 66,
+      "parameters": {
+        "iterations": 900,
+        "depth": 6,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 8.0,
+        "loss_function": "RMSE",
+        "subsample": 0.85,
+        "bootstrap_type": "Bernoulli",
+        "thread_count": 1,
+        "random_seed": 20261006,
+        "allow_writing_files": false,
+        "task_type": "CPU",
+        "verbose": false
+      },
+      "sample_weight_received": false
+    },
+    {
+      "rows": 320,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false
+    },
+    {
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false
+    },
+    {
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false
+    },
+    {
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false
+    },
+    {
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false
+    }
+  ],
+  "worker_seconds": 0.4226535000198055,
+  "input_kind": "Invented deterministic arrays and targets only",
+  "mock_fit_events": [
+    {
+      "fit_id": "synthetic_preflight_F001",
+      "learner": "ridge",
+      "rows": 320,
+      "features": 125,
+      "parameters": {
+        "alpha": 100.0,
+        "fit_intercept": true
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.398312
+    },
+    {
+      "fit_id": "synthetic_preflight_F001",
+      "learner": "ridge",
+      "rows": 320,
+      "features": 125,
+      "parameters": {
+        "alpha": 100.0,
+        "fit_intercept": true
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4018207
+    },
+    {
+      "fit_id": "synthetic_preflight_F002",
+      "learner": "catboost",
+      "rows": 320,
+      "features": 66,
+      "parameters": {
+        "iterations": 900,
+        "depth": 6,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 8.0,
+        "loss_function": "RMSE",
+        "subsample": 0.85,
+        "bootstrap_type": "Bernoulli",
+        "thread_count": 1,
+        "random_seed": 20261006,
+        "allow_writing_files": false,
+        "task_type": "CPU",
+        "verbose": false
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4073367
+    },
+    {
+      "fit_id": "synthetic_preflight_F002",
+      "learner": "catboost",
+      "rows": 320,
+      "features": 66,
+      "parameters": {
+        "iterations": 900,
+        "depth": 6,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 8.0,
+        "loss_function": "RMSE",
+        "subsample": 0.85,
+        "bootstrap_type": "Bernoulli",
+        "thread_count": 1,
+        "random_seed": 20261006,
+        "allow_writing_files": false,
+        "task_type": "CPU",
+        "verbose": false
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.408338
+    },
+    {
+      "fit_id": "synthetic_preflight_F003",
+      "learner": "extra_trees",
+      "rows": 320,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.411853
+    },
+    {
+      "fit_id": "synthetic_preflight_F003",
+      "learner": "extra_trees",
+      "rows": 320,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.414363
+    },
+    {
+      "fit_id": "synthetic_preflight_F004",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4173672
+    },
+    {
+      "fit_id": "synthetic_preflight_F004",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4183683
+    },
+    {
+      "fit_id": "synthetic_preflight_F005",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4208803
+    },
+    {
+      "fit_id": "synthetic_preflight_F005",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4233885
+    },
+    {
+      "fit_id": "synthetic_preflight_F006",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4254007
+    },
+    {
+      "fit_id": "synthetic_preflight_F006",
+      "learner": "hgb",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "learning_rate": 0.1,
+        "l2_regularization": 0,
+        "loss": "squared_error",
+        "early_stopping": false,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4284008
+    },
+    {
+      "fit_id": "synthetic_preflight_F007",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "started",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.4299045
+    },
+    {
+      "fit_id": "synthetic_preflight_F007",
+      "learner": "extra_trees",
+      "rows": 160,
+      "features": 42,
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "n_jobs": 1,
+        "random_state": 20261002
+      },
+      "sample_weight_received": false,
+      "sample_weight_sha256": null,
+      "phase": "completed",
+      "block_id": "synthetic_preflight",
+      "utc": 1791342239.43291
+    }
+  ],
+  "stage": "synthetic_execution",
+  "wall_seconds": 2.3624391999910586
+}
