@@ -1,0 +1,70 @@
+{
+  "representation_id": "LINEGRAPH24",
+  "feature_names": [
+    "LINEGRAPH24_geometry_l1_mean",
+    "LINEGRAPH24_geometry_l2_mean",
+    "LINEGRAPH24_geometry_l3_mean",
+    "LINEGRAPH24_en_ratio_l1_mean",
+    "LINEGRAPH24_en_ratio_l2_mean",
+    "LINEGRAPH24_en_ratio_l3_mean",
+    "LINEGRAPH24_radius_ratio_l1_mean",
+    "LINEGRAPH24_radius_ratio_l2_mean",
+    "LINEGRAPH24_radius_ratio_l3_mean",
+    "LINEGRAPH24_unlike_element_l1_mean",
+    "LINEGRAPH24_unlike_element_l2_mean",
+    "LINEGRAPH24_unlike_element_l3_mean",
+    "LINEGRAPH24_geometry_l1_std",
+    "LINEGRAPH24_geometry_l2_std",
+    "LINEGRAPH24_geometry_l3_std",
+    "LINEGRAPH24_en_ratio_l1_std",
+    "LINEGRAPH24_en_ratio_l2_std",
+    "LINEGRAPH24_en_ratio_l3_std",
+    "LINEGRAPH24_radius_ratio_l1_std",
+    "LINEGRAPH24_radius_ratio_l2_std",
+    "LINEGRAPH24_radius_ratio_l3_std",
+    "LINEGRAPH24_unlike_element_l1_std",
+    "LINEGRAPH24_unlike_element_l2_std",
+    "LINEGRAPH24_unlike_element_l3_std"
+  ],
+  "source_sha256": "7ca91e1252bc95e7b31fd637074334bc746e043352490805e268ecf6f4239317",
+  "runtime_normalized_code_sha256": "7ca91e1252bc95e7b31fd637074334bc746e043352490805e268ecf6f4239317",
+  "code_origin": "Agent-authored pure compute(structure); one preregistered representation family",
+  "scientific_scope": "24 standalone input-only features; a fixed-learner ablation must determine accuracy benefit. No accuracy evaluation here.",
+  "motivation": "Joint neighbor chemical contrasts and angular arrangement can distinguish local environments collapsed by scalar two-step graph summaries. Relation-aware inspiration does not imply ALIGNN architecture, neural model, or checkpoint reuse.",
+  "channel_order": [
+    "geometry",
+    "en_ratio",
+    "radius_ratio",
+    "unlike_element"
+  ],
+  "channel_definitions": {
+    "geometry": "1",
+    "en_ratio": "(EN_neighbor-EN_center)/(EN_neighbor+EN_center), set0 if either EN<=0; historical0 denotes missing EN",
+    "radius_ratio": "(covalent_radius_neighbor-covalent_radius_center)/(covalent_radius_neighbor+covalent_radius_center)",
+    "unlike_element": "1 if neighbor atomic number differs from center, else0"
+  },
+  "radial_weight": "exp(-(distance/(covalent_radius_center+covalent_radius_neighbor))^2), normalized by sum radial weights at each center; no learned scales",
+  "neighbor_policy": "All supplied directed periodic6angstrom edges; Cartesian relative vector=(frac_neighbor+image-frac_center)@lattice; zero-distance edges ignored",
+  "angular_kernel": "Per channel coefficients b_e=w_e*channel_e/sum(w). Q_l=sum_e,f b_e*b_f*P_l(u_e dot u_f), l=1,2,3, including diagonal pairs.",
+  "moment_contractions": {
+    "l1": "||sum b*u||^2",
+    "l2": "(3*||sum b*u⊗u||_F^2-(sum b)^2)/2",
+    "l3": "(5*||sum b*u⊗u⊗u||_F^2-3*||sum b*u||^2)/2"
+  },
+  "aggregation": "For each12 site powers, material unweighted site mean then population std (ddof0); intensive under cell replication",
+  "edge_cases": "Empty center gives twelve0; empty edge graph gives24zeros. Negative roundoff of positive-semidefinite angular power is clipped to0. MissingEN contributes no EN-channel coefficient.",
+  "complexity": "O(periodic_edges*4*27 + sites*12); no neighbor-pair matrix in submitted compute",
+  "allowed_input_fields": [
+    "n_sites",
+    "neighbor_center",
+    "neighbor_index",
+    "neighbor_image",
+    "frac_coords",
+    "lattice",
+    "covalent_radii",
+    "electronegativities",
+    "atomic_numbers"
+  ],
+  "identifiers_paths_targets_used": false,
+  "falsification": "Reject on any geometry or batch-invariance failure, nonfinite/constant/internal-duplicate output, affine scalar duplicate against fixed66 or all12 prior matrices, or poor accuracy in the later separately frozen fixed-learner ablation. Do not substitute another family after viewing outcome."
+}

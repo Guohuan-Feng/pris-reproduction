@@ -1,0 +1,58 @@
+{
+  "status": "PASS_SCOPE_DISCLOSURE_ONLY",
+  "scientific_fits_performed": 0,
+  "target_values_accessed": false,
+  "source_unchanged_sha256": "7ca91e1252bc95e7b31fd637074334bc746e043352490805e268ecf6f4239317",
+  "pure_geometry_controls": [
+    "LINEGRAPH24_geometry_l1_mean",
+    "LINEGRAPH24_geometry_l2_mean",
+    "LINEGRAPH24_geometry_l3_mean",
+    "LINEGRAPH24_geometry_l1_std",
+    "LINEGRAPH24_geometry_l2_std",
+    "LINEGRAPH24_geometry_l3_std"
+  ],
+  "pure_geometry_control_count": 6,
+  "chemical_angular_columns": [
+    "LINEGRAPH24_en_ratio_l1_mean",
+    "LINEGRAPH24_en_ratio_l2_mean",
+    "LINEGRAPH24_en_ratio_l3_mean",
+    "LINEGRAPH24_radius_ratio_l1_mean",
+    "LINEGRAPH24_radius_ratio_l2_mean",
+    "LINEGRAPH24_radius_ratio_l3_mean",
+    "LINEGRAPH24_unlike_element_l1_mean",
+    "LINEGRAPH24_unlike_element_l2_mean",
+    "LINEGRAPH24_unlike_element_l3_mean",
+    "LINEGRAPH24_en_ratio_l1_std",
+    "LINEGRAPH24_en_ratio_l2_std",
+    "LINEGRAPH24_en_ratio_l3_std",
+    "LINEGRAPH24_radius_ratio_l1_std",
+    "LINEGRAPH24_radius_ratio_l2_std",
+    "LINEGRAPH24_radius_ratio_l3_std",
+    "LINEGRAPH24_unlike_element_l1_std",
+    "LINEGRAPH24_unlike_element_l2_std",
+    "LINEGRAPH24_unlike_element_l3_std"
+  ],
+  "chemical_angular_column_count": 18,
+  "prior_R003_source": "C:\\Users\\28908\\OneDrive\\文档\\ChatGPT\\fung教授科研\\work\\materials_evolving_agent_2026-10-06_recovery1\\representations\\R003\\compute.py",
+  "prior_R003_source_sha256": "a4b2a826a9f0adb6630cd301b5d734fb5fa755ece4d7ee0046531bb1718de1b9",
+  "prior_R003_relationship": {
+    "old_geometry_information": "R003 already stores site directional second-moment eigenvalue means/std. Legendre l2 geometry power is a function of that second moment, not a new physical information type.",
+    "same_weight_identity": "For normalized geometric second-moment eigenvalues lambda1..3: Q2(site)=(3*sum(lambda_j^2)-1)/2. With identical neighbor weights, mean(Q2)=(3*sum(mean(lambda_j)^2+std(lambda_j)^2)-1)/2.",
+    "actual_weight_difference": "Old R003 uses exp(-covalent_ratio^2)*(1-distance/6)^2 with distance<6. LINEGRAPH24 uses exp(-covalent_ratio^2) on supplied periodic6A edges and geometric weight-sum normalization. This reweighting alone does not establish new information.",
+    "l1_relationship": "Geometric l1 is a normalized directional dipole norm; dipoles and directional tensor ideas also exist in prior chemical representation programs. Keep it as a geometric control."
+  },
+  "chemical_angular_provenance": {
+    "en_ratio": "Signed dimensionless EN contrast with explicit missing-EN masking, geometric rather than chemical-amplitude normalization; joint angular power l1/l2/l3.",
+    "radius_ratio": "Signed covalent-radius contrast and its angular power l1/l2/l3.",
+    "unlike_element": "Element-identity heterobond indicator and its angular power l1/l2/l3.",
+    "interpretation": "These18 columns encode chemistry-conditioned angular arrangement. Some moment types overlap previous programs; the block is not claimed to contain18 independent new physical facts."
+  },
+  "numerical_novelty_limit": "24 columns are nonconstant, not affine scalar duplicates and outside the old258-column linear span on these2164 inputs. These numerical tests do not exclude arbitrary nonlinear recoverability, prove new information, or establish target accuracy benefit.",
+  "effect_evaluation": "The frozen StageA Cat90-direct versus Cat66-direct comparison determines incremental predictive utility; no accuracy result was used in this design.",
+  "family_switched": false,
+  "source_formula_changed_after_initial_engineering": false,
+  "engineering_history": {
+    "zero_fit_failure_attempt_001.json": "116fc6b0e2bc37b5bf9911abfc82592018f700e498cda3e8c5ed7f116d8e6a8e",
+    "zero_fit_failure_attempt_002.json": "116fc6b0e2bc37b5bf9911abfc82592018f700e498cda3e8c5ed7f116d8e6a8e"
+  }
+}

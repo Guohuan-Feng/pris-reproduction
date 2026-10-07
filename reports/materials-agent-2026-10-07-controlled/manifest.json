@@ -1,0 +1,24 @@
+{
+  "phase": "A",
+  "all_results_training_only": true,
+  "actual_native_fits": 40,
+  "actual_Agent_rounds": 0,
+  "new_confirmation_complete": false,
+  "source_results_sha256": "c58075179320185f97da3879dd188011df7b7b324a8c27d9aac8f371de22f35e",
+  "files": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "C015_predictor.py": "4da63d940e197cb5b407db4136c3bbfac23094b33efd23b598326a0a3faebdb1",
+    "LINEGRAPH24_compute.py": "7ca91e1252bc95e7b31fd637074334bc746e043352490805e268ecf6f4239317",
+    "LINEGRAPH24_novelty_scope_review.json": "8705b48716f16ff49257d5c5ee32cdc3e8d7fb25e052cc90b260c7c88ba41ebc",
+    "LINEGRAPH24_proposal.json": "e80813d724a517b93b0acbc851cc52dd51d1094515155ba2d785a892cb41a12e",
+    "phaseA_independent_terminal_review.json": "25b45236ede0bc9001791c6f42a570ce0db9bfdccdd88f624da592cf76841458",
+    "phaseA_MAE.png": "c0850d6d9827e3dfd15ddab8673de6b237ab6d76a799d19a2ee6415cb0f5c584",
+    "phaseA_MAE.svg": "5ccf3031734995b7dcc3ef919cb8b8398ef9fca9bc3c144a4f06f1e8c334df54",
+    "phaseA_protocol.json": "a7f09c36a75adbcaa116b78b9ed89afe096e29d3c60dd84155481737532ae0df",
+    "phaseA_results.json": "c58075179320185f97da3879dd188011df7b7b324a8c27d9aac8f371de22f35e",
+    "README.md": "49f187cfdfed6961e06cd532f3d988f1aa7e6da3fd6a2e27d9a0c3d5d7c2cf14",
+    "training_OOF_predictions.csv.gz": "bf306ce934d9e231cf47eb287c02aea376620f858b1607964256bdf0bb837aa1",
+    "workflow_phaseA.png": "70db3f07c8d6eaffc47a7f43e0109a741976dd49cc2af3da1137f0058cc41c60",
+    "workflow_phaseA.svg": "7e0c75763638d4d54cef3f16b9c791959a3e45de52c03ccbb1d19043d90c83f6"
+  }
+}
