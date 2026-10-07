@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "status": "TRAINING_ONLY_CLOSED_OOF_DIAGNOSTIC",
+  "partition_index": 1,
+  "partition_seed": 20261010,
+  "training_rows": 2164,
+  "training_chemical_systems": 2040,
+  "baseline": "Frozen prior C015, same partition1",
+  "candidate": "Current Agent1 champion agent_1_C018; distinct from historical previous-batch C018",
+  "source_artifact_sha256": {
+    "phaseB_inputs/ids.json": "ebb8309c09a2df1b3351b46e4202b5a01a1cff086df3225188ca3325c87f0813",
+    "design/ordered_train_ids.json": "ebb8309c09a2df1b3351b46e4202b5a01a1cff086df3225188ca3325c87f0813",
+    "phaseB_inputs/metadata.csv.gz": "403462fc47967d6c071c398ee5edc166d508c95488ec1162a08fceb73926195c",
+    "phaseB_inputs/training.npz": "015410cc948b100ecf4efca7771e1a81407abe2f7a4bbe54d97b70d049039380",
+    "design/phaseB_training_partitions.csv": "b58c78bc768f305ff646efadfe5c68aae39a9e66db5a89e889f654195d514a52",
+    "phaseB_baselines/P1/result.json": "4bcb6e2dc0d50c26d21546d0d4874c0928a1f3eb9b837dc254de8deb666b7567",
+    "phaseB_evaluations/agent_1_C018/result.json": "4088622b4065bdd4958610c91e6a702b0994938dc8cbecced91476d638814f62",
+    "phaseB_evaluations/agent_1_C018/branch.py": "758b95db98e1e288b6220050b599049c3deaee09b5271c6f002722195302c115",
+    "phaseB_baselines/P1/OOF.npz": "1eefd2d1b102033b7995ea461649a4e4a2bdcb56179af9b9af77aec532401962",
+    "phaseB_evaluations/agent_1_C018/OOF.npz": "5a7cefd6d79b714f8d7e9f076038a907a7948f1c468467e04b4eca2b03086357",
+    "phaseB_evaluations/agent_1_C018/fit_events.jsonl": "87063d81fb92c739e9b67c209043963254704729f0166a1ac77c69aa73155613",
+    "phaseB_baselines/P1/F0/fit_events.jsonl": "c49ffb267f8be945588218633e9b1033da250c1b9b03542c107f5b06042fa83b",
+    "phaseB_baselines/P1/F1/fit_events.jsonl": "daa0f5626f25c49ff5abd30917cb3a4c357a5a0490571e5ad9f711cbcfb9ec27",
+    "phaseB_budget_run_outcomes/agent_1.json": "db5eac2e9811b30fcab9a6e32c4268d53a7ec098f4613d36729d79063cf844b8"
+  },
+  "ordered_IDs_sha256": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e",
+  "numeric_sha256": {
+    "X42": "1d11a2df12975c22aef4cdaaa3e685a497f719b2e46e27e692e77bbe3350eb94",
+    "X66": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+    "X90": "a86c9cfc46f4343f129193ab2f3e104a6959c8f85f02897bdce213f3537c2e8b",
+    "y_train2164": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13"
+  },
+  "validation": {
+    "checks_count": 204,
+    "all_pass": true,
+    "saved_metrics_max_absolute_difference": 0.0,
+    "journal_closure": {
+      "phaseB_evaluations/agent_1_C018/fit_events.jsonl": {
+        "started": 4,
+        "completed": 4,
+        "recorded_failed": 0
+      },
+      "phaseB_baselines/P1/F0/fit_events.jsonl": {
+        "started": 7,
+        "completed": 7,
+        "recorded_failed": 0
+      },
+      "phaseB_baselines/P1/F1/fit_events.jsonl": {
+        "started": 7,
+        "completed": 7,
+        "recorded_failed": 0
+      }
+    },
+    "agent1_run_completed_candidates": 20,
+    "agent1_run_complete": true
+  },
+  "overall": {
+    "baseline_C015": {
+      "rows": 2164,
+      "MAE_eV_atom": 0.23256199236589792,
+      "RMSE_eV_atom": 0.3572048663011601,
+      "p99_abs_error": 1.1339321003302334,
+      "mean_prediction_minus_truth": -0.008158024567573481
+    },
+    "candidate_agent_1_C018": {
+      "rows": 2164,
+      "MAE_eV_atom": 0.2246522278904566,
+      "RMSE_eV_atom": 0.3482474556493077,
+      "p99_abs_error": 1.2156508122632534,
+      "mean_prediction_minus_truth": -0.009677353656185796
+    },
+    "delta_MAE_eV_atom": -0.0079097644754413,
+    "delta_RMSE_eV_atom": -0.008957410651852404,
+    "delta_p99_eV_atom": 0.08171871193302005,
+    "MAE_improvement_percent": 3.4011423771243776,
+    "p99_change_percent": 7.206667128412825,
+    "increased_abs_error_rows": 995,
+    "decreased_abs_error_rows": 1169,
+    "unchanged_within_1e_12_rows": 0,
+    "chemical_systems": 2040,
+    "delta_MAE_contribution_to_all2164": -0.0079097644754413
+  },
+  "groups": {
+    "oxygen": {
+      "baseline_C015": {
+        "rows": 837,
+        "MAE_eV_atom": 0.26669506292254336,
+        "RMSE_eV_atom": 0.4202512563197628,
+        "p99_abs_error": 1.0942121283311275,
+        "mean_prediction_minus_truth": 0.004186500209782739
+      },
+      "candidate_agent_1_C018": {
+        "rows": 837,
+        "MAE_eV_atom": 0.2524069116298968,
+        "RMSE_eV_atom": 0.40532741211660717,
+        "p99_abs_error": 1.055136512467744,
+        "mean_prediction_minus_truth": -0.0008700370594855296
+      },
+      "delta_MAE_eV_atom": -0.014288151292646548,
+      "delta_RMSE_eV_atom": -0.014923844203155623,
+      "delta_p99_eV_atom": -0.03907561586338337,
+      "MAE_improvement_percent": 5.357486237679721,
+      "p99_change_percent": -3.571118876463264,
+      "increased_abs_error_rows": 356,
+      "decreased_abs_error_rows": 481,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 787,
+      "delta_MAE_contribution_to_all2164": -0.0055264245064441594
+    },
+    "no_oxygen": {
+      "baseline_C015": {
+        "rows": 1327,
+        "MAE_eV_atom": 0.21103269315270107,
+        "RMSE_eV_atom": 0.3109321362665624,
+        "p99_abs_error": 1.1637793137572008,
+        "mean_prediction_minus_truth": -0.015944284732341496
+      },
+      "candidate_agent_1_C018": {
+        "rows": 1327,
+        "MAE_eV_atom": 0.20714607092744877,
+        "RMSE_eV_atom": 0.30683117022103273,
+        "p99_abs_error": 1.2206996822449376,
+        "mean_prediction_minus_truth": -0.01523253375523487
+      },
+      "delta_MAE_eV_atom": -0.003886622225252308,
+      "delta_RMSE_eV_atom": -0.004100966045529675,
+      "delta_p99_eV_atom": 0.05692036848773685,
+      "MAE_improvement_percent": 1.841715692098933,
+      "p99_change_percent": 4.890993319340975,
+      "increased_abs_error_rows": 639,
+      "decreased_abs_error_rows": 688,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 1253,
+      "delta_MAE_contribution_to_all2164": -0.0023833399689971407
+    },
+    "nitrogen": {
+      "baseline_C015": {
+        "rows": 169,
+        "MAE_eV_atom": 0.3562527475972005,
+        "RMSE_eV_atom": 0.4781302151747866,
+        "p99_abs_error": 1.57060875400009,
+        "mean_prediction_minus_truth": -0.08934671193051971
+      },
+      "candidate_agent_1_C018": {
+        "rows": 169,
+        "MAE_eV_atom": 0.33037377447714233,
+        "RMSE_eV_atom": 0.4457165605492437,
+        "p99_abs_error": 1.4314913168800714,
+        "mean_prediction_minus_truth": -0.08391989062919801
+      },
+      "delta_MAE_eV_atom": -0.02587897312005812,
+      "delta_RMSE_eV_atom": -0.03241365462554291,
+      "delta_p99_eV_atom": -0.13911743712001856,
+      "MAE_improvement_percent": 7.264217130843964,
+      "p99_change_percent": -8.85754881766122,
+      "increased_abs_error_rows": 72,
+      "decreased_abs_error_rows": 97,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 160,
+      "delta_MAE_contribution_to_all2164": -0.0020210473462522285
+    },
+    "ternary_plus": {
+      "baseline_C015": {
+        "rows": 2016,
+        "MAE_eV_atom": 0.23031857014927903,
+        "RMSE_eV_atom": 0.35603119079210194,
+        "p99_abs_error": 1.1125821620693968,
+        "mean_prediction_minus_truth": -0.00580180062700881
+      },
+      "candidate_agent_1_C018": {
+        "rows": 2016,
+        "MAE_eV_atom": 0.22130420032597706,
+        "RMSE_eV_atom": 0.3461654923811344,
+        "p99_abs_error": 1.1051722383677305,
+        "mean_prediction_minus_truth": -0.008194681349140299
+      },
+      "delta_MAE_eV_atom": -0.009014369823301994,
+      "delta_RMSE_eV_atom": -0.009865698410967516,
+      "delta_p99_eV_atom": -0.007409923701666266,
+      "MAE_improvement_percent": 3.9138701744541815,
+      "p99_change_percent": -0.6660113701520975,
+      "increased_abs_error_rows": 911,
+      "decreased_abs_error_rows": 1105,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 1910,
+      "delta_MAE_contribution_to_all2164": -0.008397860242041045
+    },
+    "oxygen_and_nitrogen": {
+      "baseline_C015": {
+        "rows": 46,
+        "MAE_eV_atom": 0.30031353915720127,
+        "RMSE_eV_atom": 0.40238558712065703,
+        "p99_abs_error": 1.1360869100737936,
+        "mean_prediction_minus_truth": -0.11013659679716066
+      },
+      "candidate_agent_1_C018": {
+        "rows": 46,
+        "MAE_eV_atom": 0.2465161484431823,
+        "RMSE_eV_atom": 0.3407401931968089,
+        "p99_abs_error": 1.0140669248268148,
+        "mean_prediction_minus_truth": -0.07628401187725223
+      },
+      "delta_MAE_eV_atom": -0.053797390714018956,
+      "delta_RMSE_eV_atom": -0.0616453939238481,
+      "delta_p99_eV_atom": -0.12201998524697877,
+      "MAE_improvement_percent": 17.91374137343117,
+      "p99_change_percent": -10.740374188366719,
+      "increased_abs_error_rows": 21,
+      "decreased_abs_error_rows": 25,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 43,
+      "delta_MAE_contribution_to_all2164": -0.001143567455103915
+    },
+    "oxygen_without_nitrogen": {
+      "baseline_C015": {
+        "rows": 791,
+        "MAE_eV_atom": 0.2647400061503635,
+        "RMSE_eV_atom": 0.42126690918379933,
+        "p99_abs_error": 1.0789545622754497,
+        "mean_prediction_minus_truth": 0.010834872475673255
+      },
+      "candidate_agent_1_C018": {
+        "rows": 791,
+        "MAE_eV_atom": 0.2527494844574428,
+        "RMSE_eV_atom": 0.4087695635638093,
+        "p99_abs_error": 1.0469100628904058,
+        "mean_prediction_minus_truth": 0.00351560496531506
+      },
+      "delta_MAE_eV_atom": -0.011990521692920721,
+      "delta_RMSE_eV_atom": -0.012497345619990052,
+      "delta_p99_eV_atom": -0.032044499385043945,
+      "MAE_improvement_percent": 4.5291687747829545,
+      "p99_change_percent": -2.9699581896631577,
+      "increased_abs_error_rows": 335,
+      "decreased_abs_error_rows": 456,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 744,
+      "delta_MAE_contribution_to_all2164": -0.004382857051340245
+    },
+    "nitrogen_without_oxygen": {
+      "baseline_C015": {
+        "rows": 123,
+        "MAE_eV_atom": 0.3771731019731352,
+        "RMSE_eV_atom": 0.5035385805358383,
+        "p99_abs_error": 1.7039013868585857,
+        "mean_prediction_minus_truth": -0.0815716330373044
+      },
+      "candidate_agent_1_C018": {
+        "rows": 123,
+        "MAE_eV_atom": 0.3617351630752088,
+        "RMSE_eV_atom": 0.4791024060197854,
+        "p99_abs_error": 1.5967183667622906,
+        "mean_prediction_minus_truth": -0.08677558512179559
+      },
+      "delta_MAE_eV_atom": -0.015437938897926431,
+      "delta_RMSE_eV_atom": -0.024436174516052955,
+      "delta_p99_eV_atom": -0.1071830200962951,
+      "MAE_improvement_percent": 4.0930646478141375,
+      "p99_change_percent": -6.2904473769989755,
+      "increased_abs_error_rows": 51,
+      "decreased_abs_error_rows": 72,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 117,
+      "delta_MAE_contribution_to_all2164": -0.0008774798911483138
+    },
+    "neither_oxygen_nor_nitrogen": {
+      "baseline_C015": {
+        "rows": 1204,
+        "MAE_eV_atom": 0.19405987730144408,
+        "RMSE_eV_atom": 0.2839943691188973,
+        "p99_abs_error": 0.9821305960698756,
+        "mean_prediction_minus_truth": -0.009239829714475681
+      },
+      "candidate_agent_1_C018": {
+        "rows": 1204,
+        "MAE_eV_atom": 0.19135333144723737,
+        "RMSE_eV_atom": 0.283396566050498,
+        "p99_abs_error": 1.0074855112113887,
+        "mean_prediction_minus_truth": -0.007923733657155993
+      },
+      "delta_MAE_eV_atom": -0.0027065458542066944,
+      "delta_RMSE_eV_atom": -0.0005978030683992941,
+      "delta_p99_eV_atom": 0.025354915141513112,
+      "MAE_improvement_percent": 1.3946962617122916,
+      "p99_change_percent": 2.581623588856119,
+      "increased_abs_error_rows": 588,
+      "decreased_abs_error_rows": 616,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 1136,
+      "delta_MAE_contribution_to_all2164": -0.0015058600778488263
+    },
+    "binary": {
+      "baseline_C015": {
+        "rows": 146,
+        "MAE_eV_atom": 0.2629910901041574,
+        "RMSE_eV_atom": 0.37400991305823156,
+        "p99_abs_error": 1.3673264875621904,
+        "mean_prediction_minus_truth": -0.04453938358786847
+      },
+      "candidate_agent_1_C018": {
+        "rows": 146,
+        "MAE_eV_atom": 0.26985900446084127,
+        "RMSE_eV_atom": 0.3761711476359099,
+        "p99_abs_error": 1.3765931490687278,
+        "mean_prediction_minus_truth": -0.034383933963114885
+      },
+      "delta_MAE_eV_atom": 0.006867914356683907,
+      "delta_RMSE_eV_atom": 0.0021612345776783615,
+      "delta_p99_eV_atom": 0.009266661506537321,
+      "MAE_improvement_percent": -2.611462751062721,
+      "p99_change_percent": 0.6777212019829282,
+      "increased_abs_error_rows": 83,
+      "decreased_abs_error_rows": 63,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 128,
+      "delta_MAE_contribution_to_all2164": 0.00046336205918477377
+    },
+    "ternary": {
+      "baseline_C015": {
+        "rows": 1041,
+        "MAE_eV_atom": 0.23998191743050593,
+        "RMSE_eV_atom": 0.4017560550197553,
+        "p99_abs_error": 1.3081534102792454,
+        "mean_prediction_minus_truth": -0.02053143622704861
+      },
+      "candidate_agent_1_C018": {
+        "rows": 1041,
+        "MAE_eV_atom": 0.23386792087421493,
+        "RMSE_eV_atom": 0.3950893590221205,
+        "p99_abs_error": 1.3110225487614113,
+        "mean_prediction_minus_truth": -0.02195198506802231
+      },
+      "delta_MAE_eV_atom": -0.0061139965562909855,
+      "delta_RMSE_eV_atom": -0.006666695997634808,
+      "delta_p99_eV_atom": 0.002869138482165967,
+      "MAE_improvement_percent": 2.5476905184164456,
+      "p99_change_percent": 0.21932737090473164,
+      "increased_abs_error_rows": 489,
+      "decreased_abs_error_rows": 552,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 971,
+      "delta_MAE_contribution_to_all2164": -0.0029411600809144713
+    },
+    "quaternary_plus": {
+      "baseline_C015": {
+        "rows": 975,
+        "MAE_eV_atom": 0.22000108859055376,
+        "RMSE_eV_atom": 0.2996046903062571,
+        "p99_abs_error": 0.9362817963000029,
+        "mean_prediction_minus_truth": 0.009924917998264454
+      },
+      "candidate_agent_1_C018": {
+        "rows": 975,
+        "MAE_eV_atom": 0.20789001254062767,
+        "RMSE_eV_atom": 0.2847992792452906,
+        "p99_abs_error": 0.8689638526914018,
+        "mean_prediction_minus_truth": 0.006493886006096808
+      },
+      "delta_MAE_eV_atom": -0.012111076049926056,
+      "delta_RMSE_eV_atom": -0.0148054110609665,
+      "delta_p99_eV_atom": -0.0673179436086011,
+      "MAE_improvement_percent": 5.505007328607425,
+      "p99_change_percent": -7.189923362242867,
+      "increased_abs_error_rows": 422,
+      "decreased_abs_error_rows": 553,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 939,
+      "delta_MAE_contribution_to_all2164": -0.005456700161126574
+    },
+    "fold0": {
+      "baseline_C015": {
+        "rows": 1090,
+        "MAE_eV_atom": 0.22386602240004555,
+        "RMSE_eV_atom": 0.3205524029300513,
+        "p99_abs_error": 1.1009177643519732,
+        "mean_prediction_minus_truth": -0.014121419534759249
+      },
+      "candidate_agent_1_C018": {
+        "rows": 1090,
+        "MAE_eV_atom": 0.2142202324153918,
+        "RMSE_eV_atom": 0.3102897034912084,
+        "p99_abs_error": 1.123766700380913,
+        "mean_prediction_minus_truth": -0.015573931016707189
+      },
+      "delta_MAE_eV_atom": -0.009645789984653777,
+      "delta_RMSE_eV_atom": -0.010262699438842893,
+      "delta_p99_eV_atom": 0.022848936028939892,
+      "MAE_improvement_percent": 4.308733358122952,
+      "p99_change_percent": 2.0754443945583345,
+      "increased_abs_error_rows": 504,
+      "decreased_abs_error_rows": 586,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 1020,
+      "delta_MAE_contribution_to_all2164": -0.004858554105024315
+    },
+    "fold1": {
+      "baseline_C015": {
+        "rows": 1074,
+        "MAE_eV_atom": 0.24138751123254512,
+        "RMSE_eV_atom": 0.3909051903102729,
+        "p99_abs_error": 1.1404965666878792,
+        "mean_prediction_minus_truth": -0.0021057894519007714
+      },
+      "candidate_agent_1_C018": {
+        "rows": 1074,
+        "MAE_eV_atom": 0.2352396348437347,
+        "RMSE_eV_atom": 0.38294290608612436,
+        "p99_abs_error": 1.225553220188225,
+        "mean_prediction_minus_truth": -0.003692931567760918
+      },
+      "delta_MAE_eV_atom": -0.006147876388810388,
+      "delta_RMSE_eV_atom": -0.00796228422414852,
+      "delta_p99_eV_atom": 0.08505665350034586,
+      "MAE_improvement_percent": 2.546890830192017,
+      "p99_change_percent": 7.457861424989565,
+      "increased_abs_error_rows": 491,
+      "decreased_abs_error_rows": 583,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 1020,
+      "delta_MAE_contribution_to_all2164": -0.0030512103704169852
+    }
+  },
+  "tail": {
+    "definition": "Largest ceil(2164*0.01)=22 absolute errors per model; ties broken by fixed sorted material-ID order. P99 is separate NumPy linear quantile, not mean of these22.",
+    "top_k": 22,
+    "intersection_rows": 20,
+    "entered_candidate_tail_rows": 2,
+    "exited_baseline_tail_rows": 2,
+    "union_rows": 24,
+    "sets": {
+      "baseline_top1pct": {
+        "baseline_C015": {
+          "rows": 22,
+          "MAE_eV_atom": 1.7053784812318562,
+          "RMSE_eV_atom": 2.0370514124449985,
+          "p99_abs_error": 5.710596461539236,
+          "mean_prediction_minus_truth": -1.5867685815919097
+        },
+        "candidate_agent_1_C018": {
+          "rows": 22,
+          "MAE_eV_atom": 1.6707041149600739,
+          "RMSE_eV_atom": 2.0064769003451244,
+          "p99_abs_error": 5.651862505607679,
+          "mean_prediction_minus_truth": -1.581141321091534
+        },
+        "delta_MAE_eV_atom": -0.03467436627178233,
+        "delta_RMSE_eV_atom": -0.030574512099874163,
+        "delta_p99_eV_atom": -0.05873395593155717,
+        "MAE_improvement_percent": 2.0332358273182694,
+        "p99_change_percent": -1.0285082535095857,
+        "increased_abs_error_rows": 7,
+        "decreased_abs_error_rows": 15,
+        "unchanged_within_1e_12_rows": 0,
+        "chemical_systems": 22,
+        "delta_MAE_contribution_to_all2164": -0.0003525120415800422,
+        "membership": {
+          "oxygen": 8,
+          "no_oxygen": 14,
+          "nitrogen": 6,
+          "ternary_plus": 19,
+          "oxygen_and_nitrogen": 1,
+          "oxygen_without_nitrogen": 7,
+          "nitrogen_without_oxygen": 5,
+          "neither_oxygen_nor_nitrogen": 9,
+          "binary": 3,
+          "ternary": 14,
+          "quaternary_plus": 5
+        }
+      },
+      "candidate_top1pct": {
+        "baseline_C015": {
+          "rows": 22,
+          "MAE_eV_atom": 1.6815025752797665,
+          "RMSE_eV_atom": 2.024445047866358,
+          "p99_abs_error": 5.710596461539236,
+          "mean_prediction_minus_truth": -1.6815025752797665
+        },
+        "candidate_agent_1_C018": {
+          "rows": 22,
+          "MAE_eV_atom": 1.6898682967224743,
+          "RMSE_eV_atom": 2.0171932025828982,
+          "p99_abs_error": 5.651862505607679,
+          "mean_prediction_minus_truth": -1.6898682967224743
+        },
+        "delta_MAE_eV_atom": 0.008365721442707995,
+        "delta_RMSE_eV_atom": -0.00725184528345979,
+        "delta_p99_eV_atom": -0.05873395593155717,
+        "MAE_improvement_percent": -0.4975146375446826,
+        "p99_change_percent": -1.0285082535095857,
+        "increased_abs_error_rows": 9,
+        "decreased_abs_error_rows": 13,
+        "unchanged_within_1e_12_rows": 0,
+        "chemical_systems": 22,
+        "delta_MAE_contribution_to_all2164": 8.504892409407388e-05,
+        "membership": {
+          "oxygen": 8,
+          "no_oxygen": 14,
+          "nitrogen": 6,
+          "ternary_plus": 19,
+          "oxygen_and_nitrogen": 1,
+          "oxygen_without_nitrogen": 7,
+          "nitrogen_without_oxygen": 5,
+          "neither_oxygen_nor_nitrogen": 9,
+          "binary": 3,
+          "ternary": 14,
+          "quaternary_plus": 5
+        }
+      },
+      "intersection": {
+        "baseline_C015": {
+          "rows": 20,
+          "MAE_eV_atom": 1.753404447222588,
+          "RMSE_eV_atom": 2.100907240218593,
+          "p99_abs_error": 5.8064655386415005,
+          "mean_prediction_minus_truth": -1.753404447222588
+        },
+        "candidate_agent_1_C018": {
+          "rows": 20,
+          "MAE_eV_atom": 1.7354839492190859,
+          "RMSE_eV_atom": 2.0793673659175345,
+          "p99_abs_error": 5.748338771595808,
+          "mean_prediction_minus_truth": -1.7354839492190859
+        },
+        "delta_MAE_eV_atom": -0.01792049800350217,
+        "delta_RMSE_eV_atom": -0.021539874301058415,
+        "delta_p99_eV_atom": -0.05812676704569242,
+        "MAE_improvement_percent": 1.0220401819949987,
+        "p99_change_percent": -1.0010696982331813,
+        "increased_abs_error_rows": 7,
+        "decreased_abs_error_rows": 13,
+        "unchanged_within_1e_12_rows": 0,
+        "chemical_systems": 20,
+        "delta_MAE_contribution_to_all2164": -0.00016562382628005704,
+        "membership": {
+          "oxygen": 7,
+          "no_oxygen": 13,
+          "nitrogen": 6,
+          "ternary_plus": 17,
+          "oxygen_and_nitrogen": 1,
+          "oxygen_without_nitrogen": 6,
+          "nitrogen_without_oxygen": 5,
+          "neither_oxygen_nor_nitrogen": 8,
+          "binary": 3,
+          "ternary": 13,
+          "quaternary_plus": 4
+        }
+      },
+      "entered_candidate_tail": {
+        "baseline_C015": {
+          "rows": 2,
+          "MAE_eV_atom": 0.9624838558515492,
+          "RMSE_eV_atom": 0.9716187267173098,
+          "p99_abs_error": 1.0927456436118812,
+          "mean_prediction_minus_truth": -0.9624838558515492
+        },
+        "candidate_agent_1_C018": {
+          "rows": 2,
+          "MAE_eV_atom": 1.2337117717563588,
+          "RMSE_eV_atom": 1.2337204535813129,
+          "p99_abs_error": 1.2382475749714135,
+          "mean_prediction_minus_truth": -1.2337117717563588
+        },
+        "delta_MAE_eV_atom": 0.27122791590480966,
+        "delta_RMSE_eV_atom": 0.2621017268640031,
+        "delta_p99_eV_atom": 0.14550193135953227,
+        "MAE_improvement_percent": -28.17999639742976,
+        "p99_change_percent": 13.315260711413224,
+        "increased_abs_error_rows": 2,
+        "decreased_abs_error_rows": 0,
+        "unchanged_within_1e_12_rows": 0,
+        "chemical_systems": 2,
+        "delta_MAE_contribution_to_all2164": 0.0002506727503741309,
+        "membership": {
+          "oxygen": 1,
+          "no_oxygen": 1,
+          "nitrogen": 0,
+          "ternary_plus": 2,
+          "oxygen_and_nitrogen": 0,
+          "oxygen_without_nitrogen": 1,
+          "nitrogen_without_oxygen": 0,
+          "neither_oxygen_nor_nitrogen": 1,
+          "binary": 0,
+          "ternary": 1,
+          "quaternary_plus": 1
+        }
+      },
+      "exited_baseline_tail": {
+        "baseline_C015": {
+          "rows": 2,
+          "MAE_eV_atom": 1.2251188213245372,
+          "RMSE_eV_atom": 1.2277013913638537,
+          "p99_abs_error": 1.3031170945451116,
+          "mean_prediction_minus_truth": 0.0795900747148719
+        },
+        "candidate_agent_1_C018": {
+          "rows": 2,
+          "MAE_eV_atom": 1.0229057723699533,
+          "RMSE_eV_atom": 1.0236008222818573,
+          "p99_abs_error": 1.0598665113896497,
+          "mean_prediction_minus_truth": -0.03771503981601687
+        },
+        "delta_MAE_eV_atom": -0.20221304895458392,
+        "delta_RMSE_eV_atom": -0.20410056908199636,
+        "delta_p99_eV_atom": -0.24325058315546189,
+        "MAE_improvement_percent": 16.505586677377238,
+        "p99_change_percent": -18.666824660171855,
+        "increased_abs_error_rows": 0,
+        "decreased_abs_error_rows": 2,
+        "unchanged_within_1e_12_rows": 0,
+        "chemical_systems": 2,
+        "delta_MAE_contribution_to_all2164": -0.00018688821529998513,
+        "membership": {
+          "oxygen": 1,
+          "no_oxygen": 1,
+          "nitrogen": 0,
+          "ternary_plus": 2,
+          "oxygen_and_nitrogen": 0,
+          "oxygen_without_nitrogen": 1,
+          "nitrogen_without_oxygen": 0,
+          "neither_oxygen_nor_nitrogen": 1,
+          "binary": 0,
+          "ternary": 1,
+          "quaternary_plus": 1
+        }
+      }
+    },
+    "candidate_above_baseline_p99_rows": 23,
+    "baseline_above_own_p99_rows": 22,
+    "each_model_own_worst22_mean": {
+      "baseline_C015_eV_atom": 1.7053784812318562,
+      "candidate_agent_1_C018_eV_atom": 1.6898682967224743,
+      "difference_eV_atom": -0.015510184509381908,
+      "note": "Different model-ranked sets: descriptive severity comparison, not a paired fixed-set estimate."
+    }
+  },
+  "baseline_error_bands": {
+    "baseline_error_bottom90pct": {
+      "baseline_C015": {
+        "rows": 1947,
+        "MAE_eV_atom": 0.17053701510327673,
+        "RMSE_eV_atom": 0.21327895949002665,
+        "p99_abs_error": 0.4934354732216857,
+        "mean_prediction_minus_truth": 0.019037147190671
+      },
+      "candidate_agent_1_C018": {
+        "rows": 1947,
+        "MAE_eV_atom": 0.16649412633970437,
+        "RMSE_eV_atom": 0.2104085874185606,
+        "p99_abs_error": 0.527483572816963,
+        "mean_prediction_minus_truth": 0.018284003834943156
+      },
+      "delta_MAE_eV_atom": -0.0040428887635723726,
+      "delta_RMSE_eV_atom": -0.0028703720714660375,
+      "delta_p99_eV_atom": 0.034048099595277326,
+      "MAE_improvement_percent": 2.370681087108273,
+      "p99_change_percent": 6.900213187546922,
+      "increased_abs_error_rows": 929,
+      "decreased_abs_error_rows": 1018,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 1841,
+      "delta_MAE_contribution_to_all2164": -0.0036374789383897457
+    },
+    "baseline_error_90to95pct": {
+      "baseline_C015": {
+        "rows": 108,
+        "MAE_eV_atom": 0.5735810254422393,
+        "RMSE_eV_atom": 0.5757966096077498,
+        "p99_abs_error": 0.6756451192986717,
+        "mean_prediction_minus_truth": -0.08723958575868179
+      },
+      "candidate_agent_1_C018": {
+        "rows": 108,
+        "MAE_eV_atom": 0.5295821088707879,
+        "RMSE_eV_atom": 0.5385878530516514,
+        "p99_abs_error": 0.731527345736534,
+        "mean_prediction_minus_truth": -0.07824013509539547
+      },
+      "delta_MAE_eV_atom": -0.04399891657145134,
+      "delta_RMSE_eV_atom": -0.037208756556098455,
+      "delta_p99_eV_atom": 0.05588222643786234,
+      "MAE_improvement_percent": 7.67091563698914,
+      "p99_change_percent": 8.270943553306331,
+      "increased_abs_error_rows": 27,
+      "decreased_abs_error_rows": 81,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 107,
+      "delta_MAE_contribution_to_all2164": -0.002195879385266518
+    },
+    "baseline_error_95to99pct": {
+      "baseline_C015": {
+        "rows": 87,
+        "MAE_eV_atom": 0.8248678820558691,
+        "RMSE_eV_atom": 0.833591190730896,
+        "p99_abs_error": 1.115861867482552,
+        "mean_prediction_minus_truth": -0.11940812284489428
+      },
+      "candidate_agent_1_C018": {
+        "rows": 87,
+        "MAE_eV_atom": 0.7819884929238736,
+        "RMSE_eV_atom": 0.8047670924064645,
+        "p99_abs_error": 1.230379344904482,
+        "mean_prediction_minus_truth": -0.15293913935981518
+      },
+      "delta_MAE_eV_atom": -0.04287938913199549,
+      "delta_RMSE_eV_atom": -0.028824098324431557,
+      "delta_p99_eV_atom": 0.11451747742192997,
+      "MAE_improvement_percent": 5.1983341896067685,
+      "p99_change_percent": 10.262692969362597,
+      "increased_abs_error_rows": 32,
+      "decreased_abs_error_rows": 55,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 85,
+      "delta_MAE_contribution_to_all2164": -0.0017238941102049943
+    },
+    "baseline_error_top1pct": {
+      "baseline_C015": {
+        "rows": 22,
+        "MAE_eV_atom": 1.7053784812318562,
+        "RMSE_eV_atom": 2.0370514124449985,
+        "p99_abs_error": 5.710596461539236,
+        "mean_prediction_minus_truth": -1.5867685815919097
+      },
+      "candidate_agent_1_C018": {
+        "rows": 22,
+        "MAE_eV_atom": 1.6707041149600739,
+        "RMSE_eV_atom": 2.0064769003451244,
+        "p99_abs_error": 5.651862505607679,
+        "mean_prediction_minus_truth": -1.581141321091534
+      },
+      "delta_MAE_eV_atom": -0.03467436627178233,
+      "delta_RMSE_eV_atom": -0.030574512099874163,
+      "delta_p99_eV_atom": -0.05873395593155717,
+      "MAE_improvement_percent": 2.0332358273182694,
+      "p99_change_percent": -1.0285082535095857,
+      "increased_abs_error_rows": 7,
+      "decreased_abs_error_rows": 15,
+      "unchanged_within_1e_12_rows": 0,
+      "chemical_systems": 22,
+      "delta_MAE_contribution_to_all2164": -0.0003525120415800422
+    }
+  },
+  "chemical_system_aggregation": {
+    "all_systems": 2040,
+    "single_row_systems": 1927,
+    "systems_mean_abs_error_increased": 938,
+    "systems_mean_abs_error_decreased": 1102,
+    "systems_unchanged_within_1e_12": 0,
+    "top10_worsening_by_total_abs_error_increase": {
+      "systems": 10,
+      "rows": 13,
+      "systems_with_O": 3,
+      "systems_with_N": 2,
+      "binary_systems": 1,
+      "ternary_systems": 6,
+      "quaternary_plus_systems": 3,
+      "single_row_systems": 7,
+      "mean_error_increase_over_their_rows_eV_atom": 0.24267247497866504,
+      "MAE_contribution_to_all2164_eV_atom": 0.001457829101073311
+    },
+    "privacy": "No material IDs, formulae, exact chemical-system names, per-row labels/predictions/errors or machine paths are exported; high-impact systems are summarized by observed element-count and O/N membership only.",
+    "element_count_rows": {
+      "one_element": 2,
+      "two_elements": 146,
+      "three_elements": 1041,
+      "four_or_more_elements": 975
+    }
+  },
+  "error_change_decomposition": {
+    "positive_error_change_sum": 44.0294438292034,
+    "negative_error_change_sum": -61.14617415405837,
+    "net_error_change_sum": -17.116730324854974
+  },
+  "scientific_fits_performed": 0,
+  "actual_experiment_CLI_calls": 0,
+  "fresh_confirmation_accessed": false,
+  "raw_energy_csv_accessed": false,
+  "new_data_accessed": false,
+  "current_rules_modified": false,
+  "fed_to_running_searches": false,
+  "limitations": [
+    "Adaptive training-selected champion; post-selection exploratory diagnosis, not independent confirmation.",
+    "Metadata expose elements and chemical systems, but do not establish oxidation state, bonding class, defects, magnetism or chemical causes.",
+    "Marginal oxygen/nitrogen groups overlap; mutually exclusive O/N groups are reported separately.",
+    "2040 systems among2164 rows: many system-level observations are single-row, unsuitable for confident causal conclusions.",
+    "Worst1% means22 ranked rows; p99 is a separate interpolated quantile."
+  ],
+  "diagnostic_interpretation": [
+    "P99 rises while each model-own worst22 average falls: no uniform deterioration of all extreme errors.",
+    "20 shared tail members improve on average;2 newly entering tail worsen on average. Membership summaries do not explain causal chemistry.",
+    "Oxygen/nitrogen marginal groups improve both MAE and p99; no-oxygen p99 rises. Binary group MAE rises; fold1 p99 rises more than fold0. Group quantiles are not additive or causal."
+  ]
+}
