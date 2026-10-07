@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "completed": true,
+  "scored_utc": "2026-10-07T04:55:21.971931+00:00",
+  "plan_sha256": "29aefc197da48cb388855c190875ecdd47566e6e5f5bcc5eb6be55e47f02aaf6",
+  "prediction_receipt_sha256": "bdc71cbf981f8967d3a8b7282d15b9d09cd56779521526397579ca01c2934e43",
+  "target_access_receipt_sha256": "c3925b29f30cf5cf5c60159e917aa97a481a89cdade12a3664bea5315c571f21",
+  "target_source_sha256": "48c9d51724101f30f4d91208161732fc8358db1d7bd81da5bfb59b932a2a9727",
+  "ordered_test_ids_sha256": "a95c2ed834475ac563c99a7b0551d58247bd2593ba0fdf5b79ade9d6bd66ecd0",
+  "rows": 721,
+  "chemical_systems": 681,
+  "results": {
+    "baseline": {
+      "rows": 721,
+      "MAE_eV_atom": 0.2337643763263009,
+      "RMSE_eV_atom": 0.3682390426019434,
+      "p90_abs_error": 0.5248078594503292,
+      "p99_abs_error": 1.3929919154861663,
+      "mean_prediction_minus_truth": -0.02538557085499819
+    },
+    "legacy_baseline": {
+      "rows": 721,
+      "MAE_eV_atom": 0.2390893584048118,
+      "RMSE_eV_atom": 0.38107134571671,
+      "p90_abs_error": 0.5493060782161856,
+      "p99_abs_error": 1.3795194401402637,
+      "mean_prediction_minus_truth": -0.03200644357584562
+    },
+    "champion": {
+      "rows": 721,
+      "MAE_eV_atom": 0.22435374868829316,
+      "RMSE_eV_atom": 0.3471494674093551,
+      "p90_abs_error": 0.5153462919077398,
+      "p99_abs_error": 1.247579816984103,
+      "mean_prediction_minus_truth": -0.025497812451253564
+    }
+  },
+  "groups": {
+    "nitrogen": {
+      "baseline": {
+        "rows": 46,
+        "MAE_eV_atom": 0.4314295050492751,
+        "RMSE_eV_atom": 0.6685633976934965,
+        "p90_abs_error": 0.8986951960597596,
+        "p99_abs_error": 2.238607313685431,
+        "mean_prediction_minus_truth": -0.08311577407314343
+      },
+      "legacy_baseline": {
+        "rows": 46,
+        "MAE_eV_atom": 0.41828890657971873,
+        "RMSE_eV_atom": 0.6833165636576968,
+        "p90_abs_error": 0.9428164293404065,
+        "p99_abs_error": 2.434998557999662,
+        "mean_prediction_minus_truth": -0.11063566048974098
+      },
+      "champion": {
+        "rows": 46,
+        "MAE_eV_atom": 0.3791741537556056,
+        "RMSE_eV_atom": 0.61429356868583,
+        "p90_abs_error": 0.8261021691315357,
+        "p99_abs_error": 2.173483384214277,
+        "mean_prediction_minus_truth": -0.103114740748533
+      }
+    },
+    "oxygen": {
+      "baseline": {
+        "rows": 282,
+        "MAE_eV_atom": 0.2686692343838604,
+        "RMSE_eV_atom": 0.39779455811635056,
+        "p90_abs_error": 0.5409720876824141,
+        "p99_abs_error": 1.4968903612725806,
+        "mean_prediction_minus_truth": 0.000992435165376797
+      },
+      "legacy_baseline": {
+        "rows": 282,
+        "MAE_eV_atom": 0.277449041132699,
+        "RMSE_eV_atom": 0.41259161602588695,
+        "p90_abs_error": 0.5666133896988841,
+        "p99_abs_error": 1.513183047041435,
+        "mean_prediction_minus_truth": -0.0037395260499153734
+      },
+      "champion": {
+        "rows": 282,
+        "MAE_eV_atom": 0.2597701059365707,
+        "RMSE_eV_atom": 0.3721554163698366,
+        "p90_abs_error": 0.5149968796503984,
+        "p99_abs_error": 1.4161831167003,
+        "mean_prediction_minus_truth": 0.008500123432435835
+      }
+    },
+    "no_oxygen": {
+      "baseline": {
+        "rows": 439,
+        "MAE_eV_atom": 0.2113425768451352,
+        "RMSE_eV_atom": 0.3479316386073443,
+        "p90_abs_error": 0.47034700263064333,
+        "p99_abs_error": 1.3293258365901144,
+        "mean_prediction_minus_truth": -0.042329984745079596
+      },
+      "legacy_baseline": {
+        "rows": 439,
+        "MAE_eV_atom": 0.21444828658416443,
+        "RMSE_eV_atom": 0.35936828532415604,
+        "p90_abs_error": 0.5490194018334684,
+        "p99_abs_error": 1.3182912080765101,
+        "mean_prediction_minus_truth": -0.050164235699563894
+      },
+      "champion": {
+        "rows": 439,
+        "MAE_eV_atom": 0.20160337797299874,
+        "RMSE_eV_atom": 0.330088661740996,
+        "p90_abs_error": 0.5137126577396317,
+        "p99_abs_error": 1.2024091059972921,
+        "mean_prediction_minus_truth": -0.047337033223919654
+      }
+    },
+    "ternary_plus": {
+      "baseline": {
+        "rows": 674,
+        "MAE_eV_atom": 0.230590202971815,
+        "RMSE_eV_atom": 0.3680840040812203,
+        "p90_abs_error": 0.5074447110495449,
+        "p99_abs_error": 1.4072252113408108,
+        "mean_prediction_minus_truth": -0.025024282827671666
+      },
+      "legacy_baseline": {
+        "rows": 674,
+        "MAE_eV_atom": 0.23609541661778127,
+        "RMSE_eV_atom": 0.38162249538645066,
+        "p90_abs_error": 0.5371084763776456,
+        "p99_abs_error": 1.395143745348899,
+        "mean_prediction_minus_truth": -0.03237861396549904
+      },
+      "champion": {
+        "rows": 674,
+        "MAE_eV_atom": 0.2216386534560111,
+        "RMSE_eV_atom": 0.3467690468738832,
+        "p90_abs_error": 0.49647979983750334,
+        "p99_abs_error": 1.279203696239635,
+        "mean_prediction_minus_truth": -0.02539403216125833
+      }
+    }
+  },
+  "paired_chemical_system_comparisons": {
+    "baseline": {
+      "MAE_difference_champion_minus_baseline": -0.009410627638007785,
+      "chemical_systems": 681,
+      "bootstrap95_percent_CI": [
+        -0.016231459920382472,
+        -0.0025859234347039186
+      ],
+      "resamples": 2000,
+      "seed": 20261007,
+      "scope": "Paired uncertainty on historical previously observed test; no new independent confirmation or promotion."
+    },
+    "legacy_baseline": {
+      "MAE_difference_champion_minus_baseline": -0.014735609716518642,
+      "chemical_systems": 681,
+      "bootstrap95_percent_CI": [
+        -0.020855675125780807,
+        -0.00861508742163174
+      ],
+      "resamples": 2000,
+      "seed": 20261007,
+      "scope": "Paired uncertainty on historical previously observed test; no new independent confirmation or promotion."
+    }
+  },
+  "actual_new_fits": 18,
+  "previous_stage_known_fits": 622,
+  "previous_stage_unknown_capacity_preserved": 28,
+  "historical_test_previously_observed": true,
+  "historical_test_observed_since_utc": "2026-09-30T21:13:55.288104+00:00",
+  "new_blind_confirmation": false,
+  "model_selection_or_promotion_from_this_test": false,
+  "original_stage_accounting_modified": false,
+  "OneDrive_files_written": 0,
+  "scope": "Supplementary frozen C015/C018/E011 comparison on original721 test observed in2026-09-30. No adaptive tuning/reselection or new independent confirmation claim."
+}

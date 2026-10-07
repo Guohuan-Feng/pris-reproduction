@@ -1,0 +1,1030 @@
+{
+  "data": {
+    "train_rows": 2164,
+    "historical_test_rows": 721,
+    "historical_test_chemical_systems": 681,
+    "known_validation_replay_rows": 715,
+    "test_sorted_IDs_sha256": "a95c2ed834475ac563c99a7b0551d58247bd2593ba0fdf5b79ade9d6bd66ecd0",
+    "test_observed_since_utc": "2026-09-30T21:13:55.288104+00:00",
+    "training_target_scope": "Only original train2164; no validation/test target training",
+    "evaluation_input_order": "Freeze in prepared input manifest; combined 721 test and 715 known validation",
+    "independence": "Historical test was previously observed in early research; this is supplementary frozen-program evaluation, not a newly unseen confirmation."
+  },
+  "fixed_feature_schema42": [
+    "comp_n_elements",
+    "comp_entropy",
+    "comp_max_fraction",
+    "comp_electronegativity_mean",
+    "comp_electronegativity_std",
+    "comp_electronegativity_min",
+    "comp_electronegativity_max",
+    "comp_electronegativity_range",
+    "comp_atomic_radius_mean",
+    "comp_atomic_radius_std",
+    "comp_radius_cv",
+    "comp_Z_mean",
+    "comp_Z_std",
+    "comp_fraction_Z001",
+    "comp_fraction_Z005",
+    "comp_fraction_Z006",
+    "comp_fraction_Z007",
+    "comp_fraction_Z008",
+    "comp_fraction_Z009",
+    "comp_fraction_Z015",
+    "comp_fraction_Z016",
+    "comp_fraction_Z017",
+    "comp_halogen_fraction",
+    "comp_chalcogen_fraction",
+    "comp_alkali_alkaline_fraction",
+    "comp_transition_fraction",
+    "relaxed_min_distance_A",
+    "relaxed_min_covalent_ratio",
+    "relaxed_volume_per_atom_A3",
+    "relaxed_covalent_sphere_volume_fraction",
+    "log_volume_per_atom",
+    "log_edges6_per_atom",
+    "smooth_coord_mean",
+    "contact_q_mean",
+    "site_field_abs_mean",
+    "site_field_abs_std",
+    "site_ionic_load_mean",
+    "site_ionic_load_std",
+    "en_coord_correlation",
+    "contact_en_assortativity",
+    "contact_radius_mismatch_mean",
+    "strain_ionic_coupling"
+  ],
+  "fixed_feature_schema66": [
+    "comp_n_elements",
+    "comp_entropy",
+    "comp_max_fraction",
+    "comp_electronegativity_mean",
+    "comp_electronegativity_std",
+    "comp_electronegativity_min",
+    "comp_electronegativity_max",
+    "comp_electronegativity_range",
+    "comp_atomic_radius_mean",
+    "comp_atomic_radius_std",
+    "comp_radius_cv",
+    "comp_Z_mean",
+    "comp_Z_std",
+    "comp_fraction_Z001",
+    "comp_fraction_Z005",
+    "comp_fraction_Z006",
+    "comp_fraction_Z007",
+    "comp_fraction_Z008",
+    "comp_fraction_Z009",
+    "comp_fraction_Z015",
+    "comp_fraction_Z016",
+    "comp_fraction_Z017",
+    "comp_halogen_fraction",
+    "comp_chalcogen_fraction",
+    "comp_alkali_alkaline_fraction",
+    "comp_transition_fraction",
+    "relaxed_min_distance_A",
+    "relaxed_min_covalent_ratio",
+    "relaxed_volume_per_atom_A3",
+    "relaxed_covalent_sphere_volume_fraction",
+    "log_volume_per_atom",
+    "log_edges6_per_atom",
+    "smooth_coord_mean",
+    "contact_q_mean",
+    "site_field_abs_mean",
+    "site_field_abs_std",
+    "site_ionic_load_mean",
+    "site_ionic_load_std",
+    "en_coord_correlation",
+    "contact_en_assortativity",
+    "contact_radius_mismatch_mean",
+    "strain_ionic_coupling",
+    "R004_graph_log_coordination_two_step_mean",
+    "R004_graph_log_coordination_two_step_std",
+    "R004_graph_log_coordination_edge_contrast_mean",
+    "R004_graph_log_coordination_edge_contrast_std",
+    "R004_graph_log_coordination_neighbor_environment_variance",
+    "R004_graph_log_coordination_edge_environment_covariance",
+    "R004_graph_neighbor_en_two_step_mean",
+    "R004_graph_neighbor_en_two_step_std",
+    "R004_graph_neighbor_en_edge_contrast_mean",
+    "R004_graph_neighbor_en_edge_contrast_std",
+    "R004_graph_neighbor_en_neighbor_environment_variance",
+    "R004_graph_neighbor_en_edge_environment_covariance",
+    "R004_graph_neighbor_en_variance_two_step_mean",
+    "R004_graph_neighbor_en_variance_two_step_std",
+    "R004_graph_neighbor_en_variance_edge_contrast_mean",
+    "R004_graph_neighbor_en_variance_edge_contrast_std",
+    "R004_graph_neighbor_en_variance_neighbor_environment_variance",
+    "R004_graph_neighbor_en_variance_edge_environment_covariance",
+    "R004_graph_unlike_fraction_two_step_mean",
+    "R004_graph_unlike_fraction_two_step_std",
+    "R004_graph_unlike_fraction_edge_contrast_mean",
+    "R004_graph_unlike_fraction_edge_contrast_std",
+    "R004_graph_unlike_fraction_neighbor_environment_variance",
+    "R004_graph_unlike_fraction_edge_environment_covariance"
+  ],
+  "input_numeric_fingerprints": {
+    "X_train42": {
+      "shape": [
+        2164,
+        42
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "1d11a2df12975c22aef4cdaaa3e685a497f719b2e46e27e692e77bbe3350eb94"
+    },
+    "X_train66": {
+      "shape": [
+        2164,
+        66
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740"
+    },
+    "y_train": {
+      "shape": [
+        2164
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13"
+    },
+    "X_test42": {
+      "shape": [
+        721,
+        42
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "f79dc90812f6f5709e872ea44d96e012de01285a3d4b99a17d85203342ffb3d8"
+    },
+    "X_test66": {
+      "shape": [
+        721,
+        66
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "960134d3e3302b9e57a91cd6ee314da34ab2034f2ce41f3db1502b770a4741e4"
+    },
+    "X_known42": {
+      "shape": [
+        715,
+        42
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "de93d3433702274df2685c3cd00fb00bdc53b68f36c36477664add40ca565a34"
+    },
+    "X_known66": {
+      "shape": [
+        715,
+        66
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "f80630a9d994b1748e14a3cb27c9efe74cb4673b6a9749dad23a08a05bd4f7cd"
+    },
+    "X_eval42": {
+      "shape": [
+        1436,
+        42
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "391334f813f3d9760e5997d06ce7b6f94ea12950d427d265680288aba453ebe9"
+    },
+    "X_eval66": {
+      "shape": [
+        1436,
+        66
+      ],
+      "dtype": "float64_little_endian",
+      "sha256": "ef8814565fafc89f2f146e9ec3787c0a53037c389864be121588cfb3c242a44d"
+    }
+  },
+  "ordered_ids_sha256": {
+    "train2164": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e",
+    "test721": "a95c2ed834475ac563c99a7b0551d58247bd2593ba0fdf5b79ade9d6bd66ecd0",
+    "known715": "62559c3300966ed68eb31166e6d4eee45664c6daf349e713aa52e03e44787810",
+    "evaluation1436": "04bfb640cfb19fd1bb1d1ec60de509a01ed1c16ed8f765829f5340f1cc15ab22"
+  },
+  "E04_recompute_max_absolute_difference": 0.0,
+  "sources": [
+    {
+      "role": "trusted_predictor_runtime",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/predictor_runtime.py",
+      "source_sha256": "350e9f4ff9dadf97ec74063639b6b8f192fdeaea049cab9883ca5e3e0944be73",
+      "copy_sha256": "350e9f4ff9dadf97ec74063639b6b8f192fdeaea049cab9883ca5e3e0944be73",
+      "bytes": 21894
+    },
+    {
+      "role": "trusted_representation_runtime",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/representation_runtime.py",
+      "source_sha256": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+      "copy_sha256": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+      "bytes": 31799
+    },
+    {
+      "role": "frozen_geometry_runtime",
+      "copy_path": "package/materials_structure_agent_2026-10-05_pilot/descriptor_runtime.py",
+      "source_sha256": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06",
+      "copy_sha256": "c1d99ab97cce8adea015d41a88a9f98d9501aec4aaa6a735c1bcada81162fd06",
+      "bytes": 38546
+    },
+    {
+      "role": "dependency_lock",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/environment/dependency_lock.json",
+      "source_sha256": "97381b5db8b62e6f555f287ae2999cbd2cb2ca19246e3e17f75c5213ade61be9",
+      "copy_sha256": "97381b5db8b62e6f555f287ae2999cbd2cb2ca19246e3e17f75c5213ade61be9",
+      "bytes": 12459
+    },
+    {
+      "role": "previous_evolving_C018",
+      "copy_path": "frozen/baseline.py",
+      "source_sha256": "ded517032df29f57e637bd1ceb7e0bec168ecacca36ba9c66b83ea2f2474b4d6",
+      "copy_sha256": "ded517032df29f57e637bd1ceb7e0bec168ecacca36ba9c66b83ea2f2474b4d6",
+      "bytes": 599
+    },
+    {
+      "role": "legacy_E011",
+      "copy_path": "frozen/legacy_baseline.py",
+      "source_sha256": "0db5a5669d7154e9ed7b555495256391d83ce8905d2187a1ef740d07a30c24c7",
+      "copy_sha256": "0db5a5669d7154e9ed7b555495256391d83ce8905d2187a1ef740d07a30c24c7",
+      "bytes": 140
+    },
+    {
+      "role": "accuracy_C015",
+      "copy_path": "frozen/champion.py",
+      "source_sha256": "4da63d940e197cb5b407db4136c3bbfac23094b33efd23b598326a0a3faebdb1",
+      "copy_sha256": "4da63d940e197cb5b407db4136c3bbfac23094b33efd23b598326a0a3faebdb1",
+      "bytes": 1310
+    },
+    {
+      "role": "accuracy_C015_registration",
+      "copy_path": "frozen/champion_registration.json",
+      "source_sha256": "a18b5f7336130de113ccdf21bd5e55223dcd21491107bcb3d63f8d2a37f8f02e",
+      "copy_sha256": "a18b5f7336130de113ccdf21bd5e55223dcd21491107bcb3d63f8d2a37f8f02e",
+      "bytes": 17662
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/carry.py",
+      "source_sha256": "6f34be5e55947297266f6675e16de9d28797bc466fc75d53ed4eba94ba34bbc3",
+      "copy_sha256": "6f34be5e55947297266f6675e16de9d28797bc466fc75d53ed4eba94ba34bbc3",
+      "bytes": 2949
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/core.py",
+      "source_sha256": "6bc0a210b7f62e3c1553682636a7ba2363ad0c71f6974a1030817e7d9754921e",
+      "copy_sha256": "6bc0a210b7f62e3c1553682636a7ba2363ad0c71f6974a1030817e7d9754921e",
+      "bytes": 355733
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/datasets.py",
+      "source_sha256": "becd7cf105e3e52030a56cb683e2dc017d5c162351dddfeaef8fb79576d796a3",
+      "copy_sha256": "becd7cf105e3e52030a56cb683e2dc017d5c162351dddfeaef8fb79576d796a3",
+      "bytes": 14389
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/dev_utils.py",
+      "source_sha256": "e546c6a38a515ae1a18f89a476cf666ea53fb6c71054ae3e986f06a9e230b7cf",
+      "copy_sha256": "e546c6a38a515ae1a18f89a476cf666ea53fb6c71054ae3e986f06a9e230b7cf",
+      "bytes": 911
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/metrics.py",
+      "source_sha256": "d38bb2b78432fe1a96fd4281f8c84ebbcb1355ee0713db0b696a195a99ce3c20",
+      "copy_sha256": "d38bb2b78432fe1a96fd4281f8c84ebbcb1355ee0713db0b696a195a99ce3c20",
+      "bytes": 11714
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/monoforest.py",
+      "source_sha256": "4eee358cab48b2b00a5561cd6be77cd1dcda5d4a18bfea4b2012acfd879cbc2a",
+      "copy_sha256": "4eee358cab48b2b00a5561cd6be77cd1dcda5d4a18bfea4b2012acfd879cbc2a",
+      "bytes": 4842
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/plot_helpers.py",
+      "source_sha256": "6e133b3408344e45968894fe1cb093e1aca98ec3f2c16fd4079dd11500402592",
+      "copy_sha256": "6e133b3408344e45968894fe1cb093e1aca98ec3f2c16fd4079dd11500402592",
+      "bytes": 6766
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/text_processing.py",
+      "source_sha256": "f978b65a2a7112ddb6167802bd141f7c21a6b4ff19161c18789eddc457eca3cf",
+      "copy_sha256": "f978b65a2a7112ddb6167802bd141f7c21a6b4ff19161c18789eddc457eca3cf",
+      "bytes": 95
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/utils.py",
+      "source_sha256": "2c8e9f715682ff2a6e7bc028d92881118a7cd87cace9d97a2e3365e5e3f5ad56",
+      "copy_sha256": "2c8e9f715682ff2a6e7bc028d92881118a7cd87cace9d97a2e3365e5e3f5ad56",
+      "bytes": 29159
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/version.py",
+      "source_sha256": "c255150653d1b0ae68ae2f4a14d7135f3be1f509fa6ed821256508b96bd4512a",
+      "copy_sha256": "c255150653d1b0ae68ae2f4a14d7135f3be1f509fa6ed821256508b96bd4512a",
+      "bytes": 20
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/_catboost.pyd",
+      "source_sha256": "1ee52d699651cb7fcab3810186ff6b581eceb6e575e0557bd0cafda5b2987164",
+      "copy_sha256": "1ee52d699651cb7fcab3810186ff6b581eceb6e575e0557bd0cafda5b2987164",
+      "bytes": 336880128
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/__init__.py",
+      "source_sha256": "723075ad1115fe9fa812a642c98f3fd4caef91ee2f6372057328e102158d3c31",
+      "copy_sha256": "723075ad1115fe9fa812a642c98f3fd4caef91ee2f6372057328e102158d3c31",
+      "bytes": 1339
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost-1.2.10.dist-info/INSTALLER",
+      "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "copy_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "bytes": 4
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost-1.2.10.dist-info/METADATA",
+      "source_sha256": "85af1f342f4d02c92ef3a8930606c26197effe99b675144b1fd77bee63604350",
+      "copy_sha256": "85af1f342f4d02c92ef3a8930606c26197effe99b675144b1fd77bee63604350",
+      "bytes": 1464
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost-1.2.10.dist-info/RECORD",
+      "source_sha256": "36fac4b92eae5f1386a70b991eabac08e88d2ab720de14bf812877cc71a03268",
+      "copy_sha256": "36fac4b92eae5f1386a70b991eabac08e88d2ab720de14bf812877cc71a03268",
+      "bytes": 6575
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost-1.2.10.dist-info/REQUESTED",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost-1.2.10.dist-info/top_level.txt",
+      "source_sha256": "5d09613faa3a56b12ce9ff19fe38aea49511b8986b7fcf289df961c0cb6fa8b1",
+      "copy_sha256": "5d09613faa3a56b12ce9ff19fe38aea49511b8986b7fcf289df961c0cb6fa8b1",
+      "bytes": 25
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost-1.2.10.dist-info/WHEEL",
+      "source_sha256": "f861e96b233ca3199543a9700593825018a1ca66607461abea9f7c453ef8e38e",
+      "copy_sha256": "f861e96b233ca3199543a9700593825018a1ca66607461abea9f7c453ef8e38e",
+      "bytes": 101
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/base.py",
+      "source_sha256": "f1e73d702985e6a94570e2fc3cb881f97612c7cbb20e52f72ff4a5fe95e2fe14",
+      "copy_sha256": "f1e73d702985e6a94570e2fc3cb881f97612c7cbb20e52f72ff4a5fe95e2fe14",
+      "bytes": 965
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/copying.py",
+      "source_sha256": "4d5cf71940b8fb3fd3d1b114154370cd40ca5819e5723a646ebdc6a78c652e65",
+      "copy_sha256": "4d5cf71940b8fb3fd3d1b114154370cd40ca5819e5723a646ebdc6a78c652e65",
+      "bytes": 565
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/dot.py",
+      "source_sha256": "fb588dc962b4556977cc6a6d8eb72f4f7ec9e356440e222b0ca95330fef7d238",
+      "copy_sha256": "fb588dc962b4556977cc6a6d8eb72f4f7ec9e356440e222b0ca95330fef7d238",
+      "bytes": 13365
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/encoding.py",
+      "source_sha256": "2d5a7b5b9ac023ef1b81a5ff411722ecd7e8509e4f5cd29725bb8f2c86ac41fa",
+      "copy_sha256": "2d5a7b5b9ac023ef1b81a5ff411722ecd7e8509e4f5cd29725bb8f2c86ac41fa",
+      "bytes": 1107
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/exceptions.py",
+      "source_sha256": "5e29e4a1987d3434f05584f8fb6aa9fa9e992a59959180a1a246ccf962e41f78",
+      "copy_sha256": "5e29e4a1987d3434f05584f8fb6aa9fa9e992a59959180a1a246ccf962e41f78",
+      "bytes": 1073
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/graphs.py",
+      "source_sha256": "dd5d090df9d2f17a9adcaa80d8712784383bea3f42d1a40f6ae981df90de6444",
+      "copy_sha256": "dd5d090df9d2f17a9adcaa80d8712784383bea3f42d1a40f6ae981df90de6444",
+      "bytes": 4444
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/jupyter_integration.py",
+      "source_sha256": "e5a4f35a758d17e0b8d1cab6a21909f387fea6eb4dc830a467a0fc686becaac3",
+      "copy_sha256": "e5a4f35a758d17e0b8d1cab6a21909f387fea6eb4dc830a467a0fc686becaac3",
+      "bytes": 4451
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/piping.py",
+      "source_sha256": "7fdf68bc526cfc946cc5076740f821775f6748c42e691e4c3c02b6090a7f8211",
+      "copy_sha256": "7fdf68bc526cfc946cc5076740f821775f6748c42e691e4c3c02b6090a7f8211",
+      "bytes": 7156
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/quoting.py",
+      "source_sha256": "edd77568c2cd3fad9cb82daf56968731beb8f14208ddb3fdde5bc351cab6705b",
+      "copy_sha256": "edd77568c2cd3fad9cb82daf56968731beb8f14208ddb3fdde5bc351cab6705b",
+      "bytes": 6564
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/rendering.py",
+      "source_sha256": "83aab1854f4f13842e2f472d511839e9ccc337397836490bb5692106888baf99",
+      "copy_sha256": "83aab1854f4f13842e2f472d511839e9ccc337397836490bb5692106888baf99",
+      "bytes": 8236
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/saving.py",
+      "source_sha256": "2a871a501f081afb87b38cf75524c670e574a256e844e45076158500bed4a54c",
+      "copy_sha256": "2a871a501f081afb87b38cf75524c670e574a256e844e45076158500bed4a54c",
+      "bytes": 2757
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/sources.py",
+      "source_sha256": "6507bb2837ff9447ae143109756d7cc035513d732772b86a5d3ad86da5290d2d",
+      "copy_sha256": "6507bb2837ff9447ae143109756d7cc035513d732772b86a5d3ad86da5290d2d",
+      "bytes": 6237
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/unflattening.py",
+      "source_sha256": "db828a5ef023924367c4a1f77968d4b5d768a071d668a519675937dce28601c4",
+      "copy_sha256": "db828a5ef023924367c4a1f77968d4b5d768a071d668a519675937dce28601c4",
+      "bytes": 2517
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/_compat.py",
+      "source_sha256": "cd84896db0085eeec4ae5a1c968825971d26d40990260d9fb1fea7ce2a91ae34",
+      "copy_sha256": "cd84896db0085eeec4ae5a1c968825971d26d40990260d9fb1fea7ce2a91ae34",
+      "bytes": 793
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/_defaults.py",
+      "source_sha256": "0756104c3cf27a9f00c3fc4d7de5baf579d67c7b8c7c09a782cee7f4a725b413",
+      "copy_sha256": "0756104c3cf27a9f00c3fc4d7de5baf579d67c7b8c7c09a782cee7f4a725b413",
+      "bytes": 2255
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/_tools.py",
+      "source_sha256": "131e0fb37a21b90d7aa5d4b7a484e5be7f9bad7e844c86e5bde59b5f7ca7e5dc",
+      "copy_sha256": "131e0fb37a21b90d7aa5d4b7a484e5be7f9bad7e844c86e5bde59b5f7ca7e5dc",
+      "bytes": 6641
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/__init__.py",
+      "source_sha256": "bbb0f3ebe6b5521411867408a02386f1419611606957c97bafb9063701db855f",
+      "copy_sha256": "bbb0f3ebe6b5521411867408a02386f1419611606957c97bafb9063701db855f",
+      "bytes": 3502
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz-0.21.dist-info/INSTALLER",
+      "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "copy_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "bytes": 4
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz-0.21.dist-info/METADATA",
+      "source_sha256": "f84c936649b5d3f67e5914dd8a37ef8d1aa682d46f0b8d107cd7486d386a6f56",
+      "copy_sha256": "f84c936649b5d3f67e5914dd8a37ef8d1aa682d46f0b8d107cd7486d386a6f56",
+      "bytes": 12306
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz-0.21.dist-info/RECORD",
+      "source_sha256": "a7d76c79d08f3d3f19e5345f7c1e7c62f10a55632a600f2a78dc2363d43d3770",
+      "copy_sha256": "a7d76c79d08f3d3f19e5345f7c1e7c62f10a55632a600f2a78dc2363d43d3770",
+      "bytes": 5071
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz-0.21.dist-info/REQUESTED",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz-0.21.dist-info/top_level.txt",
+      "source_sha256": "11ef7447489c5045d2d00bc825ba95b8dbda8276a4ba13f95a2a6cd0b0e442ec",
+      "copy_sha256": "11ef7447489c5045d2d00bc825ba95b8dbda8276a4ba13f95a2a6cd0b0e442ec",
+      "bytes": 9
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz-0.21.dist-info/WHEEL",
+      "source_sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+      "copy_sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+      "bytes": 91
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/catboost_evaluation.py",
+      "source_sha256": "3e78c16f7df835b10c6886c5f594ab6dd27960be7241b928c8c3687672b345b8",
+      "copy_sha256": "3e78c16f7df835b10c6886c5f594ab6dd27960be7241b928c8c3687672b345b8",
+      "bytes": 13890
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/evaluation_result.py",
+      "source_sha256": "22c42de9e73efc9b90971318ef2fa0100ce182326483a0134086e1f8054be707",
+      "copy_sha256": "22c42de9e73efc9b90971318ef2fa0100ce182326483a0134086e1f8054be707",
+      "bytes": 18676
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/execution_case.py",
+      "source_sha256": "a4053bbf8fe9d8bb62a7e0717622ceab5ee7fe4b337e4b92cd971756420753b8",
+      "copy_sha256": "a4053bbf8fe9d8bb62a7e0717622ceab5ee7fe4b337e4b92cd971756420753b8",
+      "bytes": 2664
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/factor_utils.py",
+      "source_sha256": "0f59380a7eaaf8aa04a1bdc5a909bd7282a8d487e2d2e401310edc4df0c0229a",
+      "copy_sha256": "0f59380a7eaaf8aa04a1bdc5a909bd7282a8d487e2d2e401310edc4df0c0229a",
+      "bytes": 3541
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/log_config.py",
+      "source_sha256": "223ad992d86456088e036d016a8004dbc96063932db0bb258deb923def97b1c6",
+      "copy_sha256": "223ad992d86456088e036d016a8004dbc96063932db0bb258deb923def97b1c6",
+      "bytes": 822
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/utils.py",
+      "source_sha256": "f9ccdb492e396cff8771040826a2587bc0a98861cba8e79577bbcad3bb7887f8",
+      "copy_sha256": "f9ccdb492e396cff8771040826a2587bc0a98861cba8e79577bbcad3bb7887f8",
+      "bytes": 579
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/_fold_model.py",
+      "source_sha256": "7e11c29da904a58bcf1b72431524faa2d263bd53f8d4859e196569906977df5e",
+      "copy_sha256": "7e11c29da904a58bcf1b72431524faa2d263bd53f8d4859e196569906977df5e",
+      "bytes": 1074
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/_fold_models_handler.py",
+      "source_sha256": "f9de5e7900c8265dfb0c5d8e23629368e8cd31231a536bf5654e3031f347db26",
+      "copy_sha256": "f9de5e7900c8265dfb0c5d8e23629368e8cd31231a536bf5654e3031f347db26",
+      "bytes": 9799
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/_fold_storage.py",
+      "source_sha256": "c7437b98dd7181755bc9b161ac3774431ba38279fa1407294853fb4aa91111d0",
+      "copy_sha256": "c7437b98dd7181755bc9b161ac3774431ba38279fa1407294853fb4aa91111d0",
+      "bytes": 3879
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/_readers.py",
+      "source_sha256": "659539a9dd9558e0bc48007d8705b779147097dc21320a91902f03fd0ac22ca8",
+      "copy_sha256": "659539a9dd9558e0bc48007d8705b779147097dc21320a91902f03fd0ac22ca8",
+      "bytes": 2569
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/_splitter.py",
+      "source_sha256": "d3ee11d8b5e913c7ee1931bc4bae96783ed369d4ef177353a5b86c1b98c902a5",
+      "copy_sha256": "d3ee11d8b5e913c7ee1931bc4bae96783ed369d4ef177353a5b86c1b98c902a5",
+      "bytes": 6509
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/eval/__init__.py",
+      "source_sha256": "2d59e8513f4d3ef5afde014bf7a312de5520e0898051ea98499195389ea7c485",
+      "copy_sha256": "2d59e8513f4d3ef5afde014bf7a312de5520e0898051ea98499195389ea7c485",
+      "bytes": 465
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/hnsw/hnsw.py",
+      "source_sha256": "022a683f1f54ee89a2d0420d1a83ff83476dc41563e43924e18f5e62c7855527",
+      "copy_sha256": "022a683f1f54ee89a2d0420d1a83ff83476dc41563e43924e18f5e62c7855527",
+      "bytes": 21502
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/hnsw/_hnsw.pyd",
+      "source_sha256": "f227b0d2b57391d3731253d96ec248344f6158384366dbed7f8529d9f56d7424",
+      "copy_sha256": "f227b0d2b57391d3731253d96ec248344f6158384366dbed7f8529d9f56d7424",
+      "bytes": 7084544
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/hnsw/__init__.py",
+      "source_sha256": "f8172551ddf870875517792dcebfa9146242660141869c59aef45186898c4ff2",
+      "copy_sha256": "f8172551ddf870875517792dcebfa9146242660141869c59aef45186898c4ff2",
+      "bytes": 256
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/widget/callbacks.py",
+      "source_sha256": "a277f9563c44eec12ead8616bacff09cff1b1289a87f9730c831c50d445c24dd",
+      "copy_sha256": "a277f9563c44eec12ead8616bacff09cff1b1289a87f9730c831c50d445c24dd",
+      "bytes": 3442
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/widget/ipythonwidget.py",
+      "source_sha256": "0c9fe7a46b536bd628e143f47018540c99e9c01035ab0c39ccbf1eb6cb32df6d",
+      "copy_sha256": "0c9fe7a46b536bd628e143f47018540c99e9c01035ab0c39ccbf1eb6cb32df6d",
+      "bytes": 4089
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/widget/metrics_plotter.py",
+      "source_sha256": "4cf1157a69631bda2ca04b566366888e7041007a1b776d13f9b59563cdea8322",
+      "copy_sha256": "4cf1157a69631bda2ca04b566366888e7041007a1b776d13f9b59563cdea8322",
+      "bytes": 7748
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/catboost/widget/__init__.py",
+      "source_sha256": "2c48894da33f2c70851af25b50b452918a64b05b5bfaa07b31d2b4acf625271c",
+      "copy_sha256": "2c48894da33f2c70851af25b50b452918a64b05b5bfaa07b31d2b4acf625271c",
+      "bytes": 522
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/etc/jupyter/nbconfig/notebook.d/catboost-widget.json",
+      "source_sha256": "c5342048e77b76f38e92ca83e25e97e038b24c21890e72dfc5797f048bf25c5b",
+      "copy_sha256": "c5342048e77b76f38e92ca83e25e97e038b24c21890e72dfc5797f048bf25c5b",
+      "bytes": 74
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/dot_command.py",
+      "source_sha256": "c42706344980e3c7f231c2c46dbcaaf824a8d788f81f6fef67b45ac96a27e335",
+      "copy_sha256": "c42706344980e3c7f231c2c46dbcaaf824a8d788f81f6fef67b45ac96a27e335",
+      "bytes": 1473
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/execute.py",
+      "source_sha256": "68ea645491996d676ef110cfca519cfa3e549afe0e54f272447d7970683391ed",
+      "copy_sha256": "68ea645491996d676ef110cfca519cfa3e549afe0e54f272447d7970683391ed",
+      "bytes": 4458
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/mixins.py",
+      "source_sha256": "f3b7c662a478d211500a9edcfb59596be01bf8eccb15547a5bd5e98c534e6e30",
+      "copy_sha256": "f3b7c662a478d211500a9edcfb59596be01bf8eccb15547a5bd5e98c534e6e30",
+      "bytes": 2319
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/piping.py",
+      "source_sha256": "fb52df138c0b42e644db9b8c882c0fd75602cb70b9788af0f2918a52cf77b156",
+      "copy_sha256": "fb52df138c0b42e644db9b8c882c0fd75602cb70b9788af0f2918a52cf77b156",
+      "bytes": 8982
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/rendering.py",
+      "source_sha256": "b07e6da91ce276e30d23bc5ac21a2248709a47cbb94a7758375b75660b1609b0",
+      "copy_sha256": "b07e6da91ce276e30d23bc5ac21a2248709a47cbb94a7758375b75660b1609b0",
+      "bytes": 13409
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/unflattening.py",
+      "source_sha256": "8693d290ade56ec658057097f3491c02207121f37edd0a164f9c3979005c5d84",
+      "copy_sha256": "8693d290ade56ec658057097f3491c02207121f37edd0a164f9c3979005c5d84",
+      "bytes": 2140
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/upstream_version.py",
+      "source_sha256": "fdff7f2ec9536f23a3eaa74771931e27eee1e58bd80015c757350885fbe05338",
+      "copy_sha256": "fdff7f2ec9536f23a3eaa74771931e27eee1e58bd80015c757350885fbe05338",
+      "bytes": 2015
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/viewing.py",
+      "source_sha256": "b62b7d0f622c44c751774cec87750c9fed656d12bf1b5fa3127941a0596b66f1",
+      "copy_sha256": "b62b7d0f622c44c751774cec87750c9fed656d12bf1b5fa3127941a0596b66f1",
+      "bytes": 2255
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/backend/__init__.py",
+      "source_sha256": "8bde7cd80cb2a38e8537eeea306e20682f7fc1725af25a41dbb71b7f550c7591",
+      "copy_sha256": "8bde7cd80cb2a38e8537eeea306e20682f7fc1725af25a41dbb71b7f550c7591",
+      "bytes": 778
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/parameters/base.py",
+      "source_sha256": "2beb78fe861b7abc40f29b3628cd8272ba1f925fc0b053f6e93d51f950411a36",
+      "copy_sha256": "2beb78fe861b7abc40f29b3628cd8272ba1f925fc0b053f6e93d51f950411a36",
+      "bytes": 465
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/parameters/engines.py",
+      "source_sha256": "adc8ae18514eed28c8c3d6246337ab847fa3e739c5d2c74b83449758709ff1c3",
+      "copy_sha256": "adc8ae18514eed28c8c3d6246337ab847fa3e739c5d2c74b83449758709ff1c3",
+      "bytes": 1716
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/parameters/formats.py",
+      "source_sha256": "843a7dcf2fdd581f4cc44c675ec03afbd11b587df33a63465900d043fb80a654",
+      "copy_sha256": "843a7dcf2fdd581f4cc44c675ec03afbd11b587df33a63465900d043fb80a654",
+      "bytes": 2479
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/parameters/formatters.py",
+      "source_sha256": "058852ef13ce3b268f0fb7cff597a77db7e30b7cd3375e4cf87ea1a93bdfc45b",
+      "copy_sha256": "058852ef13ce3b268f0fb7cff597a77db7e30b7cd3375e4cf87ea1a93bdfc45b",
+      "bytes": 1867
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/parameters/mixins.py",
+      "source_sha256": "043bf9d04eebb08ab1c23d35a9203a18967208e6eeea6882874c3af6adeaf9aa",
+      "copy_sha256": "043bf9d04eebb08ab1c23d35a9203a18967208e6eeea6882874c3af6adeaf9aa",
+      "bytes": 1446
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/parameters/renderers.py",
+      "source_sha256": "ee6f291d35cda7fe995709a0389ceaa8288eae0d461ecdbd9e5b9a0bdb040345",
+      "copy_sha256": "ee6f291d35cda7fe995709a0389ceaa8288eae0d461ecdbd9e5b9a0bdb040345",
+      "bytes": 2001
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz/parameters/__init__.py",
+      "source_sha256": "c5013937614369330bd0c9993f527c1130f8c033124e2720c1f94bd394386083",
+      "copy_sha256": "c5013937614369330bd0c9993f527c1130f8c033124e2720c1f94bd394386083",
+      "bytes": 482
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/graphviz-0.21.dist-info/licenses/LICENSE.txt",
+      "source_sha256": "0cf7b80986633eb6eef661617c2a36eba56ec679b2193d28767706aeac33ed6d",
+      "copy_sha256": "0cf7b80986633eb6eef661617c2a36eba56ec679b2193d28767706aeac33ed6d",
+      "bytes": 1107
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/package.json",
+      "source_sha256": "4bc16267e904cf4d0d970e65810bf49dbcec4d849a8407a8136fcd99489f0655",
+      "copy_sha256": "4bc16267e904cf4d0d970e65810bf49dbcec4d849a8407a8136fcd99489f0655",
+      "bytes": 1163
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/408.dbc077a6cc7c217e368f.js",
+      "source_sha256": "8c97b77ce33cf59d50f7ab54c08d3fa5dab617d3879dfee8f878d9c46281a5f3",
+      "copy_sha256": "8c97b77ce33cf59d50f7ab54c08d3fa5dab617d3879dfee8f878d9c46281a5f3",
+      "bytes": 305
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/44.09167608751471797563.js",
+      "source_sha256": "8744e3523b3e4cb1912e0924577449fee210dcfdad91116eaf514d4bf86c3321",
+      "copy_sha256": "8744e3523b3e4cb1912e0924577449fee210dcfdad91116eaf514d4bf86c3321",
+      "bytes": 38015
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/543.e8dd5ef129981f7df1b4.js",
+      "source_sha256": "a0612ab3bcbd07526ca4e4ee43f7de3dfb17ee83be3babba0b6c57b683d24861",
+      "copy_sha256": "a0612ab3bcbd07526ca4e4ee43f7de3dfb17ee83be3babba0b6c57b683d24861",
+      "bytes": 70534
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/543.e8dd5ef129981f7df1b4.js.LICENSE.txt",
+      "source_sha256": "d33efbdf4d309bfa4448199551371ff81d5f57661b781faf79d256554e038595",
+      "copy_sha256": "d33efbdf4d309bfa4448199551371ff81d5f57661b781faf79d256554e038595",
+      "bytes": 336
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/692.400b4d789438c01ed84d.js",
+      "source_sha256": "4d1e29cbb1a045df820a40351b5c7932c951a1a2714f2517f201dd00584a1c39",
+      "copy_sha256": "4d1e29cbb1a045df820a40351b5c7932c951a1a2714f2517f201dd00584a1c39",
+      "bytes": 89393
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/692.400b4d789438c01ed84d.js.LICENSE.txt",
+      "source_sha256": "90df5fb90a66efeeba4a18886bb6c62bdc1389f8ea14d8e1531acd42f160d344",
+      "copy_sha256": "90df5fb90a66efeeba4a18886bb6c62bdc1389f8ea14d8e1531acd42f160d344",
+      "bytes": 475
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/708.97a415b7d9904d46a391.js",
+      "source_sha256": "28f88308473321c3946414cc1fce471c85410e132a3d5f64bba3a936141e7305",
+      "copy_sha256": "28f88308473321c3946414cc1fce471c85410e132a3d5f64bba3a936141e7305",
+      "bytes": 3467767
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/708.97a415b7d9904d46a391.js.LICENSE.txt",
+      "source_sha256": "99b8afca26f4f995419fd5646383cda95b92d0d5198974937e64935b0abb6c5b",
+      "copy_sha256": "99b8afca26f4f995419fd5646383cda95b92d0d5198974937e64935b0abb6c5b",
+      "bytes": 1282
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/remoteEntry.0a4d5219444d0ee6c50e.js",
+      "source_sha256": "86c993e9a564d83c75bfe442ae06f2dafa9b320e5b25dafbd01de4fd25f74379",
+      "copy_sha256": "86c993e9a564d83c75bfe442ae06f2dafa9b320e5b25dafbd01de4fd25f74379",
+      "bytes": 7725
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/labextensions/catboost-widget/static/style.js",
+      "source_sha256": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+      "copy_sha256": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+      "bytes": 118
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/nbextensions/catboost-widget/extension.js",
+      "source_sha256": "31b637e46315f6f5f2e45d0334ab1331df7464ecee89211d33a2a9abab6caaf7",
+      "copy_sha256": "31b637e46315f6f5f2e45d0334ab1331df7464ecee89211d33a2a9abab6caaf7",
+      "bytes": 325
+    },
+    {
+      "role": "pinned_task_dependency",
+      "copy_path": "package/materials_accuracy_agent_2026-10-06/dependencies/share/jupyter/nbextensions/catboost-widget/index.js",
+      "source_sha256": "529d9d98aac81569a62d0b0209d955d5ff48d7820b9a974b8af0b09dd412fb77",
+      "copy_sha256": "529d9d98aac81569a62d0b0209d955d5ff48d7820b9a974b8af0b09dd412fb77",
+      "bytes": 3666062
+    },
+    {
+      "role": "original_raw30_all3600",
+      "copy_path": "copied_inputs/original_raw30_all3600.csv.gz",
+      "source_sha256": "c49a848cacf901aa75a5c2f0dc7b8f045db8a37a0651a8968ee807d932527810",
+      "copy_sha256": "c49a848cacf901aa75a5c2f0dc7b8f045db8a37a0651a8968ee807d932527810",
+      "bytes": 512040
+    },
+    {
+      "role": "split_assignments_all3600",
+      "copy_path": "copied_inputs/split_assignments_all3600.csv",
+      "source_sha256": "aedb7ddfb72b329a2ea689af4b737f9dd3b8725c2a09aa2e9d9490cc689476c7",
+      "copy_sha256": "aedb7ddfb72b329a2ea689af4b737f9dd3b8725c2a09aa2e9d9490cc689476c7",
+      "bytes": 340358
+    },
+    {
+      "role": "test_structures721_pure",
+      "copy_path": "copied_inputs/test_structures721_pure.jsonl.gz",
+      "source_sha256": "709bafabea7fb680eb063e148d100fb676c04a94d8acb95c176423f1d438f3b0",
+      "copy_sha256": "709bafabea7fb680eb063e148d100fb676c04a94d8acb95c176423f1d438f3b0",
+      "bytes": 5153688
+    },
+    {
+      "role": "development_raw30_train_plus_known715",
+      "copy_path": "copied_inputs/development_raw30_train_plus_known715.csv.gz",
+      "source_sha256": "d9ed4527de86de901c70772250a0b01872dd56a18719d6b5c9f5d2ebfe5d78f0",
+      "copy_sha256": "d9ed4527de86de901c70772250a0b01872dd56a18719d6b5c9f5d2ebfe5d78f0",
+      "bytes": 389810
+    },
+    {
+      "role": "development_E04_12_train_plus_known715",
+      "copy_path": "copied_inputs/development_E04_12_train_plus_known715.csv.gz",
+      "source_sha256": "742e2af21629d9920ae1a783e31c7183306f14f8a5699449be189a1edb97d053",
+      "copy_sha256": "742e2af21629d9920ae1a783e31c7183306f14f8a5699449be189a1edb97d053",
+      "bytes": 315367
+    },
+    {
+      "role": "E04_test721_cached_12",
+      "copy_path": "copied_inputs/E04_test721_cached_12.csv.gz",
+      "source_sha256": "bbd1c9cb259820647f77910ff98e1bcb42df8cdbdbba1f11e66efe41613fe1f6",
+      "copy_sha256": "bbd1c9cb259820647f77910ff98e1bcb42df8cdbdbba1f11e66efe41613fe1f6",
+      "bytes": 79876
+    },
+    {
+      "role": "E04_compute_source",
+      "copy_path": "copied_inputs/E04_compute_source.py",
+      "source_sha256": "5bf33c75071d43d986e50ab1680d79e0d9eaad062aa9e39051f7a6e2a82ad46b",
+      "copy_sha256": "5bf33c75071d43d986e50ab1680d79e0d9eaad062aa9e39051f7a6e2a82ad46b",
+      "bytes": 2417
+    },
+    {
+      "role": "E04_specification",
+      "copy_path": "copied_inputs/E04_specification.json",
+      "source_sha256": "0bfe80fb0fb1a3c4023f0d4eab1fed865a212f5af8ead30ecaafd2cfc709b3f0",
+      "copy_sha256": "0bfe80fb0fb1a3c4023f0d4eab1fed865a212f5af8ead30ecaafd2cfc709b3f0",
+      "bytes": 1549
+    },
+    {
+      "role": "R004_compute_source",
+      "copy_path": "copied_inputs/R004_compute_source.py",
+      "source_sha256": "11bf2af897f8e6b7a2f929d3b59900d20997deb022c23ecd7b9c9ab28f9d58f7",
+      "copy_sha256": "11bf2af897f8e6b7a2f929d3b59900d20997deb022c23ecd7b9c9ab28f9d58f7",
+      "bytes": 1625
+    },
+    {
+      "role": "R004_proposal",
+      "copy_path": "copied_inputs/R004_proposal.json",
+      "source_sha256": "08dde850e93bb7f4fbc5a4e2e3cd2fdf846b2eabdaacae3fd14d5322169fc108",
+      "copy_sha256": "08dde850e93bb7f4fbc5a4e2e3cd2fdf846b2eabdaacae3fd14d5322169fc108",
+      "bytes": 2693
+    },
+    {
+      "role": "R004_train2164_matrix24",
+      "copy_path": "copied_inputs/R004_train2164_matrix24.csv.gz",
+      "source_sha256": "3bc8b423004daffe72d383b36cefd7dafbca8a2b8537791ac14e40f2da4e1fbb",
+      "copy_sha256": "3bc8b423004daffe72d383b36cefd7dafbca8a2b8537791ac14e40f2da4e1fbb",
+      "bytes": 505189
+    },
+    {
+      "role": "R004_known715_matrix24",
+      "copy_path": "copied_inputs/R004_known715_matrix24.csv.gz",
+      "source_sha256": "e6c99a7bd93da410c8a915e7002d82bb67ec0e56b2aee4c8e8d05abfc1e0107f",
+      "copy_sha256": "e6c99a7bd93da410c8a915e7002d82bb67ec0e56b2aee4c8e8d05abfc1e0107f",
+      "bytes": 168052
+    },
+    {
+      "role": "prior_final_numeric_prediction_receipt",
+      "copy_path": "copied_inputs/prior_final_numeric_prediction_receipt.json",
+      "source_sha256": "af66d056b7f90adb5011343dc26144544eb0a57ff2951dfcbe1dc290e280f119",
+      "copy_sha256": "af66d056b7f90adb5011343dc26144544eb0a57ff2951dfcbe1dc290e280f119",
+      "bytes": 4840
+    },
+    {
+      "role": "prior_champion_freeze",
+      "copy_path": "copied_inputs/prior_champion_freeze.json",
+      "source_sha256": "cffc70767ec7b683a242dc02e8e72ab64b7f45fe7ae120e6b403e3b4f8e8cbb5",
+      "copy_sha256": "cffc70767ec7b683a242dc02e8e72ab64b7f45fe7ae120e6b403e3b4f8e8cbb5",
+      "bytes": 16763
+    },
+    {
+      "role": "prior_known715_baseline_predictions",
+      "copy_path": "copied_inputs/prior_known715_baseline_predictions.csv.gz",
+      "source_sha256": "8bf1d408a78331adc79228e63b6b9a64aa980d83b38a02205293e70cdcb8ed7e",
+      "copy_sha256": "8bf1d408a78331adc79228e63b6b9a64aa980d83b38a02205293e70cdcb8ed7e",
+      "bytes": 10046
+    },
+    {
+      "role": "prior_known715_legacy_baseline_predictions",
+      "copy_path": "copied_inputs/prior_known715_legacy_baseline_predictions.csv.gz",
+      "source_sha256": "99d5813b689259d9754bf0e0159ac26c46af32c4478dee0f2e61b1aefb9e3076",
+      "copy_sha256": "99d5813b689259d9754bf0e0159ac26c46af32c4478dee0f2e61b1aefb9e3076",
+      "bytes": 10007
+    },
+    {
+      "role": "prior_known715_champion_predictions",
+      "copy_path": "copied_inputs/prior_known715_champion_predictions.csv.gz",
+      "source_sha256": "5fe7311e2fa8640beb3d7232ff19cf07cc54385cb34738c589cc0ed8f34aada2",
+      "copy_sha256": "5fe7311e2fa8640beb3d7232ff19cf07cc54385cb34738c589cc0ed8f34aada2",
+      "bytes": 10006
+    }
+  ],
+  "source_target_values_published": false,
+  "original_metadata_receipt_sha256": {
+    "test_results.json": "50983188c0c6657ed068386f20501a49566d4c71f19d193945b51796f8704df7",
+    "prediction_receipt.json": "bdc71cbf981f8967d3a8b7282d15b9d09cd56779521526397579ca01c2934e43",
+    "target_access_receipt.json": "c3925b29f30cf5cf5c60159e917aa97a481a89cdade12a3664bea5315c571f21",
+    "prepared_inputs.json": "e70aeed882ba0d55a08090f2aa1a271d14b93398efd946a3edc98a8588affa6f",
+    "plan.json": "29aefc197da48cb388855c190875ecdd47566e6e5f5bcc5eb6be55e47f02aaf6",
+    "source_copy_manifest.json": "3903e8d9a599c470c46b52b78b0d266d5f91cd615144037a2c1a454be343c80a",
+    "fit_outcome.json": "d14cdc638c793eba8e2efb46f27f4648931a68a3d3a32ec1c5ca43a43a84d089",
+    "reporting/independent_test_review.json": "acf3398793c333526bf65fd8b296d7974cab9e12dba6fd44d911d5ec9a48b84b"
+  }
+}
