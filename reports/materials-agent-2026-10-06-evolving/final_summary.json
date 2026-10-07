@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "result": {
+    "schema_version": 1,
+    "candidate_id": "C018",
+    "frozen_champion_sha256": "31f9fbc2389e536482186a6fe214dc49876e80554d906b51943053b16277582d",
+    "results": {
+      "baseline": {
+        "known_validation": {
+          "rows": 715,
+          "MAE_eV_atom": 0.2152354676332484,
+          "RMSE_eV_atom": 0.3296357940176691,
+          "mean_prediction_minus_truth": 0.0018773992576819444,
+          "p90_abs_error": 0.4848053216437025,
+          "p99_abs_error": 1.0845436170156992
+        },
+        "fresh1000": {
+          "rows": 1000,
+          "MAE_eV_atom": 0.22096947493065233,
+          "RMSE_eV_atom": 0.3540455924936734,
+          "mean_prediction_minus_truth": -0.007197285019048323,
+          "p90_abs_error": 0.5127771119939725,
+          "p99_abs_error": 1.223007064695496
+        }
+      },
+      "champion": {
+        "known_validation": {
+          "rows": 715,
+          "MAE_eV_atom": 0.2101903175989464,
+          "RMSE_eV_atom": 0.32849350983255576,
+          "mean_prediction_minus_truth": 0.003442485874133944,
+          "p90_abs_error": 0.44423744458088,
+          "p99_abs_error": 1.0809746558308735
+        },
+        "fresh1000": {
+          "rows": 1000,
+          "MAE_eV_atom": 0.21943186093741865,
+          "RMSE_eV_atom": 0.35074750622838163,
+          "mean_prediction_minus_truth": 0.002132529207130009,
+          "p90_abs_error": 0.502309883499249,
+          "p99_abs_error": 1.259242202579911
+        }
+      }
+    },
+    "fresh_comparison": {
+      "MAE_difference_champion_minus_baseline": -0.0015376139932336246,
+      "cluster_bootstrap_95_percent_interval": [
+        -0.007207667447550204,
+        0.004314198710648672
+      ],
+      "bootstrap_unit": "chemical_system",
+      "clusters": 980,
+      "resamples": 2000,
+      "seed": 20261006,
+      "interpretation": "Negative difference favorschampion; intervaldescribes thisonefixedsame-sourceheldoutcohort, notuniversalphysicalvalidity."
+    },
+    "OOF_schedule_gate_pass": true,
+    "known_validation_nonworsening": true,
+    "fresh_MAE_improved": true,
+    "promotion_pass": true,
+    "incumbent": "chosenAgentprogram",
+    "counts": {
+      "fit_started": 11,
+      "fit_completed": 11,
+      "fit_failed": 0
+    },
+    "elapsed_seconds": 45.84399999998277,
+    "fresh_scope": "1000 newlyheldout IDs/980systems excludedfrompriorregisteredlocalexperiments, samepublicMPrelease; notexternal-source ornewDFT/synthesis.",
+    "engineering_limit": "Inferenceindependence/geometricchecksarefiniteprobes, notformalsecurityorphysicalproof. FitcountsaretrustedAPIlearners; Agentprogramtraininginvocationsseparate.",
+    "fresh_prediction_receipt_sha256": "8d6637306ee604849c60d09fac17897ff9cafa7951afd596c2d6cb1d18e9e5bd",
+    "labels_release_receipt_sha256": "1a83e1f69a94e41e9f39db1158804fb393d4574c6d822e37fda8e88192cf90fc",
+    "artifact_hashes": {
+      "fit_events_live.jsonl": "c4e24e7fa77cd77ce740ed77cd5603e0b369c615a6d28486e866907d677eec13",
+      "reservation.json": "d462e68ca8abcd5cb9e95f43d0472de05379203ece366ad7301dbf9ef3402ac2",
+      "baseline_known_validation_predictions.csv.gz": "fb874f89a8acbd91dbfd5801672dcb0546b6300b9ca2b53731ab805d9f23b322",
+      "baseline_fresh_predictions.csv.gz": "eb9dff6b30e74b4590371fafef3e76c011840be3777f4818d61e7973f0e9c92c",
+      "champion_known_validation_predictions.csv.gz": "2233c6262d452f37d845d5745ff7c125b57922a782183a384c5a47139a7ef037",
+      "champion_fresh_predictions.csv.gz": "d8b18eb1758ad9865baaa9f35effb2f1caad491ecaa8bc77d59ca608b3f1e5ec",
+      "R004_fresh_features.csv.gz": "60530b931de7492979d228e39e71ea4c258c36e5395fe4997b38653232ecbfa8",
+      "R004_known_validation_features.csv.gz": "11ee3ac9fa15b7e3457a17f70db10d171a303e236148a4b3f2e7b3712d2ba0ab"
+    }
+  },
+  "receipt_hashes": {
+    "frozen_champion_sha256": "31f9fbc2389e536482186a6fe214dc49876e80554d906b51943053b16277582d",
+    "fresh_prediction_receipt_sha256": "8d6637306ee604849c60d09fac17897ff9cafa7951afd596c2d6cb1d18e9e5bd",
+    "labels_release_receipt_sha256": "1a83e1f69a94e41e9f39db1158804fb393d4574c6d822e37fda8e88192cf90fc"
+  },
+  "reason": null
+}

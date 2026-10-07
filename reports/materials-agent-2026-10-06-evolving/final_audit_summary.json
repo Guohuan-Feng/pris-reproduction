@@ -1,0 +1,32 @@
+{
+  "status": "two_independent_final_audits_PASS",
+  "complete": true,
+  "audits": [
+    {
+      "path": "reporting/postrun_audit.json",
+      "status": "PASS",
+      "sha256": "4b94545c5b926f9198515184272882cd6dcf4916c220b38bb309e1ab12290a3c",
+      "recorded_utc": "2026-10-07T00:23:48.884724+00:00",
+      "checks": 15994,
+      "failures": 0,
+      "auditor_sha256": "21d61ee4280934ba6e1c79dc4c6fdd458252ee0ba358bd3b831f1b9ba936322a",
+      "reviewer_program_sha256": null,
+      "bound_final_result_sha256": "42db2ce6319189c2ea1cd1e4a2874c14bb6370f873fd1e72a143ec9e6e0426fa"
+    },
+    {
+      "path": "reporting/reviewer_final_numeric_audit.json",
+      "status": "PASS",
+      "sha256": "ec9ce0efa0c7e34b3040d0c5ca631c97a7a51dbe023336c1593ee923b3ce3598",
+      "recorded_utc": "2026-10-07T00:23:14.472494+00:00",
+      "checks": 1984,
+      "failures": 0,
+      "auditor_sha256": "21d61ee4280934ba6e1c79dc4c6fdd458252ee0ba358bd3b831f1b9ba936322a",
+      "reviewer_program_sha256": "c5e7f6cd3bee542ecebf0f02c15e1f5746219b5bc1c5cf105e3a99e766f41e12",
+      "bound_final_result_sha256": "42db2ce6319189c2ea1cd1e4a2874c14bb6370f873fd1e72a143ec9e6e0426fa"
+    }
+  ],
+  "new_fits_by_report": 0,
+  "new_LLM_calls_by_report": 0,
+  "fresh_labels_read_by_report": false,
+  "scope": "Saved audit outcomes and result hashes verified; audit label calculations are not repeated by the report."
+}

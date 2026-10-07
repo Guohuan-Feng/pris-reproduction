@@ -1,0 +1,20 @@
+{
+  "status": "inputs_frozen",
+  "raw_source_release": "Matbench Discovery Figshare22715158v38",
+  "source_doi": "https://doi.org/10.6084/m9.figshare.22715158.v38",
+  "rows": 1000,
+  "chemical_systems": 980,
+  "selected_ID_overlap_prior": 0,
+  "selected_system_overlap_prior": 0,
+  "target_values_accessed": false,
+  "label_gate": "Fresh labels remain inaccessible until champion freeze hash and both saved baseline/champion prediction receipts are verified.",
+  "limitations": [
+    "Unseen by these local tasks, not a new DFT measurement or external-source replication.",
+    "Unknown pretraining exposure and unmapped physical/structural overlap are not excluded.",
+    "Original relaxed structures include DFT-derived information; this is not pre-DFT discovery."
+  ],
+  "selection_policy": "First1000 of fixed1200 with finite historical raw30+E04; only predeclared descriptor nonfiniteness can reject. Any other structural/source error aborts. New Agent representations never change eligibility.",
+  "source_energy_fields_accessed": false,
+  "old_confirmation_directory_opened": false,
+  "old_confirmation_inputs_or_labels_read": false
+}

@@ -1,0 +1,2065 @@
+[
+  {
+    "candidate_id": "C001",
+    "status": "complete",
+    "hypothesis": "Isolate the predictive value of approved 24-column radial chemical ordering representation R002 by appending it to untouched raw old42 and training the same oxygen-routed E011 learner (five atomic fits per block). No new blend or label-derived transform is introduced, so this is a representation intervention. Three shells distinguish arrangements having similar bulk chemistry and aggregate contacts but different radial distributions of unlike species, electronegativity gaps, radius mismatch, and site heterogeneity. Training-only baseline N/O group errors motivate the test but do not prove a mechanism. E011 preprocessing and grouping remain inside trusted training, with unchanged raw first42 and no evaluation data available to fit.",
+    "falsification": "The representation is not supported under this learner if overall OOF MAE fails to improve over 0.24069775371169688, if gains are not consistent across the two fixed chemical-system folds, or if the actual scheduling gate fails. Inspect nitrogen, oxygen, no-oxygen and ternary-plus errors to delimit any benefit; do not infer mechanism or fresh generalization from these metrics.",
+    "full_saved_result_sha256": "3250ba319e2550c1c6c0437ac3c7bf7e4da977d7bf054afe977dbcb3257ebf09",
+    "full_saved_result": {
+      "candidate_id": "C001",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.24321153590989886,
+        "RMSE_eV_atom": 0.37147672875014925,
+        "mean_prediction_minus_truth": -0.013729272207420293,
+        "p90_abs_error": 0.534084536995248,
+        "p99_abs_error": 1.2713863570055866,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2512732111719804,
+            "mean_prediction_minus_truth": -0.02642505140635834
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23514986064781726,
+            "mean_prediction_minus_truth": -0.0010334930084822448
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3727942637618438,
+            "mean_prediction_minus_truth": -0.11977605676889716
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2831159309653546,
+            "mean_prediction_minus_truth": -0.007740015122286584
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21804199660212462,
+            "mean_prediction_minus_truth": -0.01750697241861616
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24125111198171692,
+            "mean_prediction_minus_truth": -0.014019412730893566
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 45.246160199982114,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 31.67152880001231,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 79.01600000000326,
+      "registered_hypothesis": "Isolate the predictive value of approved 24-column radial chemical ordering representation R002 by appending it to untouched raw old42 and training the same oxygen-routed E011 learner (five atomic fits per block). No new blend or label-derived transform is introduced, so this is a representation intervention. Three shells distinguish arrangements having similar bulk chemistry and aggregate contacts but different radial distributions of unlike species, electronegativity gaps, radius mismatch, and site heterogeneity. Training-only baseline N/O group errors motivate the test but do not prove a mechanism. E011 preprocessing and grouping remain inside trusted training, with unchanged raw first42 and no evaluation data available to fit.",
+      "falsification": "The representation is not supported under this learner if overall OOF MAE fails to improve over 0.24069775371169688, if gains are not consistent across the two fixed chemical-system folds, or if the actual scheduling gate fails. Inspect nitrogen, oxygen, no-oxygen and ternary-plus errors to delimit any benefit; do not infer mechanism or fresh generalization from these metrics.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R002"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "d3874cf69c967b535a17b235f8b125f42b8249bee7265d603957d672fa8bf22f",
+        "fit_events_live.jsonl": "1d62eaa6ac34b9a44ada0b3fa4a4766a4bc383cbfc35f59ea470d4277fe33b4d",
+        "reservation.json": "efc6a0c6f46c9e4cc35e87a315c8fa7d27fde7c1f217e192c6c4131db47c7a51"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "db634a09f765b7049c90f3daf4a5d541a01a495bb2b28cda8e409041facf3109",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C002",
+    "status": "complete",
+    "hypothesis": "Test approved R003 directional geometry/chemistry tensor spectra and overlap by appending its 16 features to untouched raw old42 with unchanged E011. The authored program delegates training-only preprocessing and oxygen routing to trusted E011 and uses no extra blend or residual correction, isolating the representation intervention. Local tensors retain directional dimensionality and relative chemical/geometric orientation discarded by scalar radial summaries, with no fixed angle bins. T0007 shows prior radial R002 worsened both folds and all groups, while baseline N/O MAE remains high; these observations motivate a different information class but establish no physical cause. R003 passed all five invariances in T0008. Five atomic fits per training block are below the live cap of six.",
+    "falsification": "Unsupported predictive improvement if overall OOF MAE is not below baseline 0.24069775371169688, if either fixed chemical-system fold does not improve over baseline 0.24742730147045433 and 0.2339682059529394 respectively, or the actual scheduling gate fails. Inspect N/O/no-O/ternary-plus MAEs and bias without using validation or fresh labels or inferring a physical mechanism. Evaluate once and retain negative outcomes.",
+    "full_saved_result_sha256": "a31446b1f938afdf543519bf5e257d75b964a0256962830cf762e1a2abeac046",
+    "full_saved_result": {
+      "candidate_id": "C002",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.24211728983071762,
+        "RMSE_eV_atom": 0.37212415367417206,
+        "mean_prediction_minus_truth": -0.01448575136893489,
+        "p90_abs_error": 0.5237145672806536,
+        "p99_abs_error": 1.2543683926604892,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2505606666663328,
+            "mean_prediction_minus_truth": -0.02207701212817917
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23367391299510243,
+            "mean_prediction_minus_truth": -0.006894490609690612
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3753987916693469,
+            "mean_prediction_minus_truth": -0.12002810508645084
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2776858697816196,
+            "mean_prediction_minus_truth": -0.005830954518171797
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21968254874638832,
+            "mean_prediction_minus_truth": -0.019944730241646804
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.23987980509149687,
+            "mean_prediction_minus_truth": -0.014306841687463072
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 30.84240090000094,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 30.83369820000371,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 63.82799999997951,
+      "registered_hypothesis": "Test approved R003 directional geometry/chemistry tensor spectra and overlap by appending its 16 features to untouched raw old42 with unchanged E011. The authored program delegates training-only preprocessing and oxygen routing to trusted E011 and uses no extra blend or residual correction, isolating the representation intervention. Local tensors retain directional dimensionality and relative chemical/geometric orientation discarded by scalar radial summaries, with no fixed angle bins. T0007 shows prior radial R002 worsened both folds and all groups, while baseline N/O MAE remains high; these observations motivate a different information class but establish no physical cause. R003 passed all five invariances in T0008. Five atomic fits per training block are below the live cap of six.",
+      "falsification": "Unsupported predictive improvement if overall OOF MAE is not below baseline 0.24069775371169688, if either fixed chemical-system fold does not improve over baseline 0.24742730147045433 and 0.2339682059529394 respectively, or the actual scheduling gate fails. Inspect N/O/no-O/ternary-plus MAEs and bias without using validation or fresh labels or inferring a physical mechanism. Evaluate once and retain negative outcomes.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R003"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "3974934a5b59d82533e403ab8130a9c4952aaba637e5d21128c05302d3628df0",
+        "fit_events_live.jsonl": "9191bf7a0bf052272a2fe28294fad1cd98339df5c8a718d26e8b9f2bb541fb68",
+        "reservation.json": "dc9ad695a9b9c74bf2da3286366817a9d48dd186e1e91b893aff83248235418c"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "b89e2871c0dae6c099443cb98746226953b8e5847cb5a564f57cabf7066c15d3",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C003",
+    "status": "complete",
+    "hypothesis": "Append approved R004 to exact raw old42 and use unchanged E011 to isolate two-step graph environment information. The authored fit/predict program leaves supervised preprocessing and oxygen grouping within trusted E011, has no external state or evaluation access, and does not mutate readonly inputs. R004 propagates smooth coordination and local chemical mean, variance and unlike fraction across full periodic neighbors, retaining connected-environment contrasts and covariance that pooled single-site radial/tensor moments discard. T0012 reports both earlier representations failed overall MAE, motivating this distinct relational test without claiming an error cause. T0013 approved 24 new columns and all five invariances. Five fits per block is within the live cap six.",
+    "falsification": "Predictive improvement is unsupported if actual training OOF scheduling gate fails, overall MAE is not below 0.24069775371169688 eV/atom, or either fold fails to improve against 0.24742730147045433 and 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen and ternary-plus groups for scope and adverse tradeoffs. Evaluate once only; retain negative results. These adaptive training OOF observations do not establish physical mechanism or fresh confirmation.",
+    "full_saved_result_sha256": "a1c3e4aec3510ce7b41dcd254470a5f7a2365f3c903d1e0f1c964165c18a5b01",
+    "full_saved_result": {
+      "candidate_id": "C003",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23656874002693895,
+        "RMSE_eV_atom": 0.37439789554543956,
+        "mean_prediction_minus_truth": -0.015853160019526757,
+        "p90_abs_error": 0.5278500548171636,
+        "p99_abs_error": 1.3053450289398207,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2391542173994529,
+            "mean_prediction_minus_truth": -0.024541251028742987
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.233983262654425,
+            "mean_prediction_minus_truth": -0.00716506901031053
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3642999348248638,
+            "mean_prediction_minus_truth": -0.15246458239285457
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.27256864560611926,
+            "mean_prediction_minus_truth": -0.014325837059073723
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21386194200902342,
+            "mean_prediction_minus_truth": -0.016816512934296313
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.2343090769550761,
+            "mean_prediction_minus_truth": -0.01723939750211028
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 30.565957499988144,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 28.883157300006133,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 61.719000000011874,
+      "registered_hypothesis": "Append approved R004 to exact raw old42 and use unchanged E011 to isolate two-step graph environment information. The authored fit/predict program leaves supervised preprocessing and oxygen grouping within trusted E011, has no external state or evaluation access, and does not mutate readonly inputs. R004 propagates smooth coordination and local chemical mean, variance and unlike fraction across full periodic neighbors, retaining connected-environment contrasts and covariance that pooled single-site radial/tensor moments discard. T0012 reports both earlier representations failed overall MAE, motivating this distinct relational test without claiming an error cause. T0013 approved 24 new columns and all five invariances. Five fits per block is within the live cap six.",
+      "falsification": "Predictive improvement is unsupported if actual training OOF scheduling gate fails, overall MAE is not below 0.24069775371169688 eV/atom, or either fold fails to improve against 0.24742730147045433 and 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen and ternary-plus groups for scope and adverse tradeoffs. Evaluate once only; retain negative results. These adaptive training OOF observations do not establish physical mechanism or fresh confirmation.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R004"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "d0ba3fddacd43cbc5d7efc53146cce3d3a5e3b8f6bc44018731142d59f082183",
+        "fit_events_live.jsonl": "aa52ca918319bd978b2e4d157d2f72e7b9fe6ce2b5d1f1b939276017916c9f0b",
+        "reservation.json": "3f793c32a5256b221685410e20a73475af0ad1ec086c1c4846d0ef7fa52c51aa"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C004",
+    "status": "complete",
+    "hypothesis": "Append approved R005 triangle motifs to untouched raw old42 and use unchanged E011, isolating joint three-site structural information. The authored plain fit/predict program delegates training-only preprocessing and oxygen routing to trusted E011, does not mutate readonly arrays, and uses no evaluation data or added blend. R005 encodes soft neighbor-neighbor closure, species triplet classes, signed electronegativity-gap products, span and perimeter using periodic neighbor images. These distinguish closed chemical motifs from radial summaries, tensor shape and two-step environment propagation. T0017 reports C003 improved overall MAE but not both folds and worsened p99; this motivates the test without implying a physical mechanism. T0018 approves 16 novel columns and all five invariances. Five atomic fits per block stays within current cap six.",
+    "falsification": "Unsupported overall predictive improvement if actual OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold improvement requires both fold MAEs below baseline 0.24742730147045433 and 0.2339682059529394. Tail robustness requires p99 no worse than baseline 1.2391002799199593; also compare with C003 p99 1.3053450289398207 and MAE 0.23656874002693895 as adaptive context. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups. Evaluate once only, retain negative evidence, and make no independent confirmation or physical-mechanism claim.",
+    "full_saved_result_sha256": "3231a4f3c0df504ddb7248aaab21646ae492a1f20d1078dd49c39a5000928bae",
+    "full_saved_result": {
+      "candidate_id": "C004",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.24347457629939184,
+        "RMSE_eV_atom": 0.3777009941541486,
+        "mean_prediction_minus_truth": -0.012158890715370352,
+        "p90_abs_error": 0.5398464626935283,
+        "p99_abs_error": 1.1930198972793884,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.25110742014751775,
+            "mean_prediction_minus_truth": -0.021357636551497073
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.235841732451266,
+            "mean_prediction_minus_truth": -0.0029601448792436363
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.36934402777360537,
+            "mean_prediction_minus_truth": -0.13300833252945624
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2809231138070315,
+            "mean_prediction_minus_truth": -0.008953180176081496
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.2198540594238121,
+            "mean_prediction_minus_truth": -0.014180879955298594
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.2414377100696566,
+            "mean_prediction_minus_truth": -0.012666653837963587
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 29.698514399991836,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 31.687336600007256,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 63.51600000000326,
+      "registered_hypothesis": "Append approved R005 triangle motifs to untouched raw old42 and use unchanged E011, isolating joint three-site structural information. The authored plain fit/predict program delegates training-only preprocessing and oxygen routing to trusted E011, does not mutate readonly arrays, and uses no evaluation data or added blend. R005 encodes soft neighbor-neighbor closure, species triplet classes, signed electronegativity-gap products, span and perimeter using periodic neighbor images. These distinguish closed chemical motifs from radial summaries, tensor shape and two-step environment propagation. T0017 reports C003 improved overall MAE but not both folds and worsened p99; this motivates the test without implying a physical mechanism. T0018 approves 16 novel columns and all five invariances. Five atomic fits per block stays within current cap six.",
+      "falsification": "Unsupported overall predictive improvement if actual OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold improvement requires both fold MAEs below baseline 0.24742730147045433 and 0.2339682059529394. Tail robustness requires p99 no worse than baseline 1.2391002799199593; also compare with C003 p99 1.3053450289398207 and MAE 0.23656874002693895 as adaptive context. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups. Evaluate once only, retain negative evidence, and make no independent confirmation or physical-mechanism claim.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R005"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "97b57c6fcd12313938089e109863e650102cbc563cdaa747861cfb002e5146a7",
+        "fit_events_live.jsonl": "e1a3f8599d9809d0c5140b671575d8fb566851360c384e58d11d5e5bfbc1b066",
+        "reservation.json": "b4fb5b396ca3d023b3bd4dc06564d69f72cec428fad35c5fecc940d95acdd593"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "0b316498d2c5d4e1896da59b4aefacc3e5b941ab63772717ace14dcbf2cbc95d",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C005",
+    "status": "complete",
+    "hypothesis": "Append approved R006 full local species-distribution summaries to exact untouched raw old42, with unchanged E011, isolating the representation. Authored plain fit/predict code delegates supervised preprocessing and oxygen grouping to trusted E011, uses no evaluation inputs during fit and does not mutate readonly arrays. Entropy, concentration, dominant species probability, Jensen-Shannon divergence and total variation from bulk, and central-species enrichment retain distribution information not specified by EN moments or triplet equality classes. T0022 reports radial, tensor and triangle overall failures and graph overall gain with inconsistent folds; these training observations motivate another information class without diagnosing physical mechanism. T0023 approved all 12 columns, five invariances and batch independence. Five fits per block is within cap six.",
+    "falsification": "Unsupported overall MAE benefit if the actual training OOF gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen and ternary-plus groups, RMSE and p99 (baseline 1.2391002799199593) for adverse tradeoffs. Compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative results; no validation/fresh labels or mechanism inference.",
+    "full_saved_result_sha256": "984f49db7c970d390858270be14c11033b7625b3839a384ce86778c8086f7118",
+    "full_saved_result": {
+      "candidate_id": "C005",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.2435546970175069,
+        "RMSE_eV_atom": 0.3766625010297344,
+        "mean_prediction_minus_truth": -0.013525735182378632,
+        "p90_abs_error": 0.5297957339929817,
+        "p99_abs_error": 1.2605352607867704,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.25131898137944536,
+            "mean_prediction_minus_truth": -0.019853628040532187
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2357904126555684,
+            "mean_prediction_minus_truth": -0.0071978423242250724
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.36966497379682234,
+            "mean_prediction_minus_truth": -0.1353410793071071
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.28384408479589573,
+            "mean_prediction_minus_truth": -0.004029072726430149
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21814232507288633,
+            "mean_prediction_minus_truth": -0.01951571745489474
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24153171046799457,
+            "mean_prediction_minus_truth": -0.014143507659054361
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 29.050776699994458,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 30.113353200023994,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 61.625,
+      "registered_hypothesis": "Append approved R006 full local species-distribution summaries to exact untouched raw old42, with unchanged E011, isolating the representation. Authored plain fit/predict code delegates supervised preprocessing and oxygen grouping to trusted E011, uses no evaluation inputs during fit and does not mutate readonly arrays. Entropy, concentration, dominant species probability, Jensen-Shannon divergence and total variation from bulk, and central-species enrichment retain distribution information not specified by EN moments or triplet equality classes. T0022 reports radial, tensor and triangle overall failures and graph overall gain with inconsistent folds; these training observations motivate another information class without diagnosing physical mechanism. T0023 approved all 12 columns, five invariances and batch independence. Five fits per block is within cap six.",
+      "falsification": "Unsupported overall MAE benefit if the actual training OOF gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen and ternary-plus groups, RMSE and p99 (baseline 1.2391002799199593) for adverse tradeoffs. Compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative results; no validation/fresh labels or mechanism inference.",
+      "code_sha256": "8516520bbc572b4659074739fdc2107cae8dd88fe4d77667b38c6af25e494d51",
+      "feature_blocks": [
+        "R006"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "3e64a1d402d4c709c255e54ec0c7fac400595e97272e7cd023ae43902e5f49b2",
+        "fit_events_live.jsonl": "92c1e3e6bc3d4aaec9c7bc390f34e36187488d550686e05b030c6af0a74955dc",
+        "reservation.json": "6e93b9b87087635165089f1e1b1bf36ad68cd44c6561b918cced2fb1ccfd8be3"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "c3e636b2cbcb3caa1e16814c62a3442c8eb31f22a3d8b634e083e8ac10ab6863",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C006",
+    "status": "complete",
+    "hypothesis": "Append approved R007 opposite-bond matching features to exact untouched raw old42 and train unchanged E011, isolating the value of local inversion pairing. Authored plain fit/predict code uses the trusted learner's training-only preprocessing and oxygen grouping, never mutates readonly arrays and never exposes evaluation inputs to fit. R007 measures minimum normalized squared opposite-vector mismatch with and without species restriction, site moments and chemical mismatch weighting. Nonlinear partner matching is not determined by the earlier directional second-moment tensors or local species distributions. T0028 reports C005 worsened both folds and all measured groups; this motivates a new information class without implying a physical cause. T0029 approved 12 novel columns and all five invariances. Five fits per block is within live cap six.",
+    "falsification": "Overall predictive improvement is unsupported if the actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen and ternary-plus MAEs, RMSE and p99 (baseline 1.2391002799199593) for adverse tradeoffs; compare adaptively with C003 MAE 0.23656874002693895. Evaluate once only and retain negative evidence; do not infer physical mechanism or independent confirmation.",
+    "full_saved_result_sha256": "a7e89dfd832be1fb2f699268bad3b5b6c345f8c6b29119ef9ef9bafcd8a7ee9c",
+    "full_saved_result": {
+      "candidate_id": "C006",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.24565865664779493,
+        "RMSE_eV_atom": 0.37879693253918023,
+        "mean_prediction_minus_truth": -0.013126786005844198,
+        "p90_abs_error": 0.5311078274930594,
+        "p99_abs_error": 1.2659373723474845,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.25409751845259454,
+            "mean_prediction_minus_truth": -0.022862488685375736
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23721979484299527,
+            "mean_prediction_minus_truth": -0.0033910833263126557
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3799478429826791,
+            "mean_prediction_minus_truth": -0.12489614511847998
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2812259887601432,
+            "mean_prediction_minus_truth": -0.00605643171485552
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.22322470263269656,
+            "mean_prediction_minus_truth": -0.017586384002496437
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24298846757634285,
+            "mean_prediction_minus_truth": -0.013102873226469637
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 9.07999200001359,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.864023300004192,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 18.985000000015134,
+      "registered_hypothesis": "Append approved R007 opposite-bond matching features to exact untouched raw old42 and train unchanged E011, isolating the value of local inversion pairing. Authored plain fit/predict code uses the trusted learner's training-only preprocessing and oxygen grouping, never mutates readonly arrays and never exposes evaluation inputs to fit. R007 measures minimum normalized squared opposite-vector mismatch with and without species restriction, site moments and chemical mismatch weighting. Nonlinear partner matching is not determined by the earlier directional second-moment tensors or local species distributions. T0028 reports C005 worsened both folds and all measured groups; this motivates a new information class without implying a physical cause. T0029 approved 12 novel columns and all five invariances. Five fits per block is within live cap six.",
+      "falsification": "Overall predictive improvement is unsupported if the actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen and ternary-plus MAEs, RMSE and p99 (baseline 1.2391002799199593) for adverse tradeoffs; compare adaptively with C003 MAE 0.23656874002693895. Evaluate once only and retain negative evidence; do not infer physical mechanism or independent confirmation.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R007"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "bbb42bcc3b90de9b9398a00e04507514d046b5307ea3d1c544944f3bb83b2628",
+        "fit_events_live.jsonl": "3364b064c96946fbea733c7c6268fce6e2098142dd75c14d97bf04acd6137413",
+        "reservation.json": "a5b04b88f80a2ea58fbd3767dab101c4f35caec8c867624764583e296b7ed676"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "cac615af1c525a80c70559c3596211d7300eaa650ef36d2d898d09f88c222849",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C007",
+    "status": "complete",
+    "hypothesis": "Append approved R008 sampled directional cage coverage to exact untouched raw old42 and use unchanged E011 to isolate this new structural information. Authored exact-signature fit/predict delegates supervised preprocessing and oxygen grouping to trusted E011 without mutating readonly inputs or accessing evaluation data during training. Collective nearest-bond clearance across equivariant bond, pair-sum and cross-product probes encodes uncovered directions not determined by opposite-partner minima or second-moment tensors. T0033 reports R007 failed both folds and all measured groups; this motivates the new test without a physical-cause claim. T0034 approved eight novel columns with all five invariances and batch independence. Five atomic fits per block is within live cap six.",
+    "falsification": "Unsupported overall predictive improvement if actual training OOF scheduling gate fails or MAE is not below 0.24069775371169688 eV/atom. Consistent-fold improvement additionally requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect N/O/no-O/ternary-plus errors, RMSE and p99 against baseline 1.2391002799199593 for adverse tradeoffs, and compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once; retain negative results. No validation/fresh scores, independent confirmation or physical mechanism inference.",
+    "full_saved_result_sha256": "5fd40c151edc90aab9a9e42a6cea0b91709c5c4a255d1aca777ba76a13d069ba",
+    "full_saved_result": {
+      "candidate_id": "C007",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.24329900927607304,
+        "RMSE_eV_atom": 0.37438418853471195,
+        "mean_prediction_minus_truth": -0.014994089524078786,
+        "p90_abs_error": 0.5347509110602505,
+        "p99_abs_error": 1.2253935285586464,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.25095077497260826,
+            "mean_prediction_minus_truth": -0.021525444634234177
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23564724357953784,
+            "mean_prediction_minus_truth": -0.008462734413923395
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3726169480130231,
+            "mean_prediction_minus_truth": -0.13223548577690986
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2825420980492769,
+            "mean_prediction_minus_truth": -0.006658377748008973
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21854658628950818,
+            "mean_prediction_minus_truth": -0.02025180674832177
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24190223632950034,
+            "mean_prediction_minus_truth": -0.014322084766028123
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 49.44106159999501,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 36.07224119998864,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 87.90599999998813,
+      "registered_hypothesis": "Append approved R008 sampled directional cage coverage to exact untouched raw old42 and use unchanged E011 to isolate this new structural information. Authored exact-signature fit/predict delegates supervised preprocessing and oxygen grouping to trusted E011 without mutating readonly inputs or accessing evaluation data during training. Collective nearest-bond clearance across equivariant bond, pair-sum and cross-product probes encodes uncovered directions not determined by opposite-partner minima or second-moment tensors. T0033 reports R007 failed both folds and all measured groups; this motivates the new test without a physical-cause claim. T0034 approved eight novel columns with all five invariances and batch independence. Five atomic fits per block is within live cap six.",
+      "falsification": "Unsupported overall predictive improvement if actual training OOF scheduling gate fails or MAE is not below 0.24069775371169688 eV/atom. Consistent-fold improvement additionally requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect N/O/no-O/ternary-plus errors, RMSE and p99 against baseline 1.2391002799199593 for adverse tradeoffs, and compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once; retain negative results. No validation/fresh scores, independent confirmation or physical mechanism inference.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R008"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "8d23aa069895bae696e6eb81cba946ba7b826583ded6a6debd77fd0d07651994",
+        "fit_events_live.jsonl": "bca0f842ca8bd9a14a2980840befa552bc7b61554a9c62ff9a2a1a156e703ab5",
+        "reservation.json": "e09ff8e96c86593a1b1cb3eaba5ae5f00a7f18d98c0c4d58bc69c32df0d52daf"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "e7e1134483f87bc9f5971482280d0ae8123815f63d9fd8cdca1cc7ecc37a67b1",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C008",
+    "status": "complete",
+    "hypothesis": "Append approved R009 chemical-pair-conditioned bond-length distributions to exact untouched raw old42 and train unchanged E011 to isolate the new information. Authored exact-signature fit/predict delegates training-only preprocessing and oxygen grouping to the trusted learner, preserves readonly inputs and receives no evaluation inputs during fit. R009 separates within-pair distance spread from between-pair differences, captures signed residual skew and fourth moments, pair variance heterogeneity and site-level deviation/compression/extension. This conditional geometry is distinct from radial chemical shells, radius mismatch and directional coverage. T0038 reports C007 failed both folds and all measured groups, motivating this distinct test without diagnosing a physical cause. T0039 approved fourteen novel columns, all five geometry invariances and batch independence. Five atomic fits per block stays below live cap six.",
+    "falsification": "Overall benefit is unsupported if the actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups, RMSE and p99 against baseline 1.2391002799199593 for adverse tradeoffs; compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative evidence; no validation/fresh metrics, mechanism inference or independent confirmation.",
+    "full_saved_result_sha256": "d142b9acc86ca5d0a890c859c5f31aa28f695f1a3263d5d0674fac9fa3bec25a",
+    "full_saved_result": {
+      "candidate_id": "C008",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.2400135851804788,
+        "RMSE_eV_atom": 0.3729575671501993,
+        "mean_prediction_minus_truth": -0.014728774116219224,
+        "p90_abs_error": 0.5290039463541503,
+        "p99_abs_error": 1.2691983313651647,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.24900186975094052,
+            "mean_prediction_minus_truth": -0.021396370386063446
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23102530061001705,
+            "mean_prediction_minus_truth": -0.008061177846375
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3717383156194647,
+            "mean_prediction_minus_truth": -0.1298318122053377
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.27434363764154984,
+            "mean_prediction_minus_truth": -0.006468210038030128
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.2183600404103835,
+            "mean_prediction_minus_truth": -0.019939092227330205
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.23720336479195944,
+            "mean_prediction_minus_truth": -0.014137590719559993
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 44.935556100012036,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 30.228757899982156,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 77.875,
+      "registered_hypothesis": "Append approved R009 chemical-pair-conditioned bond-length distributions to exact untouched raw old42 and train unchanged E011 to isolate the new information. Authored exact-signature fit/predict delegates training-only preprocessing and oxygen grouping to the trusted learner, preserves readonly inputs and receives no evaluation inputs during fit. R009 separates within-pair distance spread from between-pair differences, captures signed residual skew and fourth moments, pair variance heterogeneity and site-level deviation/compression/extension. This conditional geometry is distinct from radial chemical shells, radius mismatch and directional coverage. T0038 reports C007 failed both folds and all measured groups, motivating this distinct test without diagnosing a physical cause. T0039 approved fourteen novel columns, all five geometry invariances and batch independence. Five atomic fits per block stays below live cap six.",
+      "falsification": "Overall benefit is unsupported if the actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups, RMSE and p99 against baseline 1.2391002799199593 for adverse tradeoffs; compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative evidence; no validation/fresh metrics, mechanism inference or independent confirmation.",
+      "code_sha256": "8516520bbc572b4659074739fdc2107cae8dd88fe4d77667b38c6af25e494d51",
+      "feature_blocks": [
+        "R009"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "3af3b19ec5e0d1f53522de41345f638b01f4a08ab37f40a0e92f125e8e1fe55b",
+        "fit_events_live.jsonl": "a503c672b17fce83fc69094fd03022eea488d354fadf3d6018eabfd2c4a79a25",
+        "reservation.json": "3d6e00cd8e47411c4e88057f6aa3e7915dc632e3b3f0bd793bf686e71867e810"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "ad837cb3fdfe7ac77dfccd0698773f004e09ffa2ede7f4c2de1bc198cc616866",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C009",
+    "status": "complete",
+    "hypothesis": "Append approved R010 chemically resolved four-site noncoplanarity to exact untouched raw old42 and train unchanged E011, isolating the new representation. Authored exact-signature fit/predict delegates training-only preprocessing and oxygen grouping to trusted E011 and preserves readonly inputs, without evaluation access in fit or an additional blend. Absolute scalar triple products of three bond directions encode joint volumes; first/third moments, soft near-planarity mass, species-conditioned contributions and four-site EN span retain information beyond earlier pair lengths, second-moment tensors and three-site closure. T0043 reports C008 failed the scheduling gate with inconsistent folds despite slight aggregate improvement, motivating a different information class without asserting physical cause. T0044 approved all sixteen novel columns, five geometry invariances and batch independence. Five atomic fits per block is within the live cap six.",
+    "falsification": "Overall predictive improvement is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups, RMSE and p99 against baseline 1.2391002799199593 for adverse tradeoffs; compare adaptively with C003 MAE 0.23656874002693895. Evaluate once only and retain negative outcomes. No validation/fresh scores, independent confirmation or physical mechanism inference.",
+    "full_saved_result_sha256": "860441922d6a268741b1f9de62bec109fb89b77dfcf3eba1358b16fd52b6cba8",
+    "full_saved_result": {
+      "candidate_id": "C009",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.24656140521239966,
+        "RMSE_eV_atom": 0.3800437166336594,
+        "mean_prediction_minus_truth": -0.013085889061789015,
+        "p90_abs_error": 0.5509818014379213,
+        "p99_abs_error": 1.2506958944123732,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.25425392968051663,
+            "mean_prediction_minus_truth": -0.02250413519575005
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2388688807442826,
+            "mean_prediction_minus_truth": -0.0036676429278279907
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.38787801759657126,
+            "mean_prediction_minus_truth": -0.1389541690356397
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.28199486422235254,
+            "mean_prediction_minus_truth": -0.008259332508365398
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.22421189112699602,
+            "mean_prediction_minus_truth": -0.01613022051259201
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24448059403639108,
+            "mean_prediction_minus_truth": -0.01360080461435476
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.73120090001612,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.414914799999679,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 17.937000000005355,
+      "registered_hypothesis": "Append approved R010 chemically resolved four-site noncoplanarity to exact untouched raw old42 and train unchanged E011, isolating the new representation. Authored exact-signature fit/predict delegates training-only preprocessing and oxygen grouping to trusted E011 and preserves readonly inputs, without evaluation access in fit or an additional blend. Absolute scalar triple products of three bond directions encode joint volumes; first/third moments, soft near-planarity mass, species-conditioned contributions and four-site EN span retain information beyond earlier pair lengths, second-moment tensors and three-site closure. T0043 reports C008 failed the scheduling gate with inconsistent folds despite slight aggregate improvement, motivating a different information class without asserting physical cause. T0044 approved all sixteen novel columns, five geometry invariances and batch independence. Five atomic fits per block is within the live cap six.",
+      "falsification": "Overall predictive improvement is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups, RMSE and p99 against baseline 1.2391002799199593 for adverse tradeoffs; compare adaptively with C003 MAE 0.23656874002693895. Evaluate once only and retain negative outcomes. No validation/fresh scores, independent confirmation or physical mechanism inference.",
+      "code_sha256": "8516520bbc572b4659074739fdc2107cae8dd88fe4d77667b38c6af25e494d51",
+      "feature_blocks": [
+        "R010"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "c3f7a006a222aea2af9871a9ecbbdef42838770a740883c53b32eef533d17533",
+        "fit_events_live.jsonl": "5a613bcecffc44365e2cec7843c7e98f4ba0c7effcbc8f98c841c146c3004794",
+        "reservation.json": "94574c23034eca97140f6eed6ad98785dea4ec06fa728bfdaa64af162b4ef824"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "8741a5e63a1cef61bb4d4bc589ba30ee512ab0aa25ae25fd158b02b361fc0f62",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C010",
+    "status": "complete",
+    "hypothesis": "Append approved R011 local neighbor-cage spectra to exact untouched raw old42 and use unchanged E011 to isolate collective cage connectivity information. Authored exact-signature fit/predict delegates supervised preprocessing and oxygen grouping to trusted E011, preserves readonly arrays, and cannot access evaluation inputs during fit. Two normalized Laplacians describe distance-weighted geometry and same-species connectivity; fixed heat traces, spectral dispersion and second eigenvalue pooled per atom encode collective diffusion beyond individual triangles and four-site volumes. T0048 reports C009 worsened both folds and all groups, while C003 scalar graph propagation had an overall gain with inconsistent folds. These training observations motivate this distinct representation without a physical mechanism claim. T0049 approved twenty novel columns, all five invariances and batch independence. Five atomic fits per block is within cap six.",
+    "falsification": "Overall benefit is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen, ternary-plus, RMSE and tail errors (baseline p99 1.2391002799199593); compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once; retain negative outcomes and do not infer mechanism or independent confirmation.",
+    "full_saved_result_sha256": "aefbff233cb62e6d1fc4598209490f557d333db66dc7a69f00cf643add538151",
+    "full_saved_result": {
+      "candidate_id": "C010",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.24417996412022608,
+        "RMSE_eV_atom": 0.37446423013683666,
+        "mean_prediction_minus_truth": -0.013581898590555789,
+        "p90_abs_error": 0.5325491645127846,
+        "p99_abs_error": 1.2298874371317725,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.253053515452194,
+            "mean_prediction_minus_truth": -0.02144244476363796
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23530641278825806,
+            "mean_prediction_minus_truth": -0.005721352417473619
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3662869538389979,
+            "mean_prediction_minus_truth": -0.1322744231155348
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.28054235171792447,
+            "mean_prediction_minus_truth": -0.003965613613250592
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.22124453200321506,
+            "mean_prediction_minus_truth": -0.01964733229515598
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24266093402905178,
+            "mean_prediction_minus_truth": -0.012713445728287047
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.77179519998026,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.68759630000568,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 18.312999999994645,
+      "registered_hypothesis": "Append approved R011 local neighbor-cage spectra to exact untouched raw old42 and use unchanged E011 to isolate collective cage connectivity information. Authored exact-signature fit/predict delegates supervised preprocessing and oxygen grouping to trusted E011, preserves readonly arrays, and cannot access evaluation inputs during fit. Two normalized Laplacians describe distance-weighted geometry and same-species connectivity; fixed heat traces, spectral dispersion and second eigenvalue pooled per atom encode collective diffusion beyond individual triangles and four-site volumes. T0048 reports C009 worsened both folds and all groups, while C003 scalar graph propagation had an overall gain with inconsistent folds. These training observations motivate this distinct representation without a physical mechanism claim. T0049 approved twenty novel columns, all five invariances and batch independence. Five atomic fits per block is within cap six.",
+      "falsification": "Overall benefit is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen, oxygen, no-oxygen, ternary-plus, RMSE and tail errors (baseline p99 1.2391002799199593); compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once; retain negative outcomes and do not infer mechanism or independent confirmation.",
+      "code_sha256": "8516520bbc572b4659074739fdc2107cae8dd88fe4d77667b38c6af25e494d51",
+      "feature_blocks": [
+        "R011"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "156a4aa73c711d132906bf2c9bd3d5250476bbf7755cb55566250fa196bfa52c",
+        "fit_events_live.jsonl": "a8cf2a8d6514a808b5d6e7a511e02eb6954ed26cc8c57f206577d3fdfc6a85ae",
+        "reservation.json": "8333c4c694fee3a92683413317654c18db97e0cb8b446254a26240ae239bfdad"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "3678b06abc76e218fb53e57a7d6b3c554d6c0ccd84993bcba26a4efa594fecac",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C011",
+    "status": "complete",
+    "hypothesis": "Append approved fourteen-column R013 continuous species-conditioned radial transport to exact untouched raw old42 and train unchanged E011 to isolate representation value. Authored exact-signature fit/predict delegates supervised preprocessing and oxygen grouping to trusted E011, preserves readonly arrays and accesses no evaluation inputs in fit. Integrated absolute empirical CDF differences measure species-dependent radial distributions; transport excess over absolute mean displacement retains shape differences beyond offsets, fixed radial shells and pair-centered moments. T0053 shows C010 failed both folds and C008 had a small inconsistent-fold gain, motivating another conditional-distribution test without diagnosing physical cause. T0055 approved all fourteen novel columns, five geometry invariances and batch independence. Five atomic fits per block is within live cap six.",
+    "falsification": "Aggregate predictive benefit is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups, RMSE and tail errors against baseline p99 1.2391002799199593; compare adaptively to C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative outcomes. No validation/fresh scores, mechanism inference or independent-confirmation claim.",
+    "full_saved_result_sha256": "cbb512c540377fdb7c089f6357c78060a5246cdff137d62fe12f0f37650573a6",
+    "full_saved_result": {
+      "candidate_id": "C011",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.2440949455079241,
+        "RMSE_eV_atom": 0.3770163461966716,
+        "mean_prediction_minus_truth": -0.016482783210840218,
+        "p90_abs_error": 0.5389339038154365,
+        "p99_abs_error": 1.2679709953737692,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2506241809735399,
+            "mean_prediction_minus_truth": -0.022167327574740603
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23756571004230828,
+            "mean_prediction_minus_truth": -0.010798238846939838
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.37375564083906765,
+            "mean_prediction_minus_truth": -0.14515250647783168
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2826685236627387,
+            "mean_prediction_minus_truth": -0.011294908909569742
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21976481369512846,
+            "mean_prediction_minus_truth": -0.019755014401618955
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24199241149514986,
+            "mean_prediction_minus_truth": -0.01687121243694168
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 7.951818000001367,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.127198799978942,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 16.844000000011874,
+      "registered_hypothesis": "Append approved fourteen-column R013 continuous species-conditioned radial transport to exact untouched raw old42 and train unchanged E011 to isolate representation value. Authored exact-signature fit/predict delegates supervised preprocessing and oxygen grouping to trusted E011, preserves readonly arrays and accesses no evaluation inputs in fit. Integrated absolute empirical CDF differences measure species-dependent radial distributions; transport excess over absolute mean displacement retains shape differences beyond offsets, fixed radial shells and pair-centered moments. T0053 shows C010 failed both folds and C008 had a small inconsistent-fold gain, motivating another conditional-distribution test without diagnosing physical cause. T0055 approved all fourteen novel columns, five geometry invariances and batch independence. Five atomic fits per block is within live cap six.",
+      "falsification": "Aggregate predictive benefit is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus groups, RMSE and tail errors against baseline p99 1.2391002799199593; compare adaptively to C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative outcomes. No validation/fresh scores, mechanism inference or independent-confirmation claim.",
+      "code_sha256": "8516520bbc572b4659074739fdc2107cae8dd88fe4d77667b38c6af25e494d51",
+      "feature_blocks": [
+        "R013"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "9c199a59c2e75efd4bec00e3b513d3cde674c14bd24f4e47f2d04a54b094430c",
+        "fit_events_live.jsonl": "b69a6ab414949448b94c340d87d17fdbcea4d66b08e995543f592198ec1a3451",
+        "reservation.json": "ca11406ab90622e3899adf669ff4c0f9b6084deb0778281ef05ac7aa0c25406c"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "9a900a6a796010e79dbc9c4df8bf6e53aa04b2a7665cab204b618add1c13277c",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C012",
+    "status": "complete",
+    "hypothesis": "Append approved sixteen-column R014 local constrained electronegativity response to exact untouched raw old42 and train unchanged E011 to isolate representation value. Authored exact-signature fit/predict delegates training-only preprocessing and oxygen routing to trusted E011, preserves readonly arrays and receives no evaluation data in fit. The inverse positive hardness-plus-geometric-Laplacian operator couples chemical forcing with cage connectivity under zero total response; response energy, distribution, central response, edge contrasts, dipole norm and uncoupled-energy suppression add information beyond unforced spectra and finite scalar propagation. These are mathematical proxies, not physical charges. T0059 shows C011 worsened both folds/all groups and C003 passed overall with inconsistent folds, motivating this distinct test without causal inference. T0060 approves sixteen novel columns, all five invariances and batch independence. Five fits per block is within live cap six.",
+    "falsification": "Overall predictive improvement is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit additionally requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus errors, RMSE and p99 against baseline 1.2391002799199593; compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative outcomes. No validation/fresh scores or mechanism/independent confirmation claims.",
+    "full_saved_result_sha256": "4b91bd498e7d19131d1262c05bb9792cce53ae7da3229abd5a60378201e47bf1",
+    "full_saved_result": {
+      "candidate_id": "C012",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.2452941284895863,
+        "RMSE_eV_atom": 0.379268456279191,
+        "mean_prediction_minus_truth": -0.013720538637294945,
+        "p90_abs_error": 0.5347584530221207,
+        "p99_abs_error": 1.216451915265314,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.25366037357707094,
+            "mean_prediction_minus_truth": -0.02310650440505028
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23692788340210166,
+            "mean_prediction_minus_truth": -0.004334572869539615
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.37214488172208754,
+            "mean_prediction_minus_truth": -0.1270962286058086
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.28167981791457253,
+            "mean_prediction_minus_truth": -0.010787617410468407
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.22234399883720235,
+            "mean_prediction_minus_truth": -0.01557046709762186
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.24325957544754376,
+            "mean_prediction_minus_truth": -0.013661749656883278
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": false,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.086451399984071,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 8.345959099999163,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 17.203000000008615,
+      "registered_hypothesis": "Append approved sixteen-column R014 local constrained electronegativity response to exact untouched raw old42 and train unchanged E011 to isolate representation value. Authored exact-signature fit/predict delegates training-only preprocessing and oxygen routing to trusted E011, preserves readonly arrays and receives no evaluation data in fit. The inverse positive hardness-plus-geometric-Laplacian operator couples chemical forcing with cage connectivity under zero total response; response energy, distribution, central response, edge contrasts, dipole norm and uncoupled-energy suppression add information beyond unforced spectra and finite scalar propagation. These are mathematical proxies, not physical charges. T0059 shows C011 worsened both folds/all groups and C003 passed overall with inconsistent folds, motivating this distinct test without causal inference. T0060 approves sixteen novel columns, all five invariances and batch independence. Five fits per block is within live cap six.",
+      "falsification": "Overall predictive improvement is unsupported if actual training OOF scheduling gate fails or MAE is not below baseline 0.24069775371169688 eV/atom. Consistent-fold benefit additionally requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Inspect nitrogen/oxygen/no-oxygen/ternary-plus errors, RMSE and p99 against baseline 1.2391002799199593; compare adaptively with C003 MAE 0.23656874002693895. Evaluate exactly once and retain negative outcomes. No validation/fresh scores or mechanism/independent confirmation claims.",
+      "code_sha256": "8516520bbc572b4659074739fdc2107cae8dd88fe4d77667b38c6af25e494d51",
+      "feature_blocks": [
+        "R014"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "9680fb30c1dd1d6b11842c2b43cbb5668269f61b7835e7d0cf9a7d36983b7118",
+        "fit_events_live.jsonl": "317c91e0c5d292464157384c03049c85e9e47e422a4448625e4b81f479cf2be6",
+        "reservation.json": "a8d236e6486be65d860e3ce923e2deb130edf010f64e1f4dc1e51b8e7d4cd076"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "8ba35e04c1369a464c665be2051b1236053fb8c0af1f114b651fb4b41b46d716",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C013",
+    "status": "complete",
+    "hypothesis": "Test a fixed 80% E011 plus 20% absolute-error HGB blend on exact raw old42 plus approved R004 graph environment features. R004 retains geometry-weighted connected-site coordination and chemical-environment contrasts/covariances. This candidate introduces no descriptor block: its genuinely different predictive mechanism is a nonlinear conditional-median component trained with MAE-aligned loss, complementing E011 on relational structural information. T0064 reports C003 R004+E011 MAE 0.23656874002693895 with inconsistent fold improvement and p99 1.3053450289398207, while subsequent structural additions mostly worsened MAE and C012 worsened both folds/all groups despite better p99. This motivates testing learner complementarity, not a physical error cause. Hyperparameters and weight fixed before evaluation. Unlike the historical failed unrun interaction candidate, this uses approved periodic graph features, no 54 composition interactions and a different predeclared blend. Exact-signature authored code keeps all training inside fit, preserves readonly raw42, and uses rowwise inference with no evaluation access during training. E011 costs five and HGB one, meeting live cap six; no inner tuning or residual correction.",
+    "falsification": "The scheduling hypothesis fails if the actual training OOF gate is false or overall MAE is not below raw42 baseline 0.24069775371169688. Added predictive value over the same R004 features with E011 requires MAE below C003 0.23656874002693895; failure to beat C003 falsifies that complementarity benefit even if the baseline gate passes. Consistent-fold benefit requires improvement over baseline fold0 0.24742730147045433 and fold1 0.2339682059529394; also compare C003 folds 0.2391542173994529 and 0.233983262654425. Inspect nitrogen/oxygen/no-oxygen/ternary-plus, RMSE, p90 and p99 against baseline and C003 for adverse tradeoffs. Evaluate exactly once; retain negative evidence, no validation/fresh metrics, independent confirmation or physical mechanism inference.",
+    "full_saved_result_sha256": "2ac45d160effdac53cbcc027df8d9fcf2d79594f5263b409607b9ad89c05a73b",
+    "full_saved_result": {
+      "candidate_id": "C013",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23626767334649376,
+        "RMSE_eV_atom": 0.37677541441225454,
+        "mean_prediction_minus_truth": -0.0220497699977592,
+        "p90_abs_error": 0.5143843746638596,
+        "p99_abs_error": 1.3084427975595934,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23919728946706179,
+            "mean_prediction_minus_truth": -0.030359234687116203
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23333805722592577,
+            "mean_prediction_minus_truth": -0.013740305308402185
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3630375786459873,
+            "mean_prediction_minus_truth": -0.162565325935372
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2722193243154121,
+            "mean_prediction_minus_truth": -0.016803436619227785
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21359131173309162,
+            "mean_prediction_minus_truth": -0.025358874020239074
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.23443367194624762,
+            "mean_prediction_minus_truth": -0.0222693641339596
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 12,
+        "fit_completed": 12,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.489383500011172,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.471596799994586,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 19.75,
+      "registered_hypothesis": "Test a fixed 80% E011 plus 20% absolute-error HGB blend on exact raw old42 plus approved R004 graph environment features. R004 retains geometry-weighted connected-site coordination and chemical-environment contrasts/covariances. This candidate introduces no descriptor block: its genuinely different predictive mechanism is a nonlinear conditional-median component trained with MAE-aligned loss, complementing E011 on relational structural information. T0064 reports C003 R004+E011 MAE 0.23656874002693895 with inconsistent fold improvement and p99 1.3053450289398207, while subsequent structural additions mostly worsened MAE and C012 worsened both folds/all groups despite better p99. This motivates testing learner complementarity, not a physical error cause. Hyperparameters and weight fixed before evaluation. Unlike the historical failed unrun interaction candidate, this uses approved periodic graph features, no 54 composition interactions and a different predeclared blend. Exact-signature authored code keeps all training inside fit, preserves readonly raw42, and uses rowwise inference with no evaluation access during training. E011 costs five and HGB one, meeting live cap six; no inner tuning or residual correction.",
+      "falsification": "The scheduling hypothesis fails if the actual training OOF gate is false or overall MAE is not below raw42 baseline 0.24069775371169688. Added predictive value over the same R004 features with E011 requires MAE below C003 0.23656874002693895; failure to beat C003 falsifies that complementarity benefit even if the baseline gate passes. Consistent-fold benefit requires improvement over baseline fold0 0.24742730147045433 and fold1 0.2339682059529394; also compare C003 folds 0.2391542173994529 and 0.233983262654425. Inspect nitrogen/oxygen/no-oxygen/ternary-plus, RMSE, p90 and p99 against baseline and C003 for adverse tradeoffs. Evaluate exactly once; retain negative evidence, no validation/fresh metrics, independent confirmation or physical mechanism inference.",
+      "code_sha256": "aff421c24f990f1b4d24ce41553215d01c7f4c9a2c13a540fc84dd20d769d145",
+      "feature_blocks": [
+        "R004"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "a36b1c8163513edf5da83d53c110486fa0a995beb539e6eae1bb275f0785121c",
+        "fit_events_live.jsonl": "9aefd4fa80f6384247757fc2fffd0ae1a0619db126fe496ae2a55407d2b8b8a0",
+        "reservation.json": "5624d3634c1826fd42da133ece1e87b230dc447b207fb0fc63c805e9b52f8c24"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C014",
+    "status": "complete",
+    "hypothesis": "Test the previously unrun joint representation old42+R004+R009 with unchanged E011. Exact-signature authored fit/predict preserves readonly raw first42 and delegates supervised preprocessing and oxygen routing to trusted E011, using five atomic fits per block within live cap six. R004 encodes geometry-weighted relations between connected coordination and chemical environments; R009 separates within-chemical-pair bond-length variation from between-pair variation and retains conditional skew, higher moments and site heterogeneity. Joint access lets the nonlinear learner condition connected-environment information on chemical-pair geometry; this is a new information combination, not a renamed descriptor or the C013 learner blend. Both blocks already passed periodic geometry invariance and empty-neighborhood handling. T0068 training context shows C003 mainly improved fold0 (0.2391542173994529 versus baseline 0.24742730147045433) while C008 improved fold1 (0.23102530061001705 versus 0.2339682059529394) but failed its overall gate. These observations motivate a complementary-information test without establishing complementary errors or physical cause. No new block, added blend, residual correction or tuned hyperparameters; no separate interaction attribution without ablation.",
+    "falsification": "Scheduling benefit fails if the actual training OOF gate is false or MAE is not below raw42 baseline 0.24069775371169688. Added joint-feature benefit requires MAE below C003 R004 alone 0.23656874002693895; also compare C008 0.2400135851804788 and C013 blend 0.23626767334649376. Consistent-fold baseline improvement requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Stronger complementarity requires both folds improve C003 0.2391542173994529/0.233983262654425; compare C013 0.23919728946706179/0.23333805722592577. Inspect nitrogen, oxygen, no-oxygen and ternary-plus groups, bias, RMSE, p90 and p99 (baseline p99 1.2391002799199593) for adverse tradeoffs. Evaluate once and retain any negative outcome. Adaptive training OOF does not confirm fresh generalization or physical mechanism.",
+    "full_saved_result_sha256": "0e21d78314fb182d9bb1b508a13e83472fc4af4d760e1cd4854d066e671cf455",
+    "full_saved_result": {
+      "candidate_id": "C014",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23645591795134607,
+        "RMSE_eV_atom": 0.3748169748848809,
+        "mean_prediction_minus_truth": -0.015288701438764925,
+        "p90_abs_error": 0.5153166004815123,
+        "p99_abs_error": 1.337771539751679,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.24001385235547004,
+            "mean_prediction_minus_truth": -0.02240198343454468
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23289798354722213,
+            "mean_prediction_minus_truth": -0.008175419442985167
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.37643268985947015,
+            "mean_prediction_minus_truth": -0.16342623286211863
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.26858441784221604,
+            "mean_prediction_minus_truth": -0.014121205093011844
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21619099375491949,
+            "mean_prediction_minus_truth": -0.01602509513989177
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.233063319628315,
+            "mean_prediction_minus_truth": -0.016487616362983154
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 10.272175799997058,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 10.423918399988906,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 21.562999999994645,
+      "registered_hypothesis": "Test the previously unrun joint representation old42+R004+R009 with unchanged E011. Exact-signature authored fit/predict preserves readonly raw first42 and delegates supervised preprocessing and oxygen routing to trusted E011, using five atomic fits per block within live cap six. R004 encodes geometry-weighted relations between connected coordination and chemical environments; R009 separates within-chemical-pair bond-length variation from between-pair variation and retains conditional skew, higher moments and site heterogeneity. Joint access lets the nonlinear learner condition connected-environment information on chemical-pair geometry; this is a new information combination, not a renamed descriptor or the C013 learner blend. Both blocks already passed periodic geometry invariance and empty-neighborhood handling. T0068 training context shows C003 mainly improved fold0 (0.2391542173994529 versus baseline 0.24742730147045433) while C008 improved fold1 (0.23102530061001705 versus 0.2339682059529394) but failed its overall gate. These observations motivate a complementary-information test without establishing complementary errors or physical cause. No new block, added blend, residual correction or tuned hyperparameters; no separate interaction attribution without ablation.",
+      "falsification": "Scheduling benefit fails if the actual training OOF gate is false or MAE is not below raw42 baseline 0.24069775371169688. Added joint-feature benefit requires MAE below C003 R004 alone 0.23656874002693895; also compare C008 0.2400135851804788 and C013 blend 0.23626767334649376. Consistent-fold baseline improvement requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Stronger complementarity requires both folds improve C003 0.2391542173994529/0.233983262654425; compare C013 0.23919728946706179/0.23333805722592577. Inspect nitrogen, oxygen, no-oxygen and ternary-plus groups, bias, RMSE, p90 and p99 (baseline p99 1.2391002799199593) for adverse tradeoffs. Evaluate once and retain any negative outcome. Adaptive training OOF does not confirm fresh generalization or physical mechanism.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R004",
+        "R009"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "0bd6c0e1ec40d4ea540de6a0685b0ff6f7455d6003a35b3dda5d92461f41569d",
+        "fit_events_live.jsonl": "29300b7d62374bcfe071b1a1bf7d3608cf8fa94ef8392c15b3b04790f3cd6d4a",
+        "reservation.json": "0d2ec4ae9e9f00699723abb19a98d7cebf6dd2a558036f25a3939e911d78f80c"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "d82868907754096b75aea581e74f239da99688d4c59892d345912fec16275551",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C015",
+    "status": "complete",
+    "hypothesis": "Previously unrun fixed 80% E011 plus 20% Extra Trees blend on exact raw old42 plus approved R004. R004 retains geometry-weighted connected-site coordination and chemical-environment contrasts/covariances with approved invariances and empty-neighborhood handling. The new predictive mechanism is randomized tree averaging with squared-error leaf estimates, distinct from C013 absolute-error sequential boosting, fixed KRR and mean-residual correction. E011 already includes trees, so the intervention specifically increases the contribution of a separately regularized randomized-tree component, not the first introduction of trees. T0072 shows C014 marginally beat C003 but worsened nitrogen/p99; C013 slightly improved aggregate MAE but worsened RMSE and bias. These motivate a learner complementarity test without identifying an error cause or mechanism. Fixed 400 trees, minimum leaf 3, feature fraction 0.8 and weight 0.2; no tuning or residual correction. Exact-signature code preserves readonly raw42, trains only inside fit and predicts a fixed rowwise blend. Six fits per block meets cap. T0073 explicitly permits revision before scientific fits: remove unsupported explicit criterion key, retaining published fixed squared-error semantics; zero scientific fits occurred.",
+    "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added benefit over R004+E011 requires below C003 0.23656874002693895; comparative benefit over prior blend requires below C013 0.23626767334649376. Consistent-fold baseline benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; compare C003 0.2391542173994529/0.233983262654425 and C013 0.23919728946706179/0.23333805722592577. Hoped-for nitrogen/tail improvement requires nitrogen MAE and p99 below C014 0.37643268985947015/1.337771539751679, with stricter baseline references 0.3662665887230086/1.2391002799199593. Inspect N/O/no-O/ternary-plus groups, bias, RMSE and p90. Evaluate exactly once, retain negative outcomes, and infer neither physical mechanism nor independent generalization from adaptive OOF.",
+    "full_saved_result_sha256": "f9e0dc3207b8a90586cb82a0a932c0b78aa83e3b61e5d972e2d7b5c1e561f95e",
+    "full_saved_result": {
+      "candidate_id": "C015",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23824459083774718,
+        "RMSE_eV_atom": 0.3770912918815525,
+        "mean_prediction_minus_truth": -0.015705537142611282,
+        "p90_abs_error": 0.5240022602265231,
+        "p99_abs_error": 1.349426985691785,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2411478650054028,
+            "mean_prediction_minus_truth": -0.024587967862061924
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23534131667009162,
+            "mean_prediction_minus_truth": -0.006823106423160643
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.36406454249388814,
+            "mean_prediction_minus_truth": -0.15875300384472785
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.27492844354591234,
+            "mean_prediction_minus_truth": -0.014589865482368751
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.2151063958741193,
+            "mean_prediction_minus_truth": -0.016409242628385966
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.2362131706906563,
+            "mean_prediction_minus_truth": -0.016677499092033164
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 12,
+        "fit_completed": 12,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 10.776667199999793,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 10.845290400000522,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 22.437000000005355,
+      "registered_hypothesis": "Previously unrun fixed 80% E011 plus 20% Extra Trees blend on exact raw old42 plus approved R004. R004 retains geometry-weighted connected-site coordination and chemical-environment contrasts/covariances with approved invariances and empty-neighborhood handling. The new predictive mechanism is randomized tree averaging with squared-error leaf estimates, distinct from C013 absolute-error sequential boosting, fixed KRR and mean-residual correction. E011 already includes trees, so the intervention specifically increases the contribution of a separately regularized randomized-tree component, not the first introduction of trees. T0072 shows C014 marginally beat C003 but worsened nitrogen/p99; C013 slightly improved aggregate MAE but worsened RMSE and bias. These motivate a learner complementarity test without identifying an error cause or mechanism. Fixed 400 trees, minimum leaf 3, feature fraction 0.8 and weight 0.2; no tuning or residual correction. Exact-signature code preserves readonly raw42, trains only inside fit and predicts a fixed rowwise blend. Six fits per block meets cap. T0073 explicitly permits revision before scientific fits: remove unsupported explicit criterion key, retaining published fixed squared-error semantics; zero scientific fits occurred.",
+      "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added benefit over R004+E011 requires below C003 0.23656874002693895; comparative benefit over prior blend requires below C013 0.23626767334649376. Consistent-fold baseline benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; compare C003 0.2391542173994529/0.233983262654425 and C013 0.23919728946706179/0.23333805722592577. Hoped-for nitrogen/tail improvement requires nitrogen MAE and p99 below C014 0.37643268985947015/1.337771539751679, with stricter baseline references 0.3662665887230086/1.2391002799199593. Inspect N/O/no-O/ternary-plus groups, bias, RMSE and p90. Evaluate exactly once, retain negative outcomes, and infer neither physical mechanism nor independent generalization from adaptive OOF.",
+      "code_sha256": "5611ab7ccf31c341147ef32ec13c91bec85f802442bd4ecfa59d81b43fef021a",
+      "feature_blocks": [
+        "R004"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "81b8626d3884eaf971c14bb5d54cb95ac684bb1727c7f7d3bde4228e291dc763",
+        "fit_events_live.jsonl": "ae6c454f40beedab1b9d631baca806ef37315402863e736181c7e3e909cd92f2",
+        "reservation.json": "24c5c6840dc7c5ac79beba33f165cd2f683e817547c2f692871f7ec5e5876a0c"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C016",
+    "status": "complete",
+    "hypothesis": "Previously unrun joint representation raw old42+R004+R003 under unchanged E011. Authored exact-signature fit/predict keeps readonly first42 untouched, delegates supervised preprocessing and oxygen routing to trusted E011, trains only inside fit, and performs rowwise inference. Five fits per block is within live cap six in T0077. R004 encodes smooth geometry-weighted relations between connected coordination and chemical environments; R003 encodes directional geometry and chemical tensor spectra, overlap and difference. Their joint availability lets the nonlinear learner condition scalar relational environments on directional organization, distinct from the R004+R009 conditional-length combination and prior learner blends. This reuses two approved invariant blocks, not a new or renamed descriptor. Both retain periodic geometry, per-atom normalization and empty-neighborhood handling. T0077 training context reports R003 alone failed aggregate MAE but slightly improved oxygen and fold1, while R004 mainly improved fold0; C015 tree blend worsened both folds relative to R004 alone. These motivate complementary-information testing but establish neither complementary errors nor physical cause. No tuning, residual correction or added blend; no isolated interaction attribution without ablation.",
+    "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added joint-information benefit requires MAE below C003 R004 alone 0.23656874002693895; compare best observed C013 0.23626767334649376. Consistent-fold baseline benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Stronger complementarity requires both folds below C003 0.2391542173994529 and 0.233983262654425; compare C013 0.23919728946706179 and 0.23333805722592577. Inspect nitrogen/oxygen/no-oxygen/ternary-plus errors, biases, RMSE and tails against baseline RMSE 0.373659510864794 and p99 1.2391002799199593. Evaluate exactly once and retain adverse outcomes. Adaptive training OOF does not establish independent generalization or physical mechanism.",
+    "full_saved_result_sha256": "f20181903baea27693dac5aaecf189964da47e5a36d13592f5b51f092ea0dcd2",
+    "full_saved_result": {
+      "candidate_id": "C016",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23758210786854103,
+        "RMSE_eV_atom": 0.37263382839605397,
+        "mean_prediction_minus_truth": -0.014028397436254844,
+        "p90_abs_error": 0.5224376683970143,
+        "p99_abs_error": 1.3442107488588977,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.24161603422875122,
+            "mean_prediction_minus_truth": -0.02196827174740588
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23354818150833093,
+            "mean_prediction_minus_truth": -0.0060885231251038095
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3702888547676149,
+            "mean_prediction_minus_truth": -0.15165241924414283
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.27214304926823013,
+            "mean_prediction_minus_truth": -0.011728785624583037
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21578293081387662,
+            "mean_prediction_minus_truth": -0.015478868488530136
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.2351440363845235,
+            "mean_prediction_minus_truth": -0.015589217422138887
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 10,
+        "fit_completed": 10,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 10.70379959998536,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 5,
+          "worker_seconds": 10.676420499978121,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 22.28100000001723,
+      "registered_hypothesis": "Previously unrun joint representation raw old42+R004+R003 under unchanged E011. Authored exact-signature fit/predict keeps readonly first42 untouched, delegates supervised preprocessing and oxygen routing to trusted E011, trains only inside fit, and performs rowwise inference. Five fits per block is within live cap six in T0077. R004 encodes smooth geometry-weighted relations between connected coordination and chemical environments; R003 encodes directional geometry and chemical tensor spectra, overlap and difference. Their joint availability lets the nonlinear learner condition scalar relational environments on directional organization, distinct from the R004+R009 conditional-length combination and prior learner blends. This reuses two approved invariant blocks, not a new or renamed descriptor. Both retain periodic geometry, per-atom normalization and empty-neighborhood handling. T0077 training context reports R003 alone failed aggregate MAE but slightly improved oxygen and fold1, while R004 mainly improved fold0; C015 tree blend worsened both folds relative to R004 alone. These motivate complementary-information testing but establish neither complementary errors nor physical cause. No tuning, residual correction or added blend; no isolated interaction attribution without ablation.",
+      "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added joint-information benefit requires MAE below C003 R004 alone 0.23656874002693895; compare best observed C013 0.23626767334649376. Consistent-fold baseline benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394. Stronger complementarity requires both folds below C003 0.2391542173994529 and 0.233983262654425; compare C013 0.23919728946706179 and 0.23333805722592577. Inspect nitrogen/oxygen/no-oxygen/ternary-plus errors, biases, RMSE and tails against baseline RMSE 0.373659510864794 and p99 1.2391002799199593. Evaluate exactly once and retain adverse outcomes. Adaptive training OOF does not establish independent generalization or physical mechanism.",
+      "code_sha256": "4df66d469eac0ce980efaea549c42a3e79d0db2343cdbd0dbc01773323b94d32",
+      "feature_blocks": [
+        "R004",
+        "R003"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "625c40e6522a3614ac2d9345b4ec319a9e10e67bbd8c73910b2bc9a1284e90ee",
+        "fit_events_live.jsonl": "b845df4f09b0c8a17d4117e74cf49ffd8b3069f45963bcc50f24aade563b571a",
+        "reservation.json": "47708ba6509657084888ea2a1b9db6b216f9c6915b20b31318b15421b544574e"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "b8c579d34ebbdbec7adad2fac25cb9ace92f5ce3f4c009d5ffb51173d64fc7e6",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C017",
+    "status": "complete",
+    "hypothesis": "Previously unrun fixed 80% E011 plus 20% squared-error HGB blend on untouched raw old42 plus approved R004. R004 retains geometry-weighted connected-site coordination and chemical environment contrasts/covariances with periodic invariance, per-atom normalization and empty-neighborhood handling. The new predictive mechanism is sequential nonlinear squared-error boosting, distinct from C013 conditional-median boosting, C015 independently randomized trees, fixed KRR and mean-residual correction. E011 already contains nonlinear learners, so this tests added contribution of this separately regularized component. T0081 training context reports C016 improved RMSE but worsened MAE against R004 alone; C013 slightly improved MAE while worsening RMSE, motivating an alternative tradeoff without diagnosing physical cause. Fix max_iter 300, max_leaf_nodes 15, min_samples_leaf 20, learning_rate 0.05, l2_regularization 10, squared_error loss and 0.2 weight before evaluation. No isolated loss-effect claim without matching other settings. Authored exact-signature fit/predict preserves readonly raw first42, keeps training inside fit and uses a fixed rowwise blend. Six atomic fits per block meets live cap six. No new descriptor, tuning or residual correction.",
+    "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added benefit requires MAE below R004+E011 C003 0.23656874002693895 and compare C013 0.23626767334649376. Consistent-fold baseline improvement requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; stronger benefit requires both below C003 0.2391542173994529/0.233983262654425 and compare C013 0.23919728946706179/0.23333805722592577. A better MAE/tail tradeoff requires MAE and p99 improve together against C013 p99 1.3084427975595934; also inspect baseline p99 1.2391002799199593, RMSE 0.373659510864794 and C016 RMSE 0.37263382839605397. Read nitrogen/oxygen/no-oxygen/ternary-plus groups, biases and p90. Evaluate exactly once and retain negative results. No validation/fresh access, physical-mechanism inference or independent-confirmation claim.",
+    "full_saved_result_sha256": "9ea84fe65b5da451b7000c39614a8d0ec700c41c3222427b25fce21d680e27d5",
+    "full_saved_result": {
+      "candidate_id": "C017",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23410467180653355,
+        "RMSE_eV_atom": 0.3715194417433477,
+        "mean_prediction_minus_truth": -0.014270929436548042,
+        "p90_abs_error": 0.5191536891341336,
+        "p99_abs_error": 1.333922209383308,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23702457192563917,
+            "mean_prediction_minus_truth": -0.0205763043316582
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23118477168742785,
+            "mean_prediction_minus_truth": -0.00796555454143788
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.3594650766865631,
+            "mean_prediction_minus_truth": -0.14211596678788913
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.2692082207781543,
+            "mean_prediction_minus_truth": -0.013992403117903323
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.2119632471725873,
+            "mean_prediction_minus_truth": -0.014446608810101643
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.23179387553495506,
+            "mean_prediction_minus_truth": -0.015443085133537574
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 12,
+        "fit_completed": 12,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.610757599992212,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.680952299997443,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 20.109000000025844,
+      "registered_hypothesis": "Previously unrun fixed 80% E011 plus 20% squared-error HGB blend on untouched raw old42 plus approved R004. R004 retains geometry-weighted connected-site coordination and chemical environment contrasts/covariances with periodic invariance, per-atom normalization and empty-neighborhood handling. The new predictive mechanism is sequential nonlinear squared-error boosting, distinct from C013 conditional-median boosting, C015 independently randomized trees, fixed KRR and mean-residual correction. E011 already contains nonlinear learners, so this tests added contribution of this separately regularized component. T0081 training context reports C016 improved RMSE but worsened MAE against R004 alone; C013 slightly improved MAE while worsening RMSE, motivating an alternative tradeoff without diagnosing physical cause. Fix max_iter 300, max_leaf_nodes 15, min_samples_leaf 20, learning_rate 0.05, l2_regularization 10, squared_error loss and 0.2 weight before evaluation. No isolated loss-effect claim without matching other settings. Authored exact-signature fit/predict preserves readonly raw first42, keeps training inside fit and uses a fixed rowwise blend. Six atomic fits per block meets live cap six. No new descriptor, tuning or residual correction.",
+      "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added benefit requires MAE below R004+E011 C003 0.23656874002693895 and compare C013 0.23626767334649376. Consistent-fold baseline improvement requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; stronger benefit requires both below C003 0.2391542173994529/0.233983262654425 and compare C013 0.23919728946706179/0.23333805722592577. A better MAE/tail tradeoff requires MAE and p99 improve together against C013 p99 1.3084427975595934; also inspect baseline p99 1.2391002799199593, RMSE 0.373659510864794 and C016 RMSE 0.37263382839605397. Read nitrogen/oxygen/no-oxygen/ternary-plus groups, biases and p90. Evaluate exactly once and retain negative results. No validation/fresh access, physical-mechanism inference or independent-confirmation claim.",
+      "code_sha256": "b0c233a6cdd6b72f1089a149aaec854bfbad1e032f7f123745206ec50c73ae2b",
+      "feature_blocks": [
+        "R004"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "e3b20a312fc1ed5965f784b0d6a60094deae12bf4a1dbf06f240f2064e6f188e",
+        "fit_events_live.jsonl": "84a7478a81ad5cfb0848a46e836fcb88cb7679da3592ed51bdfb49ca99a786ff",
+        "reservation.json": "45b3fdc5875ca2d5804148c203264bcb4542c5b2a3499c8d038facce180d1ed2"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C018",
+    "status": "complete",
+    "hypothesis": "Previously unrun fixed 80% raw-target E011 plus 20% signed-log-target HGB blend on untouched old42+approved R004. R004 preserves periodic geometry, connected-site coordination/chemical environment relations, per-atom normalization and empty-neighborhood handling. The substantive new predictive mechanism is squared-error boosting in sign(y)*log1p(abs(y)/1 eV/atom) target space, inverted rowwise before original-unit blending. This compresses large target magnitudes and changes the fitted objective and retransformed estimand; it is neither feature renaming/scaling nor mean-residual correction, and inverse transformation does not produce an unbiased original-space conditional mean. T0085 training context reports C017 MAE 0.23410467180653355 and improved RMSE but p99 1.333922209383308, worse than baseline/C013. That motivates testing the target-space tradeoff without diagnosing physical cause. Hold C017 features, weight and HGB settings fixed: 300 iterations, 15 leaves, minimum leaf 20, learning rate 0.05, L2 10, squared_error. Transform scale fixed at 1 eV/atom before evaluation, no tuning. Authored exact plain signatures preserve readonly raw first42 and fit only on training rows; predict cannot train and returns rowwise outputs. E011 five plus HGB one fits meets live cap six. No new representation block; twelve distinct approved blocks already exist.",
+    "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added target-transform benefit requires MAE below C017 0.23410467180653355; also compare C013 0.23626767334649376 and C003 0.23656874002693895. Joint MAE/tail benefit requires both MAE and p99 below C017 p99 1.333922209383308, with stricter baseline p99 1.2391002799199593 and C013 1.3084427975595934 references. Consistent-fold baseline benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; stronger benefit requires both below C017 0.23702457192563917/0.23118477168742785. Inspect all nitrogen/oxygen/no-oxygen/ternary-plus MAEs and biases, RMSE and p90 against baseline and C017. Evaluate exactly once, retain adverse results, no validation/fresh access or physical-mechanism/independent-generalization inference.",
+    "full_saved_result_sha256": "5fcc38c85faae4c12854dd49a7a824fa7030215088cbb456d9d0f8bd982e977d",
+    "full_saved_result": {
+      "candidate_id": "C018",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23359339389317385,
+        "RMSE_eV_atom": 0.36835450699705347,
+        "mean_prediction_minus_truth": -0.011377360651230524,
+        "p90_abs_error": 0.5123261420538975,
+        "p99_abs_error": 1.2380998659148423,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23580858054770165,
+            "mean_prediction_minus_truth": -0.019919067970757702
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23137820723864608,
+            "mean_prediction_minus_truth": -0.0028356533317033467
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.346842295027462,
+            "mean_prediction_minus_truth": -0.12319320426106667
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.26922146277578485,
+            "mean_prediction_minus_truth": -0.010532261401561946
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21112113040052477,
+            "mean_prediction_minus_truth": -0.011910403659499257
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.23122923435934983,
+            "mean_prediction_minus_truth": -0.012218391629598153
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 12,
+        "fit_completed": 12,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.362374899996212,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.450584699981846,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 19.594000000011874,
+      "registered_hypothesis": "Previously unrun fixed 80% raw-target E011 plus 20% signed-log-target HGB blend on untouched old42+approved R004. R004 preserves periodic geometry, connected-site coordination/chemical environment relations, per-atom normalization and empty-neighborhood handling. The substantive new predictive mechanism is squared-error boosting in sign(y)*log1p(abs(y)/1 eV/atom) target space, inverted rowwise before original-unit blending. This compresses large target magnitudes and changes the fitted objective and retransformed estimand; it is neither feature renaming/scaling nor mean-residual correction, and inverse transformation does not produce an unbiased original-space conditional mean. T0085 training context reports C017 MAE 0.23410467180653355 and improved RMSE but p99 1.333922209383308, worse than baseline/C013. That motivates testing the target-space tradeoff without diagnosing physical cause. Hold C017 features, weight and HGB settings fixed: 300 iterations, 15 leaves, minimum leaf 20, learning rate 0.05, L2 10, squared_error. Transform scale fixed at 1 eV/atom before evaluation, no tuning. Authored exact plain signatures preserve readonly raw first42 and fit only on training rows; predict cannot train and returns rowwise outputs. E011 five plus HGB one fits meets live cap six. No new representation block; twelve distinct approved blocks already exist.",
+      "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added target-transform benefit requires MAE below C017 0.23410467180653355; also compare C013 0.23626767334649376 and C003 0.23656874002693895. Joint MAE/tail benefit requires both MAE and p99 below C017 p99 1.333922209383308, with stricter baseline p99 1.2391002799199593 and C013 1.3084427975595934 references. Consistent-fold baseline benefit requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; stronger benefit requires both below C017 0.23702457192563917/0.23118477168742785. Inspect all nitrogen/oxygen/no-oxygen/ternary-plus MAEs and biases, RMSE and p90 against baseline and C017. Evaluate exactly once, retain adverse results, no validation/fresh access or physical-mechanism/independent-generalization inference.",
+      "code_sha256": "5bbd5e74e43b2801b1bbbf20830e7992fe97912d0dc97ade5fccd3d2d3b679b2",
+      "feature_blocks": [
+        "R004"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "a8146ddd6545c451430a0b5446fee3bf59b0ab7ed69854782efda7f5a16ba828",
+        "fit_events_live.jsonl": "304f814f47e758a3084236ceaf7f57c255c8311089bca91a6c4cafcbd41eaa7e",
+        "reservation.json": "408d5940dfa80ff3be7cce55ff465193b96f79a194287f33eedb76107a5fd7ea"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C019",
+    "status": "complete",
+    "hypothesis": "Previously unrun nonlinear feature-dependent residual correction on untouched raw old42 plus approved R004. Train E011 on current training rows, compute y_train-base.predict(X_train) inside fit, train a squared-error HGB on those residuals, and predict base+0.2*correction. R004 retains periodic geometry-weighted connected coordination and chemical environment contrasts/covariances, intensive pooling and empty-neighborhood handling. This adds no new representation block; twelve distinct approved blocks already exist. The new predictive mechanism is conditional nonlinear residual learning, distinct from earlier global/group mean-residual correction and C017/C018 independent direct-target blends. T0089 training context reports C018 improved overall MAE and tails but slightly worsened fold1 and oxygen against C017, motivating a different correction mechanism without diagnosing physical cause. Residuals are in-sample, optimistically small and neither cross-fitted nor unbiased estimates of held-out errors. Fix shrinkage 0.2 and HGB settings 300 iterations, 15 leaves, minimum leaf 20, learning rate 0.05, L2 10, squared_error before evaluation. Exact-signature authored code preserves readonly raw first42, keeps all supervised calculations inside fit, and predicts rowwise without training. E011 costs five plus one HGB, within live cap six. No tuning or scientific retry.",
+    "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added residual-correction value requires MAE below R004+E011 C003 0.23656874002693895; superiority over direct-target blends requires below C018 0.23359339389317385 and C017 0.23410467180653355. Consistent-fold baseline improvement requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; stronger superiority requires both below C018 0.23580858054770165/0.23137820723864608 and compare C017 0.23702457192563917/0.23118477168742785. Joint MAE/tail benefit requires p99 below C018 1.2380998659148423 and baseline 1.2391002799199593; compare C017 1.333922209383308. Inspect nitrogen/oxygen/no-oxygen/ternary-plus MAEs and biases, RMSE and p90 against C018, C017 and baseline. Evaluate exactly once, retain negative evidence. No validation/fresh labels, physical mechanism or independent-generalization claim.",
+    "full_saved_result_sha256": "9dd3e104c5eac55e1f45a9e70ad2b02e8cbdbb1203edfd79a41b017f154f884d",
+    "full_saved_result": {
+      "candidate_id": "C019",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23642208854023558,
+        "RMSE_eV_atom": 0.3741378030336916,
+        "mean_prediction_minus_truth": -0.015830302311686164,
+        "p90_abs_error": 0.5275765071754389,
+        "p99_abs_error": 1.3060274268618528,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23896032293430838,
+            "mean_prediction_minus_truth": -0.024500575721485958
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.2338838541461628,
+            "mean_prediction_minus_truth": -0.0071600289018863535
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.36395879318505886,
+            "mean_prediction_minus_truth": -0.15175138897639484
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.27236665666639254,
+            "mean_prediction_minus_truth": -0.014441869818876867
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21375019440188342,
+            "mean_prediction_minus_truth": -0.016706050613480714
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.23416045962654006,
+            "mean_prediction_minus_truth": -0.017227515175402153
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 12,
+        "fit_completed": 12,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.591287599992938,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.567426100024022,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 19.969000000011874,
+      "registered_hypothesis": "Previously unrun nonlinear feature-dependent residual correction on untouched raw old42 plus approved R004. Train E011 on current training rows, compute y_train-base.predict(X_train) inside fit, train a squared-error HGB on those residuals, and predict base+0.2*correction. R004 retains periodic geometry-weighted connected coordination and chemical environment contrasts/covariances, intensive pooling and empty-neighborhood handling. This adds no new representation block; twelve distinct approved blocks already exist. The new predictive mechanism is conditional nonlinear residual learning, distinct from earlier global/group mean-residual correction and C017/C018 independent direct-target blends. T0089 training context reports C018 improved overall MAE and tails but slightly worsened fold1 and oxygen against C017, motivating a different correction mechanism without diagnosing physical cause. Residuals are in-sample, optimistically small and neither cross-fitted nor unbiased estimates of held-out errors. Fix shrinkage 0.2 and HGB settings 300 iterations, 15 leaves, minimum leaf 20, learning rate 0.05, L2 10, squared_error before evaluation. Exact-signature authored code preserves readonly raw first42, keeps all supervised calculations inside fit, and predicts rowwise without training. E011 costs five plus one HGB, within live cap six. No tuning or scientific retry.",
+      "falsification": "Scheduling benefit fails if actual training OOF gate is false or MAE is not below baseline 0.24069775371169688. Added residual-correction value requires MAE below R004+E011 C003 0.23656874002693895; superiority over direct-target blends requires below C018 0.23359339389317385 and C017 0.23410467180653355. Consistent-fold baseline improvement requires fold0 below 0.24742730147045433 and fold1 below 0.2339682059529394; stronger superiority requires both below C018 0.23580858054770165/0.23137820723864608 and compare C017 0.23702457192563917/0.23118477168742785. Joint MAE/tail benefit requires p99 below C018 1.2380998659148423 and baseline 1.2391002799199593; compare C017 1.333922209383308. Inspect nitrogen/oxygen/no-oxygen/ternary-plus MAEs and biases, RMSE and p90 against C018, C017 and baseline. Evaluate exactly once, retain negative evidence. No validation/fresh labels, physical mechanism or independent-generalization claim.",
+      "code_sha256": "d8882e0b7a5498789ef1237d5f615045b95438c813086f3f96d5c5d7030c28e8",
+      "feature_blocks": [
+        "R004"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "41a92da61cc9938fcd7931abcd7f5877ff7fc5c9afb22441478a27f1900dc90c",
+        "fit_events_live.jsonl": "64f7f05b9aecc3f6c4fa74a2326818afb51c80c24a1371f859b8f98eac1beaef",
+        "reservation.json": "be26194e65fe1e18ab39e314b487bbc63b16c10a42beeb4d37ea78c2d11d56c6"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "7f299cfa5ab2930fff149523d0e57606f8269cf3a0486d482831e8a5d8784740",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  },
+  {
+    "candidate_id": "C020",
+    "status": "complete",
+    "hypothesis": "Previously unrun component-specific information blend: train E011 only on exact raw old42 plus 24 approved R004 columns (first66), and signed-log-target squared-error HGB on the full ordered old42+R004+R009 matrix. Predict 80% raw-target E011 plus 20% inverse-signed-log HGB. R004 encodes geometry-weighted connected-site coordination and chemical-environment relationships; R009 adds within-chemical-pair bond-length variation, between-pair variation, residual higher moments and site heterogeneity. Both approved blocks preserve periodic geometry, per-atom normalization, absent-element and empty-neighborhood handling. No new block is claimed; twelve distinct approved blocks already exist. The substantive new intervention is selective access to conditional bond-length information by the transformed-target component, distinct from C014 adding R009 to E011 and C018 using only R004 for both components. T0093 training context reports C014 improved oxygen/fold1 against C003 but worsened nitrogen/tails, C018 improved aggregate and tail metrics, and C019 residual learning failed to beat C018. These motivate this controlled information-access test without claiming complementarity or a physical cause. Hold C018 target transform sign(y)*log1p(abs(y)) with fixed 1 eV/atom scale, inverse transform, blend weight, and HGB settings fixed: 300 iterations, 15 leaves, minimum leaf20, learning rate0.05, L2=10, squared_error. Retransformation is not an unbiased original-space conditional mean. Exact plain signatures preserve readonly raw42; all supervised calculations occur inside fit; predict is rowwise and cannot train. Six atomic fits per block meets live cap six. No tuning or residual correction.",
+    "falsification": "Scheduling benefit fails if actual training OOF gate is false or overall MAE is not below baseline 0.24069775371169688. Added-information advantage under this fixed blend is falsified if MAE does not beat C018 0.23359339389317385; compare C017 0.23410467180653355 and C014 0.23645591795134607. Joint MAE/tail benefit requires MAE and p99 below C018 p99 1.2380998659148423; compare baseline p99 1.2391002799199593. Stronger consistent-fold superiority requires both folds below C018 0.23580858054770165/0.23137820723864608; baseline references 0.24742730147045433/0.2339682059529394 and C017 0.23702457192563917/0.23118477168742785. Read nitrogen/oxygen/no-oxygen/ternary-plus MAEs and biases, RMSE and p90 against C018/C017/baseline and retain adverse tradeoffs. Evaluate exactly once, no scientific retry, validation/fresh access, physical-mechanism inference or independent-confirmation claim. Stop search at twenty completed.",
+    "full_saved_result_sha256": "51087c6528944898c6cd505b002c412987921d861ba54fecb3fbf870c050525f",
+    "full_saved_result": {
+      "candidate_id": "C020",
+      "OOF": {
+        "rows": 2164,
+        "MAE_eV_atom": 0.23392876175110477,
+        "RMSE_eV_atom": 0.3690988103769419,
+        "mean_prediction_minus_truth": -0.00990521593120398,
+        "p90_abs_error": 0.515404178310916,
+        "p99_abs_error": 1.2534299676648675,
+        "folds": {
+          "0": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23684759330562855,
+            "mean_prediction_minus_truth": -0.017734026705996227
+          },
+          "1": {
+            "rows": 1082,
+            "MAE_eV_atom": 0.23100993019658098,
+            "mean_prediction_minus_truth": -0.002076405156411724
+          }
+        },
+        "groups": {
+          "nitrogen": {
+            "rows": 169,
+            "MAE_eV_atom": 0.34968726212036405,
+            "mean_prediction_minus_truth": -0.12239925592044587
+          },
+          "oxygen": {
+            "rows": 837,
+            "MAE_eV_atom": 0.26953578154305713,
+            "mean_prediction_minus_truth": -0.00724397761681951
+          },
+          "no_oxygen": {
+            "rows": 1327,
+            "MAE_eV_atom": 0.21146977488911223,
+            "mean_prediction_minus_truth": -0.01158378146936509
+          },
+          "ternary_plus": {
+            "rows": 2016,
+            "MAE_eV_atom": 0.2318285118237496,
+            "mean_prediction_minus_truth": -0.010680851731931649
+          }
+        }
+      },
+      "baseline_OOF_MAE": 0.24069775371169688,
+      "OOF_schedule_gate_pass": true,
+      "validation_score_returned": false,
+      "fresh_targets_accessed": false,
+      "actual_new_fits": {
+        "fit_started": 12,
+        "fit_completed": 12,
+        "fit_failed": 0
+      },
+      "folds": [
+        {
+          "fold": 0,
+          "train_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "evaluation_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.520280500000808,
+          "inference_independence_checks": 10
+        },
+        {
+          "fold": 1,
+          "train_IDs_sha256": "15f5936dc995c46fd1358dd6d2d309306cab7c6232f0668aeb46f16a7ea07f6b",
+          "evaluation_IDs_sha256": "fbcc6a43b5519afee4259e58e896b5b33e52c2db4ae2b641484b8bb87a24329f",
+          "train_systems": 1020,
+          "evaluation_systems": 1020,
+          "evaluation_targets_received_by_worker": false,
+          "actual_fits": 6,
+          "worker_seconds": 9.45757759999833,
+          "inference_independence_checks": 10
+        }
+      ],
+      "elapsed_seconds": 19.828000000008615,
+      "registered_hypothesis": "Previously unrun component-specific information blend: train E011 only on exact raw old42 plus 24 approved R004 columns (first66), and signed-log-target squared-error HGB on the full ordered old42+R004+R009 matrix. Predict 80% raw-target E011 plus 20% inverse-signed-log HGB. R004 encodes geometry-weighted connected-site coordination and chemical-environment relationships; R009 adds within-chemical-pair bond-length variation, between-pair variation, residual higher moments and site heterogeneity. Both approved blocks preserve periodic geometry, per-atom normalization, absent-element and empty-neighborhood handling. No new block is claimed; twelve distinct approved blocks already exist. The substantive new intervention is selective access to conditional bond-length information by the transformed-target component, distinct from C014 adding R009 to E011 and C018 using only R004 for both components. T0093 training context reports C014 improved oxygen/fold1 against C003 but worsened nitrogen/tails, C018 improved aggregate and tail metrics, and C019 residual learning failed to beat C018. These motivate this controlled information-access test without claiming complementarity or a physical cause. Hold C018 target transform sign(y)*log1p(abs(y)) with fixed 1 eV/atom scale, inverse transform, blend weight, and HGB settings fixed: 300 iterations, 15 leaves, minimum leaf20, learning rate0.05, L2=10, squared_error. Retransformation is not an unbiased original-space conditional mean. Exact plain signatures preserve readonly raw42; all supervised calculations occur inside fit; predict is rowwise and cannot train. Six atomic fits per block meets live cap six. No tuning or residual correction.",
+      "falsification": "Scheduling benefit fails if actual training OOF gate is false or overall MAE is not below baseline 0.24069775371169688. Added-information advantage under this fixed blend is falsified if MAE does not beat C018 0.23359339389317385; compare C017 0.23410467180653355 and C014 0.23645591795134607. Joint MAE/tail benefit requires MAE and p99 below C018 p99 1.2380998659148423; compare baseline p99 1.2391002799199593. Stronger consistent-fold superiority requires both folds below C018 0.23580858054770165/0.23137820723864608; baseline references 0.24742730147045433/0.2339682059529394 and C017 0.23702457192563917/0.23118477168742785. Read nitrogen/oxygen/no-oxygen/ternary-plus MAEs and biases, RMSE and p90 against C018/C017/baseline and retain adverse tradeoffs. Evaluate exactly once, no scientific retry, validation/fresh access, physical-mechanism inference or independent-confirmation claim. Stop search at twenty completed.",
+      "code_sha256": "a854c408d8f4657b1876fa2329ea70108f667c830b52a105f66ae4580074a984",
+      "feature_blocks": [
+        "R004",
+        "R009"
+      ],
+      "scope": "Adaptive previouslyobserved trainingOOF only; notindependentconfirmation ormechanism.",
+      "artifact_hashes": {
+        "internal_oof_predictions.csv.gz": "0e72a5ed925fea55457e932382e28555bb90cf9927724ca70dd8105aa881a3e1",
+        "fit_events_live.jsonl": "a23718ad4bd82deb86eccd022e48f572e7ec65f32ffa9af1b873a477020c1440",
+        "reservation.json": "79afa4739fabd60831e58815cb1be7c7b5407e62eb5f865fb5a3966910aed948"
+      },
+      "numeric_input_hashes": {
+        "X_float64_little_endian": "d82868907754096b75aea581e74f239da99688d4c59892d345912fec16275551",
+        "y_float64_little_endian": "def44e7b03e9bf30c26ab6ab2687ea3ed6ceb6ab3e5788667cd1d8ecda11ce13",
+        "ordered_IDs": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e"
+      }
+    }
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "registered_utc": "2026-10-06T23:03:07.506350+00:00",
+  "scope": "Twenty adaptive Agent-authored representation/predictor candidates, selected ONLY by2164 training chemical-system OOF. Existing715 known validation and fresh1000 are evaluated only after selection freezes. No newDFT/synthesis, no Tc/old1000 reads.",
+  "target": "formation_energy_per_atom",
+  "units": "eV/atom",
+  "selection_metric": "Training twofold OOF MAE only; deterministic tie-break candidate_id; do not return715 or fresh targets/metrics during search.",
+  "input_parser": "round_trip for all original42 and savedbaseline targets/predictions; retains exact E011 numerical semantics.",
+  "budget": {
+    "completed_candidates": 20,
+    "max_sessions": 23,
+    "max_representation_submissions": 28,
+    "max_predictor_submissions": 39,
+    "max_fits_per_block": 6,
+    "base_fit_reservations": 244,
+    "uncached_input_tokens": 776515,
+    "output_tokens": 115618,
+    "tool_calls": 174,
+    "wall_seconds": 10657.078999999998,
+    "search_wall_seconds": 7057.078999999998,
+    "final_reserved_wall_seconds": 3600,
+    "descriptor_whole_seconds": 240,
+    "descriptor_worker_memory_mb": 2048,
+    "predictor_block_seconds": 540
+  },
+  "representation_contract": "Agentwritescompute(structure) with4..32 declared intense features; no predetermined formulas. Numericinput-only/invariance/no-duplicates; up to3 approvedblocks may becombined withrawold42. Fits neverreceive evaluationtargets.",
+  "predictor_contract": "Agentwritesfit(X_train,y_train)->state andpredict(state,X_eval). train_model exposed onlyduringfit; actualatomicfits loggedbefore/after, max6 perblock; inferencebatch/orderinvariance. ASTnumericguard plus resource-limitedworker, notgeneralOSsandbox.",
+  "fit_accounting": "256 cap counts actual atomic trusted learner API .fit starts/reservations. Every Agent program fit invocation is separately counted (two perOOF comparison); arbitrary numeric parameter operations are governed by time/memory caps and are not universally identifiable as separate learned models.",
+  "required_structure_exploration": "At least12 approved distinctnewrepresentationblocks sought within20experiments, unlessrejections/budget/failures prevent it; do notpadcountswithcachedreads/metadata.",
+  "cached_baseline": {
+    "id": "E011",
+    "validation": {
+      "rows": 715,
+      "MAE_eV_atom": 0.21523546763324838,
+      "RMSE_eV_atom": 0.3296357940176692
+    },
+    "OOF": {
+      "rows": 2164,
+      "MAE_eV_atom": 0.24069775371169688,
+      "RMSE_eV_atom": 0.373659510864794
+    },
+    "selection_score": 0.22796661067247265,
+    "new_search_fits": 0
+  },
+  "OOF_candidate_gate": {
+    "MAE_max": 0.23949426494313839,
+    "interpretation": "Schedulingthreshold, notsignificance; allnegativecandidatesremainvisible."
+  },
+  "final_protocol": "ChoosebestcompleteOOF candidate before715/fresh evaluation; no post-evaluation edits. Savebaseline andchampion freshpredictions beforeunlockinglabels. Ifboth finalvalidationsnotimproved, dopromotenone.",
+  "source_hashes": {
+    "backend.py": "7befc9b094f3800e8cd1f97aa1b75ff45502f430d07b13152444adc99faedcc7",
+    "science_server.py": "8a7d90fc68e6e927242441b4bc42f1cb10d9e2b5448a4083c15a2d6dd768c9bf",
+    "controller.py": "9497b69ecf1fffe73b4d8f9a8725369d49c7aafaab96ce9f734cb07271ec4b92",
+    "finalize.py": "d17dc1991d9be0b117e4503cffaba454fe764f195af44fa88fbf075e41b986ae",
+    "representation_runtime.py": "4c8b42fc3d9f4ec7851ffb6643a709dd01992b4cae98babc06e18498e22c8cab",
+    "predictor_runtime.py": "63308ba003704158f453bedd5a4c0da8ac700b24a5273e36be25a0eea4e9d1fc",
+    "predictor_preflight.py": "48c200d44341fd36f12d6aa11bc8b830a462fe8610fd41dff5f7a600f24db679",
+    "session_transport.py": "96faa9f947f4aff423c7e465f2045969e323c0990775e0b2c0581057118a49ba",
+    "decision_contract.py": "82f0502c9e3fd89e03f526b0c0088130ce6961edc31890d8e55af5e69b010ad3",
+    "audited_decision_interceptor.py": "4d84db7d8b8be1093c84fbc34153e3ca30c86fce63189de66a33d33ef7e210c5",
+    "data_curator.py": "c5a85583d597127eab285ae9a209db0798b7df2c0a39d7b4c5742d4200bb2fa9",
+    "runtime_config.json": "ae1e020ca9f150b53ea5f34d0eb5a163509db950a34aea2f1178dfe89eb5af05",
+    "carryover.json": "08e3a1c11b63fa26fda03b08ca315e7fb3d1b00db7ab60cb49bcd49e5da59229"
+  },
+  "fresh_prefit_manifest_sha256": "1889f740771c6cadf7e2737cd6852ebe5edc59f9ff7a688becb840006db8d0ae",
+  "training_ordered_IDs_sha256": "a93272c84f100f446e466998dad45f77e9f3491ae758bf949e130285565e2a1e",
+  "training_fold_IDs_sha256": "be2d8b17f483f3356a5a79666f87195b0a263e94f075f62d0d89b3be7a0f1a55"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "one_delivery_error_recovered_without_scientific_retry",
+  "actual_server_calls": 96,
+  "direct_successful_responses": 95,
+  "response_delivery_errors": 1,
+  "completed_results_recovered_by_read_only_context": 1,
+  "scientific_evaluations_retried": 0,
+  "failed_delivery_evidence_id": "T0025",
+  "recovery_context_evidence_id": "T0026",
+  "decision_evidence_id": "T0027",
+  "candidate_id": "C005",
+  "server_scientific_fit_started": 10,
+  "server_scientific_fit_completed": 10,
+  "server_scientific_fit_failed": 0,
+  "original_CLI_error": "Error executing tool evaluate_candidate",
+  "original_CLI_item_index": 7,
+  "response_failure_preserved": true,
+  "independent_audit_path": "reporting/twenty_cycle_prefinal_audit_v2.json",
+  "independent_audit_sha256": "180fa95619fac5108cbef872459adce4d480f6dcc12f054e1d61ab8dde049724",
+  "independent_audit_checks": 11433,
+  "result_sha256": "984f49db7c970d390858270be14c11033b7625b3839a384ce86778c8086f7118",
+  "recovery_decision_sha256": "7ba05a53c7228eab05e0b7f815659756493a7ae93a3f69775a9dc96275ea856b",
+  "server_response_hashes": {
+    "T0025": "d3fa996592a8b923694fad9fcbdba69910d8509de85bb3b405ca3fa3c8515516",
+    "T0026": "7d10a0883d407d504baafc416e753b7b800d266f1a7a451cfcb9c603e0fc8223",
+    "T0027": "1c3edc6c39451da3209a5887bc10aef19ca3e9f2bcc4e5f21b2f7a3b5336b6dd"
+  },
+  "raw_CLI_review_repeated_by_report": false,
+  "scope": "95 direct successful deliveries and one completed result recovered through actual context; not 96 byte-identical successful deliveries."
+}
